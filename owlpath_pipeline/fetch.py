@@ -3,6 +3,7 @@
 CLI: .venv/bin/python -m owlpath_pipeline.fetch <url>   (prints the cache file path)
 """
 import hashlib
+import json
 import sys
 import time
 from collections.abc import Callable
@@ -36,7 +37,8 @@ class PoliteFetcher:
         self._sleep = sleep
         self._clock = clock
         self._robots: dict[str, RobotFileParser] = {}
-        self._last_request: dict[str, float] = {}
+        # Last page request per host, kept on disk so separate runs still honour the crawl delay.
+        self._last_file = self.cache_dir / ".last-request.json"
 
     @classmethod
     def default(cls) -> "PoliteFetcher":
@@ -49,10 +51,23 @@ class PoliteFetcher:
                 raise FetchError(f"{url}: {e}") from e
             return r.status_code, r.text
 
-        return cls(config.CACHE_DIR, config.USER_AGENT, http_get, time.sleep, time.monotonic)
+        # Wall-clock time: the last-request record is shared between processes.
+        return cls(config.CACHE_DIR, config.USER_AGENT, http_get, time.sleep, time.time)
 
     def cache_path(self, url: str) -> Path:
         return self.cache_dir / f"{hashlib.sha256(url.encode()).hexdigest()}.html"
+
+    def _load_last(self) -> dict[str, float]:
+        try:
+            return json.loads(self._last_file.read_text())
+        except (OSError, ValueError):
+            return {}
+
+    def _save_last(self, origin: str, when: float) -> None:
+        last = self._load_last()
+        last[origin] = when
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        self._last_file.write_text(json.dumps(last))
 
     def _headers(self) -> dict[str, str]:
         return {"User-Agent": self.user_agent}
@@ -83,13 +98,13 @@ class PoliteFetcher:
 
         delay = robots.crawl_delay(self.user_agent)
         delay = float(delay) if delay is not None else config.DEFAULT_CRAWL_DELAY
-        last = self._last_request.get(origin)
+        last = self._load_last().get(origin)
         if last is not None:
             wait = last + delay - self._clock()
             if wait > 0:
                 self._sleep(wait)
 
-        self._last_request[origin] = self._clock()
+        self._save_last(origin, self._clock())
         status, body = self._http_get(url, self._headers())
         if status != 200:
             raise FetchError(f"{url} returned {status}")

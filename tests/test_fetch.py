@@ -68,17 +68,26 @@ def test_empty_body_raises_and_is_not_cached(tmp_path):
     web = FakeWeb({f"{HOST}/a": (200, "  \n")})
     with pytest.raises(EmptyResponseError):
         web.fetcher(tmp_path).fetch(f"{HOST}/a")
-    assert list(tmp_path.iterdir()) == []
+    assert list(tmp_path.glob("*.html")) == [] and list(tmp_path.glob("*.url")) == []  # no page cached
 
 
 def test_non_200_raises_fetch_error(tmp_path):
     web = FakeWeb({f"{HOST}/a": (503, "busy")})
     with pytest.raises(FetchError):
         web.fetcher(tmp_path).fetch(f"{HOST}/a")
-    assert list(tmp_path.iterdir()) == []
+    assert list(tmp_path.glob("*.html")) == [] and list(tmp_path.glob("*.url")) == []  # no page cached
 
 
 def test_sends_configured_user_agent(tmp_path):
     web = FakeWeb({f"{HOST}/a": (200, "A")})
     web.fetcher(tmp_path).fetch(f"{HOST}/a")
     assert all(h["User-Agent"] == config.USER_AGENT for _, h in web.calls)
+
+
+def test_delay_survives_a_new_fetcher_process(tmp_path):
+    # Separate CLI runs must not hit the host back to back: the last request time is kept on disk.
+    web = FakeWeb({f"{HOST}/a": (200, "A"), f"{HOST}/b": (200, "B")})
+    web.fetcher(tmp_path).fetch(f"{HOST}/a")
+    web.now = 30.0
+    web.fetcher(tmp_path).fetch(f"{HOST}/b")
+    assert web.slept == [90.0]
