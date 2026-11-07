@@ -11,15 +11,17 @@ export type Graph = { nodes: GNode[]; edges: GEdge[] }
 
 const ROOT_PATH = 'r'
 
+type NGroup = Extract<NExpr, { children: NExpr[] }>
+const isGroup = (e: NExpr): e is NGroup => e.kind === 'and' || e.kind === 'or'
+
 function hasInGraphCourse(expr: NExpr, known: Set<string>): boolean {
-  if (expr.kind === 'course') return known.has(expr.id)
-  if (expr.kind === 'external') return false
-  return expr.children.some((e) => hasInGraphCourse(e, known))
+  if (isGroup(expr)) return expr.children.some((e) => hasInGraphCourse(e, known))
+  return expr.kind === 'course' && known.has(expr.id)
 }
 
 function collectCourses(expr: NExpr, out: Set<string>): void {
-  if (expr.kind === 'course') out.add(expr.id)
-  else if (expr.kind === 'and' || expr.kind === 'or') expr.children.forEach((e) => collectCourses(e, out))
+  if (isGroup(expr)) expr.children.forEach((e) => collectCourses(e, out))
+  else if (expr.kind === 'course') out.add(expr.id)
 }
 
 export function buildGraph(courses: NCourse[]): Graph {
@@ -42,12 +44,10 @@ export function buildGraph(courses: NCourse[]): Graph {
     // parent: the node this expression feeds into (the course or a junction).
     const attach = (expr: NExpr, parent: Extract<GNode, { kind: 'junction' }> | null, path: string, underOr: boolean): void => {
       const parentId = parent?.id ?? course.id
-      if (expr.kind === 'course') {
-        if (known.has(expr.id)) link(expr.id, parentId, path, expr.minGrade)
-        return
-      }
-      if (expr.kind === 'external') {
-        if (parent) parent.externals.push(expr)
+      if (!isGroup(expr)) {
+        if (expr.kind === 'course') {
+          if (known.has(expr.id)) link(expr.id, parentId, path, expr.minGrade)
+        } else if (parent) parent.externals.push(expr)
         else courseNode.externalOnlyGroups += 1
         return
       }
