@@ -1,0 +1,147 @@
+{
+  "catalogYear": "2026-2027",
+  "_comment": "From the 2025-26 BS CS curriculum sheet (docs/mvp-spec.md). Verify against the 2026-27 program page in Task 7.",
+  "courses": {
+    "CS 3305": [
+      "major-required"
+    ],
+    "CS 3410": [
+      "major-required"
+    ],
+    "CS 3502": [
+      "major-required"
+    ],
+    "CS 3503": [
+      "major-required"
+    ],
+    "CS 3622": [
+      "major-required"
+    ],
+    "CS 3626": [
+      "conc-cyber"
+    ],
+    "CS 3642": [
+      "conc-ai"
+    ],
+    "CS 4265": [
+      "conc-data-science"
+    ],
+    "CS 4267": [
+      "conc-ai"
+    ],
+    "CS 4277": [
+      "conc-ai"
+    ],
+    "CS 4306": [
+      "major-required"
+    ],
+    "CS 4308": [
+      "major-required"
+    ],
+    "CS 4412": [
+      "conc-data-science"
+    ],
+    "CS 4422": [
+      "conc-data-science"
+    ],
+    "CS 4504": [
+      "major-required"
+    ],
+    "CS 4522": [
+      "conc-data-science"
+    ],
+    "CS 4524": [
+      "conc-data-science"
+    ],
+    "CS 4612": [
+      "conc-cyber"
+    ],
+    "CS 4622": [
+      "conc-cyber"
+    ],
+    "CS 4626": [
+      "conc-cyber"
+    ],
+    "CS 4722": [
+      "conc-data-science"
+    ],
+    "CS 4732": [
+      "conc-ai"
+    ],
+    "CS 4742": [
+      "conc-ai"
+    ],
+    "CS 4850": [
+      "major-required"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 1322": [
+      "core-field"
+    ],
+    "CSE 1322L": [
+      "core-field"
+    ],
+    "CSE 3801": [
+      "major-required"
+    ],
+    "CSE 4983": [
+      "major-elective"
+    ],
+    "IT 4823": [
+      "conc-cyber"
+    ],
+    "IT 4833": [
+      "conc-cyber"
+    ],
+    "IT 4843": [
+      "conc-cyber"
+    ],
+    "IT 4853": [
+      "conc-cyber"
+    ],
+    "IT 4883": [
+      "conc-cyber"
+    ],
+    "MATH 1113": [
+      "gen-ed-math"
+    ],
+    "MATH 1190": [
+      "gen-ed-math"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ],
+    "MATH 3260": [
+      "major-required"
+    ],
+    "STAT 2332": [
+      "major-required"
+    ],
+    "SWE 3313": [
+      "major-required"
+    ],
+    "SWE 3633": [
+      "major-elective"
+    ],
+    "SWE 3643": [
+      "major-elective"
+    ],
+    "SWE 3683": [
+      "major-elective"
+    ],
+    "SWE 4633": [
+      "major-elective"
+    ],
+    "TCOM 2010": [
+      "core-field"
+    ]
+  }
+}

@@ -19,3 +19,15 @@ class ParseResult:
     expr: Expr | None
     notes: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
+
+
+@dataclass
+class RawCourse:
+    """One course as read from its catalog page, before parsing the requirement prose."""
+    id: str
+    title: str
+    credits: str
+    description: str
+    prereq_text: str | None
+    coreq_text: str | None
+    url: str
