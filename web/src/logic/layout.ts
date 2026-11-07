@@ -3,7 +3,7 @@ import type { Graph } from './graph'
 
 export type Positions = Map<string, { x: number; y: number }>
 
-export const COURSE_SIZE = { width: 160, height: 48 }
+export const COURSE_SIZE = { width: 160, height: 56 }
 export const JUNCTION_SIZE = { width: 16, height: 16 }
 
 /** Left-to-right dagre layout over prereq edges only; coreqs would add cycles. Returns top-left corners. */
