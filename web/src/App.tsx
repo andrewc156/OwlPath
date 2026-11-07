@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { DetailPanel } from './components/DetailPanel'
 import { GraphView } from './components/GraphView'
 import { loadDataset } from './data/dataset'
 import { nodeState } from './logic/eligibility'
@@ -15,7 +16,7 @@ const positions = layoutGraph(graph)
 const validIds = new Set(dataset.courses.map((c) => c.id))
 
 export default function App() {
-  const [status] = useStatus(validIds)
+  const [status, setStatus] = useStatus(validIds)
   const [selected, setSelected] = useState<string | null>(null)
 
   const ctx: ViewCtx = useMemo(
@@ -27,6 +28,8 @@ export default function App() {
     [selected, status],
   )
 
+  const selectedCourse = selected ? dataset.byId.get(selected) : undefined
+
   return (
     <div className="app">
       <header className="app-header">
@@ -35,6 +38,9 @@ export default function App() {
       </header>
       <main className="app-main">
         <GraphView graph={graph} positions={positions} ctx={ctx} onSelect={setSelected} />
+        {selectedCourse && (
+          <DetailPanel course={selectedCourse} status={status} onStatus={setStatus} onClose={() => setSelected(null)} />
+        )}
       </main>
     </div>
   )

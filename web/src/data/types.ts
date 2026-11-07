@@ -41,7 +41,8 @@ export interface Dataset {
 
 // Normalized forms: every leaf is an object with an explicit grade.
 
-export type NLeaf = { kind: 'course' | 'external'; id: string; minGrade: Grade }
+// Written as a union of two object types (not kind: 'course' | 'external') so TypeScript narrows on `kind`.
+export type NLeaf = { kind: 'course'; id: string; minGrade: Grade } | { kind: 'external'; id: string; minGrade: Grade }
 export type NExpr = NLeaf | { kind: 'and' | 'or'; children: NExpr[] }
 export type NCourse = Omit<Course, 'prereqs' | 'coreqs'> & { prereqs: NExpr | null; coreqs: NExpr | null }
 export type NDataset = { catalogYear: string; source: string; courses: NCourse[]; byId: Map<string, NCourse> }
