@@ -38,3 +38,31 @@ test('coreq edges are flat and dashed-kind', () => {
 })
 
 test('grade C edges carry no minGrade', () => expect(edge('MATH 1113', 'MATH 1190').minGrade).toBeUndefined())
+
+// Final review #1: an all-external group nested under an OR is an alternative, not a requirement.
+import { normalize } from '../data/normalize'
+import type { Course, Logic } from '../data/types'
+
+function tiny(prereqs: Logic) {
+  const base = { title: 't', credits: '3', description: '', catalogYear: '2026-2027', catalogUrl: '', groups: ['major-required'], coreqs: null, notes: [] } as const
+  const courses = [
+    { ...base, id: 'CS 1000', prereqs: null },
+    { ...base, id: 'CS 1100', prereqs: null },
+    { ...base, id: 'CS 2000', prereqs },
+  ] as unknown as Course[]
+  return buildGraph(normalize({ catalogYear: '2026-2027', source: 'test', courses }).courses)
+}
+const target = (gr: ReturnType<typeof tiny>) => gr.nodes.find((n): n is CourseN => n.kind === 'course' && n.id === 'CS 2000')!
+const junctionIn = (gr: ReturnType<typeof tiny>, id: string) => gr.nodes.find((n): n is Junction => n.kind === 'junction' && n.id === id)!
+
+test('all-external AND inside an OR is listed on the OR junction, not flagged on the course', () => {
+  const gr = tiny({ or: [{ and: [{ external: 'MTRE 2610' }, { external: 'MTRE 2610L' }] }, 'CS 1000'] })
+  expect(target(gr).externalOnlyGroups).toBe(0)
+  expect(junctionIn(gr, 'j:CS 2000:r').externals.map((e) => e.id)).toEqual(['MTRE 2610', 'MTRE 2610L'])
+})
+
+test('all-external OR inside an AND junction is listed on that junction', () => {
+  const gr = tiny({ or: [{ and: ['CS 1000', { or: [{ external: 'E 1000' }, { external: 'E 2000' }] }] }, 'CS 1100'] })
+  expect(target(gr).externalOnlyGroups).toBe(0)
+  expect(junctionIn(gr, 'j:CS 2000:0').externals.map((e) => e.id)).toEqual(['E 1000', 'E 2000'])
+})

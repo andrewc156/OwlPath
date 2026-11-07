@@ -19,6 +19,11 @@ function hasInGraphCourse(expr: NExpr, known: Set<string>): boolean {
   return expr.kind === 'course' && known.has(expr.id)
 }
 
+function collectExternals(expr: NExpr, out: NLeaf[]): void {
+  if (isGroup(expr)) expr.children.forEach((e) => collectExternals(e, out))
+  else if (expr.kind === 'external') out.push(expr)
+}
+
 function collectCourses(expr: NExpr, out: Set<string>): void {
   if (isGroup(expr)) expr.children.forEach((e) => collectCourses(e, out))
   else if (expr.kind === 'course') out.add(expr.id)
@@ -57,7 +62,10 @@ export function buildGraph(courses: NCourse[]): Graph {
         return
       }
       if (!hasInGraphCourse(expr, known)) {
-        courseNode.externalOnlyGroups += 1
+        // Under a junction it's one alternative among others: list it there.
+        // Only a required all-external group makes the course need an outside course.
+        if (parent) collectExternals(expr, parent.externals)
+        else courseNode.externalOnlyGroups += 1
         return
       }
       const junction: Extract<GNode, { kind: 'junction' }> = {

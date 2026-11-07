@@ -1,6 +1,7 @@
 // Production build guard: refuse to build unless the reviewed dataset exists and isn't the sample.
 // See docs/superpowers/specs/2026-11-06-owlpath-design.md ("Deploy").
 import { readFileSync } from 'node:fs'
+import { validateDataset } from './validate-dataset.mjs'
 
 const REL = 'data/2026-2027/courses.json'
 const url = new URL(`../../${REL}`, import.meta.url)
@@ -19,6 +20,11 @@ try {
 
 if (data.source === 'SAMPLE') {
   console.error(`refusing to build: ${REL} is the sample dataset`)
+  process.exit(1)
+}
+const errors = validateDataset(data)
+if (errors.length) {
+  console.error(`refusing to build: ${REL} has ${errors.length} problem(s):\n  ${errors.join('\n  ')}`)
   process.exit(1)
 }
 console.log(`dataset ok: ${REL} (${data.courses?.length ?? 0} courses, source ${data.source})`)
