@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/andrewc156/OwlPath/data/schema/courses.schema.json",
+  "title": "OwlPath course dataset",
+  "description": "Contract between the pipeline and the web app. See docs/superpowers/specs/2026-11-06-owlpath-design.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["catalogYear", "source", "courses"],
+  "properties": {
+    "catalogYear": { "type": "string", "pattern": "^\\d{4}-\\d{4}$" },
+    "source": { "type": "string" },
+    "courses": { "type": "array", "items": { "$ref": "#/$defs/course" } }
+  },
+  "$defs": {
+    "courseId": { "type": "string", "pattern": "^[A-Z]{2,4} \\d{4}[A-Z]?$" },
+    "grade": { "enum": ["A", "B", "C", "D"] },
+    "logic": {
+      "oneOf": [
+        { "$ref": "#/$defs/courseId", "description": "In-graph course, minimum grade C" },
+        {
+          "type": "object", "additionalProperties": false, "required": ["course", "minGrade"],
+          "properties": { "course": { "$ref": "#/$defs/courseId" }, "minGrade": { "$ref": "#/$defs/grade" } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["external"],
+          "properties": { "external": { "$ref": "#/$defs/courseId" }, "minGrade": { "$ref": "#/$defs/grade" } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["and"],
+          "properties": { "and": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/logic" } } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["or"],
+          "properties": { "or": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/logic" } } }
+        }
+      ]
+    },
+    "course": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "credits", "description", "catalogYear", "catalogUrl", "groups", "prereqs", "coreqs", "notes"],
+      "properties": {
+        "id": { "$ref": "#/$defs/courseId" },
+        "title": { "type": "string", "minLength": 1 },
+        "credits": { "type": "string", "pattern": "^\\d+(-\\d+)?$" },
+        "description": { "type": "string" },
+        "catalogYear": { "type": "string" },
+        "catalogUrl": { "type": "string" },
+        "groups": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": { "enum": ["core-field", "major-required", "conc-data-science", "conc-cyber", "conc-ai", "major-elective", "gen-ed-math", "prereq-only"] }
+        },
+        "prereqs": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/logic" }] },
+        "coreqs": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/logic" }] },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -68,4 +68,7 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
 ## Environment and commands
 
 - Python 3.13 virtual environment at `.venv/`. Shell state doesn't persist between Bash calls, so call `.venv/bin/python` / `.venv/bin/pip` / `.venv/bin/pytest` directly.
-- No code exists yet. Add build, lint and test commands here as the plans create them.
+- Data pipeline commands, run from the repo root:
+  - `.venv/bin/pip install -e '.[dev]'` installs the pipeline.
+  - `.venv/bin/pytest` runs all pipeline tests.
+  - `.venv/bin/pytest tests/test_validate.py::test_prereq_cycle_is_error -v` runs a single test.

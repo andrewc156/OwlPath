@@ -23,3 +23,6 @@ dist/
 .DS_Store
 .vscode/
 .idea/
+
+# Pipeline HTTP cache (raw catalog/Banner pages)
+.cache/
