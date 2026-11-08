@@ -63,7 +63,7 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
 - **Fetching the catalog:** honor `robots.txt` (`crawl-delay: 120`), use the honest User-Agent in `owlpath_pipeline/config.py` and cache everything. Never spoof a browser. If the catalog returns empty or blocked responses, stop and ask the user.
 - **The catalog is the authority.** Banner is only a cross-check. Every hand fix goes in `overrides.json` with a reason.
 - **Corequisites and notes never block eligibility.** Corequisites stay out of the dagre layout and the highlight traversal.
-- **Deploys are manual-only** (`workflow_dispatch`) until the reviewed dataset is committed. Sample data must never be published.
+- **Deploys run on every push to `main`**, after all tests pass (`.github/workflows/deploy.yml` calls `test.yml`). The build refuses sample data, so it must never be published.
 
 ## Environment and commands
 
@@ -75,7 +75,7 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
   - `npm test -- normalize` runs one test file, matched by name.
   - `npm run build` typechecks and builds for production. It **refuses to run** until the reviewed `data/2026-2027/courses.json` exists and isn't the sample.
   - `npm run build:sample` builds against whatever data is present, for local previews only.
-  - Deploys run only when started by hand: Actions → "Deploy web app to GitHub Pages" (`workflow_dispatch`).
+  - CI: `test.yml` runs pytest and the web tests and build on every pull request and every push to another branch. A push to `main` runs the same tests, then deploys to GitHub Pages. You can also start a deploy by hand: Actions → "Deploy web app to GitHub Pages".
 - Data pipeline commands, run from the repo root:
   - `.venv/bin/pip install -e '.[dev]'` installs the pipeline.
   - `.venv/bin/pytest` runs all pipeline tests.
