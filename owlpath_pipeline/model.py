@@ -31,3 +31,4 @@ class RawCourse:
     prereq_text: str | None
     coreq_text: str | None
     url: str
+    warnings: list[str] = field(default_factory=list)  # reader problems, reported by the build

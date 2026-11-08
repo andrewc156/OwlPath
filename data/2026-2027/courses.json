@@ -630,7 +630,7 @@
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "2",
-      "description": "This course covers the historical, social and economic consideration of the discipline. It includes studies of professional conduct, risks, and liabilities, and intellectual property relative to the software engineering and computing professions. Software engineering/computing case studies will be used. Contract All Courses |",
+      "description": "This course covers the historical, social and economic consideration of the discipline. It includes studies of professional conduct, risks, and liabilities, and intellectual property relative to the software engineering and computing professions. Software engineering/computing case studies will be used.",
       "groups": [
         "major-required"
       ],
@@ -810,7 +810,7 @@
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
-      "description": "This course provides an overview of the infrastructure assessment and penetration testing process and the processes and techniques for improving the defensibility of that infrastructure. Contract All Courses |",
+      "description": "This course provides an overview of the infrastructure assessment and penetration testing process and the processes and techniques for improving the defensibility of that infrastructure.",
       "groups": [
         "conc-cyber"
       ],

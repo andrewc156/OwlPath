@@ -100,3 +100,21 @@ def test_output_uses_short_form_leaves():
     ds, _ = build_dataset({"CS 3305": ["major-required"], "CSE 1322L": ["core-field"]}, pages, {})
     assert course(ds, "CS 3305")["prereqs"] == {"and": [
         "MATH 2345", {"course": "CSE 1322", "minGrade": "B"}, {"or": ["CSE 1322L", {"external": "CPE 3000"}]}]}
+
+
+def test_cli_keeps_reviewed_dataset_when_warnings_remain(tmp_path, monkeypatch):
+    import json
+    from owlpath_pipeline import build, config
+
+    monkeypatch.setattr(config, "DATA_DIR", tmp_path)
+    (tmp_path / "program.json").write_text(json.dumps({"courses": {"CS 3305": ["major-required"]}}))
+    (tmp_path / "overrides.json").write_text("{}")
+
+    def missing(cid):
+        raise KeyError(cid)
+
+    monkeypatch.setattr(build, "catalog_get_raw", lambda: missing)
+    assert build.main([]) == 1
+    assert not (tmp_path / "courses.json").exists() and (tmp_path / "build-report.md").exists()
+    assert build.main(["--draft"]) == 0
+    assert (tmp_path / "courses.json").exists()

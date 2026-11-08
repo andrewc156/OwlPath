@@ -79,3 +79,36 @@ def test_build_runs_on_saved_catalog():
     assert {"CS 3305", "CSE 1322", "CSE 1321"} <= {c["id"] for c in dataset["courses"]}
     with pytest.raises(KeyError):
         catalog_get_raw(CATALOG)("ZZZ 9999")
+
+
+def test_page_chrome_is_not_in_any_field(catalog):
+    for c in catalog.values():
+        for text in (c.title, c.description, c.prereq_text or "", c.coreq_text or ""):
+            assert "Contract All Courses" not in text and "Undergraduate Catalog" not in text
+
+
+def test_unrecognized_line_and_empty_description_warn():
+    text = "XX 3000: Thing\n3 Credit Hours\nPrerequisites: XX 1000\n"
+    c = parse_listing(text, URL)["XX 3000"]
+    assert c.prereq_text is None
+    assert any("unrecognized line: Prerequisites: XX 1000" in w for w in c.warnings)
+    assert any("empty description" in w for w in c.warnings)
+
+
+def test_reader_warnings_reach_the_build_report():
+    from owlpath_pipeline.build import build_dataset
+
+    raw = parse_listing("XX 3000: Thing\n3 Credit Hours\nDescription\n", URL)
+    _, warnings = build_dataset({"XX 3000": ["major-required"]}, raw.__getitem__, {})
+    assert "XX 3000: empty description" in warnings
+
+
+def test_pdf_with_no_courses_is_an_error(tmp_path):
+    from pypdf import PdfWriter
+
+    w = PdfWriter()
+    w.add_blank_page(612, 792)
+    with open(tmp_path / "blank.pdf", "wb") as f:
+        w.write(f)
+    with pytest.raises(ValueError, match="blank.pdf"):
+        load_catalog(tmp_path)

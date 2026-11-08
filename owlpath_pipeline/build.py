@@ -103,7 +103,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         pre = parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None)
         co = parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None)
         parsed[cid] = (pre, co)
-        warnings.extend(f"{cid}: {w}" for w in pre.warnings + co.warnings)
+        warnings.extend(f"{cid}: {w}" for w in r.warnings + pre.warnings + co.warnings)
         for req in _required_ids(pre.expr) + _required_ids(co.expr):
             if req not in groups:
                 groups[req] = ["prereq-only"]
@@ -167,7 +167,9 @@ def main(argv: list[str]) -> int:
     dataset, warnings = build_dataset(program, catalog_get_raw(), overrides)
     errors = validate_dataset(dataset)
 
-    if not errors:  # never write a dataset that fails validation
+    # Never write a dataset that fails validation, and never replace the reviewed
+    # one with output that still has unresolved warnings unless --draft is given.
+    if not errors and (args.draft or not warnings):
         (config.DATA_DIR / "courses.json").write_text(json.dumps(dataset, sort_keys=True, indent=2) + "\n")
     (config.DATA_DIR / "build-report.md").write_text(_report(warnings, errors))
     print(f"{len(dataset['courses'])} courses, {len(warnings)} unresolved warnings, {len(errors)} validation errors")

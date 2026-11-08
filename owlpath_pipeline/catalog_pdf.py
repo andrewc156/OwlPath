@@ -19,6 +19,8 @@ CREDITS = re.compile(r"^(\d+(?:-\d+)?) Credit Hours?$")
 FIELD = re.compile(r"^(Prerequisite|Concurrent|Corequisite):\s*(.*)$")
 FOOTER = re.compile(r"^(\d{1,2}/\d{1,2}/\d{2}, \d{1,2}:\d{2} [AP]M\b|https?://)")
 SECTION_END = re.compile(r"^(Course Learning Outcomes|Notes:)")
+# Page chrome the browser prints; it can land anywhere in the text stream.
+CHROME = re.compile(r"^(Contract All Courses \|?|\d{4}-\d{4} Undergraduate Catalog|Kennesaw State University|Courses)$")
 
 
 def pdf_text(path: Path) -> str:
@@ -29,7 +31,7 @@ def _lines(text: str) -> list[str]:
     text = unicodedata.normalize("NFKC", text)  # ligatures, NBSP
     text = re.sub(r" (?=Notes: )", "\n", text)  # PDF text sometimes runs Notes onto the description
     lines = (" ".join(line.split()) for line in text.splitlines())
-    return [line for line in lines if line and not FOOTER.match(line)]
+    return [line for line in lines if line and not FOOTER.match(line) and not CHROME.match(line)]
 
 
 def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
@@ -37,18 +39,26 @@ def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
     fields: dict[str, list[str]] = {}
     description: list[str] = []
     current: list[str] | None = None
+    skipping = False  # inside a section we deliberately leave out
+    warnings: list[str] = []
     for line in body:
         if not credits and (m := CREDITS.match(line)):
             credits = m.group(1)
         elif m := FIELD.match(line):
-            current = fields.setdefault(m.group(1), [])
+            current, skipping = fields.setdefault(m.group(1), []), False
             current.append(m.group(2))
         elif line == "Description":
-            current = description
+            current, skipping = description, False
         elif SECTION_END.match(line):
-            current = None
+            current, skipping = None, True
         elif current is not None:
             current.append(line)
+        elif not skipping:
+            warnings.append(f"unrecognized line: {line}")
+    if not description:
+        warnings.append("empty description")
+    if not credits:
+        warnings.append("no credit hours found")
 
     def joined(label: str) -> str | None:
         parts = fields.get(label)
@@ -58,7 +68,8 @@ def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
     coreq = coreq_parts[0] if len(coreq_parts) == 1 else (
         " and ".join(f"({p})" for p in coreq_parts) or None)
     return RawCourse(id=cid, title=title, credits=credits, description=" ".join(description),
-                     prereq_text=joined("Prerequisite"), coreq_text=coreq, url=url)
+                     prereq_text=joined("Prerequisite"), coreq_text=coreq, url=url,
+                     warnings=warnings)
 
 
 def parse_listing(text: str, url: str) -> dict[str, RawCourse]:
@@ -80,7 +91,10 @@ def load_catalog(directory: Path) -> dict[str, RawCourse]:
     """Every course in every saved listing PDF, each with its prefix's listing URL."""
     catalog: dict[str, RawCourse] = {}
     for path in sorted(directory.glob("*.pdf")):
-        for cid, course in parse_listing(pdf_text(path), "").items():
+        listing = parse_listing(pdf_text(path), "")
+        if not listing:
+            raise ValueError(f"no courses found in {path.name}; was the listing saved expanded?")
+        for cid, course in listing.items():
             if cid in catalog:
                 raise ValueError(f"{cid} appears in more than one saved listing ({path.name})")
             url = config.COURSE_LISTING_URL.format(prefix=cid.split()[0])
