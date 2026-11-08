@@ -1,1 +1,18 @@
-{}
+{
+  "CS 3622": {
+    "reason": "Parsed tree is right; the catalog's word 'both' was left over as a note.",
+    "notes": []
+  },
+  "CS 4491": {
+    "reason": "Special topics: the catalog says prerequisites vary by topic, so there is no fixed tree.",
+    "notes": ["Prerequisites vary by topic (C or better in each)"]
+  },
+  "CS 4492": {
+    "reason": "Parsed tree is right; 'Department Permission' is a note, reworded.",
+    "notes": ["Department permission"]
+  },
+  "CSE 3801": {
+    "reason": "Parsed tree is right; '(may take concurrently)' applies to IT 3123 and is a note.",
+    "notes": ["IT 3123 may be taken concurrently"]
+  }
+}

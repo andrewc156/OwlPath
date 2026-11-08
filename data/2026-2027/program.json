@@ -1,7 +1,22 @@
 {
   "catalogYear": "2026-2027",
-  "_comment": "From the 2025-26 BS CS curriculum sheet (docs/mvp-spec.md). Verify against the 2026-27 program page in Task 7.",
+  "_comment": "From the 2026-27 Computer Science, B.S. program page (data/2026-2027/program-page.pdf). 'Major Electives' also allows any CS 3000-4000 course; only the listed ones are here.",
   "courses": {
+    "AI 3642": [
+      "conc-ai"
+    ],
+    "AI 4267": [
+      "conc-ai"
+    ],
+    "AI 4277": [
+      "conc-ai"
+    ],
+    "AI 4732": [
+      "conc-ai"
+    ],
+    "AI 4742": [
+      "conc-ai"
+    ],
     "CS 3305": [
       "major-required"
     ],
@@ -20,17 +35,8 @@
     "CS 3626": [
       "conc-cyber"
     ],
-    "CS 3642": [
-      "conc-ai"
-    ],
     "CS 4265": [
       "conc-data-science"
-    ],
-    "CS 4267": [
-      "conc-ai"
-    ],
-    "CS 4277": [
-      "conc-ai"
     ],
     "CS 4306": [
       "major-required"
@@ -43,6 +49,16 @@
     ],
     "CS 4422": [
       "conc-data-science"
+    ],
+    "CS 4491": [
+      "conc-ai",
+      "conc-data-science",
+      "conc-cyber"
+    ],
+    "CS 4492": [
+      "conc-ai",
+      "conc-data-science",
+      "conc-cyber"
     ],
     "CS 4504": [
       "major-required"
@@ -65,12 +81,6 @@
     "CS 4722": [
       "conc-data-science"
     ],
-    "CS 4732": [
-      "conc-ai"
-    ],
-    "CS 4742": [
-      "conc-ai"
-    ],
     "CS 4850": [
       "major-required"
     ],
@@ -90,7 +100,10 @@
       "major-required"
     ],
     "CSE 4983": [
-      "major-elective"
+      "major-elective",
+      "conc-ai",
+      "conc-data-science",
+      "conc-cyber"
     ],
     "IT 4823": [
       "conc-cyber"

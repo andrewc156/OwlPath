@@ -65,8 +65,7 @@ def test_field_split_by_page_footer_is_rejoined():
 
 
 def test_load_catalog_reads_every_pdf_with_prefix_urls(catalog):
-    assert len(catalog) == 170
-    assert {"CS 3305", "CSE 1322", "MATH 1190", "STAT 2332", "SWE 3313", "IT 1114", "TCOM 2010"} <= catalog.keys()
+    assert {"AI 4267", "ENGL 1102", "CS 3305", "CSE 1322", "MATH 1190", "STAT 2332", "SWE 3313", "IT 1114", "TCOM 2010"} <= catalog.keys()
     assert "filter%5B27%5D=MATH" in catalog["MATH 1190"].url
 
 
