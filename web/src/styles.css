@@ -43,7 +43,20 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 .subtitle { color: var(--muted); }
 .app-main { position: relative; flex: 1; min-height: 0; display: flex; }
 .app-main > .react-flow { flex: 1; }
-.react-flow { --xy-background-color: var(--bg); }
+/* React Flow's light defaults don't follow our dark mode: its zoom buttons keep a
+   white background while their icons inherit our white text. Map its theme to our tokens. */
+.react-flow {
+  --xy-background-color: var(--bg);
+  --xy-controls-button-background-color: var(--surface);
+  --xy-controls-button-background-color-hover: var(--bg);
+  --xy-controls-button-color: var(--text);
+  --xy-controls-button-color-hover: var(--text);
+  --xy-controls-button-border-color: var(--border);
+  --xy-controls-box-shadow: 0 1px 4px rgb(0 0 0 / .3);
+  --xy-attribution-background-color: var(--surface);
+}
+.react-flow__attribution { border: 1px solid var(--border); border-radius: 4px 0 0 0; }
+.react-flow__attribution a { color: var(--muted); }
 
 .course-node {
   width: 160px; height: 56px; padding: 5px 8px; border-radius: 6px;
