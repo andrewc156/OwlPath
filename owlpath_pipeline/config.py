@@ -20,3 +20,9 @@ SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "courses.schema.json"
 BANNER_TERM = "202608"  # Fall Semester 2026 (confirmed on the CSE 1322 page)
 BANNER_URL = ("https://owlexpress.kennesaw.edu/prodban/bwckctlg.p_disp_course_detail"
               "?cat_term_in={term}&subj_code_in={subj}&crse_numb_in={num}")
+
+# The catalog site blocks automated clients (HTTP 202), so its expanded "Courses"
+# listing is saved by hand as one PDF per prefix. Each course links to its listing.
+CATALOG_PDF_DIR = DATA_DIR / "catalog"
+COURSE_LISTING_URL = (CATALOG_BASE + "/content.php?filter%5B27%5D={prefix}&filter%5B32%5D=1"
+                      f"&cur_cat_oid={CATOID}&expand=1")

@@ -1,4 +1,4 @@
-"""Build data/<year>/courses.json from catalog pages.
+"""Build data/<year>/courses.json from the saved catalog listing PDFs.
 
 Pass 1 collects every course the program needs (required leaves pull new courses in).
 Pass 2 marks each leaf as an in-graph course or an external alternative, then the
@@ -133,31 +133,11 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
     return {"catalogYear": config.CATALOG_YEAR, "source": SOURCE, "courses": courses}, warnings
 
 
-def _catalog_get_raw() -> Callable[[str], RawCourse]:
-    """Fetch course pages politely: per-prefix index pages give each id's coid."""
-    from .catalog_pages import parse_course_index, parse_course_page
-    from .fetch import PoliteFetcher
+def catalog_get_raw(directory=config.CATALOG_PDF_DIR) -> Callable[[str], RawCourse]:
+    """Look courses up in the saved catalog listing PDFs; a missing id raises KeyError."""
+    from .catalog_pdf import load_catalog
 
-    if not getattr(config, "COURSE_INDEX_URL", None):
-        raise SystemExit("config.COURSE_INDEX_URL is not set yet (pipeline plan Task 4)")
-    fetcher = PoliteFetcher.default()
-    coids: dict[str, int] = {}
-    indexed: set[str] = set()
-
-    def get_raw(cid: str) -> RawCourse:
-        prefix = cid.split()[0]
-        if prefix not in indexed:
-            url: str | None = config.COURSE_INDEX_URL.format(prefix=prefix)
-            while url:
-                found, url = parse_course_index(fetcher.fetch(url))
-                coids.update(found)
-            indexed.add(prefix)
-        if cid not in coids:
-            raise KeyError(cid)
-        url = config.COURSE_URL.format(coid=coids[cid])
-        return parse_course_page(fetcher.fetch(url), url)
-
-    return get_raw
+    return load_catalog(directory).__getitem__
 
 
 def _report(warnings: list[str], errors: list[str]) -> str:
@@ -184,7 +164,7 @@ def main(argv: list[str]) -> int:
 
     program = json.loads((config.DATA_DIR / "program.json").read_text())["courses"]
     overrides = json.loads((config.DATA_DIR / "overrides.json").read_text())
-    dataset, warnings = build_dataset(program, _catalog_get_raw(), overrides)
+    dataset, warnings = build_dataset(program, catalog_get_raw(), overrides)
     errors = validate_dataset(dataset)
 
     if not errors:  # never write a dataset that fails validation

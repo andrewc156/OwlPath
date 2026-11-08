@@ -7,7 +7,7 @@ name = "owlpath-pipeline"
 version = "0.1.0"
 description = "Builds OwlPath's course dataset from the KSU catalog"
 requires-python = ">=3.13"
-dependencies = ["requests", "beautifulsoup4", "jsonschema"]
+dependencies = ["requests", "beautifulsoup4", "jsonschema", "pypdf"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
