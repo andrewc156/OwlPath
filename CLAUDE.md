@@ -21,10 +21,10 @@ OwlPath is an interactive prerequisite map for Kennesaw State's College of Compu
 docs/                     spec, design, plans
 pyproject.toml
 owlpath_pipeline/         Python data pipeline: fetch, parse, build, Banner cross-check
-tests/                    pipeline tests + captured HTML fixtures
+tests/                    pipeline tests + a captured Banner HTML fixture
 data/
   schema/courses.schema.json   contract between the pipeline and the app
-  2026-2027/              program.json, overrides.json, courses.json (committed), reports
+  2026-2027/              catalog/*.pdf, program-page.pdf, program.json, overrides.json, courses.json (committed), reports
 web/                      Vite + React + TS app
   src/data/  src/logic/  src/components/  src/state/
 .github/workflows/deploy.yml
@@ -68,7 +68,18 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
 ## Environment and commands
 
 - Python 3.13 virtual environment at `.venv/`. Shell state doesn't persist between Bash calls, so call `.venv/bin/python` / `.venv/bin/pip` / `.venv/bin/pytest` directly.
+- Web app needs Node ≥ 22.12 (Vite 8). Run these from `web/`:
+  - `npm ci` installs dependencies.
+  - `npm run dev` starts the dev server.
+  - `npm test` runs all Vitest tests.
+  - `npm test -- normalize` runs one test file, matched by name.
+  - `npm run build` typechecks and builds for production. It **refuses to run** until the reviewed `data/2026-2027/courses.json` exists and isn't the sample.
+  - `npm run build:sample` builds against whatever data is present, for local previews only.
+  - Deploys run only when started by hand: Actions → "Deploy web app to GitHub Pages" (`workflow_dispatch`).
 - Data pipeline commands, run from the repo root:
   - `.venv/bin/pip install -e '.[dev]'` installs the pipeline.
   - `.venv/bin/pytest` runs all pipeline tests.
   - `.venv/bin/pytest tests/test_validate.py::test_prereq_cycle_is_error -v` runs a single test.
+  - `.venv/bin/python -m owlpath_pipeline.build [--draft]` builds `courses.json` and `build-report.md`. Without `--draft` it only writes `courses.json` when there are no unresolved warnings.
+  - `.venv/bin/python -m owlpath_pipeline.banner` writes `banner-diff.md`. It fetches politely (about 2 minutes per course), so run it in the background.
+- **Catalog input:** catalog.kennesaw.edu blocks automated clients (HTTP 202), so the course data comes from PDFs saved by hand. In a browser, open the catalog's Courses listing, filter to one prefix, expand all courses, and print to PDF as `data/<year>/catalog/<prefix>.pdf`. The program page goes in `data/<year>/program-page.pdf`, outside `catalog/`, because every PDF in `catalog/` is read as a course listing.

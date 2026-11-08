@@ -1,0 +1,91 @@
+import type { Grade, NCourse, NExpr, NLeaf } from '../data/types'
+
+export type GNode =
+  | { id: string; kind: 'course'; courseId: string; externalOnlyGroups: number }
+  | { id: string; kind: 'junction'; op: 'and' | 'or'; target: string; externals: NLeaf[] }
+
+/** minGrade is set only when it isn't C. */
+export type GEdge = { id: string; source: string; target: string; kind: 'prereq' | 'coreq'; minGrade?: Grade }
+
+export type Graph = { nodes: GNode[]; edges: GEdge[] }
+
+const ROOT_PATH = 'r'
+
+type NGroup = Extract<NExpr, { children: NExpr[] }>
+const isGroup = (e: NExpr): e is NGroup => e.kind === 'and' || e.kind === 'or'
+
+function hasInGraphCourse(expr: NExpr, known: Set<string>): boolean {
+  if (isGroup(expr)) return expr.children.some((e) => hasInGraphCourse(e, known))
+  return expr.kind === 'course' && known.has(expr.id)
+}
+
+function collectExternals(expr: NExpr, out: NLeaf[]): void {
+  if (isGroup(expr)) expr.children.forEach((e) => collectExternals(e, out))
+  else if (expr.kind === 'external') out.push(expr)
+}
+
+function collectCourses(expr: NExpr, out: Set<string>): void {
+  if (isGroup(expr)) expr.children.forEach((e) => collectCourses(e, out))
+  else if (expr.kind === 'course') out.add(expr.id)
+}
+
+export function buildGraph(courses: NCourse[]): Graph {
+  const known = new Set(courses.map((c) => c.id))
+  const nodes: GNode[] = []
+  const edges: GEdge[] = []
+
+  for (const course of courses) {
+    const courseNode: Extract<GNode, { kind: 'course' }> = {
+      id: course.id, kind: 'course', courseId: course.id, externalOnlyGroups: 0,
+    }
+    nodes.push(courseNode)
+
+    const link = (source: string, target: string, path: string, minGrade: Grade) => {
+      const e: GEdge = { id: `prereq:${source}->${target}:${path}`, source, target, kind: 'prereq' }
+      if (minGrade !== 'C') e.minGrade = minGrade
+      edges.push(e)
+    }
+
+    // parent: the node this expression feeds into (the course or a junction).
+    const attach = (expr: NExpr, parent: Extract<GNode, { kind: 'junction' }> | null, path: string, underOr: boolean): void => {
+      const parentId = parent?.id ?? course.id
+      if (!isGroup(expr)) {
+        if (expr.kind === 'course') {
+          if (known.has(expr.id)) link(expr.id, parentId, path, expr.minGrade)
+        } else if (parent) parent.externals.push(expr)
+        else courseNode.externalOnlyGroups += 1
+        return
+      }
+      const needsJunction = expr.kind === 'or' || underOr
+      if (!needsJunction) {
+        expr.children.forEach((child, i) => attach(child, parent, path === ROOT_PATH ? `${i}` : `${path}.${i}`, false))
+        return
+      }
+      if (!hasInGraphCourse(expr, known)) {
+        // Under a junction it's one alternative among others: list it there.
+        // Only a required all-external group makes the course need an outside course.
+        if (parent) collectExternals(expr, parent.externals)
+        else courseNode.externalOnlyGroups += 1
+        return
+      }
+      const junction: Extract<GNode, { kind: 'junction' }> = {
+        id: `j:${course.id}:${path}`, kind: 'junction', op: expr.kind, target: course.id, externals: [],
+      }
+      nodes.push(junction)
+      edges.push({ id: `prereq:${junction.id}->${parentId}`, source: junction.id, target: parentId, kind: 'prereq' })
+      expr.children.forEach((child, i) =>
+        attach(child, junction, path === ROOT_PATH ? `${i}` : `${path}.${i}`, expr.kind === 'or'))
+    }
+
+    if (course.prereqs) attach(course.prereqs, null, ROOT_PATH, false)
+
+    if (course.coreqs) {
+      const sources = new Set<string>()
+      collectCourses(course.coreqs, sources)
+      for (const s of sources) {
+        if (known.has(s)) edges.push({ id: `coreq:${s}->${course.id}`, source: s, target: course.id, kind: 'coreq' })
+      }
+    }
+  }
+  return { nodes, edges }
+}
