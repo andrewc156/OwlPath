@@ -163,6 +163,7 @@ Clicking empty space clears the selection.
 
 **Deploy.** A GitHub Actions workflow builds `web/` with `base: "/OwlPath/"` and publishes to Pages. The pipeline doesn't run in CI, because the data is committed.
 - **Until the reviewed dataset is committed, the workflow runs only on manual trigger** (`workflow_dispatch`), as the user decided. Sample data must never be published.
+  - *Update 2026-11-08:* the reviewed dataset is committed, and the user asked for deploys on every push to `main`, gated on all tests passing.
 - As a safeguard, the build **fails** if the bundled dataset is the sample, or if `data/2026-2027/courses.json` is missing.
 - After the data review is finished, the user switches the trigger to deploy on every push to `main`.
 
