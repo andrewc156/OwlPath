@@ -68,4 +68,12 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
 ## Environment and commands
 
 - Python 3.13 virtual environment at `.venv/`. Shell state doesn't persist between Bash calls, so call `.venv/bin/python` / `.venv/bin/pip` / `.venv/bin/pytest` directly.
-- No code exists yet. Add build, lint and test commands here as the plans create them.
+- Web app needs Node ≥ 22.12 (Vite 8). Run these from `web/`:
+  - `npm ci` installs dependencies.
+  - `npm run dev` starts the dev server.
+  - `npm test` runs all Vitest tests.
+  - `npm test -- normalize` runs one test file, matched by name.
+  - `npm run build` typechecks and builds for production. It **refuses to run** until the reviewed `data/2026-2027/courses.json` exists and isn't the sample.
+  - `npm run build:sample` builds against whatever data is present, for local previews only.
+  - Deploys run only when started by hand: Actions → "Deploy web app to GitHub Pages" (`workflow_dispatch`).
+- Pipeline build and test commands get added here when the pipeline plan creates them.

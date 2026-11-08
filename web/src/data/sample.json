@@ -1,0 +1,28 @@
+{
+  "catalogYear": "2026-2027",
+  "source": "SAMPLE",
+  "courses": [
+    { "id": "CSE 1321", "title": "Programming and Problem Solving I", "credits": "3", "description": "Sample: introduction to programming.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"], "prereqs": null, "coreqs": "CSE 1321L", "notes": [] },
+    { "id": "CSE 1321L", "title": "Programming and Problem Solving I Lab", "credits": "1", "description": "Sample: lab for CSE 1321.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"], "prereqs": null, "coreqs": "CSE 1321", "notes": [] },
+    { "id": "CSE 1322", "title": "Programming and Problem Solving II", "credits": "3", "description": "Sample: object-oriented programming.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"],
+      "prereqs": { "and": [{ "course": "CSE 1321", "minGrade": "B" }, { "course": "CSE 1321L", "minGrade": "B" }] },
+      "coreqs": { "and": ["CSE 1322L", { "or": ["MATH 1113", "MATH 1190", { "external": "MATH 1179" }] }] }, "notes": [] },
+    { "id": "CSE 1322L", "title": "Programming and Problem Solving II Lab", "credits": "1", "description": "Sample: lab for CSE 1322.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"],
+      "prereqs": { "and": [{ "course": "CSE 1321", "minGrade": "B" }, { "course": "CSE 1321L", "minGrade": "B" }] }, "coreqs": "CSE 1322", "notes": [] },
+    { "id": "MATH 1113", "title": "Precalculus", "credits": "4", "description": "Sample: precalculus.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["gen-ed-math"], "prereqs": null, "coreqs": null, "notes": [] },
+    { "id": "MATH 1190", "title": "Calculus I", "credits": "4", "description": "Sample: differential calculus.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["gen-ed-math"], "prereqs": "MATH 1113", "coreqs": null, "notes": ["By Placement"] },
+    { "id": "MATH 2345", "title": "Discrete Mathematics", "credits": "3", "description": "Sample: discrete mathematics.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"], "prereqs": "MATH 1190", "coreqs": null, "notes": [] },
+    { "id": "CS 3305", "title": "Data Structures", "credits": "3", "description": "Sample: fundamental data structures.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["major-required"],
+      "prereqs": { "and": [
+        { "or": ["MATH 2345", { "external": "CSE 2300" }] },
+        { "or": [
+          { "and": [{ "course": "CSE 1322", "minGrade": "B" }, { "course": "CSE 1322L", "minGrade": "B" }] },
+          { "external": "MTRE 2610", "minGrade": "B" },
+          { "external": "CPE 3000", "minGrade": "B" }
+        ] }
+      ] }, "coreqs": null, "notes": [] },
+    { "id": "CS 3642", "title": "Artificial Intelligence", "credits": "3", "description": "Sample: foundations of AI.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["conc-ai"], "prereqs": "CS 3305", "coreqs": null, "notes": [] },
+    { "id": "CSE 4983", "title": "Undergraduate Research", "credits": "1-3", "description": "Sample: invented all-external OR to exercise that case.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["major-elective"],
+      "prereqs": { "or": [{ "external": "CSE 4900" }, { "external": "CSE 4901" }] }, "coreqs": null, "notes": ["Senior standing"] }
+  ]
+}
