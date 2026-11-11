@@ -1,5 +1,6 @@
 {
   "catalogYear": "2026-2027",
+  "choices": [],
   "courses": [
     {
       "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=AI&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
@@ -1078,5 +1079,35 @@
       "title": "Technical Writing"
     }
   ],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "conc-data-science"
+        ],
+        "label": "Data Science"
+      },
+      {
+        "groups": [
+          "conc-cyber"
+        ],
+        "label": "Cyber & Network Security"
+      },
+      {
+        "groups": [
+          "conc-ai"
+        ],
+        "label": "AI"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "General electives"
+      }
+    ],
+    "id": "bs-cs",
+    "name": "BS Computer Science"
+  },
   "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
 }

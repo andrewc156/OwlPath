@@ -4,7 +4,7 @@ Banner lists corequisites under "Prerequisites" too, so the catalog side uses
 prereqs and coreqs together. Every disagreement goes to a report for a human;
 the catalog stays the authority.
 
-CLI: .venv/bin/python -m owlpath_pipeline.banner   (reads courses.json, writes banner-diff.md)
+CLI: .venv/bin/python -m owlpath_pipeline.banner <program>   (reads <program>/courses.json, writes banner-diff.md)
 """
 import json
 import re
@@ -74,9 +74,14 @@ def _report(diffs: dict[str, list[Discrepancy]], failures: dict[str, str]) -> st
 
 
 def main(argv: list[str]) -> int:
+    import argparse
+
     from .fetch import FetchError, PoliteFetcher
 
-    dataset = json.loads((config.DATA_DIR / "courses.json").read_text())
+    ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.banner")
+    ap.add_argument("program", choices=config.PROGRAMS, help="which major to check, e.g. bs-dsa")
+    out = config.program_dir(ap.parse_args(argv).program)
+    dataset = json.loads((out / "courses.json").read_text())
     fetcher = PoliteFetcher.default()
     diffs: dict[str, list[Discrepancy]] = {}
     failures: dict[str, str] = {}
@@ -90,7 +95,7 @@ def main(argv: list[str]) -> int:
             continue
         if found:
             diffs[course["id"]] = found
-    (config.DATA_DIR / "banner-diff.md").write_text(_report(diffs, failures))
+    (out / "banner-diff.md").write_text(_report(diffs, failures))
     print(f"{len(diffs)} courses with discrepancies, {len(failures)} not checked")
     return 0
 

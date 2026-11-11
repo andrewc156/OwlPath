@@ -16,6 +16,13 @@ CACHE_DIR = Path(".cache/http")
 DATA_DIR = REPO_ROOT / "data" / CATALOG_YEAR
 SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "courses.schema.json"
 
+# One folder per major under DATA_DIR: program.json, overrides.json, courses.json, reports.
+PROGRAMS = ("bs-cs", "bs-dsa")
+
+
+def program_dir(program: str) -> Path:
+    return DATA_DIR / program
+
 # Banner (Owl Express) public course detail pages: cross-check only, the catalog wins.
 BANNER_TERM = "202608"  # Fall Semester 2026 (confirmed on the CSE 1322 page)
 BANNER_URL = ("https://owlexpress.kennesaw.edu/prodban/bwckctlg.p_disp_course_detail"
