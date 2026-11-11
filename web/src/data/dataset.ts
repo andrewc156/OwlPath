@@ -7,13 +7,17 @@ export const SAMPLE_SOURCE = 'SAMPLE'
 
 const sample = sampleJson as Dataset
 
-// Resolves to {} until the reviewed dataset is committed at the repo root.
-const real = import.meta.glob<Dataset>('../../../data/2026-2027/courses.json', { eager: true, import: 'default' })
+// One reviewed dataset per major, data/2026-2027/<program>/courses.json. The build guard
+// (scripts/check-data.mjs) checks the same folders.
+const real = import.meta.glob<Dataset>('../../../data/2026-2027/*/courses.json', { eager: true, import: 'default' })
 
-export function pickDataset(realData: Dataset | undefined, sampleData: Dataset): Dataset {
-  return realData ?? sampleData
+/** bs-cs first, then by name; the sample only when no real dataset exists. */
+export function pickPrograms(realData: Dataset[], sampleData: Dataset): Dataset[] {
+  if (realData.length === 0) return [sampleData]
+  return [...realData].sort((a, b) =>
+    a.program.id === 'bs-cs' ? -1 : b.program.id === 'bs-cs' ? 1 : a.program.name.localeCompare(b.program.name))
 }
 
-export function loadDataset(): NDataset {
-  return normalize(pickDataset(Object.values(real)[0], sample))
+export function loadPrograms(): NDataset[] {
+  return pickPrograms(Object.values(real), sample).map(normalize)
 }

@@ -5,7 +5,7 @@ import { Filters } from './components/Filters'
 import { Footer } from './components/Footer'
 import { GraphView, type FocusRequest } from './components/GraphView'
 import { useIsSmallScreen } from './components/useIsSmallScreen'
-import { loadDataset } from './data/dataset'
+import { loadPrograms } from './data/dataset'
 import type { Group } from './data/types'
 import { nodeState } from './logic/eligibility'
 import { buildGraph } from './logic/graph'
@@ -15,7 +15,8 @@ import type { ViewCtx } from './logic/view'
 import { useStatus } from './state/status'
 
 // Data, graph and layout are fixed for the session; compute once.
-const dataset = loadDataset()
+// Task 7 wires the major dropdown; until then show the first major.
+const dataset = loadPrograms()[0]
 const graph = buildGraph(dataset.courses)
 const positions = layoutGraph(graph)
 const validIds = new Set(dataset.courses.map((c) => c.id))
