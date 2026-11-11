@@ -17,6 +17,8 @@ export function normalize(dataset: Dataset): NDataset {
   return {
     catalogYear: dataset.catalogYear,
     source: dataset.source,
+    program: dataset.program,
+    choices: dataset.choices,
     courses,
     byId: new Map(courses.map((c) => [c.id, c])),
   }

@@ -8,5 +8,5 @@ export default defineConfig({
   base: '/OwlPath/',
   // The app imports the dataset from ../data at the repo root.
   server: { fs: { allow: ['..'] } },
-  test: { environment: 'node', include: ['src/**/*.test.ts'] },
+  test: { environment: 'node', include: ['src/**/*.test.ts', 'scripts/**/*.test.ts'] },
 })

@@ -34,3 +34,13 @@ test('invalid minGrade is rejected', () => {
   d.courses.find((c: { id: string }) => c.id === 'CS 3642').prereqs = { course: 'CS 3305', minGrade: 'E' }
   expect(validateDataset(d).join()).toContain('CS 3642: invalid minGrade "E"')
 })
+
+test('program block is required', () => {
+  const d = clone(); delete d.program
+  expect(validateDataset(d).join()).toContain('program')
+})
+
+test('choices must name courses in the dataset', () => {
+  const d = clone(); d.choices = [['CSE 1321', 'ZZZ 9999']]
+  expect(validateDataset(d)).toContain('choices: unknown course ZZZ 9999')
+})

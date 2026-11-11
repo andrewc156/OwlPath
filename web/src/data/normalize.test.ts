@@ -30,3 +30,9 @@ test('pickDataset falls back to the sample, and prefers real data', () => {
   expect(pickDataset(undefined, sample).source).toBe('SAMPLE')
   expect(pickDataset({ ...sample, source: 'catalog' }, sample).source).toBe('catalog')
 })
+
+test('program and choices are carried through', () => {
+  const n = normalize(sample)
+  expect(n.program.id).toBe('bs-cs')
+  expect(n.choices).toEqual([])
+})

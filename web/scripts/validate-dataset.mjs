@@ -50,5 +50,21 @@ export function validateDataset(data) {
     check(c.id, c.prereqs)
     check(c.id, c.coreqs)
   }
+
+  const p = data.program
+  if (!p || typeof p.id !== 'string' || typeof p.name !== 'string' || !Array.isArray(p.filters)) {
+    errors.push('program: missing id/name/filters')
+  }
+  if (!Array.isArray(data.choices)) {
+    errors.push('choices must be an array')
+  } else {
+    for (const choice of data.choices) {
+      if (!Array.isArray(choice) || choice.length < 2) {
+        errors.push(`choices: ${JSON.stringify(choice)} needs at least two courses`)
+        continue
+      }
+      for (const id of choice) if (!ids.has(id)) errors.push(`choices: unknown course ${id}`)
+    }
+  }
   return errors
 }
