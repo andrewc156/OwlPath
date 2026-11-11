@@ -1,0 +1,134 @@
+{
+  "catalogYear": "2026-2027",
+  "_comment": "From the 2026-27 Data Science and Analytics, B.S. program page (bs-dsa/program-page.pdf). 'Major Electives' also allows any DATA or STAT 4000-level course; only the listed ones are here. MATH 1179/1189 stay external (user ruling).",
+  "program": {
+    "id": "bs-dsa",
+    "name": "BS Data Science and Analytics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ],
+    [
+      "STAT 1401",
+      "STAT 2332"
+    ],
+    [
+      "STAT 3120",
+      "STAT 3125"
+    ],
+    [
+      "CSE 3153",
+      "CS 3410"
+    ],
+    [
+      "DATA 4030",
+      "DATA 4140"
+    ]
+  ],
+  "courses": {
+    "CS 3410": [
+      "major-required"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 1322": [
+      "core-field"
+    ],
+    "CSE 1322L": [
+      "core-field"
+    ],
+    "CSE 2300": [
+      "core-field"
+    ],
+    "CSE 3153": [
+      "major-required"
+    ],
+    "CSE 4983": [
+      "major-elective"
+    ],
+    "DATA 3010": [
+      "major-required"
+    ],
+    "DATA 3230": [
+      "major-required"
+    ],
+    "DATA 3300": [
+      "major-required"
+    ],
+    "DATA 3396": [
+      "major-elective"
+    ],
+    "DATA 3398": [
+      "major-elective"
+    ],
+    "DATA 4000": [
+      "major-required"
+    ],
+    "DATA 4030": [
+      "major-required"
+    ],
+    "DATA 4140": [
+      "major-required"
+    ],
+    "DATA 4310": [
+      "major-required"
+    ],
+    "DATA 4990": [
+      "major-required"
+    ],
+    "MATH 1113": [
+      "gen-ed-math"
+    ],
+    "MATH 1190": [
+      "gen-ed-math"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ],
+    "MATH 3260": [
+      "major-required"
+    ],
+    "STAT 1401": [
+      "core-field"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ],
+    "STAT 3120": [
+      "major-required"
+    ],
+    "STAT 3125": [
+      "major-required"
+    ],
+    "STAT 3130": [
+      "major-required"
+    ],
+    "STAT 4210": [
+      "major-required"
+    ]
+  }
+}
