@@ -1,6 +1,7 @@
 // Production build guard: refuse to build unless every major's reviewed dataset exists,
 // isn't the sample and is valid. Deploys are automatic on main, so this is the last gate.
 // See docs/superpowers/specs/2026-11-11-owlpath-multi-major-design.md ("Build guard").
+import { isDeepStrictEqual } from 'node:util'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { validateDataset } from './validate-dataset.mjs'
@@ -12,14 +13,19 @@ import { validateDataset } from './validate-dataset.mjs'
  */
 export function checkPrograms(dataRoot) {
   const root = fileURLToPath(dataRoot)
-  const programs = readdirSync(root, { withFileTypes: true })
-    .filter((e) => e.isDirectory() && existsSync(new URL(`${e.name}/program.json`, dataRoot)))
-    .map((e) => e.name)
-    .sort()
-  if (programs.length === 0) return { ok: false, messages: [`refusing to build: no program folders in ${root}`] }
+  const has = (dir, file) => existsSync(new URL(`${dir}/${file}`, dataRoot))
+  const dirs = readdirSync(root, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name).sort()
+  const programs = dirs.filter((d) => has(d, 'program.json'))
 
   const messages = []
   let ok = true
+  // The app bundles every */courses.json, so each one must belong to a checked program folder.
+  for (const d of dirs.filter((d) => has(d, 'courses.json') && !has(d, 'program.json'))) {
+    ok = false
+    messages.push(`refusing to build: ${d}/courses.json has no program.json, so it would ship unchecked`)
+  }
+  if (programs.length === 0) return { ok: false, messages: [...messages, `refusing to build: no program folders in ${root}`] }
+
   for (const id of programs) {
     const rel = `${id}/courses.json`
     let data
@@ -41,6 +47,17 @@ export function checkPrograms(dataRoot) {
     if (errors.length) {
       ok = false
       messages.push(`refusing to build: ${rel} has ${errors.length} problem(s):\n  ${errors.join('\n  ')}`)
+      continue
+    }
+    if (data.program.id !== id) {
+      ok = false
+      messages.push(`refusing to build: ${rel} says program "${data.program.id}" but lives in folder ${id}`)
+      continue
+    }
+    const spec = JSON.parse(readFileSync(new URL(`${id}/program.json`, dataRoot), 'utf8'))
+    if (!isDeepStrictEqual(spec.program, data.program) || !isDeepStrictEqual(spec.choices, data.choices)) {
+      ok = false
+      messages.push(`refusing to build: ${id}/program.json changed since courses.json was built; rebuild with the pipeline`)
       continue
     }
     messages.push(`dataset ok: ${id} (${data.courses.length} courses, source ${data.source})`)

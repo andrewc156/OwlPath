@@ -14,3 +14,8 @@ test('bs-cs comes first, then by name', () => {
 test('falls back to the sample when there is no real data', () => {
   expect(pickPrograms([], sample).map((d) => d.source)).toEqual(['SAMPLE'])
 })
+
+test('a production build never falls back to the sample', () => {
+  expect(() => pickPrograms([], sample, true)).toThrow(/no reviewed dataset/)
+  expect(pickPrograms([prog('bs-cs', 'BS Computer Science')], sample, true)).toHaveLength(1)
+})
