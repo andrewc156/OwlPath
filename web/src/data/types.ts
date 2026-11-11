@@ -33,9 +33,17 @@ export interface Course {
   notes: string[]
 }
 
+/** One "Show" filter option: the courses in any of `groups`, plus their prerequisite chains. */
+export type FilterOption = { label: string; groups: Group[] }
+
+export type Program = { id: string; name: string; filters: FilterOption[] }
+
 export interface Dataset {
   catalogYear: string
   source: string
+  program: Program
+  /** Either/or program requirements: take one course from each list. */
+  choices: string[][]
   courses: Course[]
 }
 
@@ -45,4 +53,11 @@ export interface Dataset {
 export type NLeaf = { kind: 'course'; id: string; minGrade: Grade } | { kind: 'external'; id: string; minGrade: Grade }
 export type NExpr = NLeaf | { kind: 'and' | 'or'; children: NExpr[] }
 export type NCourse = Omit<Course, 'prereqs' | 'coreqs'> & { prereqs: NExpr | null; coreqs: NExpr | null }
-export type NDataset = { catalogYear: string; source: string; courses: NCourse[]; byId: Map<string, NCourse> }
+export type NDataset = {
+  catalogYear: string
+  source: string
+  program: Program
+  choices: string[][]
+  courses: NCourse[]
+  byId: Map<string, NCourse>
+}

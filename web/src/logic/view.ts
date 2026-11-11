@@ -3,13 +3,20 @@ import type { NodeState } from './eligibility'
 import type { Graph } from './graph'
 import type { Highlight } from './highlight'
 import type { Positions } from './layout'
+import { choicePartners } from './choices'
 
-export type ViewCtx = { highlight: Highlight | null; filter: Set<string> | null; states: Record<string, NodeState> }
+export type ViewCtx = {
+  highlight: Highlight | null
+  filter: Set<string> | null
+  states: Record<string, NodeState>
+  /** The major's either/or program requirements. */
+  choices: string[][]
+}
 
-export type CourseNodeData = { courseId: string; state: NodeState; externalOnlyGroups: number }
+export type CourseNodeData = { courseId: string; state: NodeState; externalOnlyGroups: number; choiceWith: string[] }
 export type JunctionNodeData = { op: 'and' | 'or'; externalCount: number }
 
-/** Selection wins over the concentration filter. */
+/** Selection wins over the Show filter. */
 function nodeClass(id: string, ctx: ViewCtx): string {
   const h = ctx.highlight
   if (h) {
@@ -30,7 +37,12 @@ export function toFlow(graph: Graph, positions: Positions, ctx: ViewCtx): { node
     const position = positions.get(n.id) ?? { x: 0, y: 0 }
     const className = classes.get(n.id)
     if (n.kind === 'course') {
-      const data: CourseNodeData = { courseId: n.courseId, state: ctx.states[n.courseId] ?? 'locked', externalOnlyGroups: n.externalOnlyGroups }
+      const data: CourseNodeData = {
+        courseId: n.courseId,
+        state: ctx.states[n.courseId] ?? 'locked',
+        externalOnlyGroups: n.externalOnlyGroups,
+        choiceWith: choicePartners(ctx.choices, n.courseId),
+      }
       return { id: n.id, type: 'course', position, data, className }
     }
     const data: JunctionNodeData = { op: n.op, externalCount: n.externals.length }

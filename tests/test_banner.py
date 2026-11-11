@@ -36,3 +36,23 @@ def test_corequisites_count_because_banner_merges_them_into_prerequisites():
     course = {"id": "CSE 1322", "prereqs": "CSE 1321", "coreqs": {"and": ["CSE 1322L", {"or": ["MATH 1113", {"external": "MATH 1179"}]}]}}
     banner = {"CSE 1321": "C", "CSE 1322L": "C", "MATH 1113": "C", "MATH 1179": "C"}
     assert diff_course(course, banner) == []
+
+
+def test_banner_cli_reads_program_folder(tmp_path, monkeypatch):
+    import json
+
+    from owlpath_pipeline import banner, config, fetch
+
+    monkeypatch.setattr(config, "DATA_DIR", tmp_path)
+    d = tmp_path / "bs-cs"
+    d.mkdir()
+    (d / "courses.json").write_text(json.dumps({"courses": [
+        {"id": "CSE 1322", "prereqs": {"and": ["CSE 1321", "CSE 1321L"]}, "coreqs": None}]}))
+
+    class Fake:
+        def fetch(self, url):
+            return read("cse-1322.html")
+
+    monkeypatch.setattr(fetch.PoliteFetcher, "default", classmethod(lambda cls: Fake()))
+    assert banner.main(["bs-cs"]) == 0
+    assert (d / "banner-diff.md").exists()

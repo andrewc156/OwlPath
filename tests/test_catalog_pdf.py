@@ -7,6 +7,8 @@ from owlpath_pipeline.catalog_pdf import load_catalog, parse_listing, pdf_text
 
 CATALOG = Path(__file__).resolve().parent.parent / "data" / "2026-2027" / "catalog"
 URL = "https://catalog.kennesaw.edu/listing?prefix=CS"
+META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
+                    "filters": [{"label": "AI", "groups": ["conc-ai"]}]}, "choices": []}
 
 
 @pytest.fixture(scope="module")
@@ -65,7 +67,7 @@ def test_field_split_by_page_footer_is_rejoined():
 
 
 def test_load_catalog_reads_every_pdf_with_prefix_urls(catalog):
-    assert {"AI 4267", "ENGL 1102", "CS 3305", "CSE 1322", "MATH 1190", "STAT 2332", "SWE 3313", "IT 1114", "TCOM 2010"} <= catalog.keys()
+    assert {"DATA 3010", "AI 4267", "ENGL 1102", "CS 3305", "CSE 1322", "MATH 1190", "STAT 2332", "SWE 3313", "IT 1114", "TCOM 2010"} <= catalog.keys()
     assert "filter%5B27%5D=MATH" in catalog["MATH 1190"].url
 
 
@@ -74,7 +76,7 @@ def test_build_runs_on_saved_catalog():
     from owlpath_pipeline.validate import validate_dataset
 
     dataset, _ = build_dataset({"CS 3305": ["major-required"], "CSE 1322": ["core-field"]},
-                               catalog_get_raw(CATALOG), {})
+                               catalog_get_raw(CATALOG), {}, META)
     assert validate_dataset(dataset) == []
     assert {"CS 3305", "CSE 1322", "CSE 1321"} <= {c["id"] for c in dataset["courses"]}
     with pytest.raises(KeyError):
@@ -99,7 +101,7 @@ def test_reader_warnings_reach_the_build_report():
     from owlpath_pipeline.build import build_dataset
 
     raw = parse_listing("XX 3000: Thing\n3 Credit Hours\nDescription\n", URL)
-    _, warnings = build_dataset({"XX 3000": ["major-required"]}, raw.__getitem__, {})
+    _, warnings = build_dataset({"XX 3000": ["major-required"]}, raw.__getitem__, {}, META)
     assert "XX 3000: empty description" in warnings
 
 

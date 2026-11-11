@@ -50,7 +50,7 @@ function tiny(prereqs: Logic) {
     { ...base, id: 'CS 1100', prereqs: null },
     { ...base, id: 'CS 2000', prereqs },
   ] as unknown as Course[]
-  return buildGraph(normalize({ catalogYear: '2026-2027', source: 'test', courses }).courses)
+  return buildGraph(normalize({ catalogYear: '2026-2027', source: 'test', program: { id: 'test', name: 'Test', filters: [] }, choices: [], courses }).courses)
 }
 const target = (gr: ReturnType<typeof tiny>) => gr.nodes.find((n): n is CourseN => n.kind === 'course' && n.id === 'CS 2000')!
 const junctionIn = (gr: ReturnType<typeof tiny>, id: string) => gr.nodes.find((n): n is Junction => n.kind === 'junction' && n.id === id)!

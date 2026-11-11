@@ -1,6 +1,37 @@
 {
   "catalogYear": "2026-2027",
-  "_comment": "From the 2026-27 Computer Science, B.S. program page (data/2026-2027/program-page.pdf). 'Major Electives' also allows any CS 3000-4000 course; only the listed ones are here.",
+  "_comment": "From the 2026-27 Computer Science, B.S. program page (bs-cs/program-page.pdf). 'Major Electives' also allows any CS 3000-4000 course; only the listed ones are here.",
+  "program": {
+    "id": "bs-cs",
+    "name": "BS Computer Science",
+    "filters": [
+      {
+        "label": "Data Science",
+        "groups": [
+          "conc-data-science"
+        ]
+      },
+      {
+        "label": "Cyber & Network Security",
+        "groups": [
+          "conc-cyber"
+        ]
+      },
+      {
+        "label": "AI",
+        "groups": [
+          "conc-ai"
+        ]
+      },
+      {
+        "label": "General electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
   "courses": {
     "AI 3642": [
       "conc-ai"

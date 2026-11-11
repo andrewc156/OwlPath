@@ -1,0 +1,688 @@
+{
+  "catalogYear": "2026-2027",
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ],
+    [
+      "STAT 1401",
+      "STAT 2332"
+    ],
+    [
+      "STAT 3120",
+      "STAT 3125"
+    ],
+    [
+      "CSE 3153",
+      "CS 3410"
+    ],
+    [
+      "DATA 4030",
+      "DATA 4140"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to database management systems, database processing, data modeling, database design, development, and implementation. Particular emphasis is placed on the relational approach to database management and processing, which focuses more on the logical nature of a database than its physical characteristics. Relational database programming assignments are drawn from the fields of business. Includes implementation of current DBMS tools and SQL. Ethical and security topics related to databases will be introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 3410",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1322",
+          "CSE 1322L"
+        ]
+      },
+      "title": "Introduction to Database Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321L",
+      "credits": "3",
+      "description": "This course provides an introduction to computing with a focus on programming. Instruction centers on an overview of programming, problem-solving, and algorithm development. Particular topics include object-oriented design/programming, primitive data types, arithmetic and logical operators, selection and repetition structures, interactive user input, exception handling, using and designing basic classes, single-dimensional data structures with searching and sorting, and arrays. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions and the relationship between correct code and security.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321",
+      "credits": "1",
+      "description": "Lab activities with programming to accompany CSE 1321.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CSE 1322L",
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event- driven programming are also introduced. Students will use good programming style including proper documentation.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1322",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1322",
+      "credits": "1",
+      "description": "This course is the required and supervised lab course to accompany CSE 1322.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1322L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Coverage of discrete structures is crucial to any program in computing. This course covers propositional and predicate logic, proofs, set theory, relations and functions, algorithms and complexity theory, matrices, graphs and trees, and combinatorics. Throughout, the emphasis will be on applications of these concepts in computing.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 2300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "course": "CSE 1321",
+            "minGrade": "B"
+          },
+          {
+            "course": "CSE 1321L",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Discrete Structures for Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The topics in this course span from a review of the traditional file processing systems to database management systems. Topics include files systems and file processing logic, planning, and major phases of database development: analysis, design and implementation. Labs use an SQL based database product such as Oracle.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CSE 3153",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CSE 1322",
+              "CSE 1322L"
+            ]
+          },
+          {
+            "external": "IT 1113"
+          },
+          {
+            "and": [
+              {
+                "external": "IT 1114"
+              },
+              {
+                "external": "IT 1114L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Database Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course helps students gain practical experience through real-world projects and professional work. Students demonstrate an ability to apply computing principles and technologies relevant to their major in a specific real-world project jointly supervised by an industry mentor and a faculty advisor. Students work in a project team in an enterprise environment demonstrating ethical behavior as a computing professional, an understanding of social, professional and ethical issues related to computing, and an ability to integrate the knowledge acquired in preceding courses. Communication skills and leadership are also evaluated as well as professional computing skills and knowledge. 150+ hours per semester required at an internship site. The course can not be repeated for credit.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CSE 4983",
+      "notes": [
+        "Senior standing"
+      ],
+      "prereqs": null,
+      "title": "CSE Computing Internship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an intermediate survey course of computer-based statistical software applications in the analysis and interpretation of data. Topics include developing a proficiency in coding in multiple languages through quantitative applications. Software packages include the most in-demand statistical languages and packages in the marketplace. (e.g. Python, SAS, R)",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 3010",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 1401",
+          {
+            "external": "ECON 2300"
+          },
+          "STAT 3125",
+          "STAT 2332",
+          {
+            "external": "MATH 3332"
+          }
+        ]
+      },
+      "title": "Computer Applications of Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of data visualization. The course covers basic design and evaluation principles to prepare and analyze large datasets, and standard visualization techniques for different types of data using modern data visualization software. The course prepares students to communicate clearly, efficiently, and in a visually compelling manner to a variety of audiences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 3230",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 1401",
+          {
+            "external": "DATA 1501"
+          },
+          "STAT 2332",
+          "STAT 3125"
+        ]
+      },
+      "title": "Data Visualization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "As the field of data science and artificial intelligence continues to rapidly grow, so does the need for strong ethical guidelines. Throughout this course, students will learn the foundational ethical theories and frameworks, and the origins of ethics within data science. Students will use case studies to learn about the ethical dilemmas around the collection, management, and use of data, the use of models and algorithms, and the future of artificial intelligence and machine learning. Topics include Privacy, Informed Consent, Ownership, Security, Bias, Misinformation, Data Governance and Codes of Ethics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 3300",
+      "notes": [],
+      "prereqs": "STAT 3130",
+      "title": "Data Science Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course is a supervised work experience program for a minimum of two academic semesters at a site in business, industry, or government. It is for sophomore, junior, or senior-level students who wish to obtain successive on-the-job experience in conjunction with their academic training.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DATA 3396",
+      "notes": [
+        "Approval of the coordinator of cooperative education/internship"
+      ],
+      "prereqs": null,
+      "title": "Cooperative Study"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-9",
+      "description": "This course is a supervised, credit-earning work experience of one academic semester with a previously approved business firm, private agency, or government agency.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DATA 3398",
+      "notes": [
+        "Approval of the program coordinator and department chair"
+      ],
+      "prereqs": null,
+      "title": "Internship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course equips students to orally communicate data analysis results adapted to both technical and non-technical audiences. Students learn and practice essential data presentation skills, such as using narratives and visuals to communicate data analysis insights for solving business problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 4000",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 2332",
+          {
+            "and": [
+              "DATA 3010",
+              {
+                "or": [
+                  "STAT 3120",
+                  "STAT 3125"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Data Science Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will learn R programming to effectively manage, explore, visualize, and present data. The course covers practical statistical-computing issues, including reading, manipulating, and analyzing data, using control statements, existing functions, and user-created functions. Reporting results using R packages, such as R Markdown, may also be covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 4030",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "DATA 3010",
+          "STAT 3125"
+        ]
+      },
+      "title": "Programming in R"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to analytic methods using Python. The core focus is the development of Python knowledge within an analytic model development focus. Students will learn fundamental data structures, key algorithms and their application in applying analytic/machine learning methodologies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 4140",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DATA 3010",
+          {
+            "or": [
+              "STAT 3130",
+              {
+                "external": "IET 3403"
+              },
+              {
+                "external": "ISYE 3600"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Python for Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Data Mining is an information extraction activity whose goal is to discover hidden facts contained in databases, perform prediction and forecasting, and generally improve their performance through interaction with data. The process includes data selection, cleaning, coding, using different statistical, pattern recognition and machine learning techniques, and reporting and visualization of the generated structures. The course will cover all these issues and will illustrate the whole process by examples of practical applications. The students will use recent SAS Enterprise Miner software.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 4310",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "STAT 3130",
+      "title": "Statistical Data Mining"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Capstone projects challenge students to acquire and analyze data to solve real-world problems. Students will have to synthesize and strengthen the knowledge and skills learned through the program such as data visualization, inference and modeling, data wrangling, data organization, data mining and machine learning, as well as storytelling with the data. Print this Page",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DATA 4990",
+      "notes": [],
+      "prereqs": "STAT 4210",
+      "title": "Data Science Capstone"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "gen-ed-math"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "gen-ed-math"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the fundamentals of discrete mathematics. Topics include sets, formal logic, methods of proof, counting relations, functions, graphs and trees, and finite state automata.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2345",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Discrete Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to linear algebra and some of its classical and modern applications. Among topics to be included will be systems of linear equations, matrices, determinants of matrices and applications, vector spaces, and inner product spaces. Significant use of technology will be employed in performing matrix computations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Linear Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a non-calculus based introduction to statistics. Course content includes descriptive statistics, probability theory, confidence intervals, hypothesis testing, and other selected statistical topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 1401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a foundational, calculus-based introduction to statistics and probability. The following conceptual themes will be developed through the process of statistical investigation: exploratory data analysis (univariate and bivariate), fundamentals of experiment design and sampling, planning and conducting a study, exploring random phenomenon using probability and simulation, and the fundamentals of statistical inference. Technology is integrated into each theme, and the statistical software package used will be chosen by the instructor.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 2332",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Probability and Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with a foundation in statistical methods, including confidence intervals for population parameters, correlation, simple linear regression and hypothesis testing (F and T-tests for regression, chi-square for independence, 2 group and paired sample T-tests). These concepts are taught with heavy emphasis on statistical coding software and real-world datasets from a variety of disciplines.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 3120",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 1401",
+          {
+            "external": "DATA 1501"
+          },
+          "STAT 2332",
+          {
+            "external": "MATH 3332"
+          }
+        ]
+      },
+      "title": "Statistical Methods I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students use descriptive statistics and visual displays to describe biological and medical data. They perform and analyze results of statistical analyses which may include confidence intervals, correlation, linear regression, odds/risk ratios, and hypothesis testing (Chi-square for independence, 2 group and paired sample t-tests). Analyses are performed using the statistical software R.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 3125",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "external": "BIOL 1107"
+          },
+          {
+            "external": "BIOL 1108"
+          },
+          {
+            "external": "CHEM 1212"
+          }
+        ]
+      },
+      "title": "Biostatistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to build their foundation in statistical methods in this course. They will conduct non-parametric methods (Wilcoxon Signed Rank, Rank Sum, and Kruskal Wallis tests), ANOVA and multiple regression. These concepts are taught with heavy emphasis on statistical coding software and real-world datasets.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 3130",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DATA 3010",
+          {
+            "or": [
+              "STAT 3120",
+              "STAT 3125",
+              "STAT 2332",
+              {
+                "external": "PSYC 3000"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Statistical Methods II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with various regression procedural methods, including simple linear and multiple regression models. Students will diagnose multicollinearity, identify outliers and influential observations, and assess assumptions to create and validate models. Other topics will include parameters inferences, variable transformations, and qualitative predictors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 4210",
+      "notes": [],
+      "prereqs": "STAT 3130",
+      "title": "Applied Regression Analysis"
+    }
+  ],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-dsa",
+    "name": "BS Data Science and Analytics"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

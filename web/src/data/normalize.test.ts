@@ -1,7 +1,6 @@
 import { expect, test } from 'vitest'
 import sampleJson from './sample.json'
 import { normalize } from './normalize'
-import { pickDataset } from './dataset'
 import type { Course, Dataset } from './types'
 
 const sample = sampleJson as Dataset
@@ -26,7 +25,9 @@ test('null stays null and byId indexes every course', () => {
   expect(n.byId.get('CS 3305')).toBeDefined()
 })
 
-test('pickDataset falls back to the sample, and prefers real data', () => {
-  expect(pickDataset(undefined, sample).source).toBe('SAMPLE')
-  expect(pickDataset({ ...sample, source: 'catalog' }, sample).source).toBe('catalog')
+
+test('program and choices are carried through', () => {
+  const n = normalize(sample)
+  expect(n.program.id).toBe('bs-cs')
+  expect(n.choices).toEqual([])
 })

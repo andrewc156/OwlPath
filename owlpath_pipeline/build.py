@@ -4,7 +4,7 @@ Pass 1 collects every course the program needs (required leaves pull new courses
 Pass 2 marks each leaf as an in-graph course or an external alternative, then the
 trees are converted to the short output form and hand-written overrides are applied.
 
-CLI: .venv/bin/python -m owlpath_pipeline.build [--draft]
+CLI: .venv/bin/python -m owlpath_pipeline.build <program> [--draft]   (reads/writes data/<year>/<program>/)
 """
 import argparse
 import json
@@ -81,7 +81,12 @@ def _check_overrides(overrides: dict, graph: set[str]) -> None:
 
 
 def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCourse],
-                  overrides: dict) -> tuple[dict, list[str]]:
+                  overrides: dict, meta: dict) -> tuple[dict, list[str]]:
+    """meta = {"program": {...}, "choices": [[id, ...], ...]}, copied to the output as-is."""
+    for choice in meta["choices"]:
+        for cid in choice:
+            if cid not in program:
+                raise ValueError(f"choices: {cid} is not in program.json")
     warnings: list[str] = []
     raws: dict[str, RawCourse] = {}
     parsed: dict[str, tuple[ParseResult, ParseResult]] = {}
@@ -130,7 +135,8 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         courses.append(c)
 
     warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides]
-    return {"catalogYear": config.CATALOG_YEAR, "source": SOURCE, "courses": courses}, warnings
+    return {"catalogYear": config.CATALOG_YEAR, "source": SOURCE, "program": meta["program"],
+            "choices": meta["choices"], "courses": courses}, warnings
 
 
 def catalog_get_raw(directory=config.CATALOG_PDF_DIR) -> Callable[[str], RawCourse]:
@@ -159,19 +165,22 @@ def _report(warnings: list[str], errors: list[str]) -> str:
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.build")
+    ap.add_argument("program", choices=config.PROGRAMS, help="which major to build, e.g. bs-cs")
     ap.add_argument("--draft", action="store_true", help="write output even with unresolved warnings")
     args = ap.parse_args(argv)
 
-    program = json.loads((config.DATA_DIR / "program.json").read_text())["courses"]
-    overrides = json.loads((config.DATA_DIR / "overrides.json").read_text())
-    dataset, warnings = build_dataset(program, catalog_get_raw(), overrides)
+    out = config.program_dir(args.program)
+    spec = json.loads((out / "program.json").read_text())
+    overrides = json.loads((out / "overrides.json").read_text())
+    meta = {"program": spec["program"], "choices": spec["choices"]}
+    dataset, warnings = build_dataset(spec["courses"], catalog_get_raw(), overrides, meta)
     errors = validate_dataset(dataset)
 
     # Never write a dataset that fails validation, and never replace the reviewed
     # one with output that still has unresolved warnings unless --draft is given.
     if not errors and (args.draft or not warnings):
-        (config.DATA_DIR / "courses.json").write_text(json.dumps(dataset, sort_keys=True, indent=2) + "\n")
-    (config.DATA_DIR / "build-report.md").write_text(_report(warnings, errors))
+        (out / "courses.json").write_text(json.dumps(dataset, sort_keys=True, indent=2) + "\n")
+    (out / "build-report.md").write_text(_report(warnings, errors))
     print(f"{len(dataset['courses'])} courses, {len(warnings)} unresolved warnings, {len(errors)} validation errors")
     if errors or (warnings and not args.draft):
         return 1

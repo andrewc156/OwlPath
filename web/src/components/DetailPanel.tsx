@@ -2,7 +2,14 @@ import type { NCourse, NExpr } from '../data/types'
 import type { Status, StatusMap } from '../logic/eligibility'
 import { describeLogic } from '../logic/describe'
 
-type Props = { course: NCourse; status: StatusMap; onStatus: (id: string, s: Status) => void; onClose: () => void }
+type Props = {
+  course: NCourse
+  /** Other courses that satisfy the same either/or program requirement. */
+  choiceWith: string[]
+  status: StatusMap
+  onStatus: (id: string, s: Status) => void
+  onClose: () => void
+}
 
 const STATUS_OPTIONS: { value: Status; label: string }[] = [
   { value: 'not-taken', label: 'Not taken' },
@@ -17,7 +24,7 @@ function courseLeaves(expr: NExpr | null, out: string[] = []): string[] {
   return out
 }
 
-export function DetailPanel({ course, status, onStatus, onClose }: Props) {
+export function DetailPanel({ course, choiceWith, status, onStatus, onClose }: Props) {
   const current = status[course.id] ?? 'not-taken'
   const coreqIds = [...new Set(courseLeaves(course.coreqs))]
   return (
@@ -27,6 +34,9 @@ export function DetailPanel({ course, status, onStatus, onClose }: Props) {
       <p className="detail-title">{course.title}</p>
       <p className="muted">{course.credits} credit hours</p>
       <p>{course.description}</p>
+      {choiceWith.length > 0 && (
+        <p className="choice-note">Program requirement: take one of {course.id} or {choiceWith.join(' or ')}.</p>
+      )}
 
       <h3>Prerequisites</h3>
       <p>{describeLogic(course.prereqs)}</p>

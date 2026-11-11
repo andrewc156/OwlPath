@@ -31,6 +31,13 @@ export function saveStatus(storage: Storage | null, status: StatusMap): void {
   }
 }
 
+/** Marks every course not taken, in every major. Never throws. */
+export function resetStatus(storage: Storage | null): StatusMap {
+  const empty: StatusMap = {}
+  saveStatus(storage, empty)
+  return empty
+}
+
 function browserStorage(): Storage | null {
   try {
     return window.localStorage
@@ -39,7 +46,8 @@ function browserStorage(): Storage | null {
   }
 }
 
-export function useStatus(validIds: Set<string>): [StatusMap, (id: string, s: Status) => void] {
+/** `validIds` is the union of every major's course ids, so switching majors never drops progress. */
+export function useStatus(validIds: Set<string>): [StatusMap, (id: string, s: Status) => void, () => void] {
   const [status, setStatusMap] = useState<StatusMap>(() => loadStatus(browserStorage(), validIds))
   const setStatus = useCallback((id: string, s: Status) => {
     setStatusMap((prev) => {
@@ -50,5 +58,6 @@ export function useStatus(validIds: Set<string>): [StatusMap, (id: string, s: St
       return next
     })
   }, [])
-  return [status, setStatus]
+  const reset = useCallback(() => setStatusMap(resetStatus(browserStorage())), [])
+  return [status, setStatus, reset]
 }

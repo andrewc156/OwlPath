@@ -1,6 +1,17 @@
 {
   "catalogYear": "2026-2027",
   "source": "SAMPLE",
+  "program": {
+    "id": "bs-cs",
+    "name": "BS Computer Science (sample)",
+    "filters": [
+      { "label": "Data Science", "groups": ["conc-data-science"] },
+      { "label": "Cyber & Network Security", "groups": ["conc-cyber"] },
+      { "label": "AI", "groups": ["conc-ai"] },
+      { "label": "General electives", "groups": ["major-elective"] }
+    ]
+  },
+  "choices": [],
   "courses": [
     { "id": "CSE 1321", "title": "Programming and Problem Solving I", "credits": "3", "description": "Sample: introduction to programming.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"], "prereqs": null, "coreqs": "CSE 1321L", "notes": [] },
     { "id": "CSE 1321L", "title": "Programming and Problem Solving I Lab", "credits": "1", "description": "Sample: lab for CSE 1321.", "catalogYear": "2026-2027", "catalogUrl": "https://catalog.kennesaw.edu/", "groups": ["core-field"], "prereqs": null, "coreqs": "CSE 1321", "notes": [] },

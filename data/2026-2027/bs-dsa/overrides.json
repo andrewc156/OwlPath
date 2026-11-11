@@ -1,0 +1,23 @@
+{
+  "CSE 2300": {
+    "reason": "Catalog text has an unbalanced bracket. Read as: (CSE 1321 and CSE 1321L, both B or higher, since the grade sits inside their bracket) and (MATH 1113 or MATH 1190 or MATH 1179). MATH 1179 is outside the program. Cross-checked against Banner.",
+    "prereqs": {"and": [
+      {"course": "CSE 1321", "minGrade": "B"},
+      {"course": "CSE 1321L", "minGrade": "B"},
+      {"or": ["MATH 1113", "MATH 1190", {"external": "MATH 1179"}]}
+    ]},
+    "notes": []
+  },
+  "DATA 3396": {
+    "reason": "Approval only, no course prerequisite; reworded as a note.",
+    "notes": ["Approval of the coordinator of cooperative education/internship"]
+  },
+  "DATA 3398": {
+    "reason": "Approval only; the parser split one approval at 'and', rejoined as one note.",
+    "notes": ["Approval of the program coordinator and department chair"]
+  },
+  "STAT 3125": {
+    "reason": "Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked.",
+    "notes": ["Or permission of the instructor"]
+  }
+}

@@ -2,6 +2,8 @@
 
 OwlPath is an interactive prerequisite map for Kennesaw State University's College of Computing and Software Engineering (CCSE). It is inspired by [GradGT](https://grad-gt.vercel.app/), but OwlPath is a separate, independent project. The MVP covers only the **BS in Computer Science, 2026–27 catalog**.
 
+> **Scope update (2026-11-11):** the user added the **BS in Data Science and Analytics** with a major dropdown and a reset button. See `docs/superpowers/specs/2026-11-11-owlpath-multi-major-design.md`, which wins over this spec where they differ.
+
 These decisions were settled in a design interview on 2026-11-06. When a later change contradicts this file, update the file.
 
 ## Users and core job

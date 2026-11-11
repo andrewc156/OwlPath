@@ -63,7 +63,9 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
   background: var(--surface); border: 1.5px solid var(--border); border-left-width: 5px;
   overflow: hidden; cursor: pointer;
 }
-.course-id { font-weight: 600; font-size: 12px; }
+.course-id { font-weight: 600; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.choice-with { font-weight: 500; font-size: 10px; color: var(--muted); }
+.choice-note { padding: 6px 8px; border-left: 3px solid var(--accent); background: var(--bg); border-radius: 4px; }
 .course-title { font-size: 10px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .course-state { font-size: 10px; white-space: nowrap; }
 .ext-only { color: var(--muted); }
@@ -111,9 +113,13 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 
 .app-header { flex-wrap: wrap; }
 .filters { display: flex; gap: 12px; align-items: center; margin-left: auto; flex-wrap: wrap; }
-.filters select, .filters input, .course-list input {
+.filters select, .filters input, .course-list input, .major-picker select, .reset-button {
   font: inherit; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);
 }
+.major-picker select { font-weight: 600; }
+.reset-button { cursor: pointer; }
+.reset-button:hover:not(:disabled) { border-color: var(--text); }
+.reset-button:disabled { color: var(--muted); cursor: not-allowed; }
 .search { position: relative; }
 .search input { width: 240px; }
 .search-results {

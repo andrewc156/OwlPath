@@ -9,7 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
-    "build:sample": "tsc -b && vite build"
+    "build:sample": "tsc -b && VITE_ALLOW_SAMPLE=1 vite build"
   },
   "dependencies": {
     "@dagrejs/dagre": "^3.1.3",
