@@ -43,9 +43,9 @@ export function highlightSets(graph: Graph, selected: string): Highlight {
   return { selected, ancestors: reach([selected], back), descendants: reach([selected], fwd), takeWith }
 }
 
-/** The group's courses plus everything needed to reach them. */
-export function concentrationSet(graph: Graph, courses: NCourse[], group: Group): Set<string> {
-  const members = courses.filter((c) => c.groups.includes(group)).map((c) => c.id)
+/** Courses in any of `groups`, plus everything needed to reach them. */
+export function filterSet(graph: Graph, courses: NCourse[], groups: Group[]): Set<string> {
+  const members = courses.filter((c) => c.groups.some((g) => groups.includes(g))).map((c) => c.id)
   const { back } = adjacency(graph)
   return new Set([...members, ...reach(members, back)])
 }

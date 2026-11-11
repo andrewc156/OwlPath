@@ -2,7 +2,7 @@ import { expect, test } from 'vitest'
 import type { Group } from '../data/types'
 import { nodeState, type NodeState } from './eligibility'
 import { buildGraph } from './graph'
-import { concentrationSet, highlightSets } from './highlight'
+import { filterSet, highlightSets } from './highlight'
 import { layoutGraph } from './layout'
 import { sample } from './testSample'
 import { toFlow } from './view'
@@ -11,11 +11,12 @@ const g = buildGraph(sample.courses)
 const pos = layoutGraph(g)
 const states: Record<string, NodeState> = Object.fromEntries(sample.courses.map((c) => [c.id, nodeState(c, {})]))
 
-function flow(opts: { selected?: string; filter?: Group }) {
+function flow(opts: { selected?: string; filter?: Group; choices?: string[][] }) {
   return toFlow(g, pos, {
     highlight: opts.selected ? highlightSets(g, opts.selected) : null,
-    filter: opts.filter ? concentrationSet(g, sample.courses, opts.filter) : null,
+    filter: opts.filter ? filterSet(g, sample.courses, [opts.filter]) : null,
     states,
+    choices: opts.choices ?? [],
   })
 }
 const node = (f: ReturnType<typeof flow>, id: string) => f.nodes.find((n) => n.id === id)!
@@ -41,3 +42,10 @@ test('coreq edges are dashed and grade labels shown', () => {
 })
 
 test('node carries its eligibility state', () => expect(node(flow({}), 'CSE 1321').data.state).toBe('eligible-now'))
+
+test('course nodes carry their either/or partners', () => {
+  const f = flow({ choices: [['CSE 1321', 'MATH 2345']] })
+  expect(node(f, 'CSE 1321').data.choiceWith).toEqual(['MATH 2345'])
+  expect(node(f, 'MATH 2345').data.choiceWith).toEqual(['CSE 1321'])
+  expect(node(f, 'CS 3305').data.choiceWith).toEqual([])
+})

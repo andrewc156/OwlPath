@@ -1,26 +1,26 @@
 import { useState } from 'react'
-import type { Group, NCourse } from '../data/types'
+import type { FilterOption, NCourse } from '../data/types'
 import { searchCourses } from '../logic/search'
 
-export const FILTER_OPTIONS: { label: string; group: Group | null }[] = [
-  { label: 'All', group: null },
-  { label: 'Data Science', group: 'conc-data-science' },
-  { label: 'Cyber & Network Security', group: 'conc-cyber' },
-  { label: 'AI', group: 'conc-ai' },
-  { label: 'General electives', group: 'major-elective' },
-]
+/** `filter` is an index into `options` (the major's own filter list); null means All. */
+type Props = {
+  options: FilterOption[]
+  courses: NCourse[]
+  filter: number | null
+  onFilter: (i: number | null) => void
+  onSelect: (id: string) => void
+}
 
-type Props = { courses: NCourse[]; filter: Group | null; onFilter: (g: Group | null) => void; onSelect: (id: string) => void }
-
-export function Filters({ courses, filter, onFilter, onSelect }: Props) {
+export function Filters({ options, courses, filter, onFilter, onSelect }: Props) {
   const [query, setQuery] = useState('')
   const results = searchCourses(courses, query).slice(0, 8)
   return (
     <div className="filters">
       <label>
-        Concentration{' '}
-        <select value={filter ?? ''} onChange={(e) => onFilter((e.target.value || null) as Group | null)}>
-          {FILTER_OPTIONS.map((o) => <option key={o.label} value={o.group ?? ''}>{o.label}</option>)}
+        Show{' '}
+        <select value={filter ?? ''} onChange={(e) => onFilter(e.target.value === '' ? null : Number(e.target.value))}>
+          <option value="">All</option>
+          {options.map((o, i) => <option key={o.label} value={i}>{o.label}</option>)}
         </select>
       </label>
       <div className="search">

@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
 import { buildGraph } from './graph'
-import { concentrationSet, highlightSets } from './highlight'
+import { filterSet, highlightSets } from './highlight'
 import { sample } from './testSample'
 
 const g = buildGraph(sample.courses)
@@ -19,4 +19,10 @@ test('coreqs are takeWith only, not traversed', () => {
 })
 
 test('concentration set includes prereq chain', () =>
-  expect(courseIds(concentrationSet(g, sample.courses, 'conc-ai'))).toContain('MATH 1113'))
+  expect(courseIds(filterSet(g, sample.courses, ['conc-ai']))).toContain('MATH 1113'))
+
+test('filterSet unions several groups with their prereq chains', () => {
+  const ids = courseIds(filterSet(g, sample.courses, ['major-required', 'major-elective']))
+  expect(ids).toEqual(expect.arrayContaining(['CS 3305', 'CSE 4983', 'MATH 2345', 'CSE 1322']))
+  expect(ids).not.toContain('CS 3642')
+})

@@ -12,7 +12,10 @@ export function CourseNode({ data }: NodeProps<Node<CourseNodeData>>) {
   return (
     <div className={`course-node state-${data.state}`} title={title}>
       <Handle type="target" position={Position.Left} />
-      <div className="course-id">{data.courseId}</div>
+      <div className="course-id">
+        {data.courseId}
+        {data.choiceWith.length > 0 && <span className="choice-with"> or {data.choiceWith.join(' / ')}</span>}
+      </div>
       <div className="course-title">{title}</div>
       <div className="course-state">
         <span aria-hidden="true">{label.symbol}</span> {label.text}
