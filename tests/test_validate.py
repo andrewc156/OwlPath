@@ -9,8 +9,12 @@ def course(id, prereqs=None, coreqs=None, groups=("major-required",)):
     }
 
 
-def dataset(courses):
-    return {"catalogYear": "2026-2027", "source": "test", "courses": courses}
+PROGRAM = {"id": "bs-cs", "name": "BS Computer Science", "filters": [{"label": "AI", "groups": ["conc-ai"]}]}
+
+
+def dataset(courses, choices=()):
+    return {"catalogYear": "2026-2027", "source": "test", "program": PROGRAM,
+            "choices": [list(c) for c in choices], "courses": courses}
 
 
 def test_valid_dataset_has_no_errors():
@@ -52,3 +56,19 @@ def test_mutual_corequisites_are_allowed():
 def test_schema_violation_is_error():
     bad = course("CS 3305"); bad["groups"] = ["not-a-group"]
     assert validate_dataset(dataset([bad])) != []
+
+
+def test_missing_program_block_is_error():
+    d = dataset([course("CSE 1321")])
+    del d["program"]
+    assert validate_dataset(d)
+
+
+def test_choice_with_unknown_course_is_error():
+    d = dataset([course("CSE 1321")], choices=[("CSE 1321", "ZZZ 9999")])
+    assert "choices: unknown course ZZZ 9999" in validate_dataset(d)
+
+
+def test_choice_needs_two_courses():
+    d = dataset([course("CSE 1321")], choices=[("CSE 1321",)])
+    assert validate_dataset(d)

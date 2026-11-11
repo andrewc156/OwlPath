@@ -63,4 +63,5 @@ def validate_dataset(data: dict) -> list[str]:
                 if leaf is not None and leaf.get("minGrade") == DEFAULT_MIN_GRADE:
                     errors.append(f"{c['id']}: object leaf {ref} with grade C must use short form")
         prereq_graph[c["id"]] = [ref for ref, _ in _course_leaves(c["prereqs"]) if ref in ids]
+    errors += [f"choices: unknown course {ref}" for choice in data["choices"] for ref in choice if ref not in ids]
     return errors + _find_cycles(prereq_graph)
