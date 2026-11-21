@@ -36,7 +36,9 @@ function nodeClass(id: string, ctx: ViewCtx): string {
 export function toFlow(graph: Graph, { positions, routes }: Layout, ctx: ViewCtx): { nodes: Node[]; edges: Edge[] } {
   const classes = new Map(graph.nodes.map((n) => [n.id, nodeClass(n.id, ctx)]))
 
-  const nodes: Node[] = graph.nodes.filter((n) => !ctx.hidden.has(n.id)).map((n) => {
+  // A junction belongs to one course (its target), so it goes when that course is hidden.
+  const gone = new Set(graph.nodes.filter((n) => ctx.hidden.has(n.kind === 'junction' ? n.target : n.id)).map((n) => n.id))
+  const nodes: Node[] = graph.nodes.filter((n) => !gone.has(n.id)).map((n) => {
     const position = positions.get(n.id) ?? { x: 0, y: 0 }
     const className = classes.get(n.id)
     if (n.kind === 'course') {
@@ -56,7 +58,7 @@ export function toFlow(graph: Graph, { positions, routes }: Layout, ctx: ViewCtx
   // courses is selected; the detail panel lists coreqs either way.
   const showCoreq = (e: Graph['edges'][number]) => !!ctx.highlight && [e.source, e.target].includes(ctx.highlight.selected)
   const edges: Edge[] = graph.edges
-    .filter((e) => !ctx.hidden.has(e.source) && !ctx.hidden.has(e.target) && (e.kind === 'prereq' || showCoreq(e)))
+    .filter((e) => !gone.has(e.source) && !gone.has(e.target) && (e.kind === 'prereq' || showCoreq(e)))
     .map((e) => {
     const dimmed = classes.get(e.source) === 'dimmed' || classes.get(e.target) === 'dimmed'
     const edge: Edge = { id: e.id, source: e.source, target: e.target, className: dimmed ? 'dimmed' : '' }
