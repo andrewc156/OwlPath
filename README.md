@@ -10,14 +10,15 @@ OwlPath is inspired by GradGT, Georgia Tech's prerequisite chart, but built inde
 
 ## Majors covered
 
-Both use the 2026–27 catalog. Choose one from the dropdown.
+All use the 2026–27 catalogs (undergraduate or graduate). Choose one from the dropdown.
 
 | Major | Id |
 | --- | --- |
 | BS in Computer Science | `bs-cs` |
 | BS in Data Science and Analytics | `bs-dsa` |
+| MS in Data Science and Analytics | `ms-dsa` |
 
-Each map covers the major's core field of study, major requirements, concentrations (CS only) and listed electives, plus every course needed to reach them, including MATH and other prefixes.
+Each map covers the major's core field of study, major requirements, concentrations (CS only), listed electives and project courses (MS), plus every course needed to reach them, including MATH and other prefixes.
 
 ## How it works
 
@@ -36,8 +37,10 @@ tests/              pipeline tests
 data/
   schema/           courses.schema.json, the contract between pipeline and app
   2026-2027/
-    catalog/        saved course listing PDFs, shared by every major
-    bs-cs/ bs-dsa/  per major: program.json, overrides.json, courses.json, reports
+    catalog/
+      undergraduate/  saved undergraduate course listing PDFs
+      graduate/       saved graduate course listing PDFs
+    bs-cs/ bs-dsa/ ms-dsa/  per major: program.json, overrides.json, courses.json, reports
 web/                React + Vite + TypeScript app (React Flow + dagre)
 docs/               spec, design docs and build plans
 ```
@@ -69,7 +72,7 @@ python3.13 -m venv .venv
 .venv/bin/python -m owlpath_pipeline.banner bs-cs          # Banner cross-check
 ```
 
-The catalog site blocks automated clients, so course listings are saved by hand as PDFs: open the catalog's Courses listing, filter to one prefix, expand all courses and print to PDF as `data/<year>/catalog/<prefix>.pdf`. Each major's program page goes in `data/<year>/<major>/program-page.pdf`.
+The catalog site blocks automated clients, so course listings are saved by hand as PDFs: open the catalog's Courses listing, filter to one prefix, expand all courses and print to PDF as `data/<year>/catalog/<level>/<prefix>.pdf`, where `<level>` is `undergraduate` or `graduate`. Each major's `program.json` says which catalog it uses (`"level"`). Each major's program page goes in `data/<year>/<major>/program-page.pdf`.
 
 The catalog is the source of truth. Banner is only a cross-check, and every hand correction goes in the major's `overrides.json` with a reason. The Banner check fetches politely (it honors the site's crawl delay), so it runs slowly.
 
