@@ -3,9 +3,9 @@ import type { FocusRequest } from '../components/GraphView'
 import type { NDataset } from '../data/types'
 import { shownPartners } from './choices'
 import { buildGraph, type Graph } from './graph'
-import { layoutGraph, type Positions } from './layout'
+import { layoutGraph, type Layout } from './layout'
 
-export type ProgramView = { graph: Graph; positions: Positions; validIds: Set<string> }
+export type ProgramView = { graph: Graph; layout: Layout; validIds: Set<string> }
 
 const cache = new Map<string, ProgramView>()
 
@@ -14,7 +14,7 @@ export function programView(ds: NDataset): ProgramView {
   let view = cache.get(ds.program.id)
   if (!view) {
     const graph = buildGraph(ds.courses)
-    view = { graph, positions: layoutGraph(graph, shownPartners(ds.lessCommon, ds.choices)), validIds: new Set(ds.courses.map((c) => c.id)) }
+    view = { graph, layout: layoutGraph(graph, shownPartners(ds.lessCommon, ds.choices)), validIds: new Set(ds.courses.map((c) => c.id)) }
     cache.set(ds.program.id, view)
   }
   return view

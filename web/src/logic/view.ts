@@ -2,7 +2,7 @@ import type { Edge, Node } from '@xyflow/react'
 import type { NodeState } from './eligibility'
 import type { Graph } from './graph'
 import type { Highlight } from './highlight'
-import type { Positions } from './layout'
+import { routeKey, type Layout } from './layout'
 import { choicePartners } from './choices'
 
 export type ViewCtx = {
@@ -33,7 +33,7 @@ function nodeClass(id: string, ctx: ViewCtx): string {
   return ''
 }
 
-export function toFlow(graph: Graph, positions: Positions, ctx: ViewCtx): { nodes: Node[]; edges: Edge[] } {
+export function toFlow(graph: Graph, { positions, routes }: Layout, ctx: ViewCtx): { nodes: Node[]; edges: Edge[] } {
   const classes = new Map(graph.nodes.map((n) => [n.id, nodeClass(n.id, ctx)]))
 
   const nodes: Node[] = graph.nodes.filter((n) => !ctx.hidden.has(n.id)).map((n) => {
@@ -52,10 +52,19 @@ export function toFlow(graph: Graph, positions: Positions, ctx: ViewCtx): { node
     return { id: n.id, type: 'junction', position, data, className, selectable: false }
   })
 
-  const edges: Edge[] = graph.edges.filter((e) => !ctx.hidden.has(e.source) && !ctx.hidden.has(e.target)).map((e) => {
+  // Coreqs aren't in the layout, so their lines can cross unrelated courses. Show one only while one of its
+  // courses is selected; the detail panel lists coreqs either way.
+  const showCoreq = (e: Graph['edges'][number]) => !!ctx.highlight && [e.source, e.target].includes(ctx.highlight.selected)
+  const edges: Edge[] = graph.edges
+    .filter((e) => !ctx.hidden.has(e.source) && !ctx.hidden.has(e.target) && (e.kind === 'prereq' || showCoreq(e)))
+    .map((e) => {
     const dimmed = classes.get(e.source) === 'dimmed' || classes.get(e.target) === 'dimmed'
     const edge: Edge = { id: e.id, source: e.source, target: e.target, className: dimmed ? 'dimmed' : '' }
     if (e.kind === 'coreq') edge.style = { strokeDasharray: '6 4' }
+    else {
+      edge.type = 'routed'
+      edge.data = { points: routes.get(routeKey(e.source, e.target)) ?? [] }
+    }
     if (e.minGrade) edge.label = e.minGrade
     return edge
   })

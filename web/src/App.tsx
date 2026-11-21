@@ -37,7 +37,7 @@ export default function App() {
     selected: null, filter: null, focus: null,
   }))
   const dataset = byProgram.get(view.major) ?? programs[0]
-  const { graph, positions } = programView(dataset)
+  const { graph, layout } = programView(dataset)
   const small = useIsSmallScreen()
 
   const changeMajor = (id: string) => {
@@ -94,7 +94,7 @@ export default function App() {
             onSelect={setSelected} />
         ) : (
           <>
-            <GraphView key={dataset.program.id} graph={graph} positions={positions} ctx={ctx} focus={view.focus}
+            <GraphView key={dataset.program.id} graph={graph} layout={layout} ctx={ctx} focus={view.focus}
               onSelect={setSelected} />
             {panel}
           </>
