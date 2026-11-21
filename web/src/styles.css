@@ -77,11 +77,14 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 :is(.course-node, .course-list button).state-locked { border-left-color: var(--state-locked); }
 
 .junction-node {
-  width: 16px; height: 16px; border-radius: 50%; display: grid; place-items: center;
-  font-size: 7px; font-weight: 700; background: var(--surface); border: 1.5px solid var(--muted); position: relative;
+  width: 44px; height: 20px; border-radius: 10px; display: flex; align-items: center; justify-content: center; gap: 3px;
+  font-size: 9px; font-weight: 700; letter-spacing: .03em; color: var(--muted);
+  background: var(--surface); border: 1.5px solid var(--muted); cursor: help;
 }
-.junction-and { border-radius: 3px; }
-.junction-ext { position: absolute; top: -12px; left: 12px; font-size: 9px; color: var(--muted); }
+.junction-and { border-radius: 4px; }
+.junction-ext { font-weight: 500; }
+/* The map isn't editable, so connection dots only add clutter. */
+.react-flow__handle { opacity: 0; }
 
 .react-flow__node.dimmed { opacity: 0.25; }
 .react-flow__edge.dimmed { opacity: 0.15; }
