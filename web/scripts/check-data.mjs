@@ -55,7 +55,8 @@ export function checkPrograms(dataRoot) {
       continue
     }
     const spec = JSON.parse(readFileSync(new URL(`${id}/program.json`, dataRoot), 'utf8'))
-    if (!isDeepStrictEqual(spec.program, data.program) || !isDeepStrictEqual(spec.choices, data.choices)) {
+    if (!isDeepStrictEqual(spec.program, data.program) || !isDeepStrictEqual(spec.choices, data.choices)
+      || !isDeepStrictEqual(spec.lessCommon ?? [], data.lessCommon ?? [])) {
       ok = false
       messages.push(`refusing to build: ${id}/program.json changed since courses.json was built; rebuild with the pipeline`)
       continue

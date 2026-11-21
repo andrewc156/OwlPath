@@ -193,22 +193,6 @@
       "title": "Database Systems"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-      "catalogYear": "2026-2027",
-      "coreqs": null,
-      "credits": "3",
-      "description": "This course helps students gain practical experience through real-world projects and professional work. Students demonstrate an ability to apply computing principles and technologies relevant to their major in a specific real-world project jointly supervised by an industry mentor and a faculty advisor. Students work in a project team in an enterprise environment demonstrating ethical behavior as a computing professional, an understanding of social, professional and ethical issues related to computing, and an ability to integrate the knowledge acquired in preceding courses. Communication skills and leadership are also evaluated as well as professional computing skills and knowledge. 150+ hours per semester required at an internship site. The course can not be repeated for credit.",
-      "groups": [
-        "major-elective"
-      ],
-      "id": "CSE 4983",
-      "notes": [
-        "Senior standing"
-      ],
-      "prereqs": null,
-      "title": "CSE Computing Internship"
-    },
-    {
       "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
       "catalogYear": "2026-2027",
       "coreqs": null,
@@ -270,38 +254,6 @@
       "notes": [],
       "prereqs": "STAT 3130",
       "title": "Data Science Ethics"
-    },
-    {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-      "catalogYear": "2026-2027",
-      "coreqs": null,
-      "credits": "1-3",
-      "description": "This course is a supervised work experience program for a minimum of two academic semesters at a site in business, industry, or government. It is for sophomore, junior, or senior-level students who wish to obtain successive on-the-job experience in conjunction with their academic training.",
-      "groups": [
-        "major-elective"
-      ],
-      "id": "DATA 3396",
-      "notes": [
-        "Approval of the coordinator of cooperative education/internship"
-      ],
-      "prereqs": null,
-      "title": "Cooperative Study"
-    },
-    {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-      "catalogYear": "2026-2027",
-      "coreqs": null,
-      "credits": "1-9",
-      "description": "This course is a supervised, credit-earning work experience of one academic semester with a previously approved business firm, private agency, or government agency.",
-      "groups": [
-        "major-elective"
-      ],
-      "id": "DATA 3398",
-      "notes": [
-        "Approval of the program coordinator and department chair"
-      ],
-      "prereqs": null,
-      "title": "Internship"
     },
     {
       "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
@@ -665,6 +617,11 @@
       "title": "Applied Regression Analysis"
     }
   ],
+  "lessCommon": [
+    "CSE 2300",
+    "STAT 3125",
+    "DATA 4140"
+  ],
   "program": {
     "filters": [
       {
@@ -673,12 +630,6 @@
           "major-required"
         ],
         "label": "Required courses"
-      },
-      {
-        "groups": [
-          "major-elective"
-        ],
-        "label": "Electives"
       }
     ],
     "id": "bs-dsa",

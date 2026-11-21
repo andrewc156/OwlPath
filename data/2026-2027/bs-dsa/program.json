@@ -1,6 +1,6 @@
 {
   "catalogYear": "2026-2027",
-  "_comment": "From the 2026-27 Data Science and Analytics, B.S. program page (bs-dsa/program-page.pdf). 'Major Electives' also allows any DATA or STAT 4000-level course; only the listed ones are here. MATH 1179/1189 stay external (user ruling).",
+  "_comment": "From the 2026-27 Data Science and Analytics, B.S. program page (bs-dsa/program-page.pdf). 'Major Electives' also allows any DATA or STAT 4000-level course; only the listed ones are here. MATH 1179/1189 stay external (user ruling). Internships, co-op, undergraduate research and special topics are left out on purpose: they are rarely offered, run by permission, and have no fixed prerequisites, so they cluttered the map.",
   "program": {
     "id": "bs-dsa",
     "name": "BS Data Science and Analytics",
@@ -10,12 +10,6 @@
         "groups": [
           "core-field",
           "major-required"
-        ]
-      },
-      {
-        "label": "Electives",
-        "groups": [
-          "major-elective"
         ]
       }
     ]
@@ -42,6 +36,11 @@
       "DATA 4140"
     ]
   ],
+  "lessCommon": [
+    "CSE 2300",
+    "STAT 3125",
+    "DATA 4140"
+  ],
   "courses": {
     "CS 3410": [
       "major-required"
@@ -64,9 +63,6 @@
     "CSE 3153": [
       "major-required"
     ],
-    "CSE 4983": [
-      "major-elective"
-    ],
     "DATA 3010": [
       "major-required"
     ],
@@ -75,12 +71,6 @@
     ],
     "DATA 3300": [
       "major-required"
-    ],
-    "DATA 3396": [
-      "major-elective"
-    ],
-    "DATA 3398": [
-      "major-elective"
     ],
     "DATA 4000": [
       "major-required"

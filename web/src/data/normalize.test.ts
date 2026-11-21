@@ -30,4 +30,5 @@ test('program and choices are carried through', () => {
   const n = normalize(sample)
   expect(n.program.id).toBe('bs-cs')
   expect(n.choices).toEqual([])
+  expect(n.lessCommon).toEqual(new Set())
 })

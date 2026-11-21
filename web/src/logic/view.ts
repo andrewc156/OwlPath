@@ -11,6 +11,8 @@ export type ViewCtx = {
   states: Record<string, NodeState>
   /** The major's either/or program requirements. */
   choices: string[][]
+  /** Courses left off the map (less common either/or options); their edges go too. */
+  hidden: Set<string>
 }
 
 export type CourseNodeData = { courseId: string; state: NodeState; externalOnlyGroups: number; choiceWith: string[] }
@@ -24,6 +26,7 @@ function nodeClass(id: string, ctx: ViewCtx): string {
     if (h.ancestors.has(id)) return 'ancestor'
     if (h.descendants.has(id)) return 'descendant'
     if (h.takeWith.has(id)) return 'take-with'
+    if (choicePartners(ctx.choices, h.selected).includes(id)) return 'alternative'
     return 'dimmed'
   }
   if (ctx.filter && !ctx.filter.has(id)) return 'dimmed'
@@ -33,7 +36,7 @@ function nodeClass(id: string, ctx: ViewCtx): string {
 export function toFlow(graph: Graph, positions: Positions, ctx: ViewCtx): { nodes: Node[]; edges: Edge[] } {
   const classes = new Map(graph.nodes.map((n) => [n.id, nodeClass(n.id, ctx)]))
 
-  const nodes: Node[] = graph.nodes.map((n) => {
+  const nodes: Node[] = graph.nodes.filter((n) => !ctx.hidden.has(n.id)).map((n) => {
     const position = positions.get(n.id) ?? { x: 0, y: 0 }
     const className = classes.get(n.id)
     if (n.kind === 'course') {
@@ -49,7 +52,7 @@ export function toFlow(graph: Graph, positions: Positions, ctx: ViewCtx): { node
     return { id: n.id, type: 'junction', position, data, className, selectable: false }
   })
 
-  const edges: Edge[] = graph.edges.map((e) => {
+  const edges: Edge[] = graph.edges.filter((e) => !ctx.hidden.has(e.source) && !ctx.hidden.has(e.target)).map((e) => {
     const dimmed = classes.get(e.source) === 'dimmed' || classes.get(e.target) === 'dimmed'
     const edge: Edge = { id: e.id, source: e.source, target: e.target, className: dimmed ? 'dimmed' : '' }
     if (e.kind === 'coreq') edge.style = { strokeDasharray: '6 4' }

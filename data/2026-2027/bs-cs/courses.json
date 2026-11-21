@@ -339,79 +339,6 @@
     {
       "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
       "catalogYear": "2026-2027",
-      "coreqs": null,
-      "credits": "3",
-      "description": "This course provides the current and relevant topics in an advanced Computer Science area of interest to faculty.",
-      "groups": [
-        "conc-ai",
-        "conc-data-science",
-        "conc-cyber"
-      ],
-      "id": "CS 4491",
-      "notes": [
-        "Prerequisites vary by topic (C or better in each)"
-      ],
-      "prereqs": null,
-      "title": "Advanced Topics in Computer Science"
-    },
-    {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-      "catalogYear": "2026-2027",
-      "coreqs": null,
-      "credits": "3",
-      "description": "This course promotes undergraduate research in Computer Science. Students develop research ideas and conduct research work to investigate topics aligned with the department\u2019s research plan and with the guidance of Computer Science faculty members. Students document their findings in final reports, present their findings, and prepare research papers for publication in appropriate venues.",
-      "groups": [
-        "conc-ai",
-        "conc-data-science",
-        "conc-cyber"
-      ],
-      "id": "CS 4492",
-      "notes": [
-        "Department permission"
-      ],
-      "prereqs": {
-        "or": [
-          "CS 4265",
-          "AI 4267",
-          {
-            "external": "CS 4270"
-          },
-          {
-            "external": "CS 4322"
-          },
-          "CS 4412",
-          "CS 4504",
-          {
-            "external": "CS 4512"
-          },
-          {
-            "external": "CS 4514"
-          },
-          "CS 4522",
-          {
-            "external": "CS 4523"
-          },
-          "CS 4524",
-          "CS 4612",
-          "CS 4622",
-          {
-            "external": "CS 4632"
-          },
-          {
-            "external": "CS 4712"
-          },
-          {
-            "external": "CS 4720"
-          },
-          "CS 4722",
-          "AI 4732"
-        ]
-      },
-      "title": "Undergraduate Research"
-    },
-    {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-      "catalogYear": "2026-2027",
       "coreqs": "CS 3502",
       "credits": "3",
       "description": "This course introduces students to the fundamental principles common to the design and implementation of programs that run on two or more interconnected computer systems - in parallel or distributed configurations. Topics to be covered include: essentials of operating systems, network protocols for process communication, and synchronization using message queues; understanding of client-server paradigms, web-based group or collaborative communication systems; advanced distributed computing paradigms for parallel computing and handling concurrency issues; and sockets. Programming will focus on using API\u2019s for parallel or distributed applications (e.g., MPI and RMI).",
@@ -653,25 +580,6 @@
         ]
       },
       "title": "Professional Practices and Ethics"
-    },
-    {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-      "catalogYear": "2026-2027",
-      "coreqs": null,
-      "credits": "3",
-      "description": "This course helps students gain practical experience through real-world projects and professional work. Students demonstrate an ability to apply computing principles and technologies relevant to their major in a specific real-world project jointly supervised by an industry mentor and a faculty advisor. Students work in a project team in an enterprise environment demonstrating ethical behavior as a computing professional, an understanding of social, professional and ethical issues related to computing, and an ability to integrate the knowledge acquired in preceding courses. Communication skills and leadership are also evaluated as well as professional computing skills and knowledge. 150+ hours per semester required at an internship site. The course can not be repeated for credit.",
-      "groups": [
-        "major-elective",
-        "conc-ai",
-        "conc-data-science",
-        "conc-cyber"
-      ],
-      "id": "CSE 4983",
-      "notes": [
-        "Senior standing"
-      ],
-      "prereqs": null,
-      "title": "CSE Computing Internship"
     },
     {
       "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ENGL&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
@@ -1079,6 +987,7 @@
       "title": "Technical Writing"
     }
   ],
+  "lessCommon": [],
   "program": {
     "filters": [
       {

@@ -44,6 +44,8 @@ export interface Dataset {
   program: Program
   /** Either/or program requirements: take one course from each list. */
   choices: string[][]
+  /** Either/or options most students skip; hidden on the map until needed. Absent means none. */
+  lessCommon?: string[]
   courses: Course[]
 }
 
@@ -58,6 +60,7 @@ export type NDataset = {
   source: string
   program: Program
   choices: string[][]
+  lessCommon: Set<string>
   courses: NCourse[]
   byId: Map<string, NCourse>
 }
