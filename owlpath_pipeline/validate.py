@@ -64,4 +64,35 @@ def validate_dataset(data: dict) -> list[str]:
                     errors.append(f"{c['id']}: object leaf {ref} with grade C must use short form")
         prereq_graph[c["id"]] = [ref for ref, _ in _course_leaves(c["prereqs"]) if ref in ids]
     errors += [f"choices: unknown course {ref}" for choice in data["choices"] for ref in choice if ref not in ids]
+    errors += _check_less_common(data, ids)
     return errors + _find_cycles(prereq_graph)
+
+
+def _required_refs(logic: Logic | None, under_or: bool = False) -> Iterator[str]:
+    """Course ids that must be taken: every in-graph leaf not inside an `or`."""
+    if logic is None:
+        return
+    if isinstance(logic, str):
+        if not under_or:
+            yield logic
+    elif "and" in logic or "or" in logic:
+        for child in logic.get("and", logic.get("or", [])):
+            yield from _required_refs(child, under_or or "or" in logic)
+    elif "course" in logic and not under_or:
+        yield logic["course"]
+
+
+def _check_less_common(data: dict, ids: set[str]) -> list[str]:
+    """A hidden option must belong to an either/or with a shown option, and never be a required prerequisite,
+    or hiding it would hide something a student has to take."""
+    hidden = set(data.get("lessCommon", []))
+    errors = [f"lessCommon: unknown course {h}" for h in sorted(hidden - ids)]
+    for h in sorted(hidden & ids):
+        if not any(h in choice and any(o not in hidden for o in choice) for choice in data["choices"]):
+            errors.append(f"lessCommon: {h} needs an either/or requirement with a shown option")
+    for c in data["courses"]:
+        for field in ("prereqs", "coreqs"):
+            for ref in _required_refs(c[field]):
+                if ref in hidden:
+                    errors.append(f"lessCommon: {ref} is a required {field[:-1]} of {c['id']}, so it can't be hidden")
+    return errors

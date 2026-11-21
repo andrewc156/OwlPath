@@ -1,11 +1,16 @@
 import type { NCourse, NExpr } from '../data/types'
 import type { Status, StatusMap } from '../logic/eligibility'
+import { usualNote } from '../logic/choices'
 import { describeLogic } from '../logic/describe'
 
 type Props = {
   course: NCourse
   /** Other courses that satisfy the same either/or program requirement. */
   choiceWith: string[]
+  /** Options most students skip, so the panel can say which one is usual. */
+  lessCommon: Set<string>
+  /** Open another course, e.g. the other option of an either/or. */
+  onSelectCourse: (id: string) => void
   status: StatusMap
   onStatus: (id: string, s: Status) => void
   onClose: () => void
@@ -24,7 +29,7 @@ function courseLeaves(expr: NExpr | null, out: string[] = []): string[] {
   return out
 }
 
-export function DetailPanel({ course, choiceWith, status, onStatus, onClose }: Props) {
+export function DetailPanel({ course, choiceWith, lessCommon, onSelectCourse, status, onStatus, onClose }: Props) {
   const current = status[course.id] ?? 'not-taken'
   const coreqIds = [...new Set(courseLeaves(course.coreqs))]
   return (
@@ -35,7 +40,17 @@ export function DetailPanel({ course, choiceWith, status, onStatus, onClose }: P
       <p className="muted">{course.credits} credit hours</p>
       <p>{course.description}</p>
       {choiceWith.length > 0 && (
-        <p className="choice-note">Program requirement: take one of {course.id} or {choiceWith.join(' or ')}.</p>
+        <p className="choice-note">
+          Program requirement: take one of {course.id} or{' '}
+          {choiceWith.map((id, i) => (
+            <span key={id}>
+              {i > 0 && ' or '}
+              <button className="link-button" onClick={() => onSelectCourse(id)}>{id}</button>
+            </span>
+          ))}
+          .{' '}
+          {usualNote(course.id, choiceWith, lessCommon)}
+        </p>
       )}
 
       <h3>Prerequisites</h3>

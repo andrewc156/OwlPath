@@ -72,3 +72,32 @@ def test_choice_with_unknown_course_is_error():
 def test_choice_needs_two_courses():
     d = dataset([course("CSE 1321")], choices=[("CSE 1321",)])
     assert validate_dataset(d)
+
+
+def less_common(hidden, choices, courses):
+    return {**dataset(courses, choices=choices), "lessCommon": list(hidden)}
+
+
+def test_less_common_inside_or_is_valid():
+    d = less_common(["BB 1000"], [("AA 1000", "BB 1000")],
+                    [course("AA 1000"), course("BB 1000"), course("CC 2000", prereqs={"or": ["AA 1000", "BB 1000"]})])
+    assert validate_dataset(d) == []
+
+
+def test_less_common_must_be_in_a_choice_with_a_shown_option():
+    d = less_common(["BB 1000"], [], [course("AA 1000"), course("BB 1000")])
+    assert "lessCommon: BB 1000 needs an either/or requirement with a shown option" in validate_dataset(d)
+    d = less_common(["AA 1000", "BB 1000"], [("AA 1000", "BB 1000")], [course("AA 1000"), course("BB 1000")])
+    assert validate_dataset(d)
+
+
+def test_less_common_cannot_be_a_required_prereq():
+    d = less_common(["BB 1000"], [("AA 1000", "BB 1000")],
+                    [course("AA 1000"), course("BB 1000"),
+                     course("CC 2000", prereqs={"and": [{"course": "BB 1000", "minGrade": "B"}, "AA 1000"]})])
+    assert "lessCommon: BB 1000 is a required prereq of CC 2000, so it can't be hidden" in validate_dataset(d)
+
+
+def test_less_common_unknown_course_is_error():
+    d = less_common(["ZZZ 9999"], [], [course("AA 1000")])
+    assert "lessCommon: unknown course ZZZ 9999" in validate_dataset(d)

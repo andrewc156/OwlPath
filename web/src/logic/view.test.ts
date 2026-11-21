@@ -11,12 +11,13 @@ const g = buildGraph(sample.courses)
 const pos = layoutGraph(g)
 const states: Record<string, NodeState> = Object.fromEntries(sample.courses.map((c) => [c.id, nodeState(c, {})]))
 
-function flow(opts: { selected?: string; filter?: Group; choices?: string[][] }) {
+function flow(opts: { selected?: string; filter?: Group; choices?: string[][]; hidden?: string[] }) {
   return toFlow(g, pos, {
     highlight: opts.selected ? highlightSets(g, opts.selected) : null,
     filter: opts.filter ? filterSet(g, sample.courses, [opts.filter]) : null,
     states,
     choices: opts.choices ?? [],
+    hidden: new Set(opts.hidden ?? []),
   })
 }
 const node = (f: ReturnType<typeof flow>, id: string) => f.nodes.find((n) => n.id === id)!
@@ -48,4 +49,15 @@ test('course nodes carry their either/or partners', () => {
   expect(node(f, 'CSE 1321').data.choiceWith).toEqual(['MATH 2345'])
   expect(node(f, 'MATH 2345').data.choiceWith).toEqual(['CSE 1321'])
   expect(node(f, 'CS 3305').data.choiceWith).toEqual([])
+})
+
+test('hidden courses and their edges are left out', () => {
+  const f = flow({ hidden: ['CSE 1321'] })
+  expect(f.nodes.find((n) => n.id === 'CSE 1321')).toBeUndefined()
+  expect(f.edges.some((e) => e.source === 'CSE 1321' || e.target === 'CSE 1321')).toBe(false)
+})
+
+test('the other option of a selected course is marked, not dimmed', () => {
+  const f = flow({ selected: 'CS 3305', choices: [['CS 3305', 'CSE 4983']] })
+  expect(cls(f, 'CSE 4983')).toBe('alternative')
 })

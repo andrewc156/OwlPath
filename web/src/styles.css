@@ -65,6 +65,7 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 }
 .course-id { font-weight: 600; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .choice-with { font-weight: 500; font-size: 10px; color: var(--muted); }
+.link-button { border: 0; padding: 0; background: none; color: var(--accent); font: inherit; text-decoration: underline; cursor: pointer; }
 .choice-note { padding: 6px 8px; border-left: 3px solid var(--accent); background: var(--bg); border-radius: 4px; }
 .course-title { font-size: 10px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .course-state { font-size: 10px; white-space: nowrap; }
@@ -89,6 +90,7 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 .react-flow__node.ancestor .course-node { border-top-color: var(--ancestor); border-right-color: var(--ancestor); border-bottom-color: var(--ancestor); }
 .react-flow__node.descendant .course-node { border-top-color: var(--descendant); border-right-color: var(--descendant); border-bottom-color: var(--descendant); }
 .react-flow__node.take-with .course-node { border-top-style: dashed; border-right-style: dashed; border-bottom-style: dashed; border-top-color: var(--take-with); border-right-color: var(--take-with); border-bottom-color: var(--take-with); }
+.react-flow__node.alternative .course-node { border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted; border-top-color: var(--accent); border-right-color: var(--accent); border-bottom-color: var(--accent); }
 .react-flow__node.ancestor .junction-node { border-color: var(--ancestor); }
 .react-flow__node.descendant .junction-node { border-color: var(--descendant); }
 

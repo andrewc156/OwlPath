@@ -35,9 +35,10 @@ web/                      Vite + React + TS app
 
 ## Data schema
 
-Each `data/2026-2027/<major>/courses.json` is `{ catalogYear, source, program, choices, courses: Course[] }`.
+Each `data/2026-2027/<major>/courses.json` is `{ catalogYear, source, program, choices, lessCommon, courses: Course[] }`.
 - `program` is `{ id, name, filters: { label, groups: Group[] }[] }`; it gives the dropdown name and the "Show" filter options.
 - `choices` is `string[][]`, the major's either/or requirements (take one course from each list). Every id must be a course in the dataset.
+- `lessCommon` is `string[]` (optional in `program.json`, default `[]`): either/or options most students skip. The map hides them until the popular option is selected, the hidden one is opened from search, or the student marks it. The layout puts each one in its popular partner's column. Each must share a choice with a shown option and may only appear inside an `or` in other courses' prerequisites, so hiding it never hides a required course.
 
 ```ts
 type Grade = "A" | "B" | "C" | "D";
@@ -89,4 +90,4 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
   - `.venv/bin/python -m owlpath_pipeline.build <major> [--draft]` (e.g. `bs-dsa`) builds that major's `courses.json` and `build-report.md`. Without `--draft` it only writes `courses.json` when there are no unresolved warnings.
   - `.venv/bin/python -m owlpath_pipeline.banner <major>` writes that major's `banner-diff.md`. It fetches politely (about 2 minutes per uncached course), so run it in the background.
 - **Catalog input:** catalog.kennesaw.edu blocks automated clients (HTTP 202), so the course data comes from PDFs saved by hand. In a browser, open the catalog's Courses listing, filter to one prefix, expand all courses, and print to PDF as `data/<year>/catalog/<prefix>.pdf`. Each major's program page goes in `data/<year>/<major>/program-page.pdf`, outside `catalog/`, because every PDF in `catalog/` is read as a course listing.
-- **Adding a major:** add its id to `config.PROGRAMS`, write `data/<year>/<id>/program.json` (with `program` and `choices`) from its program page, save any missing listing PDFs, then follow the same review: draft build, overrides with reasons, strict build, Banner check, spot-check with the user.
+- **Adding a major:** add its id to `config.PROGRAMS`, write `data/<year>/<id>/program.json` (with `program`, `choices` and, when the user names the popular options, `lessCommon`) from its program page, save any missing listing PDFs, then follow the same review: draft build, overrides with reasons, strict build, Banner check, spot-check with the user.

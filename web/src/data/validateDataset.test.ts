@@ -44,3 +44,12 @@ test('choices must name courses in the dataset', () => {
   const d = clone(); d.choices = [['CSE 1321', 'ZZZ 9999']]
   expect(validateDataset(d)).toContain('choices: unknown course ZZZ 9999')
 })
+
+test('lessCommon must name a course with a shown either/or partner', () => {
+  const d = clone(); d.choices = [['CSE 1321', 'CSE 1322']]; d.lessCommon = ['CSE 1322']
+  expect(validateDataset(d)).toEqual([])
+  d.lessCommon = ['CSE 1321', 'CSE 1322']
+  expect(validateDataset(d)).toContain('lessCommon: CSE 1322 needs an either/or requirement with a shown option')
+  d.lessCommon = ['ZZZ 9999']
+  expect(validateDataset(d)).toContain('lessCommon: unknown course ZZZ 9999')
+})

@@ -61,6 +61,13 @@ test('courses.json must be rebuilt after program.json changes', () => {
   expect(r.messages.join('\n')).toMatch(/bs-cs.*rebuild/)
 })
 
+test('courses.json must be rebuilt after lessCommon changes', () => {
+  const stale = { program: real('bs-cs').program, choices: [], lessCommon: ['CSE 1321'], courses: {} }
+  const r = checkPrograms(root({ 'bs-cs': real('bs-cs') }, { programJson: { 'bs-cs': stale } }))
+  expect(r.ok).toBe(false)
+  expect(r.messages.join('\n')).toMatch(/bs-cs.*rebuild/)
+})
+
 test('the app bundles the same data folder the guard checks', () => {
   const year = (file: string) => readFileSync(new URL(file, import.meta.url), 'utf8').match(/data\/(\d{4}-\d{4})\//g)
   const app = year('../src/data/dataset.ts')

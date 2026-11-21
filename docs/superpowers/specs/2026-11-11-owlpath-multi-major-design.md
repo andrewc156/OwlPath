@@ -69,7 +69,7 @@ The current CS files move into `bs-cs/` unchanged. The CS dataset's courses stay
 **BSDSA program list** (from `bs-dsa/program-page.pdf`; the credit totals check out at 18 + 37 + 6):
 - core-field: MATH 2202, CSE 2300, MATH 2345, STAT 1401, STAT 2332, CSE 1321, CSE 1321L, CSE 1322, CSE 1322L
 - major-required: DATA 3010, STAT 3120, STAT 3125, STAT 3130, DATA 3230, MATH 3260, DATA 3300, CSE 3153, CS 3410, DATA 4000, DATA 4030, DATA 4140, STAT 4210, DATA 4310, DATA 4990
-- major-elective: DATA 3396, DATA 3398, CSE 4983 (the page also allows any DATA or STAT 4000-level course, which isn't listed)
+- major-elective: none on the map. The page lists DATA 3396, DATA 3398 and CSE 4983 and also allows any DATA or STAT 4000-level course. The three listed ones were dropped on 2026-11-20 at the user's request: co-op, internships, undergraduate research and special topics are rarely offered, run by permission, and have no fixed prerequisites, so dagre put them in the leftmost column. CS 4491, CS 4492 and CSE 4983 were dropped from BS CS for the same reason. With no electives left, BS DSA has no "Electives" filter.
 - gen-ed-math: MATH 1113, MATH 1190. The user's earlier ruling stands: MATH 1179 and MATH 1189 stay as text, never nodes.
 
 **Catalog input.** BSDSA needs `catalog/data.pdf`, the DATA listing saved the same way as the others. If the DATA prerequisites name another missing prefix, the build reports it and the user saves that listing too.
@@ -132,3 +132,12 @@ The current CS files move into `bs-cs/` unchanged. The CS dataset's courses stay
 
 - Exact visual styling of the choice line and the reset button, using the existing tokens, with readable contrast in both themes.
 - Order of majors in the dropdown: CS first, then by name.
+
+## Addendum (2026-11-20): less common options
+
+The user asked to show the popular option of each either/or requirement and hide the rest. `program.json` gains an optional `lessCommon: string[]`. The pipeline copies it into `courses.json`, always writing `[]` when it's absent, and the build check compares it like `choices`. BS DSA hides CSE 2300 (behind MATH 2345), STAT 3125 (behind STAT 3120) and DATA 4140 (behind DATA 4030), per the user. The user said STAT 1401/STAT 2332 and CSE 3153/CS 3410 are about even, so both options in those pairs stay visible.
+
+- A hidden course and its edges are left off the map. It comes back when it or one of its partners is selected, and it stays visible once the student marks it in progress or complete.
+- When a partner is selected, the revealed course gets the `alternative` class (dotted gold border) instead of being dimmed. The detail panel links to the other options and says which one most students take.
+- The layout gives each hidden course its partner's incoming edges, so the revealed course sits in the same column, usually right next to its partner.
+- The validators require each hidden course to share a choice with a shown option and never be a required (non-`or`) prerequisite or corequisite.

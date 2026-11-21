@@ -82,7 +82,8 @@ def _check_overrides(overrides: dict, graph: set[str]) -> None:
 
 def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCourse],
                   overrides: dict, meta: dict) -> tuple[dict, list[str]]:
-    """meta = {"program": {...}, "choices": [[id, ...], ...]}, copied to the output as-is."""
+    """meta = {"program": {...}, "choices": [[id, ...], ...], "lessCommon": [id, ...]}, copied to the output as-is.
+    lessCommon is optional and defaults to []."""
     for choice in meta["choices"]:
         for cid in choice:
             if cid not in program:
@@ -136,7 +137,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
 
     warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides]
     return {"catalogYear": config.CATALOG_YEAR, "source": SOURCE, "program": meta["program"],
-            "choices": meta["choices"], "courses": courses}, warnings
+            "choices": meta["choices"], "lessCommon": meta.get("lessCommon", []), "courses": courses}, warnings
 
 
 def catalog_get_raw(directory=config.CATALOG_PDF_DIR) -> Callable[[str], RawCourse]:
@@ -172,7 +173,7 @@ def main(argv: list[str]) -> int:
     out = config.program_dir(args.program)
     spec = json.loads((out / "program.json").read_text())
     overrides = json.loads((out / "overrides.json").read_text())
-    meta = {"program": spec["program"], "choices": spec["choices"]}
+    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", [])}
     dataset, warnings = build_dataset(spec["courses"], catalog_get_raw(), overrides, meta)
     errors = validate_dataset(dataset)
 

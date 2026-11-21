@@ -1,6 +1,7 @@
 // Per-major view data and the pure rules behind the header controls.
 import type { FocusRequest } from '../components/GraphView'
 import type { NDataset } from '../data/types'
+import { shownPartners } from './choices'
 import { buildGraph, type Graph } from './graph'
 import { layoutGraph, type Positions } from './layout'
 
@@ -13,7 +14,7 @@ export function programView(ds: NDataset): ProgramView {
   let view = cache.get(ds.program.id)
   if (!view) {
     const graph = buildGraph(ds.courses)
-    view = { graph, positions: layoutGraph(graph), validIds: new Set(ds.courses.map((c) => c.id)) }
+    view = { graph, positions: layoutGraph(graph, shownPartners(ds.lessCommon, ds.choices)), validIds: new Set(ds.courses.map((c) => c.id)) }
     cache.set(ds.program.id, view)
   }
   return view

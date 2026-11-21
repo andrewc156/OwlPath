@@ -66,5 +66,16 @@ export function validateDataset(data) {
       for (const id of choice) if (!ids.has(id)) errors.push(`choices: unknown course ${id}`)
     }
   }
+  const hidden = data.lessCommon ?? []
+  if (!Array.isArray(hidden)) {
+    errors.push('lessCommon must be an array')
+  } else {
+    for (const id of hidden) {
+      if (!ids.has(id)) errors.push(`lessCommon: unknown course ${id}`)
+      const shown = Array.isArray(data.choices) && data.choices.some(
+        (ch) => Array.isArray(ch) && ch.includes(id) && ch.some((o) => !hidden.includes(o)))
+      if (!shown) errors.push(`lessCommon: ${id} needs an either/or requirement with a shown option`)
+    }
+  }
   return errors
 }

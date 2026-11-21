@@ -8,7 +8,7 @@ import { MajorPicker } from './components/MajorPicker'
 import { ResetButton } from './components/ResetButton'
 import { useIsSmallScreen } from './components/useIsSmallScreen'
 import { loadPrograms } from './data/dataset'
-import { choicePartners } from './logic/choices'
+import { choicePartners, hiddenCourses } from './logic/choices'
 import { nodeState } from './logic/eligibility'
 import { filterSet, highlightSets } from './logic/highlight'
 import { allCourseIds, programView, switchMajor, type MajorState } from './logic/programView'
@@ -60,16 +60,21 @@ export default function App() {
     [dataset, status],
   )
   const selectedCourse = view.selected ? dataset.byId.get(view.selected) : undefined
+  const hidden = useMemo(
+    () => hiddenCourses(dataset.lessCommon, dataset.choices, status, selectedCourse?.id ?? null),
+    [dataset, status, selectedCourse],
+  )
   const ctx: ViewCtx = useMemo(
     () => ({
       highlight: selectedCourse ? highlightSets(graph, selectedCourse.id) : null,
-      filter: visible, states, choices: dataset.choices,
+      filter: visible, states, choices: dataset.choices, hidden,
     }),
-    [graph, selectedCourse, visible, states, dataset],
+    [graph, selectedCourse, visible, states, dataset, hidden],
   )
 
   const panel = selectedCourse && (
     <DetailPanel course={selectedCourse} choiceWith={choicePartners(dataset.choices, selectedCourse.id)}
+      lessCommon={dataset.lessCommon} onSelectCourse={selectFromSearch}
       status={status} onStatus={setStatus} onClose={() => setSelected(null)} />
   )
 
@@ -85,7 +90,8 @@ export default function App() {
       </header>
       <main className="app-main">
         {small ? (
-          panel ?? <CourseList courses={dataset.courses} states={states} visible={visible} onSelect={setSelected} />
+          panel ?? <CourseList courses={dataset.courses.filter((c) => !hidden.has(c.id))} states={states} visible={visible}
+            onSelect={setSelected} />
         ) : (
           <>
             <GraphView key={dataset.program.id} graph={graph} positions={positions} ctx={ctx} focus={view.focus}

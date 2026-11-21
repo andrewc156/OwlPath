@@ -31,6 +31,10 @@
       "type": "array",
       "items": { "type": "array", "minItems": 2, "uniqueItems": true, "items": { "$ref": "#/$defs/courseId" } }
     },
+    "lessCommon": {
+      "description": "Either/or options most students skip. Hidden on the map until the popular option is selected or the student marks them. Optional; absent means none.",
+      "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/courseId" }
+    },
     "courses": { "type": "array", "items": { "$ref": "#/$defs/course" } }
   },
   "$defs": {

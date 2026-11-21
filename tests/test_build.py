@@ -135,7 +135,9 @@ def test_cli_keeps_reviewed_dataset_when_warnings_remain(tmp_path, monkeypatch):
 def test_meta_is_copied_to_output():
     pages = Pages(raw("CS 3305"))
     ds, _ = build_dataset({"CS 3305": ["major-required"]}, pages, {}, META)
-    assert ds["program"] == META["program"] and ds["choices"] == META["choices"]
+    assert ds["program"] == META["program"] and ds["choices"] == META["choices"] and ds["lessCommon"] == []
+    ds, _ = build_dataset({"CS 3305": ["major-required"]}, pages, {}, {**META, "lessCommon": ["CS 3305"]})
+    assert ds["lessCommon"] == ["CS 3305"]
 
 
 def test_choice_not_in_program_is_error():

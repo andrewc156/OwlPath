@@ -8,14 +8,6 @@
     ]},
     "notes": []
   },
-  "DATA 3396": {
-    "reason": "Approval only, no course prerequisite; reworded as a note.",
-    "notes": ["Approval of the coordinator of cooperative education/internship"]
-  },
-  "DATA 3398": {
-    "reason": "Approval only; the parser split one approval at 'and', rejoined as one note.",
-    "notes": ["Approval of the program coordinator and department chair"]
-  },
   "STAT 3125": {
     "reason": "Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked.",
     "notes": ["Or permission of the instructor"]

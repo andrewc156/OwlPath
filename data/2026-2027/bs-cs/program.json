@@ -1,6 +1,6 @@
 {
   "catalogYear": "2026-2027",
-  "_comment": "From the 2026-27 Computer Science, B.S. program page (bs-cs/program-page.pdf). 'Major Electives' also allows any CS 3000-4000 course; only the listed ones are here.",
+  "_comment": "From the 2026-27 Computer Science, B.S. program page (bs-cs/program-page.pdf). 'Major Electives' also allows any CS 3000-4000 course; only the listed ones are here. Internships, co-op, undergraduate research and special topics are left out on purpose: they are rarely offered, run by permission, and have no fixed prerequisites, so they cluttered the map.",
   "program": {
     "id": "bs-cs",
     "name": "BS Computer Science",
@@ -81,16 +81,6 @@
     "CS 4422": [
       "conc-data-science"
     ],
-    "CS 4491": [
-      "conc-ai",
-      "conc-data-science",
-      "conc-cyber"
-    ],
-    "CS 4492": [
-      "conc-ai",
-      "conc-data-science",
-      "conc-cyber"
-    ],
     "CS 4504": [
       "major-required"
     ],
@@ -129,12 +119,6 @@
     ],
     "CSE 3801": [
       "major-required"
-    ],
-    "CSE 4983": [
-      "major-elective",
-      "conc-ai",
-      "conc-data-science",
-      "conc-cyber"
     ],
     "IT 4823": [
       "conc-cyber"
