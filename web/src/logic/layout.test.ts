@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
 import { buildGraph } from './graph'
-import { layoutGraph, routeKey, smoothPath } from './layout'
+import { COURSE_SIZE, JUNCTION_SIZE, layoutGraph, routeKey, smoothPath } from './layout'
 import { sample } from './testSample'
 
 const g = buildGraph(sample.courses)
@@ -30,7 +30,7 @@ test('smoothPath passes through every point and leaves each one level', () => {
 test('routes change height only between columns', () => {
   const half = new Map<number, number>()
   for (const [id, p] of pos) {
-    const h = id.startsWith('j:') ? 8 : 80
+    const h = (id.startsWith('j:') ? JUNCTION_SIZE : COURSE_SIZE).width / 2
     half.set(p.x + h, Math.max(half.get(p.x + h) ?? 0, h))
   }
   const inColumn = (x: number) => [...half].some(([c, h]) => Math.abs(x - c) < h - 0.5)

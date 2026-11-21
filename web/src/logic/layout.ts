@@ -11,7 +11,7 @@ export type Routes = Map<string, Point[]>
 export type Layout = { positions: Positions; routes: Routes }
 
 export const COURSE_SIZE = { width: 160, height: 56 }
-export const JUNCTION_SIZE = { width: 16, height: 16 }
+export const JUNCTION_SIZE = { width: 44, height: 20 }
 
 export const routeKey = (source: string, target: string) => `${source}->${target}`
 
@@ -24,7 +24,7 @@ export const routeKey = (source: string, target: string) => `${source}->${target
  */
 export function layoutGraph(graph: Graph, rankLike: Map<string, string> = new Map()): Layout {
   const g = new graphlib.Graph()
-  g.setGraph({ rankdir: 'LR', nodesep: 24, ranksep: 80 })
+  g.setGraph({ rankdir: 'LR', nodesep: 24, ranksep: 120 })
   g.setDefaultEdgeLabel(() => ({}))
   for (const n of graph.nodes) g.setNode(n.id, n.kind === 'course' ? { ...COURSE_SIZE } : { ...JUNCTION_SIZE })
   for (const e of graph.edges) if (e.kind === 'prereq') g.setEdge(e.source, e.target)
@@ -55,9 +55,10 @@ export function layoutGraph(graph: Graph, rankLike: Map<string, string> = new Ma
     const bends: Point[] = (g.edge(e.source, e.target)?.points ?? []).slice(1, -1)
     // A bend inside a column of nodes (a dagre dummy node) becomes a straight run across that column at the
     // height dagre kept free, so the edge only changes height in the gaps between columns, where no node is.
+    // Bends in a gap are dropped: the gap is empty, and one curve across it is smoother than two.
     const across = bends.flatMap(({ x, y }) => {
       const half = columnHalf(x)
-      return half === undefined ? [{ x, y }] : [{ x: x - half, y }, { x: x + half, y }]
+      return half === undefined ? [] : [{ x: x - half, y }, { x: x + half, y }]
     })
     routes.set(routeKey(e.source, e.target), [
       { x: s.x + (columnHalf(s.x) ?? s.width / 2), y: s.y },
