@@ -17,6 +17,7 @@ export type Group =
   | 'conc-cyber'
   | 'conc-ai'
   | 'major-elective'
+  | 'major-project'
   | 'gen-ed-math'
   | 'prereq-only'
 

@@ -1,0 +1,69 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "_comment": "From the 2026-27 Data Science and Analytics, M.S. program page (ms-dsa/program-page.pdf, graduate catalog catoid 83). 36 hours: 15 required, 6 elective, 6-9 project, 6-9 related studies. Related studies (any 7000-8000 DS, DATA or STAT course) has no fixed list, so it isn't on the map. The foundation courses (MATH 1190, MATH 2202, STAT 1401, DATA 3010) are admission conditions, not prerequisites, so they aren't either.",
+  "program": {
+    "id": "ms-dsa",
+    "name": "MS Data Science and Analytics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "lessCommon": [],
+  "courses": {
+    "DS 7020": [
+      "major-required"
+    ],
+    "STAT 7010": [
+      "major-required"
+    ],
+    "STAT 7100": [
+      "major-required"
+    ],
+    "STAT 7210": [
+      "major-required"
+    ],
+    "STAT 7220": [
+      "major-required"
+    ],
+    "STAT 7235": [
+      "major-elective"
+    ],
+    "STAT 7310": [
+      "major-elective"
+    ],
+    "STAT 8220": [
+      "major-elective"
+    ],
+    "STAT 8320": [
+      "major-elective"
+    ],
+    "STAT 8330": [
+      "major-elective"
+    ],
+    "STAT 7125": [
+      "major-project"
+    ],
+    "DS 7900": [
+      "major-project"
+    ]
+  }
+}

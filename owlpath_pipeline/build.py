@@ -1,4 +1,4 @@
-"""Build data/<year>/courses.json from the saved catalog listing PDFs.
+"""Build data/<year>/<major>/courses.json from the saved catalog listing PDFs in catalog/<level>/.
 
 Pass 1 collects every course the program needs (required leaves pull new courses in).
 Pass 2 marks each leaf as an in-graph course or an external alternative, then the
@@ -10,13 +10,16 @@ import argparse
 import json
 import sys
 from collections.abc import Callable
+from pathlib import Path
 
 from . import config
 from .model import Expr, Logic, ParseResult, RawCourse
 from .prereq_parser import parse_requirement
 from .validate import validate_dataset
 
-SOURCE = f"KSU Undergraduate Catalog {config.CATALOG_YEAR} ({config.CATALOG_BASE}, catoid={config.CATOID})"
+def source(level: str) -> str:
+    return (f"KSU {config.CATALOGS[level]['name']} Catalog {config.CATALOG_YEAR} "
+            f"({config.CATALOG_BASE}, catoid={config.catoid(level)})")
 
 
 def _required_ids(expr: Expr | None, under_or: bool = False) -> list[str]:
@@ -83,7 +86,7 @@ def _check_overrides(overrides: dict, graph: set[str]) -> None:
 def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCourse],
                   overrides: dict, meta: dict) -> tuple[dict, list[str]]:
     """meta = {"program": {...}, "choices": [[id, ...], ...], "lessCommon": [id, ...]}, copied to the output as-is.
-    lessCommon is optional and defaults to []."""
+    lessCommon is optional and defaults to []; level (which catalog, for `source`) defaults to undergraduate."""
     for choice in meta["choices"]:
         for cid in choice:
             if cid not in program:
@@ -136,15 +139,15 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         courses.append(c)
 
     warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides]
-    return {"catalogYear": config.CATALOG_YEAR, "source": SOURCE, "program": meta["program"],
-            "choices": meta["choices"], "lessCommon": meta.get("lessCommon", []), "courses": courses}, warnings
+    return {"catalogYear": config.CATALOG_YEAR, "source": source(meta.get("level", "undergraduate")),
+            "program": meta["program"], "choices": meta["choices"], "lessCommon": meta.get("lessCommon", []), "courses": courses}, warnings
 
 
-def catalog_get_raw(directory=config.CATALOG_PDF_DIR) -> Callable[[str], RawCourse]:
-    """Look courses up in the saved catalog listing PDFs; a missing id raises KeyError."""
+def catalog_get_raw(level: str = "undergraduate", directory: Path | None = None) -> Callable[[str], RawCourse]:
+    """Look courses up in the saved listing PDFs for `level` (catalog/<level>/); a missing id raises KeyError."""
     from .catalog_pdf import load_catalog
 
-    return load_catalog(directory).__getitem__
+    return load_catalog(directory or config.catalog_pdf_dir(level), config.catoid(level)).__getitem__
 
 
 def _report(warnings: list[str], errors: list[str]) -> str:
@@ -173,8 +176,11 @@ def main(argv: list[str]) -> int:
     out = config.program_dir(args.program)
     spec = json.loads((out / "program.json").read_text())
     overrides = json.loads((out / "overrides.json").read_text())
-    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", [])}
-    dataset, warnings = build_dataset(spec["courses"], catalog_get_raw(), overrides, meta)
+    if "level" not in spec:
+        raise SystemExit(f"{args.program}/program.json needs \"level\": one of {sorted(config.CATALOGS)}")
+    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", []),
+            "level": spec["level"]}
+    dataset, warnings = build_dataset(spec["courses"], catalog_get_raw(spec["level"]), overrides, meta)
     errors = validate_dataset(dataset)
 
     # Never write a dataset that fails validation, and never replace the reviewed

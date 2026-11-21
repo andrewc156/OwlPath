@@ -1,5 +1,6 @@
 {
   "catalogYear": "2026-2027",
+  "level": "undergraduate",
   "_comment": "From the 2026-27 Data Science and Analytics, B.S. program page (bs-dsa/program-page.pdf). 'Major Electives' also allows any DATA or STAT 4000-level course; only the listed ones are here. MATH 1179/1189 stay external (user ruling). Internships, co-op, undergraduate research and special topics are left out on purpose: they are rarely offered, run by permission, and have no fixed prerequisites, so they cluttered the map.",
   "program": {
     "id": "bs-dsa",

@@ -1,0 +1,16 @@
+{
+  "DS 7020": {
+    "reason": "Catalog prerequisite is 'Admission to the Data Science and Analytics, MS program': a standing requirement, not a course. Kept as a note.",
+    "prereqs": null,
+    "notes": ["Admission to the Data Science and Analytics, MS program"]
+  },
+  "STAT 7100": {
+    "reason": "Catalog prerequisite is 'Admission to the Data Science and Analytics, MS Program.': a standing requirement, not a course. Kept as a note.",
+    "prereqs": null,
+    "notes": ["Admission to the Data Science and Analytics, MS program"]
+  },
+  "DS 7900": {
+    "reason": "Catalog text is 'STAT 7210 or permission of the instructor'. Permission is an alternative, so the note says 'Or' to show students it is not an extra requirement.",
+    "notes": ["Or permission of the instructor"]
+  }
+}

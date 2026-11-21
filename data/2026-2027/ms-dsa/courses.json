@@ -1,0 +1,233 @@
+{
+  "catalogYear": "2026-2027",
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DS&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn how to use SAS programming for data science and analytics tasks such as data importation, manipulation, summarization, and communication through various means at both an introductory and intermediate level.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DS 7020",
+      "notes": [
+        "Admission to the Data Science and Analytics, MS program"
+      ],
+      "prereqs": null,
+      "title": "Introductory SAS Programming for Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DS&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a highly applied project course using real data. Students will be broken into teams for the semester and will work together to design, execute, and present an analysis to address the sponsor\u2019s business problem. There will be regular feedback sessions with the instructors and client as the semester progresses. The class closely mimics what students will experience when they work on projects in a job setting. Typically, the course will have an external project sponsor.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "DS 7900",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": "STAT 7210",
+      "title": "Applied Analytics Project Course"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Fundamental concepts of probability, random variables and their distributions; review of sampling distributions; theory and methods of point estimation and hypothesis testing, interval estimation, nonparametric tests, introduction to linear models.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 7010",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "STAT 7220",
+          "STAT 7210"
+        ]
+      },
+      "title": "Mathematical Statistics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to give students the foundation in statistical methods necessary for further study at the graduate level. The course begins with a study of probability and probability distribution functions (e.g., binomial, Poisson, uniform, exponential, gamma, chi-square and normal). The course then moves into inferential topics on parameter estimation (point and interval) and hypothesis testing, and concludes with study of advanced methods including but not limited to categorical data analysis, simple linear regression analysis and one-way analysis of variance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 7100",
+      "notes": [
+        "Admission to the Data Science and Analytics, MS program"
+      ],
+      "prereqs": null,
+      "title": "Statistical Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Real-world human-subject data will be used as students conduct official clinical research in a secure computer lab. Students will complete required institutionally- approved training for research on human subjects and information privacy and security. Using statistical software, students will apply statistical analysis and modeling techniques to answer questions posed by clinicians and practitioners. Students will document research for reproducibility and potential publication, as well as present results in various forms.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "STAT 7125",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "STAT 7210",
+      "title": "Analysis of Human Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Topics include simple linear regression, inferences, diagnostics and remedies, matrix representations, multiple regression models, generalized linear model, multicollinearity, polynomial models, qualitative predictor variables, model selection and validation, identifying outliers and influential observations, diagnostics for multicollinearity, and logistic regression.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 7210",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DS 7020",
+          "STAT 7100"
+        ]
+      },
+      "title": "Applied Regression Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Methods for constructing and analyzing designed experiments are considered. The concepts of experimental unit, randomization, blocking, replication, error reduction and treatment structure are introduced. The design and analysis of completely randomized, randomized complete block, incomplete block, Latin square, split-plot, repeated measures, factorial and fractional factorial designs will be covered. Note: Statistical software will be utilized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 7220",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DS 7020",
+          "STAT 7100"
+        ]
+      },
+      "title": "Applied Experimental Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to methods of longitudinal data analysis and issues involved with the analysis of repeated measures data. The course will be based on multilevel models (also referred to as hierarchical models, mixed effects models, and random coefficient models) with a major emphasis on modeling intraindividual effects as a precursor to modeling interindividual effects. Students will learn how to choose an appropriate model so that specific research questions of interest can be addressed in a methodologically sound way. Note: This course may be cross-leveled with STAT 8235",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 7235",
+      "notes": [],
+      "prereqs": "STAT 7210",
+      "title": "Applied Longitudinal Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover methods of contingency table analysis, including data categorization, dose-response and trend analysis, and calculation of measures of effect and association. The students will learn to use generalized linear regression models including logistic, polychotomous logistic, Poisson and repeated measures (marginal and mixed models), and apply these appropriately to real-world data. Applications to Statistical software packages such as JMP, MINITAB, and/or SAS will be used.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 7310",
+      "notes": [],
+      "prereqs": "STAT 7210",
+      "title": "Applied Categorical Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to univariate time-series analysis that emphasizes the practical aspects most needed by practitioners and applied researchers. Topics covered include linear regression applied to time series, simple autoregressive models (ARMA and ARIMA), and Box-Jenkins methodology.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 8220",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DS 7020",
+          "STAT 7210"
+        ]
+      },
+      "title": "Time Series Forecasting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Survey course in statistical analysis techniques. Through a combination of textbook and real-world data sets, students will gain hands-on experience in understanding when and how to utilize the primary multivariate methods Data Reduction techniques, including Principal components Analysis and Common Factor Analysis, ANOVA/MANOVA/MANCOVA, Cluster Analysis, Survival Analysis and Decision Trees.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 8320",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "STAT 7220",
+          "STAT 7210"
+        ]
+      },
+      "title": "Applied Multivariate Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a heavily used concept in Statistical Modeling. Common applications include credit worthiness and the associated development of a \u201cFICO-esque\u201d credit score, fraud detection or the identification of manufacturing units which fail inspection. Students will learn how to use Logistic Regression, Odds, ROC curves, maximization functions to apply binary classification concepts to real-world datasets. This course will heavily use SAS-software and students are expected to have a strong working knowledge of SAS.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 8330",
+      "notes": [],
+      "prereqs": "STAT 7210",
+      "title": "Applied Binary Classification"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "ms-dsa",
+    "name": "MS Data Science and Analytics"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

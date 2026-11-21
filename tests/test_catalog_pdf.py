@@ -5,7 +5,7 @@ import pytest
 
 from owlpath_pipeline.catalog_pdf import load_catalog, parse_listing, pdf_text
 
-CATALOG = Path(__file__).resolve().parent.parent / "data" / "2026-2027" / "catalog"
+CATALOG = Path(__file__).resolve().parent.parent / "data" / "2026-2027" / "catalog" / "undergraduate"
 URL = "https://catalog.kennesaw.edu/listing?prefix=CS"
 META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
                     "filters": [{"label": "AI", "groups": ["conc-ai"]}]}, "choices": []}
@@ -18,7 +18,7 @@ def cs():
 
 @pytest.fixture(scope="module")
 def catalog():
-    return load_catalog(CATALOG)
+    return load_catalog(CATALOG, 84)
 
 
 def test_course_fields_cs3305(cs):
@@ -76,11 +76,11 @@ def test_build_runs_on_saved_catalog():
     from owlpath_pipeline.validate import validate_dataset
 
     dataset, _ = build_dataset({"CS 3305": ["major-required"], "CSE 1322": ["core-field"]},
-                               catalog_get_raw(CATALOG), {}, META)
+                               catalog_get_raw(directory=CATALOG), {}, META)
     assert validate_dataset(dataset) == []
     assert {"CS 3305", "CSE 1322", "CSE 1321"} <= {c["id"] for c in dataset["courses"]}
     with pytest.raises(KeyError):
-        catalog_get_raw(CATALOG)("ZZZ 9999")
+        catalog_get_raw(directory=CATALOG)("ZZZ 9999")
 
 
 def test_page_chrome_is_not_in_any_field(catalog):
@@ -113,4 +113,26 @@ def test_pdf_with_no_courses_is_an_error(tmp_path):
     with open(tmp_path / "blank.pdf", "wb") as f:
         w.write(f)
     with pytest.raises(ValueError, match="blank.pdf"):
-        load_catalog(tmp_path)
+        load_catalog(tmp_path, 84)
+
+
+def test_graduate_listing_without_description_label():
+    # Graduate listings print the description straight after the field lines.
+    text = ("STAT 7210: Applied Regression Analysis\n3 Credit Hours\n"
+            "Prerequisite: DS 7020 and STAT 7100\n"
+            "Topics include simple linear regression, inferences,\nand multiple regression.\n"
+            "Course Learning Outcomes\n1. Fit models.\n")
+    c = parse_listing(text, "")["STAT 7210"]
+    assert c.prereq_text == "DS 7020 and STAT 7100"
+    assert c.description == "Topics include simple linear regression, inferences, and multiple regression."
+    assert c.warnings == []
+
+
+GRAD = CATALOG.parent / "graduate"
+
+
+@pytest.mark.skipif(not (GRAD / "stat.pdf").exists(), reason="graduate listings not saved")
+def test_saved_graduate_listing_splits_prereq_from_description():
+    c = load_catalog(GRAD, 83)["STAT 7010"]
+    assert c.prereq_text == "STAT 7220 and STAT 7210"
+    assert c.description.startswith("Fundamental concepts of probability")

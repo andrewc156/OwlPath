@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 OwlPath is an interactive prerequisite map for Kennesaw State's College of Computing and Software Engineering. It is inspired by GradGT (Georgia Tech's prerequisite chart) but built independently. Students pick a course and see what it requires and what it unlocks. They can mark courses as complete or in progress and see what they're eligible for now or next term.
 
-**MVP scope:** two majors from the 2026–27 catalog, picked with a dropdown: the **BS in Computer Science** (`bs-cs`) and the **BS in Data Science and Analytics** (`bs-dsa`). Each map covers the major's core field of study, major requirements, concentrations (CS only) and listed electives, plus every course needed to reach them, including MATH and other prefixes. KSU's intro sequence is **CSE 1321/1322**.
+**MVP scope:** three majors from the 2026–27 catalogs, picked with a dropdown: the **BS in Computer Science** (`bs-cs`), the **BS in Data Science and Analytics** (`bs-dsa`) and the graduate **MS in Data Science and Analytics** (`ms-dsa`). Each map covers the major's core field of study, major requirements, concentrations (CS only) and listed electives, plus every course needed to reach them, including MATH and other prefixes. KSU's intro sequence is **CSE 1321/1322**.
 
 **Stack:** React + Vite + TypeScript, React Flow (`@xyflow/react`) with dagre for automatic layout, course data as a static JSON file bundled into the app, deployed to GitHub Pages. There is no backend. A Python pipeline (`owlpath_pipeline/`) builds the JSON offline from the KSU catalog.
 
@@ -26,8 +26,10 @@ tests/                    pipeline tests + a captured Banner HTML fixture
 data/
   schema/courses.schema.json   contract between the pipeline and the app
   2026-2027/
-    catalog/*.pdf         saved course listings, shared by every major
-    bs-cs/  bs-dsa/       per major: program-page.pdf, program.json, overrides.json, courses.json (committed), reports
+    catalog/
+      undergraduate/*.pdf saved undergraduate course listings, shared by every undergraduate major
+      graduate/*.pdf      saved graduate listings (DS, STAT); they have no "Description" label, so each field is one line
+    bs-cs/  bs-dsa/  ms-dsa/  per major: program-page.pdf, program.json, overrides.json, courses.json (committed), reports
 web/                      Vite + React + TS app
   src/data/  src/logic/  src/components/  src/state/
 .github/workflows/deploy.yml
@@ -55,7 +57,7 @@ interface Course {
   catalogYear: string;   // "2026-2027"
   catalogUrl: string;
   groups: ("core-field" | "major-required" | "conc-data-science" | "conc-cyber"
-          | "conc-ai" | "major-elective" | "gen-ed-math" | "prereq-only")[];
+          | "conc-ai" | "major-elective" | "major-project" | "gen-ed-math" | "prereq-only")[];
   prereqs: Logic | null;
   coreqs: Logic | null;
   notes: string[];       // placement, standing, permission: shown, never blocking
@@ -90,5 +92,5 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
   - `.venv/bin/pytest tests/test_validate.py::test_prereq_cycle_is_error -v` runs a single test.
   - `.venv/bin/python -m owlpath_pipeline.build <major> [--draft]` (e.g. `bs-dsa`) builds that major's `courses.json` and `build-report.md`. Without `--draft` it only writes `courses.json` when there are no unresolved warnings.
   - `.venv/bin/python -m owlpath_pipeline.banner <major>` writes that major's `banner-diff.md`. It fetches politely (about 2 minutes per uncached course), so run it in the background.
-- **Catalog input:** catalog.kennesaw.edu blocks automated clients (HTTP 202), so the course data comes from PDFs saved by hand. In a browser, open the catalog's Courses listing, filter to one prefix, expand all courses, and print to PDF as `data/<year>/catalog/<prefix>.pdf`. Each major's program page goes in `data/<year>/<major>/program-page.pdf`, outside `catalog/`, because every PDF in `catalog/` is read as a course listing.
-- **Adding a major:** add its id to `config.PROGRAMS`, write `data/<year>/<id>/program.json` (with `program`, `choices` and, when the user names the popular options, `lessCommon`) from its program page, save any missing listing PDFs, then follow the same review: draft build, overrides with reasons, strict build, Banner check, spot-check with the user.
+- **Catalog input:** catalog.kennesaw.edu blocks automated clients (HTTP 202), so the course data comes from PDFs saved by hand. In a browser, open the catalog's Courses listing, filter to one prefix, expand all courses, and print to PDF as `data/<year>/catalog/<level>/<prefix>.pdf`, where `<level>` is `undergraduate` or `graduate` (KSU publishes them as separate catalogs with their own catoid). Each major's `program.json` names its catalog with `"level"`, and the build reads only that folder. Each major's program page goes in `data/<year>/<major>/program-page.pdf`, outside `catalog/`, because every PDF in a level folder is read as a course listing.
+- **Adding a major:** add its id to `config.PROGRAMS`, write `data/<year>/<id>/program.json` (with `level`, `program`, `choices` and, when the user names the popular options, `lessCommon`) from its program page, save any missing listing PDFs, then follow the same review: draft build, overrides with reasons, strict build, Banner check, spot-check with the user.

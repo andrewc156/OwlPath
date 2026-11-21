@@ -2,7 +2,7 @@
 
 catalog.kennesaw.edu answers automated clients with HTTP 202 (a bot check), so the
 2026-27 "Courses" listing is saved by hand, one expanded PDF per prefix, into
-data/<year>/catalog/. Labels are found by their text, not by position.
+data/<year>/catalog/<level>/. Labels are found by their text, not by position.
 """
 import dataclasses
 import re
@@ -20,7 +20,7 @@ FIELD = re.compile(r"^(Prerequisite|Concurrent|Corequisite):\s*(.*)$")
 FOOTER = re.compile(r"^(\d{1,2}/\d{1,2}/\d{2}, \d{1,2}:\d{2} [AP]M\b|https?://)")
 SECTION_END = re.compile(r"^(Course Learning Outcomes|Notes:)")
 # Page chrome the browser prints; it can land anywhere in the text stream.
-CHROME = re.compile(r"^(Contract All Courses \|?|\d{4}-\d{4} Undergraduate Catalog|Kennesaw State University|Courses)$")
+CHROME = re.compile(r"^(Contract All Courses \|?|\d{4}-\d{4} (?:Undergraduate|Graduate) Catalog|Kennesaw State University|Courses)$")
 
 
 def pdf_text(path: Path) -> str:
@@ -41,12 +41,17 @@ def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
     current: list[str] | None = None
     skipping = False  # inside a section we deliberately leave out
     warnings: list[str] = []
+    # Undergraduate listings label the description; graduate listings print it straight
+    # after the field lines, so there each field is one line and the text after it is the description.
+    labeled = "Description" in body
     for line in body:
         if not credits and (m := CREDITS.match(line)):
             credits = m.group(1)
         elif m := FIELD.match(line):
             current, skipping = fields.setdefault(m.group(1), []), False
             current.append(m.group(2))
+            if not labeled:
+                current = description
         elif line == "Description":
             current, skipping = description, False
         elif SECTION_END.match(line):
@@ -87,8 +92,8 @@ def parse_listing(text: str, url: str) -> dict[str, RawCourse]:
     return courses
 
 
-def load_catalog(directory: Path) -> dict[str, RawCourse]:
-    """Every course in every saved listing PDF, each with its prefix's listing URL."""
+def load_catalog(directory: Path, catoid: int) -> dict[str, RawCourse]:
+    """Every course in every saved listing PDF, each with its prefix's listing URL in catalog `catoid`."""
     catalog: dict[str, RawCourse] = {}
     for path in sorted(directory.glob("*.pdf")):
         listing = parse_listing(pdf_text(path), "")
@@ -97,6 +102,6 @@ def load_catalog(directory: Path) -> dict[str, RawCourse]:
         for cid, course in listing.items():
             if cid in catalog:
                 raise ValueError(f"{cid} appears in more than one saved listing ({path.name})")
-            url = config.COURSE_LISTING_URL.format(prefix=cid.split()[0])
+            url = config.COURSE_LISTING_URL.format(prefix=cid.split()[0], catoid=catoid)
             catalog[cid] = dataclasses.replace(course, url=url)
     return catalog

@@ -112,7 +112,7 @@ def _program_dir(tmp_path, monkeypatch, courses):
     monkeypatch.setattr(config, "DATA_DIR", tmp_path)
     d = tmp_path / "bs-cs"
     d.mkdir()
-    (d / "program.json").write_text(json.dumps({**META, "catalogYear": "2026-2027", "courses": courses}))
+    (d / "program.json").write_text(json.dumps({**META, "catalogYear": "2026-2027", "level": "undergraduate", "courses": courses}))
     (d / "overrides.json").write_text("{}")
     return d
 
@@ -125,7 +125,7 @@ def test_cli_keeps_reviewed_dataset_when_warnings_remain(tmp_path, monkeypatch):
     def missing(cid):
         raise KeyError(cid)
 
-    monkeypatch.setattr(build, "catalog_get_raw", lambda: missing)
+    monkeypatch.setattr(build, "catalog_get_raw", lambda level: missing)
     assert build.main(["bs-cs"]) == 1
     assert not (d / "courses.json").exists() and (d / "build-report.md").exists()
     assert build.main(["bs-cs", "--draft"]) == 0
@@ -166,3 +166,34 @@ def test_cs_dataset_courses_unchanged_after_move():
     built, warnings = build_dataset(prog["courses"], catalog_get_raw(), json.loads((d / "overrides.json").read_text()),
                                     {"program": prog["program"], "choices": prog["choices"]})
     assert warnings == [] and built == json.loads((d / "courses.json").read_text())
+
+
+def test_cli_requires_a_catalog_level(tmp_path, monkeypatch):
+    import json
+
+    from owlpath_pipeline import build
+
+    d = _program_dir(tmp_path, monkeypatch, {"CS 3305": ["major-required"]})
+    spec = json.loads((d / "program.json").read_text())
+    del spec["level"]
+    (d / "program.json").write_text(json.dumps(spec))
+    with pytest.raises(SystemExit, match="level"):
+        build.main(["bs-cs"])
+
+
+def test_source_names_the_catalog_level():
+    from owlpath_pipeline.build import source
+
+    assert source("undergraduate").startswith("KSU Undergraduate Catalog 2026-2027")
+    assert "catoid=84" in source("undergraduate")
+
+
+def test_catalog_levels_have_their_own_folders():
+    from owlpath_pipeline import config
+
+    assert config.catalog_pdf_dir("undergraduate") == config.DATA_DIR / "catalog" / "undergraduate"
+    assert (config.DATA_DIR / "catalog" / "graduate").is_dir()
+    assert config.catalog_pdf_dir("graduate") == config.DATA_DIR / "catalog" / "graduate"
+    assert config.catoid("graduate") == 83 and config.catoid("undergraduate") == 84
+    with pytest.raises(ValueError, match="unknown catalog level"):
+        config.catoid("doctoral")
