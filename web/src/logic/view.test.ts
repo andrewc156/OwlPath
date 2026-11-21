@@ -34,10 +34,24 @@ test('ancestors and descendants are marked', () => {
 test('selection beats filter', () =>
   expect(cls(flow({ selected: 'CS 3305', filter: 'conc-ai' }), 'CSE 1321')).not.toContain('dimmed'))
 
+const firstCoreq = g.edges.find((e) => e.kind === 'coreq')!
+
+test('coreq edges show only while one of their courses is selected', () => {
+  expect(flow({}).edges.some((e) => e.id.startsWith('coreq:'))).toBe(false)
+  expect(flow({ selected: firstCoreq.target }).edges.some((e) => e.id === firstCoreq.id)).toBe(true)
+  expect(flow({ selected: firstCoreq.source }).edges.some((e) => e.id === firstCoreq.id)).toBe(true)
+})
+
+test('prereq edges follow layout routes', () => {
+  const e = flow({}).edges.find((e) => e.id.startsWith('prereq:'))!
+  expect(e.type).toBe('routed')
+  expect((e.data as { points: unknown[] }).points.length).toBeGreaterThanOrEqual(2)
+})
+
 test('coreq edges are dashed and grade labels shown', () => {
-  const f = flow({})
-  const coreq = f.edges.find((e) => e.id.startsWith('coreq:'))!
+  const coreq = flow({ selected: firstCoreq.target }).edges.find((e) => e.id === firstCoreq.id)!
   expect(coreq.style?.strokeDasharray).toBeDefined()
+  const f = flow({})
   const graded = f.edges.find((e) => e.source === 'CSE 1321' && e.target === 'CSE 1322')!
   expect(graded.label).toBe('B')
 })

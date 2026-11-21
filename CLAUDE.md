@@ -69,6 +69,7 @@ For example, `"CS 1321 and (MATH 1113 or MATH 1190)"` is stored as `{ "and": ["C
 - **Fetching the catalog:** honor `robots.txt` (`crawl-delay: 120`), use the honest User-Agent in `owlpath_pipeline/config.py` and cache everything. Never spoof a browser. If the catalog returns empty or blocked responses, stop and ask the user.
 - **The catalog is the authority.** Banner is only a cross-check. Every hand fix goes in `overrides.json` with a reason.
 - **Corequisites and notes never block eligibility.** Corequisites stay out of the dagre layout and the highlight traversal.
+- **Lines never cross a course they don't connect to.** Prerequisite edges are drawn through dagre's routes (`layout.ts` routes + `RoutedEdge`): straight across columns, bending only in the gaps. Corequisite lines aren't laid out, so they show only while one of their courses is selected.
 - **Deploys run on every push to `main`**, after all tests pass (`.github/workflows/deploy.yml` calls `test.yml`). The build refuses unless **every** major folder has a reviewed, valid, non-sample `courses.json`.
 - **Progress is shared across majors** under `owlpath:v1:2026-2027:status`, keyed by course id. Never rename that key or drop ids from other majors when loading, or students lose progress.
 
