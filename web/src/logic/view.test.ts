@@ -75,3 +75,13 @@ test('the other option of a selected course is marked, not dimmed', () => {
   const f = flow({ selected: 'CS 3305', choices: [['CS 3305', 'CSE 4983']] })
   expect(cls(f, 'CSE 4983')).toBe('alternative')
 })
+
+test("a hidden course's junctions go with it, so no junction is left leading nowhere", () => {
+  const owner = g.nodes.find((n) => n.kind === 'junction')!
+  if (owner.kind !== 'junction') throw new Error('sample needs a junction')
+  const f = flow({ hidden: [owner.target] })
+  expect(f.nodes.some((n) => n.id === owner.id)).toBe(false)
+  expect(f.edges.some((e) => e.source === owner.id || e.target === owner.id)).toBe(false)
+  // Every junction that is left still leads somewhere.
+  for (const j of f.nodes.filter((n) => n.type === 'junction')) expect(f.edges.some((e) => e.source === j.id)).toBe(true)
+})
