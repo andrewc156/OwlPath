@@ -6,8 +6,8 @@ The catalog is the authority. Fill in **Resolution** for each row; record any ch
 
 | Ref | Catalog | Banner | Resolution |
 |---|---|---|---|
-| STAT 7210 | C | B | Keep catalog. The catalog states no minimum grade, so the default C applies. |
-| STAT 7220 | C | B | Keep catalog. The catalog states no minimum grade, so the default C applies. |
+| STAT 7210 | C | B | Use Banner's B (override); the catalog states no grade. |
+| STAT 7220 | C | B | Use Banner's B (override); the catalog states no grade. |
 
 ## STAT 7310
 
@@ -19,9 +19,9 @@ The catalog is the authority. Fill in **Resolution** for each row; record any ch
 
 | Ref | Catalog | Banner | Resolution |
 |---|---|---|---|
-| DS 7020 | C | B | Keep catalog. The catalog states no minimum grade, so the default C applies. |
+| DS 7020 | C | B | Use Banner's B (override); the catalog states no grade. |
 | STAT 7210 | C | — | Keep catalog. The 2026-27 catalog lists it; Banner's rule is out of date. |
-| STAT 8210 | — | B | Keep catalog. Not in the 2026-27 graduate catalog; Banner still lists an old course number. |
+| STAT 8210 | — | B | Keep catalog. Not in the 2026-27 graduate catalog; Banner still lists an old course number. Its B is applied to STAT 7210 (override). |
 
 ## STAT 8320
 
