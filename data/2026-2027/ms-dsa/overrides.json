@@ -2,15 +2,51 @@
   "DS 7020": {
     "reason": "Catalog prerequisite is 'Admission to the Data Science and Analytics, MS program': a standing requirement, not a course. Kept as a note.",
     "prereqs": null,
-    "notes": ["Admission to the Data Science and Analytics, MS program"]
+    "notes": [
+      "Admission to the Data Science and Analytics, MS program"
+    ]
   },
   "STAT 7100": {
     "reason": "Catalog prerequisite is 'Admission to the Data Science and Analytics, MS Program.': a standing requirement, not a course. Kept as a note.",
     "prereqs": null,
-    "notes": ["Admission to the Data Science and Analytics, MS program"]
+    "notes": [
+      "Admission to the Data Science and Analytics, MS program"
+    ]
   },
   "DS 7900": {
     "reason": "Catalog text is 'STAT 7210 or permission of the instructor'. Permission is an alternative, so the note says 'Or' to show students it is not an extra requirement.",
-    "notes": ["Or permission of the instructor"]
+    "notes": [
+      "Or permission of the instructor"
+    ]
+  },
+  "STAT 7010": {
+    "reason": "Catalog lists STAT 7220 and STAT 7210 with no grade; Banner requires a B in both. Show the stricter Banner minimum so students aren't surprised at registration (user decision).",
+    "prereqs": {
+      "and": [
+        {
+          "course": "STAT 7220",
+          "minGrade": "B"
+        },
+        {
+          "course": "STAT 7210",
+          "minGrade": "B"
+        }
+      ]
+    }
+  },
+  "STAT 8220": {
+    "reason": "Catalog lists DS 7020 and STAT 7210 with no grade; Banner requires a B in DS 7020 and in STAT 8210 (the old number for STAT 7210). Show the stricter Banner minimum (user decision).",
+    "prereqs": {
+      "and": [
+        {
+          "course": "DS 7020",
+          "minGrade": "B"
+        },
+        {
+          "course": "STAT 7210",
+          "minGrade": "B"
+        }
+      ]
+    }
   }
 }

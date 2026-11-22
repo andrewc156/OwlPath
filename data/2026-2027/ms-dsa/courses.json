@@ -47,8 +47,14 @@
       "notes": [],
       "prereqs": {
         "and": [
-          "STAT 7220",
-          "STAT 7210"
+          {
+            "course": "STAT 7220",
+            "minGrade": "B"
+          },
+          {
+            "course": "STAT 7210",
+            "minGrade": "B"
+          }
         ]
       },
       "title": "Mathematical Statistics I"
@@ -164,8 +170,14 @@
       "notes": [],
       "prereqs": {
         "and": [
-          "DS 7020",
-          "STAT 7210"
+          {
+            "course": "DS 7020",
+            "minGrade": "B"
+          },
+          {
+            "course": "STAT 7210",
+            "minGrade": "B"
+          }
         ]
       },
       "title": "Time Series Forecasting"
