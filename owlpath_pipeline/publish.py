@@ -30,6 +30,7 @@ class MajorResult:
     warnings: list[str] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
     changed: list[str] = field(default_factory=list)  # course ids that differ from the committed courses.json
+    unreadable: bool = False  # program.json couldn't be read: its courses.json is never touched, and it blocks
     checked: bool = False  # reviewed by a person; a checked major can be "held" when its build fails
 
 
@@ -103,11 +104,16 @@ def publish(data_dir: Path = config.DATA_DIR, source: str = "pdf",
             spec = json.loads((folder / "program.json").read_text(encoding="utf-8"))
             result.checked = bool(spec.get("checked"))
             result.name, result.level = spec["program"]["name"], spec["level"]
-            spec, dataset, result.warnings, result.errors, notes = build_major(
-                folder, source, data_dir, get_raw_for)
-            draft_warnings, left_out = spec.get("draftWarnings", []), spec.get("leftOut", [])
-        except Exception as e:  # one bad major must not stop the others or leave the index stale
-            dataset, result.errors = None, [f"build failed: {type(e).__name__}: {e}"]
+        except Exception as e:  # can't tell whether the major was checked: touch nothing, block the publish
+            result.unreadable = True
+            result.errors = [f"program.json unreadable: {type(e).__name__}: {e}"]
+        if not result.unreadable:
+            try:
+                spec, dataset, result.warnings, result.errors, notes = build_major(
+                    folder, source, data_dir, get_raw_for)
+                draft_warnings, left_out = spec.get("draftWarnings", []), spec.get("leftOut", [])
+            except Exception as e:  # one bad major must not stop the others or leave the index stale
+                dataset, result.errors = None, [f"build failed: {type(e).__name__}: {e}"]
         if dataset and not result.errors and not result.warnings and not draft_warnings:
             result.state = "checked" if result.checked else "auto"
             courses_file = folder / "courses.json"
@@ -116,10 +122,11 @@ def publish(data_dir: Path = config.DATA_DIR, source: str = "pdf",
                 if changes:
                     result.changed, details[mid] = list(changes), changes
             _write_json(courses_file, dataset)
-        elif not result.checked:
+        elif not result.checked and not result.unreadable:
             (folder / "courses.json").unlink(missing_ok=True)
-        (folder / "build-report.md").write_text(
-            major_report(result.warnings, result.errors, notes, draft_warnings, left_out))
+        if not result.unreadable:
+            (folder / "build-report.md").write_text(
+                major_report(result.warnings, result.errors, notes, draft_warnings, left_out))
         results.append(result)
 
     shipped = [r for r in results if r.state != "held" or (r.checked and (data_dir / r.id / "courses.json").exists())]
@@ -148,8 +155,11 @@ def _status(results: list[MajorResult], details: dict, page_changes: dict, out_o
     for r in held:
         why = [f"{len(r.warnings)} warning(s)"] if r.warnings else []
         why += [f"{len(r.errors)} error(s)"] if r.errors else []
-        lines.append(f"- **{r.id}** ({r.level}){' [checked: BLOCKS PUBLISH]' if r.checked else ''}: "
-                     + (", ".join(why) or "drafting warnings") + " (see its build-report.md)")
+        if r.unreadable:
+            why = r.errors
+        lines.append(f"- **{r.id}** ({r.level}){' [BLOCKS PUBLISH]' if r.checked or r.unreadable else ''}: "
+                     + (", ".join(why) or "drafting warnings")
+                     + ("" if r.unreadable else " (see its build-report.md)"))
     if not held:
         lines.append("None.")
 
@@ -199,7 +209,7 @@ def main(argv: list[str], get_raw_for: Callable[[str], GetRaw] | None = None) ->
     changed = [r.id for r in results if r.changed]
     if changed:
         print(f"checked majors changed: {', '.join(changed)}")
-    broken = [r for r in results if r.checked and r.state == "held"]
+    broken = [r for r in results if (r.checked or r.unreadable) and r.state == "held"]
     for r in broken:
         print(f"checked major {r.id} failed to build: {len(r.errors)} errors, {len(r.warnings)} warnings",
               file=sys.stderr)

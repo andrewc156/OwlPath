@@ -226,3 +226,15 @@ def test_malformed_program_json_holds_that_major_and_output_stays_consistent(tmp
     assert results["bs-bad"].state == "held" and results["bs-bad"].errors
     assert [m["id"] for m in json.loads((tmp_path / "majors.json").read_text())] == ["bs-aa"]
     assert "bs-bad" in (tmp_path / "STATUS.md").read_text()
+
+
+def test_unreadable_program_json_never_touches_courses_json_and_blocks(tmp_path, capsys):
+    d = write_major(tmp_path, "bs-bad", ["AA 1000"], checked=True)
+    (d / "courses.json").write_text('{"reviewed": true}\n')
+    (d / "program.json").write_text("{not json")
+    before = (d / "courses.json").read_bytes()
+    assert pub.main(["--data-dir", str(tmp_path)], get_raw_for=get_raw_for) == 1
+    assert (d / "courses.json").read_bytes() == before
+    held = (tmp_path / "STATUS.md").read_text().split("## Held majors")[1].split("\n## ")[0]
+    assert "bs-bad" in held and "program.json unreadable" in held and "BLOCKS PUBLISH" in held
+    assert json.loads((tmp_path / "majors.json").read_text()) == []
