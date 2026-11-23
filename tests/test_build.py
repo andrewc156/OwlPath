@@ -225,6 +225,7 @@ def test_checked_majors_rebuild_unchanged(major):
     built, warnings = build_dataset(prog["courses"], level_get_raw(level), load_overrides(level),
                                     {"program": prog["program"], "choices": prog["choices"],
                                      "lessCommon": prog.get("lessCommon", []), "level": level})
+    built["checked"] = bool(prog.get("checked"))
     assert warnings == [] and built == json.loads((d / "courses.json").read_text())
 
 
