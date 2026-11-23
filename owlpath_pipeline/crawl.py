@@ -109,3 +109,45 @@ class Crawler:
         cache_path(self.cache_dir, url, ".txt").write_text(loaded.text, encoding="utf-8")
         cache_path(self.cache_dir, url, ".url").write_text(url + "\n", encoding="utf-8")
         return loaded
+
+
+FIXTURE_DIR = config.REPO_ROOT / "tests" / "fixtures" / "catalog"
+
+
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+    import time
+
+    import requests
+
+    from .browser import PlaywrightLoader
+
+    parser = argparse.ArgumentParser(prog="owlpath_pipeline.crawl")
+    sub = parser.add_subparsers(dest="command", required=True)
+    cap = sub.add_parser("capture", help="fetch one catalog page politely and save it as a test fixture")
+    cap.add_argument("url")
+    cap.add_argument("name")
+    cap.add_argument("--expect", required=True, help="text the page must contain")
+    args = parser.parse_args(argv)
+
+    def http_get(url: str, headers: dict[str, str]) -> tuple[int, str]:
+        r = requests.get(url, headers=headers, timeout=60)
+        return r.status_code, r.text
+
+    try:
+        robots = read_robots(config.CATALOG_BASE, http_get)
+        with PlaywrightLoader(robots) as loader:
+            crawler = Crawler(config.CACHE_DIR, loader, robots, time.sleep, time.time)
+            page = crawler.get(args.url, args.expect)
+    except CrawlStopped as e:
+        print(f"STOPPED: {e}")
+        return 1
+    FIXTURE_DIR.mkdir(parents=True, exist_ok=True)
+    (FIXTURE_DIR / f"{args.name}.html").write_text(page.html, encoding="utf-8")
+    (FIXTURE_DIR / f"{args.name}.txt").write_text(page.text, encoding="utf-8")
+    print(f"captured {args.url} -> tests/fixtures/catalog/{args.name}.html ({len(page.html)} bytes)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
