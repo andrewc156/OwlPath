@@ -16,9 +16,12 @@ _TOKEN = re.compile(
     (?P<GRADE_PREFIX>a\ grade\ of\ "(?P<pg>[A-F])"\ or\ (?:higher|better)\ in\b)
   | (?P<GRADE_SUFFIX>(?P<each>each\ )?with\ an?\ "(?P<sg>[A-F])"\ or\ (?:higher|better))
   | (?P<NOTE>by\ placement
-      | (?:freshman|sophomore|junior|senior)\ standing
+      | (?:admission\ to|acceptance\ into)\ .*?\ program\b
+      | (?:freshman|sophomore|junior|senior|graduate)\ standing
       | (?:by\ )?(?:instructor's|department's)(?:\ or\ department's)?\ permission
-      | permission\ of\ (?:the\ )?(?:instructor|department))
+      | (?:permission|consent|approval)\ of\ (?:the\ )?
+        (?:instructor|department(?:\ chair)?|(?:[A-Z]{2,}\ )?program\ (?:director|coordinator)|advisor|dean)\b
+      | ph\.d\.\ candidacy)
   | (?P<COURSE>(?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)\b)
   | (?P<AND>\band\b)
   | (?P<OR>\bor\b)

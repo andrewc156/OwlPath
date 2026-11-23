@@ -54,7 +54,7 @@ def test_or_with_no_in_program_alternative_warns():
 
 
 def test_parser_warnings_are_prefixed_with_course_id():
-    pages = Pages(raw("CS 3305", prereq="Approval of the dean"))
+    pages = Pages(raw("CS 3305", prereq="Dean's waiver"))
     _, warnings = build_dataset({"CS 3305": ["major-required"]}, pages, {}, META)
     assert warnings and all(w.startswith("CS 3305: ") for w in warnings)
 
@@ -257,3 +257,26 @@ def test_catalog_levels_have_their_own_folders():
     assert config.catoid("graduate") == 83 and config.catoid("undergraduate") == 84
     with pytest.raises(ValueError, match="unknown catalog level"):
         config.catoid("doctoral")
+
+
+def test_auto_major_pulls_first_or_option_onto_map():
+    notes = []
+    ds, w = build_dataset({"AA 1000": ["major-required"]},
+                          Pages(raw("AA 1000", prereq="BB 2000 or CC 3000"), raw("BB 2000"), raw("CC 3000")),
+                          {}, META, auto=True, notes_out=notes)
+    assert w == [] and course(ds, "BB 2000")["groups"] == ["prereq-only"]
+    assert course(ds, "AA 1000")["prereqs"] == {"or": ["BB 2000", {"external": "CC 3000"}]} and notes
+
+
+def test_checked_major_keeps_no_option_warning():
+    pages = Pages(raw("AA 1000", prereq="BB 2000 or CC 3000"), raw("BB 2000"), raw("CC 3000"))
+    ds, w = build_dataset({"AA 1000": ["major-required"]}, pages, {}, META)
+    assert any("no in-program alternative" in x for x in w) and ids(ds) == ["AA 1000"]
+
+
+def test_permission_alternative_is_not_an_option_on_the_map():
+    pages = Pages(raw("AA 1000", prereq="BB 2000 or CC 3000 or permission of the instructor"),
+                  raw("BB 2000"), raw("CC 3000"))
+    ds, w = build_dataset({"AA 1000": ["major-required"]}, pages, {}, META, auto=True)
+    assert w == [] and ids(ds) == ["AA 1000", "BB 2000"]
+    assert course(ds, "AA 1000")["notes"] == ["permission of the instructor"]

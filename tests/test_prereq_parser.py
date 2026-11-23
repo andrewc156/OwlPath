@@ -54,9 +54,29 @@ def test_unbracketed_mixed_and_or_warns():
 
 
 def test_unrecognized_text_warns_and_is_kept_as_note():
-    r = parse_requirement("Approval of the dean")
-    assert r.expr is None and r.notes == ["Approval of the dean"] and any("unrecognized" in w for w in r.warnings)
+    r = parse_requirement("Dean waiver on file")
+    assert r.expr is None and r.notes == ["Dean waiver on file"] and any("unrecognized" in w for w in r.warnings)
 
 
 def test_oxford_list_inherits_operator():
     assert parse_requirement("CS 3305, CS 3503, and CS 3502").expr == {"and": [C("CS 3305"), C("CS 3503"), C("CS 3502")]}
+
+
+def test_admission_phrase_with_and_inside_is_one_note():
+    r = parse_requirement("Admission to the Data Science and Analytics, MS program")
+    assert r.expr is None and r.notes == ["Admission to the Data Science and Analytics, MS program"] and r.warnings == []
+
+
+def test_permission_of_program_coordinator_is_note():
+    assert parse_requirement("Permission of MSDSA Program Coordinator").warnings == []
+
+
+def test_course_and_permission_keeps_course_and_note():
+    r = parse_requirement("STAT 7210 and permission of the instructor")
+    assert r.expr == {"course": "STAT 7210"} and r.notes == ["permission of the instructor"]
+
+
+def test_standing_and_candidacy_are_notes():
+    for t in ("Graduate standing", "Ph.D. candidacy", "Consent of the dean"):
+        r = parse_requirement(t)
+        assert r.expr is None and r.notes == [t] and r.warnings == []
