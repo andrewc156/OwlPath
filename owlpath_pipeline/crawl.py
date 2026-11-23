@@ -94,6 +94,10 @@ class Crawler:
         self._wait()
         try:
             loaded = self._loader.load(url)
+        except CrawlStopped:
+            raise
+        except Exception as e:  # e.g. a Playwright timeout or crash: stop with a message, the cache stays valid
+            raise CrawlStopped(f"loading {url} failed: {e}") from e
         finally:
             # The host was hit even if the load raised; the delay counts from the end of this visit.
             self._last = self._clock()
@@ -114,13 +118,15 @@ class Crawler:
 FIXTURE_DIR = config.REPO_ROOT / "tests" / "fixtures" / "catalog"
 
 
-def main(argv: list[str] | None = None) -> int:
+def main(argv: list[str] | None = None, http_get: HttpGet | None = None, loader_factory=None) -> int:
+    """http_get and loader_factory(robots) -> context-managed PageLoader are injectable for tests."""
     import argparse
     import time
 
     import requests
 
-    from .browser import PlaywrightLoader
+    if loader_factory is None:
+        from .browser import PlaywrightLoader as loader_factory
 
     parser = argparse.ArgumentParser(prog="owlpath_pipeline.crawl")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -133,13 +139,17 @@ def main(argv: list[str] | None = None) -> int:
         lv.add_argument("--refresh", action="store_true", help="delete this catalog's cached pages first")
     args = parser.parse_args(argv)
 
-    def http_get(url: str, headers: dict[str, str]) -> tuple[int, str]:
-        r = requests.get(url, headers=headers, timeout=60)
-        return r.status_code, r.text
+    if http_get is None:
+        def http_get(url: str, headers: dict[str, str]) -> tuple[int, str]:
+            try:
+                r = requests.get(url, headers=headers, timeout=60)
+            except requests.RequestException as e:
+                raise FetchError(f"{url}: {e}") from e
+            return r.status_code, r.text
 
     try:
         robots = read_robots(config.CATALOG_BASE, http_get)
-        with PlaywrightLoader(robots) as loader:
+        with loader_factory(robots) as loader:
             crawler = Crawler(config.CACHE_DIR, loader, robots, time.sleep, time.time)
             if args.command in config.CATALOGS:
                 from .snapshot import clear_catalog_cache, crawl_level, write_snapshot

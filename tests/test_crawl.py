@@ -155,14 +155,52 @@ def test_never_requests_listed_paths_even_without_robots_rules():
         assert not allow_request(f"{CAT}{path}", "document", rp)
 
 
-def test_loader_exception_propagates_and_still_records_last_request(tmp_path):
+def test_loader_exception_becomes_stop_and_still_records_last_request(tmp_path):
     class Boom:
         def load(self, url):
             clock.now += 3.0
             raise TimeoutError("bot check")
 
     clock = Clock()
-    with pytest.raises(TimeoutError):
+    with pytest.raises(CrawlStopped, match="bot check"):
         crawler(tmp_path, Boom(), clock).get(f"{HOST}/a", "Credit Hour")
     assert load_last_request(tmp_path)[HOST] == 3.0
     assert not cache_path(tmp_path, f"{HOST}/a").exists()
+
+
+def test_robots_network_failure_is_one_line_stop(monkeypatch, capsys):
+    import requests
+    from owlpath_pipeline.crawl import main
+
+    def boom(*a, **k):
+        raise requests.ConnectionError("no route")
+
+    monkeypatch.setattr(requests, "get", boom)
+    assert main(["undergraduate"], loader_factory=lambda r: None) == 1
+    out = capsys.readouterr().out
+    assert out.startswith("STOPPED:") and len(out.splitlines()) == 1
+
+
+def test_loader_error_becomes_crawl_stopped(tmp_path):
+    class Boom:
+        def load(self, url):
+            raise TimeoutError("page took too long")
+
+    with pytest.raises(CrawlStopped, match=r"x\.html.*page took too long"):
+        crawler(tmp_path, Boom(), Clock()).get(f"{HOST}/x.html", "Credit Hour")
+    assert load_last_request(tmp_path)  # the visit was still recorded
+
+
+def test_main_reports_loader_error_as_stop(tmp_path, monkeypatch, capsys):
+    from contextlib import nullcontext
+    from owlpath_pipeline.crawl import main
+
+    class Boom:
+        def load(self, url):
+            raise TimeoutError("slow")
+
+    monkeypatch.setattr(config, "CACHE_DIR", tmp_path)
+    assert main(["undergraduate"], http_get=lambda u, h: (200, "User-agent: *\nCrawl-delay: 0\n"),
+                loader_factory=lambda r: nullcontext(Boom())) == 1
+    out = capsys.readouterr().out
+    assert out.startswith("STOPPED:") and len(out.splitlines()) == 1
