@@ -16,7 +16,9 @@ DATA_DIR = REPO_ROOT / "data" / CATALOG_YEAR
 SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "courses.schema.json"
 
 # One folder per major under DATA_DIR: program.json, overrides.json, courses.json, reports.
-PROGRAMS = ("bs-cs", "bs-dsa", "ms-dsa")
+def programs(data_dir: Path = DATA_DIR) -> list[str]:
+    """The sorted major folders under data_dir (the ones that hold a program.json)."""
+    return sorted(p.parent.name for p in Path(data_dir).glob("*/program.json"))
 
 
 def program_dir(program: str) -> Path:

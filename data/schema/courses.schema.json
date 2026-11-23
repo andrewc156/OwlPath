@@ -8,6 +8,7 @@
   "required": ["catalogYear", "source", "program", "choices", "courses"],
   "properties": {
     "catalogYear": { "type": "string", "pattern": "^\\d{4}-\\d{4}$" },
+    "checked": { "type": "boolean" },
     "source": { "type": "string" },
     "program": {
       "type": "object", "additionalProperties": false, "required": ["id", "name", "filters"],

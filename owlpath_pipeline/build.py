@@ -276,7 +276,7 @@ def _report(warnings: list[str], errors: list[str], notes: list[str] | None = No
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.build")
-    ap.add_argument("program", choices=config.PROGRAMS, help="which major to build, e.g. bs-cs")
+    ap.add_argument("program", choices=config.programs(), help="which major to build, e.g. bs-cs")
     ap.add_argument("--draft", action="store_true", help="write output even with unresolved warnings")
     args = ap.parse_args(argv)
 
@@ -290,6 +290,7 @@ def main(argv: list[str]) -> int:
     notes: list[str] = []
     dataset, warnings = build_dataset(spec["courses"], level_get_raw(spec["level"]), overrides, meta,
                                       auto=False, notes_out=notes)
+    dataset["checked"] = bool(spec.get("checked"))
     errors = validate_dataset(dataset)
 
     # Never write a dataset that fails validation, and never replace the reviewed
