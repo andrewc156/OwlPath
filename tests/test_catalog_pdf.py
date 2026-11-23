@@ -136,3 +136,35 @@ def test_saved_graduate_listing_splits_prereq_from_description():
     c = load_catalog(GRAD, 83)["STAT 7010"]
     assert c.prereq_text == "STAT 7220 and STAT 7210"
     assert c.description.startswith("Fundamental concepts of probability")
+
+
+FIXTURES = Path(__file__).resolve().parent / "fixtures" / "catalog"
+CHROME_TEXT = ("Page: 1 | 2\nContract All Courses | Print this Page\nAdd to Portfolio (opens a new window)\n"
+               "All publications © 2026 Kennesaw State University.\nPowered by Modern Campus Catalog™.")
+
+
+@pytest.mark.parametrize("name", ["ug-courses-stat", "grad-courses-ds"])
+def test_last_course_of_a_listing_page_has_no_footer_text(name):
+    courses = parse_listing((FIXTURES / f"{name}.txt").read_text(encoding="utf-8"), "")
+    last = list(courses.values())[-1]
+    for text in (last.title, last.description, last.prereq_text or "", last.coreq_text or ""):
+        for chrome in ("Contract All Courses", "Print this Page", "Add to Portfolio", "Modern Campus", "Page:"):
+            assert chrome not in text
+
+
+def test_pagination_and_footer_end_the_listing():
+    text = "XX 1000: Thing\n3 Credit Hours\nDescription\nWords here.\n" + CHROME_TEXT
+    assert parse_listing(text, "")["XX 1000"].description == "Words here."
+
+
+def test_bare_print_this_page_ends_the_listing():
+    text = "XX 1000: Thing\n3 Credit Hours\nDescription\nWords here.\nPrint this Page\n"
+    assert parse_listing(text, "")["XX 1000"].description == "Words here."
+
+
+def test_footer_above_the_first_course_still_parses_every_course():
+    text = ("Contract All Courses | Print this Page\nAdd to Portfolio (opens a new window)\n"
+            "XX 1000: One\n3 Credit Hours\nDescription\nFirst.\nXX 1001: Two\n3 Credit Hours\nDescription\nSecond.\n"
+            + CHROME_TEXT)
+    courses = parse_listing(text, "")
+    assert list(courses) == ["XX 1000", "XX 1001"] and courses["XX 1001"].description == "Second."

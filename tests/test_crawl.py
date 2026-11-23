@@ -204,3 +204,33 @@ def test_main_reports_loader_error_as_stop(tmp_path, monkeypatch, capsys):
                 loader_factory=lambda r: nullcontext(Boom())) == 1
     out = capsys.readouterr().out
     assert out.startswith("STOPPED:") and len(out.splitlines()) == 1
+
+
+def _no_network(*a, **k):
+    raise AssertionError("--from-cache must not touch the network or a browser")
+
+
+def test_from_cache_rebuilds_the_snapshot_without_network(tmp_path, monkeypatch, capsys):
+    import json
+    from test_snapshot import make_crawler, site
+    from owlpath_pipeline.crawl import main
+    from owlpath_pipeline.snapshot import crawl_level
+
+    crawl_level("undergraduate", make_crawler(tmp_path / "cache", site()))  # fills the cache
+    monkeypatch.setattr(config, "CACHE_DIR", tmp_path / "cache")
+    monkeypatch.setattr(config, "DATA_DIR", tmp_path / "data")
+    assert main(["undergraduate", "--from-cache"], http_get=_no_network, loader_factory=_no_network) == 0
+    assert capsys.readouterr().out.strip() == "undergraduate: 2 courses, 1 programs, 1 out of scope"
+    out = json.loads((tmp_path / "data" / "catalog" / "undergraduate" / "catalog-courses.json").read_text())
+    assert set(out["courses"]) == {"AA 1000", "BB 2000"}
+
+
+def test_from_cache_stops_on_a_page_missing_from_the_cache(tmp_path, monkeypatch, capsys):
+    from owlpath_pipeline.crawl import main
+
+    monkeypatch.setattr(config, "CACHE_DIR", tmp_path / "cache")
+    monkeypatch.setattr(config, "DATA_DIR", tmp_path / "data")
+    assert main(["undergraduate", "--from-cache"], http_get=_no_network, loader_factory=_no_network) == 1
+    out = capsys.readouterr().out
+    assert out.startswith("STOPPED: ") and out.rstrip().endswith("is not in the cache") and len(out.splitlines()) == 1
+    assert not (tmp_path / "data").exists()

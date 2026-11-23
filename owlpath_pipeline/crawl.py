@@ -60,13 +60,14 @@ def allow_request(url: str, resource_type: str, robots: RobotFileParser,
 class Crawler:
     def __init__(self, cache_dir: Path, loader: PageLoader, robots: RobotFileParser,
                  sleep: Callable[[float], None], clock: Callable[[], float],
-                 origin: str = config.CATALOG_BASE):
+                 origin: str = config.CATALOG_BASE, cache_only: bool = False):
         self.cache_dir = Path(cache_dir)
         self._loader = loader
         self._robots = robots
         self._sleep = sleep
         self._clock = clock
         self.origin = origin
+        self.cache_only = cache_only  # never load: a page missing from the cache stops the run
         self._last: float | None = None
 
     def cached(self, url: str) -> LoadedPage | None:
@@ -88,6 +89,8 @@ class Crawler:
         hit = self.cached(url)
         if hit is not None:
             return hit
+        if self.cache_only:
+            raise CrawlStopped(f"{url} is not in the cache")
         if _forbidden(url, self._robots, config.USER_AGENT):
             raise DisallowedError(f"robots.txt disallows {url}")
 
@@ -137,6 +140,8 @@ def main(argv: list[str] | None = None, http_get: HttpGet | None = None, loader_
     for level in config.CATALOGS:
         lv = sub.add_parser(level, help=f"crawl the whole {level} catalog into catalog/{level}/ snapshot files")
         lv.add_argument("--refresh", action="store_true", help="delete this catalog's cached pages first")
+        lv.add_argument("--from-cache", action="store_true",
+                        help="rebuild the snapshot from cached pages only: no browser, no robots.txt, no waiting")
     args = parser.parse_args(argv)
 
     if http_get is None:
@@ -146,6 +151,21 @@ def main(argv: list[str] | None = None, http_get: HttpGet | None = None, loader_
             except requests.RequestException as e:
                 raise FetchError(f"{url}: {e}") from e
             return r.status_code, r.text
+
+    if args.command in config.CATALOGS and args.from_cache:
+        if args.refresh:
+            parser.error("--from-cache and --refresh cannot be combined (refresh would delete the cache)")
+        from .snapshot import crawl_level, write_snapshot
+        try:
+            snap = crawl_level(args.command, Crawler(config.CACHE_DIR, None, RobotFileParser(), time.sleep,
+                                                     time.time, cache_only=True))
+        except CrawlStopped as e:
+            print(f"STOPPED: {e}")
+            return 1
+        write_snapshot(snap, config.DATA_DIR)
+        print(f"{args.command}: {len(snap.courses)} courses, {len(snap.programs)} programs, "
+              f"{len(snap.out_of_scope)} out of scope")
+        return 0
 
     try:
         robots = read_robots(config.CATALOG_BASE, http_get)
