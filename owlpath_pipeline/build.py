@@ -1,8 +1,9 @@
 """Build data/<year>/<major>/courses.json from the saved catalog listing PDFs in catalog/<level>/.
 
-Pass 1 collects every course the program needs (required leaves pull new courses in).
+Pass 1 collects every course the program needs (required leaves pull new courses in). Shared per-level
+overrides (catalog/<level>/overrides.json) replace a course's parsed prerequisites there, so they steer the closure.
 Pass 2 marks each leaf as an in-graph course or an external alternative, then the
-trees are converted to the short output form and hand-written overrides are applied.
+trees are converted to the short output form.
 
 CLI: .venv/bin/python -m owlpath_pipeline.build <program> [--draft]   (reads/writes data/<year>/<program>/)
 """
@@ -72,15 +73,56 @@ def to_output(expr: Expr) -> Logic:
     return {op: [to_output(c) for c in expr[op]]}
 
 
-def _check_overrides(overrides: dict, graph: set[str]) -> None:
+def _has_external(logic) -> bool:
+    if isinstance(logic, dict):
+        return "external" in logic or any(_has_external(c) for k in ("and", "or") for c in logic.get(k, []))
+    return False
+
+
+def check_overrides(overrides: dict, known: set[str]) -> None:
+    """Overrides are written in catalog terms: course leaves only (each major's build decides node or text)."""
     for cid, o in overrides.items():
-        if cid not in graph:
-            raise ValueError(f"override for {cid}: course is not in the graph (stale override?)")
+        if cid not in known:
+            raise ValueError(f"override for {cid}: stale override, the course is not in the catalog")
         if not isinstance(o, dict) or not str(o.get("reason", "")).strip():
             raise ValueError(f"override for {cid}: a non-empty reason is required")
         unknown = set(o) - {"reason", "prereqs", "coreqs", "notes"}
         if unknown:
             raise ValueError(f"override for {cid}: unknown fields {sorted(unknown)}")
+        if _has_external(o.get("prereqs")) or _has_external(o.get("coreqs")):
+            raise ValueError(f"override for {cid}: external leaf; overrides use course leaves, "
+                             "each major's build decides node or text")
+
+
+def _from_override(logic) -> Expr | None:
+    """Override logic (output short form, course leaves) -> internal Expr."""
+    if logic is None:
+        return None
+    if isinstance(logic, str):
+        return {"course": logic}
+    if "course" in logic:
+        return dict(logic)
+    op = "and" if "and" in logic else "or"
+    return {op: [_from_override(c) for c in logic[op]]}
+
+
+def load_overrides(level: str, data_dir: Path | None = None) -> dict:
+    """The level's shared overrides (catalog/<level>/overrides.json) merged over the other level's."""
+    data_dir = data_dir or config.DATA_DIR
+    merged: dict = {}
+    for lv in [l for l in config.CATALOGS if l != level] + [level]:
+        path = data_dir / "catalog" / lv / "overrides.json"
+        if path.exists():
+            merged.update(json.loads(path.read_text()))
+    return merged
+
+
+def _in_catalog(get_raw: Callable[[str], RawCourse], cid: str) -> bool:
+    try:
+        get_raw(cid)
+    except KeyError:
+        return False
+    return True
 
 
 def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCourse],
@@ -95,6 +137,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
     raws: dict[str, RawCourse] = {}
     parsed: dict[str, tuple[ParseResult, ParseResult]] = {}
     groups = {cid: list(g) for cid, g in program.items()}
+    check_overrides(overrides, {cid for cid in overrides if _in_catalog(get_raw, cid)})
 
     # Pass 1: closure over required leaves.
     worklist = sorted(program)
@@ -109,8 +152,11 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
             groups.pop(cid, None)
             continue
         r = raws[cid]
-        pre = parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None)
-        co = parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None)
+        o = overrides.get(cid, {})
+        pre = (ParseResult(_from_override(o["prereqs"])) if "prereqs" in o
+               else parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None))
+        co = (ParseResult(_from_override(o["coreqs"])) if "coreqs" in o
+              else parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None))
         parsed[cid] = (pre, co)
         warnings.extend(f"{cid}: {w}" for w in r.warnings + pre.warnings + co.warnings)
         for req in _required_ids(pre.expr) + _required_ids(co.expr):
@@ -118,7 +164,6 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
                 groups[req] = ["prereq-only"]
                 worklist.append(req)
     graph = set(raws)
-    _check_overrides(overrides, graph)
 
     # Pass 2: classify leaves, convert, apply overrides.
     courses = []
@@ -126,7 +171,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         r, (pre, co) = raws[cid], parsed[cid]
         prereqs = _classify(pre.expr, graph, cid, warnings)
         coreqs = _classify(co.expr, graph, cid, warnings)
-        notes = list(dict.fromkeys(pre.notes + co.notes))
+        notes = list(overrides.get(cid, {}).get("notes", dict.fromkeys(pre.notes + co.notes)))
         c = {
             "id": cid, "title": r.title, "credits": r.credits, "description": r.description,
             "catalogYear": config.CATALOG_YEAR, "catalogUrl": r.url, "groups": groups[cid],
@@ -134,8 +179,6 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
             "coreqs": to_output(coreqs) if coreqs else None,
             "notes": notes,
         }
-        if cid in overrides:
-            c.update({k: v for k, v in overrides[cid].items() if k != "reason"})
         courses.append(c)
 
     warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides]
@@ -148,6 +191,34 @@ def catalog_get_raw(level: str = "undergraduate", directory: Path | None = None)
     from .catalog_pdf import load_catalog
 
     return load_catalog(directory or config.catalog_pdf_dir(level), config.catoid(level)).__getitem__
+
+
+def level_get_raw(level: str, source: str = "pdf") -> Callable[[str], RawCourse]:
+    """Look a course up in `level` first, then in the other level; KeyError if neither has it.
+    source is "pdf" (saved listing PDFs) or "snapshot" (catalog-courses.json)."""
+    if source not in ("pdf", "snapshot"):
+        raise ValueError(f"unknown catalog source {source!r}; expected 'pdf' or 'snapshot'")
+    levels = [level] + [l for l in config.CATALOGS if l != level]
+    tables: list = []
+    for lv in levels:
+        if source == "snapshot":
+            from .snapshot import load_courses
+            tables.append(load_courses(lv, config.DATA_DIR).__getitem__)
+        else:
+            try:
+                tables.append(catalog_get_raw(lv))
+            except ValueError:  # level not set up (no catoid)
+                continue
+
+    def get_raw(cid: str) -> RawCourse:
+        for table in tables:
+            try:
+                return table(cid)
+            except KeyError:
+                continue
+        raise KeyError(cid)
+
+    return get_raw
 
 
 def _report(warnings: list[str], errors: list[str]) -> str:
@@ -175,12 +246,12 @@ def main(argv: list[str]) -> int:
 
     out = config.program_dir(args.program)
     spec = json.loads((out / "program.json").read_text())
-    overrides = json.loads((out / "overrides.json").read_text())
     if "level" not in spec:
         raise SystemExit(f"{args.program}/program.json needs \"level\": one of {sorted(config.CATALOGS)}")
+    overrides = load_overrides(spec["level"])
     meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", []),
             "level": spec["level"]}
-    dataset, warnings = build_dataset(spec["courses"], catalog_get_raw(spec["level"]), overrides, meta)
+    dataset, warnings = build_dataset(spec["courses"], level_get_raw(spec["level"]), overrides, meta)
     errors = validate_dataset(dataset)
 
     # Never write a dataset that fails validation, and never replace the reviewed

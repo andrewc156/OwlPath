@@ -1,6 +1,6 @@
 import pytest
 
-from owlpath_pipeline.build import build_dataset
+from owlpath_pipeline.build import build_dataset, check_overrides, level_get_raw, load_overrides
 from owlpath_pipeline.model import RawCourse
 from owlpath_pipeline.validate import validate_dataset
 
@@ -68,10 +68,69 @@ def test_override_replaces_prereq_and_clears_that_courses_warnings():
     assert not any(w.startswith("CS 3305:") for w in warnings)
 
 
-def test_override_for_course_not_in_graph_is_error():
-    pages = Pages(raw("CS 3305"))
-    with pytest.raises(ValueError, match="CS 9999"):
-        build_dataset({"CS 3305": ["major-required"]}, pages, {"CS 9999": {"reason": "x", "prereqs": None}}, META)
+def test_override_applies_before_closure_and_pulls_required_course():
+    ds, _ = build_dataset({"AA 1000": ["major-required"]}, Pages(raw("AA 1000", prereq="junk"), raw("BB 2000")),
+                          {"AA 1000": {"reason": "r", "prereqs": "BB 2000"}}, META)
+    assert course(ds, "BB 2000")["groups"] == ["prereq-only"] and course(ds, "AA 1000")["prereqs"] == "BB 2000"
+
+
+def test_shared_override_leaf_is_node_in_one_major_and_text_in_another():
+    overrides = {"AA 1000": {"reason": "r", "prereqs": {"or": ["BB 2000", "CC 3000"]}}}
+    pages = lambda: Pages(raw("AA 1000"), raw("BB 2000"), raw("CC 3000"))
+    x, _ = build_dataset({"AA 1000": ["major-required"], "CC 3000": ["major-required"]}, pages(), overrides, META)
+    y, _ = build_dataset({"AA 1000": ["major-required"], "BB 2000": ["major-required"]}, pages(), overrides, META)
+    assert course(x, "AA 1000")["prereqs"] == {"or": [{"external": "BB 2000"}, "CC 3000"]}
+    assert course(y, "AA 1000")["prereqs"] == {"or": ["BB 2000", {"external": "CC 3000"}]}
+
+
+def test_notes_only_override_keeps_parsed_prereqs_and_null_clears_them():
+    pages = Pages(raw("AA 1000", prereq="BB 2000"), raw("BB 2000"), raw("CC 3000", prereq="BB 2000"))
+    ds, _ = build_dataset({"AA 1000": ["major-required"], "CC 3000": ["major-required"]}, pages,
+                          {"AA 1000": {"reason": "r", "notes": ["n"]}, "CC 3000": {"reason": "r", "prereqs": None}}, META)
+    assert course(ds, "AA 1000")["prereqs"] == "BB 2000" and course(ds, "AA 1000")["notes"] == ["n"]
+    assert course(ds, "CC 3000")["prereqs"] is None
+
+
+def test_override_with_external_leaf_is_error():
+    with pytest.raises(ValueError, match="external"):
+        check_overrides({"AA 1000": {"reason": "r", "prereqs": {"or": ["BB 2000", {"external": "CC 3000"}]}}}, {"AA 1000"})
+
+
+def test_override_for_course_missing_from_catalog_is_error():
+    with pytest.raises(ValueError, match="stale override"):
+        check_overrides({"CS 9999": {"reason": "x", "prereqs": None}}, {"CS 3305"})
+    with pytest.raises(ValueError, match="stale override"):
+        build_dataset({"CS 3305": ["major-required"]}, Pages(raw("CS 3305")), {"CS 9999": {"reason": "x", "prereqs": None}}, META)
+
+
+def _write_snapshot(data_dir, level, ids):
+    import json
+    d = data_dir / "catalog" / level
+    d.mkdir(parents=True)
+    (d / "catalog-courses.json").write_text(json.dumps({"courses": {
+        i: {"title": i, "credits": "3", "description": "", "prereqText": None, "coreqText": None, "url": "u", "warnings": []}
+        for i in ids}}))
+
+
+def test_course_missing_from_own_level_is_found_in_other_level(tmp_path, monkeypatch):
+    from owlpath_pipeline import config
+    monkeypatch.setattr(config, "DATA_DIR", tmp_path)
+    _write_snapshot(tmp_path, "undergraduate", ["MATH 1113"])
+    _write_snapshot(tmp_path, "graduate", ["DS 7020"])
+    get = level_get_raw("graduate", source="snapshot")
+    assert get("DS 7020").id == "DS 7020" and get("MATH 1113").id == "MATH 1113"
+    with pytest.raises(KeyError):
+        get("ZZ 0000")
+
+
+def test_own_level_overrides_win_over_other_level(tmp_path):
+    import json
+    for level, reason in (("undergraduate", "u"), ("graduate", "g")):
+        d = tmp_path / "catalog" / level
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "overrides.json").write_text(json.dumps({"AA 1000": {"reason": reason}, **({"BB 2000": {"reason": "b"}} if level == "undergraduate" else {})}))
+    merged = load_overrides("graduate", tmp_path)
+    assert merged["AA 1000"]["reason"] == "g" and merged["BB 2000"]["reason"] == "b"
 
 
 def test_override_without_reason_is_error():
@@ -113,7 +172,6 @@ def _program_dir(tmp_path, monkeypatch, courses):
     d = tmp_path / "bs-cs"
     d.mkdir()
     (d / "program.json").write_text(json.dumps({**META, "catalogYear": "2026-2027", "level": "undergraduate", "courses": courses}))
-    (d / "overrides.json").write_text("{}")
     return d
 
 
@@ -125,7 +183,7 @@ def test_cli_keeps_reviewed_dataset_when_warnings_remain(tmp_path, monkeypatch):
     def missing(cid):
         raise KeyError(cid)
 
-    monkeypatch.setattr(build, "catalog_get_raw", lambda level: missing)
+    monkeypatch.setattr(build, "level_get_raw", lambda level, source="pdf": missing)
     assert build.main(["bs-cs"]) == 1
     assert not (d / "courses.json").exists() and (d / "build-report.md").exists()
     assert build.main(["bs-cs", "--draft"]) == 0
@@ -155,16 +213,18 @@ def test_cli_rejects_unknown_program():
     assert e.value.code == 2
 
 
-def test_cs_dataset_courses_unchanged_after_move():
-    """Pins the reviewed CS dataset: an in-memory rebuild from bs-cs/ must equal the committed file."""
+@pytest.mark.parametrize("major", ["bs-cs", "bs-dsa", "ms-dsa"])
+def test_checked_majors_rebuild_unchanged(major):
+    """Pins the reviewed datasets: PDFs + shared overrides must rebuild exactly the committed courses.json."""
     import json
     from owlpath_pipeline import config
-    from owlpath_pipeline.build import catalog_get_raw
 
-    d = config.program_dir("bs-cs")
+    d = config.program_dir(major)
     prog = json.loads((d / "program.json").read_text())
-    built, warnings = build_dataset(prog["courses"], catalog_get_raw(), json.loads((d / "overrides.json").read_text()),
-                                    {"program": prog["program"], "choices": prog["choices"]})
+    level = prog["level"]
+    built, warnings = build_dataset(prog["courses"], level_get_raw(level), load_overrides(level),
+                                    {"program": prog["program"], "choices": prog["choices"],
+                                     "lessCommon": prog.get("lessCommon", []), "level": level})
     assert warnings == [] and built == json.loads((d / "courses.json").read_text())
 
 
