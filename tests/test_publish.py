@@ -197,3 +197,32 @@ def test_hand_edited_draft_is_kept_on_rerun(tmp_path):
     path.write_text(json.dumps(spec))
     snap_publish(tmp_path)
     assert "CC 3000" in json.loads(path.read_text())["courses"]
+
+
+def test_pdf_source_does_not_draft(tmp_path):
+    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "AA 1000")])])
+    pub.publish(tmp_path, get_raw_for=get_raw_for)
+    assert not (tmp_path / "bs-alpha-studies").exists()
+
+
+def test_level_with_programs_but_no_courses_is_skipped_and_noted(tmp_path):
+    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "AA 1000")])])
+    (tmp_path / "catalog" / "undergraduate" / "catalog-courses.json").unlink()
+    snap_publish(tmp_path)
+    assert "Skipped undergraduate" in (tmp_path / "STATUS.md").read_text()
+
+
+def test_fresh_draft_warnings_never_hold_a_checked_major(tmp_path):
+    write_major(tmp_path, "bs-cs", ["AA 1000"], checked=True)
+    write_snapshot(tmp_path, [page(11680, "Computer Science, B.S.", [sec("Mystery Block", "AA 1000")])])
+    assert by_id(snap_publish(tmp_path))["bs-cs"].state == "checked"
+
+
+def test_malformed_program_json_holds_that_major_and_output_stays_consistent(tmp_path):
+    write_major(tmp_path, "bs-aa", ["AA 1000"])
+    bad = write_major(tmp_path, "bs-bad", ["AA 1000"])
+    (bad / "program.json").write_text("{not json")
+    results = by_id(run(tmp_path))
+    assert results["bs-bad"].state == "held" and results["bs-bad"].errors
+    assert [m["id"] for m in json.loads((tmp_path / "majors.json").read_text())] == ["bs-aa"]
+    assert "bs-bad" in (tmp_path / "STATUS.md").read_text()

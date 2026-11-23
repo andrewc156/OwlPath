@@ -25,4 +25,4 @@ None.
 
 ## Programs left out of scope
 
-No catalog snapshot yet.
+No catalog snapshot used.

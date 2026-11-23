@@ -277,32 +277,60 @@ def _report(warnings: list[str], errors: list[str], notes: list[str] | None = No
     return "\n".join(lines) + "\n"
 
 
+def major_report(warnings: list[str], errors: list[str], notes: list[str],
+                 draft_warnings: list[str], left_out: list[str]) -> str:
+    text = _report(warnings, errors, notes)
+    if draft_warnings:
+        text += "\n## Drafting warnings\n\n" + "".join(f"- {w}\n" for w in draft_warnings)
+    if left_out:
+        text += "\n## Left out on purpose\n\n" + "".join(f"- {x}\n" for x in left_out)
+    return text
+
+
+def build_major(folder: Path, source: str = "pdf", data_dir: Path | None = None,
+                get_raw_for: Callable[[str], Callable[[str], RawCourse]] | None = None):
+    """Build one major from its program.json: the one path shared by the build CLI and publish.
+    Unchecked majors build with auto=True. Returns (spec, dataset, warnings, errors, notes); the spec's
+    draftWarnings count as unresolved warnings for the caller (they hold a major) but stay in spec."""
+    spec = json.loads((folder / "program.json").read_text(encoding="utf-8"))
+    if "level" not in spec:
+        raise ValueError(f"{folder.name}/program.json needs \"level\": one of {sorted(config.CATALOGS)}")
+    level, checked = spec["level"], bool(spec.get("checked"))
+    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", []),
+            "level": level}
+    get_raw = get_raw_for(level) if get_raw_for else level_get_raw(level, source, data_dir)
+    notes: list[str] = []
+    dataset, warnings = build_dataset(spec["courses"], get_raw, load_overrides(level, data_dir), meta,
+                                      auto=not checked, notes_out=notes)
+    dataset["checked"] = checked
+    return spec, dataset, warnings, validate_dataset(dataset), notes
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.build")
     ap.add_argument("program", choices=config.programs(), help="which major to build, e.g. bs-cs")
     ap.add_argument("--draft", action="store_true", help="write output even with unresolved warnings")
+    ap.add_argument("--from-pdfs", action="store_true", help="read courses from the saved PDFs (the default for now)")
     args = ap.parse_args(argv)
 
     out = config.program_dir(args.program)
-    spec = json.loads((out / "program.json").read_text())
-    if "level" not in spec:
-        raise SystemExit(f"{args.program}/program.json needs \"level\": one of {sorted(config.CATALOGS)}")
-    overrides = load_overrides(spec["level"])
-    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", []),
-            "level": spec["level"]}
-    notes: list[str] = []
-    dataset, warnings = build_dataset(spec["courses"], level_get_raw(spec["level"]), overrides, meta,
-                                      auto=False, notes_out=notes)
-    dataset["checked"] = bool(spec.get("checked"))
-    errors = validate_dataset(dataset)
+    try:
+        spec, dataset, warnings, errors, notes = build_major(out)
+    except ValueError as e:
+        if "needs \"level\"" in str(e):
+            raise SystemExit(str(e))
+        raise
+    draft_warnings = spec.get("draftWarnings", [])
+    unresolved = len(warnings) + len(draft_warnings)
 
     # Never write a dataset that fails validation, and never replace the reviewed
     # one with output that still has unresolved warnings unless --draft is given.
-    if not errors and (args.draft or not warnings):
+    if not errors and (args.draft or not unresolved):
         (out / "courses.json").write_text(json.dumps(dataset, sort_keys=True, indent=2) + "\n")
-    (out / "build-report.md").write_text(_report(warnings, errors, notes))
-    print(f"{len(dataset['courses'])} courses, {len(warnings)} unresolved warnings, {len(errors)} validation errors")
-    if errors or (warnings and not args.draft):
+    (out / "build-report.md").write_text(major_report(warnings, errors, notes, draft_warnings,
+                                                       spec.get("leftOut", [])))
+    print(f"{len(dataset['courses'])} courses, {unresolved} unresolved warnings, {len(errors)} validation errors")
+    if errors or (unresolved and not args.draft):
         return 1
     return 0
 

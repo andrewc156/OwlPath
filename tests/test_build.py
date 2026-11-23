@@ -183,7 +183,7 @@ def test_cli_keeps_reviewed_dataset_when_warnings_remain(tmp_path, monkeypatch):
     def missing(cid):
         raise KeyError(cid)
 
-    monkeypatch.setattr(build, "level_get_raw", lambda level, source="pdf": missing)
+    monkeypatch.setattr(build, "level_get_raw", lambda level, source="pdf", data_dir=None: missing)
     assert build.main(["bs-cs"]) == 1
     assert not (d / "courses.json").exists() and (d / "build-report.md").exists()
     assert build.main(["bs-cs", "--draft"]) == 0
@@ -281,3 +281,19 @@ def test_permission_alternative_is_not_an_option_on_the_map():
     ds, w = build_dataset({"AA 1000": ["major-required"]}, pages, {}, META, auto=True)
     assert w == [] and ids(ds) == ["AA 1000", "BB 2000"]
     assert course(ds, "AA 1000")["notes"] == ["permission of the instructor"]
+
+
+def test_cli_uses_auto_for_unchecked_and_holds_on_draft_warnings(tmp_path, monkeypatch):
+    import json
+
+    from owlpath_pipeline import build
+
+    d = _program_dir(tmp_path, monkeypatch, {"CS 3305": ["major-required"]})
+    pages = Pages(raw("CS 3305", prereq="MATH 1111 or MATH 2222"), raw("MATH 1111"), raw("MATH 2222"))
+    monkeypatch.setattr(build, "level_get_raw", lambda level, source="pdf", data_dir=None: pages)
+    assert build.main(["bs-cs"]) == 0  # auto pulls an option in instead of warning
+    assert "MATH 1111" in (d / "courses.json").read_text()
+    spec = json.loads((d / "program.json").read_text())
+    (d / "program.json").write_text(json.dumps({**spec, "draftWarnings": ["unrecognized section 'X'"]}))
+    (d / "courses.json").unlink()
+    assert build.main(["bs-cs"]) == 1 and not (d / "courses.json").exists()

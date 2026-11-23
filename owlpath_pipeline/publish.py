@@ -14,10 +14,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from . import config
-from .build import _report, build_dataset, level_get_raw, load_overrides
+from .build import build_major, major_report
 from .draft import assign_ids, draft_diff, draft_program, write_draft
 from .model import RawCourse
-from .validate import validate_dataset
 
 GetRaw = Callable[[str], RawCourse]
 
@@ -38,16 +37,21 @@ def _write_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, sort_keys=True, indent=2) + "\n")
 
 
-def _draft_levels(data_dir: Path) -> tuple[dict[str, list[str]], dict[str, dict]]:
+def _draft_levels(data_dir: Path) -> tuple[dict[str, list[str]], dict[str, dict], list[str]]:
     """Draft every in-scope program of each level with a snapshot.
-    Returns (out of scope names per level, {checked major id: its catalog page's added/removed courses})."""
+    Returns (out of scope names per level, {checked major id: its catalog page's added/removed courses},
+    levels skipped because catalog-courses.json is missing)."""
     from .snapshot import load_courses, load_programs
 
     out_of_scope: dict[str, list[str]] = {}
     page_changes: dict[str, dict] = {}
+    skipped: list[str] = []
     for level in config.CATALOGS:
         programs_file = data_dir / "catalog" / level / "programs.json"
         if not programs_file.exists():
+            continue
+        if not (data_dir / "catalog" / level / "catalog-courses.json").exists():
+            skipped.append(level)
             continue
         pages = load_programs(level, data_dir)
         catalog = load_courses(level, data_dir)
@@ -62,7 +66,7 @@ def _draft_levels(data_dir: Path) -> tuple[dict[str, list[str]], dict[str, dict]
                     page_changes[draft.program_json["program"]["id"]] = diff
         out_of_scope[level] = [p["name"] for p in
                                json.loads(programs_file.read_text(encoding="utf-8")).get("outOfScope", [])]
-    return out_of_scope, page_changes
+    return out_of_scope, page_changes, skipped
 
 
 def _course_changes(old: dict, new: dict) -> dict[str, tuple[dict | None, dict | None]]:
@@ -77,61 +81,52 @@ def _course_changes(old: dict, new: dict) -> dict[str, tuple[dict | None, dict |
     return changes
 
 
-def _major_report(warnings, errors, notes, draft_warnings, left_out) -> str:
-    text = _report(warnings, errors, notes)
-    if draft_warnings:
-        text += "\n## Drafting warnings\n\n" + "".join(f"- {w}\n" for w in draft_warnings)
-    if left_out:
-        text += "\n## Left out on purpose\n\n" + "".join(f"- {x}\n" for x in left_out)
-    return text
-
-
 def publish(data_dir: Path = config.DATA_DIR, source: str = "pdf",
             get_raw_for: Callable[[str], GetRaw] | None = None) -> list[MajorResult]:
     """get_raw_for(level) overrides how courses are looked up (tests); default is level_get_raw(level, source)."""
-    get_raw_for = get_raw_for or (lambda level: level_get_raw(level, source, data_dir))
     data_dir = Path(data_dir)
-    out_of_scope, page_changes = _draft_levels(data_dir)
+    if source == "snapshot":
+        out_of_scope, page_changes, skipped = _draft_levels(data_dir)
+    else:  # PDF builds never draft: they build the program folders that already exist
+        out_of_scope, page_changes, skipped = {}, {}, []
 
     results: list[MajorResult] = []
     details: dict[str, dict] = {}  # changed checked majors: id -> {course id: (before, after)}
     for mid in config.programs(data_dir):
         folder = data_dir / mid
-        spec = json.loads((folder / "program.json").read_text(encoding="utf-8"))
-        level, checked = spec["level"], bool(spec.get("checked"))
-        result = MajorResult(mid, spec["program"]["name"], level, "held", checked=checked)
+        result = MajorResult(mid, mid, "unknown", "held")
         notes: list[str] = []
+        draft_warnings: list[str] = []
+        left_out: list[str] = []
         dataset = None
         try:
-            meta = {"program": spec["program"], "choices": spec["choices"],
-                    "lessCommon": spec.get("lessCommon", []), "level": level}
-            dataset, result.warnings = build_dataset(spec["courses"], get_raw_for(level),
-                                                     load_overrides(level, data_dir), meta,
-                                                     auto=not checked, notes_out=notes)
-            dataset["checked"] = checked
-            result.errors = validate_dataset(dataset)
-        except (ValueError, KeyError) as e:
-            result.errors = [f"build failed: {e}"]
-        draft_warnings = spec.get("draftWarnings", [])
+            spec = json.loads((folder / "program.json").read_text(encoding="utf-8"))
+            result.checked = bool(spec.get("checked"))
+            result.name, result.level = spec["program"]["name"], spec["level"]
+            spec, dataset, result.warnings, result.errors, notes = build_major(
+                folder, source, data_dir, get_raw_for)
+            draft_warnings, left_out = spec.get("draftWarnings", []), spec.get("leftOut", [])
+        except Exception as e:  # one bad major must not stop the others or leave the index stale
+            dataset, result.errors = None, [f"build failed: {type(e).__name__}: {e}"]
         if dataset and not result.errors and not result.warnings and not draft_warnings:
-            result.state = "checked" if checked else "auto"
+            result.state = "checked" if result.checked else "auto"
             courses_file = folder / "courses.json"
-            if checked and courses_file.exists():
+            if result.checked and courses_file.exists():
                 changes = _course_changes(json.loads(courses_file.read_text()), dataset)
                 if changes:
                     result.changed, details[mid] = list(changes), changes
             _write_json(courses_file, dataset)
-        elif not checked:
+        elif not result.checked:
             (folder / "courses.json").unlink(missing_ok=True)
         (folder / "build-report.md").write_text(
-            _major_report(result.warnings, result.errors, notes, draft_warnings, spec.get("leftOut", [])))
+            major_report(result.warnings, result.errors, notes, draft_warnings, left_out))
         results.append(result)
 
     shipped = [r for r in results if r.state != "held" or (r.checked and (data_dir / r.id / "courses.json").exists())]
     shipped.sort(key=lambda r: (r.level, r.name))
     _write_json(data_dir / "majors.json", [{"id": r.id, "name": r.name, "level": r.level, "checked": r.checked}
                                            for r in shipped])
-    (data_dir / "STATUS.md").write_text(_status(results, details, page_changes, out_of_scope))
+    (data_dir / "STATUS.md").write_text(_status(results, details, page_changes, out_of_scope, skipped))
     return results
 
 
@@ -139,7 +134,8 @@ def _short(value) -> str:
     return "(absent)" if value is None else json.dumps(value, sort_keys=True)
 
 
-def _status(results: list[MajorResult], details: dict, page_changes: dict, out_of_scope: dict) -> str:
+def _status(results: list[MajorResult], details: dict, page_changes: dict, out_of_scope: dict,
+            skipped: list[str]) -> str:
     levels = sorted({r.level for r in results})
     lines = ["# Publishing status", "", "## Summary", "",
              "| Level | Checked | Auto | Held |", "|---|---|---|---|"]
@@ -186,8 +182,9 @@ def _status(results: list[MajorResult], details: dict, page_changes: dict, out_o
     lines += ["", "## Programs left out of scope", ""]
     for lv in sorted(out_of_scope):
         lines += [f"### {lv}", ""] + ([f"- {n}" for n in sorted(out_of_scope[lv])] or ["None."]) + [""]
-    if not out_of_scope:
-        lines.append("No catalog snapshot yet.")
+    lines += [f"Skipped {lv}: programs.json found but catalog-courses.json is missing." for lv in skipped]
+    if not out_of_scope and not skipped:
+        lines.append("No catalog snapshot used.")
     return "\n".join(lines).rstrip("\n") + "\n"
 
 
