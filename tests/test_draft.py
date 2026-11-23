@@ -87,6 +87,66 @@ def test_text_only_sections_go_to_left_out_but_skipped_ones_do_not():
     assert d.left_out == [f"text: {rule}"]
 
 
+def C(cid, title="T", prereq=None):
+    return RawCourse(cid, title, "3", "", prereq, None, "")
+
+
+def P(*sections):
+    return {"name": "X, B.S.", "sections": [
+        {"heading": h, "level": lv, "items": [
+            {"kind": "course", "id": i, "title": t} if isinstance(i, str) else i for i, t in
+            [(x, "T") if isinstance(x, (str, dict)) else x for x in items]]} for h, lv, items in sections]}
+
+
+def run(page, cat):
+    return draft_program(page, ("bs-x", "BS X"), "undergraduate", cat)
+
+
+def test_three_warning_kinds_and_empty_page():
+    d = run(P(("Odd Stuff", 2, ["AAA 1000"]), ("Major Requirements", 2, ["AAA 2000"])), {"AAA 1000": C("AAA 1000")})
+    assert d.warnings == ["unrecognized section 'Odd Stuff'", "AAA 2000 is not in the catalog listings"]
+    text_only = P(("Major Requirements", 2, [{"kind": "text", "text": "any course"}]))
+    assert run(text_only, {}).warnings == ["no courses found"]
+
+
+def test_elective_heading_does_not_open_concentration_and_concentration_closes_by_level():
+    page = P(("Major Electives or Concentration (15 Credit Hours)", 2, []),
+             ("Major Electives", 3, ["AAA 1000"]),
+             ("Robotics Track", 3, []),
+             ("Required Courses", 4, ["AAA 2000"]),
+             ("Capstone", 3, ["AAA 3000"]),
+             ("Major Requirements", 2, ["AAA 4000"]))
+    d = run(page, {c: C(c) for c in ("AAA 1000", "AAA 2000", "AAA 3000", "AAA 4000")})
+    assert d.program_json["courses"] == {"AAA 1000": ["major-elective"], "AAA 2000": ["conc-robotics"],
+                                         "AAA 3000": ["major-project"], "AAA 4000": ["major-required"]}
+    assert [f["label"] for f in d.program_json["program"]["filters"]] == [
+        "Required courses", "Robotics", "Electives", "Project"]
+
+
+def test_permission_rule_and_no_prereq_text_kept():
+    cat = {"AAA 1000": C("AAA 1000", prereq="Permission of the program director."),
+           "AAA 2000": C("AAA 2000", prereq=None),
+           "AAA 3000": C("AAA 3000", prereq="Consent of instructor and AAA 2000.")}
+    d = run(P(("Major Requirements", 2, list(cat))), cat)
+    assert d.left_out == ["AAA 1000"] and set(d.program_json["courses"]) == {"AAA 2000", "AAA 3000"}
+
+
+def test_left_out_title_rule_uses_word_boundaries_and_page_title():
+    items = [("AAA 1000", "Synthesis of Organic Compounds"), ("AAA 2000", "Research Methods in Psychology"),
+             ("AAA 3000", "Undergraduate Research"), ("AAA 4000", "Senior Thesis"),
+             ("AAA 5000", "Work Internship")]
+    cat = {c: C(c, "Calculus") for c, _ in items}  # catalog title is ignored when the page has one
+    d = run(P(("Major Requirements", 2, items)), cat)
+    assert set(d.program_json["courses"]) == {"AAA 1000", "AAA 2000"}
+    assert d.left_out == ["AAA 3000", "AAA 4000", "AAA 5000"]
+
+
+def test_skipped_heading_skips_its_subtree():
+    page = P(("General Education", 2, []), ("Area A", 3, ["AAA 1000"]), ("Major Requirements", 2, ["AAA 2000"]))
+    d = run(page, {"AAA 2000": C("AAA 2000")})
+    assert d.warnings == [] and set(d.program_json["courses"]) == {"AAA 2000"}
+
+
 def test_identity():
     assert program_identity("Analytics and Data Science, Ph.D.", 1, 83) == (
         "phd-analytics-and-data-science", "PhD Analytics and Data Science")

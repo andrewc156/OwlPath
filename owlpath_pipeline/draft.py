@@ -14,8 +14,9 @@ _TRAILING_HOURS = re.compile(r"\s*\([^()]*credit hours?\)\s*$", re.IGNORECASE)
 _SKIP = re.compile(r"core impacts|general education|university electives|free electives|program total|\bminor\b")
 _CONC_END = re.compile(r"\b(concentration|track|option|emphasis)$")
 _LEFT_OUT_TITLE = re.compile(
-    r"internship|co-?op\b|cooperative (study|education)|special topics|advanced topics|selected topics"
-    r"|(undergraduate|graduate) research|directed (study|research|readings)|independent study|thesis|dissertation")
+    r"\b(internship|co-?op|cooperative (study|education)|special topics|advanced topics|selected topics"
+    r"|(undergraduate|graduate|directed|doctoral|dissertation|thesis) research"
+    r"|directed (study|readings)|independent study|thesis|dissertation)\b")
 _PERMISSION = re.compile(r"permission|consent|approval")
 _NAMES_COURSE = re.compile(r"\b[A-Z]{2,5} \d{4}[A-Z]?\b")
 
@@ -68,14 +69,11 @@ def draft_hash(program_json: dict) -> str:
 
 def _is_left_out(item: dict, catalog: dict[str, RawCourse]) -> bool:
     raw = catalog.get(item["id"])
-    title = (raw.title if raw else "") or item.get("title", "")
+    title = item.get("title") or (raw.title if raw else "")
     if _LEFT_OUT_TITLE.search(title.lower()):
         return True
     prereq = (raw.prereq_text if raw else None) or ""
-    names_course = bool(_NAMES_COURSE.search(prereq))
-    if "research" in title.lower() and not names_course:
-        return True
-    return bool(prereq) and not names_course and bool(_PERMISSION.search(prereq.lower()))
+    return bool(prereq) and not _NAMES_COURSE.search(prereq) and bool(_PERMISSION.search(prereq.lower()))
 
 
 def _group_for(heading: str) -> str | None:
@@ -97,6 +95,7 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
     warnings: list[str] = []
     conc_labels: list[tuple[str, str]] = []  # (label, group), page order
     conc: tuple[int, str] | None = None  # (heading level, group)
+    skipped: int | None = None  # level of the skipped heading whose subtree we are in
 
     def add_left_out(entry: str) -> None:
         if entry not in left_out:
@@ -108,7 +107,12 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
         level_no = section["level"]
         if conc and level_no <= conc[0]:
             conc = None
+        if skipped is not None and level_no <= skipped:
+            skipped = None
+        if skipped is not None:
+            continue
         if _SKIP.search(heading):
+            skipped = level_no
             continue
         ends = _CONC_END.search(heading)
         if ends and "elective" not in heading:
