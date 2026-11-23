@@ -153,3 +153,16 @@ def test_never_requests_listed_paths_even_without_robots_rules():
     rp = robots("User-agent: *\nDisallow:\n")
     for path in ("/ajax/x", "/search_advanced.php", "/portfolio.php", "/portfolio_nopop.php"):
         assert not allow_request(f"{CAT}{path}", "document", rp)
+
+
+def test_loader_exception_propagates_and_still_records_last_request(tmp_path):
+    class Boom:
+        def load(self, url):
+            clock.now += 3.0
+            raise TimeoutError("bot check")
+
+    clock = Clock()
+    with pytest.raises(TimeoutError):
+        crawler(tmp_path, Boom(), clock).get(f"{HOST}/a", "Credit Hour")
+    assert load_last_request(tmp_path)[HOST] == 3.0
+    assert not cache_path(tmp_path, f"{HOST}/a").exists()

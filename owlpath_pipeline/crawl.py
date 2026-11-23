@@ -92,10 +92,12 @@ class Crawler:
             raise DisallowedError(f"robots.txt disallows {url}")
 
         self._wait()
-        loaded = self._loader.load(url)
-        # The delay counts from the end of this visit.
-        self._last = self._clock()
-        save_last_request(self.cache_dir, self.origin, self._last)
+        try:
+            loaded = self._loader.load(url)
+        finally:
+            # The host was hit even if the load raised; the delay counts from the end of this visit.
+            self._last = self._clock()
+            save_last_request(self.cache_dir, self.origin, self._last)
 
         if loaded.status != 200:
             raise CrawlStopped(f"{url} ended with status {loaded.status}")
