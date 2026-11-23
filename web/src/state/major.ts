@@ -1,4 +1,6 @@
-// Which major's map is shown: ?major= in the URL, then the remembered choice, then the first major.
+import { defaultMajor } from '../logic/majorLoad'
+
+// Which major's map is shown: ?major= in the URL, then the remembered choice, then bs-cs (or the first major).
 export const MAJOR_KEY = 'owlpath:v1:major'
 
 /** Never throws; unknown ids fall through to the next source. */
@@ -11,7 +13,7 @@ export function resolveMajor(search: string, storage: Storage | null, ids: strin
   } catch {
     // Storage blocked: fall back.
   }
-  return ids[0]
+  return defaultMajor(ids)
 }
 
 /** Never throws. */

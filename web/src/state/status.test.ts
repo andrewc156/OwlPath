@@ -1,8 +1,6 @@
 import { expect, test } from 'vitest'
 import { STATUS_KEY, loadStatus, resetStatus, saveStatus } from './status'
 
-const ids = new Set(['CS 3305', 'CSE 1321'])
-
 class MemoryStorage implements Storage {
   private m = new Map<string, string>()
   get length() { return this.m.size }
@@ -21,40 +19,46 @@ const throwing = {
 test('round-trips through storage', () => {
   const s = new MemoryStorage()
   saveStatus(s, { 'CS 3305': 'complete', 'CSE 1321': 'in-progress' })
-  expect(loadStatus(s, ids)).toEqual({ 'CS 3305': 'complete', 'CSE 1321': 'in-progress' })
+  expect(loadStatus(s)).toEqual({ 'CS 3305': 'complete', 'CSE 1321': 'in-progress' })
 })
 
 test('throwing storage -> empty map, save does not throw', () => {
-  expect(loadStatus(throwing, ids)).toEqual({})
+  expect(loadStatus(throwing)).toEqual({})
   expect(() => saveStatus(throwing, { 'CS 3305': 'complete' })).not.toThrow()
 })
 
 test('corrupt JSON -> empty map', () => {
   const s = new MemoryStorage()
   s.setItem(STATUS_KEY, '{not json')
-  expect(loadStatus(s, ids)).toEqual({})
+  expect(loadStatus(s)).toEqual({})
 })
 
-test('unknown course ids and bad values are dropped', () => {
+test('keeps progress for majors not loaded and drops malformed ids and bad values', () => {
   const s = new MemoryStorage()
-  s.setItem(STATUS_KEY, JSON.stringify({ 'CS 9999': 'complete', 'CS 3305': 'done' }))
-  expect(loadStatus(s, ids)).toEqual({})
+  s.setItem(STATUS_KEY, JSON.stringify({ 'NURS 3000': 'complete', 'bad id': 'complete', 'CS 3305': 'nope' }))
+  expect(loadStatus(s)).toEqual({ 'NURS 3000': 'complete' })
 })
 
-test('null storage works', () => expect(loadStatus(null, ids)).toEqual({}))
+test('accepts ids with a letter suffix and 2-4 letter prefixes', () => {
+  const s = new MemoryStorage()
+  s.setItem(STATUS_KEY, JSON.stringify({ 'CSE 1321L': 'complete', 'A 1000': 'complete', 'ABCDE 1000': 'complete' }))
+  expect(loadStatus(s)).toEqual({ 'CSE 1321L': 'complete' })
+})
+
+test('null storage works', () => expect(loadStatus(null)).toEqual({}))
 
 // Status is shared across majors: the app passes the union of every major's ids.
 test('keeps ids from another major', () => {
   const s = new MemoryStorage()
   s.setItem(STATUS_KEY, JSON.stringify({ 'DATA 3010': 'complete', 'CS 3305': 'complete' }))
-  expect(loadStatus(s, new Set(['CS 3305', 'DATA 3010']))).toEqual({ 'DATA 3010': 'complete', 'CS 3305': 'complete' })
+  expect(loadStatus(s)).toEqual({ 'DATA 3010': 'complete', 'CS 3305': 'complete' })
 })
 
 test('progress saved before majors existed still loads under the same key', () => {
   expect(STATUS_KEY).toBe('owlpath:v1:2026-2027:status')
   const s = new MemoryStorage()
   s.setItem(STATUS_KEY, JSON.stringify({ 'CS 3305': 'complete', 'CSE 1321': 'in-progress' }))
-  expect(loadStatus(s, ids)).toEqual({ 'CS 3305': 'complete', 'CSE 1321': 'in-progress' })
+  expect(loadStatus(s)).toEqual({ 'CS 3305': 'complete', 'CSE 1321': 'in-progress' })
 })
 
 test('reset clears every course and persists the empty map', () => {
@@ -62,7 +66,7 @@ test('reset clears every course and persists the empty map', () => {
   saveStatus(s, { 'CS 3305': 'complete', 'DATA 3010': 'in-progress' })
   expect(resetStatus(s)).toEqual({})
   expect(s.getItem(STATUS_KEY)).toBe('{}')
-  expect(loadStatus(s, new Set(['CS 3305', 'DATA 3010']))).toEqual({})
+  expect(loadStatus(s)).toEqual({})
 })
 
 test('reset never throws', () => expect(() => resetStatus(throwing)).not.toThrow())

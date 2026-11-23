@@ -2,7 +2,7 @@ import { expect, test, vi } from 'vitest'
 import sampleJson from '../data/sample.json'
 import { normalize } from '../data/normalize'
 import type { Dataset } from '../data/types'
-import { RESET_TEXT, allCourseIds, askAndReset, programView, switchMajor } from './programView'
+import { RESET_TEXT, askAndReset, programView, switchMajor } from './programView'
 
 const sample = sampleJson as Dataset
 const a = normalize(sample)
@@ -12,12 +12,6 @@ const b = normalize({ ...sample, program: { ...sample.program, id: 'bs-dsa', nam
 test('programView builds once per program and caches', () => {
   expect(programView(a)).toBe(programView(a))
   expect(programView(b)).not.toBe(programView(a))
-  expect(programView(b).validIds.has('DATA 3010')).toBe(true)
-})
-
-test('allCourseIds is the union of every major', () => {
-  const ids = allCourseIds([a, b])
-  expect(ids.has('DATA 3010') && ids.has('CS 3305')).toBe(true)
 })
 
 test('switching major clears selection, filter and focus', () => {
@@ -33,5 +27,5 @@ test('reset asks first and respects cancel', () => {
   expect(onReset).not.toHaveBeenCalled()
   askAndReset(() => true, onReset)
   expect(onReset).toHaveBeenCalledTimes(1)
-  expect(RESET_TEXT).toBe('Reset all progress? This marks every course as not taken in both majors.')
+  expect(RESET_TEXT).toBe('Reset all progress? This marks every course as not taken in every major.')
 })

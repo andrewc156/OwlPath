@@ -1,13 +1,9 @@
 import { Handle, Position, type Node, type NodeProps } from '@xyflow/react'
-import { loadPrograms } from '../data/dataset'
 import type { CourseNodeData } from '../logic/view'
 import { STATE_LABEL } from './stateLabels'
 
-// Titles are the same in every major, so look them up across all of them.
-const titles = new Map(loadPrograms().flatMap((p) => p.courses.map((c) => [c.id, c.title] as const)))
-
 export function CourseNode({ data }: NodeProps<Node<CourseNodeData>>) {
-  const title = titles.get(data.courseId)
+  const { title } = data
   const label = STATE_LABEL[data.state]
   return (
     <div className={`course-node state-${data.state}`} title={title}>

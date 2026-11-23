@@ -32,3 +32,8 @@ test('saveMajor persists and never throws', () => {
 })
 test('majorUrl keeps other params', () =>
   expect(majorUrl('https://x/OwlPath/?a=1', 'bs-dsa')).toBe('https://x/OwlPath/?a=1&major=bs-dsa'))
+test('an unknown or held major falls back to bs-cs, wherever it is in the list', () => {
+  expect(resolveMajor('?major=held-x', null, ['ms-dsa', 'bs-cs'])).toBe('bs-cs')
+  expect(resolveMajor('', store({ [MAJOR_KEY]: 'gone' }), ['ms-dsa', 'bs-cs'])).toBe('bs-cs')
+  expect(resolveMajor('', null, ['ms-dsa', 'bs-dsa'])).toBe('ms-dsa')
+})

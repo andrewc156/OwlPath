@@ -118,10 +118,24 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 
 .app-header { flex-wrap: wrap; }
 .filters { display: flex; gap: 12px; align-items: center; margin-left: auto; flex-wrap: wrap; }
-.filters select, .filters input, .course-list input, .major-picker select, .reset-button {
+.filters select, .filters input, .course-list input, .major-picker input, .reset-button {
   font: inherit; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);
 }
-.major-picker select { font-weight: 600; }
+.major-picker { position: relative; display: flex; align-items: baseline; gap: 6px; }
+.major-picker input { width: 280px; max-width: 100%; font-weight: 600; }
+.major-list {
+  position: absolute; z-index: 20; top: 100%; left: 0; width: 360px; max-width: 90vw; max-height: 60vh; overflow-y: auto; margin-top: 4px; padding: 4px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 4px 16px rgb(0 0 0 / .15);
+}
+.major-group { padding: 6px 8px 2px; font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--muted); }
+.major-option { display: flex; justify-content: space-between; gap: 8px; padding: 6px 8px; border-radius: 4px; cursor: pointer; }
+.major-option.active { background: var(--bg); }
+.major-option[aria-selected="true"] { font-weight: 600; }
+.major-tag { flex: none; font-size: 12px; color: var(--muted); }
+.major-empty { padding: 6px 8px; color: var(--muted); }
+.auto-built-note { margin: 0; padding: 6px 16px; font-size: 13px; background: var(--surface); border-bottom: 1px solid var(--border); color: var(--text); }
+.load-state { align-items: center; justify-content: center; color: var(--muted); }
+.load-state button { font: inherit; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); cursor: pointer; }
 .reset-button { cursor: pointer; }
 .reset-button:hover:not(:disabled) { border-color: var(--text); }
 .reset-button:disabled { color: var(--muted); cursor: not-allowed; }
@@ -149,6 +163,8 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
 
 @media (max-width: 767px) {
   .filters { margin-left: 0; width: 100%; }
+  .major-picker { width: 100%; }
+  .major-picker input { flex: 1; width: auto; min-width: 0; }
   .search { display: none; }      /* the list has its own search box */
   .detail-panel { width: 100%; border-left: 0; }
 }

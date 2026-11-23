@@ -5,8 +5,11 @@ export const STATUS_KEY = 'owlpath:v1:2026-2027:status'
 
 const VALID: ReadonlySet<string> = new Set<Status>(['not-taken', 'in-progress', 'complete'])
 
-/** Never throws; unknown ids and invalid values are dropped. */
-export function loadStatus(storage: Storage | null, validIds: Set<string>): StatusMap {
+// Progress is shared across majors and a major's data may not be loaded, so any well-formed course id is kept.
+const COURSE_ID = /^[A-Z]{2,4} \d{4}[A-Z]?$/
+
+/** Never throws; malformed ids and invalid values are dropped. */
+export function loadStatus(storage: Storage | null): StatusMap {
   try {
     const raw = storage?.getItem(STATUS_KEY)
     if (!raw) return {}
@@ -14,7 +17,7 @@ export function loadStatus(storage: Storage | null, validIds: Set<string>): Stat
     if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) return {}
     const out: StatusMap = {}
     for (const [id, value] of Object.entries(parsed)) {
-      if (validIds.has(id) && typeof value === 'string' && VALID.has(value)) out[id] = value as Status
+      if (COURSE_ID.test(id) && typeof value === 'string' && VALID.has(value)) out[id] = value as Status
     }
     return out
   } catch {
@@ -46,9 +49,8 @@ function browserStorage(): Storage | null {
   }
 }
 
-/** `validIds` is the union of every major's course ids, so switching majors never drops progress. */
-export function useStatus(validIds: Set<string>): [StatusMap, (id: string, s: Status) => void, () => void] {
-  const [status, setStatusMap] = useState<StatusMap>(() => loadStatus(browserStorage(), validIds))
+export function useStatus(): [StatusMap, (id: string, s: Status) => void, () => void] {
+  const [status, setStatusMap] = useState<StatusMap>(() => loadStatus(browserStorage()))
   const setStatus = useCallback((id: string, s: Status) => {
     setStatusMap((prev) => {
       const next = { ...prev }
