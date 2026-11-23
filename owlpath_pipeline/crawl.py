@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 from urllib.robotparser import RobotFileParser
 
 from . import config
-from .fetch import DisallowedError, HttpGet, cache_path, load_last_request, save_last_request
+from .fetch import DisallowedError, FetchError, HttpGet, cache_path, load_last_request, save_last_request
 
 # Never requested, whatever robots.txt says.
 NEVER_REQUEST = ("/ajax/", "/search_advanced.php", "/portfolio.php", "/portfolio_nopop.php")
@@ -128,6 +128,9 @@ def main(argv: list[str] | None = None) -> int:
     cap.add_argument("url")
     cap.add_argument("name")
     cap.add_argument("--expect", required=True, help="text the page must contain")
+    for level in config.CATALOGS:
+        lv = sub.add_parser(level, help=f"crawl the whole {level} catalog into catalog/{level}/ snapshot files")
+        lv.add_argument("--refresh", action="store_true", help="delete this catalog's cached pages first")
     args = parser.parse_args(argv)
 
     def http_get(url: str, headers: dict[str, str]) -> tuple[int, str]:
@@ -138,8 +141,18 @@ def main(argv: list[str] | None = None) -> int:
         robots = read_robots(config.CATALOG_BASE, http_get)
         with PlaywrightLoader(robots) as loader:
             crawler = Crawler(config.CACHE_DIR, loader, robots, time.sleep, time.time)
+            if args.command in config.CATALOGS:
+                from .snapshot import clear_catalog_cache, crawl_level, write_snapshot
+                if args.refresh:
+                    n = clear_catalog_cache(config.CACHE_DIR, config.catoid(args.command))
+                    print(f"cleared {n} cached pages")
+                snap = crawl_level(args.command, crawler)
+                write_snapshot(snap)
+                print(f"{args.command}: {len(snap.courses)} courses, {len(snap.programs)} programs, "
+                      f"{len(snap.out_of_scope)} out of scope")
+                return 0
             page = crawler.get(args.url, args.expect)
-    except CrawlStopped as e:
+    except (CrawlStopped, FetchError) as e:  # FetchError covers DisallowedError
         print(f"STOPPED: {e}")
         return 1
     FIXTURE_DIR.mkdir(parents=True, exist_ok=True)
