@@ -158,7 +158,7 @@ The drafter turns each program's snapshot into a `program.json` (`level`, `progr
   - "Or permission" and "or placement" options are notes, not options on the map, so the rule still applies to them.
   - In **checked** majors the case stays a warning for a person to settle, as today. So BS DSA's STAT 3125 (BIOL 1107, BIOL 1108 or CHEM 1212, all text) keeps its current form, and the regression gate holds.
 - **Courses from the other catalog level.** If a course isn't in the major's own snapshot, the build looks it up in the other level's snapshot and uses that level's overrides. An example would be a graduate course that requires an undergraduate course. Only a course missing from both is a "course page not found" warning.
-- **Course links** go to each course's own catalog page, using the coid link from the listing, instead of the prefix listing.
+- **Course links** go to each course's own catalog page whenever its coid appears on any crawled page. Coids appear in prerequisite links in listings and in course items on program pages. A course with no known coid keeps the prefix listing link.
 
 ### 5. Status and publishing (option 3)
 
