@@ -101,3 +101,10 @@ def test_less_common_cannot_be_a_required_prereq():
 def test_less_common_unknown_course_is_error():
     d = less_common(["ZZZ 9999"], [], [course("AA 1000")])
     assert "lessCommon: unknown course ZZZ 9999" in validate_dataset(d)
+
+
+def test_concentration_groups_follow_pattern():
+    ok = course("CS 3305", groups=("conc-cyber-and-network-security",))
+    assert validate_dataset(dataset([ok])) == []
+    bad = course("CS 3306", groups=("Conc AI",))
+    assert validate_dataset(dataset([bad])) != []

@@ -10,16 +10,11 @@ export type Leaf =
 
 export type Logic = Leaf | { and: Logic[] } | { or: Logic[] }
 
-export type Group =
-  | 'core-field'
-  | 'major-required'
-  | 'conc-data-science'
-  | 'conc-cyber'
-  | 'conc-ai'
-  | 'major-elective'
-  | 'major-project'
-  | 'gen-ed-math'
-  | 'prereq-only'
+/**
+ * core-field | major-required | major-elective | major-project | gen-ed-math | prereq-only,
+ * or a concentration "conc-<words>" (lowercase, digits, hyphens). Pattern is in courses.schema.json.
+ */
+export type Group = string
 
 export interface Course {
   id: string
@@ -47,6 +42,8 @@ export interface Dataset {
   choices: string[][]
   /** Either/or options most students skip; hidden on the map until needed. Absent means none. */
   lessCommon?: string[]
+  /** True once a person reviewed this major; absent means false (auto-built). */
+  checked?: boolean
   courses: Course[]
 }
 
@@ -62,6 +59,7 @@ export type NDataset = {
   program: Program
   choices: string[][]
   lessCommon: Set<string>
+  checked: boolean
   courses: NCourse[]
   byId: Map<string, NCourse>
 }

@@ -41,7 +41,7 @@
   "$defs": {
     "courseId": { "type": "string", "pattern": "^[A-Z]{2,4} \\d{4}[A-Z]?$" },
     "grade": { "enum": ["A", "B", "C", "D"] },
-    "group": { "enum": ["core-field", "major-required", "conc-data-science", "conc-cyber", "conc-ai", "major-elective", "major-project", "gen-ed-math", "prereq-only"] },
+    "group": { "type": "string", "pattern": "^(core-field|major-required|major-elective|major-project|gen-ed-math|prereq-only|conc-[a-z0-9]+(-[a-z0-9]+)*)$" },
     "logic": {
       "oneOf": [
         { "$ref": "#/$defs/courseId", "description": "In-graph course, minimum grade C" },

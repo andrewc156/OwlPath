@@ -5,8 +5,6 @@
     "id": "bs-cs",
     "name": "BS Computer Science (sample)",
     "filters": [
-      { "label": "Data Science", "groups": ["conc-data-science"] },
-      { "label": "Cyber & Network Security", "groups": ["conc-cyber"] },
       { "label": "AI", "groups": ["conc-ai"] },
       { "label": "General electives", "groups": ["major-elective"] }
     ]
