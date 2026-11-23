@@ -4,7 +4,7 @@ A major is "checked" (program.json has "checked": true, a person reviewed it), "
 published and labeled not yet checked) or "held" (draft warnings, build warnings or validation errors: nothing
 shipped). A checked major that cannot build makes the CLI exit 1 and keeps its committed courses.json.
 
-CLI: .venv/bin/python -m owlpath_pipeline.publish [--from-pdfs]
+CLI: .venv/bin/python -m owlpath_pipeline.publish [--from-pdfs]   (default: the committed catalog snapshot)
 """
 import argparse
 import json
@@ -82,7 +82,7 @@ def _course_changes(old: dict, new: dict) -> dict[str, tuple[dict | None, dict |
     return changes
 
 
-def publish(data_dir: Path = config.DATA_DIR, source: str = "pdf",
+def publish(data_dir: Path = config.DATA_DIR, source: str = "snapshot",
             get_raw_for: Callable[[str], GetRaw] | None = None) -> list[MajorResult]:
     """get_raw_for(level) overrides how courses are looked up (tests); default is level_get_raw(level, source)."""
     data_dir = Path(data_dir)
@@ -200,10 +200,10 @@ def _status(results: list[MajorResult], details: dict, page_changes: dict, out_o
 
 def main(argv: list[str], get_raw_for: Callable[[str], GetRaw] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.publish")
-    ap.add_argument("--from-pdfs", action="store_true", help="read courses from the saved PDFs (the default for now)")
+    ap.add_argument("--from-pdfs", action="store_true", help="read courses from listing PDFs saved by hand instead of the catalog snapshot; drafts no new majors")
     ap.add_argument("--data-dir", type=Path, default=config.DATA_DIR, help=argparse.SUPPRESS)
     args = ap.parse_args(argv)
-    results = publish(args.data_dir, get_raw_for=get_raw_for)
+    results = publish(args.data_dir, "pdf" if args.from_pdfs else "snapshot", get_raw_for)
     counts = {s: sum(1 for r in results if r.state == s) for s in ("checked", "auto", "held")}
     print(", ".join(f"{n} {s}" for s, n in counts.items()))
     changed = [r.id for r in results if r.changed]

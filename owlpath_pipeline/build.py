@@ -227,9 +227,9 @@ def catalog_get_raw(level: str = "undergraduate", directory: Path | None = None)
     return load_catalog(directory or config.catalog_pdf_dir(level), config.catoid(level)).__getitem__
 
 
-def level_get_raw(level: str, source: str = "pdf", data_dir: Path | None = None) -> Callable[[str], RawCourse]:
+def level_get_raw(level: str, source: str = "snapshot", data_dir: Path | None = None) -> Callable[[str], RawCourse]:
     """Look a course up in `level` first, then in the other level; KeyError if neither has it.
-    source is "pdf" (saved listing PDFs) or "snapshot" (catalog-courses.json under data_dir, a level without one is skipped)."""
+    source is "snapshot" (catalog-courses.json under data_dir, a level without one is skipped) or "pdf" (listing PDFs saved by hand)."""
     if source not in ("pdf", "snapshot"):
         raise ValueError(f"unknown catalog source {source!r}; expected 'pdf' or 'snapshot'")
     levels = [level] + [l for l in config.CATALOGS if l != level]
@@ -287,7 +287,7 @@ def major_report(warnings: list[str], errors: list[str], notes: list[str],
     return text
 
 
-def build_major(folder: Path, source: str = "pdf", data_dir: Path | None = None,
+def build_major(folder: Path, source: str = "snapshot", data_dir: Path | None = None,
                 get_raw_for: Callable[[str], Callable[[str], RawCourse]] | None = None):
     """Build one major from its program.json: the one path shared by the build CLI and publish.
     Unchecked majors build with auto=True. Returns (spec, dataset, warnings, errors, notes); the spec's
@@ -310,12 +310,12 @@ def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.build")
     ap.add_argument("program", choices=config.programs(), help="which major to build, e.g. bs-cs")
     ap.add_argument("--draft", action="store_true", help="write output even with unresolved warnings")
-    ap.add_argument("--from-pdfs", action="store_true", help="read courses from the saved PDFs (the default for now)")
+    ap.add_argument("--from-pdfs", action="store_true", help="read courses from listing PDFs saved by hand instead of the catalog snapshot")
     args = ap.parse_args(argv)
 
     out = config.program_dir(args.program)
     try:
-        spec, dataset, warnings, errors, notes = build_major(out)
+        spec, dataset, warnings, errors, notes = build_major(out, "pdf" if args.from_pdfs else "snapshot")
     except ValueError as e:
         if "needs \"level\"" in str(e):
             raise SystemExit(str(e))

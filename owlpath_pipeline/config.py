@@ -15,7 +15,8 @@ CACHE_DIR = Path(".cache/http")
 DATA_DIR = REPO_ROOT / "data" / CATALOG_YEAR
 SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "courses.schema.json"
 
-# One folder per major under DATA_DIR: program.json, overrides.json, courses.json, reports.
+# One folder per major under DATA_DIR: program.json, courses.json, reports. Overrides are shared per level,
+# in catalog/<level>/overrides.json.
 def programs(data_dir: Path = DATA_DIR) -> list[str]:
     """The sorted major folders under data_dir (the ones that hold a program.json)."""
     return sorted(p.parent.name for p in Path(data_dir).glob("*/program.json"))
@@ -36,8 +37,9 @@ CATALOGS = {
     "graduate": {"name": "Graduate", "catoid": 83, "programs_navoid": 9027},  # from the MS DSA program page URL
 }
 
-# The catalog site blocks automated clients (HTTP 202), so its expanded "Courses"
-# listing is saved by hand as one PDF per prefix, in catalog/<level>/. Each course links to its listing.
+# The crawler (crawl.py) saves the whole catalog as a snapshot in catalog/<level>/ (catalog-courses.json,
+# programs.json); builds read it. COURSE_LISTING_URL is the fallback link for a course with no page of its own,
+# and the address of the hand-saved listing PDFs the --from-pdfs path still reads.
 CATALOG_DIR = DATA_DIR / "catalog"
 COURSE_LISTING_URL = (CATALOG_BASE + "/content.php?filter%5B27%5D={prefix}&filter%5B32%5D=1"
                       "&cur_cat_oid={catoid}&expand=1")

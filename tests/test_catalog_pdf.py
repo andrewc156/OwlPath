@@ -1,11 +1,11 @@
-"""Catalog course listings saved from a browser as PDFs (the website blocks automated clients)."""
+"""The PDF listing reader, run on a few saved listings kept as fixtures (the snapshot reads the same text)."""
 from pathlib import Path
 
 import pytest
 
 from owlpath_pipeline.catalog_pdf import load_catalog, parse_listing, pdf_text
 
-CATALOG = Path(__file__).resolve().parent.parent / "data" / "2026-2027" / "catalog" / "undergraduate"
+PDFS = Path(__file__).resolve().parent / "fixtures" / "pdf"
 URL = "https://catalog.kennesaw.edu/listing?prefix=CS"
 META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
                     "filters": [{"label": "AI", "groups": ["conc-ai"]}]}, "choices": []}
@@ -13,12 +13,23 @@ META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
 
 @pytest.fixture(scope="module")
 def cs():
-    return parse_listing(pdf_text(CATALOG / "cs.pdf"), URL)
+    return parse_listing(pdf_text(PDFS / "cs.pdf"), URL)
 
 
 @pytest.fixture(scope="module")
-def catalog():
-    return load_catalog(CATALOG, 84)
+def ug_dir(tmp_path_factory):
+    """The undergraduate listings (cs, cse, math, stat) in a folder of their own, as load_catalog reads one level."""
+    import shutil
+
+    d = tmp_path_factory.mktemp("undergraduate")
+    for name in ("cs", "cse", "math", "stat"):
+        shutil.copy(PDFS / f"{name}.pdf", d)
+    return d
+
+
+@pytest.fixture(scope="module")
+def catalog(ug_dir):
+    return load_catalog(ug_dir, 84)
 
 
 def test_course_fields_cs3305(cs):
@@ -67,20 +78,20 @@ def test_field_split_by_page_footer_is_rejoined():
 
 
 def test_load_catalog_reads_every_pdf_with_prefix_urls(catalog):
-    assert {"DATA 3010", "AI 4267", "ENGL 1102", "CS 3305", "CSE 1322", "MATH 1190", "STAT 2332", "SWE 3313", "IT 1114", "TCOM 2010"} <= catalog.keys()
+    assert {"CS 3305", "CSE 1322", "MATH 1190", "STAT 2332"} <= catalog.keys()
     assert "filter%5B27%5D=MATH" in catalog["MATH 1190"].url
 
 
-def test_build_runs_on_saved_catalog():
+def test_build_runs_on_saved_catalog(ug_dir):
     from owlpath_pipeline.build import catalog_get_raw, build_dataset
     from owlpath_pipeline.validate import validate_dataset
 
     dataset, _ = build_dataset({"CS 3305": ["major-required"], "CSE 1322": ["core-field"]},
-                               catalog_get_raw(directory=CATALOG), {}, META)
+                               catalog_get_raw(directory=ug_dir), {}, META)
     assert validate_dataset(dataset) == []
     assert {"CS 3305", "CSE 1322", "CSE 1321"} <= {c["id"] for c in dataset["courses"]}
     with pytest.raises(KeyError):
-        catalog_get_raw(directory=CATALOG)("ZZZ 9999")
+        catalog_get_raw(directory=ug_dir)("ZZZ 9999")
 
 
 def test_page_chrome_is_not_in_any_field(catalog):
@@ -128,12 +139,8 @@ def test_graduate_listing_without_description_label():
     assert c.warnings == []
 
 
-GRAD = CATALOG.parent / "graduate"
-
-
-@pytest.mark.skipif(not (GRAD / "stat.pdf").exists(), reason="graduate listings not saved")
 def test_saved_graduate_listing_splits_prereq_from_description():
-    c = load_catalog(GRAD, 83)["STAT 7010"]
+    c = parse_listing(pdf_text(PDFS / "stat-graduate.pdf"), "")["STAT 7010"]
     assert c.prereq_text == "STAT 7220 and STAT 7210"
     assert c.description.startswith("Fundamental concepts of probability")
 

@@ -201,7 +201,7 @@ def test_hand_edited_draft_is_kept_on_rerun(tmp_path):
 
 def test_pdf_source_does_not_draft(tmp_path):
     write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "AA 1000")])])
-    pub.publish(tmp_path, get_raw_for=get_raw_for)
+    pub.publish(tmp_path, "pdf", get_raw_for)
     assert not (tmp_path / "bs-alpha-studies").exists()
 
 

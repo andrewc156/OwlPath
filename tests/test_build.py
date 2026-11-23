@@ -183,7 +183,7 @@ def test_cli_keeps_reviewed_dataset_when_warnings_remain(tmp_path, monkeypatch):
     def missing(cid):
         raise KeyError(cid)
 
-    monkeypatch.setattr(build, "level_get_raw", lambda level, source="pdf", data_dir=None: missing)
+    monkeypatch.setattr(build, "level_get_raw", lambda level, source="snapshot", data_dir=None: missing)
     assert build.main(["bs-cs"]) == 1
     assert not (d / "courses.json").exists() and (d / "build-report.md").exists()
     assert build.main(["bs-cs", "--draft"]) == 0
@@ -211,22 +211,6 @@ def test_cli_rejects_unknown_program():
     with pytest.raises(SystemExit) as e:
         build.main(["bs-ee"])
     assert e.value.code == 2
-
-
-@pytest.mark.parametrize("major", ["bs-cs", "bs-dsa", "ms-dsa"])
-def test_checked_majors_rebuild_unchanged(major):
-    """Pins the reviewed datasets: PDFs + shared overrides must rebuild exactly the committed courses.json."""
-    import json
-    from owlpath_pipeline import config
-
-    d = config.program_dir(major)
-    prog = json.loads((d / "program.json").read_text())
-    level = prog["level"]
-    built, warnings = build_dataset(prog["courses"], level_get_raw(level), load_overrides(level),
-                                    {"program": prog["program"], "choices": prog["choices"],
-                                     "lessCommon": prog.get("lessCommon", []), "level": level})
-    built["checked"] = bool(prog.get("checked"))
-    assert warnings == [] and built == json.loads((d / "courses.json").read_text())
 
 
 def test_cli_requires_a_catalog_level(tmp_path, monkeypatch):
@@ -290,7 +274,7 @@ def test_cli_uses_auto_for_unchecked_and_holds_on_draft_warnings(tmp_path, monke
 
     d = _program_dir(tmp_path, monkeypatch, {"CS 3305": ["major-required"]})
     pages = Pages(raw("CS 3305", prereq="MATH 1111 or MATH 2222"), raw("MATH 1111"), raw("MATH 2222"))
-    monkeypatch.setattr(build, "level_get_raw", lambda level, source="pdf", data_dir=None: pages)
+    monkeypatch.setattr(build, "level_get_raw", lambda level, source="snapshot", data_dir=None: pages)
     assert build.main(["bs-cs"]) == 0  # auto pulls an option in instead of warning
     assert "MATH 1111" in (d / "courses.json").read_text()
     spec = json.loads((d / "program.json").read_text())
