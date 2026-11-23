@@ -62,35 +62,29 @@ def test_other_majors_draft_cleanly_or_warn():
     for name in ("ug-business", "ug-nursing", "ug-engineering"):
         d = draft(name)
         assert d.program_json["courses"] or d.warnings, name
-    assert any("Business Core" in w for w in draft("ug-business").warnings)
+    biz = draft("ug-business")
+    assert biz.warnings == []
+    assert biz.program_json["courses"]["BUSA 1000"] == ["major-required"]
 
 
-def test_unrecognized_section_with_courses_warns():
-    page = {"name": "X, B.S.", "sections": [{"heading": "Odd Stuff (3 Credit Hours)", "level": 2,
-                                             "items": [{"kind": "course", "id": "AAA 1000", "title": "A"}]}]}
-    d = draft_program(page, ("bs-x", "BS X"), "undergraduate", {"AAA 1000": RawCourse("AAA 1000", "A", "3", "", None, None, "")})
-    assert "unrecognized section 'Odd Stuff (3 Credit Hours)'" in d.warnings
+def test_bs_dsa_internships_left_out_and_groups_match_reviewed():
+    d = draft("ug-bs-dsa")
+    assert {"DATA 3396", "DATA 3398"} <= set(d.left_out)
+    assert not {"DATA 3396", "DATA 3398"} & set(d.program_json["courses"])
+    reviewed = {c: g for c, g in load("bs-dsa")["courses"].items() if g != ["gen-ed-math"]}
+    assert d.program_json["courses"] == reviewed
 
 
-def test_missing_course_warns_and_page_without_courses_is_held():
-    page = {"name": "X, B.S.", "sections": [{"heading": "Major Requirements", "level": 2,
-                                             "items": [{"kind": "course", "id": "AAA 1000", "title": "A"}]}]}
-    assert draft_program(page, ("bs-x", "BS X"), "undergraduate", {}).warnings == [
-        "AAA 1000 is not in the catalog listings"]
-    empty = {"name": "X, B.S.", "sections": [{"heading": "Major Requirements", "level": 2,
-                                              "items": [{"kind": "text", "text": "any course"}]}]}
-    d = draft_program(empty, ("bs-x", "BS X"), "undergraduate", {})
-    assert d.warnings == ["no courses found"]
-
-
-def test_permission_only_courses_are_left_out():
-    cat = {"AAA 1000": RawCourse("AAA 1000", "Seminar", "3", "", "Permission of the program director.", None, ""),
-           "AAA 2000": RawCourse("AAA 2000", "Basics", "3", "", None, None, ""),
-           "AAA 3000": RawCourse("AAA 3000", "Lab Work", "3", "", "AAA 2000 and permission of instructor.", None, "")}
-    page = {"name": "X, B.S.", "sections": [{"heading": "Major Requirements", "level": 2, "items": [
-        {"kind": "course", "id": c, "title": ""} for c in cat]}]}
-    d = draft_program(page, ("bs-x", "BS X"), "undergraduate", cat)
-    assert d.left_out == ["AAA 1000"] and set(d.program_json["courses"]) == {"AAA 2000", "AAA 3000"}
+def test_text_only_sections_go_to_left_out_but_skipped_ones_do_not():
+    rule = "Select 6 hours from the following prefixes: DS, DATA, STAT."
+    page = {"name": "X, M.S.", "sections": [
+        {"heading": "Required Courses", "level": 2, "items": [{"kind": "course", "id": "AAA 1000", "title": "A"}]},
+        {"heading": "Related Studies (6 Credit Hours)", "level": 2, "items": [{"kind": "text", "text": rule}]},
+        {"heading": "Core IMPACTS Curriculum", "level": 2, "items": [{"kind": "text", "text": "skip me"}]},
+        {"heading": "Free Electives", "level": 3, "items": [{"kind": "text", "text": "skip me too"}]}]}
+    cat = {"AAA 1000": RawCourse("AAA 1000", "A", "3", "", None, None, "")}
+    d = draft_program(page, ("ms-x", "MS X"), "graduate", cat)
+    assert d.left_out == [f"text: {rule}"]
 
 
 def test_identity():

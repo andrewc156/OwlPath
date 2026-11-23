@@ -85,7 +85,7 @@ def _group_for(heading: str) -> str | None:
         return "major-elective"
     if "project" in heading or "capstone" in heading:
         return "major-project"
-    if "requirement" in heading or "required" in heading:
+    if "requirement" in heading or "required" in heading or re.search(r"\bcore\b", heading):
         return "major-required"
     return None
 
@@ -118,8 +118,10 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
             if (label, group) not in conc_labels:
                 conc_labels.append((label, group))
         items = section["items"]
-        has_courses = any(i["kind"] == "course" for i in items)
-        if not has_courses:
+        for item in items:
+            if item["kind"] == "text":
+                add_left_out(f"text: {item['text']}")
+        if not any(i["kind"] == "course" for i in items):
             continue
         group = conc[1] if conc else _group_for(heading)
         if group is None:
@@ -140,7 +142,6 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
             if item["kind"] == "text":
                 flush()
                 pending_or = False
-                add_left_out(f"text: {item['text']}")
                 continue
             if not pending_or:
                 flush()
