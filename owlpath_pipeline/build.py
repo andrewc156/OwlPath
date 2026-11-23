@@ -227,9 +227,9 @@ def catalog_get_raw(level: str = "undergraduate", directory: Path | None = None)
     return load_catalog(directory or config.catalog_pdf_dir(level), config.catoid(level)).__getitem__
 
 
-def level_get_raw(level: str, source: str = "pdf") -> Callable[[str], RawCourse]:
+def level_get_raw(level: str, source: str = "pdf", data_dir: Path | None = None) -> Callable[[str], RawCourse]:
     """Look a course up in `level` first, then in the other level; KeyError if neither has it.
-    source is "pdf" (saved listing PDFs) or "snapshot" (catalog-courses.json)."""
+    source is "pdf" (saved listing PDFs) or "snapshot" (catalog-courses.json under data_dir, a level without one is skipped)."""
     if source not in ("pdf", "snapshot"):
         raise ValueError(f"unknown catalog source {source!r}; expected 'pdf' or 'snapshot'")
     levels = [level] + [l for l in config.CATALOGS if l != level]
@@ -237,7 +237,10 @@ def level_get_raw(level: str, source: str = "pdf") -> Callable[[str], RawCourse]
     for lv in levels:
         if source == "snapshot":
             from .snapshot import load_courses
-            tables.append(load_courses(lv, config.DATA_DIR).__getitem__)
+            try:
+                tables.append(load_courses(lv, data_dir or config.DATA_DIR).__getitem__)
+            except FileNotFoundError:
+                continue
         else:
             try:
                 tables.append(catalog_get_raw(lv))

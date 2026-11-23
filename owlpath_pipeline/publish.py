@@ -89,7 +89,7 @@ def _major_report(warnings, errors, notes, draft_warnings, left_out) -> str:
 def publish(data_dir: Path = config.DATA_DIR, source: str = "pdf",
             get_raw_for: Callable[[str], GetRaw] | None = None) -> list[MajorResult]:
     """get_raw_for(level) overrides how courses are looked up (tests); default is level_get_raw(level, source)."""
-    get_raw_for = get_raw_for or (lambda level: level_get_raw(level, source))
+    get_raw_for = get_raw_for or (lambda level: level_get_raw(level, source, data_dir))
     data_dir = Path(data_dir)
     out_of_scope, page_changes = _draft_levels(data_dir)
 

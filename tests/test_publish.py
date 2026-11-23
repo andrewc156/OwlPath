@@ -121,3 +121,79 @@ def test_majors_index_lists_only_shipped_majors(tmp_path):
         {"id": "ms-zz", "name": "Zeta", "level": "graduate", "checked": True},
         {"id": "bs-aa", "name": "Alpha", "level": "undergraduate", "checked": False},
         {"id": "bs-bb", "name": "Beta", "level": "undergraduate", "checked": False}]
+
+
+# ---- snapshot drafting ----
+
+def page(poid, name, sections):
+    return {"name": name, "poid": poid, "url": f"https://catalog.example/p{poid}", "sections": sections}
+
+
+def sec(heading, *ids, level=2):
+    return {"heading": heading, "level": level,
+            "items": [{"kind": "course", "id": i, "title": f"Title {i}"} for i in ids]}
+
+
+def write_snapshot(data_dir, programs, out_of_scope=()):
+    d = data_dir / "catalog" / "undergraduate"
+    d.mkdir(parents=True)
+    head = {"catalogYear": "2026-2027", "level": "undergraduate", "catoid": 84}
+    (d / "programs.json").write_text(json.dumps({**head, "programs": programs,
+                                                 "outOfScope": [{"poid": p, "name": n} for p, n in out_of_scope]}))
+    (d / "catalog-courses.json").write_text(json.dumps({**head, "courses": {
+        c.id: {"title": c.title, "credits": "3", "description": "d", "prereqText": c.prereq_text,
+               "coreqText": None, "url": c.url, "warnings": []} for c in CATALOG.values()}}))
+    (d / "overrides.json").write_text("{}")
+
+
+def snap_publish(data_dir):
+    return pub.publish(data_dir, source="snapshot")
+
+
+def test_snapshot_drafts_builds_and_ships_clean_program_as_auto(tmp_path):
+    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "AA 1000", "CC 3000")])])
+    r = by_id(snap_publish(tmp_path))["bs-alpha-studies"]
+    spec = json.loads((tmp_path / "bs-alpha-studies" / "program.json").read_text())
+    assert spec["draftHash"] and r.state == "auto"
+    ds = json.loads((tmp_path / "bs-alpha-studies" / "courses.json").read_text())
+    assert ds["checked"] is False
+    assert "bs-alpha-studies" in [m["id"] for m in json.loads((tmp_path / "majors.json").read_text())]
+
+
+def test_snapshot_program_with_draft_warnings_is_held(tmp_path):
+    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Mystery Block", "AA 1000")])])
+    r = by_id(snap_publish(tmp_path))["bs-alpha-studies"]
+    assert r.state == "held"
+    assert not (tmp_path / "bs-alpha-studies" / "courses.json").exists()
+    held = (tmp_path / "STATUS.md").read_text().split("## Held majors")[1].split("\n## ")[0]
+    assert "bs-alpha-studies" in held
+
+
+def test_snapshot_keeps_checked_major_and_reports_page_change(tmp_path):
+    write_major(tmp_path, "bs-cs", ["AA 1000"], checked=True)
+    write_snapshot(tmp_path, [page(11680, "Computer Science, B.S.", [sec("Major Requirements", "AA 1000", "CC 3000")])])
+    before = json.loads((tmp_path / "bs-cs" / "program.json").read_text())
+    r = by_id(snap_publish(tmp_path))["bs-cs"]
+    assert json.loads((tmp_path / "bs-cs" / "program.json").read_text()) == before  # kept-checked
+    assert r.state == "checked"
+    section = (tmp_path / "STATUS.md").read_text().split("## Checked majors whose catalog page changed")[1] \
+        .split("\n## ")[0]
+    assert "bs-cs" in section and "CC 3000" in section
+
+
+def test_snapshot_out_of_scope_programs_are_listed(tmp_path):
+    write_snapshot(tmp_path, [], out_of_scope=[(9, "Minor in Basket Weaving")])
+    snap_publish(tmp_path)
+    section = (tmp_path / "STATUS.md").read_text().split("## Programs left out of scope")[1]
+    assert "Minor in Basket Weaving" in section
+
+
+def test_hand_edited_draft_is_kept_on_rerun(tmp_path):
+    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "AA 1000")])])
+    snap_publish(tmp_path)
+    path = tmp_path / "bs-alpha-studies" / "program.json"
+    spec = json.loads(path.read_text())
+    spec["courses"]["CC 3000"] = ["major-required"]
+    path.write_text(json.dumps(spec))
+    snap_publish(tmp_path)
+    assert "CC 3000" in json.loads(path.read_text())["courses"]
