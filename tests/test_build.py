@@ -213,6 +213,19 @@ def test_cli_rejects_unknown_program():
     assert e.value.code == 2
 
 
+@pytest.mark.parametrize("major", ["bs-cs", "bs-dsa", "ms-dsa"])
+def test_checked_majors_rebuild_unchanged_from_snapshot(major):
+    """Pins the reviewed datasets: the committed snapshot + shared overrides rebuild exactly the committed courses.json."""
+    import json
+    from owlpath_pipeline import config
+    from owlpath_pipeline.build import build_major
+
+    folder = config.program_dir(major)
+    _, dataset, warnings, errors, _ = build_major(folder)
+    assert warnings == [] and errors == []
+    assert dataset == json.loads((folder / "courses.json").read_text())
+
+
 def test_cli_requires_a_catalog_level(tmp_path, monkeypatch):
     import json
 

@@ -4,7 +4,7 @@
   "choices": [],
   "courses": [
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=AI&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136124",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -25,7 +25,7 @@
       "title": "Artificial Intelligence"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=AI&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136679",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -39,7 +39,7 @@
       "title": "Machine Learning"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=AI&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136783",
       "catalogYear": "2026-2027",
       "coreqs": "AI 4267",
       "credits": "3",
@@ -53,7 +53,7 @@
       "title": "Deep Learning"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=AI&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136371",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -67,7 +67,7 @@
       "title": "Machine Vision"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=AI&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136766",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -81,7 +81,7 @@
       "title": "Natural Language Processing"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135898",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -124,7 +124,7 @@
       "title": "Data Structures"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135783",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -143,7 +143,7 @@
       "title": "Introduction to Database Systems"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135969",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -162,7 +162,7 @@
       "title": "Operating Systems"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136677",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -181,7 +181,7 @@
       "title": "Computer Organization and Architecture"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136758",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -206,7 +206,7 @@
       "title": "Fundamentals of Data Communications"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136759",
       "catalogYear": "2026-2027",
       "coreqs": "CS 3305",
       "credits": "3",
@@ -227,7 +227,7 @@
       "title": "Cryptography"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136678",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -253,7 +253,7 @@
       "title": "Big Data Analytics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135894",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -267,7 +267,7 @@
       "title": "Algorithm Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135782",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -286,7 +286,7 @@
       "title": "Concepts of Programming Languages"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135784",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -312,7 +312,7 @@
       "title": "Data Mining"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136760",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -338,7 +338,7 @@
       "title": "Information Retrieval"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135882",
       "catalogYear": "2026-2027",
       "coreqs": "CS 3502",
       "credits": "3",
@@ -357,7 +357,7 @@
       "title": "Parallel and Distributed Computing"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135897",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -371,7 +371,7 @@
       "title": "HPC & Parallel Programming"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135904",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -385,7 +385,7 @@
       "title": "Cloud Computing"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135770",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -404,7 +404,7 @@
       "title": "Software Security"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135906",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -423,7 +423,7 @@
       "title": "Computer Networks"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136761",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -442,7 +442,7 @@
       "title": "Computer and Network Security"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135893",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -456,7 +456,7 @@
       "title": "Computer Graphics and Multimedia"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134566",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -475,7 +475,7 @@
       "title": "Computer Science Senior Project"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
       "catalogYear": "2026-2027",
       "coreqs": "CSE 1321L",
       "credits": "3",
@@ -489,7 +489,7 @@
       "title": "Programming and Problem Solving I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
       "catalogYear": "2026-2027",
       "coreqs": "CSE 1321",
       "credits": "1",
@@ -503,7 +503,7 @@
       "title": "Programming and Problem Solving I Laboratory"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136676",
       "catalogYear": "2026-2027",
       "coreqs": {
         "and": [
@@ -521,7 +521,7 @@
         ]
       },
       "credits": "3",
-      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event- driven programming are also introduced. Students will use good programming style including proper documentation.",
+      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event-driven programming are also introduced. Students will use good programming style including proper documentation.",
       "groups": [
         "core-field"
       ],
@@ -536,7 +536,7 @@
       "title": "Programming and Problem Solving II"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136669",
       "catalogYear": "2026-2027",
       "coreqs": "CSE 1322",
       "credits": "1",
@@ -555,7 +555,7 @@
       "title": "Programming and Problem Solving II Laboratory"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135880",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "2",
@@ -583,7 +583,7 @@
       "title": "Professional Practices and Ethics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ENGL&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -597,7 +597,7 @@
       "title": "English Composition I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ENGL&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -611,7 +611,7 @@
       "title": "English Composition II"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=IT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135913",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -644,7 +644,7 @@
       "title": "Information Security Administration & Privacy"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=IT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135915",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -668,7 +668,7 @@
       "title": "Wireless Security"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=IT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135912",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -692,7 +692,7 @@
       "title": "Ethical Hacking for Effective Defense"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=IT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136203",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -716,7 +716,7 @@
       "title": "Computer Forensics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=IT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136012",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -740,7 +740,7 @@
       "title": "Infrastructure Defense"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -754,7 +754,7 @@
       "title": "College Algebra"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -770,7 +770,7 @@
       "title": "Precalculus"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "4",
@@ -786,7 +786,7 @@
       "title": "Calculus I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "4",
@@ -814,7 +814,7 @@
       "title": "Calculus II"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135840",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -836,7 +836,7 @@
       "title": "Discrete Mathematics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -864,7 +864,7 @@
       "title": "Linear Algebra I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135631",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -885,7 +885,7 @@
       "title": "Probability and Data Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135987",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -904,7 +904,7 @@
       "title": "Introduction to Software Engineering"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135989",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -925,7 +925,7 @@
       "title": "Software Architecture and Design"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135990",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -946,7 +946,7 @@
       "title": "Software Testing & Quality Assurance"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135991",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -960,7 +960,7 @@
       "title": "Embedded Systems Analysis and Design"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135992",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -974,7 +974,7 @@
       "title": "Cloud Software Development"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=TCOM&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136333",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",

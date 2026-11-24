@@ -56,7 +56,7 @@ npm test             # run the Vitest tests
 npm run build        # typecheck and build for production
 ```
 
-`npm run build` refuses to run unless every major folder has a reviewed, valid, non-sample `courses.json`. For a local preview against whatever data is present, use `npm run build:sample`.
+`npm run build` ships checked majors and auto-built majors that built cleanly, and holds the rest. It refuses if a checked major is held, a `courses.json` is the sample or invalid, or `majors.json` is out of date. For a local preview against whatever data is present, use `npm run build:sample`.
 
 ## Building the course data
 

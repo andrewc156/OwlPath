@@ -4,7 +4,7 @@
   "choices": [],
   "courses": [
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DS&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133934",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -20,7 +20,7 @@
       "title": "Introductory SAS Programming for Data Science"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DS&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133458",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -36,7 +36,7 @@
       "title": "Applied Analytics Project Course"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132859",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -61,7 +61,7 @@
       "title": "Mathematical Statistics I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132861",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -77,11 +77,11 @@
       "title": "Statistical Methods"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132866",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
-      "description": "Real-world human-subject data will be used as students conduct official clinical research in a secure computer lab. Students will complete required institutionally- approved training for research on human subjects and information privacy and security. Using statistical software, students will apply statistical analysis and modeling techniques to answer questions posed by clinicians and practitioners. Students will document research for reproducibility and potential publication, as well as present results in various forms.",
+      "description": "Real-world human-subject data will be used as students conduct official clinical research in a secure computer lab. Students will complete required institutionally-approved training for research on human subjects and information privacy and security. Using statistical software, students will apply statistical analysis and modeling techniques to answer questions posed by clinicians and practitioners. Students will document research for reproducibility and potential publication, as well as present results in various forms.",
       "groups": [
         "major-project"
       ],
@@ -93,7 +93,7 @@
       "title": "Analysis of Human Studies"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132868",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -112,7 +112,7 @@
       "title": "Applied Regression Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132865",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -131,7 +131,7 @@
       "title": "Applied Experimental Design"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132870",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -145,7 +145,7 @@
       "title": "Applied Longitudinal Data Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132872",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -159,7 +159,7 @@
       "title": "Applied Categorical Data Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132869",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -184,7 +184,7 @@
       "title": "Time Series Forecasting"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132873",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -203,7 +203,7 @@
       "title": "Applied Multivariate Data Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132874",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
