@@ -506,6 +506,7 @@
  ],
  "programs": [
   {
+   "college": "Clarice C. and Leland Bagwell College of Education",
    "name": "Early Childhood Education Birth through Kindergarten, B.S.",
    "poid": 11749,
    "sections": [
@@ -716,6 +717,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11749&print"
   },
   {
+   "college": "Clarice C. and Leland Bagwell College of Education",
    "name": "Elementary Education, B.S.",
    "poid": 11780,
    "sections": [
@@ -886,6 +888,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11780&print"
   },
   {
+   "college": "Clarice C. and Leland Bagwell College of Education",
    "name": "Learning, Design, and Technology, B.S.",
    "poid": 11859,
    "sections": [
@@ -1029,6 +1032,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11859&print"
   },
   {
+   "college": "Clarice C. and Leland Bagwell College of Education",
    "name": "Middle Grades Education, B.S.",
    "poid": 11717,
    "sections": [
@@ -1598,6 +1602,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11717&print"
   },
   {
+   "college": "Clarice C. and Leland Bagwell College of Education",
    "name": "Secondary Education, B.S.Ed.",
    "poid": 11812,
    "sections": [
@@ -2183,6 +2188,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11812&print"
   },
   {
+   "college": "College of Architecture and Construction Management",
    "name": "Construction Management, B.S.",
    "poid": 11756,
    "sections": [
@@ -2491,6 +2497,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11756&print"
   },
   {
+   "college": "College of Architecture and Construction Management",
    "name": "Architecture, B.Arch",
    "poid": 11755,
    "sections": [
@@ -2751,6 +2758,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11755&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Artificial Intelligence, B.S.",
    "poid": 11883,
    "sections": [
@@ -2907,6 +2915,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11883&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Computer Game Design and Development, BSCGDD",
    "poid": 11750,
    "sections": [
@@ -3230,6 +3239,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11750&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Computer Science, B.S.",
    "poid": 11680,
    "sections": [
@@ -3623,6 +3633,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11680&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Data Science and Analytics, B.S.",
    "poid": 11867,
    "sections": [
@@ -3831,6 +3842,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11867&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Information Technology, BSIT",
    "poid": 11748,
    "sections": [
@@ -4311,6 +4323,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11748&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Software Engineering, B.S.S.W.E.",
    "poid": 11754,
    "sections": [
@@ -4611,6 +4624,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11754&print"
   },
   {
+   "college": "College of Computing and Software Engineering",
    "name": "Information Technology, BAS",
    "poid": 11751,
    "sections": [
@@ -4774,6 +4788,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11751&print"
   },
   {
+   "college": "College of Science and Mathematics",
    "name": "Biochemistry, B.S.",
    "poid": 11673,
    "sections": [
@@ -5000,6 +5015,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11673&print"
   },
   {
+   "college": "College of Science and Mathematics",
    "name": "Biology, B.S.",
    "poid": 11674,
    "sections": [
@@ -5362,6 +5378,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11674&print"
   },
   {
+   "college": "College of Science and Mathematics",
    "name": "Chemistry, B.S.",
    "poid": 11676,
    "sections": [
@@ -5875,6 +5892,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11676&print"
   },
   {
+   "college": "College of Science and Mathematics",
    "name": "Environmental Science, BSES",
    "poid": 11762,
    "sections": [
@@ -6311,6 +6329,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11762&print"
   },
   {
+   "college": "College of Science and Mathematics",
    "name": "Mathematics, B.S.",
    "poid": 11716,
    "sections": [
@@ -6955,6 +6974,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11716&print"
   },
   {
+   "college": "College of Science and Mathematics",
    "name": "Physics, B.S.",
    "poid": 11745,
    "sections": [
@@ -7280,6 +7300,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11745&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Cybersecurity, B.S.",
    "poid": 11853,
    "sections": [
@@ -7590,6 +7611,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11853&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Financial Technologies, B.S.",
    "poid": 11885,
    "sections": [
@@ -7770,6 +7792,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11885&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Accounting, BBA",
    "poid": 11863,
    "sections": [
@@ -8005,6 +8028,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11863&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Economics, BBA",
    "poid": 11684,
    "sections": [
@@ -8294,6 +8318,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11684&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Entrepreneurship, BBA",
    "poid": 11799,
    "sections": [
@@ -8527,6 +8552,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11799&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Finance, BBA",
    "poid": 11691,
    "sections": [
@@ -9002,6 +9028,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11691&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Hospitality Management, BBA",
    "poid": 11832,
    "sections": [
@@ -9276,6 +9303,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11832&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Information Systems, BBA",
    "poid": 11706,
    "sections": [
@@ -9569,6 +9597,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11706&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Management, BBA",
    "poid": 11712,
    "sections": [
@@ -9818,6 +9847,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11712&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Marketing, BBA",
    "poid": 11714,
    "sections": [
@@ -10111,6 +10141,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11714&print"
   },
   {
+   "college": "Michael J. Coles College of Business",
    "name": "Professional Sales, BBA",
    "poid": 11729,
    "sections": [
@@ -10316,6 +10347,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11729&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Asian Studies, B.A.",
    "poid": 11794,
    "sections": [
@@ -10692,6 +10724,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11794&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "English, B.A.",
    "poid": 11686,
    "sections": [
@@ -11447,6 +11480,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11686&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Geography, B.A.",
    "poid": 11697,
    "sections": [
@@ -11790,6 +11824,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11697&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "History, B.A.",
    "poid": 11701,
    "sections": [
@@ -12410,6 +12445,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11701&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "International Affairs, B.A.",
    "poid": 11814,
    "sections": [
@@ -12659,6 +12695,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11814&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Modern Language and Culture, B.A.",
    "poid": 11719,
    "sections": [
@@ -13372,6 +13409,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11719&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Anthropology, B.S.",
    "poid": 11667,
    "sections": [
@@ -13673,6 +13711,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11667&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Criminal Justice, B.S.",
    "poid": 11836,
    "sections": [
@@ -14014,6 +14053,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11836&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "English Education, B.S.",
    "poid": 11687,
    "sections": [
@@ -14297,6 +14337,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11687&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Geospatial Sciences, B.S.",
    "poid": 11695,
    "sections": [
@@ -14795,6 +14836,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11695&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "History Education, B.S.",
    "poid": 11702,
    "sections": [
@@ -15339,6 +15381,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11702&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Interactive Design, B.S.",
    "poid": 11786,
    "sections": [
@@ -15499,6 +15542,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11786&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Interdisciplinary Studies, B.S.",
    "poid": 11857,
    "sections": [
@@ -16153,6 +16197,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11857&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Journalism and Emerging Media, B.S.",
    "poid": 11783,
    "sections": [
@@ -16520,6 +16565,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11783&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Media and Entertainment, B.S.",
    "poid": 11816,
    "sections": [
@@ -16821,6 +16867,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11816&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Organizational and Professional Communication, B.S.",
    "poid": 11813,
    "sections": [
@@ -17098,6 +17145,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11813&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Political Science, B.S.",
    "poid": 11728,
    "sections": [
@@ -17354,6 +17402,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11728&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Psychology, B.S.",
    "poid": 11820,
    "sections": [
@@ -17588,6 +17637,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11820&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Public Relations, B.S.",
    "poid": 11746,
    "sections": [
@@ -17860,6 +17910,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11746&print"
   },
   {
+   "college": "Norman J. Radow College of Humanities and Social Sciences",
    "name": "Sociology, B.S.",
    "poid": 11733,
    "sections": [
@@ -18481,6 +18532,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11733&print"
   },
   {
+   "college": "Robert S. Geer Family College of The Arts",
    "name": "Dance, B.A.",
    "poid": 11682,
    "sections": [
@@ -18900,6 +18952,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11682&print"
   },
   {
+   "college": "Robert S. Geer Family College of The Arts",
    "name": "Theatre and Performance Studies, B.A.",
    "poid": 11737,
    "sections": [
@@ -19403,6 +19456,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11737&print"
   },
   {
+   "college": "Robert S. Geer Family College of The Arts",
    "name": "Art, BFA",
    "poid": 11843,
    "sections": [
@@ -20844,6 +20898,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11843&print"
   },
   {
+   "college": "Robert S. Geer Family College of The Arts",
    "name": "Digital Animation, BFA",
    "poid": 11801,
    "sections": [
@@ -21385,6 +21440,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11801&print"
   },
   {
+   "college": "Robert S. Geer Family College of The Arts",
    "name": "Music Education, B.M.",
    "poid": 11721,
    "sections": [
@@ -22488,6 +22544,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11721&print"
   },
   {
+   "college": "Robert S. Geer Family College of The Arts",
    "name": "Music, B.M.",
    "poid": 11846,
    "sections": [
@@ -23573,6 +23630,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11846&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Aerospace Engineering, B.S.",
    "poid": 11873,
    "sections": [
@@ -23884,6 +23942,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11873&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Civil Engineering, B.S.",
    "poid": 11760,
    "sections": [
@@ -24186,6 +24245,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11760&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Computer Engineering, B.S.",
    "poid": 11800,
    "sections": [
@@ -24374,6 +24434,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11800&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Electrical Engineering Technology, B.S.",
    "poid": 11766,
    "sections": [
@@ -24633,6 +24694,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11766&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Electrical Engineering, B.S.",
    "poid": 11761,
    "sections": [
@@ -24967,6 +25029,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11761&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Environmental Engineering, B.S.",
    "poid": 11784,
    "sections": [
@@ -25205,6 +25268,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11784&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Industrial and Systems Engineering, B.S.",
    "poid": 11796,
    "sections": [
@@ -25465,6 +25529,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11796&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Industrial Engineering Technology, B.S.",
    "poid": 11764,
    "sections": [
@@ -25810,6 +25875,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11764&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Mechanical Engineering Technology, B.S.",
    "poid": 11765,
    "sections": [
@@ -26146,6 +26212,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11765&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Mechanical Engineering, B.S.",
    "poid": 11759,
    "sections": [
@@ -26498,6 +26565,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11759&print"
   },
   {
+   "college": "Southern Polytechnic College of Engineering and Engineering Technology",
    "name": "Mechatronics Engineering, B.S.",
    "poid": 11763,
    "sections": [
@@ -26760,6 +26828,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11763&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Exercise Science, B.S.",
    "poid": 11689,
    "sections": [
@@ -26969,6 +27038,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11689&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Health and Physical Activity Leadership, B.S.",
    "poid": 11747,
    "sections": [
@@ -27286,6 +27356,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11747&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Human Services, B.S.",
    "poid": 11808,
    "sections": [
@@ -27625,6 +27696,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11808&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Integrated Health Science, B.S.",
    "poid": 11833,
    "sections": [
@@ -27822,6 +27894,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11833&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Nursing, BSN",
    "poid": 11878,
    "sections": [
@@ -28029,6 +28102,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11878&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Public Health, B.S.",
    "poid": 11792,
    "sections": [
@@ -28197,6 +28271,7 @@
    "url": "https://catalog.kennesaw.edu/preview_program.php?catoid=84&poid=11792&print"
   },
   {
+   "college": "Wellstar College of Health and Human Services",
    "name": "Sport Management, B.S.",
    "poid": 11736,
    "sections": [
