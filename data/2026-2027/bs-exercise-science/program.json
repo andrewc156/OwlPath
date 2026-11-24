@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11689,
   "program": {
     "id": "bs-exercise-science",
     "name": "BS Exercise Science",
@@ -114,5 +116,5 @@
   "leftOut": [
     "text: One (1) credit hour carried over from General Education Core IMPACTS: Technology & Science from the following:"
   ],
-  "draftHash": "e6ec0d746f3e93e676d32af6a60c69aa9a024377a7088f9082a038917cdb2082"
+  "draftHash": "35d8b2e715f22a4faf43c6a08a80023ec26e9d8bd2726e0b79a2fbb2e295290a"
 }

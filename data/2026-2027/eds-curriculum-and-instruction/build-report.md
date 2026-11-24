@@ -26,7 +26,3 @@
   - unrecognized: in education
   - missing operator before 'Ed.S.', assumed and
   - missing operator before 'Ed.D.', assumed and
-
-## Left out on purpose
-
-- EDRS 8000

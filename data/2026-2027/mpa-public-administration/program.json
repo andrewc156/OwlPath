@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11602,
   "program": {
     "id": "mpa-public-administration",
     "name": "MPA Public Administration",
@@ -9,6 +11,12 @@
         "label": "Required courses",
         "groups": [
           "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
         ]
       }
     ]
@@ -49,6 +57,9 @@
     ],
     "PAD 7180": [
       "major-required"
+    ],
+    "PAD 7998": [
+      "major-project"
     ]
   },
   "draftWarnings": [
@@ -58,8 +69,7 @@
     "unrecognized section 'Additional Course Options'"
   ],
   "leftOut": [
-    "text: Students will select two other graduate IS or MPA courses, or other graduate course approved by the program director.",
-    "PAD 7998"
+    "text: Students will select two other graduate IS or MPA courses, or other graduate course approved by the program director."
   ],
-  "draftHash": "8f2a74bf911ceaa772344d7c192dc4b794e33bd42091f96d6ea9192a1c0ef416"
+  "draftHash": "1b4ef19b4af2f9b5f109c9b67341e218c12bd51f2a4ade51797c002f3a4c7154"
 }

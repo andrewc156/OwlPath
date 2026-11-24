@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11833,
   "program": {
     "id": "bs-integrated-health-science",
     "name": "BS Integrated Health Science",
@@ -31,12 +33,23 @@
       "ECON 3478"
     ],
     [
+      "IHS 3260",
+      "COMM 3320"
+    ],
+    [
       "HHS 3200",
       "IT 3503"
+    ],
+    [
+      "IHS 4445",
+      "HS 4900"
     ]
   ],
   "courses": {
     "BIOL 2251": [
+      "major-required"
+    ],
+    "COMM 3320": [
       "major-required"
     ],
     "ECON 3478": [
@@ -51,10 +64,16 @@
     "HHS 3500": [
       "major-required"
     ],
+    "HHS 4800": [
+      "major-required"
+    ],
     "HPAL 2250": [
       "major-required"
     ],
     "HS 2300": [
+      "major-required"
+    ],
+    "HS 4900": [
       "major-required"
     ],
     "IHS 2100": [
@@ -94,10 +113,7 @@
   "draftWarnings": [],
   "leftOut": [
     "text: Choose one of the following courses:",
-    "HHS 4800",
-    "COMM 3320",
-    "IHS 3398",
-    "HS 4900"
+    "IHS 3398"
   ],
-  "draftHash": "402ebd1fdd0948d3da0dfd7d1aa9cd5e48257f27253ed8b987603481f97cb6ac"
+  "draftHash": "312428cb7c1556fc102e52d64ffedd2691a376f5d13849b96e76527bd98bbead"
 }

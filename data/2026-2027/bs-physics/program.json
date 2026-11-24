@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11745,
   "program": {
     "id": "bs-physics",
     "name": "BS Physics",
@@ -141,5 +143,5 @@
     "text: Any 3000 or 4000-level of PHYS courses for 15 credit hours*",
     "text: Any 3000 or 4000 PHYS “K” or PHYS “L” laboratory courses for 3 Credit Hours of laboratory courses *"
   ],
-  "draftHash": "f20b7cfdae1d2723b69492c951d18a75e3328d7eda6c657449a4cf61ba12ee7a"
+  "draftHash": "1b64d3eb9900a56cd0488d6ed97d8edd97eb2d56aa06fd2d66159b9ea850c0a8"
 }

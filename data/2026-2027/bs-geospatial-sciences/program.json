@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11695,
   "program": {
     "id": "bs-geospatial-sciences",
     "name": "BS Geospatial Sciences",
@@ -240,5 +242,5 @@
     "GIS 3398",
     "SURV 4490"
   ],
-  "draftHash": "bf8dedd3c47696d8b995e6b26f44d8061833cc0d4f7e08458e0a3ec3aaa12f4c"
+  "draftHash": "a88ab5849f7f0fd7535e6d86b32155af8518c38e6a836b533e967fbed36f70cf"
 }

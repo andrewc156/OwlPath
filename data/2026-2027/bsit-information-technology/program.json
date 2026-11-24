@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11748,
   "program": {
     "id": "bsit-information-technology",
     "name": "BSIT Information Technology",
@@ -188,5 +190,5 @@
     "IT 4490",
     "IT 4493"
   ],
-  "draftHash": "b6dfea9067ed067044a920dac35fde727c13e5ff23404a3755f33b2cb8ac498d"
+  "draftHash": "42ab387d616e0764e478b4d697146a39f7ddb4710bebf45492e9b37e20822869"
 }

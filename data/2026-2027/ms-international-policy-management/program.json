@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11559,
   "program": {
     "id": "ms-international-policy-management",
     "name": "MS International Policy Management",
@@ -31,5 +33,5 @@
   "leftOut": [
     "IPM 7765"
   ],
-  "draftHash": "1a2ce0a3bce481c710d500ca6126c989e75b02c63bac15262084d5b659537067"
+  "draftHash": "977f0bab9366be61cd5902b09e634a4248d89e0b179bcdbe3eb72d1a5e52f3bf"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11649,
   "program": {
     "id": "ms-artificial-intelligence",
     "name": "MS Artificial Intelligence",
@@ -75,5 +77,5 @@
     "CS 7999",
     "text: 6000 or 7000 level courses with any prefix approved by the program coordinator, up to a total of 6 credit hours. The course must align with program outcomes by either advancing the student’s expertise in artificial intelligence or by deepening their domain-specific knowledge in a way that facilitates the application of AI to that field."
   ],
-  "draftHash": "b5a0791ad4181483cd45695114784f78e9924aa61c6b85b46dea125073241fd9"
+  "draftHash": "a01103d391ba16434ad049d2a554f3c43fd898e6edaa1c3ed30a9e8d2c184e34"
 }

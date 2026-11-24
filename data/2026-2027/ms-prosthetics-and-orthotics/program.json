@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11617,
   "program": {
     "id": "ms-prosthetics-and-orthotics",
     "name": "MS Prosthetics and Orthotics",
@@ -90,5 +92,5 @@
     "unrecognized section 'Research Seminars (3 Credit Hours)'"
   ],
   "leftOut": [],
-  "draftHash": "f7c41bfb143d59017abef37d3e826f8b6a410ff6f99d81cecc01b42e09d0e548"
+  "draftHash": "f04d9495d9e00c43a79c4206d5c23fda2a8eaa709cdf5414e05d335bd5291245"
 }

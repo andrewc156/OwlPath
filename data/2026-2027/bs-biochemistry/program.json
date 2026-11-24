@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11673,
   "program": {
     "id": "bs-biochemistry",
     "name": "BS Biochemistry",
@@ -82,5 +84,5 @@
     "text: One (1) credit hour carried over from Natural Sciences",
     "text: If taken in Natural Sciences, please consult an advisor on how to fulfill this requirement."
   ],
-  "draftHash": "61c6d7f6c13c5abf67cb046f61c7cbe6b4c74e3830f1b5f53882806114b41cd3"
+  "draftHash": "60292c5dca48abecbbabe7437f222a671a474dd2747e1575be0586baa2ddcc8c"
 }

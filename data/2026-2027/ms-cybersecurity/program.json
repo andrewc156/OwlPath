@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11614,
   "program": {
     "id": "ms-cybersecurity",
     "name": "MS Cybersecurity",
@@ -94,5 +96,5 @@
     "CYBR 7980",
     "CSE 7983"
   ],
-  "draftHash": "05aa15bab716f72e5865d1cd9389bbd6475078b1ae0f491a1be68644bfdf3929"
+  "draftHash": "e4f47ac8899bdb94f3e630b07051d09d2d6b6464a49deaa52773acd7d6a398ee"
 }

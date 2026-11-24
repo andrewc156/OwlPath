@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11780,
   "program": {
     "id": "bs-elementary-education",
     "name": "BS Elementary Education",
@@ -94,5 +96,5 @@
   },
   "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "c22e797a7e41c837dfd994d03a1fbb6ed24488ec205413f847b52a4004d38dc5"
+  "draftHash": "9bd24d52e997ae6f57f0f589691495c67d6e14c61a344791eae9815304c397f7"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11564,
   "program": {
     "id": "edd-teacher-leadership",
     "name": "EdD Teacher Leadership",
@@ -72,5 +74,5 @@
     "text: Advisor Approved Elective - I\n\nAdvisor Approved Elective - II",
     "EDL 9600"
   ],
-  "draftHash": "cfce3887b5525fddb13c7617b34df7765105238eed4b3e53d4ea4f8582146a73"
+  "draftHash": "5bdf969fcebe2f626aab94abf0b56e32b0644f5512fbfbd298ea19560c8f75d7"
 }

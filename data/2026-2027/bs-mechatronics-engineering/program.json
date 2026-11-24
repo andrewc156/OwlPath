@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11763,
   "program": {
     "id": "bs-mechatronics-engineering",
     "name": "BS Mechatronics Engineering",
@@ -152,5 +154,5 @@
     "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
     "text: 3000-4000 level MTRE coursework"
   ],
-  "draftHash": "0c4be2775b39eb558c18498d681a3d88c3d3893207eb1313a954a8f786e5ee12"
+  "draftHash": "18654afad61ddf8d638cb6900b7cc6bc7dd3d71ada6ca745e3316e219f1204d2"
 }

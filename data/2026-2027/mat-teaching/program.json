@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11571,
   "program": {
     "id": "mat-teaching",
     "name": "MAT Teaching",
@@ -200,5 +202,5 @@
   "leftOut": [
     "text: Select 6 credit hours of advisor approved electives."
   ],
-  "draftHash": "18021c2e8721fa253fd35db626ca2a885a2acc0e1099a5ab2c6c300e356a109f"
+  "draftHash": "5bfe4001ee27939137bc33accc24dd2a4bc307117ddcf13a0c769f1223044638"
 }

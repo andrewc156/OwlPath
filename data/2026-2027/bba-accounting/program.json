@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11863,
   "program": {
     "id": "bba-accounting",
     "name": "BBA Accounting",
@@ -122,5 +124,5 @@
     "ACCT 4400",
     "ACCT 4490"
   ],
-  "draftHash": "3ee9aacf16b974059c8c81cd1272347b20704baceb9ef37c885c67e00d08515d"
+  "draftHash": "ea13730864aa328f4e67053fef14496de4f23dad0e5ba739079bf2cf8de0cc66"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11667,
   "program": {
     "id": "bs-anthropology",
     "name": "BS Anthropology",
@@ -30,5 +32,5 @@
     "unrecognized section 'Archaeology'"
   ],
   "leftOut": [],
-  "draftHash": "172d82ed0296696a3cff2fa05b42e2c19032c541576a48dde59b5839edf01f00"
+  "draftHash": "c59eafa33aa85172a307f27ffe80582c800887aec1da734bab9c64a0259a4760"
 }

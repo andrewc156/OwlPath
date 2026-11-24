@@ -10,6 +10,9 @@
   - empty description
 - **CS 7125**
   - unrecognized: Equivalent
+- **CS 7385**
+  - unrecognized: Program Admission
+  - unrecognized: Permission of Director
 - **CS 7455**
   - unrecognized: Coursework in Computer Programming
   - unrecognized: as determined by program admission
@@ -46,4 +49,3 @@
 - SWE 6903
 - SWE 6803
 - CSE 7983
-- CS 7385

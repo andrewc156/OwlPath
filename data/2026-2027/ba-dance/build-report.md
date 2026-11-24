@@ -9,6 +9,9 @@
   - unrecognized: Dance Minor
   - unrecognized: Dance- Interest;
   - ambiguous and/or precedence: Must be a Dance Major, Dance Minor, or Dance- Interest; and ENGL 1101
+- **DANC 2715**
+  - unrecognized: Dance Major
+  - unrecognized: Dance Minor
 - **DANC 3001**
   - unrecognized: Dance Major
 - **DANC 3110**
@@ -48,5 +51,4 @@
 
 - DANC 2713
 - DANC 2714
-- DANC 2715
 - DANC 2290

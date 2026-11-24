@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11591,
   "program": {
     "id": "msswe-software-engineering",
     "name": "MSSWE Software Engineering",
@@ -28,6 +30,9 @@
   "choices": [],
   "courses": {
     "CS 7125": [
+      "major-elective"
+    ],
+    "CS 7385": [
       "major-elective"
     ],
     "CS 7455": [
@@ -93,8 +98,7 @@
     "text: At least two electives must be in Software Engineering or the following list of CS/CSE courses:",
     "SWE 6903",
     "SWE 6803",
-    "CSE 7983",
-    "CS 7385"
+    "CSE 7983"
   ],
-  "draftHash": "d2cc78b09cc1ec03aa1dfd5bdbe979e01bf168967ead870f1d10b42bceaa77e8"
+  "draftHash": "735791f343d68a3c651f4c05d558bc599ce02928e51a5d51b2bfb73f107e1113"
 }

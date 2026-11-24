@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11624,
   "program": {
     "id": "phd-interdisciplinary-engineering",
     "name": "PhD Interdisciplinary Engineering",
@@ -39,5 +41,5 @@
     "unrecognized section 'Research (36 Credit Hours)'"
   ],
   "leftOut": [],
-  "draftHash": "6b6b23bfd161d3ca06545422993e70b730ccda610eac4b254e5d4f149fe3c43c"
+  "draftHash": "37dbf29d4777cd7129eb77b71fbdc13e1908f375b3dec70baedef9a2b3c32d19"
 }

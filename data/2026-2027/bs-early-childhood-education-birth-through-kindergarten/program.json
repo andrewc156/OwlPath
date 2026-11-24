@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11749,
   "program": {
     "id": "bs-early-childhood-education-birth-through-kindergarten",
     "name": "BS Early Childhood Education Birth through Kindergarten",
@@ -111,5 +113,5 @@
     "ECE 4598",
     "ECE 4599"
   ],
-  "draftHash": "d1587523846bc8b09a1ab5f08f5476f620f1f77d6ad631e06d8d64d2ecda8fb2"
+  "draftHash": "b5989c2ad42d615d2be5cccc100cc96de9d59b55fe1c377e18f8395f6a8422e6"
 }

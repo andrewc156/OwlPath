@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11691,
   "program": {
     "id": "bba-finance",
     "name": "BBA Finance",
@@ -123,5 +125,5 @@
     "FIN 4490",
     "text: Any 300/400 level FIN course not already taken to satisfy degree requirements"
   ],
-  "draftHash": "e143e347cd971753932d08b9b0a6b4952c56c1104d36a86a90703abd7a2adff0"
+  "draftHash": "19542ecb3b9ad2c2c19890313609423d954e0d6cebd5ef6c480256c63ce381b5"
 }

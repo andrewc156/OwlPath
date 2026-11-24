@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11878,
   "program": {
     "id": "bsn-nursing",
     "name": "BSN Nursing",
@@ -115,5 +117,5 @@
     "text: *If PSYC 1101 and/or STAT 1401 are taken to satisfy General Education Core IMPACTS, students may take up to 6 credit hours of free electives or the recommended guided electives: PSYC 2103 , SOCI 1101",
     "text: One (1) credit hour carried over from General Education Core IMPACTS: Technology & Science from the following:"
   ],
-  "draftHash": "2e14d35aa1abcd78d5f4c75595310ad83e09530de8697493800c23d0b3871ba8"
+  "draftHash": "993b848f6544079a2ee79c3233d70f42048de2c9aeed6c7e57f9438706cfbb53"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11544,
   "program": {
     "id": "phd-business-administration",
     "name": "PhD Business Administration",
@@ -151,5 +153,5 @@
     "ECON 9903",
     "ECON 9904"
   ],
-  "draftHash": "6141eb54dd70f38ef323988bc6c8734913902a603fdf043f1a59b7adada6116f"
+  "draftHash": "f703a0a773c6405558ef2acba168789ec81ae2d413d9cacebe4014cbca7e241a"
 }

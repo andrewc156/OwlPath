@@ -69,10 +69,3 @@
 ## Left out on purpose
 
 - text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor.
-- ITEC 8510
-- ITEC 8520
-- ITEC 8530
-- ITEC 8540
-- ITEC 8550
-- ITEC 8560
-- ITEC 8570

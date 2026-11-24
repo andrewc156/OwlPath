@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11686,
   "program": {
     "id": "ba-english",
     "name": "BA English",
@@ -306,5 +308,5 @@
     "unrecognized section 'Senior Seminar (3 Credit Hours)'"
   ],
   "leftOut": [],
-  "draftHash": "628ab9d0775e9624e44ec04cacb4e8cd20c7f1501edc071bcf996af18d78e555"
+  "draftHash": "a0f8bab1898da1016eded5d98f62f12e64d5f3fa0fab62b855fd8c7341a8cd02"
 }

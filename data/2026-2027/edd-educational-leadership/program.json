@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11551,
   "program": {
     "id": "edd-educational-leadership",
     "name": "EdD Educational Leadership",
@@ -28,6 +30,9 @@
   "courses": {
     "EDL 9000": [
       "major-required"
+    ],
+    "EDL 9300": [
+      "major-elective"
     ],
     "EDL 9310": [
       "major-elective"
@@ -92,8 +97,7 @@
   ],
   "leftOut": [
     "EDL 9600",
-    "EDL 9300",
     "EDL 9350"
   ],
-  "draftHash": "8e0e5a2093ca6a7839dcb13468b0bbf687954973c82bd247b25665010d50a546"
+  "draftHash": "8cfd277da0c8108193ae368469e6c64049dc6f5d5808b3080fa4827535a4e9c8"
 }

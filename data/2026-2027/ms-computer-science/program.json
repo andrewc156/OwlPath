@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11569,
   "program": {
     "id": "ms-computer-science",
     "name": "MS Computer Science",
@@ -125,6 +127,12 @@
       "conc-data-science",
       "conc-cyber-and-network-security"
     ],
+    "MATH 8020": [
+      "conc-data-science"
+    ],
+    "MATH 8030": [
+      "conc-data-science"
+    ],
     "STAT 7210": [
       "conc-data-science"
     ],
@@ -142,9 +150,7 @@
     "text: Any CS 6000-, 7000-, or 8000-level course",
     "CSE 7983",
     "CS 7990",
-    "CS 7992",
-    "MATH 8020",
-    "MATH 8030"
+    "CS 7992"
   ],
-  "draftHash": "1dc995a5e8057c4aab970f2397b5c0e0d14171ee99711b15baf6e13b8c264214"
+  "draftHash": "b9e68de9b972a09172116833a240721c3faf9d65c1659d416bc8f8aee3c3d0dd"
 }

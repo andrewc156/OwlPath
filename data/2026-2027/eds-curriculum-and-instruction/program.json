@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11579,
   "program": {
     "id": "eds-curriculum-and-instruction",
     "name": "EdS Curriculum and Instruction",
@@ -35,11 +37,12 @@
     ],
     "EDCI 7880": [
       "major-required"
+    ],
+    "EDRS 8000": [
+      "major-required"
     ]
   },
   "draftWarnings": [],
-  "leftOut": [
-    "EDRS 8000"
-  ],
-  "draftHash": "d99a8761bd5b040b67176282988ca39b1d6415959d5a8e2de8b3754545b3d65f"
+  "leftOut": [],
+  "draftHash": "36e8a9c4afbcd59ae1c19e74f3b1a9fa1786c942f7a59562a717bf79e39aa7ac"
 }

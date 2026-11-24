@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11574,
   "program": {
     "id": "eds-special-education",
     "name": "EdS Special Education",
@@ -68,5 +70,5 @@
   "leftOut": [
     "text: Select 6 credit hours of 7000 level or higher INED coursework."
   ],
-  "draftHash": "6e1f53762b1863fc19cacd7ae8252cd5164d59bffe298cf37dde2b576afc02a0"
+  "draftHash": "5fd22fdd6ee1961dae6e1f7d2c4731142a3fdf975b8bb075dda79d80a9303ae3"
 }

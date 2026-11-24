@@ -53,6 +53,12 @@
   - missing operator before 'TPS 1600', assumed and
 - **TPS 3703**
   - unrecognized: TPS Major
+- **TPS 4030**
+  - unrecognized: Audition
+  - unrecognized: /
+  - unrecognized: the
+  - ambiguous and/or precedence: Audition and/or the approval of the instructor
+  - missing operator before 'approval of the instructor', assumed and
 - **TPS 4313**
   - unrecognized: TPS Major.
   - missing operator before 'TPS 3403', assumed and
@@ -75,4 +81,3 @@
 
 - text: Select 6 credit hours from the following list of courses:
 - text: Select 3 credit hours from the following list of courses:
-- TPS 4030

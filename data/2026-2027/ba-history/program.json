@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11701,
   "program": {
     "id": "ba-history",
     "name": "BA History",
@@ -130,5 +132,5 @@
     "HIST 4400",
     "HIST 4490"
   ],
-  "draftHash": "00d4d0b776af37faf39f82f8b975a492bb6ad67835baae3f07aa19a127c4c763"
+  "draftHash": "d35e6c1b4c7e5c61204b7bfd613b3c97c7c27879f49b062f635cb720f2d4c6b9"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11836,
   "program": {
     "id": "bs-criminal-justice",
     "name": "BS Criminal Justice",
@@ -159,5 +161,5 @@
     "CRJU 4400",
     "CRJU 4490"
   ],
-  "draftHash": "ec75a54347af2737b5451d1f3272c510fffb52a039851df065a712b47d01c194"
+  "draftHash": "e5b31c19e7441aa15eb764142323a1d4d4ae16e76eda8dc3c5531cdd6b04d1a6"
 }

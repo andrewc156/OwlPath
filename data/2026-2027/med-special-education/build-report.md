@@ -16,10 +16,11 @@
 - **INED 7775**
   - unrecognized line: This course is designed to familiarize the learner with an overview of characteristics, etiology, empirical based treatments, and prevalence of Autism Spectrum Disorder (ASD). Additionally, this course aims to inform participants with the knowledge and skill to effectively facilitate a learning environment in which individuals with ASD are successful. Effective teaching strategies, classroom organization, and collaborating with professionals and families will be introduced, evaluated, and discussed.
   - empty description
+- **INED 7955**
+  - unrecognized: permission from Program Coordinator
 
 ## Left out on purpose
 
-- INED 7955
 - text: Autism Spectrum Disorder Certificate
 - text: English to Speakers of Other Languages Endorsement Certificate
 - text: Gifted Education Certificate

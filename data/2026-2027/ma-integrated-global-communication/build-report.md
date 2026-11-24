@@ -2,12 +2,24 @@
 
 ## Warnings needing review
 
+- **COM 6100**
+  - unrecognized: permission from the instructor
+- **COM 6200**
+  - unrecognized: permission from the instructor
+- **COM 6410**
+  - unrecognized: permission from the instructor
+- **COM 6420**
+  - unrecognized: permission from the instructor
+- **COM 6490**
+  - unrecognized: permission from the instructor
 - **COM 6670**
   - unrecognized line: Leaders need communication skills and requisite knowledge to guide organizations through the tumultuous crises of the future. This course addresses numerous content areas, including: factors involved in decision-making under pressure; training and organizational skills in crisis management communication as a core competency; and leading in local and transboundary crises through an integrated approach for organizations with different decision-making structures, different resource commitments to crisis preparations and response, and different communication and cultural strategies.
   - empty description
 - **COM 6690**
   - unrecognized line: This course offers theoretical and applied approaches to global communication from perspectives of mass media, public relations and organizational communication. Semester topics will vary. Potential topics include: communication leadership trends and strategies, media ownership, global news trends, and media’s influence on people’s lives.
   - empty description
+- **COM 6900**
+  - unrecognized: permission from the instructor
 - **COM 7100**
   - unrecognized line: This course provides an overview of global communication, its modern development and the role of information technology; global communication law and policies; global news and information flow; global communication in transnational and global companies; global public relations; global advertising; and issues in global communication.
   - empty description
@@ -35,10 +47,4 @@
 
 ## Left out on purpose
 
-- COM 6100
-- COM 6200
-- COM 6410
-- COM 6420
-- COM 6490
-- COM 6900
 - text: Students may select up to 6 credit hours of 6000-7000 level COM coursework not already taken or 6000-7000 level coursework from the following prefixes: AMST, MSCM, IPM, PRWR, or PAD. Students may take COM 6690 again for credit in this area.

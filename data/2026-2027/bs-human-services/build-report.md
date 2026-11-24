@@ -13,6 +13,12 @@
   - unrecognized: Non-majors with
   - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
   - missing operator before 'permission of department', assumed and
+- **HHS 4800**
+  - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
+  - unrecognized: Human Services
+  - unrecognized: Non-majors with
+  - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+  - missing operator before 'permission of the Department', assumed and
 - **HS 2900**
   - unrecognized: HS Majors
 - **HS 3000**
@@ -31,6 +37,26 @@
   - unrecognized: HS majors
   - unrecognized: Non-majors with
   - missing operator before 'permission of the department', assumed and
+- **HS 3400**
+  - unrecognized: HS majors
+  - unrecognized: Non-majors with
+  - missing operator before 'permission of the department', assumed and
+- **HS 3700**
+  - unrecognized: HS majors
+  - unrecognized: Non-majors with
+  - missing operator before 'permission of the department', assumed and
+- **HS 3750**
+  - unrecognized: HS majors
+  - unrecognized: Non majors with
+  - missing operator before 'permission of the department', assumed and
+- **HS 3900**
+  - unrecognized: HS majors
+  - unrecognized: Non majors with
+  - missing operator before 'permission of the department', assumed and
+- **HS 4900**
+  - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
+- **HS 4910**
+  - unrecognized: HS Major
 - **MGT 3100**
   - unrecognized: Grades of "B"
   - unrecognized: higher in
@@ -44,15 +70,7 @@
 ## Left out on purpose
 
 - HS 3000
-- HS 3300
-- HS 3400
-- HHS 4800
-- HS 4900
 - HS 4950
 - text: Select 3000-4000 level coursework not listed above from the following prefixes: ES, HHS, HPAL, HS, IHS, IPE, PHE, NURS, PSYC, and SOCI with permission of the Program Director or Program Director Designee.
-- HS 3700
-- HS 3750
-- HS 3900
 - HS 4400
 - HS 4490
-- HS 4910

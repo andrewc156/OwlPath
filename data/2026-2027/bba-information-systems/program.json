@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11706,
   "program": {
     "id": "bba-information-systems",
     "name": "BBA Information Systems",
@@ -135,5 +137,5 @@
     "text: any KSU-approved study abroad program",
     "text: IS research or honors project in a IS 4000 : IS Project Lab  or IS 4400 : Directed Study"
   ],
-  "draftHash": "6f0d22be100c591f302aeee4caea7c24562903436a91cd85d1e8652636e11fa0"
+  "draftHash": "5a8b51955afb0c3576bd009dd017a0ea84031f244fa18b7ffb93d2891b5bf705"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11568,
   "program": {
     "id": "ms-integrative-biology",
     "name": "MS Integrative Biology",
@@ -48,5 +50,5 @@
     "text: BIOL 6490 Special Topics and BIOL 7950 Directed Study and are limited to a maximum of 3 credit hours each.",
     "text: With approval from the student’s thesis adviser and the Program Coordinator, up to 6 credit hours may be taken from outside BIOL. Of these, no more than 3 hours may be from outside the College of Science and Mathematics."
   ],
-  "draftHash": "ddfbe1208c27ba182821b91e5e8722353197907b1729fe438fbb6fe4ba32a404"
+  "draftHash": "d043fa0090592ccef8d5bf358d6d1ebdc4600df65c707873b2c0179eac0a1541"
 }

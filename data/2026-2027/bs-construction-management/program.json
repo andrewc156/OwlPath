@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11756,
   "program": {
     "id": "bs-construction-management",
     "name": "BS Construction Management",
@@ -104,5 +106,5 @@
     "text: One (1) credit hour carried over from Applied Mathematics.",
     "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences."
   ],
-  "draftHash": "bb8739875e98d79f7bc40d1949f25a619092bfdc568294370a0d03e8efd6c975"
+  "draftHash": "c3762f48961b89926937261f51042c8058bc6b945f00f848b0bf001365563e8a"
 }

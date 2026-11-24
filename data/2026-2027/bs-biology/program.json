@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11674,
   "program": {
     "id": "bs-biology",
     "name": "BS Biology",
@@ -169,5 +171,5 @@
     "text: Elective choices may include a maximum of 4 internship credit hours ( BIOL 3398 ).",
     "BIOL 4610"
   ],
-  "draftHash": "d52dbaf55926970f266411e8bea5a0c59c1183a15bce86b09116842c3f7f47f7"
+  "draftHash": "eb3c67c114ce375883883ea3ee8cb4b3c5c1433cceed4f5755e350f5142019fe"
 }

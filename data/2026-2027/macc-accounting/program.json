@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11538,
   "program": {
     "id": "macc-accounting",
     "name": "MAcc Accounting",
@@ -42,5 +44,5 @@
     "unrecognized section 'Option B: Tax Specialization'"
   ],
   "leftOut": [],
-  "draftHash": "0d441d610fe0bd7fedf46b2b94281e7f9cd9f6c0245c738feb2494b41b9b4c7f"
+  "draftHash": "8763c0fcaac15065a4ee0583c6c5af8bc6702af7110a8a1c5c0090d7359f6ae8"
 }

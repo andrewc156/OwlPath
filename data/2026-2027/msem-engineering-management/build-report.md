@@ -17,6 +17,8 @@
 - **EM 6722**
   - unrecognized line: Human Factors Engineering is a comprehensive survey of human factors theory, research, and applications which are of particular relevance to Quality and Engineering Management. Emphasis will be placed on operator constraints in the design of work processes, workplaces, and instrumentation.
   - empty description
+- **IS 7090**
+  - unrecognized: Full
 - **SYE 6005**
   - unrecognized line: The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible.
   - unrecognized line: Note: This course may be cross-leveled with SYE 8005.
@@ -34,4 +36,3 @@
 ## Left out on purpose
 
 - EM 6800
-- IS 7090

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11717,
   "program": {
     "id": "bs-middle-grades-education",
     "name": "BS Middle Grades Education",
@@ -171,5 +173,5 @@
     "text: The study of global connections and interdependence; and",
     "text: The study of civic ideals and practices."
   ],
-  "draftHash": "84d67492b0544961be083aa3834486c6a918d59386aae5c6f1f04dbde820c44d"
+  "draftHash": "3092a236570a844772b54c98ff0762160842922699938c5cdc22fd4761b988ed"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11676,
   "program": {
     "id": "bs-chemistry",
     "name": "BS Chemistry",
@@ -119,6 +121,10 @@
       "conc-forensic-chemistry",
       "conc-pharmaceutical-chemistry"
     ],
+    "CHEM 4100": [
+      "conc-acs-certified-chemistry",
+      "conc-forensic-chemistry"
+    ],
     "CHEM 4120L": [
       "conc-acs-certified-chemistry",
       "conc-forensic-chemistry"
@@ -175,9 +181,8 @@
     "text: and",
     "text: Select 3 credit hours of 3000-4000 level CHEM coursework not already used as a requirement in the major or concentration.",
     "CHEM 3398",
-    "CHEM 4100",
     "text: Select 3 credit hours from the following list of courses:",
     "text: Select 3 credit hours of 3000-4000 level STAT coursework"
   ],
-  "draftHash": "9235000ec47f0cad5f2016d90ffa25cc8237e3e3ad5432388c91decd26877090"
+  "draftHash": "3cd7d40e8b2dd423f86b47520433bc7e6347b3b8a4a28f0862920db5fef3a43b"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11783,
   "program": {
     "id": "bs-journalism-and-emerging-media",
     "name": "BS Journalism and Emerging Media",
@@ -52,6 +54,9 @@
     "JOUR 3820": [
       "major-elective"
     ],
+    "JOUR 3900": [
+      "major-required"
+    ],
     "JOUR 4100": [
       "major-required"
     ],
@@ -87,8 +92,6 @@
     "unrecognized section 'Advanced Journalism Professional Practice (3 Credit Hours)'",
     "unrecognized section 'Related Studies (3 Credit Hours)'"
   ],
-  "leftOut": [
-    "JOUR 3900"
-  ],
-  "draftHash": "30c97a5df46aa1bfb93f64dfa374d915396179af542fc1a07df9f2cf7f25177e"
+  "leftOut": [],
+  "draftHash": "779a886a793ba355473f276f19ee9fa3c157044eb1008a364120bfa649ad1269"
 }

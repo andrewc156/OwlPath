@@ -47,6 +47,11 @@
   - unrecognized line: Students engage in research and team-based interactive virtual experiential learning with a collaborating industry partner. The student gains industry insight and hands-on experience that provides the underpinning for the student research. A virtual collaboration platform is used to enroll, onboard, empathize, reboot, experiment, and deliver business solutions for client problems. Students get mentored, trained, and practice on FinTech research, tools and techniques used in industry. Prototyping and experimentation are encouraged to understand “real world” issues. Partner companies share their anonymized dataset, tools and techniques. The student identifies potential research topics to complement the industry partner’s mission. The student will be strongly encouraged to publish her/his research. Coaching activities including design thinking, backlog management, business modeling, and research & publishing guidelines are offered in this course.
   - unrecognized line: Note: This course may be cross-leveled with FTA 3890.
   - empty description
+- **IS 7090**
+  - unrecognized: Full
+- **IS 7935**
+  - unrecognized: director
+  - missing operator before 'director', assumed and
 - **MGT 7101**
   - unrecognized line: Developing strategic management skills for agribusinesses and rural development projects is essential for sustainable success. This course will explore topics pertaining to: public policy, corporate social responsibility, supply chain management, micro finance and rural marketing strategies. This course will include a field project that encompasses one week in a rural setting, where students have the opportunity to apply their knowledge in the field.
   - unrecognized line: Note: One week field project is required for the successful completion of this course. Project is arranged by the program and will take place in a rural setting within the State of Georgia. Students are responsible for the lodging expense.
@@ -56,19 +61,12 @@
 - **MGT 7525**
   - unrecognized line: This course provides an overview of organizational innovation and entrepreneurship, along with practical implications that the student can bring back to their organization to be more innovative and entrepreneurial. To maintain a competitive edge, organizations must access opportunities from internal and external sources, create an environment for those opportunities to be successful, and direct resources towards that capability to be sustainable and repeatable. A key theme will involve not only how organizations can avoid market disruption, but also how they can become their own disruptors.
   - empty description
+- **MGT 7999**
+  - unrecognized: Completion of seven MBA core courses
+  - unrecognized: at least six hours of MBA electives
+  - unrecognized: permission from the Graduate Business Offices
 - **MKTG 7730**
   - unrecognized: equivalent
 - **MKTG 7760**
   - unrecognized line: In this course students learn how data analysis technologies are used to improve marketing decision-making and analysis. The fundamental principles and techniques of data analytics are emphasized, and real-world cases are explored to place data analytics techniques in context, develop data-analytic thinking, and illustrate that proper application is as much an art as it is a science. Students work “hands-on” with data analytics software such as SQL, Tableau, RapidMiner, DataRobot, Python, and Google Analytics.
   - empty description
-
-## Left out on purpose
-
-- IS 7090
-- MGT 7999
-- IS 7935
-- IS 7200
-- IS 7310
-- IS 7320
-- IS 7330
-- MGT 7530

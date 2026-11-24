@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11562,
   "program": {
     "id": "msw-social-work",
     "name": "MSW Social Work",
@@ -27,5 +29,5 @@
     "unrecognized section 'Advanced Clinical Courses (21 Credit Hours)'"
   ],
   "leftOut": [],
-  "draftHash": "893f1d82209e09fe3ff1e8762fa63145ee8e4ce9a26e51754855123d3094f253"
+  "draftHash": "f0323dffe0c0862d19cba3b14c44af1f859c047953e23704c2fd83b29658986d"
 }

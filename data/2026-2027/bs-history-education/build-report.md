@@ -32,7 +32,3 @@
 - unrecognized section 'American History (6 Credit Hours)'
 - unrecognized section 'European History (3 Credit Hours)'
 - unrecognized section 'Non-Western World Studies (6 Credit Hours)'
-
-## Left out on purpose
-
-- HIED 4550

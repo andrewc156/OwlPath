@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11814,
   "program": {
     "id": "ba-international-affairs",
     "name": "BA International Affairs",
@@ -121,5 +123,5 @@
     "text: Students may substitute upper-division courses from other disciplines with adviser approval,",
     "text: Students may also complete an “Applied Global Experience” of ten weeks or more in order to receive 15 credit hours in this category. Full-time status will be based upon the criteria set by the host institution. Courses must be pre-approved by your International Affairs adviser and by the SGIA school director prior to departure."
   ],
-  "draftHash": "6982ab638429921868bea8a0d34051be10ee2b88ef68cff2e3c455610781c38b"
+  "draftHash": "d5699c529aa2a09573793ec62472e641ba33f758a2ae66688fd3c9e5e3818f59"
 }

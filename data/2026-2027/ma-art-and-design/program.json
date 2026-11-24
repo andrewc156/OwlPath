@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11618,
   "program": {
     "id": "ma-art-and-design",
     "name": "MA Art and Design",
@@ -106,5 +108,5 @@
     "MUSE 6105",
     "MUSE 6130"
   ],
-  "draftHash": "bf62d1f5c3519b010cd5eab45864256f8b0d8a77931c092373db1f224e71daeb"
+  "draftHash": "04f0851bdf077f895eea66f388d1427a2c414dfeb7e9f63a4b15e6fc799a49ae"
 }

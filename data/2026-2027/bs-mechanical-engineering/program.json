@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11759,
   "program": {
     "id": "bs-mechanical-engineering",
     "name": "BS Mechanical Engineering",
@@ -189,5 +191,5 @@
     "ME 4400",
     "ME 4490"
   ],
-  "draftHash": "60beff042023926c64368d335092d34069dea52d1ff1cdbaf216b950fa4146ab"
+  "draftHash": "473f4b2c66e11c403426dee2da2fe943b67958e97f4b2f386072000e65642d32"
 }

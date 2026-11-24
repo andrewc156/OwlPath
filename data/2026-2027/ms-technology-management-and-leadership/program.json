@@ -1,10 +1,18 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11555,
   "program": {
     "id": "ms-technology-management-and-leadership",
     "name": "MS Technology Management and Leadership",
     "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
       {
         "label": "Electives",
         "groups": [
@@ -18,26 +26,52 @@
     "FIS 6860": [
       "major-elective"
     ],
+    "IS 7005": [
+      "major-elective"
+    ],
+    "IS 7060": [
+      "major-required"
+    ],
+    "IS 7080": [
+      "major-required"
+    ],
+    "IS 7100": [
+      "major-required"
+    ],
+    "IS 7200": [
+      "major-elective"
+    ],
+    "IS 7310": [
+      "major-required"
+    ],
+    "IS 7320": [
+      "major-elective"
+    ],
+    "IS 7330": [
+      "major-elective"
+    ],
+    "IS 7500": [
+      "major-required"
+    ],
+    "IS 7700": [
+      "major-required"
+    ],
+    "IS 7800": [
+      "major-required"
+    ],
     "IS 7910": [
+      "major-elective"
+    ],
+    "IS 7920": [
+      "major-elective"
+    ],
+    "IS 7935": [
       "major-elective"
     ]
   },
   "draftWarnings": [],
   "leftOut": [
-    "IS 7060",
-    "IS 7080",
-    "IS 7100",
-    "IS 7310",
-    "IS 7500",
-    "IS 7700",
-    "IS 7800",
-    "IS 7005",
-    "IS 7200",
-    "IS 7320",
-    "IS 7330",
-    "IS 7920",
-    "IS 7935",
     "IS 7918"
   ],
-  "draftHash": "d9960ba56e0d9bea1c79f54e434ca7e26c9a4ad026c025420152939ac1702482"
+  "draftHash": "597a0bb9bb953c53de68df262b9d6239d4eccfee482d38453478f9f24be0d65d"
 }

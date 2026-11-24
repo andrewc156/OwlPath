@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11762,
   "program": {
     "id": "bses-environmental-science",
     "name": "BSES Environmental Science",
@@ -230,5 +232,5 @@
     "ENVS 4490",
     "GEOG 4500"
   ],
-  "draftHash": "938d87724a5674b3f501fd36201feb224cd55fc8a3e57a6bd824b32a70b5fd32"
+  "draftHash": "aab0c7e4e6e161fa8a95d30e6735b64ca770b150da0dae7a11524a425c67435a"
 }

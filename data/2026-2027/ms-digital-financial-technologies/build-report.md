@@ -30,13 +30,16 @@
   - unrecognized line: Students engage in research and team-based interactive virtual experiential learning with a collaborating industry partner. The student gains industry insight and hands-on experience that provides the underpinning for the student research. A virtual collaboration platform is used to enroll, onboard, empathize, reboot, experiment, and deliver business solutions for client problems. Students get mentored, trained, and practice on FinTech research, tools and techniques used in industry. Prototyping and experimentation are encouraged to understand “real world” issues. Partner companies share their anonymized dataset, tools and techniques. The student identifies potential research topics to complement the industry partner’s mission. The student will be strongly encouraged to publish her/his research. Coaching activities including design thinking, backlog management, business modeling, and research & publishing guidelines are offered in this course.
   - unrecognized line: Note: This course may be cross-leveled with FTA 3890.
   - empty description
+- **IS 7060**
+  - unrecognized: director
+  - missing operator before 'director', assumed and
+- **IS 7935**
+  - unrecognized: director
+  - missing operator before 'director', assumed and
 - **IT 6933**
   - unrecognized line: This course covers applications of different machine learning techniques to a variety of Fintech problems. Topics include supervised learning for predictive analysis, unsupervised learning for financial data clustering and visualization, and deep learning/reinforcement learning for financial decision making.
   - empty description
 
 ## Left out on purpose
 
-- IS 7935
 - text: Any 6000, 7000, or 8000 level FIS course
-- IS 7060
-- IS 7100

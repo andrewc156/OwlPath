@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11719,
   "program": {
     "id": "ba-modern-language-and-culture",
     "name": "BA Modern Language and Culture",
@@ -129,5 +131,5 @@
     "text: Select 9 credit hours of 3000-4000 level SPAN coursework.",
     "text: Select 3 credit hours from the following list of courses:"
   ],
-  "draftHash": "0b8cc8fc884361ffb078acc2e99f03f63b55e901ef03bd0eb5e2c2d39b881937"
+  "draftHash": "ddd3f3025135b37c600e541075cf4d3b2adaad473446e46d30bed696278cca94"
 }

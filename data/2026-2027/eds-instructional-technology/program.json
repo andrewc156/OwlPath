@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11576,
   "program": {
     "id": "eds-instructional-technology",
     "name": "EdS Instructional Technology",
@@ -27,6 +29,9 @@
   },
   "choices": [],
   "courses": {
+    "EDRS 8000": [
+      "conc-track-2-advanced"
+    ],
     "EDUC 8100": [
       "conc-track-2-advanced"
     ],
@@ -59,18 +64,30 @@
     ],
     "ITEC 8500": [
       "major-required"
+    ],
+    "ITEC 8510": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8520": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8530": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8540": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8550": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8560": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8570": [
+      "conc-track-2-advanced"
     ]
   },
   "draftWarnings": [],
-  "leftOut": [
-    "ITEC 8510",
-    "ITEC 8520",
-    "ITEC 8530",
-    "ITEC 8540",
-    "ITEC 8550",
-    "ITEC 8560",
-    "ITEC 8570",
-    "EDRS 8000"
-  ],
-  "draftHash": "6613e96a0c1ef9d1d47f49ffd9aa27add7405f506329f92c366ad665235d7d12"
+  "leftOut": [],
+  "draftHash": "6a65ec6431e61409290d5786c345027c6e290fc9545b1e3907ee213c462ca699"
 }

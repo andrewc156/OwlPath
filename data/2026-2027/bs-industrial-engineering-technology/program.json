@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11764,
   "program": {
     "id": "bs-industrial-engineering-technology",
     "name": "BS Industrial Engineering Technology",
@@ -216,5 +218,5 @@
     "text: Two (2) credit hours carried over from Technology, Mathematics, and Science.",
     "text: Select 3 credits of 3000-4000 level IET coursework"
   ],
-  "draftHash": "6ee8e5d1df10b517ada1ea12303934c64995a338fc1d10da0c87307b6dbb219c"
+  "draftHash": "dae76c5a49def6fb3358c46144fa01e67011df728ec882d974f0ab2b00831cde"
 }

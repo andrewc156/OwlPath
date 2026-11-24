@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11728,
   "program": {
     "id": "bs-political-science",
     "name": "BS Political Science",
@@ -45,5 +47,5 @@
     "unrecognized section 'Subfield 7: Research Methods'"
   ],
   "leftOut": [],
-  "draftHash": "7e3a169f7064744e65ac0b46079dd20bc6ef8f9814adcc151fb1211f7799d532"
+  "draftHash": "19baa5268de79d5c9e8c5f24e64a31526f8c002a91280f019f4f8550caf57f66"
 }

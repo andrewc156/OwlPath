@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11590,
   "program": {
     "id": "msit-information-technology",
     "name": "MSIT Information Technology",
@@ -121,5 +123,5 @@
     "text: Enterprise IT Management Certificate",
     "text: Information Technology Security Certificate"
   ],
-  "draftHash": "bb5ce34f9d95f7a3272f1163258233ed37221989d50bdea6fe8a8ba6d52868c5"
+  "draftHash": "63a48dc9be5c66c5e1dc4b4a90b3abcb72ae068989a4e8621d67ccd32f07bc02"
 }

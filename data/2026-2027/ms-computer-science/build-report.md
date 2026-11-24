@@ -31,6 +31,10 @@
   - unrecognized line: 1 - 3 Credit Hours
   - no credit hours found
   - unrecognized: Varies by topic
+- **MATH 8020**
+  - unrecognized: permission by the department
+- **MATH 8030**
+  - unrecognized: permission by the department
 - **STAT 8240**
   - unrecognized: in Analytics
   - unrecognized: Data Science
@@ -46,5 +50,3 @@
 - CSE 7983
 - CS 7990
 - CS 7992
-- MATH 8020
-- MATH 8030

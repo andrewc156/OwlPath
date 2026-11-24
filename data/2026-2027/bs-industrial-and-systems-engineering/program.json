@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11796,
   "program": {
     "id": "bs-industrial-and-systems-engineering",
     "name": "BS Industrial and Systems Engineering",
@@ -145,5 +147,5 @@
     "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
     "text: Two (2) credit hours carried over from Technology, Mathematics and Sciences."
   ],
-  "draftHash": "fd84a0b39f9a1006072a2c5f5cccd7ca0845a994903aebd61534283960bcacc8"
+  "draftHash": "d23e470ba027ba7c06e9f02cdbfc95123b02ee875a7d021ff5246e90b159fa0c"
 }

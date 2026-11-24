@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11820,
   "program": {
     "id": "bs-psychology",
     "name": "BS Psychology",
@@ -59,5 +61,5 @@
     "PSYC 4404",
     "PSYC 4498"
   ],
-  "draftHash": "1e96d74c98e52b5cbe9dbe64642bdb35bc47eadd76692164e43e1f081ddae09d"
+  "draftHash": "40e459334fed386ed01f283b94cb34b07f2c08321edab6ec75dde0588a9434dd"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11716,
   "program": {
     "id": "bs-mathematics",
     "name": "BS Mathematics",
@@ -254,5 +256,5 @@
     "DATA 3398",
     "text: Any 3000 or 4000 level MATH or STAT course"
   ],
-  "draftHash": "626a35d63952a1d0452d5ab5517dab50e42f812b3a45a78b374e57631f75b214"
+  "draftHash": "d46c06f241cc9214812071d038b157111ca41b6017c11bebbfbe53c3cc0e6961"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11593,
   "program": {
     "id": "med-teaching-of-english-to-speakers-of-other-languages-tesol",
     "name": "MEd Teaching of English to Speakers of Other Languages (TESOL)",
@@ -48,5 +50,5 @@
   },
   "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "7c6fb1477c60f85260dad90b79ea35eaff039cbc872a3b285a23f98c3e2c2126"
+  "draftHash": "8b4198c75e4ec02106eacad35da4befdaabc58284f0f6a0aef04189c548aa258"
 }

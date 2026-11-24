@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11799,
   "program": {
     "id": "bba-entrepreneurship",
     "name": "BBA Entrepreneurship",
@@ -116,5 +118,5 @@
     "text: Any MGT 3000 or 4000 level course (except MGT 3397)",
     "text: Any ENTR 3000 or 4000 level course"
   ],
-  "draftHash": "7207f7ee87776b1d60b72ba43d46c2cfda0bbf2a4d325d416bd06348b29fd8f6"
+  "draftHash": "0c41d3ec5b1d1da40d3b117a737713783f33eb626b8c40f3b2710609b7b9c6ac"
 }

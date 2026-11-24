@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11765,
   "program": {
     "id": "bs-mechanical-engineering-technology",
     "name": "BS Mechanical Engineering Technology",
@@ -171,5 +173,5 @@
     "text: Any 3000/4000 MET course except: MET 3126, MET 3124, MET 3124L, MET 2501, MET 3101, MET 3132, MET 3132L, MET 3401, MET 4112, and MET 4501.",
     "text: Any 3000/4000 EDG courses"
   ],
-  "draftHash": "898c20a5d4d473b0cc0c7341f0079d181ec16cbe0d110688e28588d003e94f48"
+  "draftHash": "3c6d36440c323ee9dbc181ea5fc01809e905fa1e917da488a3baaa90193e2f58"
 }

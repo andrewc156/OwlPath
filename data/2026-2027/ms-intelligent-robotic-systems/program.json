@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11623,
   "program": {
     "id": "ms-intelligent-robotic-systems",
     "name": "MS Intelligent Robotic Systems",
@@ -65,5 +67,5 @@
   "leftOut": [
     "MTRE 6398"
   ],
-  "draftHash": "142e3953b364a81952fa046326ed80fd06d1c94f954af11b6f22af4f18cbc636"
+  "draftHash": "6fa2ee1b1962a04ea03b5e6c8d17d10e1387053ab1fe6da5f1aab565b795f341"
 }

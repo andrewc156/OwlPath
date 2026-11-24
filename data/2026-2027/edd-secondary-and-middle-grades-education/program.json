@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11622,
   "program": {
     "id": "edd-secondary-and-middle-grades-education",
     "name": "EdD Secondary and Middle Grades Education",
@@ -53,6 +55,9 @@
     "EDSM 8902": [
       "major-required"
     ],
+    "EDSM 9300": [
+      "major-elective"
+    ],
     "EDUC 8100": [
       "major-required"
     ],
@@ -70,11 +75,10 @@
   ],
   "leftOut": [
     "EDSM 8400",
-    "EDSM 9300",
     "EDSM 9350",
     "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level ENGL or ENED courses. Students may also consider 6000 level or higher EDRD or PRWR courses with English advisor or program coordinator approval.",
     "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level MATH or MAED course. Students may also consider 6000 or higher STAT courses with mathematics advisor or program coordinator approval.",
     "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level HIST, GEOG, ECON, ANTH, POLS, SSED or EDSS course. Students may also consider 6000 or higher AMST courses with history advisor or program coordinator approval."
   ],
-  "draftHash": "ebf7fa70fcbf6f74d9ea100440dd54492c6e568ab9cbefd22c01d98373077fc4"
+  "draftHash": "d21bf7303dde393e9d1b398ad7242a702e5f26c90a6566b3540a79f0bea889ad"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11558,
   "program": {
     "id": "phd-international-conflict-management",
     "name": "PhD International Conflict Management",
@@ -63,10 +65,19 @@
     "INCM 9380": [
       "major-required"
     ],
+    "MSCM 7321": [
+      "major-required"
+    ],
     "MSCM 7365": [
       "major-required"
     ],
+    "MSCM 7502": [
+      "major-required"
+    ],
     "MSCM 7707": [
+      "major-required"
+    ],
+    "MSCM 7708": [
       "major-required"
     ],
     "MSCM 7715": [
@@ -79,10 +90,7 @@
   ],
   "leftOut": [
     "INCM 9600",
-    "INCM 9410",
-    "MSCM 7321",
-    "MSCM 7502",
-    "MSCM 7708"
+    "INCM 9410"
   ],
-  "draftHash": "feee6a9f2c92cf2041618bbf5a9e113c1c7de7caa54d3ca9b9c470d1ada341dd"
+  "draftHash": "95c756795b28ceb601791a0613c053ae9784796bbeed7faf9fc368f5be267f29"
 }

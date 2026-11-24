@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11812,
   "program": {
     "id": "bsed-secondary-education",
     "name": "BSEd Secondary Education",
@@ -54,5 +56,5 @@
     "text: Biology, Chemistry, and Physics Teaching Fields:",
     "text: Select 3 credit hours of 3000-4000 level BIOL coursework"
   ],
-  "draftHash": "d9af3d66d9c064a68b93ef776fd1adf32b5d954317b526fcaa31429ff1def36f"
+  "draftHash": "0dae24db6d0d03e750a7ac22da479e51ac5f5e2966d36603f3530aae0f31e7af"
 }

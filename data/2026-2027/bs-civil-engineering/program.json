@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11760,
   "program": {
     "id": "bs-civil-engineering",
     "name": "BS Civil Engineering",
@@ -122,5 +124,5 @@
     "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
     "text: Any 3000-4000 level SURV/GIS course."
   ],
-  "draftHash": "f1c7c8ff0f82db9ebe43f765250a810eadf2aefc11539eb1ffd2ab2dd2fd30bd"
+  "draftHash": "f372d4cc9de6c6dcef94f780d9223785c4d6b08faeac7ed4baecf71149648abc"
 }

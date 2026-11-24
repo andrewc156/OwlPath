@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11792,
   "program": {
     "id": "bs-public-health",
     "name": "BS Public Health",
@@ -94,5 +96,5 @@
     "PH 4720",
     "text: Note: Students who complete 9 credit hours of internship will need to complete 18 credit hours of Free Electives. Those who complete 6 credit hours of internship will need to complete 21 credit hours of Free Electives."
   ],
-  "draftHash": "d384c47fc86f655e7b251e6338f99f0721d2dfccdc3c478168c918384f753150"
+  "draftHash": "a9c158faa9bfde86858e36d1f2b0772a6886c5404d575f954ea035a257c6e6a1"
 }

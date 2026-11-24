@@ -24,8 +24,7 @@
 
 ## Notes
 
-- ENVS 3730: added BIOL 1107 so (BIOL 1107, BIOL 1107L, BIOL 1108, BIOL 1108L, SCI 1101K, SCI 1102) has an option on the map
-- ENVS 4300: added ENVS 2202K so (ENVS 2202K, SCI 1101K, BIOL 1108) has an option on the map
+- ENVS 3730: added BIOL 1107, BIOL 1107L, BIOL 1108, BIOL 1108L so (BIOL 1107, BIOL 1107L, BIOL 1108, BIOL 1108L, SCI 1101K, SCI 1102) has an option on the map
 
 ## Left out on purpose
 

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11557,
   "program": {
     "id": "ma-integrated-global-communication",
     "name": "MA Integrated Global Communication",
@@ -33,12 +35,36 @@
   },
   "choices": [],
   "courses": {
+    "COM 6100": [
+      "conc-digital-and-social-media",
+      "major-elective"
+    ],
+    "COM 6200": [
+      "conc-digital-and-social-media",
+      "major-elective"
+    ],
+    "COM 6410": [
+      "conc-digital-and-social-media",
+      "major-elective"
+    ],
+    "COM 6420": [
+      "conc-digital-and-social-media",
+      "major-elective"
+    ],
+    "COM 6490": [
+      "conc-digital-and-social-media",
+      "major-elective"
+    ],
     "COM 6670": [
       "conc-strategic-communication",
       "major-elective"
     ],
     "COM 6690": [
       "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 6900": [
+      "conc-digital-and-social-media",
       "major-elective"
     ],
     "COM 7100": [
@@ -82,13 +108,7 @@
     "unrecognized section 'Global Experience Course (3 Credit Hours)'"
   ],
   "leftOut": [
-    "COM 6100",
-    "COM 6200",
-    "COM 6410",
-    "COM 6420",
-    "COM 6490",
-    "COM 6900",
     "text: Students may select up to 6 credit hours of 6000-7000 level COM coursework not already taken or 6000-7000 level coursework from the following prefixes: AMST, MSCM, IPM, PRWR, or PAD. Students may take COM 6690 again for credit in this area."
   ],
-  "draftHash": "0a354bda337cec84e0764faffa1f895b335f8a17e6b6bc5f0db8cba13f19917d"
+  "draftHash": "e1f2957c7e4a78f051fdbd83e1b4578c1b0278d936603e51fe33053b326ffdeb"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11754,
   "program": {
     "id": "bsswe-software-engineering",
     "name": "BSSWE Software Engineering",
@@ -94,5 +96,5 @@
     "text: Two (2) credit hours carried over from Technology, Mathematics, & Sciences.",
     "text: IT, CS, CGDD 4000-level courses- coordinator approval"
   ],
-  "draftHash": "d8e1e6285da26a440005bdd16292ad8e74c3c0d5cff0bfe973da910389508017"
+  "draftHash": "c6c1f80877ef5cab09c23a60e2440897a6e71c33294b7972dafb525c5ee8cb69"
 }

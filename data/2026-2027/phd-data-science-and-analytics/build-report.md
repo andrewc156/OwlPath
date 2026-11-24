@@ -20,6 +20,10 @@
   - unrecognized line: This course examines key ethical issues that arise in mHealth and related healthcare research and practice. Students analyze the historical context, how ethics have developed with advancements in technology, and the current state of mHealth ethics, as well as key regulations and governing bodies in the health sciences that have relevance in this space. Important considerations for conducting human subjects research using mHealth technologies are reviewed.
   - unrecognized line: Note: This course may be cross-leveled with HHS 6010.
   - empty description
+- **MATH 8020**
+  - unrecognized: permission by the department
+- **MATH 8030**
+  - unrecognized: permission by the department
 - **STAT 8240**
   - unrecognized: in Analytics
   - unrecognized: Data Science
@@ -33,7 +37,5 @@
 
 ## Left out on purpose
 
-- MATH 8020
-- MATH 8030
 - text: Choose 3 credit hours from the following list of courses:
 - HHS 8030

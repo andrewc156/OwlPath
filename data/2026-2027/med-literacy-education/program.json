@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11577,
   "program": {
     "id": "med-literacy-education",
     "name": "MEd Literacy Education",
@@ -48,5 +50,5 @@
   },
   "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "592c1926d0e67b9af8177a80717405e40024fd364e23498e3b49aa4f90dc7010"
+  "draftHash": "6c5cb780425221f80881a4ffaca1f53fed57e6327c28fe0f0454386b539bb2ff"
 }

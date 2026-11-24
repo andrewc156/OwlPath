@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11786,
   "program": {
     "id": "bs-interactive-design",
     "name": "BS Interactive Design",
@@ -86,5 +88,5 @@
     "IAD 4400",
     "IAD 4490"
   ],
-  "draftHash": "3e609b4d1aaea0f3bf44d4a127f2933a2fc90711c84b12b12d0898c0ce185112"
+  "draftHash": "73a17a61a22560f370613c83d5b7275bd45bb93e0fe99e5679fe5a0da1e912be"
 }

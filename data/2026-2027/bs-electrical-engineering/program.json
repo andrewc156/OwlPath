@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11761,
   "program": {
     "id": "bs-electrical-engineering",
     "name": "BS Electrical Engineering",
@@ -183,5 +185,5 @@
     "text: Option 1: Select 3 credit hours of 3000-4000 level EE coursework not already used as a requirement in the major and Select 3 credit hours of coursework from the list below not already used as a requirement in the major.",
     "text: Option 2: Select 6 credit hours of coursework from the list below not already used as a requirement in the major."
   ],
-  "draftHash": "62cdc311b08e600363383bc9d1244c6f88cef95a7156e87a8c3e7fac363073dd"
+  "draftHash": "6d40514eb364feae179f0f771f1d958109470e29cecfc6fc6b3353a1de808aa1"
 }

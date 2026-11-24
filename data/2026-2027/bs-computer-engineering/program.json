@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11800,
   "program": {
     "id": "bs-computer-engineering",
     "name": "BS Computer Engineering",
@@ -97,5 +99,5 @@
     "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
     "text: Two (2) credit hours carried over from Technology, Mathematics, & Sciences."
   ],
-  "draftHash": "48b5a5e364825f9bc2df8d6d1ad060ac2ac6581340ffc1dcefadf2ff83a239d5"
+  "draftHash": "7e4c24ba88c28fb8d5b5779459bb96bbdfb8d719f892ba9cd02e885c48dff49a"
 }

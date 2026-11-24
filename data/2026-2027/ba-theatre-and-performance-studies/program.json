@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11737,
   "program": {
     "id": "ba-theatre-and-performance-studies",
     "name": "BA Theatre and Performance Studies",
@@ -154,6 +156,9 @@
     "TPS 3853": [
       "conc-design-technology"
     ],
+    "TPS 4030": [
+      "conc-acting"
+    ],
     "TPS 4243": [
       "conc-acting"
     ],
@@ -197,8 +202,7 @@
   ],
   "leftOut": [
     "text: Select 6 credit hours from the following list of courses:",
-    "text: Select 3 credit hours from the following list of courses:",
-    "TPS 4030"
+    "text: Select 3 credit hours from the following list of courses:"
   ],
-  "draftHash": "ea0ee094e33ff25ad3f82025c1942bd3afbf7bac30b56975614502d6b93a6316"
+  "draftHash": "0e76426c56e6766e8e4309e5d42854c7bd877ec6fca26631d608bb82dfa45ef4"
 }

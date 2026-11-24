@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11620,
   "program": {
     "id": "med-secondary-and-middle-grades-education",
     "name": "MEd Secondary and Middle Grades Education",
@@ -55,5 +57,5 @@
     "text: Additional education courses at the graduate level with prior approval from graduate program coordinator.",
     "text: Additional teaching field courses at graduate level with prior approval from graduate program coordinator."
   ],
-  "draftHash": "81103370f6bc7acb3cfa3753bd8c8ccdd3db83696c07c76344025aa6ff248027"
+  "draftHash": "033fa69fc56ee42f01909aa0c1edf759e0da4b2aed43daf5b05d5cc996edb2ff"
 }

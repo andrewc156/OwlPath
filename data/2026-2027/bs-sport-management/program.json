@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11736,
   "program": {
     "id": "bs-sport-management",
     "name": "BS Sport Management",
@@ -69,5 +71,5 @@
     "unrecognized section 'Sport Management Senior Experience (6 Credit Hours)'"
   ],
   "leftOut": [],
-  "draftHash": "408a8502d4f97e17f2fe2f240a1df1ee812300096fc27bfe595bb243a87d0a74"
+  "draftHash": "3d6b7bb1d27347b34fd686dc9d91e0473b14a05eac2f669ab24d7edbc2c6db5a"
 }

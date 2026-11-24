@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11843,
   "program": {
     "id": "bfa-art",
     "name": "BFA Art",
@@ -554,5 +556,5 @@
     "ARH 3398",
     "ART 3398"
   ],
-  "draftHash": "818e8631e62d721817bb5bf37c23c0cc030dbd7c6b977047fbd15e06762e5cf3"
+  "draftHash": "6fc884ebadd2fc34041244c2cb526decb02ad4ae585f6c3e3c3aa350eca99be1"
 }

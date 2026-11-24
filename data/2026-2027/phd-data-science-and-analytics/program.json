@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11581,
   "program": {
     "id": "phd-data-science-and-analytics",
     "name": "PhD Data Science and Analytics",
@@ -39,6 +41,12 @@
     "HHS 8050": [
       "conc-mhealth"
     ],
+    "MATH 8020": [
+      "major-required"
+    ],
+    "MATH 8030": [
+      "major-required"
+    ],
     "STAT 8235": [
       "conc-mhealth"
     ],
@@ -53,10 +61,8 @@
     "unrecognized section 'Research (33 Credit Hours)'"
   ],
   "leftOut": [
-    "MATH 8020",
-    "MATH 8030",
     "text: Choose 3 credit hours from the following list of courses:",
     "HHS 8030"
   ],
-  "draftHash": "4516f240518a83e4faf3bad2e53a1f3e1fd1e25b669b254be5dd65842f9b18d1"
+  "draftHash": "5f1ce84f293521a83ac2fef9d5d6f7da3a4ca8b5a45bb27c6d3d58c6d7cdd3c8"
 }

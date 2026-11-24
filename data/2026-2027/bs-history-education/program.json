@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11702,
   "program": {
     "id": "bs-history-education",
     "name": "BS History Education",
@@ -45,6 +47,9 @@
     ],
     "HIED 2110": [
       "core-field"
+    ],
+    "HIED 4550": [
+      "major-required"
     ],
     "HIED 4650": [
       "major-required"
@@ -91,8 +96,6 @@
     "unrecognized section 'European History (3 Credit Hours)'",
     "unrecognized section 'Non-Western World Studies (6 Credit Hours)'"
   ],
-  "leftOut": [
-    "HIED 4550"
-  ],
-  "draftHash": "d46f70772e0719eefc5aa824e8728feddb524c023892551b2131ae5a57bd1abf"
+  "leftOut": [],
+  "draftHash": "f761bbd1092db130f771e8d49590c1e9a4f64411b5fa15e228f1e8aeb2393c0e"
 }

@@ -59,5 +59,4 @@
 ## Left out on purpose
 
 - EDL 9600
-- EDL 9300
 - EDL 9350

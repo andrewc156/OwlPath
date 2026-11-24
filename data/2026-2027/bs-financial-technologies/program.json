@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11885,
   "program": {
     "id": "bs-financial-technologies",
     "name": "BS Financial Technologies",
@@ -83,5 +85,5 @@
   "leftOut": [
     "text: *If taken to satisfy General Education Core IMPACTS, students may select up to 6 credit hours of free electives."
   ],
-  "draftHash": "3c994551e67e11c3774706a26d4190d79e3b53ee3feb86114fd4b1ffd0381e5f"
+  "draftHash": "30a122f24fea5f96c1204947ff57710da09f56418cf8feb283c37f5f005ed15a"
 }

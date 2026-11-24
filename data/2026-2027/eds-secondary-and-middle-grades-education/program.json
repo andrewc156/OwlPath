@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11621,
   "program": {
     "id": "eds-secondary-and-middle-grades-education",
     "name": "EdS Secondary and Middle Grades Education",
@@ -39,6 +41,9 @@
     "EDSM 8902": [
       "major-required"
     ],
+    "EDSM 9300": [
+      "major-elective"
+    ],
     "EDUC 8100": [
       "major-required"
     ],
@@ -52,12 +57,11 @@
   ],
   "leftOut": [
     "EDSM 8400",
-    "EDSM 9300",
     "text: Any 7000, 8000 or 9000 level ENGL or ENED courses. Students may also consider 6000 level or higher EDRD or PRWR courses with English advisor or program coordinator approval.",
     "text: Any 7000, 8000, or 9000 level MATH or MAED courses. Students may also consider 6000 or higher STAT courses with mathematics advisor and statistics faculty approval.",
     "text: Any 7000, 8000 or 9000 level HIST, GEOG, ECON, ANTH, POLS, SSED, or EDSS courses. Students may also consider any 6000 level or higher AMST courses with history advisor or program coordinator approval.",
     "text: Any 5000 or higher level CHEM courses. Students may also consider any 5000 level or higher EDSC, SCED, or SCI courses.",
     "text: Any 5000 level or higher CHEM, SCED, ESCD, SCI, BIOL, PHYS, PHED or GEOL courses."
   ],
-  "draftHash": "32376fe75883f138835ed49aac1ec93d85f11dae506cee3c36f7c5bec91b9de2"
+  "draftHash": "b9af2da8b0c652765aa647486faa3a4555ac44f53e169907ab0cc6518be544c3"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11556,
   "program": {
     "id": "med-instructional-technology",
     "name": "MEd Instructional Technology",
@@ -48,5 +50,5 @@
   },
   "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "a6925f5d153ba1dfd7bcfc10c7ecb02933dba997391a6b7f6a184fa7043794b0"
+  "draftHash": "3ad4620c747d0f9fe7632c65446883669409643504bc6929b3e715ba167a1f4a"
 }

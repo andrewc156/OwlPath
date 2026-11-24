@@ -83,7 +83,7 @@
 ## Notes
 
 - ENGR 3325: added MATH 1190 so (MATH 1190, MATH 1179, MATH 1189) has an option on the map
-- MTRE 3720: added CSE 1322 so (CSE 1322, CSE 1322L, MTRE 2710) has an option on the map
+- MTRE 3720: added CSE 1322, CSE 1322L so (CSE 1322, CSE 1322L, MTRE 2710) has an option on the map
 
 ## Left out on purpose
 

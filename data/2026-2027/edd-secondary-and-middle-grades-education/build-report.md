@@ -17,6 +17,8 @@
 - **EDSM 8701**
   - unrecognized: in education
   - missing operator before 'in education', assumed and
+- **EDSM 9300**
+  - unrecognized: Permission of the professor
 - **EDUC 8100**
   - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
   - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
@@ -34,7 +36,6 @@
 ## Left out on purpose
 
 - EDSM 8400
-- EDSM 9300
 - EDSM 9350
 - text: Additional credit hours selected from the following:
 

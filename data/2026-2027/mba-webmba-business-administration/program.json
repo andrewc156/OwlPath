@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11553,
   "program": {
     "id": "mba-webmba-business-administration",
     "name": "MBA (WebMBA) Business Administration",
@@ -53,5 +55,5 @@
     "text: Only 2 courses (6 credit hours) may be transferred into this program from another institution, and their approval is subject to the program director and the policies of the Kennesaw State University Graduate College (e.g., an AACSB-International accredited program, completed within 6 years of MBA graduation at KSU).",
     "text: Refer to the KSU Graduate College for Grade, GPA and program length requirements."
   ],
-  "draftHash": "c93493b5947e2da95eb92ff2416e2b97f57cdda0a645419322a18369a9c2e9db"
+  "draftHash": "b9d9c58fb7ddc70b7cd8df3a7ab645d79e6cb75eb45d24f43209107ffe888828"
 }

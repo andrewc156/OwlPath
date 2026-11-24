@@ -17,6 +17,8 @@
   - unrecognized: Must be a fully admitted music major
 - **MUED 3353**
   - unrecognized: Must be a fully admitted music major
+- **MUEN 3343**
+  - unrecognized: Audition
 - **MUEN 3344**
   - unrecognized: Membership is open to all students with previous experience playing an instrument
 - **MUEN 3345**
@@ -29,8 +31,8 @@
   - unrecognized: Audition
 - **MUEN 3352**
   - unrecognized: Enrollment by audition only
-- **MUSI 1143**
-  - unrecognized: Audition
+- **MUSI 3333**
+  - unrecognized: Must be a fully admitted music major;
 - **MUSI 3334**
   - unrecognized: Must be a fully admitted music major
 - **MUSI 3390**
@@ -59,10 +61,6 @@
   - unrecognized: B.M. major
   - missing operator before 'B.M. major', assumed and
 
-## Notes
-
-- MUSI 4436: added MUSI 1143 so (MUSI 1143, MUEN 3343) has an option on the map
-
 ## Drafting warnings
 
 - unrecognized section 'Applied Lessons (2 Credit Hours)'
@@ -76,7 +74,6 @@
 - text: or Music Therapy Concentration students must take:
 - text: Select 4 credit hours of 3000-4000 level coursework from the following prefixes: MUAP, MUEN, MHIS, MUSI, or MUTC.
 - text: and
-- MUEN 3343
 - text: Repeat the following course for 8 credit hours:
 - text: Select one (1) of the following courses:
 - text: Repeat the following course for 4 credit hours:
@@ -85,4 +82,3 @@
 - MUTH 4500
 - text: Select one of the following courses:
 - text: Repeat the following course for 2 credit hours:
-- MUSI 3333

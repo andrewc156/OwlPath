@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11714,
   "program": {
     "id": "bba-marketing",
     "name": "BBA Marketing",
@@ -84,5 +86,5 @@
   "leftOut": [
     "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
   ],
-  "draftHash": "f5b287bdcff098bf0d5bb1e963d83406be8ab18f2dce0c84ab9edc148adf96dc"
+  "draftHash": "ec149bb018241b0f3e8d9288f66170a109ccece29717541ba87beb43f63ed9ea"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11873,
   "program": {
     "id": "bs-aerospace-engineering",
     "name": "BS Aerospace Engineering",
@@ -174,5 +176,5 @@
     "ME 3398",
     "ME 4400"
   ],
-  "draftHash": "baa0308e2c18047a0123ec078cf821d476c3dfa19cb81100c4b0889ffcbbe415"
+  "draftHash": "b0486211ec3d113726f4dad0caf8a17202ed32cb4e6ce12ebb65f0302935ce0e"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11766,
   "program": {
     "id": "bs-electrical-engineering-technology",
     "name": "BS Electrical Engineering Technology",
@@ -153,5 +155,5 @@
   "leftOut": [
     "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences."
   ],
-  "draftHash": "d355099f66350cd5cc9b181f8760e7b1b2b9068ab1f902e22f7d91d144ab8f0d"
+  "draftHash": "06eaef8e8a497e1c1c16adfaa82cac108dd9ae8301c5eb1689897736910a2ed5"
 }

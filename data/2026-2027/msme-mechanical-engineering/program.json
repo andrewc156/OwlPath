@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11610,
   "program": {
     "id": "msme-mechanical-engineering",
     "name": "MSME Mechanical Engineering",
@@ -58,5 +60,5 @@
     "text: 6000-level or higher ME coursework",
     "ME 6398"
   ],
-  "draftHash": "e6b9b90f614b5c7975a9b0245338cb60bee50f39f42d6bc5b50550d335814a12"
+  "draftHash": "050e8fc07d5d2da78e9374e035b4a521a6e084e1a57c83f7fed13a0c686fd7e0"
 }

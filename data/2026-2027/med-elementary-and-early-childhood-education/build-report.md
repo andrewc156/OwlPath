@@ -2,6 +2,8 @@
 
 ## Warnings needing review
 
+- **ECE 7525**
+  - unrecognized: permission of the EECE graduate program coordinator
 - **ECE 7531**
   - unrecognized: Admission to Elementary
   - unrecognized: Early Childhood Education
@@ -16,7 +18,3 @@
 - **ECE 7707**
   - unrecognized: Admission to M.Ed. in Elementary
   - unrecognized: Early Childhood Education
-
-## Left out on purpose
-
-- ECE 7525

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11751,
   "program": {
     "id": "bas-information-technology",
     "name": "BAS Information Technology",
@@ -83,5 +85,5 @@
     "text: Select 3 credit hours of 3000-4000 level IT course work not previously used in the major.",
     "CSE 4983"
   ],
-  "draftHash": "e76655c3d4985b9ec4a77cd407c612a83a90748d3e39c54ad685b5b590faede0"
+  "draftHash": "a0de71d7bf9acddbed0c7c2e590ab41dca4ee1006d89d8a9f0ad47b4d3642b43"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11682,
   "program": {
     "id": "ba-dance",
     "name": "BA Dance",
@@ -55,6 +57,9 @@
       "major-elective"
     ],
     "DANC 2500": [
+      "major-elective"
+    ],
+    "DANC 2715": [
       "major-elective"
     ],
     "DANC 2800": [
@@ -155,8 +160,7 @@
   "leftOut": [
     "DANC 2713",
     "DANC 2714",
-    "DANC 2715",
     "DANC 2290"
   ],
-  "draftHash": "80b5e3c5e57ecec352aad591a9afbe229fcbe4ffe86c702817a848fda3f7e875"
+  "draftHash": "6fa0b8ea3130529280ef11fe8ad06785b2b2206b99eacfb52993b3acd69750ca"
 }

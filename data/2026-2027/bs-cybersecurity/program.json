@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11853,
   "program": {
     "id": "bs-cybersecurity",
     "name": "BS Cybersecurity",
@@ -171,5 +173,5 @@
     "CYBR 4400",
     "CYBR 4490"
   ],
-  "draftHash": "043f7bf38cfb66272dafd52c571c883e425fee753288be633dfb111c5e7238d3"
+  "draftHash": "17ed38b1eb49ad5eb922931518c582f43e348da791588ee9deaee8ed0b0bf239"
 }

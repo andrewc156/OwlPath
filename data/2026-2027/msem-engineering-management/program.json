@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11603,
   "program": {
     "id": "msem-engineering-management",
     "name": "MSEM Engineering Management",
@@ -55,6 +57,9 @@
     "FIN 7020": [
       "major-required"
     ],
+    "IS 7090": [
+      "major-elective"
+    ],
     "MGT 7050": [
       "major-required"
     ],
@@ -73,8 +78,7 @@
   },
   "draftWarnings": [],
   "leftOut": [
-    "EM 6800",
-    "IS 7090"
+    "EM 6800"
   ],
-  "draftHash": "431c6b01b16e9bfd5ec1d9e7ece71c6570eaed68e3f92a1c8e4dfbbb3618b663"
+  "draftHash": "496f1b103eabd420fc812ceed2166c089b44a15e4bed5943756a15cc71fa7720"
 }

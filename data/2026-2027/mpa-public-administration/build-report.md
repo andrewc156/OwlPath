@@ -18,6 +18,10 @@
   - unrecognized: Admission to graduate study
 - **PAD 7180**
   - unrecognized: Admission to graduate study
+- **PAD 7998**
+  - unrecognized: Completion of 21 credit hours in the MPA program
+  - unrecognized: during the semester preceding course enrollment
+  - missing operator before 'during the semester preceding course enrollment', assumed and
 
 ## Drafting warnings
 
@@ -29,4 +33,3 @@
 ## Left out on purpose
 
 - text: Students will select two other graduate IS or MPA courses, or other graduate course approved by the program director.
-- PAD 7998

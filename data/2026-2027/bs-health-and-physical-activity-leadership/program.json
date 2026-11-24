@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11747,
   "program": {
     "id": "bs-health-and-physical-activity-leadership",
     "name": "BS Health and Physical Activity Leadership",
@@ -168,5 +170,5 @@
     "text: Select 2 credit hours of HPAL 1xxx Activity coursework.",
     "text: Select 3 credit hours of HPAL 1xxx Activity coursework."
   ],
-  "draftHash": "00e3c06f472952dc1f1bce6c31b4094a9d3806d81fea88d1116ef314a365013b"
+  "draftHash": "8743499c9e992d64f358bd5058a03cc3e3a772b873cf12a3b5d6bf6d5c5fbdfc"
 }

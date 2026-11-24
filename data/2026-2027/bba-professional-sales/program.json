@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11729,
   "program": {
     "id": "bba-professional-sales",
     "name": "BBA Professional Sales",
@@ -99,5 +101,5 @@
   "leftOut": [
     "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
   ],
-  "draftHash": "cf4cb6c8ab2d885addac597c79078afa01b5ae95eec19a8a86295b1e2a487ff1"
+  "draftHash": "f4baf7d1b2d250acfb7cd754c1cc5c159e4586fc0ad25d36cd7a16bf037c1459"
 }

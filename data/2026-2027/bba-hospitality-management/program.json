@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11832,
   "program": {
     "id": "bba-hospitality-management",
     "name": "BBA Hospitality Management",
@@ -140,5 +142,5 @@
     "text: Select 3 credit hours of 4000-level HMGT coursework",
     "HMGT 4490"
   ],
-  "draftHash": "761c9e7f490f8fad6aaa8572fd244c97150bf6b0cb89a25ac0ca8702c8d05fa7"
+  "draftHash": "9d0a6e76147f01c371696ec8b7b1cca595bf3912cb2934f15a3281e2067ac11a"
 }

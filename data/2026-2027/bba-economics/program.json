@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11684,
   "program": {
     "id": "bba-economics",
     "name": "BBA Economics",
@@ -87,5 +89,5 @@
   "leftOut": [
     "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
   ],
-  "draftHash": "83b5f020416939e435aaab2011bcfb19026abecbb7d0e7c3c9855acf19e58247"
+  "draftHash": "ce0bf46c43657cd5bfdce281ce33df70eb714b0ff38d06c733acc72aea973bb1"
 }

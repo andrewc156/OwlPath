@@ -37,6 +37,8 @@
   - unrecognized: Admission to program
   - unrecognized: equivalent
   - ambiguous and/or precedence: Admission to program and CE 3702 or equivalent
+- **CE 6303**
+  - prerequisites can't be met by courses on the map (text only: CE 3343)
 - **CE 6333**
   - unrecognized: equivalent
 - **CE 6343**

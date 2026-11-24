@@ -1,22 +1,40 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11561,
   "program": {
     "id": "mapw-professional-writing",
     "name": "MAPW Professional Writing",
-    "filters": []
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
   },
   "choices": [],
-  "courses": {},
+  "courses": {
+    "PRWR 6000": [
+      "major-required"
+    ],
+    "PRWR 7960": [
+      "major-project"
+    ]
+  },
   "draftWarnings": [
     "unrecognized section 'Applied Writing'",
     "unrecognized section 'Composition and Rhetoric'",
-    "unrecognized section 'Creative Writing'",
-    "no courses found"
+    "unrecognized section 'Creative Writing'"
   ],
-  "leftOut": [
-    "PRWR 6000",
-    "PRWR 7960"
-  ],
-  "draftHash": "34870d17ce3e4d8bada6e320be8f2aa708fe4ed95ddcb63b76eb432b93b4cd90"
+  "leftOut": [],
+  "draftHash": "89b46a8bc58d4281d3047467696d40c26a12380d75d0576574b3fcfa6828431e"
 }

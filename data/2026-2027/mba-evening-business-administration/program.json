@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11546,
   "program": {
     "id": "mba-evening-business-administration",
     "name": "MBA (Evening) Business Administration",
@@ -154,6 +156,31 @@
     "FIS 6890": [
       "conc-fintech"
     ],
+    "IS 7090": [
+      "conc-business-intelligence",
+      "conc-digital-marketing",
+      "conc-finance",
+      "conc-fintech",
+      "conc-general-management",
+      "conc-information-security-and-assurance",
+      "conc-organizational-entrepreneurship-and-innovation",
+      "conc-rural-management"
+    ],
+    "IS 7200": [
+      "conc-information-security-and-assurance"
+    ],
+    "IS 7310": [
+      "conc-information-security-and-assurance"
+    ],
+    "IS 7320": [
+      "conc-information-security-and-assurance"
+    ],
+    "IS 7330": [
+      "conc-information-security-and-assurance"
+    ],
+    "IS 7935": [
+      "conc-business-intelligence"
+    ],
     "MGT 7040": [
       "major-required"
     ],
@@ -174,12 +201,25 @@
     "MGT 7525": [
       "conc-organizational-entrepreneurship-and-innovation"
     ],
+    "MGT 7530": [
+      "conc-organizational-entrepreneurship-and-innovation"
+    ],
     "MGT 7545": [
       "conc-organizational-entrepreneurship-and-innovation"
     ],
     "MGT 7910": [
       "conc-finance",
       "conc-general-management"
+    ],
+    "MGT 7999": [
+      "conc-business-intelligence",
+      "conc-digital-marketing",
+      "conc-finance",
+      "conc-fintech",
+      "conc-general-management",
+      "conc-information-security-and-assurance",
+      "conc-organizational-entrepreneurship-and-innovation",
+      "conc-rural-management"
     ],
     "MKTG 7030": [
       "major-required"
@@ -200,15 +240,6 @@
     ]
   },
   "draftWarnings": [],
-  "leftOut": [
-    "IS 7090",
-    "MGT 7999",
-    "IS 7935",
-    "IS 7200",
-    "IS 7310",
-    "IS 7320",
-    "IS 7330",
-    "MGT 7530"
-  ],
-  "draftHash": "7e60ced97d7d3771e3321679c1ea72ec3df407aa682d150ad7e4c8426dd5b4c3"
+  "leftOut": [],
+  "draftHash": "656c468868cb6b268291193d36564e7fc560ef72c0961622b4a1b69b3c4ddd8d"
 }

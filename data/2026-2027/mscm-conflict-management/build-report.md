@@ -22,6 +22,9 @@
 - **MSCM 7320**
   - unrecognized: in consultation with faculty
   - ambiguous and/or precedence: Admission to the MSCM program or permission of the program director in consultation with faculty, MSCM 7210, MSCM 7220, MSCM 7230, and MSCM 7310
+- **MSCM 7321**
+  - unrecognized: Admission to the MSCM
+  - unrecognized: INCM programs
 - **MSCM 7335**
   - unrecognized line: The class will focus on the key skills needed for superior organizational leadership. Class will review the literature on leadership and conflict management, dynamic organizational leaders, and analysis of scenarios.
   - empty description
@@ -37,6 +40,18 @@
 - **MSCM 7500**
   - unrecognized line: This course will prepare students to design a system to address conflict in the environment of an organization.
   - empty description
+- **MSCM 7501**
+  - unrecognized: Admission to the INCM
+  - unrecognized: MSCM programs
+- **MSCM 7502**
+  - unrecognized: Admission to the MSCM
+  - unrecognized: INCM programs
+- **MSCM 7511**
+  - unrecognized: Admission to the MSCM
+  - unrecognized: INCM programs
+- **MSCM 7512**
+  - unrecognized: Admission to the MSCM
+  - unrecognized: INCM programs
 - **MSCM 7600**
   - unrecognized line: In this course students choose a setting for application of the knowledge and skills acquired through the academic and clinical components of the program. The project design provides the context for the student’s capstone/thesis experience in the final semester of the MS Conflict Management program.
   - empty description
@@ -46,6 +61,9 @@
 - **MSCM 7707**
   - unrecognized line: Using examples from the field of peacebuilding and post-conflict reconstruction in classroom discussion, exercises and role play, students develop policy recommendations, design, and plan strategies for conflict prevention and/or intervention. Students are introduced to the case study methodology, learn how to develop and use case studies effectively in their professional environments, and develop an outline for a case study with particular relevance to their current or desired field of employment.
   - empty description
+- **MSCM 7708**
+  - unrecognized: Admission to the MSCM
+  - unrecognized: INCM programs
 - **MSCM 7710**
   - unrecognized line: This course includes a fieldwork, study, and travel to a specific domestic conflict environment chosen by the student with the guidance of the faculty. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.
   - empty description
@@ -55,16 +73,6 @@
 
 ## Left out on purpose
 
-- MSCM 7205
-- MSCM 7210
-- MSCM 7220
-- MSCM 7230
 - MSCM 7720
-- MSCM 7321
 - text: or 3 of the following 1-credit courses:
-- MSCM 7501
-- MSCM 7502
-- MSCM 7511
-- MSCM 7512
 - MSCM 7900
-- MSCM 7708

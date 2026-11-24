@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11883,
   "program": {
     "id": "bs-artificial-intelligence",
     "name": "BS Artificial Intelligence",
@@ -86,5 +88,5 @@
   "leftOut": [
     "text: One (1) credit hour carried over from IMPACTS General Education (MATH 1179 or higher)"
   ],
-  "draftHash": "2d09d3dd61b658bf1c44af754c734d7e5c05672432b9655a7faeab589a5541fc"
+  "draftHash": "17dacf8ce1f081758df2642e0c2c7f1cddd3fb1e455c2e51a62133d090960ef5"
 }

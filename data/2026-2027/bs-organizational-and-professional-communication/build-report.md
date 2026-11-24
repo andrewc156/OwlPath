@@ -2,6 +2,11 @@
 
 ## Warnings needing review
 
+- **ORGC 2025**
+  - unrecognized: Must be a declared major in the School of Communication
+  - unrecognized: Media. Non-majors: 30+ credit hours
+  - unrecognized: permission from the School of Communication
+  - unrecognized: Media
 - **ORGC 2245**
   - unrecognized: Journalism
   - unrecognized: Emerging Media
@@ -47,4 +52,3 @@
 ## Left out on purpose
 
 - text: Select 6 credit hours from the following list of courses:
-- ORGC 2025

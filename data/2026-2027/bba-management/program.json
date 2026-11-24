@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11712,
   "program": {
     "id": "bba-management",
     "name": "BBA Management",
@@ -119,5 +121,5 @@
     "text: Any 3000 or 4000 level ENTR course",
     "text: Any 3000 or 4000 level MGT course"
   ],
-  "draftHash": "86625b275c865bc54d31d58bdded0b558dc5f4d371a804ab1996f3aa84b0c8c0"
+  "draftHash": "45b7406a1580ba11a8c2fc5112dff07d1439c8a5b6508f35b3e0103204ca88ee"
 }

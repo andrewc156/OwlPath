@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11594,
   "program": {
     "id": "ms-construction-management",
     "name": "MS Construction Management",
@@ -54,5 +56,5 @@
     "CM 7803",
     "CM 7804"
   ],
-  "draftHash": "ae003b861b366d1f5106071d5b558f3564d4f9f4c5e80d614becfc59000f8cc3"
+  "draftHash": "61df1a48c2fdcc54082e0ae5968a035d44592103453b003b5c2a5a4185bd4f8b"
 }

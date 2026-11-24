@@ -11,6 +11,9 @@
 - **CHEM 1212**
   - unrecognized: to
   - unrecognized: higher
+- **CHEM 4100**
+  - unrecognized: Junior level status;
+  - unrecognized: chair
 - **SCM 2000**
   - unrecognized: A declared major within the College of Science
   - unrecognized: Mathematics
@@ -28,6 +31,5 @@
 - text: and
 - text: Select 3 credit hours of 3000-4000 level CHEM coursework not already used as a requirement in the major or concentration.
 - CHEM 3398
-- CHEM 4100
 - text: Select 3 credit hours from the following list of courses:
 - text: Select 3 credit hours of 3000-4000 level STAT coursework

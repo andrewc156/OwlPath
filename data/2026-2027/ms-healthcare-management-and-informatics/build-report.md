@@ -13,10 +13,5 @@
 
 ## Left out on purpose
 
-- HMI 7510
-- IS 7100
-- IS 7200
-- IS 7320
 - HMI 7910
 - HMI 7900
-- IS 7330

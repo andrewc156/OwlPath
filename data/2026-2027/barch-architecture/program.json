@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11755,
   "program": {
     "id": "barch-architecture",
     "name": "BArch Architecture",
@@ -94,5 +96,5 @@
     "text: If PHYS 1111/1111L or PHYS 2211/2211L were taken in Technology, Mathematics, and Sciences, choose any course from these prefixes: ARCH, CM or other course approved by the department chair.",
     "ARCH 5006"
   ],
-  "draftHash": "183149adab08bf59fcd566249bfba27e7059e0b8946acc0cc2e9ac88489f4f30"
+  "draftHash": "5816e1932e3fcfb081310f2b1fc968883308de8318246294c71a6c93ec0857b4"
 }

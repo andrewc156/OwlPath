@@ -45,9 +45,9 @@
 
 ## Notes
 
-- ECET 3000: added PHYS 2212 so (PHYS 2212, PHYS 2212L, PHYS 1112, PHYS 1112L) has an option on the map
+- ECET 3000: added PHYS 2212, PHYS 2212L so (PHYS 2212, PHYS 2212L, PHYS 1112, PHYS 1112L) has an option on the map
 - IET 3403: added IET 2227 so (IET 2227, STAT 1401) has an option on the map
-- MET 3401: added PHYS 1111 so (PHYS 1111, PHYS 2211) has an option on the map
+- MET 2124: added PHYS 1111, PHYS 1111L so (MATH 1190, MATH 1179, MATH 1189, PHYS 1111, PHYS 1111L, PHYS 2211, PHYS 2211L) has an option on the map
 
 ## Left out on purpose
 

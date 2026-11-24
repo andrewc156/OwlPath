@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11648,
   "program": {
     "id": "med-teacher-leadership-and-educational-leadership",
     "name": "MEd Teacher Leadership and Educational Leadership",
@@ -81,5 +83,5 @@
   "leftOut": [
     "TLED 7990"
   ],
-  "draftHash": "4df06af412772e6cf723fc10db56c0d69ea4cdb04a410ac34d65db0764953f51"
+  "draftHash": "853f006a9fae7d58d4afc1d07ff6b38c27fa0f6198791665ac278cc46437b5cc"
 }

@@ -20,8 +20,7 @@
 
 ## Notes
 
-- ECET 2111: added PHYS 2212 so (PHYS 2212, PHYS 2212L, PHYS 1112, PHYS 1112L) has an option on the map
-- ECET 3400: added PHYS 1112 so (PHYS 1112, PHYS 2212) has an option on the map
+- ECET 2111: added PHYS 2212, PHYS 2212L so (PHYS 2212, PHYS 2212L, PHYS 1112, PHYS 1112L) has an option on the map
 
 ## Left out on purpose
 

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11733,
   "program": {
     "id": "bs-sociology",
     "name": "BS Sociology",
@@ -261,5 +263,5 @@
     "SOCI 3396",
     "SOCI 3398"
   ],
-  "draftHash": "e24b3d5ad167b472a8f041be3820b5d8a16d7dee8ef9ffb8adb75c6c57360383"
+  "draftHash": "6bbceb68b3cef22c31221df138dbb237a3e30adfa4841dbda809aac41dc6bde8"
 }

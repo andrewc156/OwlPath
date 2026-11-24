@@ -12,7 +12,9 @@
 
 ## Notes
 
+- PSYC 3000: added MATH 2202 so (MATH 2202, STAT 1401, DATA 1501, ENGL 1101) has an option on the map
 - PSYC 4499: added PSYC 4410 so (PSYC 4410, PSYC 4415, PSYC 4345, PSYC 4455) has an option on the map
+- MATH 2202: added MATH 1190 so (MATH 1190, MATH 1179, MATH 1189) has an option on the map
 
 ## Drafting warnings
 

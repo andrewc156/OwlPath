@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11627,
   "program": {
     "id": "ms-exercise-science",
     "name": "MS Exercise Science",
@@ -43,5 +45,5 @@
     "ES 7850",
     "ES 7900"
   ],
-  "draftHash": "324817842457871da29019c24b9104e81c75d52ca28ed3bf779bc97eb8b46a15"
+  "draftHash": "2773bab63deba16c3aea99a2f0465662b5a3498762dc3fb4765b13c1051ec4f8"
 }

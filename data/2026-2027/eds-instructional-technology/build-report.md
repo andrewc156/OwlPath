@@ -2,6 +2,13 @@
 
 ## Warnings needing review
 
+- **EDRS 8000**
+  - unrecognized: M.Ed.
+  - unrecognized: Ed.S.
+  - unrecognized: Ed.D.
+  - unrecognized: in education
+  - missing operator before 'Ed.S.', assumed and
+  - missing operator before 'Ed.D.', assumed and
 - **EDUC 8100**
   - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
   - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
@@ -50,14 +57,3 @@
   - unrecognized: certificate
   - unrecognized: endorsement program
   - unrecognized: approved by the ITEC department to take this course
-
-## Left out on purpose
-
-- ITEC 8510
-- ITEC 8520
-- ITEC 8530
-- ITEC 8540
-- ITEC 8550
-- ITEC 8560
-- ITEC 8570
-- EDRS 8000

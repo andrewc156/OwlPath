@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11575,
   "program": {
     "id": "edd-instructional-technology",
     "name": "EdD Instructional Technology",
@@ -15,6 +17,12 @@
         "label": "Initial Certification",
         "groups": [
           "conc-initial-certification"
+        ]
+      },
+      {
+        "label": "Advanced",
+        "groups": [
+          "conc-advanced"
         ]
       }
     ]
@@ -70,6 +78,27 @@
     ],
     "ITEC 7600": [
       "conc-initial-certification"
+    ],
+    "ITEC 8510": [
+      "conc-advanced"
+    ],
+    "ITEC 8520": [
+      "conc-advanced"
+    ],
+    "ITEC 8530": [
+      "conc-advanced"
+    ],
+    "ITEC 8540": [
+      "conc-advanced"
+    ],
+    "ITEC 8550": [
+      "conc-advanced"
+    ],
+    "ITEC 8560": [
+      "conc-advanced"
+    ],
+    "ITEC 8570": [
+      "conc-advanced"
     ]
   },
   "draftWarnings": [
@@ -77,14 +106,7 @@
     "unrecognized section 'Dissertation (9 Credit Hours)'"
   ],
   "leftOut": [
-    "text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor.",
-    "ITEC 8510",
-    "ITEC 8520",
-    "ITEC 8530",
-    "ITEC 8540",
-    "ITEC 8550",
-    "ITEC 8560",
-    "ITEC 8570"
+    "text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor."
   ],
-  "draftHash": "2e82942f623fdb63086fad94bc27de25b198834bcdd1ed9b974abd6d0643b176"
+  "draftHash": "fe47924f57c6721e1729371785fbe67c9ed458e47991df42abbbb2239d0ea616"
 }

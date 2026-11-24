@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11784,
   "program": {
     "id": "bs-environmental-engineering",
     "name": "BS Environmental Engineering",
@@ -133,5 +135,5 @@
     "CE 4400",
     "CE 4490"
   ],
-  "draftHash": "f43a1386810fcee7be8f03e62fdf1a3b06952f50d8bcba95c1ea4c6ff3c81128"
+  "draftHash": "509b7080a5118d5d6b78ad369a58796c241a3fb25c0c99d0ae5f146c43f1e436"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11596,
   "program": {
     "id": "msseng-systems-engineering",
     "name": "MSSENG Systems Engineering",
@@ -64,5 +66,5 @@
     "SYE 6800",
     "SYE 7900"
   ],
-  "draftHash": "4aaaf45b08410dd4d099305fdfa6211abbf2fc525922b66b7cebc27ca8445dad"
+  "draftHash": "96e4c4a9ce71f65b1d8061bf6d1bebe0704d0699f8bbdc2ddb1b1d642a4dad34"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11801,
   "program": {
     "id": "bfa-digital-animation",
     "name": "BFA Digital Animation",
@@ -269,5 +271,5 @@
     "ART 4490",
     "ART 3398"
   ],
-  "draftHash": "9457e01cafcee0d22baa09297a58c31e15c8263ffff0a1a119f5e7e15a987602"
+  "draftHash": "1970f46081ffac4a45d31d0b9ae6a70a6c96f8fb90c434a290aaa5b0fb60bc29"
 }

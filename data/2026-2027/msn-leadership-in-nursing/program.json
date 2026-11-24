@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11539,
   "program": {
     "id": "msn-leadership-in-nursing",
     "name": "MSN Leadership in Nursing",
@@ -30,14 +32,35 @@
     "NURS 6151": [
       "conc-nursing-administration-and-transformational-leadership"
     ],
+    "NURS 7711": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7712": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7723": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7724": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7736": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
     "NURS 7753": [
       "conc-nursing-education-leadership-in-a-digital-world"
     ],
     "NURS 7754": [
       "conc-nursing-education-leadership-in-a-digital-world"
     ],
+    "NURS 7755": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
     "NURS 7765": [
       "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7776": [
+      "major-required"
     ],
     "NURS 7777": [
       "major-required"
@@ -48,6 +71,9 @@
     "NURS 7779": [
       "major-required"
     ],
+    "NURS 7780": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
     "NURS 7793": [
       "conc-nursing-administration-and-transformational-leadership"
     ],
@@ -55,6 +81,9 @@
       "conc-nursing-administration-and-transformational-leadership"
     ],
     "NURS 7795": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7796": [
       "conc-nursing-administration-and-transformational-leadership"
     ],
     "NURS 7797": [
@@ -80,16 +109,6 @@
     ]
   },
   "draftWarnings": [],
-  "leftOut": [
-    "NURS 7776",
-    "NURS 7712",
-    "NURS 7723",
-    "NURS 7724",
-    "NURS 7736",
-    "NURS 7755",
-    "NURS 7780",
-    "NURS 7796",
-    "NURS 7711"
-  ],
-  "draftHash": "470cfa10ebf69e97e54ab48e0142759ca0d7d5637a4fd0a109392a5bd03178d4"
+  "leftOut": [],
+  "draftHash": "997371aeb11606b478aa7fe40a9f19173edfb9d36fc77f8290050038b4bfc90e"
 }

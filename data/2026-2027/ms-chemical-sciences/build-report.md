@@ -8,6 +8,21 @@
 - **CHEM 7100**
   - unrecognized: Admission
   - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
+- **CHEM 7300**
+  - unrecognized: Admission
+  - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
+  - unrecognized: chair
+  - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
+- **CHEM 7500**
+  - unrecognized: Admission
+  - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
+  - unrecognized: chair
+  - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
+- **CHEM 7600**
+  - unrecognized: Admission
+  - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
+  - unrecognized: chair
+  - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
 
 ## Left out on purpose
 
@@ -17,6 +32,3 @@
 - CHEM 6430
 - CHEM 6510
 - CHEM 6620
-- CHEM 7300
-- CHEM 7500
-- CHEM 7600

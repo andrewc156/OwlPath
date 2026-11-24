@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11794,
   "program": {
     "id": "ba-asian-studies",
     "name": "BA Asian Studies",
@@ -167,5 +169,5 @@
     "ASIA 4400",
     "ASIA 4490"
   ],
-  "draftHash": "54c78c50102944ffce01bfc08781bfd171477260624349acc59cc0345274e2c8"
+  "draftHash": "80fc4533b1a5d113a535156efee53e298865b5cbce255c35d24eb40ac98784b1"
 }

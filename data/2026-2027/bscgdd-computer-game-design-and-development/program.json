@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11750,
   "program": {
     "id": "bscgdd-computer-game-design-and-development",
     "name": "BSCGDD Computer Game Design and Development",
@@ -156,5 +158,5 @@
     "MEBU 2270",
     "ENTR 4490"
   ],
-  "draftHash": "90cdfb7fb8dd720b470f5c0954d9122ba0d21e2be7b89231ddd1a2e8024c69f5"
+  "draftHash": "24e83b247d2f9a9b7a5a55e328a33a0e2065ed0239e57bf1c478492690260845"
 }

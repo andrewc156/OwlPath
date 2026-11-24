@@ -20,6 +20,8 @@
 - **JOUR 3820**
   - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
   - missing operator before 'must be a declared major in the School of Communication & Media. Non-majors: permission of the School required', assumed and
+- **JOUR 3900**
+  - unrecognized: Must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
 - **JOUR 4100**
   - unrecognized: &nbsp;
   - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
@@ -56,7 +58,3 @@
 
 - unrecognized section 'Advanced Journalism Professional Practice (3 Credit Hours)'
 - unrecognized section 'Related Studies (3 Credit Hours)'
-
-## Left out on purpose
-
-- JOUR 3900

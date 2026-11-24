@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11697,
   "program": {
     "id": "ba-geography",
     "name": "BA Geography",
@@ -61,6 +63,9 @@
     "GEOG 2200": [
       "major-required"
     ],
+    "GEOG 4100": [
+      "major-required"
+    ],
     "GEOG 4499": [
       "major-required"
     ],
@@ -90,8 +95,7 @@
     "text: Select 6 credit hours of 1000-2000 level coursework from the following prefixes: ARAB, ASL, CHIN, FREN, GRMN, HEBR, ITAL, JAPN, KOR, LATN, PORT, RUSS, SPAN, or WLC. *If taken in General Education Core IMPACTS: Arts and Humanities students may select 3 credit hours of free electives.",
     "text: Select 3 credit hours from the following list of courses:",
     "GEOG 3398",
-    "GEOG 4100",
     "text: Study Abroad 3000-4000 level (any subject)"
   ],
-  "draftHash": "e457fcddfb8511190fcd7facc90b37234c1274ebccef6dc56516f9396de8566e"
+  "draftHash": "2de048d0dc42091c8efeced2402a09d13a7d0671c085da87b23bbd8ce7cc3820"
 }

@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11846,
   "program": {
     "id": "bm-music",
     "name": "BM Music",
@@ -76,6 +78,7 @@
       "MUTC 3372"
     ],
     [
+      "MUEN 3343",
       "MUEN 3344",
       "MUEN 3345",
       "MUEN 3346",
@@ -172,6 +175,13 @@
       "conc-instrumental-performance",
       "conc-piano-performance"
     ],
+    "MUEN 3343": [
+      "conc-composition",
+      "conc-jazz-performance",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance"
+    ],
     "MUEN 3344": [
       "conc-composition",
       "conc-music-theory",
@@ -228,6 +238,9 @@
     ],
     "MUSI 3332": [
       "conc-instrumental-performance",
+      "conc-piano-performance"
+    ],
+    "MUSI 3333": [
       "conc-piano-performance"
     ],
     "MUSI 3334": [
@@ -399,7 +412,6 @@
     "text: or Music Therapy Concentration students must take:",
     "text: Select 4 credit hours of 3000-4000 level coursework from the following prefixes: MUAP, MUEN, MHIS, MUSI, or MUTC.",
     "text: and",
-    "MUEN 3343",
     "text: Repeat the following course for 8 credit hours:",
     "text: Select one (1) of the following courses:",
     "text: Repeat the following course for 4 credit hours:",
@@ -407,8 +419,7 @@
     "text: Student must complete a total of 12 credit hours of the following course:",
     "MUTH 4500",
     "text: Select one of the following courses:",
-    "text: Repeat the following course for 2 credit hours:",
-    "MUSI 3333"
+    "text: Repeat the following course for 2 credit hours:"
   ],
-  "draftHash": "35b2d7d8a14cc0d82e75c037b8f3ad986ba16dae433e61b3474a844f296b6903"
+  "draftHash": "56a794410f77567e92da34107f3a40c3b4f8b3e5f6b2166a18571f2de8f41b78"
 }

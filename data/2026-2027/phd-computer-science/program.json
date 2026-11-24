@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11628,
   "program": {
     "id": "phd-computer-science",
     "name": "PhD Computer Science",
@@ -87,5 +89,5 @@
     "CSE 7983",
     "DS 9700"
   ],
-  "draftHash": "0d840c5a094cfc018a47bb8af822db2c4d388a2d73531e32018addb090c5dad3"
+  "draftHash": "9d16095bb04466ba28c5cb8194b80c95288783a505f2311c31e60f42751fcc44"
 }

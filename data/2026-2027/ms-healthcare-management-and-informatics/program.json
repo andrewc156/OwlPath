@@ -1,6 +1,8 @@
 {
   "catalogYear": "2026-2027",
   "level": "graduate",
+  "catoid": 83,
+  "poid": 11600,
   "program": {
     "id": "ms-healthcare-management-and-informatics",
     "name": "MS Healthcare Management and Informatics",
@@ -21,6 +23,9 @@
   },
   "choices": [],
   "courses": {
+    "HMI 7510": [
+      "major-required"
+    ],
     "HMI 7520": [
       "major-required"
     ],
@@ -54,6 +59,18 @@
     "HMI 7770": [
       "major-required"
     ],
+    "IS 7100": [
+      "major-elective"
+    ],
+    "IS 7200": [
+      "major-elective"
+    ],
+    "IS 7320": [
+      "major-elective"
+    ],
+    "IS 7330": [
+      "major-elective"
+    ],
     "IT 7113": [
       "major-elective"
     ],
@@ -72,13 +89,8 @@
   },
   "draftWarnings": [],
   "leftOut": [
-    "HMI 7510",
-    "IS 7100",
-    "IS 7200",
-    "IS 7320",
     "HMI 7910",
-    "HMI 7900",
-    "IS 7330"
+    "HMI 7900"
   ],
-  "draftHash": "c29cf4895eaf6625aae7f7c49b8da6fcd6f5477904c85c8257fecdb9305adf7a"
+  "draftHash": "1246fc28491bb5f1cdd6208dd8aa152ceff0f425f043ca6bd252cc8c8956d016"
 }
