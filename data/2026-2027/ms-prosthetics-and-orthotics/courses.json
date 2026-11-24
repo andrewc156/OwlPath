@@ -1,0 +1,439 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133890",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course introduces clinical methods and basic processes associated with the provision and fabrication of prostheses and orthoses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6000L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Prosthetics and Orthotics Processes and Methods Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133891",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers a systems level overview of human pathology with emphasis on the effect of disease and disease processes on human movement and neuromuscular function relative to the need for orthotic and/or prosthetic rehabilitation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Clinical Pathology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133892",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture and laboratory course provides analysis of normal and pathological human locomotion. It includes the study of theory and instrumentation for measurement of temporal and spatial kinematics and kinetics, electromyography, and plantar pressure.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Clinical Gait Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133909",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 6300L",
+      "credits": "2",
+      "description": "This course provides fundamental knowledge of orthotic care management for patients with lower limb conditions distal to the knee. Students are exposed to the orthotic care of each device, including various conventional and thermoplastic lower limb orthoses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Lower Limb Orthotics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133910",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 6300",
+      "credits": "1",
+      "description": "This laboratory course presents the necessary skills to evaluate, measure, design, fabricate, fit, align, and rectify custom molded, custom fit, and prefabricated orthoses to the lower limb involving the ankle and foot of human models. These orthoses include a variety of foot orthoses, ankle foot orthoses, and other designs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6300L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Lower Limb Orthotics I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133893",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This laboratory course introduces the field of prosthetics with a focus on lower-limb devices. The course covers how lower limb prostheses are constructed and adapted. Students are introduced to the design aspects of lower limb prostheses, including socket designs, interfaces, suspensions and components.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6400L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Prosthetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133894",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is the first of four clinical practicum courses designed to provide students with real-world exposure to prosthetic, orthotic, and general medicine practice through off-site clinical rotations. Through class instruction, students perform exercises to practice and improve their patient interaction skills and how to prepare appropriate documentation for their clinical interactions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Clinical Practicum in Prosthetics and Orthotics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133895",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This laboratory course provides theoretical and practical applications of digital tools for use in prosthetics and orthotics. It includes concepts around computer-aided design and manufacturing, methods of shape acquisition, model rectification, and manufacturing processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6600L",
+      "notes": [],
+      "prereqs": "OP 6000L",
+      "title": "CAD/CAM in Prosthetics and Orthotics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133911",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 6700L",
+      "credits": "3",
+      "description": "This course provides foundational knowledge of orthotic care management for patients with lower limb conditions proximal to the knee. Students cover terminology, assessment, and implementation of an orthoses from the joints of the foot to the hip as part of a health care treatment plan.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6700",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "OP 6300",
+          "OP 6300L"
+        ]
+      },
+      "title": "Lower Limb Orthotics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133912",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 6700",
+      "credits": "1",
+      "description": "This laboratory course provides hands-on experiences for the evaluation, measurement, design, fabrication, fitting, alignment, and rectification of custom and pre-fabricated orthoses to the lower limb involving the pelvis, hip, knee, ankle, and foot of human models. These orthoses include ankle foot orthoses, knee orthoses, knee ankle foot orthoses, and/or hip knee ankle foot orthoses and other designs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6700L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "OP 6300",
+          "OP 6300L"
+        ]
+      },
+      "title": "Lower Limb Orthotics II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133913",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 6800L",
+      "credits": "3",
+      "description": "This course focuses on applying knowledge to the care of patients with transtibial, Syme\u2019s or partial foot-level amputations. Students will connect and relate knowledge to patient needs in order to optimize patient care.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6800",
+      "notes": [],
+      "prereqs": "OP 6400L",
+      "title": "Transtibial Prosthetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133914",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 6800",
+      "credits": "1",
+      "description": "This laboratory course presents the skills necessary for students to implement prosthetic care plans on live subjects, including shape acquisition and modification, device fabrication, static and dynamic alignment, and fitting and adjustment of the prosthesis. Students will practice evaluating patients and creating appropriate prosthetic recommendations suited to individual patient needs. This course focuses on care for patients with transtibial, Syme\u2019s, or partial foot-level amputations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6800L",
+      "notes": [],
+      "prereqs": "OP 6400L",
+      "title": "Transtibial Prosthetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133896",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is the second in a sequence of four clinical practicum courses that are designed to provide students with real world exposure to prosthetic and orthotic clinical practice through off-site clinical rotations. In-class instruction includes activities and sessions that focus on improving patient interaction skills.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6900",
+      "notes": [],
+      "prereqs": "OP 6500",
+      "title": "Clinical Practicum in Prosthetics and Orthotics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133899",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "The seminar introduces the foundational concepts of scientific inquiry, emphasizing interdisciplinary research, responsible conduct of research, ethics, internal review board processes, and planning. Students begin scientific and technical writing of specific aims and hypothesis formulation related to their research. Students critique, present, and discuss literature reviews of critical clinical and scientific papers.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 6950",
+      "notes": [],
+      "prereqs": null,
+      "title": "Research Seminar in Prosthetics and Orthotics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133901",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This laboratory course introduces theories and devices associated with assistive technology and mobility aids, emphasizing topics important to clinical practice in prosthetics and orthotics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7100L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Assistive Technology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133915",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7200L",
+      "credits": "3",
+      "description": "This course presents comprehensive orthotic patient care management of the spine and cranium. The knowledge of the orthotic care of each device includes a variety of conventional metal/composite frames and thermoplastic spinal and cranial orthoses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Spinal Orthotics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133916",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7200",
+      "credits": "1",
+      "description": "This laboratory course presents comprehensive orthotic patient care management of the spine and cranium through the evaluation, measurement, design, fabrication, fitting, alignment, and rectification of custom and prefabricated orthoses. These orthoses include a variety of conventional metal/composite frames and thermoplastic spinal and cranial orthoses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7200L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Spinal Orthotics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133917",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7300L",
+      "credits": "3",
+      "description": "This course focuses on applying knowledge to the care of patients with transfemoral, knee disarticulation, and hip disarticulation level amputations. Students will connect and relate knowledge to patient needs in order to optimize patient care.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "OP 6800",
+          "OP 6800L"
+        ]
+      },
+      "title": "Transfemoral Prosthetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133918",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7300",
+      "credits": "1",
+      "description": "This laboratory course presents the skills necessary for students to implement prosthetic care plans on live subjects, including shape acquisition and modification, device fabrication, static and dynamic alignment, and fitting and adjustment of the prosthesis. Students will practice evaluating patients and creating appropriate prosthetic recommendations suited to individual patient needs. This course focuses on care for patients with transfemoral, knee disarticulation, and hip disarticulation level amputations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7300L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "OP 6800",
+          "OP 6800L"
+        ]
+      },
+      "title": "Transfemoral Prosthetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133897",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is the third in a sequence of four clinical practicum courses which concentrates on general medicine and rehabilitation in various allied health specialties. In-class instructional activities and discussions focus on professional practice management topics. Clinical rotations are designed to expose students to real world prosthetic and orthotic clinical practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7500",
+      "notes": [],
+      "prereqs": "OP 6900",
+      "title": "Clinical Practicum in Prosthetics and Orthotics III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133900",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This seminar focuses on presenting pilot data and preparing a scientific abstract. Students present progress reports, discuss current problems, and propose solutions. Students develop a research proposal focusing on the following areas: specific aims, hypotheses, methods, data analysis, and the interpretation of results.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7550",
+      "notes": [],
+      "prereqs": "OP 6950",
+      "title": "Research Seminar in Prosthetics and Orthotics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133919",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7600L",
+      "credits": "2",
+      "description": "This course focuses on the basics of upper limb orthotic management and how orthoses control the motion and function of persons with disorders and injuries to the neurological, skeletal, and muscular systems. This course explores concepts of custom and pre-fabricated orthoses to the upper limb involving the fingers, hand, wrist, elbow and shoulder.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Upper Limb Orthotics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133920",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7600",
+      "credits": "1",
+      "description": "This laboratory involves hands-on experience in the evaluation, measurement, design, fabrication, fitting, alignment, and rectification of custom and pre-fabricated orthoses to the upper limb involving the fingers, hand, wrist, elbow, and shoulder. These orthoses include a variety of metal/composite frame and thermoplastic upper limb orthoses including finger orthoses, hand orthoses, wrist hand orthoses, elbow orthoses, elbow wrist hand orthoses, shoulder orthoses, and shoulder elbow wrist hand orthoses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7600L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Upper Limb Orthotics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133921",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7700L",
+      "credits": "3",
+      "description": "This course involves comprehension management of upper limb prostheses for patients with sustained limb loss from the fingertip to the entire shoulder girdle. The students will utilize a variety of control mechanisms and obtain the knowledge needed to assess patient care in a wide array of upper limb designs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Upper Limb Prosthetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133922",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7700",
+      "credits": "1",
+      "description": "This laboratory course involves evaluating, measuring, designing, fitting, aligning, and rectifying custom upper limb prostheses for patient models who have sustained limb loss from the fingertip to the entire shoulder girdle. These prostheses include finger, partial hand, wrist disarticulation, transradial, elbow disarticulation, transhumeral, and shoulder disarticulation utilizing a variety of control mechanisms and fabricated in a wide array of designs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7700L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Upper Limb Prosthetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133898",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course focuses on business skills related to running a medical practice. Students engage in leadership and management exercises specific to a prosthetics and orthotics practice, discuss and critique billing practices, work on effective communication with other medical professionals, and present strategies for in-services.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7800",
+      "notes": [],
+      "prereqs": "OP 7500",
+      "title": "Clinical Practicum in Prosthetics and Orthotics IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133926",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7950",
+      "credits": "2",
+      "description": "The Master\u2019s Capstone Experience is an interdisciplinary research project that incorporates applied clinical, engineering knowledge and skills that students have acquired throughout the Masters of Science in Prosthetics and Orthotics program to solve real-world clinical problems and issues. The culmination of student efforts is presented as an oral and poster presentation in a public forum.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "OP 7900",
+      "notes": [],
+      "prereqs": null,
+      "title": "Master\u2019s Capstone in Prosthetics and Orthotics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133925",
+      "catalogYear": "2026-2027",
+      "coreqs": "OP 7900",
+      "credits": "1",
+      "description": "This seminar emphasizes the dissemination of research findings in the form of a scientific abstract, and poster presentation. Students will present their capstone research work in regular progress reports for in-class discussion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "OP 7950",
+      "notes": [],
+      "prereqs": "OP 7550",
+      "title": "Research Seminar in Prosthetics and Orthotics III"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "ms-prosthetics-and-orthotics",
+    "name": "MS Prosthetics and Orthotics"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

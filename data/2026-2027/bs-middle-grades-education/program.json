@@ -10,6 +10,7 @@
       {
         "label": "Required courses",
         "groups": [
+          "core-field",
           "major-required"
         ]
       },
@@ -23,6 +24,9 @@
   },
   "choices": [],
   "courses": {
+    "ASTR 1000K": [
+      "core-field"
+    ],
     "EDMG 3300": [
       "major-required"
     ],
@@ -53,6 +57,9 @@
     "EDRD 3330": [
       "major-required"
     ],
+    "EDSM 3000K": [
+      "major-required"
+    ],
     "EDSM 3360": [
       "major-required"
     ],
@@ -67,6 +74,22 @@
     ],
     "EDUC 4610": [
       "major-required"
+    ],
+    "ENGL 2271": [
+      "core-field"
+    ],
+    "ENGL 2390": [
+      "core-field",
+      "major-required"
+    ],
+    "ENGL 3250": [
+      "major-required"
+    ],
+    "ENGL 3270": [
+      "major-required"
+    ],
+    "GEOG 1130": [
+      "core-field"
     ],
     "GEOG 3312": [
       "major-elective"
@@ -86,8 +109,15 @@
     "GEOG 4380": [
       "major-elective"
     ],
+    "HIST 2111": [
+      "core-field",
+      "major-required"
+    ],
     "HIST 2206": [
       "major-elective"
+    ],
+    "HIST 3304": [
+      "major-required"
     ],
     "HIST 3305": [
       "major-elective"
@@ -122,18 +152,37 @@
     "INED 4431": [
       "major-required"
     ],
+    "ISCI 2002": [
+      "core-field",
+      "major-required"
+    ],
     "ITEC 3200": [
+      "major-required"
+    ],
+    "LING 3025": [
+      "major-required"
+    ],
+    "MAED 1190": [
+      "core-field"
+    ],
+    "MAED 2390": [
+      "core-field",
+      "major-required"
+    ],
+    "MAED 3295": [
+      "major-required"
+    ],
+    "MAED 3395": [
+      "major-required"
+    ],
+    "MAED 3495": [
+      "major-required"
+    ],
+    "SCI 3360": [
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Primary Field (6 Credit Hours)'",
-    "unrecognized section 'Secondary Field (3 Credit Hours)'",
-    "unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'",
-    "unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'",
-    "unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'",
-    "unrecognized section 'Teaching Field Courses (3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Language Arts Teaching Field:",
     "text: Mathematics Teaching Field:",
@@ -173,5 +222,5 @@
     "text: The study of global connections and interdependence; and",
     "text: The study of civic ideals and practices."
   ],
-  "draftHash": "3092a236570a844772b54c98ff0762160842922699938c5cdc22fd4761b988ed"
+  "draftHash": "53f1c48669e94319692690f9640b7a8a8f0348251d98d48f22a5e7ec50bee148"
 }

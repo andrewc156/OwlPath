@@ -8,6 +8,13 @@
     "name": "BS Interdisciplinary Studies",
     "filters": [
       {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
         "label": "Project",
         "groups": [
           "major-project"
@@ -15,24 +22,251 @@
       }
     ]
   },
-  "choices": [],
+  "choices": [
+    [
+      "ISD 3001",
+      "ISD 3004"
+    ],
+    [
+      "ISD 3002",
+      "ISD 3003"
+    ]
+  ],
   "courses": {
+    "AMST 1102": [
+      "core-field"
+    ],
+    "AMST 3600": [
+      "major-required"
+    ],
+    "AMST 3620": [
+      "major-required"
+    ],
+    "AMST 3650": [
+      "major-required"
+    ],
+    "AMST 3660": [
+      "major-required"
+    ],
+    "AMST 3670": [
+      "major-required"
+    ],
+    "AMST 3680": [
+      "major-required"
+    ],
+    "AMST 3710": [
+      "major-required"
+    ],
+    "AMST 3730": [
+      "major-required"
+    ],
+    "AMST 3740": [
+      "major-required"
+    ],
+    "BLCK 2100": [
+      "core-field"
+    ],
+    "BLCK 2200": [
+      "core-field"
+    ],
+    "BLCK 3100": [
+      "major-required"
+    ],
+    "BLCK 3200": [
+      "major-required"
+    ],
+    "BLCK 3300": [
+      "major-required"
+    ],
+    "BLCK 3310": [
+      "major-required"
+    ],
+    "BLCK 3390": [
+      "major-required"
+    ],
+    "BLCK 3400": [
+      "major-required"
+    ],
+    "BLCK 3440": [
+      "major-required"
+    ],
+    "BLCK 3500": [
+      "major-required"
+    ],
+    "BLCK 3510": [
+      "major-required"
+    ],
+    "BLCK 3520": [
+      "major-required"
+    ],
+    "BLCK 3550": [
+      "major-required"
+    ],
+    "BLCK 3780": [
+      "major-required"
+    ],
+    "BLCK 4031": [
+      "major-required"
+    ],
+    "BLCK 4040": [
+      "major-required"
+    ],
+    "BLCK 4500": [
+      "major-required"
+    ],
+    "BLCK 4550": [
+      "major-required"
+    ],
+    "GWST 3001": [
+      "major-required"
+    ],
+    "GWST 3010": [
+      "major-required"
+    ],
+    "GWST 3020": [
+      "major-required"
+    ],
+    "GWST 3030": [
+      "major-required"
+    ],
+    "GWST 3060": [
+      "major-required"
+    ],
+    "GWST 3070": [
+      "major-required"
+    ],
+    "GWST 3080": [
+      "major-required"
+    ],
+    "GWST 3090": [
+      "major-required"
+    ],
+    "GWST 3100": [
+      "major-required"
+    ],
+    "GWST 3200": [
+      "major-required"
+    ],
+    "GWST 3300": [
+      "major-required"
+    ],
+    "GWST 3400": [
+      "major-required"
+    ],
+    "GWST 4040": [
+      "major-required"
+    ],
+    "ISD 1198": [
+      "core-field"
+    ],
+    "ISD 2001": [
+      "core-field"
+    ],
+    "ISD 2700": [
+      "core-field"
+    ],
+    "ISD 3001": [
+      "major-required"
+    ],
+    "ISD 3002": [
+      "major-required"
+    ],
+    "ISD 3003": [
+      "major-required"
+    ],
+    "ISD 3004": [
+      "major-required"
+    ],
+    "ISD 3100": [
+      "major-required"
+    ],
+    "ISD 4497": [
+      "major-required"
+    ],
     "ISD 4498": [
       "major-project"
+    ],
+    "LALS 1102": [
+      "core-field"
+    ],
+    "LALS 3550": [
+      "major-required"
+    ],
+    "LALS 3660": [
+      "major-required"
+    ],
+    "LALS 3770": [
+      "major-required"
+    ],
+    "LDRS 3000": [
+      "major-required"
+    ],
+    "LDRS 3100": [
+      "major-required"
+    ],
+    "LDRS 3200": [
+      "major-required"
+    ],
+    "LDRS 3201": [
+      "major-required"
+    ],
+    "LDRS 3400": [
+      "major-required"
+    ],
+    "LDRS 3600": [
+      "major-required"
+    ],
+    "LDRS 3700": [
+      "major-required"
+    ],
+    "LDRS 3800": [
+      "major-required"
+    ],
+    "PAX 3100": [
+      "major-required"
+    ],
+    "PAX 3300": [
+      "major-required"
+    ],
+    "PAX 3600": [
+      "major-required"
+    ],
+    "PAX 3780": [
+      "major-required"
+    ],
+    "PAX 4000": [
+      "major-required"
+    ],
+    "RELS 3200": [
+      "major-required"
+    ],
+    "RELS 3300": [
+      "major-required"
+    ],
+    "RELS 3500": [
+      "major-required"
+    ],
+    "RELS 3780": [
+      "major-required"
+    ],
+    "SA 4490": [
+      "major-required"
+    ],
+    "STS 1101": [
+      "core-field"
+    ],
+    "STS 4000": [
+      "major-required"
+    ],
+    "STS 4400": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Introduction to Interdisciplinary Studies (3 Credit Hours)'",
-    "unrecognized section 'Introduction to Interdisciplinary Thinking (3 Credit Hours)'",
-    "unrecognized section 'Interdisciplinarity in the Workplace and Society (3 Credit Hours)'",
-    "unrecognized section 'Foundations (3 Credit Hours)'",
-    "unrecognized section 'Literacy (3 Credit Hours)'",
-    "unrecognized section 'Critical Inquiry (3 Credit Hours)'",
-    "unrecognized section 'Engaged Learning (3 Credit Hours)'",
-    "unrecognized section 'Gender, Race, and Culture'",
-    "unrecognized section 'Leadership, Community, and Justice'",
-    "unrecognized section 'Science, Technology, and Society'"
+  "draftWarnings": [],
+  "leftOut": [
+    "ISD 3398",
+    "SA 4400",
+    "LALS 4490"
   ],
-  "leftOut": [],
-  "draftHash": "8fd6e231ad5be859b8552552cb96f377131aa6fad29c8270c6ac8aeb98eef4ce"
+  "draftHash": "cba7b2d5031237bf557e64f7ea9518f7f9401d31d7ca658578589908edde447a"
 }

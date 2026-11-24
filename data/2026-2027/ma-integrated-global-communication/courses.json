@@ -1,0 +1,371 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133532",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines theory and concepts relevant to social media. Along with emerging digital and social media theory, this course also explores the connection between foundations of media and communication as they apply to current situations, techniques, and trends. Students produce graduate-level research that expands the scholarly discourse in this area.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 6100",
+      "notes": [
+        "Admission to the Digital and Social Media Certificate program",
+        "permission from the instructor"
+      ],
+      "prereqs": null,
+      "title": "Survey of Digital and Social Media Concepts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133534",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth examination of the existing legal structure within which digital and social media operates, and the antecedent statutory and case law through which this structure has evolved. This course also addresses ethical concepts and considerations surrounding digital and social media. This course focuses on the First Amendment as it applies to free speech and the media, specific to online content. This course introduces students to different legal issues such as libel, disruptive speech, invasion of privacy, and copyright. It also teaches about different approaches to the First Amendment and how far freedom of speech and of the press goes in different legal scenarios. As a graduate course, students read several cases involving digital and social media. Students analyze texts and discuss the implication of law from theoretical and practical perspectives.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 6200",
+      "notes": [
+        "Admission to the Digital and Social Media Certificate program",
+        "permission from the instructor"
+      ],
+      "prereqs": null,
+      "title": "Digital Media Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133535",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the nature and role of publication design through a study of visual communication theory; historical development of design; use of color, photography and graphics; and the use of design software and tools, including cloud computing and Drop Box. Students learn to exercise control over messages through coordination of text, images, and strategic design. Graphic design software (Adobe Creative Suites InDesign and Photoshop) and other online tools are used to develop an understanding of visual communication strategies and skills to create publications for communication to internal and external organizational audiences.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 6410",
+      "notes": [
+        "Admission to the Digital and Social Media Certificate program",
+        "permission from the instructor"
+      ],
+      "prereqs": null,
+      "title": "Digital Publication Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133536",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the development of mobile media applications as part of advancing your understanding of new media technologies. Furthermore, this course introduces students to concepts connected with mobile media technology as it relates to mobile applications. Essentially this course critiques the basic theory and usability of mobile delivery, mobile content, and mobile technology, requiring you to engage and interact online.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 6420",
+      "notes": [
+        "Admission to the Digital and Social Media Certificate program",
+        "permission from the instructor"
+      ],
+      "prereqs": null,
+      "title": "Mobile Media Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133533",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course offers theoretical and applied approaches to social media theory, strategies and tactics used by communication professionals. Semester topics will vary. Potential topics include: social media analytics, social media monitoring, content development, theoretical approaches to understanding social media, search engine optimization and other topics related to trends in social media and social media management. This course may be taken up to two times for a total of six credit hours.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 6490",
+      "notes": [
+        "Admission to the Digital and Social Media Certificate program",
+        "permission from the instructor"
+      ],
+      "prereqs": null,
+      "title": "Topics in Social Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133064",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Leaders need communication skills and requisite knowledge to guide organizations through the tumultuous crises of the future. This course addresses numerous content areas, including: factors involved in decision-making under pressure; training and organizational skills in crisis management communication as a core competency; and leading in local and transboundary crises through an integrated approach for organizations with different decision-making structures, different resource commitments to crisis preparations and response, and different communication and cultural strategies.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 6670",
+      "notes": [],
+      "prereqs": null,
+      "title": "Crisis Leadership Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133447",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to global communication from perspectives of mass media, public relations and organizational communication. Semester topics will vary. Potential topics include: communication leadership trends and strategies, media ownership, global news trends, and media\u2019s influence on people\u2019s lives.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 6690",
+      "notes": [],
+      "prereqs": null,
+      "title": "Topics in Integrated Global Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133537",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students plan and create an applied project that reflects best professional practices, theory, and existing research on digital and social media. The project is shared with the professional community via social networks. Students also create a summary of supporting literature, and an implementation and evaluation plan.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 6900",
+      "notes": [
+        "Admission to the Digital and Social Media Certificate program",
+        "permission from the instructor"
+      ],
+      "prereqs": null,
+      "title": "Digital and Social Media Content Strategy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of global communication, its modern development and the role of information technology; global communication law and policies; global news and information flow; global communication in transnational and global companies; global public relations; global advertising; and issues in global communication.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COM 7100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Global Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133376",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces graduate students to three elements that are crucial to success in a graduate program: understanding the role of and approaches to graduate research at KSU; appreciating the importance of the rationale employed to understand ways in which the world around us works in the context of the communication process; and exploring ways to test or make sense of that rationale.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COM 7200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations in Communication Theory and Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133407",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores communication strategies with Asian partners in global business, political and organizational contexts. Through lectures, discussions, case studies and guest speeches, students develop a deep appreciation of intercultural sensitivity, especially when communicating with peoples of Asian cultures. Students analyze commonalities and differences in communication styles among Asian cultural groups. In particular, students develop relationship building, negotiation and conflict resolution skills with partners of Chinese, Japanese, Korean, Indian and Islamic cultural backgrounds.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 7205",
+      "notes": [
+        "Admission into any KSU graduate program"
+      ],
+      "prereqs": null,
+      "title": "Communication with Asian Partners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132316",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the principles and concepts of practicing public relations globally including cultural, political and economic considerations; organizational goals and objectives; the role of traditional media; and the challenges new media technologies are bringing to public relations for corporate and government entities.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 7300",
+      "notes": [],
+      "prereqs": null,
+      "title": "International Public Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133480",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class examines how public relations, marketing, and advertising have adapted to address new forms of innovative communication. This course may be described as an account planning class. It will examine the research process that results in a tailored campaign strategy that communicates a brand\u2019s message.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 7350",
+      "notes": [
+        "Admission to the Integrated Global Communication graduate program"
+      ],
+      "prereqs": null,
+      "title": "Principles of Strategic Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132317",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course deals with analysis of types of problems, concepts, definitions, variables, methods and measurement techniques as well as interpretation of data prevalent in communication research. The purpose of this course is to guide students to conduct elementary statistics, design research and develop their own research proposals.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COM 7400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Communication Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132318",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The ever intensified globalization has motivated and forced many business people to work cross-culturally. Intercultural communication has become an integral component for business and managerial education. Effective communication is a vital skill for everyone in business today, especially for those who work in multinational corporations. Great communicators have a distinct advantage in building successful businesses and careers. Effective intercultural business communication requires one not only to be proficient with business strategy and linguistic skills, but also to be competent with intercultural communication and multicultural negotiation capabilities. Using case studies conducted at multinational corporations across the globe, this course introduces students to the world of international business and management by studying key concepts of intercultural communication, negotiation, international trade and global team-building. Such areas as cultural and sub-cultural differences, changing organizational structures, advanced communication technologies, and verbal and nonverbal communication channels will be covered in this course.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 7500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Communication for Multinational Corporations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132319",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course continues what students began learning in the global communication theory seminar. This course focuses on how technology impacts the communication process in five specific areas: public relations, advertising, political communication, citizen media, and law. It will look at the legal, social, and economic implications of technology in each of these areas. Students will be able to examine and critique technology\u2019s role in the communication field. Specifically, they will examine the role technology has on public communication.",
+      "groups": [
+        "conc-digital-and-social-media",
+        "major-elective"
+      ],
+      "id": "COM 7600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Communication and Technology Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133715",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the principles, concepts, challenges, and opportunities of health communication in the 21st Century. It analyzes the complexity of health from interpersonal, organizational, and media perspectives. The course examines effective communication practices for different shareholders both within and external to the healthcare system. Students will evaluate the historical, cultural, political, and technological significance of modern media on health communications. They will learn to evaluate effective communication interventions or campaigns for targeted populations.",
+      "groups": [
+        "conc-strategic-communication",
+        "major-elective"
+      ],
+      "id": "COM 7650",
+      "notes": [
+        "Admission to the Integrated Global Communication graduate program"
+      ],
+      "prereqs": null,
+      "title": "Health Communication Challenges and Opportunities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132320",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will work abroad or domestically for the summer term for an approved organization with global reach on projects with international implications. Working under the direction of the instructor and organizational leadership, students will learn the relevant historical background and recent contemporary backdrop to global communication practices and structures relevant to the organization and its mission.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COM 7710",
+      "notes": [],
+      "prereqs": null,
+      "title": "Integrated Global Communication Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132960",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Study abroad experience directed by faculty of the School of Communication and Media and associated coursework. Students will complete coursework and paricipate in on-site visits and activities in global settings. Students are expected to meet the expectations of the KSU instructor of record for the KSU study abroad course. Note: To complete the study abroad portion of this course additional fees may be incurred.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COM 7720",
+      "notes": [],
+      "prereqs": null,
+      "title": "Integrated Global Communication Study Abroad"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132321",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines communication concepts, theories and practices integral to coordinating global communication messages throuough on-site visits, domestic or abroad, and relevant coursework. Students will learn the historical background and recent contemporary backdrop to global communication practices, structures and organization. Numerous examples of global communication practices will be observed through visits to local, national, and global corporations and communication organizations. Students will hear lectures from experts in host organizations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COM 7730",
+      "notes": [],
+      "prereqs": null,
+      "title": "Integrated Global Communication Study Tour"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133375",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the culminating experience for students in the MAIGC. Students work individually or in teams to develop either an original scholarly research project related to global communication, or an integrated global communication professional project for a client. Students meet weekly for instruction and direction with the instructor and recruit a graduate faculty member to be a reviewer/reader for the thesis/project. At the end of the course, all students present their projects in a public forum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COM 7900",
+      "notes": [],
+      "prereqs": "COM 7400",
+      "title": "Integrated Global Communication Capstone"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-digital-and-social-media"
+        ],
+        "label": "Digital and Social Media"
+      },
+      {
+        "groups": [
+          "conc-strategic-communication"
+        ],
+        "label": "Strategic Communication"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ma-integrated-global-communication",
+    "name": "MA Integrated Global Communication"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

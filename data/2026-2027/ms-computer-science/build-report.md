@@ -16,14 +16,9 @@
   - unrecognized: a Bachelor of Science in Computer Science degree
 - **CS 7998**
   - unrecognized: Varies by topic
-- **MATH 8020**
-  - unrecognized: permission by the department
-- **MATH 8030**
-  - unrecognized: permission by the department
 - **STAT 8240**
   - unrecognized: in Analytics
   - unrecognized: Data Science
-  - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
   - unrecognized: Data Science
   - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
 

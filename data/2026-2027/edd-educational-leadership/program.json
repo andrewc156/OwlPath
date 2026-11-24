@@ -28,6 +28,30 @@
     ]
   ],
   "courses": {
+    "EDCO 7010": [
+      "major-elective"
+    ],
+    "EDCO 7020": [
+      "major-elective"
+    ],
+    "EDCO 7030": [
+      "major-elective"
+    ],
+    "EDL 7700": [
+      "major-elective"
+    ],
+    "EDL 7701": [
+      "major-elective"
+    ],
+    "EDL 7780": [
+      "major-elective"
+    ],
+    "EDL 7800": [
+      "major-elective"
+    ],
+    "EDL 7801": [
+      "major-elective"
+    ],
     "EDL 9000": [
       "major-required"
     ],
@@ -89,15 +113,11 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Leadership in Urban Schools'",
-    "unrecognized section 'Leading Independent and Charter Schools'",
-    "unrecognized section 'Coaching for Performance'",
-    "unrecognized section 'Dissertation (Minimum 9 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "EDL 9600",
-    "EDL 9350"
+    "EDL 9350",
+    "EDL 9900"
   ],
-  "draftHash": "8cfd277da0c8108193ae368469e6c64049dc6f5d5808b3080fa4827535a4e9c8"
+  "draftHash": "3525f73e72f77602bc17653c6a3313f408e5a4812aa53b990c2b33b1fbd81c2d"
 }

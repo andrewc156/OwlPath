@@ -53,6 +53,18 @@
     "HIST 3100": [
       "major-required"
     ],
+    "HIST 3304": [
+      "major-required"
+    ],
+    "HIST 3305": [
+      "major-required"
+    ],
+    "HIST 3310": [
+      "major-required"
+    ],
+    "HIST 3311": [
+      "major-required"
+    ],
     "HIST 3325": [
       "major-elective"
     ],
@@ -65,6 +77,57 @@
     "HIST 3328": [
       "major-elective"
     ],
+    "HIST 3331": [
+      "major-required"
+    ],
+    "HIST 3333": [
+      "major-required"
+    ],
+    "HIST 3334": [
+      "major-required"
+    ],
+    "HIST 3335": [
+      "major-required"
+    ],
+    "HIST 3340": [
+      "major-required"
+    ],
+    "HIST 3341": [
+      "major-required"
+    ],
+    "HIST 3350": [
+      "major-required"
+    ],
+    "HIST 3351": [
+      "major-required"
+    ],
+    "HIST 3357": [
+      "major-required"
+    ],
+    "HIST 3358": [
+      "major-required"
+    ],
+    "HIST 3361": [
+      "major-required"
+    ],
+    "HIST 3366": [
+      "major-required"
+    ],
+    "HIST 3367": [
+      "major-required"
+    ],
+    "HIST 3372": [
+      "major-required"
+    ],
+    "HIST 3373": [
+      "major-required"
+    ],
+    "HIST 3374": [
+      "major-required"
+    ],
+    "HIST 3375": [
+      "major-required"
+    ],
     "HIST 3376": [
       "major-elective"
     ],
@@ -73,6 +136,63 @@
     ],
     "HIST 3378": [
       "major-elective"
+    ],
+    "HIST 3379": [
+      "major-required"
+    ],
+    "HIST 3380": [
+      "major-required"
+    ],
+    "HIST 3381": [
+      "major-required"
+    ],
+    "HIST 3382": [
+      "major-required"
+    ],
+    "HIST 3391": [
+      "major-required"
+    ],
+    "HIST 3392": [
+      "major-required"
+    ],
+    "HIST 4163": [
+      "major-required"
+    ],
+    "HIST 4204": [
+      "major-required"
+    ],
+    "HIST 4245": [
+      "major-required"
+    ],
+    "HIST 4251": [
+      "major-required"
+    ],
+    "HIST 4255": [
+      "major-required"
+    ],
+    "HIST 4373": [
+      "major-required"
+    ],
+    "HIST 4374": [
+      "major-required"
+    ],
+    "HIST 4375": [
+      "major-required"
+    ],
+    "HIST 4391": [
+      "major-required"
+    ],
+    "HIST 4410": [
+      "major-required"
+    ],
+    "HIST 4411": [
+      "major-required"
+    ],
+    "HIST 4412": [
+      "major-required"
+    ],
+    "HIST 4415": [
+      "major-required"
     ],
     "HIST 4425": [
       "major-elective"
@@ -83,11 +203,44 @@
     "HIST 4427": [
       "major-elective"
     ],
+    "HIST 4428": [
+      "major-required"
+    ],
     "HIST 4430": [
       "major-elective"
     ],
     "HIST 4435": [
       "major-elective"
+    ],
+    "HIST 4440": [
+      "major-required"
+    ],
+    "HIST 4441": [
+      "major-required"
+    ],
+    "HIST 4442": [
+      "major-required"
+    ],
+    "HIST 4445": [
+      "major-required"
+    ],
+    "HIST 4451": [
+      "major-required"
+    ],
+    "HIST 4453": [
+      "major-required"
+    ],
+    "HIST 4454": [
+      "major-required"
+    ],
+    "HIST 4456": [
+      "major-required"
+    ],
+    "HIST 4461": [
+      "major-required"
+    ],
+    "HIST 4471": [
+      "major-required"
     ],
     "HIST 4495": [
       "major-required"
@@ -99,6 +252,48 @@
       "major-required"
     ],
     "HIST 4498": [
+      "major-required"
+    ],
+    "HIST 4501": [
+      "major-required"
+    ],
+    "HIST 4502": [
+      "major-required"
+    ],
+    "HIST 4503": [
+      "major-required"
+    ],
+    "HIST 4544": [
+      "major-required"
+    ],
+    "HIST 4545": [
+      "major-required"
+    ],
+    "HIST 4555": [
+      "major-required"
+    ],
+    "HIST 4558": [
+      "major-required"
+    ],
+    "HIST 4633": [
+      "major-required"
+    ],
+    "HIST 4640": [
+      "major-required"
+    ],
+    "HIST 4654": [
+      "major-required"
+    ],
+    "HIST 4655": [
+      "major-required"
+    ],
+    "HIST 4760": [
+      "major-required"
+    ],
+    "HIST 4765": [
+      "major-required"
+    ],
+    "HIST 4905": [
       "major-required"
     ],
     "HIST 4911": [
@@ -117,20 +312,16 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Non-Western History Courses (6 Credit Hours)'",
-    "unrecognized section 'U.S. History Courses (6 Credit Hours)'",
-    "unrecognized section 'European History Courses (6 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Any two Research Seminars:",
     "text: One Research Seminar from List Above",
     "text: AND",
     "HIST 4499",
+    "HIST 4490",
     "HIST 3396",
     "HIST 3398",
-    "HIST 4400",
-    "HIST 4490"
+    "HIST 4400"
   ],
-  "draftHash": "d35e6c1b4c7e5c61204b7bfd613b3c97c7c27879f49b062f635cb720f2d4c6b9"
+  "draftHash": "0ff79be81e50781b0229fa87de8955f4125b8fd65026e042c9ea79e648bd091e"
 }

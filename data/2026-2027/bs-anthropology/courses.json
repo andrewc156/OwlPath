@@ -1,0 +1,596 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135925",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to anthropology\u2019s four major subfields: biological anthropology, archeology, cultural anthropology, and linguistics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 1102",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137077",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines humans from biological and evolutionary perspectives. Topics of survey and analysis include systems of genetic inheritance and evolution, primate behavior and ecology, the human fossil record, modern human biological variation and adaptation, forensic anthropology, bioarchaeology, and interactions between human biology and culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 1105",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Biological Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136735",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores human osteology, or the study of the human skeletal system. We cover bone biology, anatomical terminology, bony landmarks, and bone variation to examine topics such as the anthropological use of the skeleton in forensic, genetic, and bioarchaeological contexts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ANTH 2223",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Human Skeleton"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134282",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the historical development of anthropological theory. It emphasizes the major theories and theoreticians in the discipline of anthropology and their importance for understanding contemporary anthropological research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 3300",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Anthropological Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134283",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the evolutionary origins of humans. Major topics include evolutionary theory, primate behavior and taxonomy, the fossil record of human and non-human primate evolution, and the interaction of culture and biology as it relates to human evolution.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3301",
+      "notes": [],
+      "prereqs": null,
+      "title": "Human Origins"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134284",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Languages constitute the social life and cultural practices that anthropologists study. This course introduces the student to anthropological approaches to the study of language use, which is distinct from a linguist\u2019s approach to language. Students learn how languages shape and reflect our thoughts and identities. Students examine the complex world of meaning-making, which forms the fundamental component of our social, political, economic, and cultural life.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3303",
+      "notes": [],
+      "prereqs": "ANTH 1102",
+      "title": "Introduction to Linguistic Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134285",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Archeology is the subfield of anthropology that has as its goal the understanding of the human past by studying the material remains that people leave. This course covers the history, goals, methods, and theoretical base of current technology. Cultural resource management is introduced as well.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 3305",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Archaeology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134286",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the comparative study of human cultures and societies through the use of cross-cultural analysis of human behavior and case studies. Major foci are comparisons between universal and culturally relative aspects of human behavior, comparative social organization, cultural change and adaptation, and contemporary global cultural problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 3307",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134287",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The interrelated issues of culture, race, ethnicity, identity, gender, and social stratification in American society are examined through a holistic and comparative perspective with an emphasis on the examination of case studies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3310",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Diversity in the U.S."
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134288",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the culture of the prehistoric, historic and contemporary Native Americans of the Southeastern U.S. including the Mound Builders, Cherokees, Creeks, Choctaws, and Seminoles.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3315",
+      "notes": [],
+      "prereqs": null,
+      "title": "Indigenous Peoples of the Southeast United States"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134289",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the discipline of physical (biological) anthropology through intensive reading and lab-based research. We cover current topics of study in some of the major subfields such as human biology, primate evolution, osteology, paleoanthropology, and bioarchaeology.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3320",
+      "notes": [],
+      "prereqs": "ANTH 1105",
+      "title": "Methods in Biological Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134290",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the study of contemporary issues affecting Native American peoples through a survey of traditional cultures and culture change.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Indigenous Peoples of North America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137205",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course exposes students to the scientific fields involved in death investigation. This course covers theory and techniques related to identifying human remains and determining the cause of death in a medicolegal setting. The format of the course allows students to explore multiple disciplines, including forensic pathology, toxicology, anthropology, radiology, and careers in death investigation. Case studies and optional field trips allow students to explore the practical applications of course materials.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3325",
+      "notes": [],
+      "prereqs": null,
+      "title": "Forensic Medicine"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137204",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course exposes students to the role of forensic anthropology in the investigation and recovery of clandestine burials. This course covers theory and techniques related to the identification, mapping, and recovery of forensically significant remains. The intensive field methods allow students to work in a team-based environment to practice methods in forensic archaeology. A large portion of this course is held outdoors at the Forensic Anthropology Field Lab (FAFL) at the KSU Field Station.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3330",
+      "notes": [],
+      "prereqs": null,
+      "title": "Forensic Anthropology Field Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134291",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3-6",
+      "description": "This course is an archaeological field course designed to teach students the skills and techniques of modern archaeological survey, excavation, and laboratory analysis. The site of the local field school varies from year to year, but the international opportunity is an archaeological site in Belize, Central America. Contact the professor prior to registration for the determination of credit hours.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3335",
+      "notes": [],
+      "prereqs": "ANTH 3305",
+      "title": "Archaeology Field Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134292",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the anthropological approach to religion and magic, which privileges local religious experiences and practices and places them in socio-cultural context. This course encourages students to consider the roles that religions play within broader adaptive systems, and how religions alternately promote both cultural stability and cultural change. Cosmologies, religious systems, and magical systems of thought are explored from an anthropological perspective.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3340",
+      "notes": [],
+      "prereqs": "ANTH 3307",
+      "title": "Religion, Magic, and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134293",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class takes a global look at the social, symbolic, and political-economic roles of food, including how people in different cultures and environments throughout history define themselves through their foodways. The course explores a cross-cultural range of identities and socialities built through food production, preparation, and consumption, and how these change over time.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3345",
+      "notes": [],
+      "prereqs": "ANTH 3307",
+      "title": "Food and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134294",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A comparative survey of culture and social organization in various regions of the world with a focus on contemporary social problems, cultural change and adaptation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3350",
+      "notes": [],
+      "prereqs": "ANTH 3307",
+      "title": "Cultures and Societies of the World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134295",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course compares and contrasts various forms of capitalisms and cultures in Asia to understand the dynamics of society and political life. This course enables students to develop a global perspective on critical issues that concern policymakers, business-strategists, development-workers, and academics from an anthropological perspective. Students compare and contrast various forms of capitalism in Asia from an anthropological vantage point for understanding dynamics of society and political life in Asia.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3355",
+      "notes": [],
+      "prereqs": "ANTH 1102",
+      "title": "Capitalisms and Cultures in Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134296",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to methods, theories, and topics in African historical and contemporary anthropology. Particular emphasis is placed on how people from the West have encountered and come to understand African peoples\u2019 societies and cultures and vice versa. This course examines how the colonial encounter helped structure methodological and conceptual formulations in anthropology and subsequent critiques and revisions. It also examines many contemporary African issues through the lens of anthropology.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3360",
+      "notes": [],
+      "prereqs": null,
+      "title": "Anthropology and Africa"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134297",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the Afro-Brazilian experience in multi-racial Brazil, where the majority of the population is of African descent. This course focuses on how Afro-Brazilian culture, politics, music, samba, capoeira (martial arts), carnival and religion have impacted and often defined Brazilian society and culture. The course also focuses on Brazilian racial identity, social movements and racism. Brazil is constantly situated within the African Diaspora.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3365",
+      "notes": [],
+      "prereqs": null,
+      "title": "Afro-Brazilian Culture and Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136372",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Although archeology is a scholarly subject, it is not divorced from contemporary issues. In this class, students learn the role that archeology plays in various publics and communities. Students identify and engage stakeholders related to an archaeological site and undertake a hands-on project such as developing a heritage management plan or a collaborative excavation plan. Students also evaluate competing interpretations of the past and develop a narrative that incorporates multiple understandings of material culture.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3375",
+      "notes": [],
+      "prereqs": "ANTH 1102",
+      "title": "Engaged Archaeology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134298",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce students to the ancient Maya, whose civilization flourished in the lowlands of Central America between 1000 B.C. and A.D. 1500. It also examines reasons for the rise and fall of classic Maya civilization, including topics such as the development of complexity, settlement, subsistence, art and architecture, ritual and religion, and intellectual achievements.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3380",
+      "notes": [],
+      "prereqs": "ANTH 3305",
+      "title": "Maya Archaeology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134299",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces laboratory methods through a project-oriented, hands-on format. A major focus of the course is on the inferential processes through which archaeologists recover and understand the past. This course also introduces many of the important principles and concepts that archaeologists use to analyze, manage, curate, and publish artifacts and the data associated with them. In addition, it allows the opportunity to have some hands-on experience with artifacts. Hands-on experiments in class help reinforce the theoretical concepts. Finally, the main goal is for the student to get basic \u201cliteracy\u201d with respect to archaeological analysis and develop good lab habits rather than master any particular kind of analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3390",
+      "notes": [],
+      "prereqs": "ANTH 3305",
+      "title": "Lab in Archaeology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135668",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a structured field-based or on-campus research experience in a supervised setting related to anthropology. Practical experience is combined with scholarly research in the topical area of the practicum under the guidance of a faculty committee. Projects are selected in advance of the semester of the practicum. Students learn to apply research skills in a practical setting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 3397",
+      "notes": [
+        "60 credit hours completed",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Anthropology Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135669",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines how media images and usage shape the identities of individuals and groups around the world. Drawing on ethnographic studies done by anthropologists, this course prepares students to see how representations of peoples, places, practices, and events in the media shape our ideas about others and ourselves. Individuals\u2019 and groups\u2019 relationship with the media is the key element in understanding how people relate to each other within and across cultures and political boundaries.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3521",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "ANTH 1102",
+      "title": "Ethnography of Media: Global Perspectives"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135670",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course establishes the centrality of labor in understanding social identities and social change around the world. It emphasizes the cross-cultural meaning of \u201clabor.\u201d Through ethnographies, it locates the effects of larger global processes like development, war, tourism, and their changing impact on meaning of labor for people\u2019s individual and collective identities.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3777",
+      "notes": [],
+      "prereqs": "ANTH 1102",
+      "title": "Global Ethnographies of Labor"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135671",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to anthropological approaches to studying gender relationships in various cultural contexts. It familiarizes students with the relationship between feminism and anthropology. It examines how the research of feminist anthropologists shaped the central theoretical, methodological, and ethical concerns within anthropology. It also emphasizes why ethnographic methods are essential for understanding the complex gender relationships in a globalizing world.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 3999",
+      "notes": [],
+      "prereqs": "ANTH 1102",
+      "title": "Anthropology of Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134303",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an understanding of the nature and extent of human biological variation, as well as an understanding of how it is studied. The course focuses on two separate yet inter-connected topics: the biological variation that exists within our species, Homo sapiens; and the concept of race.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4405",
+      "notes": [],
+      "prereqs": "ANTH 1105",
+      "title": "Human Variation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136646",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the practice of bioarchaeology in Greece from the early 1900\u2019s through today. Students trace the development of bioarchaeology from its early roots in typology through the paradigm shift of the New Physical Anthropology to modern scientific analyses of human skeletal remains. Case studies and classic anthropological texts are read and discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4411",
+      "notes": [],
+      "prereqs": "ANTH 1105",
+      "title": "Bioarchaeology of Greece"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134304",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is designed to expose undergraduate students to the techniques, theory, and methodology used in anthropological research and the practice of forensic anthropology. Forensic anthropology is an applied field of biological anthropology that seeks to recover, identify, and evaluate human skeletal remains within a medico-legal context. This process includes the determination of an unidentified individual\u2019s biological sex, age-at-death, populational affinity, stature, and in many cases, the circumstances surrounding death.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4420",
+      "notes": [],
+      "prereqs": "ANTH 2223",
+      "title": "Methods in Forensic Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134305",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to archaeological goals, methods, and interpretation of the prehistory of North America.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4421",
+      "notes": [],
+      "prereqs": null,
+      "title": "North American Archaeology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135926",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines cultural and historical developments in Asia from approximately 10,000 BCE through 1600 CE. Students learn about the rise of complex societies, cities, and states; early economies; empires; and the role of archaeology in modern Asia. Along the way, students engage in major debates that have arisen from competing interpretations of the archaeological record.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4422",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ANTH 1102",
+          {
+            "external": "ASIA 3001"
+          }
+        ]
+      },
+      "title": "Archaeology of Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136636",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the mechanical properties of our skeletal organ system. The study of skeletal biology and biomechanics allow anthropologists to understand the function of the skeleton and how it can be used to interpret the lifeways of past peoples. Research from this field is key to the study of paleopathology, prehistoric subsistence strategies, locomotion, and bone trauma.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4423",
+      "notes": [],
+      "prereqs": "ANTH 3320",
+      "title": "Bone Biomechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137074",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the identification and interpretation of skeletal evidence for disease, the literary evidence for ancient medicine, and current clinical literature on disease from an anthropological perspective.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4424",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ANTH 2223",
+          {
+            "external": "BIOL 2251"
+          }
+        ]
+      },
+      "title": "Paleopathology: Health and Disease in Ancient Populations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134306",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces students to methods and issues in American historical archeology. Particular emphasis is placed upon archaeological methods and documentary research, changing gender roles, ethnicity, and technological innovations. Case studies will focus on the South but other regional contexts may also be included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4425",
+      "notes": [],
+      "prereqs": "ANTH 3305",
+      "title": "Historical Archaeology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134307",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course exposes students to the field of environmental anthropology as they experience fieldwork in the natural environments of Georgia. The intensive field methods and research approaches in this course allow students to learn how to work as part of an anthropological research team as they examine and evaluate global research issues in environmental anthropology at the local and regional level. The course includes topical lectures, field methods, lab analysis, and interactive team projects.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4430",
+      "notes": [],
+      "prereqs": null,
+      "title": "Environmental Anthropology Field Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137076",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course reviews fossil, environmental, and archaeological evidence that informs our understanding of the morphological and behavioral evolution of hominin species. Paleoanthropological studies help us understand the range of evolutionary trajectories of all hominins, the environmental contexts that shaped these evolutionary patterns, and the methodology used to uncover the secrets of our evolutionary past. Along with an overview of the hominin fossil record, particular attention is given to reviewing significant research sites, research methodologies, and active debates within paleoanthropological research.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ANTH 4440",
+      "notes": [],
+      "prereqs": "ANTH 1105",
+      "title": "Paleoanthropology: The Human Fossil Record"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134308",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Major theoretical ideas and methods used in anthropological research are examined with a focus on applying them in research and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 4450",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Research Methods in Anthropology"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-anthropology",
+    "name": "BS Anthropology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

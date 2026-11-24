@@ -2,66 +2,11 @@
 
 ## Warnings needing review
 
-- **ACCT 9001**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **ACCT 9005**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **ACCT 9006**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **ACCT 9007**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **ACCT 9100**
-  - unrecognized: Admission into the PhD in Business Administration program
-- **BRM 9201**
-  - unrecognized: Admission into the PhD in Business Administration
-  - unrecognized: Post-Master's Certificate in Business Research Methods
-- **ECON 9001**
-  - unrecognized: Admission into the Coles PhD in Business Administration Program
-- **ECON 9100**
-  - unrecognized: Admission into the PhD in Business Administration program
-- **IS 9001**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **IS 9005**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **IS 9006**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **IS 9007**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **IS 9008**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **IS 9100**
-  - unrecognized: Admission into the PhD in Business Administration program
-- **MGT 9001**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MGT 9005**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MGT 9006**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MGT 9007**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MGT 9008**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MGT 9100**
-  - unrecognized: Admission into the PhD in Business Administration program
-- **MKTG 9001**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MKTG 9005**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MKTG 9006**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MKTG 9007**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MKTG 9008**
-  - unrecognized: Admission into the PhD in Business Administration Program
-- **MKTG 9100**
-  - unrecognized: Admission into the PhD in Business Administration program
-
-## Drafting warnings
-
-- unrecognized section 'Business Research Methods Courses (15 Credit Hours)'
+None.
 
 ## Left out on purpose
 
+- BRM 9700
 - ACCT 9900
 - text: Students must take a minimum of 12 credit hours of the following course:
 - ACCT 9903

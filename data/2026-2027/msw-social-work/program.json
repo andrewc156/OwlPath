@@ -17,17 +17,58 @@
   },
   "choices": [],
   "courses": {
+    "SW 7700": [
+      "major-required"
+    ],
+    "SW 7701": [
+      "major-required"
+    ],
+    "SW 7702": [
+      "major-required"
+    ],
+    "SW 7703": [
+      "major-required"
+    ],
+    "SW 7704": [
+      "major-required"
+    ],
+    "SW 7705": [
+      "major-required"
+    ],
+    "SW 7706": [
+      "major-required"
+    ],
+    "SW 7710": [
+      "major-required"
+    ],
     "SW 7801": [
+      "major-required"
+    ],
+    "SW 7802": [
+      "major-required"
+    ],
+    "SW 7803": [
+      "major-required"
+    ],
+    "SW 7807": [
+      "major-required"
+    ],
+    "SW 7830": [
+      "major-required"
+    ],
+    "SW 7831": [
       "major-required"
     ],
     "SW 7929": [
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Foundational MSW Course Sequence (30 Credit Hours)'",
-    "unrecognized section 'Advanced Clinical Courses (21 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "SW 7708",
+    "SW 7709",
+    "SW 7812",
+    "SW 7813"
   ],
-  "leftOut": [],
-  "draftHash": "f0323dffe0c0862d19cba3b14c44af1f859c047953e23704c2fd83b29658986d"
+  "draftHash": "3a403c28d8f394868712a4d3fa5a71cad82dc42a9937dea764c602d1e8c978d8"
 }

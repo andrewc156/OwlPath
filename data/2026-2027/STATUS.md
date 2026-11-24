@@ -4,14 +4,16 @@
 
 | Level | Checked | Auto | Held |
 |---|---|---|---|
-| graduate | 1 | 8 | 49 |
-| undergraduate | 2 | 0 | 73 |
+| graduate | 1 | 18 | 39 |
+| undergraduate | 2 | 5 | 68 |
 
 ## Held majors
 
 ### edd-educational-leadership (graduate)
 
 - Build warnings:
+  - **EDL 7780**
+    - unrecognized: for which the course is being requested
   - **EDL 9310**
     - unrecognized: in Leadership for Learning
     - missing operator before 'in Leadership for Learning', assumed and
@@ -48,169 +50,56 @@
   - **EDL 9890**
     - unrecognized: in Educational Leadership
     - missing operator before 'in Educational Leadership', assumed and
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
   - **EDRS 9200**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-- Drafting warnings:
-  - unrecognized section 'Leadership in Urban Schools'
-  - unrecognized section 'Leading Independent and Charter Schools'
-  - unrecognized section 'Coaching for Performance'
-  - unrecognized section 'Dissertation (Minimum 9 Credit Hours)'
 
 ### edd-instructional-technology (graduate)
 
 - Build warnings:
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
   - **EDRS 9200**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-  - **ITEC 7305**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7430**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7455**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7460**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7480**
-    - unrecognized: Admittance to a graduate program
-    - unrecognized: certificate program
-    - unrecognized: endorsement program within the Bagwell College of Education
-  - **ITEC 7485**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7500**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7600**
-    - unrecognized: Candidates must be admitted to a KSU EPP program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-- Drafting warnings:
-  - unrecognized section 'Advanced ITEC Courses (6 Credit Hours)'
-  - unrecognized section 'Dissertation (9 Credit Hours)'
 
 ### edd-secondary-and-middle-grades-education (graduate)
 
 - Build warnings:
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
   - **EDRS 9200**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-  - **EDSM 8500**
-    - unrecognized: Admission to graduate study in Education
   - **EDSM 8701**
     - unrecognized: in education
     - missing operator before 'in education', assumed and
-  - **EDSM 9300**
-    - unrecognized: Permission of the professor
-- Drafting warnings:
-  - unrecognized section 'Technology Course (3 Credit Hours)'
-  - unrecognized section 'Secondary English or Middle Grades Language Arts'
-  - unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'
-  - unrecognized section 'Secondary History or Middle Grades Social Studies'
-  - unrecognized section 'Note:'
-  - unrecognized section 'Dissertation (9 Credit Hours minimum)'
+  - **ENED 9400**
+    - unrecognized: 6 hours graduate research courses
 
 ### edd-teacher-leadership (graduate)
 
 - Build warnings:
   - **EDL 9700**
-    - unrecognized: Admission to the EdD in Teacher Leadership
     - unrecognized: the EdD in Educational Leadership
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
-  - **TLED 8101**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Teacher Leadership in the Post-Master Certificate
-  - **TLED 8215**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Certification Graduate Certificate in Teacher Leadership
-  - **TLED 8401**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Certification Graduate Certificate in Teacher Leadership
-  - **TLED 8615**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Certification Graduate Certificate in Teacher Leadership
   - **TLED 9200**
-    - unrecognized: Admission to the EdD in Teacher Leadership
     - unrecognized: Advanced Concentration
     - missing operator before '(', assumed and
   - **TLED 9830**
-    - unrecognized: Admission to the EdD in Teacher Leadership
     - unrecognized: Advanced Concentration
     - missing operator before '(', assumed and
-  - **TLED 9880**
-    - unrecognized: Admission to the EdD in Teacher Leadership
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
-- Drafting warnings:
-  - unrecognized section 'Dissertation (12 Credit Hours)'
 
 ### eds-curriculum-and-instruction (graduate)
 
 - Build warnings:
-  - **EDCI 7800**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
-  - **EDCI 7810**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
-  - **EDCI 7820**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
-  - **EDCI 7830**
-    - unrecognized: Admission into a Bagwell College of Education graduate program
-  - **EDCI 7870**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. graduate program
-  - **EDCI 7880**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
   - **EDRS 8000**
     - unrecognized: M.Ed.
     - unrecognized: Ed.S.
@@ -229,8 +118,6 @@
     - unrecognized: in education
     - missing operator before 'Ed.S.', assumed and
     - missing operator before 'Ed.D.', assumed and
-- Drafting warnings:
-  - unrecognized section 'Educational Leadership Residency Courses (18 Credit Hours)'
 
 ### eds-instructional-technology (graduate)
 
@@ -242,68 +129,13 @@
     - unrecognized: in education
     - missing operator before 'Ed.S.', assumed and
     - missing operator before 'Ed.D.', assumed and
-  - **ITEC 7305**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7430**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7455**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7460**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7480**
-    - unrecognized: Admittance to a graduate program
-    - unrecognized: certificate program
-    - unrecognized: endorsement program within the Bagwell College of Education
-  - **ITEC 7485**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7500**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7600**
-    - unrecognized: Candidates must be admitted to a KSU EPP program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
 
 ### eds-secondary-and-middle-grades-education (graduate)
 
 - Build warnings:
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
-  - **EDSM 8500**
-    - unrecognized: Admission to graduate study in Education
   - **EDSM 8701**
     - unrecognized: in education
     - missing operator before 'in education', assumed and
-  - **EDSM 9300**
-    - unrecognized: Permission of the professor
-- Drafting warnings:
-  - unrecognized section 'Technology Course (3 Credit Hours)'
-  - unrecognized section 'Note:'
 
 ### eds-special-education (graduate)
 
@@ -320,170 +152,96 @@
   - **EDL 7615**
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-
-### ma-american-studies (graduate)
-
-- Build warnings:
-  - **AMST 7901**
-    - unrecognized: Permission of the American Studies graduate program director
 
 ### ma-art-and-design (graduate)
 
 - Build warnings:
   - **ANIM 6100**
-    - unrecognized: Admission to MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6105**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6110**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6115**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6120**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6100**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6105**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6110**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6115**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6120**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 6010**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 6020**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 6030**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 7050**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6100**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6110**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6115**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6120**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6125**
-    - unrecognized: Admission to the MA in Art & Design
-
-### ma-integrated-global-communication (graduate)
-
-- Build warnings:
-  - **COM 6100**
-    - unrecognized: permission from the instructor
-  - **COM 6200**
-    - unrecognized: permission from the instructor
-  - **COM 6410**
-    - unrecognized: permission from the instructor
-  - **COM 6420**
-    - unrecognized: permission from the instructor
-  - **COM 6490**
-    - unrecognized: permission from the instructor
-  - **COM 6900**
-    - unrecognized: permission from the instructor
-  - **COM 7205**
-    - unrecognized: Admission into any KSU graduate program
-- Drafting warnings:
-  - unrecognized section 'Global Experience Course (3 Credit Hours)'
+    - unrecognized: Design
 
 ### mapw-professional-writing (graduate)
 
 - Build warnings:
+  - **PRWR 7460**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6460, or permission of the graduate program director
+  - **PRWR 7470**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6470, or permission of the graduate program director
+  - **PRWR 7480**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6480, or permission of the graduate program director
+  - **PRWR 7520**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6520, or permission of the graduate program director
   - **PRWR 7960**
-    - unrecognized: Completion of 27 credit hours in the MAPW program
-    - unrecognized: at least four courses in the concentration; approval of capstone committee
-- Drafting warnings:
-  - unrecognized section 'Applied Writing'
-  - unrecognized section 'Composition and Rhetoric'
-  - unrecognized section 'Creative Writing'
+    - unrecognized: at least four courses in the concentration
 
 ### mat-teaching (graduate)
 
 - Build warnings:
+  - **ARED 6660**
+    - unrecognized: MAT faculty review
   - **ECE 6620**
-    - unrecognized: Admission to Teaching
     - unrecognized: MAT
     - missing operator before 'MAT', assumed and
   - **ECE 6630**
-    - unrecognized: Admission to the Teaching
     - unrecognized: MAT with a concentration in Elementary Education
     - missing operator before 'MAT with a concentration in Elementary Education', assumed and
   - **ECE 7514**
-    - unrecognized: Admission to the Teaching
     - unrecognized: MAT with a concentration in Elementary Education
     - missing operator before 'MAT with a concentration in Elementary Education', assumed and
   - **EDRD 6718**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
     - unrecognized: have evidence of passing criminal background check
     - ambiguous and/or precedence: Candidates must be admitted to a KSU BCOE program, certificate or endorsement program and have evidence of passing criminal background check
-  - **EDUC 6240**
-    - unrecognized: Admission to MAT
-  - **EDUC 6610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: admission to Yearlong Clinical Experience
-  - **ENGL 7701**
-    - unrecognized: Admission to graduate study in education
-  - **ENGL 7721**
-    - unrecognized: Admission to graduate study in education
-  - **ENGL 7731**
-    - unrecognized: Admission to graduate study in education
-  - **ENGL 7735**
-    - unrecognized: Admission to graduate study in education
-  - **INED 7620**
-    - unrecognized: Admission into a KSU graduate program
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
   - **ENED 6650**
-    - unrecognized: ; pre-service certificate;
-    - unrecognized: admission to Yearlong Clinical Experience
+    - missing operator before 'ENGL 7731', assumed and
+    - missing operator before 'ENGL 7735', assumed and
+    - could not parse (unexpected 'and'): EDUC 6240, ENGL 7731, ENGL 7735; pre-service certificate; and admission to Yearlong Clinical Experience
   - **ENED 6660**
     - unrecognized: eligibility to take GACE English tests
     - unrecognized: Educator Ethics Assessment 370
     - unrecognized: required by the Georgia Professional Standards Commission
     - missing operator before '(', assumed and
-  - **MAED 6650**
-    - unrecognized: Admission to Yearlong Clinical Experience
-  - **SCED 6650**
-    - unrecognized: issued pre-service certificate
-    - unrecognized: admission to year-long clinical experience
-- Drafting warnings:
-  - unrecognized section 'Students with Exceptionalities (3 Credit Hours)'
-  - unrecognized section 'Clinical Experience (9 Credit Hours)'
-
-### macc-accounting (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Option A: Audit/Advisory Specialization'
-  - unrecognized section 'Option B: Tax Specialization'
+  - **INED 6400**
+    - unrecognized: M.A.T
+    - missing operator before 'M.A.T', assumed and
 
 ### mba-evening-business-administration (graduate)
 
 - Build warnings:
-  - **ACCT 7415**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7430**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7450**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7460**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7470**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7480**
-    - unrecognized: Admission to MBA - Accounting Concentration
   - **FIN 7320**
     - unrecognized: equivalent
   - **FIN 7330**
@@ -502,14 +260,8 @@
   - **MGT 7999**
     - unrecognized: Completion of seven MBA core courses
     - unrecognized: at least six hours of MBA electives
-    - unrecognized: permission from the Graduate Business Offices
   - **MKTG 7730**
     - unrecognized: equivalent
-
-### mba-webmba-business-administration (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Orientation Residency'
 
 ### med-educational-leadership (graduate)
 
@@ -543,143 +295,62 @@
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
   - **HESA 7000**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7100**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7150**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7200**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7250**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7400**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7500**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7600**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
 
 ### med-elementary-and-early-childhood-education (graduate)
 
 - Build warnings:
-  - **ECE 7525**
-    - unrecognized: permission of the EECE graduate program coordinator
   - **ECE 7531**
-    - unrecognized: Admission to Elementary
     - unrecognized: Early Childhood Education
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **ECE 7704**
-    - unrecognized: Admission to M.Ed. in Elementary
     - unrecognized: Early Childhood Education
   - **ECE 7706**
-    - unrecognized: Admission to the M.Ed. in Elementary
     - unrecognized: Early Childhood Education
   - **ECE 7707**
-    - unrecognized: Admission to M.Ed. in Elementary
     - unrecognized: Early Childhood Education
 
 ### med-instructional-technology (graduate)
 
 - Build warnings:
-  - **ITEC 7305**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7430**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7455**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7460**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
   - **ITEC 7470**
     - unrecognized: in Instructional Technology
     - missing operator before 'in Instructional Technology', assumed and
-  - **ITEC 7480**
-    - unrecognized: Admittance to a graduate program
-    - unrecognized: certificate program
-    - unrecognized: endorsement program within the Bagwell College of Education
-  - **ITEC 7485**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7500**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7600**
-    - unrecognized: Candidates must be admitted to a KSU EPP program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
 
 ### med-literacy-education (graduate)
 
 - Build warnings:
   - **ECE 7704**
-    - unrecognized: Admission to M.Ed. in Elementary
     - unrecognized: Early Childhood Education
   - **EDRD 7720**
     - unrecognized: evidence of passing a criminal background check
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
   - **EDRD 7717**
     - unrecognized: Evidence of passing a background check
   - **EDRD 7718**
     - unrecognized: Evidence of passing a criminal background check
-
-### med-secondary-and-middle-grades-education (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Secondary English or Middle Grades Language Arts'
-  - unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'
-  - unrecognized section 'Secondary History or Middle Grades Social Studies'
-  - unrecognized section 'Secondary Chemistry'
-  - unrecognized section 'Secondary Biology or Middle Grades Science'
-
-### med-special-education (graduate)
-
-- Build warnings:
-  - **INED 7730**
-    - unrecognized: Admission into a graduate program in any education major
-  - **INED 7955**
-    - unrecognized: permission from Program Coordinator
 
 ### med-teacher-leadership-and-educational-leadership (graduate)
 
@@ -697,12 +368,10 @@
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
   - **EDL 7620**
-    - unrecognized: Admission to the Teacher Leadership
     - unrecognized: Educational Leadership
     - unrecognized: MEd
     - missing operator before 'MEd', assumed and
   - **EDL 7625**
-    - unrecognized: Admission to the Teacher Leadership
     - unrecognized: Educational Leadership
     - unrecognized: MEd
     - missing operator before 'MEd', assumed and
@@ -710,7 +379,6 @@
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
   - **TLED 7215**
-    - unrecognized: Admission to the Teacher Leadership
     - unrecognized: Educational Leadership
     - unrecognized: MEd
     - missing operator before 'MEd', assumed and
@@ -718,31 +386,28 @@
 ### mpa-public-administration (graduate)
 
 - Build warnings:
-  - **PAD 6200**
-    - unrecognized: Admission to graduate study
-  - **PAD 6250**
-    - unrecognized: Admission to graduate study
-  - **PAD 6300**
-    - unrecognized: Admission to graduate study
-  - **PAD 6350**
-    - unrecognized: Admission to graduate study
-  - **PAD 6450**
-    - unrecognized: Admission to graduate study
-  - **PAD 6700**
-    - unrecognized: Admission to the graduate college
-  - **PAD 7100**
-    - unrecognized: Admission to graduate study
-  - **PAD 7180**
-    - unrecognized: Admission to graduate study
+  - **IS 7005**
+    - unrecognized: Full
+  - **IS 7060**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
+  - **IS 7080**
+    - unrecognized: Full
+  - **IS 7090**
+    - unrecognized: Full
+  - **IS 7305**
+    - unrecognized: Full
+  - **IS 7500**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
+  - **IS 7700**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
+  - **IS 7800**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
   - **PAD 7998**
-    - unrecognized: Completion of 21 credit hours in the MPA program
-    - unrecognized: during the semester preceding course enrollment
     - missing operator before 'during the semester preceding course enrollment', assumed and
-- Drafting warnings:
-  - unrecognized section 'State, Local, and Regional Administration'
-  - unrecognized section 'Information Systems Administration'
-  - unrecognized section 'Select two of the following:'
-  - unrecognized section 'Additional Course Options'
 
 ### ms-artificial-intelligence (graduate)
 
@@ -753,25 +418,13 @@
 ### ms-chemical-sciences (graduate)
 
 - Build warnings:
-  - **CHEM 7000**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
-  - **CHEM 7100**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
   - **CHEM 7300**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
     - unrecognized: chair
     - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
   - **CHEM 7500**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
     - unrecognized: chair
     - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
   - **CHEM 7600**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
     - unrecognized: chair
     - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
 
@@ -786,14 +439,9 @@
     - unrecognized: a Bachelor of Science in Computer Science degree
   - **CS 7998**
     - unrecognized: Varies by topic
-  - **MATH 8020**
-    - unrecognized: permission by the department
-  - **MATH 8030**
-    - unrecognized: permission by the department
   - **STAT 8240**
     - unrecognized: in Analytics
     - unrecognized: Data Science
-    - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
     - unrecognized: Data Science
     - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
   - **CS 6021**
@@ -808,24 +456,17 @@
 - Build warnings:
   - **CRJU 7998**
     - unrecognized: Completion of six core courses
-  - **PAD 6200**
-    - unrecognized: Admission to graduate study
-  - **PAD 6250**
-    - unrecognized: Admission to graduate study
 
 ### ms-digital-financial-technologies (graduate)
 
 - Build warnings:
   - **FIS 6815**
-    - unrecognized: Full admission to the Digital Financial Technologies
     - unrecognized: M.S
     - missing operator before 'M.S', assumed and
   - **FIS 6870**
-    - unrecognized: Full admission to the Digital Financial Technologies
     - unrecognized: M.S
     - missing operator before 'M.S', assumed and
   - **FIS 6880**
-    - unrecognized: Full admission to the Digital Financial Technologies
     - unrecognized: M.S
     - missing operator before 'M.S', assumed and
   - **IS 7060**
@@ -851,18 +492,10 @@
 ### ms-integrative-biology (graduate)
 
 - Build warnings:
-  - **BIOL 6399**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Integrative Biology program
   - **BIOL 7410**
-    - unrecognized: Admission to Integrative Biology
     - unrecognized: MS
     - missing operator before 'MS', assumed and
-  - **BIOL 7420**
-    - unrecognized: Enrollment in the M.S. in Integrative Biology Program
   - **BIOL 7998**
-    - unrecognized: 18 credit hours of graduate coursework in the Integrative Biology
-    - unrecognized: M.S. program
     - missing operator before 'M.S. program', assumed and
 
 ### ms-intelligent-robotic-systems (graduate)
@@ -882,23 +515,15 @@
   - **MTRE 6750**
     - unrecognized: in Intelligent Robotic Systems
     - missing operator before 'in Intelligent Robotic Systems', assumed and
-  - **MTRE 6800**
-    - unrecognized: Admission to the MS ​program in Intelligent Robotic Systems
 
 ### ms-international-policy-management (graduate)
 
 - Build warnings:
+  - **IPM 7756**
+    - missing operator before '(', assumed and
   - **IPM 7760**
     - unrecognized: Completion of first-year fall
     - unrecognized: spring semesters
-- Drafting warnings:
-  - unrecognized section 'Additional Courses (15 Credit Hours)'
-
-### ms-prosthetics-and-orthotics (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Clinical Practicum (7 Credit Hours)'
-  - unrecognized section 'Research Seminars (3 Credit Hours)'
 
 ### ms-technology-management-and-leadership (graduate)
 
@@ -919,8 +544,6 @@
   - **IS 7800**
     - unrecognized: director
     - missing operator before 'director', assumed and
-  - **IS 7910**
-    - unrecognized: Must be approved by graduate program director
   - **IS 7935**
     - unrecognized: director
     - missing operator before 'director', assumed and
@@ -938,7 +561,6 @@
     - unrecognized: equivalent
   - **CE 6104**
     - unrecognized: equivalent
-    - unrecognized: approval by instructor
     - ambiguous and/or precedence: CE 3701 and CE 4105 (or equivalent), or approval by instructor
     - could not parse (unexpected 'or'): CE 3701 and CE 4105 (or equivalent), or approval by instructor
   - **CE 6105**
@@ -950,7 +572,6 @@
     - unrecognized: equivalent
     - could not parse (unexpected 'or'): CE 3501 (or equivalent), or approval of advisor
   - **CE 6302**
-    - unrecognized: Admission to program
     - unrecognized: equivalent
     - ambiguous and/or precedence: Admission to program and CE 3702 or equivalent
   - **CE 6333**
@@ -962,26 +583,8 @@
   - **ENGR 6002**
     - unrecognized: in Engineering
     - missing operator before 'in Engineering', assumed and
-  - **CE 3201**
-    - unrecognized: Engineering Standing
-  - **CE 4177**
-    - unrecognized: Engineering Standing
-  - **CE 3501**
-    - unrecognized: Engineering Standing
-  - **CE 3702**
-    - unrecognized: Engineering Standing
   - **CE 3343**
     - course page not found ('CE 3343')
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3305**
-    - unrecognized: Engineering Standing Requirements
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
   - **CE 6303**
     - prerequisites can't be met by courses on the map (text only: CE 3343)
 
@@ -997,28 +600,20 @@
   - **MSCM 7230**
     - unrecognized: in consultation with faculty
     - missing operator before 'in consultation with faculty', assumed and
-  - **MSCM 7315**
-    - unrecognized: Admission to graduate study
   - **MSCM 7320**
     - unrecognized: in consultation with faculty
     - ambiguous and/or precedence: Admission to the MSCM program or permission of the program director in consultation with faculty, MSCM 7210, MSCM 7220, MSCM 7230, and MSCM 7310
   - **MSCM 7321**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7501**
-    - unrecognized: Admission to the INCM
     - unrecognized: MSCM programs
   - **MSCM 7502**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7511**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7512**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7708**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
 
 ### msem-engineering-management (graduate)
@@ -1027,253 +622,122 @@
   - **IS 7090**
     - unrecognized: Full
 
-### msn-family-nurse-practitioner (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Family Curriculum (10 Credit Hours)'
-  - unrecognized section 'Residency (17 Credit Hours)'
-
-### msn-leadership-in-nursing (graduate)
-
-- Build warnings:
-  - **NURS 7711**
-    - unrecognized: Admission into MSN program
-    - unrecognized: permission from program director
-
 ### msswe-software-engineering (graduate)
 
 - Build warnings:
   - **CS 7125**
     - unrecognized: Equivalent
-  - **CS 7385**
-    - unrecognized: Program Admission
-    - unrecognized: Permission of Director
   - **CS 7455**
     - unrecognized: Coursework in Computer Programming
-    - unrecognized: as determined by program admission
     - missing operator before 'as determined by program admission', assumed and
   - **CS 7535**
     - unrecognized: a Bachelor of Science in Computer Science degree
   - **CS 7827**
     - unrecognized: Coursework in Operating Systems
-    - unrecognized: as determined by program admission
     - missing operator before 'as determined by program admission', assumed and
-  - **SWE 6753**
-    - unrecognized: permission by the program coordinator
-  - **SWE 6783**
-    - unrecognized: permission by the program coordinator
   - **SWE 6883**
-    - unrecognized: ;
-    - unrecognized: permission by program coordinator
-    - ambiguous and/or precedence: SWE 6623 and SWE 6613; or permission by program coordinator
-- Drafting warnings:
-  - unrecognized section 'plus a course covering the entire software development lifecycle'
-  - unrecognized section 'Approved SYE Courses:'
+    - could not parse (unexpected 'or'): SWE 6623 and SWE 6613; or permission by program coordinator
 
 ### msw-social-work (graduate)
 
 - Build warnings:
-  - **SW 7801**
-    - unrecognized: Advanced Standing in the MSW Program
+  - **SW 7802**
+    - unrecognized: All MSW Foundational-Level courses
+  - **SW 7803**
+    - unrecognized: All MSW Foundation-Level courses
+  - **SW 7807**
+    - unrecognized: All MSW Foundation-Level courses
+  - **SW 7830**
+    - unrecognized: All MSW Foundational-Level courses
   - **SW 7929**
     - unrecognized: All MSW Foundational-Level courses
-    - unrecognized: Advanced Standing in MSW program
-- Drafting warnings:
-  - unrecognized section 'Foundational MSW Course Sequence (30 Credit Hours)'
-  - unrecognized section 'Advanced Clinical Courses (21 Credit Hours)'
-
-### phd-business-administration (graduate)
-
-- Build warnings:
-  - **ACCT 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **ECON 9001**
-    - unrecognized: Admission into the Coles PhD in Business Administration Program
-  - **ECON 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **IS 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9008**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **MGT 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9008**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **MKTG 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9008**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **BRM 9201**
-    - unrecognized: Admission into the PhD in Business Administration
-    - unrecognized: Post-Master's Certificate in Business Research Methods
-- Drafting warnings:
-  - unrecognized section 'Business Research Methods Courses (15 Credit Hours)'
 
 ### phd-computer-science (graduate)
 
 - Build warnings:
   - **CS 8025**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8041**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8045**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8050**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8125**
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D., Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8260**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8265**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
   - **CS 8267**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
-    - unrecognized: Interdisciplinary Engineering Ph.D. program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
   - **CS 8998**
     - unrecognized: Varies depending on the topic
-- Drafting warnings:
-  - unrecognized section 'Dissertation (24-30 Credit Hours)'
 
 ### phd-data-science-and-analytics (graduate)
 
 - Build warnings:
   - **CS 8265**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
   - **CS 8267**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
-    - unrecognized: Interdisciplinary Engineering Ph.D. program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
-  - **MATH 8020**
-    - unrecognized: permission by the department
-  - **MATH 8030**
-    - unrecognized: permission by the department
   - **STAT 8240**
     - unrecognized: in Analytics
     - unrecognized: Data Science
-    - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
     - unrecognized: Data Science
     - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
-- Drafting warnings:
-  - unrecognized section 'Research (33 Credit Hours)'
 
 ### phd-interdisciplinary-engineering (graduate)
 
 - Build warnings:
-  - **ENGR 8001**
-    - unrecognized: Admission to the Interdisciplinary Engineering
+  - **CE 8201**
     - unrecognized: Ph.D
     - missing operator before 'Ph.D', assumed and
-- Drafting warnings:
-  - unrecognized section 'Intelligent Robotic Systems'
-  - unrecognized section 'Smart infrastructure'
-  - unrecognized section 'Biomedical and Health Systems'
-  - unrecognized section 'Innovative Materials'
-  - unrecognized section 'Research (36 Credit Hours)'
+  - **CS 8267**
+    - unrecognized: Analytics
+    - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
+  - **ENGR 8001**
+    - unrecognized: Ph.D
+    - missing operator before 'Ph.D', assumed and
 
 ### phd-international-conflict-management (graduate)
 
 - Build warnings:
   - **MSCM 7321**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7502**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7708**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-- Drafting warnings:
-  - unrecognized section 'Advanced Research Methods (3 Credit Hours)'
-  - unrecognized section 'Dissertation Research (9-15 Credit Hours)'
 
 ### ba-asian-studies (undergraduate)
 
 - Build warnings:
-  - **ASIA 3306**
-    - unrecognized: Completion of 30 credit hours
-  - **ASIA 3308**
-    - unrecognized: Completion of 30 credit hours
+  - **CHIN 1002**
+    - unrecognized: the equivalent
   - **CHIN 3200**
     - unrecognized: equivalent
   - **CHIN 3302**
     - unrecognized: equivalent
-  - **HIST 3372**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3373**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3374**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3375**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3380**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3381**
-    - unrecognized: Must have earned at least 30 credit hours
+  - **JAPN 1002**
+    - unrecognized: the equivalent
   - **JAPN 3200**
     - unrecognized: the equivalent
   - **JAPN 3302**
     - unrecognized: the equivalent
   - **JAPN 3304**
+    - unrecognized: the equivalent
+  - **KOR 1002**
     - unrecognized: the equivalent
   - **KOR 3200**
     - unrecognized: the equivalent
@@ -1283,18 +747,6 @@
     - unrecognized: the equivalent
   - **KOR 3304**
     - unrecognized: the equivalent
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **ORGC 3325**
-    - unrecognized: 60+ credit hours
   - **SA 4490**
     - unrecognized: Varies with discipline
     - unrecognized: subject
@@ -1302,146 +754,61 @@
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **CHIN 1002**
-    - unrecognized: the equivalent
-  - **JAPN 1002**
-    - unrecognized: the equivalent
-  - **KOR 1002**
-    - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Lower-Division Asian Language Courses (9 Credit Hours)'
 
 ### ba-dance (undergraduate)
 
 - Build warnings:
-  - **DANC 1900**
-    - unrecognized: Declared Dance Major
   - **DANC 2000**
-    - unrecognized: Must be a Dance Major
     - unrecognized: Dance Minor
-    - unrecognized: Dance- Interest;
-    - ambiguous and/or precedence: Must be a Dance Major, Dance Minor, or Dance- Interest; and ENGL 1101
+    - unrecognized: Dance- Interest
+    - could not parse (unexpected 'and'): Must be a Dance Major, Dance Minor, or Dance- Interest; and ENGL 1101
   - **DANC 2715**
-    - unrecognized: Dance Major
     - unrecognized: Dance Minor
-  - **DANC 3001**
-    - unrecognized: Dance Major
-  - **DANC 3110**
-    - unrecognized: Dance Major
-  - **DANC 3210**
-    - unrecognized: Dance Major
   - **DANC 3240**
-    - unrecognized: Dance Major
     - unrecognized: Dance Minor
-  - **DANC 3310**
-    - unrecognized: Dance Major
-  - **DANC 3620**
-    - unrecognized: Dance Major
+  - **DANC 3550**
+    - unrecognized: Dance
+    - unrecognized: Dance Minor
   - **DANC 4010**
-    - unrecognized: declared Dance Major
     - unrecognized: Minor
     - ambiguous and/or precedence: DANC 2000 and declared Dance Major or Minor
   - **DANC 4100**
-    - unrecognized: declared Dance Major
     - unrecognized: Minor
     - ambiguous and/or precedence: DANC 2000 and declared Dance Major or Minor
-  - **DANC 4250**
-    - unrecognized: Dance Major
   - **DANC 4300**
-    - unrecognized: declared Dance Major
     - unrecognized: Minor
     - ambiguous and/or precedence: DANC 2000 and declared Dance Major or Minor
-  - **DANC 4850**
-    - unrecognized: Dance Major
-- Drafting warnings:
-  - unrecognized section 'Creative Process Courses (5 Credit Hours)'
-  - unrecognized section 'Applied Profession Skills (3 Credit Hours)'
+  - **DANC 4714**
+    - unrecognized: Audition
 
 ### ba-english (undergraduate)
 
 - Build warnings:
+  - **ENGL 4620**
+    - unrecognized: Completion of 90 hours
   - **LING 3020**
     - unrecognized: One of the following courses:
     - unrecognized: Inactive
     - unrecognized: Inactive
     - unrecognized: Inactive
     - missing operator before '[', assumed and
-- Drafting warnings:
-  - unrecognized section 'Introduction to English Studies (3 Credit Hours)'
-  - unrecognized section 'World Literature (3 Credit Hours)'
-  - unrecognized section 'Linguistics (3 Credit Hours)'
-  - unrecognized section 'Writing (3 Credit Hours)'
-  - unrecognized section 'Film, TV, and Screen (3 Credit Hours)'
-  - unrecognized section 'Cultural Studies (3 Credit Hours)'
-  - unrecognized section 'Literature (3 Credit Hours)'
-  - unrecognized section 'Theory (3 Credit Hours)'
-  - unrecognized section 'Professionalization and Career Preparation (3 Credit Hours)'
-  - unrecognized section 'Senior Seminar (3 Credit Hours)'
 
 ### ba-geography (undergraduate)
 
 - Build warnings:
+  - **GEOG 3000**
+    - unrecognized: Students must be 21 years of age
   - **GEOG 4100**
-    - unrecognized: Any upper-division geography course;
+    - unrecognized: Any upper-division geography course
     - unrecognized: chair
   - **GEOG 4499**
     - unrecognized: Students must be GEOG
-    - unrecognized: GSS major with 60+ credit hours
-- Drafting warnings:
-  - unrecognized section 'Group A: Human/Regional Geography'
-  - unrecognized section 'Group B: Physical/Environmental Geography'
-  - unrecognized section 'Group C: Geographic Techniques'
-  - unrecognized section 'Group D: Miscellaneous Courses'
 
 ### ba-history (undergraduate)
 
 - Build warnings:
-  - **HIST 3100**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3325**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3326**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3327**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3328**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3376**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3377**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3378**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 4425**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4426**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4427**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4430**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4435**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4495**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4496**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4497**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4498**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4911**
-    - unrecognized: Must have earned at least 45 credit hours
   - **WLC 1002**
     - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Non-Western History Courses (6 Credit Hours)'
-  - unrecognized section 'U.S. History Courses (6 Credit Hours)'
-  - unrecognized section 'European History Courses (6 Credit Hours)'
 
 ### ba-international-affairs (undergraduate)
 
@@ -1451,120 +818,88 @@
     - ambiguous and/or precedence: Consent of the instructor and department chair, and POLS 2280 or ACCT 2101 or ECON 2300
   - **WLC 1002**
     - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Lower-Division Career Program (6 Credit Hours)'
 
 ### ba-modern-language-and-culture (undergraduate)
 
 - Build warnings:
+  - **CHIN 1002**
+    - unrecognized: the equivalent
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
+  - **FREN 1002**
+    - unrecognized: the equivalent
+  - **GRMN 1002**
+    - unrecognized: the equivalent
   - **IS 2200**
     - unrecognized: higher
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **WLED 4650**
-    - unrecognized: Admission to Teacher Education
-    - unrecognized: Issued Pre-Service Certificate
-    - unrecognized: Admission to Yearlong Clinical Experience
+  - **ITAL 1002**
+    - unrecognized: the equivalent
+  - **JAPN 1002**
+    - unrecognized: the equivalent
+  - **KOR 1002**
+    - unrecognized: the equivalent
+  - **PORT 1002**
+    - unrecognized: the equivalent
+  - **PORT 2001**
+    - unrecognized: equivalent
+  - **PORT 2002**
+    - unrecognized: equivalent
+  - **SPAN 1002**
+    - unrecognized: the equivalent
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-- Drafting warnings:
-  - unrecognized section 'Chinese'
-  - unrecognized section 'French'
-  - unrecognized section 'German'
-  - unrecognized section 'Italian'
-  - unrecognized section 'Japanese'
-  - unrecognized section 'Korean'
-  - unrecognized section 'Spanish'
-  - unrecognized section 'Chinese'
-  - unrecognized section 'French'
-  - unrecognized section 'German'
-  - unrecognized section 'Italian'
-  - unrecognized section 'Japanese'
-  - unrecognized section 'Korean'
-  - unrecognized section 'Portuguese'
-  - unrecognized section 'Spanish'
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### ba-theatre-and-performance-studies (undergraduate)
 
 - Build warnings:
+  - **SA 4490**
+    - unrecognized: Varies with discipline
+    - unrecognized: subject
   - **TPS 1500**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
-  - **TPS 1510**
-    - unrecognized: TPS Major
   - **TPS 1600**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 1713**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 2203**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 2715**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 2813**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 3000**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 1600', assumed and
   - **TPS 3015**
     - unrecognized: Declared Theatre
-    - unrecognized: Performance Studies Major
-  - **TPS 3400**
-    - unrecognized: TPS Major.
   - **TPS 3403**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 1500', assumed and
   - **TPS 3500**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 3403', assumed and
   - **TPS 3600**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 1600', assumed and
-  - **TPS 3703**
-    - unrecognized: TPS Major
+  - **TPS 4010**
+    - unrecognized: . Audition required
+    - missing operator before '. Audition required', assumed and
+  - **TPS 4020**
+    - unrecognized: Entrance by audition
+    - unrecognized: application
+    - ambiguous and/or precedence: Entrance by audition or application and acceptance into Musical Theatre Ensemble
   - **TPS 4030**
     - unrecognized: Audition
     - unrecognized: /
@@ -1572,29 +907,16 @@
     - ambiguous and/or precedence: Audition and/or the approval of the instructor
     - missing operator before 'approval of the instructor', assumed and
   - **TPS 4313**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 3403', assumed and
   - **TPS 4323**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 3403', assumed and
   - **TPS 4333**
     - unrecognized: /department
     - missing operator before '/department', assumed and
-- Drafting warnings:
-  - unrecognized section 'Applied Professional Sequence (6 Credit Hours)'
 
 ### bas-information-technology (undergraduate)
 
 - Build warnings:
-  - **IT 3203**
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
   - **IT 3883**
     - unrecognized: minimum grade of 'C'
     - unrecognized: minimum grade of 'C'
@@ -1607,764 +929,184 @@
 
 - Build warnings:
   - **ARCH 1000**
-    - unrecognized: ARCH Majors
     - unrecognized: Minors Only
-- Drafting warnings:
-  - unrecognized section 'Lower-Division Studio (16 Credit Hours)'
-  - unrecognized section 'Upper-Division Studio (24 Credit Hours)'
+  - **ARCH 1001**
+    - unrecognized: Minors Only
+  - **ARCH 3011**
+    - unrecognized: Traditional Track:
+    - unrecognized: Accelerated Track:
 
 ### bba-accounting (undergraduate)
 
 - Build warnings:
-  - **ACCT 3100**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - missing operator before 'ACCT 2101', assumed and
-  - **ACCT 3200**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a minimum GPA of 2.0
-    - ambiguous and/or precedence: Grade of "B" or higher in ACCT 2101 and ACCT 2102, and a minimum GPA of 2.0
-  - **ACCT 3300**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4050**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4100**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4150**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4152**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4200**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4250**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4300**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4350**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4550**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4600**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4700**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4800**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-economics (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **ECON 4510**
-    - unrecognized: BBA major
-    - unrecognized: Coles Partner Student
-  - **ECON 4610**
-    - unrecognized: BBA major
-    - unrecognized: Coles Partner Student
-  - **ECON 4710**
-    - unrecognized: a Coles Partner Student
-  - **ECON 4990**
-    - unrecognized: BBA major
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
+  - **ECON 4730**
+    - could not parse (per-major clauses): Business Majors: Admission to the Coles College of Business; Non-Business Majors: ECON 2300 or STAT 1401
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
-- Drafting warnings:
-  - unrecognized section 'Group A (9-12 Credit Hours)'
-  - unrecognized section 'Group B (0-3 Credit Hours)'
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-entrepreneurship (undergraduate)
 
 - Build warnings:
-  - **ACCT 4700**
-    - unrecognized: a Coles Partner Student
   - **BUSA 3500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **ENTR 3001**
-    - unrecognized: completion of 30 credit hours
-    - unrecognized: a minimum cumulative GPA of 2.00
-  - **ENTR 4002**
-    - unrecognized: a Coles Partner Student
-  - **ENTR 4003**
-    - unrecognized: a Coles Partner Student
-  - **ENTR 4004**
-    - unrecognized: a Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **FIN 4260**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 3300**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 3410**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4260**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4470**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4520**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 3100**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - missing operator before 'ACCT 2101', assumed and
-  - **ACCT 3200**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a minimum GPA of 2.0
-    - ambiguous and/or precedence: Grade of "B" or higher in ACCT 2101 and ACCT 2102, and a minimum GPA of 2.0
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-finance (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
+  - **BLAW 3400**
+    - unrecognized: with minimum grade of "C"
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
+  - **ECON 4730**
+    - could not parse (per-major clauses): Business Majors: Admission to the Coles College of Business; Non-Business Majors: ECON 2300 or STAT 1401
   - **FIN 4199**
     - unrecognized: Finance
-    - unrecognized: BBA major
-    - unrecognized: 90 credit hours completed
-  - **FIN 4220**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4260**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4320**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4360**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4420**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4460**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4520**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4560**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4590**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: Admission to the Coles College. Membership in Student Managed Investment Fund
-  - **FIN 4620**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
+  - **RE 3400**
+    - ambiguous and/or precedence: FIN 3100, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
   - **RE 4500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: FIN 3100, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
-- Drafting warnings:
-  - unrecognized section 'Related Studies (6 Credit Hours)'
-  - unrecognized section 'I. Capital Markets'
-  - unrecognized section 'II. Corporate Finance'
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-hospitality-management (undergraduate)
 
 - Build warnings:
-  - **BLAW 4960**
-    - unrecognized: a Coles Partner Student
   - **BUSA 3500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **ENTR 4125**
-    - unrecognized: a Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **HMGT 3300**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 3397**
-    - unrecognized: Hospitality management major
-  - **HMGT 3500**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 4100**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 4300**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 4500**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3190**
-    - unrecognized: a Coles Partner Student
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
-  - **MGT 3600**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4123**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4124**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4161**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4174**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4190**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MGT 4476**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4880**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 4830**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4880**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-information-systems (undergraduate)
 
 - Errors:
   - schema: courses/27/credits: '' does not match '^\\d+(-\\d+)?$'
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3040**
-    - unrecognized: a Coles Partner Student
-  - **IS 3060**
-    - unrecognized: a Coles Partner Student
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **IS 3397**
     - unrecognized line: 0 or 3 Credit Hours
     - no credit hours found
-    - unrecognized: approval of the Career
     - unrecognized: Internship Advisor
     - unrecognized: KSU Career Planning
     - unrecognized: Development
     - missing operator before '(', assumed and
   - **IS 4880**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: IS 3020, IS 3280, and IS 3060, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-management (undergraduate)
 
 - Build warnings:
   - **BLAW 3400**
     - unrecognized: with minimum grade of "C"
-    - unrecognized: a Coles Partner Student
-  - **BLAW 4960**
-    - unrecognized: a Coles Partner Student
   - **BUSA 3500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **HMGT 3300**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4001**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4002**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4003**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4004**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4174**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4190**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MGT 4476**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4800**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 4260**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4470**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **MGT 3600**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-marketing (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 3150**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 3410**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4100**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4500**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4990**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-professional-sales (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 3410**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4220**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4430**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4450**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4470**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4980**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bfa-art (undergraduate)
 
 - Build warnings:
   - **ANIM 3620**
     - unrecognized: passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA Digital Animation
   - **ARED 3302**
@@ -2372,108 +1114,78 @@
     - unrecognized: Design
   - **ARED 3304**
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Pre-Service Certificate
   - **ARED 3306**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certificate
   - **ARED 3308**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certificate
   - **ARED 4410**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
   - **ARED 4650**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
   - **ARED 4660**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
   - **ARH 3850**
     - unrecognized: Art majors:
     - unrecognized: . Non art majors:
   - **ARH 4990**
-    - unrecognized: ; senior status
-    - missing operator before '; senior status', assumed and
+    - unrecognized: senior status
   - **ART 1100**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1150**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1200**
     - unrecognized: This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2150**
     - unrecognized: . This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2550**
     - unrecognized: .This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2990**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA in Digital Animation
   - **ART 3020**
     - unrecognized: - may also be taken concurrently
     - missing operator before '- may also be taken concurrently', assumed and
-  - **ART 3120**
-    - unrecognized: full admission into the art program
-  - **ART 3410**
-    - unrecognized: acceptance into the art major
   - **ART 3510**
-    - unrecognized: ;
     - unrecognized: may also be taken concurrently
-    - missing operator before ';', assumed and
-    - missing operator before 'ART 2990', assumed and
     - missing operator before '(', assumed and
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-- Drafting warnings:
-  - unrecognized section '2-D Courses'
-  - unrecognized section '3-D Courses'
 
 ### bfa-digital-animation (undergraduate)
 
 - Build warnings:
-  - **ANIM 1550**
-    - unrecognized: Admission to the Digital Animation BFA
   - **ANIM 3620**
     - unrecognized: passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA Digital Animation
   - **ARH 3850**
@@ -2481,67 +1193,52 @@
     - unrecognized: . Non art majors:
   - **ART 1100**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1150**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1200**
     - unrecognized: This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2150**
     - unrecognized: . This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2550**
     - unrecognized: .This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2990**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA in Digital Animation
-- Drafting warnings:
-  - unrecognized section 'Senior Review Exhibition (3 Credit Hours)'
 
 ### bm-music (undergraduate)
 
 - Build warnings:
   - **MUAP 2102**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: minor
   - **MUAP 3101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: have taken
     - unrecognized: passed four semesters of
     - missing operator before 'MUAP 2101', assumed and
-  - **MUAP 3102**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3353**
-    - unrecognized: Must be a fully admitted music major
   - **MUEN 3343**
     - unrecognized: Audition
   - **MUEN 3344**
@@ -2554,23 +1251,22 @@
     - unrecognized: Audition
   - **MUEN 3348**
     - unrecognized: Audition
-  - **MUEN 3352**
-    - unrecognized: Enrollment by audition only
+  - **MUSI 1165**
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
   - **MUSI 3333**
-    - unrecognized: Must be a fully admitted music major;
-  - **MUSI 3334**
-    - unrecognized: Must be a fully admitted music major
+    - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
   - **MUSI 3390**
     - unrecognized: completion of
     - missing operator before 'MUTC 3200', assumed and
-  - **MUSI 4430**
-    - unrecognized: Must be a fully admitted music major
   - **MUTC 2100**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
   - **MUTC 2110**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
   - **MUTC 3326**
     - unrecognized: "
     - missing operator before '"', assumed and
@@ -2578,65 +1274,25 @@
     - ambiguous and/or precedence: MUTC 3327 or MUTC 3372 and permission of the instructor
   - **MUTC 4496**
     - unrecognized: Completion of 90 hours of course work
-    - unrecognized: admitted music major
   - **MUTC 4497**
     - unrecognized: completion of 90 hours of coursework
   - **MUTH 1000**
     - unrecognized: Music
-    - unrecognized: B.M. major
     - missing operator before 'B.M. major', assumed and
   - **MUAP 2101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: minor
-- Drafting warnings:
-  - unrecognized section 'Applied Lessons (2 Credit Hours)'
-  - unrecognized section 'Theory/Aural Skills Sequence (6 Credit Hours)'
-  - unrecognized section 'Group 1'
-  - unrecognized section 'Group 2'
 
 ### bm-music-education (undergraduate)
 
 - Build warnings:
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **MUAP 2101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: minor
-  - **MUAP 3100**
-    - unrecognized: Must be a fully admitted music minor
   - **MUAP 3101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: have taken
     - unrecognized: passed four semesters of
     - missing operator before 'MUAP 2101', assumed and
-  - **MUED 3005**
-    - unrecognized: admission into Teacher Education Program
-  - **MUED 3308**
-    - unrecognized: ;
-    - missing operator before ';', assumed and
-    - missing operator before 'admission to the Teacher Education program', assumed and
-  - **MUED 3351**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3353**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3355**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3357**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3361**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3365**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3366**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3370**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3371**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 4650**
-    - unrecognized: Admission to Music Education Admission to Teacher Education Admission to Yearlong Clinical Experience Issued Pre-service Certificate
   - **MUED 4660**
     - unrecognized: Educator Ethics Assessment 360 Eligibility
     - unrecognized: GACE Eligibility
@@ -2644,101 +1300,31 @@
     - unrecognized: Membership is open to all students with previous experience playing an instrument
   - **MUEN 3345**
     - unrecognized: Audition
+  - **MUEN 3346**
+    - unrecognized: Audition
   - **MUEN 3347**
     - unrecognized: Audition
   - **MUEN 3348**
     - unrecognized: Audition
-  - **MUSI 3336**
-    - unrecognized: Must be a fully-admitted music major
-  - **MUTC 2100**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
-  - **MUTC 2110**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
   - **MUSI 1165**
-    - unrecognized: Must be a fully admitted music major; placement determined by proficiency test
-- Drafting warnings:
-  - unrecognized section 'Group 1'
-  - unrecognized section 'Group 2'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-
-### bs-aerospace-engineering (undergraduate)
-
-- Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 3803**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4802**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **MATH 2335**
-    - unrecognized: A grade of 'C'
-    - unrecognized: higher in
-    - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
-  - **ME 3410**
-    - unrecognized: Engineering Standing
-  - **ME 3705**
-    - unrecognized: Engineering Standing
-  - **ME 4520**
-    - unrecognized: Engineering Standing
-  - **ME 3440**
-    - unrecognized: Engineering Standing
-  - **ENGR 3125**
-    - unrecognized: Engineering Standing
-  - **ME 3343**
-    - unrecognized: Engineering Standing
-
-### bs-anthropology (undergraduate)
-
-- Drafting warnings:
-  - unrecognized section 'Foundations in Anthropology (9 Credit Hours)'
-  - unrecognized section 'Anthropological Applications (6 Credit Hours)'
-  - unrecognized section 'Cultural Anthropology'
-  - unrecognized section 'Biological Anthropology'
-  - unrecognized section 'Archaeology'
-
-### bs-artificial-intelligence (undergraduate)
-
-- Build warnings:
-  - **AI 4850**
-    - unrecognized: completion of 90 credit hours
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
+  - **MUSI 3333**
+    - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
+  - **MUTC 2100**
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
+  - **MUTC 2110**
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
 
 ### bs-biochemistry (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-- Drafting warnings:
-  - unrecognized section 'Supporting Discipline Courses (23 Credit Hours)'
+  - **SCM 2000**
+    - unrecognized: Mathematics
 
 ### bs-biology (undergraduate)
 
@@ -2747,136 +1333,50 @@
     - unrecognized: comparable research methods course
     - ambiguous and/or precedence: (BIOL 1107 and BIOL 1107L) and (BIOL 1108 and BIOL 1108L) or comparable research methods course
   - **BIOL 4399**
-    - unrecognized: 90 credit hours
     - ambiguous and/or precedence: BIOL 3410 and 90 credit hours or permission of the instructor
   - **BIOL 4465**
-    - unrecognized: ; Recommended -
-    - missing operator before '; Recommended -', assumed and
+    - unrecognized: Recommended -
     - missing operator before 'BIOL 3340', assumed and
   - **BIOL 4475**
-    - unrecognized: ; Recommended -
-    - missing operator before '; Recommended -', assumed and
+    - unrecognized: Recommended -
     - missing operator before 'BIOL 3340', assumed and
   - **BIOL 4486**
     - unrecognized: plus a minimum of 9 additional hours of 3000-4000 level Biology
     - unrecognized: Biochemistry
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
   - **PSYC 3000**
     - unrecognized: Any 1000-level MATH course
-    - unrecognized: ;
-    - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+    - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
-  - **PSYC 2210**
-    - unrecognized: ; Declared Psychology major
-    - missing operator before '; Declared Psychology major', assumed and
 
 ### bs-chemistry (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
   - **CHEM 4100**
-    - unrecognized: Junior level status;
+    - unrecognized: Junior level status
     - unrecognized: chair
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
 
 ### bs-civil-engineering (undergraduate)
 
 - Build warnings:
-  - **CE 3201**
-    - unrecognized: Engineering Standing
-  - **CE 3501**
-    - unrecognized: Engineering Standing
-  - **CE 3702**
-    - unrecognized: Engineering Standing
   - **CE 3704**
     - unrecognized: concurrent registration
-  - **CE 4177**
-    - unrecognized: Engineering Standing
-  - **CE 4703**
-    - unrecognized: Engineering Standing
-  - **CE 4800**
-    - unrecognized: Engineering Standing
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3305**
-    - unrecognized: Engineering Standing Requirements
   - **ENGR 3324**
-    - unrecognized: Engineering Standing
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
-- Drafting warnings:
-  - unrecognized section 'CEDG 1 - Environmental Engineering'
-  - unrecognized section 'CEDG 2 - Geotechnical/Transportation Engineering'
-  - unrecognized section 'CEDG 3 - Other Engineering'
 
 ### bs-computer-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CPE 3000**
-    - unrecognized: Engineering Standing
-  - **CPE 3020**
-    - unrecognized: Engineering Standing
-  - **CPE 3030**
-    - unrecognized: Engineering Standing
-  - **CPE 3500**
-    - unrecognized: Engineering Standing
-  - **CPE 4010**
-    - unrecognized: Engineering Standing
-  - **CPE 4020**
-    - unrecognized: Engineering Standing
   - **CPE 4810**
     - unrecognized: Senior Status
-    - unrecognized: Engineering Standing
-  - **CPE 4820**
-    - unrecognized: Engineering Standing
-  - **CPE 4903**
-    - unrecognized: Engineering Standing
-  - **EE 4201**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
 
 ### bs-construction-management (undergraduate)
 
 - Build warnings:
+  - **CM 3310**
+    - missing operator before 'CM 3110', assumed and
   - **CM 4560**
     - missing operator before 'CM 3410', assumed and
   - **ECON 2105**
@@ -2885,152 +1385,70 @@
     - unrecognized: higher
   - **IS 2200**
     - unrecognized: higher
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-- Drafting warnings:
-  - unrecognized section 'General Construction - Commercial (GC/CM)'
-  - unrecognized section 'Heavy Civil Construction and Land Development'
-  - unrecognized section 'Specialty Trade Construction/Facilities Management'
-  - unrecognized section 'Residential Construction'
 
 ### bs-criminal-justice (undergraduate)
 
 - Build warnings:
   - **CRJU 4499**
-    - unrecognized: ;
-    - unrecognized: ; Criminal Justice Major;
-    - unrecognized: 90 credit hours
+    - could not parse (unexpected 'and'): CRJU 1101; CRJU 3301; Criminal Justice Major; and 90 credit hours
   - **SA 4490**
     - unrecognized: Varies with discipline
     - unrecognized: subject
   - **SPAN 2034**
     - unrecognized: One year of high school Spanish
     - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Cultural Diversity (3 Credit Hours)'
 
 ### bs-cybersecurity (undergraduate)
 
 - Errors:
   - schema: courses/14/credits: '' does not match '^\\d+(-\\d+)?$'
 - Build warnings:
-  - **CYBR 2310**
-    - unrecognized: both with a grade of "C"
-    - unrecognized: higher
-    - ambiguous and/or precedence: IT 1114 and CSE 1321, both with a grade of "C" or higher
   - **CYBR 3100**
-    - unrecognized: admission to the Cybersecurity major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Undergraduate Cybersecurity Certificate
     - ambiguous and/or precedence: (CSE 1321 and CSE 1321L), and admission to the Cybersecurity major, Cybersecurity Minor, or Undergraduate Cybersecurity Certificate
   - **CYBR 3153**
-    - unrecognized: Cybersecurity major
     - ambiguous and/or precedence: (CSE 1322 and CSE 1322L) or IT 1113 or (IT 1114 and IT 1114L) and Cybersecurity major
   - **CYBR 3200**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: CYBR 3100 and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
   - **CYBR 3210**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: (CSE 1321 and CSE 1321L), and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
-  - **CYBR 3220**
-    - unrecognized: Cybersecurity Major
   - **CYBR 3223**
     - unrecognized: CSE 1321and
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: (CSE 1321and CSE 1321L) or IT 1113, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
     - missing operator before 'CSE 1321L', assumed and
   - **CYBR 3300**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: CYBR 3100, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
-  - **CYBR 3305**
-    - unrecognized: Cybersecurity Major
   - **CYBR 3397**
     - unrecognized line: 3, 6 or 9 Credit Hours
     - no credit hours found
-    - unrecognized: approval by the Career
     - unrecognized: Internship Advisor
   - **CYBR 3423**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 3123 or IT 3123, and Cybersecurity Major
-  - **CYBR 4200**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4220**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4305**
-    - unrecognized: Cybersecurity Major
   - **CYBR 4323**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 3123 or IT 3123, and Cybersecurity Major
   - **CYBR 4330**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: CYBR 3300, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
   - **CYBR 4333**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 4323 or IT 4323 and Cybersecurity Major
-  - **CYBR 4350**
-    - unrecognized: Cybersecurity Major
   - **CYBR 4423**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 3423 or IT 3423, and Cybersecurity Major
-  - **CYBR 4810**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4833**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4843**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4853**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4883**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4893**
-    - unrecognized: Cybersecurity Major
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bs-early-childhood-education-birth-through-kindergarten (undergraduate)
 
 - Build warnings:
-  - **ECE 3575**
-    - unrecognized: Admission the Teacher Education
-  - **ECE 4525**
-    - unrecognized: ;
-    - missing operator before ';', assumed and
-    - missing operator before 'EDUC 2120', assumed and
-  - **ECE 4535**
-    - unrecognized: Admission into Teacher Education
-  - **ECE 4545**
-    - unrecognized: Admission to Teacher Education
-  - **ECE 4555**
-    - unrecognized: Admission to Teacher Education
   - **ECE 4650**
-    - unrecognized: Admission to Teacher Education
-    - unrecognized: Admission to the Yearlong Clinical Experience
-    - unrecognized: Issued Pre-Service Certificate
     - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
     - missing operator before 'Issued Pre-Service Certificate', assumed and
   - **ECE 4660**
-    - unrecognized: ; Eligibility to take GACE
-    - missing operator before '; Eligibility to take GACE', assumed and
+    - unrecognized: Eligibility to take GACE
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **ISCI 2001**
     - unrecognized: Completion of any four-hour laboratory science course at the 1000
@@ -3040,9 +1458,7 @@
     - unrecognized: 2000 level
   - **MATH 2008**
     - unrecognized: The completion of Mathematics
-    - unrecognized: Applied Math IMPACT Core courses with a minimum grade of "C"
-    - unrecognized: higher
-    - unrecognized: enrolled in one of the following majors: Elementary Education
+    - unrecognized: Applied Math IMPACT Core courses
     - unrecognized: Elementary Education
     - unrecognized: Interest
     - unrecognized: Early Childhood Birth to Kindergarten Traditional
@@ -3054,129 +1470,37 @@
 ### bs-electrical-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CPE 3020**
-    - unrecognized: Engineering Standing
-  - **CPE 3030**
-    - unrecognized: Engineering Standing
-  - **CPE 3500**
-    - unrecognized: Engineering Standing
-  - **CPE 4010**
-    - unrecognized: Engineering Standing
-  - **CPE 4903**
-    - unrecognized: Engineering Standing
-  - **EE 3501**
-    - unrecognized: Engineering Standing
-  - **EE 3601**
-    - unrecognized: Engineering Standing Requirements
-  - **EE 3605**
-    - unrecognized: Engineering Standing
-  - **EE 3701**
-    - unrecognized: Engineering Standing
-  - **EE 4201**
-    - unrecognized: Engineering Standing
-  - **ENGR 3250**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3410**
-    - unrecognized: Engineering Standing
-  - **ENGR 3411**
-    - unrecognized: Engineering Standing
-  - **ENGR 3412**
-    - unrecognized: Engineering Standing
-  - **ENGR 3501**
-    - unrecognized: Engineering Standing
-  - **ENGR 3601**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 3602**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 3603**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 3801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
-  - **ENGR 4601**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 4602**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 4603**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 4604**
-    - unrecognized: Engineering Standing Requirements
-  - **ISYE 4500**
-    - unrecognized: Engineering Standing
-  - **MTRE 4610**
-    - unrecognized: Engineering Standing
   - **MTRE 4710**
-    - unrecognized: Engineering Standing Requirements
     - missing operator before 'MTRE 3110', assumed and
   - **PHYS 3230**
-    - unrecognized: Grades of "C"
-    - unrecognized: better in
-    - missing operator before 'PHYS 2212', assumed and
     - missing operator before 'PHYS 2212L', assumed and
-  - **PHYS 3710**
-    - unrecognized: Grade of "C"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
-  - **MTRE 3720**
-    - unrecognized: Engineering Standing
-  - **MTRE 3110**
-    - unrecognized: Engineering Standing
 
 ### bs-electrical-engineering-technology (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
   - **ECET 3410**
     - unrecognized: P
     - missing operator before 'PHYS 2212', assumed and
   - **ENGT 4901**
-    - unrecognized: for MET Majors
     - unrecognized: concurrently
-    - unrecognized: for EET Majors
     - missing operator before '(', assumed and
     - missing operator before 'for EET Majors', assumed and
 
 ### bs-elementary-education (undergraduate)
 
 - Build warnings:
-  - **ECE 3360**
-    - unrecognized: Admission to Teacher Education
   - **ECE 4408**
     - missing operator before 'EDUC 2130', assumed and
   - **ECE 4465**
     - unrecognized: Elementary Education
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **ECE 4650**
-    - unrecognized: Admission to Teacher Education
-    - unrecognized: Admission to the Yearlong Clinical Experience
-    - unrecognized: Issued Pre-Service Certificate
     - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
     - missing operator before 'Issued Pre-Service Certificate', assumed and
   - **ECE 4660**
-    - unrecognized: ; Eligibility to take GACE
-    - missing operator before '; Eligibility to take GACE', assumed and
+    - unrecognized: Eligibility to take GACE
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **HPE 3670**
-    - unrecognized: Admission to Teacher Education
   - **ISCI 2001**
     - unrecognized: Completion of any four-hour laboratory science course at the 1000
     - unrecognized: 2000 level
@@ -3185,9 +1509,7 @@
     - unrecognized: 2000 level
   - **MATH 2008**
     - unrecognized: The completion of Mathematics
-    - unrecognized: Applied Math IMPACT Core courses with a minimum grade of "C"
-    - unrecognized: higher
-    - unrecognized: enrolled in one of the following majors: Elementary Education
+    - unrecognized: Applied Math IMPACT Core courses
     - unrecognized: Elementary Education
     - unrecognized: Interest
     - unrecognized: Early Childhood Birth to Kindergarten Traditional
@@ -3199,134 +1521,41 @@
 ### bs-english-education (undergraduate)
 
 - Build warnings:
-  - **ENGL 3241**
-    - unrecognized: admission into the English Education program
+  - **EDUC 4610**
+    - unrecognized: Varies by program:
+  - **ENED 4650**
+    - missing operator before 'ENGL 3310', assumed and
+    - missing operator before 'ENGL 3391', assumed and
+    - missing operator before 'EDUC 4610', assumed and
   - **ENGL 3310**
-    - unrecognized: admission into the English Education
     - unrecognized: Secondary
-    - unrecognized: Middle Grades Language Arts program
     - ambiguous and/or precedence: ENGL 2271 and admission into the English Education or Secondary and Middle Grades Language Arts program
   - **ENGL 3311**
-    - unrecognized: admission to the English Education
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
-  - **ENGL 3391**
-    - unrecognized: admission into the English Education program
-- Drafting warnings:
-  - unrecognized section 'Cultural Studies of Literature (3 Credit Hours)'
-  - unrecognized section 'Studies in Pre-20th-Century Literature (3 Credit Hours)'
-  - unrecognized section 'Studies in 20th- and 21st-Century Literature (3 Credit Hours)'
-  - unrecognized section 'Yearlong Clinical Experience (24 Credit Hours)'
 
 ### bs-environmental-engineering (undergraduate)
 
 - Build warnings:
-  - **CE 3501**
-    - unrecognized: Engineering Standing
-  - **CE 3702**
-    - unrecognized: Engineering Standing
-  - **CE 3703**
-    - unrecognized: Engineering Standing
   - **CE 3704**
     - unrecognized: concurrent registration
-  - **CE 4343**
-    - unrecognized: Engineering Standing
-  - **CE 4353**
-    - unrecognized: Engineering Standing
-  - **CE 4363**
-    - unrecognized: Engineering Standing
-  - **CE 4373**
-    - unrecognized: Engineering Standing
-  - **CE 4383**
-    - unrecognized: Engineering Standing
-  - **CE 4703**
-    - unrecognized: Engineering Standing
-  - **CE 4704**
-    - unrecognized: Engineering Standing
-  - **CE 4708**
-    - unrecognized: Engineering Standing
-  - **CE 4800**
-    - unrecognized: Engineering Standing
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3305**
-    - unrecognized: Engineering Standing Requirements
   - **ENGR 3324**
-    - unrecognized: Engineering Standing
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
 
 ### bs-exercise-science (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ES 2200**
-    - unrecognized: Exercise Science Majors
   - **ES 2300**
-    - unrecognized: Exercise Science Major
     - unrecognized: Exercise Science Interest
     - unrecognized: Public Health Education Interest
-    - unrecognized: Public Health Education Major
     - unrecognized: Biomedical Engineering Minor
-    - unrecognized: Integrated Health Science Major
   - **ES 2500**
-    - unrecognized: Exercise Science Interest/ Major
-    - unrecognized: Public Health Education Interest/ Major
-    - unrecognized: Sport Management Major
-    - unrecognized: Integrated Health Science Major
     - unrecognized: Nutritional Science Minor
-  - **ES 3600**
-    - unrecognized: Exercise Science major;
   - **ES 3700**
-    - unrecognized: Exercise Science major;
     - unrecognized: Strength
     - unrecognized: Conditioning Laboratory
   - **ES 3750**
-    - unrecognized: Exercise Science Major
     - missing operator before 'BIOL 2251', assumed and
     - missing operator before 'ES 2300', assumed and
-  - **ES 3800**
-    - unrecognized: Exercise Science major
-  - **ES 3900**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'BIOL 2252', assumed and
-  - **ES 4200**
-    - unrecognized: Exercise Science major
-  - **ES 4300**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'ES 3900', assumed and
-  - **ES 4500**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'ES 3900', assumed and
-  - **ES 4550**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'ES 3900', assumed and
-  - **ES 4600**
-    - unrecognized: Exercise Science major;
-  - **ES 4650**
-    - unrecognized: Exercise Science major;
-  - **ES 4700**
-    - unrecognized: Exercise Science major;
-  - **ES 4900**
-    - unrecognized: Exercise Science Major
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
 
 ### bs-financial-technologies (undergraduate)
 
@@ -3337,8 +1566,8 @@
     - unrecognized: higher
   - **IS 2200**
     - unrecognized: higher
-- Drafting warnings:
-  - unrecognized section 'Business Foundations (12 Credit Hours)'
+  - **ECON 2300**
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bs-geospatial-sciences (undergraduate)
 
@@ -3351,13 +1580,6 @@
     - unrecognized: Department Chair
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3040**
-    - unrecognized: a Coles Partner Student
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
@@ -3367,59 +1589,29 @@
 
 - Build warnings:
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
   - **HPAL 3252**
     - unrecognized: Any General Education D1 core curriculum course
-  - **HPAL 3393**
-    - unrecognized: 90 credit hours completed
-  - **HPAL 3395**
-    - unrecognized: permission from the Coaching Coordinator
   - **HPAL 4900**
     - unrecognized: one Advanced Coaching Course
-    - unrecognized: Permission from the Coaching Coordinator
   - **HPE 3350**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued GaPSC Preservice Certificate
     - unrecognized: proof of liability insurance are required
   - **HPE 3450**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 3550**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 3625**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued GaPSC Preservice Certificate
     - unrecognized: proof of liability insurance are required
   - **HPE 3650**
-    - unrecognized: admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 4420**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 4430**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 4850**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
-    - unrecognized: admission to student teaching
 
 ### bs-history-education (undergraduate)
 
@@ -3427,91 +1619,39 @@
   - **ECON 2106**
     - unrecognized: higher
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **HIED 4550**
-    - unrecognized: Pre-Service Certificate
     - unrecognized: Coordinator
     - missing operator before 'Admission to Yearlong Clinical Experience, Permission of Program', assumed and
     - missing operator before 'Coordinator', assumed and
-  - **HIED 4650**
-    - unrecognized: Admission to Yearlong Clinical Experience
-    - unrecognized: Issued Pre-service Certificate
-  - **HIST 3100**
-    - unrecognized: Must have earned at least 30 credit hours
   - **HIST 3271**
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Pre-Service Certificate;
-    - unrecognized: ;
-  - **HIST 3304**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
-- Drafting warnings:
-  - unrecognized section 'American History (6 Credit Hours)'
-  - unrecognized section 'European History (3 Credit Hours)'
-  - unrecognized section 'Non-Western World Studies (6 Credit Hours)'
 
 ### bs-human-services (undergraduate)
 
 - Build warnings:
   - **HHS 3500**
-    - unrecognized: 60 credit hours;
-    - unrecognized: ; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
     - missing operator before 'permission of department', assumed and
   - **HHS 4800**
-    - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
     - missing operator before 'permission of the Department', assumed and
-  - **HS 2900**
-    - unrecognized: HS Majors
   - **HS 3100**
-    - unrecognized: HS major
-    - unrecognized: Non-major with
     - missing operator before 'permission of department', assumed and
-  - **HS 3110**
-    - unrecognized: Human Services major
   - **HS 3200**
-    - unrecognized: ; HS major
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3300**
-    - unrecognized: HS majors
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3400**
-    - unrecognized: HS majors
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3700**
-    - unrecognized: HS majors
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3750**
-    - unrecognized: HS majors
-    - unrecognized: Non majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3900**
-    - unrecognized: HS majors
-    - unrecognized: Non majors with
     - missing operator before 'permission of the department', assumed and
-  - **HS 4900**
-    - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
-  - **HS 4910**
-    - unrecognized: HS Major
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **HS 3000**
-    - unrecognized: Human Services Majors only
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
@@ -3520,17 +1660,6 @@
 ### bs-industrial-engineering-technology (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3407**
-    - unrecognized: Engineering Standing
   - **IET 3424**
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
   - **IET 4135**
@@ -3539,54 +1668,15 @@
 ### bs-industrial-and-systems-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
   - **ENGR 1100**
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
-  - **ENGR 3250**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
-  - **ISYE 3100**
-    - unrecognized: Engineering Standing
-  - **ISYE 3125**
-    - unrecognized: Engineering Standing Requirements
-  - **ISYE 3150**
-    - unrecognized: Engineering Standing
-  - **ISYE 3200**
-    - unrecognized: Engineering Standing
-  - **ISYE 3300**
-    - unrecognized: Engineering Standing
-  - **ISYE 3350**
-    - unrecognized: Engineering Standing
-  - **ISYE 3450**
-    - unrecognized: Engineering Standing
-  - **ISYE 4250**
-    - unrecognized: Engineering Standing
-  - **ISYE 4425**
-    - unrecognized: Engineering Standing
-  - **ISYE 4500**
-    - unrecognized: Engineering Standing
   - **ISYE 4901**
-    - unrecognized: Engineering Standing
     - unrecognized: Senior Status
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
 
 ### bs-integrated-health-science (undergraduate)
 
 - Build warnings:
   - **COMM 3320**
-    - unrecognized: Must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: 30+ credit hours
-    - unrecognized: permission from the School of Communication
     - unrecognized: Media
   - **ECON 3478**
     - unrecognized: Any 1000 level MATH
@@ -3596,65 +1686,45 @@
     - unrecognized: 3000 ECON course
     - ambiguous and/or precedence: Any 1000 level MATH or STAT course, and Any 1000, 2000, or 3000 ECON course
   - **HHS 3500**
-    - unrecognized: 60 credit hours;
-    - unrecognized: ; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
     - missing operator before 'permission of department', assumed and
   - **HHS 4800**
-    - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
     - missing operator before 'permission of the Department', assumed and
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
-  - **HS 4900**
-    - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
-  - **IHS 4760**
-    - unrecognized: 90 credit hours
 
 ### bs-interactive-design (undergraduate)
 
 - Build warnings:
   - **ART 1100**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1150**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
-  - **TCID 4700**
-    - unrecognized: 90+ credit hours
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 
 ### bs-interdisciplinary-studies (undergraduate)
 
 - Build warnings:
-  - **ISD 4498**
-    - unrecognized: completion of at least 90 credit hours
-- Drafting warnings:
-  - unrecognized section 'Introduction to Interdisciplinary Studies (3 Credit Hours)'
-  - unrecognized section 'Introduction to Interdisciplinary Thinking (3 Credit Hours)'
-  - unrecognized section 'Interdisciplinarity in the Workplace and Society (3 Credit Hours)'
-  - unrecognized section 'Foundations (3 Credit Hours)'
-  - unrecognized section 'Literacy (3 Credit Hours)'
-  - unrecognized section 'Critical Inquiry (3 Credit Hours)'
-  - unrecognized section 'Engaged Learning (3 Credit Hours)'
-  - unrecognized section 'Gender, Race, and Culture'
-  - unrecognized section 'Leadership, Community, and Justice'
-  - unrecognized section 'Science, Technology, and Society'
+  - **ISD 4497**
+    - empty description
+    - unrecognized: Any B2: Cultural Perspectives course
+  - **SA 4490**
+    - unrecognized: Varies with discipline
+    - unrecognized: subject
 
 ### bs-journalism-and-emerging-media (undergraduate)
 
@@ -3669,50 +1739,56 @@
     - unrecognized: Entertainment
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
     - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
     - missing operator before 'B.S. major', assumed and
-  - **JOUR 3360**
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-  - **JOUR 3820**
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
-    - missing operator before 'must be a declared major in the School of Communication & Media. Non-majors: permission of the School required', assumed and
-  - **JOUR 3900**
-    - unrecognized: Must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+  - **COMM 3320**
+    - unrecognized: Media
+  - **COMM 3350**
+    - unrecognized: Media
+  - **JOUR 3395**
+    - could not parse (per-major clauses): COMM 2230;and 30 credit hours; and must be a declared major in the School of Communication and Media. Non-majors: Permission of the School required
   - **JOUR 4100**
-    - unrecognized: &nbsp;
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+    - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
   - **JOUR 4300**
-    - unrecognized: permission of instruction
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
     - ambiguous and/or precedence: JOUR 3330 or permission of instruction and must be a declared major in the School of Communication and Media. Non-majors: Permission of the School required
-  - **JOUR 4410**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
   - **JOUR 4412**
-    - unrecognized: ; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
-  - **JOUR 4420**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
+    - could not parse (per-major clauses): JOUR 3330, and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4445**
-    - unrecognized: 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4450**
-    - unrecognized: ; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4470**
-    - unrecognized: ; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
+    - could not parse (per-major clauses): COMM 2230 and POLS 1101; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4488**
     - unrecognized: 90
-    - unrecognized: more credit hours
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
     - ambiguous and/or precedence: JOUR 3700, JOUR 4100, and 90 or more credit hours, and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
-- Drafting warnings:
-  - unrecognized section 'Advanced Journalism Professional Practice (3 Credit Hours)'
-  - unrecognized section 'Related Studies (3 Credit Hours)'
+  - **MENT 3326**
+    - unrecognized: Media
+  - **MENT 4424**
+    - unrecognized: Media
+  - **MENT 4425**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4436**
+    - unrecognized: Media
+  - **MENT 4464**
+    - unrecognized: Media
+  - **ORGC 3459**
+    - unrecognized: Media
+  - **ORGC 4470**
+    - unrecognized: Media
+  - **PR 4605**
+    - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 
 ### bs-learning-design-and-technology (undergraduate)
 
@@ -3722,7 +1798,6 @@
   - **LDT 4600**
     - unrecognized: Declared Bachelor of Science in Learning
     - unrecognized: Design
-    - unrecognized: Technology major.
     - unrecognized: is required
     - missing operator before 'Permission of the LDT program coordinator', assumed and
     - missing operator before 'is required', assumed and
@@ -3730,20 +1805,7 @@
 ### bs-mathematics (undergraduate)
 
 - Build warnings:
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **ISYE 4500**
-    - unrecognized: Engineering Standing
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
   - **ECON 2105**
     - unrecognized: higher
@@ -3752,126 +1814,27 @@
   - **IS 2200**
     - unrecognized: higher
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bs-mechanical-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3125**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
-  - **ENGR 3501**
-    - unrecognized: Engineering Standing
-  - **ENGR 3502**
-    - unrecognized: Engineering Standing
-  - **ENGR 3801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 3802**
-    - unrecognized: Engineering Standing
-  - **ENGR 3803**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
-  - **ENGR 4501**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4502**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4503**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4504**
-    - unrecognized: Engineering Standing
-  - **ENGR 4801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4802**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4803**
-    - unrecognized: Engineering Standing
-  - **MATH 2335**
-    - unrecognized: A grade of 'C'
-    - unrecognized: higher in
-    - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
-  - **ME 3343**
-    - unrecognized: Engineering Standing
-  - **ME 3410**
-    - unrecognized: Engineering Standing
-  - **ME 3440**
-    - unrecognized: Engineering Standing
-  - **ME 3501**
-    - unrecognized: Engineering Standing
-  - **ME 3701**
-    - unrecognized: Engineering Standing
-  - **ME 3705**
-    - unrecognized: Engineering Standing
-  - **ME 4141**
-    - unrecognized: Engineering Standing
-  - **ME 4201**
-    - unrecognized: Engineering Standing
-  - **ME 4202**
-    - unrecognized: Engineering Standing
-  - **ME 4250**
-    - unrecognized: Engineering Standing
-  - **ME 4403**
-    - unrecognized: Engineering Standing
   - **ME 4501**
     - unrecognized: can be taken concurrently
-    - unrecognized: Engineering Standing
-  - **ME 4520**
-    - unrecognized: Engineering Standing
 
 ### bs-mechanical-engineering-technology (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
   - **EDG 3112**
-    - unrecognized: MET majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET majors or department approval, and EDG 1212
   - **EDG 4111**
-    - unrecognized: MET majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET majors or department approval, and EDG 1211
   - **EDG 4222**
-    - unrecognized: MET majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET majors and or department approval, EDG 1212
     - missing operator before 'EDG 1212', assumed and
     - could not parse (unexpected 'or'): MET majors and or department approval, EDG 1212
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3407**
-    - unrecognized: Engineering Standing
   - **ENGT 4901**
-    - unrecognized: for MET Majors
     - unrecognized: concurrently
-    - unrecognized: for EET Majors
     - missing operator before '(', assumed and
     - missing operator before 'for EET Majors', assumed and
   - **IET 3424**
@@ -3881,45 +1844,15 @@
   - **MET 2124**
     - ambiguous and/or precedence: (MATH 1190 or (MATH 1179 and MATH 1189)) and (PHYS 1111 and PHYS 1111L) or (PHYS 2211 and PHYS 2211L)
   - **MET 3332**
-    - unrecognized: MET Majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET Majors and EDG 1212, or department approval
 
 ### bs-mechatronics-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3410**
-    - unrecognized: Engineering Standing
-  - **ENGR 3411**
-    - unrecognized: Engineering Standing
-  - **ENGR 3412**
-    - unrecognized: Engineering Standing
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
-  - **MTRE 2710**
-    - unrecognized: to
-    - unrecognized: higher
-  - **MTRE 3110**
-    - unrecognized: Engineering Standing
-  - **MTRE 3610**
-    - unrecognized: Engineering Standing
-  - **MTRE 3720**
-    - unrecognized: Engineering Standing
-  - **MTRE 3810**
-    - unrecognized: Engineering Standing
   - **MTRE 4710**
-    - unrecognized: Engineering Standing Requirements
     - missing operator before 'MTRE 3110', assumed and
-  - **MTRE 4810**
-    - unrecognized: Engineering Standing
-  - **MTRE 4820**
-    - unrecognized: Engineering Standing Requirements
 
 ### bs-media-and-entertainment (undergraduate)
 
@@ -3934,18 +1867,71 @@
     - unrecognized: Entertainment
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
     - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
     - missing operator before 'B.S. major', assumed and
-- Drafting warnings:
-  - unrecognized section 'Context (6 Credit Hours)'
-  - unrecognized section 'Methods (6 Credit Hours)'
-  - unrecognized section 'Storytelling (6 Credit Hours)'
-  - unrecognized section 'Culminating (3 Credit Hours)'
-  - unrecognized section 'Professional Development (3 Credit Hours)'
-  - unrecognized section 'Photography & Design Production (6 Credit Hours)'
-  - unrecognized section 'Film & Video Production (6 Credit Hours)'
-  - unrecognized section 'Audio Production (6 Credit Hours)'
+  - **COMM 4200**
+    - unrecognized: School Director
+    - unrecognized: Media
+  - **JOUR 4100**
+    - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+  - **JOUR 4445**
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+  - **JOUR 4450**
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+  - **MENT 3200**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2135 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 3326**
+    - unrecognized: Media
+  - **MENT 4424**
+    - unrecognized: Media
+  - **MENT 4425**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4435**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2020 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4454**
+    - unrecognized: Media
+  - **MENT 4464**
+    - unrecognized: Media
+  - **MENT 4485**
+    - unrecognized: Media
+    - unrecognized: Entertainment
+  - **PR 4605**
+    - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
+  - **MEBU 2270**
+    - unrecognized: class instructor
 
 ### bs-middle-grades-education (undergraduate)
 
@@ -3959,8 +1945,6 @@
   - **EDMG 4404**
     - unrecognized: successful completion of all teaching field courses
   - **EDMG 4650**
-    - unrecognized: Pre-service certification
-    - unrecognized: Admission to Yearlong Clinical Experience
     - missing operator before 'INED 4431', assumed and
     - unrecognized: Two of the following:
     - missing operator before 'EDMG 4401', assumed and
@@ -3974,47 +1958,57 @@
     - missing operator before 'EDMG 4402', assumed and
     - missing operator before 'EDMG 4403', assumed and
     - missing operator before 'EDMG 4404', assumed and
+  - **EDSM 3000K**
+    - unrecognized: Any science course from Technology
+    - unrecognized: Mathematics
+    - unrecognized: Sciences in the General Education Core Curriculum
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **HIST 3305**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3366**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3367**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3373**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3374**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3382**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3391**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3392**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 4391**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
+  - **ENGL 2390**
+    - unrecognized: Any 1000
+    - unrecognized: 2000 level ENGL course
+  - **ISCI 2002**
+    - unrecognized: Completion of any four-hour laboratory science course at the 1000
+    - unrecognized: 2000 level
+  - **MAED 1190**
+    - unrecognized: The successful completion of two 1000
+    - unrecognized: 2000 level MATH
+    - unrecognized: STAT courses
+  - **MAED 2390**
+    - unrecognized: The successful completion of two 1000
+    - unrecognized: 2000 level MATH
+    - unrecognized: STAT courses
+  - **SCI 3360**
+    - unrecognized: any two 1000-level
+    - unrecognized: 2000-level science courses
   - **EDMG 4408**
     - unrecognized: successful completion of all teaching field courses
-- Drafting warnings:
-  - unrecognized section 'Primary Field (6 Credit Hours)'
-  - unrecognized section 'Secondary Field (3 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (3 Credit Hours)'
 
 ### bs-organizational-and-professional-communication (undergraduate)
 
 - Build warnings:
+  - **COMM 3320**
+    - unrecognized: Media
+  - **MENT 3326**
+    - unrecognized: Media
+  - **MENT 4424**
+    - unrecognized: Media
+  - **MENT 4425**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4434**
+    - could not parse (per-major clauses): MENT 3100; must be a declared major in the School of Communication and Media. Non-majors: permission of the instructor
   - **ORGC 2025**
-    - unrecognized: Must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: 30+ credit hours
-    - unrecognized: permission from the School of Communication
     - unrecognized: Media
   - **ORGC 2245**
     - unrecognized: Journalism
@@ -4027,14 +2021,14 @@
     - unrecognized: Professional Communication
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
-    - unrecognized: 30 credit hours completed
     - ambiguous and/or precedence: (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major) and 30 credit hours completed
     - missing operator before 'B.S. major', assumed and
-  - **ORGC 2276**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **ORGC 3325**
-    - unrecognized: 60+ credit hours
+  - **ORGC 3459**
+    - unrecognized: Media
+  - **ORGC 4344**
+    - could not parse (per-major clauses): ORGC 2025,and 60+ hours; must be a declared major in the School of Communication and Media. Non-majors: Permission of the School of Communication & Media
+  - **ORGC 4440**
+    - unrecognized: Media
   - **ORGC 4455**
     - unrecognized: Journalism
     - unrecognized: Emerging Media
@@ -4046,107 +2040,39 @@
     - unrecognized: Professional Communication
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
-    - unrecognized: 90 credit hours completed
     - ambiguous and/or precedence: COMM 3435 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major) and 90 credit hours completed
     - missing operator before 'B.S. major', assumed and
-- Drafting warnings:
-  - unrecognized section 'Organizational and Team Communication'
-  - unrecognized section 'Political and Civic Communication'
-  - unrecognized section 'Technology and Communication'
-  - unrecognized section 'Health Communication'
 
 ### bs-physics (undergraduate)
 
 - Build warnings:
-  - **EE 3701**
-    - unrecognized: Engineering Standing
-  - **EE 4201**
-    - unrecognized: Engineering Standing
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
-  - **ME 4141**
-    - unrecognized: Engineering Standing
-  - **PHYS 3220**
-    - unrecognized: Grades of "C"
-    - unrecognized: better in
-    - ambiguous and/or precedence: Grades of "C" or better in MATH 2203, MATH 2306, PHYS 2212 and PHYS 2212L
-  - **PHYS 3260**
-    - unrecognized: Grade of 'C'
-    - unrecognized: better in
-    - ambiguous and/or precedence: Grade of 'C' or better in MATH 2202, and PHYS 2212
-  - **PHYS 3410K**
-    - unrecognized: Grades of "C"
-    - unrecognized: better in
-    - ambiguous and/or precedence: Grades of "C" or better in PHYS 2212 and PHYS 2212L
-  - **PHYS 3500K**
-    - unrecognized: Grades of "C"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: Grades of "C" or higher in PHYS 2212 and PHYS 2212L
-  - **PHYS 3710**
-    - unrecognized: Grade of "C"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-
-### bs-political-science (undergraduate)
-
-- Drafting warnings:
-  - unrecognized section 'Senior Seminar (3 Credit Hours)'
-  - unrecognized section 'Subfield 1: American Government and Politics'
-  - unrecognized section 'Subfield 2: Political Behavior'
-  - unrecognized section 'Subfield 3: International Relations'
-  - unrecognized section 'Subfield 4: Comparative Politics'
-  - unrecognized section 'Subfield 5: Political Theory'
-  - unrecognized section 'Subfield 6: Public Law and Administration'
-  - unrecognized section 'Subfield 7: Research Methods'
 
 ### bs-psychology (undergraduate)
 
 - Build warnings:
-  - **PSYC 2210**
-    - unrecognized: ; Declared Psychology major
-    - missing operator before '; Declared Psychology major', assumed and
   - **PSYC 3000**
     - unrecognized: Any 1000-level MATH course
-    - unrecognized: ;
-    - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
-- Drafting warnings:
-  - unrecognized section 'Diversity and Multicultural Area (3 Credit Hours)'
-  - unrecognized section 'Personality and Social Area (3 Credit Hours)'
-  - unrecognized section 'Biological Bases Area (3 Credit Hours)'
-  - unrecognized section 'Learning and Cognition Area (3 Credit Hours)'
-  - unrecognized section 'Mental Health and Well-Being (3 Credit Hours)'
+    - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+  - **PSYC 4430**
+    - unrecognized: One 3000-level psychology course
+  - **PSYC 4440**
+    - unrecognized: One 3000-level psychology course
 
 ### bs-public-health (undergraduate)
 
 - Build warnings:
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
-  - **PH 3850**
-    - unrecognized: Public Health major
-- Drafting warnings:
-  - unrecognized section 'Public Health Internship (6 or 9 Credit Hours)'
 
 ### bs-public-relations (undergraduate)
 
 - Build warnings:
-  - **PR 3355**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
-  - **PR 3375**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
-  - **PR 3380**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
+  - **COMM 3350**
+    - unrecognized: Media
+  - **JOUR 4470**
+    - could not parse (per-major clauses): COMM 2230 and POLS 1101; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **PR 4465**
     - unrecognized: Journalism
     - unrecognized: Emerging Media
@@ -4158,14 +2084,10 @@
     - unrecognized: Professional Communication
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
-    - unrecognized: 90 credit hours completed
     - ambiguous and/or precedence: PR 3365 and PR 3375 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major) and 90 credit hours completed
     - missing operator before 'B.S. major', assumed and
-- Drafting warnings:
-  - unrecognized section 'Context'
-  - unrecognized section 'Skills'
-  - unrecognized section 'Related Studies (3 Credit Hours)'
+  - **PR 4605**
+    - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 
 ### bs-sociology (undergraduate)
 
@@ -4175,7 +2097,6 @@
     - unrecognized: subject
   - **SOCI 4405**
     - unrecognized: 60 hours
-    - unrecognized: Declared student in WIRC Certificate Program
 
 ### bs-sport-management (undergraduate)
 
@@ -4184,74 +2105,46 @@
     - unrecognized: higher
   - **SM 2200**
     - unrecognized: Sport Management Interest
-    - unrecognized: Sport Management Major
   - **SM 2400**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 3000**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 3050**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 3100**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 3200**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 3500**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 3850**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 4800**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 4850**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 4875**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
-  - **SM 4925**
-    - unrecognized: 90 credit hours completed
-- Drafting warnings:
-  - unrecognized section 'Sport Management Senior Experience (6 Credit Hours)'
 
 ### bscgdd-computer-game-design-and-development (undergraduate)
 
 - Build warnings:
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 4185**
-    - unrecognized: a Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bses-environmental-science (undergraduate)
 
@@ -4260,75 +2153,43 @@
     - ambiguous and/or precedence: BIOL 3370 and BIOL 3370L or permission of the instructor
   - **BIOL 4322**
     - could not parse (unexpected ')'): BIOL 1108 and BIOL 1108L)
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENVS 4399**
-    - unrecognized: Environmental Science Major
-    - unrecognized: 90+ Credit Hours
   - **GEOL 1121K**
-    - unrecognized: A grade of 'C'
-    - unrecognized: better in any two 1000-level
+    - unrecognized: any two 1000-level
     - unrecognized: 2000-level science courses
   - **GIS 4415**
-    - unrecognized: permission of the Geospatial Sciences
     - unrecognized: GSS
     - unrecognized: Internship Coordinator
     - missing operator before '(', assumed and
     - missing operator before 'Internship Coordinator', assumed and
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
 
 ### bsed-secondary-education (undergraduate)
 
 - Build warnings:
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
-  - **ARED 4650**
-    - unrecognized: EPP
-    - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
-  - **ARED 4410**
-    - unrecognized: EPP
-    - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
-  - **SCED 4650**
-    - unrecognized: Admission to Yearlong Clinical Experience
-    - unrecognized: Pre-Service Certificate
-  - **SCED 4424**
-    - unrecognized: ; obtain pre-service certificate
-    - missing operator before '; obtain pre-service certificate', assumed and
-- Drafting warnings:
-  - unrecognized section 'Teaching Field Courses (9 Credit Hours)'
-  - unrecognized section 'Teaching Field Professional Education (19-20 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (31 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (31 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (32 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (31 Credit Hours)'
+  - **MAED 3475**
+    - unrecognized: Graduation Criteria
+  - **MAED 4414**
+    - unrecognized: two of the following three:
+    - ambiguous and/or precedence: Admission to Teacher Education, EDUC 2120, MATH 2203, and two of the following three: STAT 2332, MATH 2390 or MATH 3260
+  - **MAED 4424**
+    - empty description
+  - **MAED 4660**
+    - unrecognized: eligibility to take GACE
+  - **SCED 4660**
+    - unrecognized: eligibility to take GACE
+    - missing operator before 'eligibility to take GACE', assumed and
+  - **SCI 3360**
+    - unrecognized: any two 1000-level
+    - unrecognized: 2000-level science courses
+  - **EDSM 4414**
+    - missing operator before ': Obtain Pre-Service Certificate', assumed and
 
 ### bsit-information-technology (undergraduate)
 
 - Build warnings:
-  - **IT 3203**
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
   - **IT 3883**
     - unrecognized: minimum grade of 'C'
     - unrecognized: minimum grade of 'C'
@@ -4340,167 +2201,73 @@
 ### bsn-nursing (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
   - **NURS 3101**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3102**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3103**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3104**
     - unrecognized: Nursing
-    - unrecognized: BSN Major
     - missing operator before 'BSN Major', assumed and
   - **NURS 3105**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3106**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-
-### bsswe-software-engineering (undergraduate)
-
-- Drafting warnings:
-  - unrecognized section 'List 1'
-  - unrecognized section 'List 2'
 
 ## Courses holding the most majors
 
-- **CHEM 1211**: 19 majors (bs-aerospace-engineering, bs-biochemistry, bs-biology, bs-chemistry, bs-civil-engineering, bs-computer-engineering, bs-electrical-engineering, bs-electrical-engineering-technology, bs-environmental-engineering, bs-exercise-science, bs-industrial-and-systems-engineering, bs-industrial-engineering-technology, bs-mechanical-engineering, bs-mechanical-engineering-technology, bs-mechatronics-engineering, bs-physics, bses-environmental-science, bsn-nursing, msce-civil-engineering)
-  - unrecognized: to
-  - unrecognized: higher
 - **ECON 2106**: 19 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-financial-technologies, bs-geospatial-sciences, bs-history-education, bs-human-services, bs-mathematics, bs-sport-management, bscgdd-computer-game-design-and-development)
-  - unrecognized: higher
-- **CHEM 1211L**: 17 majors (bs-aerospace-engineering, bs-biochemistry, bs-biology, bs-chemistry, bs-civil-engineering, bs-computer-engineering, bs-electrical-engineering, bs-electrical-engineering-technology, bs-environmental-engineering, bs-exercise-science, bs-industrial-and-systems-engineering, bs-industrial-engineering-technology, bs-mechanical-engineering, bs-mechanical-engineering-technology, bs-mechatronics-engineering, bses-environmental-science, bsn-nursing)
-  - unrecognized: to
   - unrecognized: higher
 - **ECON 2105**: 17 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-financial-technologies, bs-geospatial-sciences, bs-human-services, bs-mathematics, bscgdd-computer-game-design-and-development)
   - unrecognized: higher
 - **IS 2200**: 15 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-financial-technologies, bs-geospatial-sciences, bs-learning-design-and-technology, bs-mathematics)
   - unrecognized: higher
-- **MGT 3100**: 14 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-human-services, bscgdd-computer-game-design-and-development)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-- **CHEM 1212**: 13 majors (bs-aerospace-engineering, bs-biochemistry, bs-biology, bs-chemistry, bs-civil-engineering, bs-environmental-engineering, bs-exercise-science, bs-industrial-and-systems-engineering, bs-industrial-engineering-technology, bs-mechanical-engineering, bses-environmental-science, bsn-nursing, msce-civil-engineering)
-  - unrecognized: to
-  - unrecognized: higher
-- **ECON 2300**: 13 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-cybersecurity, bs-mathematics, bscgdd-computer-game-design-and-development)
-  - unrecognized: Business Majors:
-  - unrecognized: ; Non-business Majors:
-  - missing operator before 'MATH 1111', assumed and
-  - missing operator before '; Non-business Majors:', assumed and
-  - missing operator before 'MATH 1101', assumed and
-- **FIN 3100**: 11 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-mathematics)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: Admission as a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-- **IS 3100**: 11 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-geospatial-sciences, bs-mathematics)
-  - unrecognized: Earned grade of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-- **MKTG 3100**: 11 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-- **MGT 3200**: 10 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bscgdd-computer-game-design-and-development)
-  - unrecognized: a Coles Partner Student
-- **BUSA 3150**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
-- **BUSA 4000**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: BBA Major
-  - unrecognized: Coles Partner Student
-- **ECON 3200**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: BBA Major
-  - unrecognized: Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-- **ECON 3300**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: a Coles Partner Student
-- **EDUC 4610**: 9 majors (ba-modern-language-and-culture, bfa-art, bm-music-education, bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education, bs-health-and-physical-activity-leadership, bs-history-education, bs-middle-grades-education, bsed-secondary-education)
-  - unrecognized: Admission to teacher education
-  - unrecognized: an issued pre-service certificate
+- **ECON 2300**: 14 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-cybersecurity, bs-financial-technologies, bs-mathematics, bscgdd-computer-game-design-and-development)
+  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
+- **EDUC 4610**: 10 majors (ba-modern-language-and-culture, bfa-art, bm-music-education, bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education, bs-english-education, bs-health-and-physical-activity-leadership, bs-history-education, bs-middle-grades-education, bsed-secondary-education)
   - unrecognized: Varies by program:
 - **MGT 4199**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
   - unrecognized: . This course is taken in the last
-  - unrecognized: next-to-last semester in the B.B.A. program
   - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-- **ENGR 3325**: 6 majors (bs-aerospace-engineering, bs-computer-engineering, bs-electrical-engineering, bs-industrial-and-systems-engineering, bs-mechanical-engineering, bs-mechanical-engineering-technology)
-  - unrecognized: Engineering Standing
-- **ITEC 7400**: 6 majors (edd-instructional-technology, eds-instructional-technology, eds-special-education, mat-teaching, med-instructional-technology, med-literacy-education)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **EDRS 8100**: 5 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education, edd-teacher-leadership, eds-secondary-and-middle-grades-education)
-  - unrecognized: Admission to graduate study in Education
-- **EDRS 8200**: 5 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education, edd-teacher-leadership, eds-secondary-and-middle-grades-education)
-  - unrecognized: Admission to graduate study in Education
-- **SCM 2000**: 5 majors (bs-biology, bs-chemistry, bs-mathematics, bs-physics, bses-environmental-science)
-  - unrecognized: A declared major within the College of Science
+- **SCM 2000**: 6 majors (bs-biochemistry, bs-biology, bs-chemistry, bs-mathematics, bs-physics, bses-environmental-science)
   - unrecognized: Mathematics
+- **SA 4490**: 5 majors (ba-asian-studies, ba-theatre-and-performance-studies, bs-criminal-justice, bs-interdisciplinary-studies, bs-sociology)
+  - unrecognized: Varies with discipline
+  - unrecognized: subject
 - **EDRS 9100**: 4 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education, edd-teacher-leadership)
   - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
-- **ENGR 3343**: 4 majors (bs-civil-engineering, bs-environmental-engineering, bs-physics, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3345**: 4 majors (bs-civil-engineering, bs-environmental-engineering, bs-mechanical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ENGR 4402**: 4 majors (bs-computer-engineering, bs-electrical-engineering, bs-industrial-and-systems-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
 - **HPAL 2250**: 4 majors (bs-health-and-physical-activity-leadership, bs-integrated-health-science, bs-mechatronics-engineering, bs-public-health)
   - unrecognized: Any General Education D2 core curriculum course
-- **INED 3300**: 4 majors (ba-modern-language-and-culture, bs-history-education, bs-middle-grades-education, bsed-secondary-education)
-  - unrecognized: Admission to Teacher Education
 - **ART 1100**: 3 majors (bfa-art, bfa-digital-animation, bs-interactive-design)
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
-  - unrecognized: ; BFA Digital Animation;
-  - unrecognized: BS Interactive Design majors
+  - missing operator before '(', assumed and
+  - unrecognized: BFA Digital Animation
   - unrecognized: only
   - missing operator before 'only', assumed and
+  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 - **ART 1150**: 3 majors (bfa-art, bfa-digital-animation, bs-interactive-design)
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
-  - unrecognized: ; BFA Digital Animation;
-  - unrecognized: BS Interactive Design majors
+  - missing operator before '(', assumed and
+  - unrecognized: BFA Digital Animation
   - unrecognized: only
   - missing operator before 'only', assumed and
+  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 - **BUSA 3500**: 3 majors (bba-entrepreneurship, bba-hospitality-management, bba-management)
-  - unrecognized: 60 credit hours with a minimum GPA of 2.0
-  - unrecognized: student in a Coles College Partner Program that includes this course
   - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-- **CE 3501**: 3 majors (bs-civil-engineering, bs-environmental-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **CE 3702**: 3 majors (bs-civil-engineering, bs-environmental-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
+- **COMM 3320**: 3 majors (bs-integrated-health-science, bs-journalism-and-emerging-media, bs-organizational-and-professional-communication)
+  - unrecognized: Media
+- **CS 8267**: 3 majors (phd-computer-science, phd-data-science-and-analytics, phd-interdisciplinary-engineering)
+  - unrecognized: Analytics
+  - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
 - **EDL 7401**: 3 majors (eds-special-education, med-educational-leadership, med-teacher-leadership-and-educational-leadership)
   - unrecognized: in the Department of Educational Leadership
   - unrecognized: the Ed.S. in Special Education
@@ -4517,91 +2284,38 @@
 - **EDRS 9200**: 3 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education)
   - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-- **EE 4201**: 3 majors (bs-computer-engineering, bs-electrical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ENGR 3305**: 3 majors (bs-civil-engineering, bs-environmental-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing Requirements
-- **ENGR 3801**: 3 majors (bs-aerospace-engineering, bs-electrical-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
-- **HMGT 3300**: 3 majors (bba-entrepreneurship, bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
+- **IS 7060**: 3 majors (mpa-public-administration, ms-digital-financial-technologies, ms-technology-management-and-leadership)
+  - unrecognized: director
+  - missing operator before 'director', assumed and
+- **IS 7090**: 3 majors (mba-evening-business-administration, mpa-public-administration, msem-engineering-management)
+  - unrecognized: Full
 - **IS 7935**: 3 majors (mba-evening-business-administration, ms-digital-financial-technologies, ms-technology-management-and-leadership)
   - unrecognized: director
   - missing operator before 'director', assumed and
-- **ISYE 4500**: 3 majors (bs-electrical-engineering, bs-industrial-and-systems-engineering, bs-mathematics)
-  - unrecognized: Engineering Standing
-- **ITEC 7305**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7430**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7455**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7460**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7480**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Admittance to a graduate program
-  - unrecognized: certificate program
-  - unrecognized: endorsement program within the Bagwell College of Education
-- **ITEC 7485**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7500**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7600**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU EPP program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **MKTG 3410**: 3 majors (bba-entrepreneurship, bba-marketing, bba-professional-sales)
-  - unrecognized: a Coles Partner Student
-- **MKTG 4470**: 3 majors (bba-entrepreneurship, bba-management, bba-professional-sales)
-  - unrecognized: a Coles Partner Student
-- **SA 4490**: 3 majors (ba-asian-studies, bs-criminal-justice, bs-sociology)
-  - unrecognized: Varies with discipline
-  - unrecognized: subject
-- **ACCT 3100**: 2 majors (bba-accounting, bba-entrepreneurship)
-  - unrecognized: Grade of "B"
-  - unrecognized: higher in
-  - missing operator before 'ACCT 2101', assumed and
-- **ACCT 3200**: 2 majors (bba-accounting, bba-entrepreneurship)
-  - unrecognized: Grade of "B"
-  - unrecognized: higher in
-  - unrecognized: a minimum GPA of 2.0
-  - ambiguous and/or precedence: Grade of "B" or higher in ACCT 2101 and ACCT 2102, and a minimum GPA of 2.0
-- **ACCT 4700**: 2 majors (bba-accounting, bba-entrepreneurship)
-  - unrecognized: a Coles Partner Student
+- **ISCI 2002**: 3 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education, bs-middle-grades-education)
+  - unrecognized: Completion of any four-hour laboratory science course at the 1000
+  - unrecognized: 2000 level
+- **MENT 3326**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-organizational-and-professional-communication)
+  - unrecognized: Media
+- **MENT 4424**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-organizational-and-professional-communication)
+  - unrecognized: Media
+- **MENT 4425**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-organizational-and-professional-communication)
+  - unrecognized: Journalism
+  - unrecognized: Emerging Media
+  - unrecognized: B.S.
+  - unrecognized: Media
+  - unrecognized: Entertainment
+  - unrecognized: Organizational
+  - unrecognized: Professional Communication
+  - unrecognized: Public Relations
+  - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+  - missing operator before 'B.S. major.', assumed and
+- **PR 4605**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-public-relations)
+  - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 - **ANIM 3620**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
   - unrecognized: BFA Digital Animation
-- **ARED 4410**: 2 majors (bfa-art, bsed-secondary-education)
-  - unrecognized: EPP
-  - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
-- **ARED 4650**: 2 majors (bfa-art, bsed-secondary-education)
-  - unrecognized: EPP
-  - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
 - **ARH 3850**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: Art majors:
   - unrecognized: . Non art majors:
@@ -4609,41 +2323,30 @@
   - unrecognized: This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2150**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: . This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2550**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: .This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2990**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
   - unrecognized: BFA in Digital Animation
-- **BLAW 4960**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **CE 3201**: 2 majors (bs-civil-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
+- **BLAW 3400**: 2 majors (bba-finance, bba-management)
+  - unrecognized: with minimum grade of "C"
 - **CE 3704**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
   - unrecognized: concurrent registration
-- **CE 4177**: 2 majors (bs-civil-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **CE 4703**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
-  - unrecognized: Engineering Standing
-- **CE 4800**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
-  - unrecognized: Engineering Standing
+- **CHIN 1002**: 2 majors (ba-asian-studies, ba-modern-language-and-culture)
+  - unrecognized: the equivalent
 - **COMM 2340**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
   - unrecognized: Communication
   - unrecognized: B.S.
@@ -4652,19 +2355,10 @@
   - unrecognized: Media
   - unrecognized: Entertainment
   - unrecognized: Public Relations
-  - unrecognized: B.S. major
   - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
   - missing operator before 'B.S. major', assumed and
-- **CPE 3020**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 3030**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 3500**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 4010**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 4903**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
+- **COMM 3350**: 2 majors (bs-journalism-and-emerging-media, bs-public-relations)
+  - unrecognized: Media
 - **CS 7125**: 2 majors (ms-computer-science, msswe-software-engineering)
   - unrecognized: Equivalent
 - **CS 7535**: 2 majors (ms-computer-science, msswe-software-engineering)
@@ -4672,28 +2366,17 @@
 - **CS 7998**: 2 majors (ms-artificial-intelligence, ms-computer-science)
   - unrecognized: Varies by topic
 - **CS 8265**: 2 majors (phd-computer-science, phd-data-science-and-analytics)
-  - unrecognized: Computer Science MS Program
   - unrecognized: Analytics
-  - unrecognized: Data Science Ph.D. Program
   - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
-- **CS 8267**: 2 majors (phd-computer-science, phd-data-science-and-analytics)
-  - unrecognized: Computer Science MS Program
-  - unrecognized: Analytics
-  - unrecognized: Data Science Ph.D. Program
-  - unrecognized: Interdisciplinary Engineering Ph.D. program
-  - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
 - **ECE 4650**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
-  - unrecognized: Admission to Teacher Education
-  - unrecognized: Admission to the Yearlong Clinical Experience
-  - unrecognized: Issued Pre-Service Certificate
   - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
   - missing operator before 'Issued Pre-Service Certificate', assumed and
 - **ECE 4660**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
-  - unrecognized: ; Eligibility to take GACE
-  - missing operator before '; Eligibility to take GACE', assumed and
+  - unrecognized: Eligibility to take GACE
 - **ECE 7704**: 2 majors (med-elementary-and-early-childhood-education, med-literacy-education)
-  - unrecognized: Admission to M.Ed. in Elementary
   - unrecognized: Early Childhood Education
+- **ECON 4730**: 2 majors (bba-economics, bba-finance)
+  - could not parse (per-major clauses): Business Majors: Admission to the Coles College of Business; Non-Business Majors: ECON 2300 or STAT 1401
 - **EDL 7101**: 2 majors (eds-special-education, med-educational-leadership)
   - unrecognized: in the Department of Educational Leadership
   - unrecognized: the Ed.S. in Special Education
@@ -4706,198 +2389,121 @@
 - **EDL 7601**: 2 majors (med-educational-leadership, med-teacher-leadership-and-educational-leadership)
   - unrecognized: in the Department of Educational Leadership
   - unrecognized: the Ed.S. in Special Education
-- **EDSM 8500**: 2 majors (edd-secondary-and-middle-grades-education, eds-secondary-and-middle-grades-education)
-  - unrecognized: Admission to graduate study in Education
 - **EDSM 8701**: 2 majors (edd-secondary-and-middle-grades-education, eds-secondary-and-middle-grades-education)
   - unrecognized: in education
   - missing operator before 'in education', assumed and
-- **EDSM 9300**: 2 majors (edd-secondary-and-middle-grades-education, eds-secondary-and-middle-grades-education)
-  - unrecognized: Permission of the professor
-- **EE 3701**: 2 majors (bs-electrical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ENGR 3125**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3250**: 2 majors (bs-electrical-engineering, bs-industrial-and-systems-engineering)
-  - unrecognized: Engineering Standing
 - **ENGR 3324**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
-  - unrecognized: Engineering Standing
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
-- **ENGR 3407**: 2 majors (bs-industrial-engineering-technology, bs-mechanical-engineering-technology)
-  - unrecognized: Engineering Standing
-- **ENGR 3410**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3411**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3412**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3501**: 2 majors (bs-electrical-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3803**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
-- **ENGR 4801**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
-- **ENGR 4802**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
 - **ENGR 6002**: 2 majors (ms-electrical-and-computer-engineering, msce-civil-engineering)
   - unrecognized: in Engineering
   - missing operator before 'in Engineering', assumed and
 - **ENGT 4901**: 2 majors (bs-electrical-engineering-technology, bs-mechanical-engineering-technology)
-  - unrecognized: for MET Majors
   - unrecognized: concurrently
-  - unrecognized: for EET Majors
   - missing operator before '(', assumed and
   - missing operator before 'for EET Majors', assumed and
-- **FIN 4260**: 2 majors (bba-entrepreneurship, bba-finance)
-  - unrecognized: a Coles Partner Student
+- **GEOG 3000**: 2 majors (ba-geography, bs-geospatial-sciences)
+  - unrecognized: Students must be 21 years of age
 - **HHS 3500**: 2 majors (bs-human-services, bs-integrated-health-science)
-  - unrecognized: 60 credit hours;
-  - unrecognized: ; a major in the Wellstar College of Health
   - unrecognized: Human Services
-  - unrecognized: Non-majors with
-  - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
+  - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
   - missing operator before 'permission of department', assumed and
 - **HHS 4800**: 2 majors (bs-human-services, bs-integrated-health-science)
-  - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
   - unrecognized: Human Services
-  - unrecognized: Non-majors with
-  - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+  - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
   - missing operator before 'permission of the Department', assumed and
-- **HIST 3100**: 2 majors (ba-history, bs-history-education)
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3373**: 2 majors (ba-asian-studies, bs-middle-grades-education)
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3374**: 2 majors (ba-asian-studies, bs-middle-grades-education)
-  - unrecognized: Must have earned at least 30 credit hours
-- **HS 4900**: 2 majors (bs-human-services, bs-integrated-health-science)
-  - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
 - **IET 3424**: 2 majors (bs-industrial-engineering-technology, bs-mechanical-engineering-technology)
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
 - **IET 4135**: 2 majors (bs-industrial-engineering-technology, bs-mechanical-engineering-technology)
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
-- **IS 3040**: 2 majors (bba-information-systems, bs-geospatial-sciences)
-  - unrecognized: a Coles Partner Student
-- **IS 7060**: 2 majors (ms-digital-financial-technologies, ms-technology-management-and-leadership)
+- **IS 7005**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: Full
+- **IS 7080**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: Full
+- **IS 7500**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
   - unrecognized: director
   - missing operator before 'director', assumed and
-- **IS 7090**: 2 majors (mba-evening-business-administration, msem-engineering-management)
-  - unrecognized: Full
+- **IS 7700**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: director
+  - missing operator before 'director', assumed and
+- **IS 7800**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: director
+  - missing operator before 'director', assumed and
 - **ISCI 2001**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
   - unrecognized: Completion of any four-hour laboratory science course at the 1000
   - unrecognized: 2000 level
-- **ISCI 2002**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
-  - unrecognized: Completion of any four-hour laboratory science course at the 1000
-  - unrecognized: 2000 level
-- **IT 3203**: 2 majors (bas-information-technology, bsit-information-technology)
-  - unrecognized: with 'C'
-  - unrecognized: better
-  - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
 - **IT 3883**: 2 majors (bas-information-technology, bsit-information-technology)
   - unrecognized: minimum grade of 'C'
   - missing operator before 'minimum grade of 'C'', assumed and
+- **JAPN 1002**: 2 majors (ba-asian-studies, ba-modern-language-and-culture)
+  - unrecognized: the equivalent
+- **JOUR 4100**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+- **JOUR 4445**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+- **JOUR 4450**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+- **JOUR 4470**: 2 majors (bs-journalism-and-emerging-media, bs-public-relations)
+  - could not parse (per-major clauses): COMM 2230 and POLS 1101; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+- **KOR 1002**: 2 majors (ba-asian-studies, ba-modern-language-and-culture)
+  - unrecognized: the equivalent
 - **MATH 2008**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
   - unrecognized: The completion of Mathematics
-  - unrecognized: Applied Math IMPACT Core courses with a minimum grade of "C"
-  - unrecognized: higher
-  - unrecognized: enrolled in one of the following majors: Elementary Education
+  - unrecognized: Applied Math IMPACT Core courses
   - unrecognized: Elementary Education
   - unrecognized: Interest
   - unrecognized: Early Childhood Birth to Kindergarten Traditional
   - ambiguous and/or precedence: The completion of Mathematics and Applied Math IMPACT Core courses with a minimum grade of "C" or higher, and enrolled in one of the following majors: Elementary Education, Elementary Education (Interest), Early Childhood Birth to Kindergarten Traditional, or Early Childhood Birth to Kindergarten Traditional (Interest)
   - missing operator before '(', assumed and
-- **MATH 2335**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: A grade of 'C'
-  - unrecognized: higher in
-  - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
-- **MATH 8020**: 2 majors (ms-computer-science, phd-data-science-and-analytics)
-  - unrecognized: permission by the department
-- **MATH 8030**: 2 majors (ms-computer-science, phd-data-science-and-analytics)
-  - unrecognized: permission by the department
-- **ME 3343**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 3410**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 3440**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 3705**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 4141**: 2 majors (bs-mechanical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ME 4520**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **MGT 3600**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MGT 4174**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MGT 4190**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MGT 4476**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MKTG 4260**: 2 majors (bba-entrepreneurship, bba-management)
-  - unrecognized: a Coles Partner Student
+- **MENT 4464**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - unrecognized: Media
 - **MSCM 7321**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized: Admission to the MSCM
   - unrecognized: INCM programs
 - **MSCM 7502**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized: Admission to the MSCM
   - unrecognized: INCM programs
 - **MSCM 7708**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized: Admission to the MSCM
   - unrecognized: INCM programs
-- **MTRE 3110**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **MTRE 3720**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
 - **MTRE 4710**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing Requirements
   - missing operator before 'MTRE 3110', assumed and
 - **MUAP 2101**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
   - unrecognized: minor
 - **MUAP 3101**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
   - unrecognized: have taken
   - unrecognized: passed four semesters of
   - missing operator before 'MUAP 2101', assumed and
-- **MUED 3353**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
 - **MUEN 3344**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Membership is open to all students with previous experience playing an instrument
 - **MUEN 3345**: 2 majors (bm-music, bm-music-education)
+  - unrecognized: Audition
+- **MUEN 3346**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Audition
 - **MUEN 3347**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Audition
 - **MUEN 3348**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Audition
+- **MUSI 1165**: 2 majors (bm-music, bm-music-education)
+  - unrecognized: determined by proficiency test
+  - missing operator before 'determined by proficiency test', assumed and
+- **MUSI 3333**: 2 majors (bm-music, bm-music-education)
+  - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
 - **MUTC 2100**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
-  - unrecognized: minor; placement determined by proficiency test
+  - unrecognized: minor
+  - unrecognized: determined by proficiency test
+  - missing operator before 'determined by proficiency test', assumed and
 - **MUTC 2110**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
-  - unrecognized: minor; placement determined by proficiency test
-- **ORGC 3325**: 2 majors (ba-asian-studies, bs-organizational-and-professional-communication)
-  - unrecognized: 60+ credit hours
-- **PAD 6200**: 2 majors (mpa-public-administration, ms-criminal-justice)
-  - unrecognized: Admission to graduate study
-- **PAD 6250**: 2 majors (mpa-public-administration, ms-criminal-justice)
-  - unrecognized: Admission to graduate study
-- **PHYS 3710**: 2 majors (bs-electrical-engineering, bs-physics)
-  - unrecognized: Grade of "C"
-  - unrecognized: higher in
-  - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
-- **PSYC 2210**: 2 majors (bs-biology, bs-psychology)
-  - unrecognized: ; Declared Psychology major
-  - missing operator before '; Declared Psychology major', assumed and
+  - unrecognized: minor
+  - unrecognized: determined by proficiency test
+  - missing operator before 'determined by proficiency test', assumed and
+- **ORGC 3459**: 2 majors (bs-journalism-and-emerging-media, bs-organizational-and-professional-communication)
+  - unrecognized: Media
 - **PSYC 3000**: 2 majors (bs-biology, bs-psychology)
   - unrecognized: Any 1000-level MATH course
-  - unrecognized: ;
-  - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+  - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+- **SCI 3360**: 2 majors (bs-middle-grades-education, bsed-secondary-education)
+  - unrecognized: any two 1000-level
+  - unrecognized: 2000-level science courses
 - **STAT 8240**: 2 majors (ms-computer-science, phd-data-science-and-analytics)
   - unrecognized: in Analytics
   - unrecognized: Data Science
-  - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
   - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
 - **WLC 1002**: 2 majors (ba-history, ba-international-affairs)
   - unrecognized: the equivalent
@@ -4934,10 +2540,10 @@ None.
 
 ### undergraduate
 
-- **CS 3622**: Parsed tree is right; the catalog's word 'both' was left over as a note. (majors: bs-cs)
+- **CS 3622**: Parsed tree is right; the catalog's word 'both' was left over as a note. (majors: bs-cs, bsswe-software-engineering)
 - **CSE 2300**: Catalog text has an unbalanced bracket. Read as: (CSE 1321 and CSE 1321L, both B or higher, since the grade sits inside their bracket) and (MATH 1113 or MATH 1190 or MATH 1179). Cross-checked against Banner. (majors: bas-information-technology, bs-artificial-intelligence, bs-dsa, bscgdd-computer-game-design-and-development, bsit-information-technology, bsswe-software-engineering)
 - **CSE 3801**: Parsed tree is right; '(may take concurrently)' applies to IT 3123 and is a note. (majors: bas-information-technology, bs-artificial-intelligence, bs-cs, bscgdd-computer-game-design-and-development, bsit-information-technology, bsswe-software-engineering)
-- **STAT 3125**: Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked. (majors: bs-biology, bs-dsa, bs-mathematics, bses-environmental-science)
+- **STAT 3125**: Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked. (majors: bs-biology, bs-dsa, bs-mathematics, bsed-secondary-education, bses-environmental-science)
 
 ## Programs left out of scope
 

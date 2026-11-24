@@ -262,14 +262,13 @@
       "conc-2d-animation"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Senior Review Exhibition (3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
+    "ANIM 4660",
     "ARH 4400",
     "ARH 4490",
     "ART 4490",
     "ART 3398"
   ],
-  "draftHash": "1970f46081ffac4a45d31d0b9ae6a70a6c96f8fb90c434a290aaa5b0fb60bc29"
+  "draftHash": "dc3f53fffe6a39ab038b2ca22df3a3b03e7f882f366da9e7431a1684c39fdd63"
 }

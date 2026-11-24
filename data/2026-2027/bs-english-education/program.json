@@ -27,14 +27,35 @@
     ]
   ],
   "courses": {
+    "AMST 3710": [
+      "major-required"
+    ],
+    "AMST 3740": [
+      "major-required"
+    ],
     "EDUC 2120": [
       "core-field"
     ],
     "EDUC 2130": [
       "major-required"
     ],
+    "EDUC 4610": [
+      "major-required"
+    ],
     "ENED 2110": [
       "core-field"
+    ],
+    "ENED 4414": [
+      "major-required"
+    ],
+    "ENED 4416": [
+      "major-required"
+    ],
+    "ENED 4650": [
+      "major-required"
+    ],
+    "ENED 4660": [
+      "major-required"
     ],
     "ENGL 2145": [
       "core-field"
@@ -51,6 +72,9 @@
     "ENGL 2271": [
       "major-required"
     ],
+    "ENGL 3127": [
+      "major-required"
+    ],
     "ENGL 3241": [
       "major-required"
     ],
@@ -60,14 +84,71 @@
     "ENGL 3311": [
       "major-required"
     ],
+    "ENGL 3320": [
+      "major-required"
+    ],
+    "ENGL 3330": [
+      "major-required"
+    ],
+    "ENGL 3340": [
+      "major-required"
+    ],
+    "ENGL 3342": [
+      "major-required"
+    ],
+    "ENGL 3350": [
+      "major-required"
+    ],
+    "ENGL 3360": [
+      "major-required"
+    ],
     "ENGL 3391": [
+      "major-required"
+    ],
+    "ENGL 3500": [
+      "major-required"
+    ],
+    "ENGL 3600": [
       "major-required"
     ],
     "ENGL 4340": [
       "major-required"
     ],
+    "ENGL 4370": [
+      "major-required"
+    ],
+    "ENGL 4374": [
+      "major-required"
+    ],
+    "ENGL 4401": [
+      "major-required"
+    ],
+    "ENGL 4460": [
+      "major-required"
+    ],
+    "ENGL 4470": [
+      "major-required"
+    ],
+    "ENGL 4480": [
+      "major-required"
+    ],
+    "ENGL 4560": [
+      "major-required"
+    ],
+    "ENGL 4570": [
+      "major-required"
+    ],
+    "ENGL 4580": [
+      "major-required"
+    ],
     "HUED 2110": [
       "core-field"
+    ],
+    "INED 3300": [
+      "major-required"
+    ],
+    "INED 4431": [
+      "major-required"
     ],
     "LING 3025": [
       "major-required"
@@ -76,14 +157,9 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Cultural Studies of Literature (3 Credit Hours)'",
-    "unrecognized section 'Studies in Pre-20th-Century Literature (3 Credit Hours)'",
-    "unrecognized section 'Studies in 20th- and 21st-Century Literature (3 Credit Hours)'",
-    "unrecognized section 'Yearlong Clinical Experience (24 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Note: Take GACE English test 713 (https://www.gace.es.pearson.com/test/713) during YCE. Attempting the GACE is required for certification."
   ],
-  "draftHash": "7dd28b4ece833b55cb87b26f811b7093e6be8f76f13bd175b8b06de316043ccb"
+  "draftHash": "2da2d1bb39daac8bfa3f92d141b8aa5737188f2ec1c4deda871cb4f761696c08"
 }

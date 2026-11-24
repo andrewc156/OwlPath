@@ -99,14 +99,18 @@
     ],
     "ITEC 8570": [
       "conc-advanced"
+    ],
+    "ITEC 9100": [
+      "major-required"
+    ],
+    "ITEC 9400": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Advanced ITEC Courses (6 Credit Hours)'",
-    "unrecognized section 'Dissertation (9 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
-    "text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor."
+    "text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor.",
+    "ITEC 9900"
   ],
-  "draftHash": "fe47924f57c6721e1729371785fbe67c9ed458e47991df42abbbb2239d0ea616"
+  "draftHash": "06211216d0ff21d8cec8684efc926c8f88a5ababe427b324fe14f3fd271d953d"
 }

@@ -10,7 +10,8 @@
       {
         "label": "Required courses",
         "groups": [
-          "core-field"
+          "core-field",
+          "major-required"
         ]
       }
     ]
@@ -34,18 +35,81 @@
     ],
     "POLS 2280": [
       "core-field"
+    ],
+    "POLS 3300": [
+      "major-required"
+    ],
+    "POLS 3312": [
+      "major-required"
+    ],
+    "POLS 3313": [
+      "major-required"
+    ],
+    "POLS 3320": [
+      "major-required"
+    ],
+    "POLS 3343": [
+      "major-required"
+    ],
+    "POLS 3350": [
+      "major-required"
+    ],
+    "POLS 3360": [
+      "major-required"
+    ],
+    "POLS 3365": [
+      "major-required"
+    ],
+    "POLS 3370": [
+      "major-required"
+    ],
+    "POLS 3380": [
+      "major-required"
+    ],
+    "POLS 3385": [
+      "major-required"
+    ],
+    "POLS 3387": [
+      "major-required"
+    ],
+    "POLS 3394": [
+      "major-required"
+    ],
+    "POLS 4280": [
+      "major-required"
+    ],
+    "POLS 4405": [
+      "major-required"
+    ],
+    "POLS 4412": [
+      "major-required"
+    ],
+    "POLS 4423": [
+      "major-required"
+    ],
+    "POLS 4427": [
+      "major-required"
+    ],
+    "POLS 4428": [
+      "major-required"
+    ],
+    "POLS 4430": [
+      "major-required"
+    ],
+    "POLS 4436": [
+      "major-required"
+    ],
+    "POLS 4437": [
+      "major-required"
+    ],
+    "POLS 4440": [
+      "major-required"
+    ],
+    "POLS 4499": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Senior Seminar (3 Credit Hours)'",
-    "unrecognized section 'Subfield 1: American Government and Politics'",
-    "unrecognized section 'Subfield 2: Political Behavior'",
-    "unrecognized section 'Subfield 3: International Relations'",
-    "unrecognized section 'Subfield 4: Comparative Politics'",
-    "unrecognized section 'Subfield 5: Political Theory'",
-    "unrecognized section 'Subfield 6: Public Law and Administration'",
-    "unrecognized section 'Subfield 7: Research Methods'"
-  ],
+  "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "19baa5268de79d5c9e8c5f24e64a31526f8c002a91280f019f4f8550caf57f66"
+  "draftHash": "a57c6566407c4f13a66d80cf645599bb126d3924b7d53f216a0e3c35067864c1"
 }

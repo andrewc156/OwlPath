@@ -8,6 +8,12 @@
     "name": "PhD Business Administration",
     "filters": [
       {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
         "label": "Accounting",
         "groups": [
           "conc-accounting"
@@ -58,6 +64,24 @@
     ],
     "ACCT 9100": [
       "conc-accounting"
+    ],
+    "BRM 9201": [
+      "major-required"
+    ],
+    "BRM 9202": [
+      "major-required"
+    ],
+    "BRM 9203": [
+      "major-required"
+    ],
+    "BRM 9204": [
+      "major-required"
+    ],
+    "BRM 9205": [
+      "major-required"
+    ],
+    "BRM 9206": [
+      "major-required"
     ],
     "ECON 9001": [
       "conc-risk-and-decision-analytics"
@@ -132,10 +156,9 @@
       "conc-marketing-and-sales-leadership"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Business Research Methods Courses (15 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
+    "BRM 9700",
     "ACCT 9900",
     "text: Students must take a minimum of 12 credit hours of the following course:",
     "ACCT 9903",
@@ -153,5 +176,5 @@
     "ECON 9903",
     "ECON 9904"
   ],
-  "draftHash": "f703a0a773c6405558ef2acba168789ec81ae2d413d9cacebe4014cbca7e241a"
+  "draftHash": "dc1baedb2e7fafffe3b02e4f0147c172c004e5fa8d0c218e97cef2466ef8200c"
 }

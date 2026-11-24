@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **AMST 7901**
-  - unrecognized: Permission of the American Studies graduate program director
+None.
 
 ## Left out on purpose
 

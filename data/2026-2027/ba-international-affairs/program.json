@@ -24,11 +24,18 @@
     [
       "WLC 2002",
       "POLS 2280"
+    ],
+    [
+      "WLC 1002",
+      "POLS 2401"
     ]
   ],
   "courses": {
     "DATA 1501": [
       "core-field"
+    ],
+    "POLS 2230": [
+      "major-required"
     ],
     "POLS 2238": [
       "core-field"
@@ -44,6 +51,9 @@
     ],
     "POLS 2285": [
       "core-field"
+    ],
+    "POLS 2401": [
+      "major-required"
     ],
     "POLS 3350": [
       "major-required"
@@ -108,6 +118,9 @@
     "POLS 4460": [
       "major-required"
     ],
+    "WLC 1002": [
+      "major-required"
+    ],
     "WLC 2001": [
       "core-field"
     ],
@@ -115,13 +128,11 @@
       "core-field"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Lower-Division Career Program (6 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "POLS 4490",
     "text: Students may substitute upper-division courses from other disciplines with adviser approval,",
     "text: Students may also complete an “Applied Global Experience” of ten weeks or more in order to receive 15 credit hours in this category. Full-time status will be based upon the criteria set by the host institution. Courses must be pre-approved by your International Affairs adviser and by the SGIA school director prior to departure."
   ],
-  "draftHash": "d5699c529aa2a09573793ec62472e641ba33f758a2ae66688fd3c9e5e3818f59"
+  "draftHash": "826c16964ba3391a1a1b8e7b57bbd88b29fd6c104def0b34013749a8d71e548c"
 }

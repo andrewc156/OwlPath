@@ -2,65 +2,40 @@
 
 ## Warnings needing review
 
+- **CHIN 1002**
+  - unrecognized: the equivalent
 - **ECON 2105**
   - unrecognized: higher
 - **ECON 2106**
   - unrecognized: higher
 - **ECON 2300**
-  - unrecognized: Business Majors:
-  - unrecognized: ; Non-business Majors:
-  - missing operator before 'MATH 1111', assumed and
-  - missing operator before '; Non-business Majors:', assumed and
-  - missing operator before 'MATH 1101', assumed and
+  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 - **EDUC 4610**
-  - unrecognized: Admission to teacher education
-  - unrecognized: an issued pre-service certificate
   - unrecognized: Varies by program:
-- **FIN 3100**
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: Admission as a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-- **INED 3300**
-  - unrecognized: Admission to Teacher Education
+- **FREN 1002**
+  - unrecognized: the equivalent
+- **GRMN 1002**
+  - unrecognized: the equivalent
 - **IS 2200**
   - unrecognized: higher
-- **MGT 3100**
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-- **MKTG 3100**
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-- **WLED 4650**
-  - unrecognized: Admission to Teacher Education
-  - unrecognized: Issued Pre-Service Certificate
-  - unrecognized: Admission to Yearlong Clinical Experience
+- **ITAL 1002**
+  - unrecognized: the equivalent
+- **JAPN 1002**
+  - unrecognized: the equivalent
+- **KOR 1002**
+  - unrecognized: the equivalent
+- **PORT 1002**
+  - unrecognized: the equivalent
+- **PORT 2001**
+  - unrecognized: equivalent
+- **PORT 2002**
+  - unrecognized: equivalent
+- **SPAN 1002**
+  - unrecognized: the equivalent
 
 ## Notes
 
 - FIN 3100: added ECON 2300 so (ECON 2300, ECON 2400) has an option on the map
-
-## Drafting warnings
-
-- unrecognized section 'Chinese'
-- unrecognized section 'French'
-- unrecognized section 'German'
-- unrecognized section 'Italian'
-- unrecognized section 'Japanese'
-- unrecognized section 'Korean'
-- unrecognized section 'Spanish'
-- unrecognized section 'Chinese'
-- unrecognized section 'French'
-- unrecognized section 'German'
-- unrecognized section 'Italian'
-- unrecognized section 'Japanese'
-- unrecognized section 'Korean'
-- unrecognized section 'Portuguese'
-- unrecognized section 'Spanish'
 
 ## Left out on purpose
 

@@ -4,32 +4,16 @@
 
 - **CS 7125**
   - unrecognized: Equivalent
-- **CS 7385**
-  - unrecognized: Program Admission
-  - unrecognized: Permission of Director
 - **CS 7455**
   - unrecognized: Coursework in Computer Programming
-  - unrecognized: as determined by program admission
   - missing operator before 'as determined by program admission', assumed and
 - **CS 7535**
   - unrecognized: a Bachelor of Science in Computer Science degree
 - **CS 7827**
   - unrecognized: Coursework in Operating Systems
-  - unrecognized: as determined by program admission
   - missing operator before 'as determined by program admission', assumed and
-- **SWE 6753**
-  - unrecognized: permission by the program coordinator
-- **SWE 6783**
-  - unrecognized: permission by the program coordinator
 - **SWE 6883**
-  - unrecognized: ;
-  - unrecognized: permission by program coordinator
-  - ambiguous and/or precedence: SWE 6623 and SWE 6613; or permission by program coordinator
-
-## Drafting warnings
-
-- unrecognized section 'plus a course covering the entire software development lifecycle'
-- unrecognized section 'Approved SYE Courses:'
+  - could not parse (unexpected 'or'): SWE 6623 and SWE 6613; or permission by program coordinator
 
 ## Left out on purpose
 

@@ -27,7 +27,12 @@
       }
     ]
   },
-  "choices": [],
+  "choices": [
+    [
+      "SWE 6623",
+      "SWE 6733"
+    ]
+  ],
   "courses": {
     "CS 7125": [
       "major-elective"
@@ -47,6 +52,9 @@
     "SWE 6613": [
       "major-required"
     ],
+    "SWE 6623": [
+      "major-required"
+    ],
     "SWE 6633": [
       "major-required"
     ],
@@ -57,6 +65,7 @@
       "major-required"
     ],
     "SWE 6733": [
+      "major-required",
       "major-elective"
     ],
     "SWE 6753": [
@@ -85,12 +94,18 @@
     ],
     "SWE 7903": [
       "conc-a-capstone"
+    ],
+    "SYE 6005": [
+      "major-elective"
+    ],
+    "SYE 6025": [
+      "major-elective"
+    ],
+    "SYE 6035": [
+      "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'plus a course covering the entire software development lifecycle'",
-    "unrecognized section 'Approved SYE Courses:'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: 12 Credit Hours of 6000 or 7000-level SWE, CS, IT or SYE courses (at least 2 courses must be from SWE or the approved list of CS/CSE courses and at most 2 from either CS, IT, or SYE)",
     "text: Choose 9 Credit Hours of 6000 or 7000-Level SWE, CS, IT, or SYE courses (at least 2 courses must be from SWE or from the approved list of CS/CSE courses)",
@@ -100,5 +115,5 @@
     "SWE 6803",
     "CSE 7983"
   ],
-  "draftHash": "735791f343d68a3c651f4c05d558bc599ce02928e51a5d51b2bfb73f107e1113"
+  "draftHash": "8712fa87fc323ed6f06aba7bc96ec71bc94bb69c03c640a1d929f565f13fd661"
 }

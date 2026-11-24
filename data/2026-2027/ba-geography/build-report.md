@@ -2,19 +2,13 @@
 
 ## Warnings needing review
 
+- **GEOG 3000**
+  - unrecognized: Students must be 21 years of age
 - **GEOG 4100**
-  - unrecognized: Any upper-division geography course;
+  - unrecognized: Any upper-division geography course
   - unrecognized: chair
 - **GEOG 4499**
   - unrecognized: Students must be GEOG
-  - unrecognized: GSS major with 60+ credit hours
-
-## Drafting warnings
-
-- unrecognized section 'Group A: Human/Regional Geography'
-- unrecognized section 'Group B: Physical/Environmental Geography'
-- unrecognized section 'Group C: Geographic Techniques'
-- unrecognized section 'Group D: Miscellaneous Courses'
 
 ## Left out on purpose
 
@@ -22,3 +16,4 @@
 - text: Select 3 credit hours from the following list of courses:
 - GEOG 3398
 - text: Study Abroad 3000-4000 level (any subject)
+- GEOG 4490

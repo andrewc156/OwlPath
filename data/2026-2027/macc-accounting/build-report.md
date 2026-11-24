@@ -3,8 +3,3 @@
 ## Warnings needing review
 
 None.
-
-## Drafting warnings
-
-- unrecognized section 'Option A: Audit/Advisory Specialization'
-- unrecognized section 'Option B: Tax Specialization'

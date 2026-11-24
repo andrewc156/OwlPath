@@ -2,43 +2,28 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
 - **NURS 3101**
   - unrecognized: Nursing
-  - unrecognized: BSN major
   - missing operator before 'BSN major', assumed and
 - **NURS 3102**
   - unrecognized: Nursing
-  - unrecognized: BSN major
   - missing operator before 'BSN major', assumed and
 - **NURS 3103**
   - unrecognized: Nursing
-  - unrecognized: BSN major
   - missing operator before 'BSN major', assumed and
 - **NURS 3104**
   - unrecognized: Nursing
-  - unrecognized: BSN Major
   - missing operator before 'BSN Major', assumed and
 - **NURS 3105**
   - unrecognized: Nursing
-  - unrecognized: BSN major
   - missing operator before 'BSN major', assumed and
 - **NURS 3106**
   - unrecognized: Nursing
-  - unrecognized: BSN major
   - missing operator before 'BSN major', assumed and
 
 ## Notes
 
-- CHEM 1211: added MATH 1111 so (MATH 1111, MATH 1113, MATH 1190, MATH 1179, MATH 2202, MATH 1113) has an option on the map
+- CHEM 1211: added MATH 1111 so (MATH 1111, MATH 1113, MATH 1190, MATH 1179, MATH 2202) has an option on the map
 
 ## Left out on purpose
 

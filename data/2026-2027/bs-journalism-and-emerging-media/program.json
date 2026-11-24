@@ -42,11 +42,26 @@
     "COMM 2340": [
       "core-field"
     ],
+    "COMM 3315": [
+      "major-elective"
+    ],
+    "COMM 3320": [
+      "major-elective"
+    ],
+    "COMM 3350": [
+      "major-elective"
+    ],
+    "JOUR 3310": [
+      "major-elective"
+    ],
     "JOUR 3330": [
       "major-required"
     ],
     "JOUR 3360": [
       "major-elective"
+    ],
+    "JOUR 3395": [
+      "major-required"
     ],
     "JOUR 3700": [
       "major-required"
@@ -72,6 +87,12 @@
     "JOUR 4420": [
       "major-elective"
     ],
+    "JOUR 4430": [
+      "major-elective"
+    ],
+    "JOUR 4435": [
+      "major-elective"
+    ],
     "JOUR 4445": [
       "major-elective"
     ],
@@ -84,14 +105,64 @@
     "JOUR 4488": [
       "major-required"
     ],
+    "MENT 3100": [
+      "major-elective"
+    ],
     "MENT 3300": [
+      "major-elective"
+    ],
+    "MENT 3326": [
+      "major-elective"
+    ],
+    "MENT 4424": [
+      "major-elective"
+    ],
+    "MENT 4425": [
+      "major-elective"
+    ],
+    "MENT 4436": [
+      "major-elective"
+    ],
+    "MENT 4444": [
+      "major-elective"
+    ],
+    "MENT 4464": [
+      "major-elective"
+    ],
+    "ORGC 3459": [
+      "major-elective"
+    ],
+    "ORGC 4470": [
+      "major-elective"
+    ],
+    "PR 3335": [
+      "major-elective"
+    ],
+    "PR 3355": [
+      "major-elective"
+    ],
+    "PR 3375": [
+      "major-elective"
+    ],
+    "PR 3429": [
+      "major-elective"
+    ],
+    "PR 4210": [
+      "major-elective"
+    ],
+    "PR 4405": [
+      "major-elective"
+    ],
+    "PR 4605": [
+      "major-required",
       "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Advanced Journalism Professional Practice (3 Credit Hours)'",
-    "unrecognized section 'Related Studies (3 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "COMM 3398",
+    "COMM 4400",
+    "COMM 4490"
   ],
-  "leftOut": [],
-  "draftHash": "779a886a793ba355473f276f19ee9fa3c157044eb1008a364120bfa649ad1269"
+  "draftHash": "5f332c481dfee6913cdd4254d1b4252498b4edb3f588cb6282ea590f4bbd4c56"
 }

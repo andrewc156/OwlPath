@@ -20,14 +20,39 @@
     [
       "PHYS 1111L",
       "PHYS 2211"
+    ],
+    [
+      "ARCH 2004",
+      "ARCH 1011"
     ]
   ],
   "courses": {
     "ARCH 1000": [
       "core-field"
     ],
+    "ARCH 1001": [
+      "major-required"
+    ],
+    "ARCH 1002": [
+      "major-required"
+    ],
+    "ARCH 1011": [
+      "major-required"
+    ],
+    "ARCH 1012": [
+      "major-required"
+    ],
     "ARCH 1241": [
       "core-field"
+    ],
+    "ARCH 2003": [
+      "major-required"
+    ],
+    "ARCH 2004": [
+      "major-required"
+    ],
+    "ARCH 2013": [
+      "major-required"
     ],
     "ARCH 2111": [
       "core-field"
@@ -40,6 +65,12 @@
     ],
     "ARCH 2311": [
       "core-field"
+    ],
+    "ARCH 3011": [
+      "major-required"
+    ],
+    "ARCH 3012": [
+      "major-required"
     ],
     "ARCH 3112": [
       "major-required"
@@ -59,6 +90,12 @@
     "ARCH 3314": [
       "major-required"
     ],
+    "ARCH 4013": [
+      "major-required"
+    ],
+    "ARCH 4014": [
+      "major-required"
+    ],
     "ARCH 4114": [
       "major-required"
     ],
@@ -74,6 +111,9 @@
     "ARCH 4226": [
       "major-required"
     ],
+    "ARCH 5015": [
+      "major-required"
+    ],
     "PHYS 1111": [
       "major-required"
     ],
@@ -87,14 +127,12 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Lower-Division Studio (16 Credit Hours)'",
-    "unrecognized section 'Upper-Division Studio (24 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences or two (2) credit thours of university electives (1000-4000 level coursework from the University Catalog).",
     "text: If PHYS 1111/1111L or PHYS 2211/2211L were taken in Technology, Mathematics, and Sciences, choose any course from these prefixes: ARCH, CM or other course approved by the department chair.",
-    "ARCH 5006"
+    "ARCH 5006",
+    "ARCH 5017"
   ],
-  "draftHash": "5816e1932e3fcfb081310f2b1fc968883308de8318246294c71a6c93ec0857b4"
+  "draftHash": "71523365628b5b3f15fa977c8a7b810a8b9a46b251a0f6eb4476cc1248dbcfcf"
 }

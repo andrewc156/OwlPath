@@ -4,10 +4,6 @@
 
 None.
 
-## Drafting warnings
-
-- unrecognized section 'Orientation Residency'
-
 ## Left out on purpose
 
 - text: Only 2 courses (6 credit hours) may be transferred into this program from another institution, and their approval is subject to the program director and the policies of the Kennesaw State University Graduate College (e.g., an AACSB-International accredited program, completed within 6 years of MBA graduation at KSU).

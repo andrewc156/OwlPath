@@ -2,19 +2,11 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
 - **ECET 3410**
   - unrecognized: P
   - missing operator before 'PHYS 2212', assumed and
 - **ENGT 4901**
-  - unrecognized: for MET Majors
   - unrecognized: concurrently
-  - unrecognized: for EET Majors
   - missing operator before '(', assumed and
   - missing operator before 'for EET Majors', assumed and
 

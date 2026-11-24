@@ -18,8 +18,6 @@
 - **IS 7800**
   - unrecognized: director
   - missing operator before 'director', assumed and
-- **IS 7910**
-  - unrecognized: Must be approved by graduate program director
 - **IS 7935**
   - unrecognized: director
   - missing operator before 'director', assumed and

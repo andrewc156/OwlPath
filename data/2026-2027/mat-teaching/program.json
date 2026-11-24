@@ -57,8 +57,48 @@
       }
     ]
   },
-  "choices": [],
+  "choices": [
+    [
+      "ARED 6660",
+      "ECE 6650"
+    ],
+    [
+      "ECE 6660",
+      "EDUC 6650"
+    ],
+    [
+      "EDUC 6660",
+      "ENED 6650"
+    ],
+    [
+      "ENED 6660",
+      "HIED 6650"
+    ],
+    [
+      "HIED 6660",
+      "INED 6650"
+    ],
+    [
+      "INED 6660",
+      "INED 6651"
+    ],
+    [
+      "INED 6661",
+      "MAED 6650"
+    ],
+    [
+      "MAED 6661",
+      "SCED 6650"
+    ],
+    [
+      "SCED 6661",
+      "WLED 6650"
+    ]
+  ],
   "courses": {
+    "ARED 6660": [
+      "major-required"
+    ],
     "ECE 6620": [
       "major-required"
     ],
@@ -70,6 +110,12 @@
     ],
     "ECE 6641": [
       "conc-elementary-education"
+    ],
+    "ECE 6650": [
+      "major-required"
+    ],
+    "ECE 6660": [
+      "major-required"
     ],
     "ECE 6670": [
       "conc-elementary-education"
@@ -98,11 +144,23 @@
     "EDUC 6610": [
       "major-required"
     ],
+    "EDUC 6650": [
+      "major-required"
+    ],
+    "EDUC 6660": [
+      "major-required"
+    ],
     "ENED 6414": [
       "conc-english"
     ],
     "ENED 6416": [
       "conc-english"
+    ],
+    "ENED 6650": [
+      "major-required"
+    ],
+    "ENED 6660": [
+      "major-required"
     ],
     "ENGL 7701": [
       "conc-english"
@@ -116,10 +174,31 @@
     "ENGL 7735": [
       "conc-english"
     ],
+    "HIED 6650": [
+      "major-required"
+    ],
+    "HIED 6660": [
+      "major-required"
+    ],
+    "INED 6400": [
+      "major-required"
+    ],
     "INED 6431": [
       "conc-pedagogy-only",
       "conc-english",
       "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "INED 6650": [
+      "major-required"
+    ],
+    "INED 6651": [
+      "major-required"
+    ],
+    "INED 6660": [
+      "major-required"
+    ],
+    "INED 6661": [
+      "major-required"
     ],
     "INED 7611": [
       "conc-special-education"
@@ -132,6 +211,9 @@
     ],
     "INED 7631": [
       "conc-special-education"
+    ],
+    "INED 7650": [
+      "major-required"
     ],
     "INED 7710": [
       "major-required"
@@ -179,6 +261,15 @@
     "MAED 6495": [
       "conc-secondary-mathematics"
     ],
+    "MAED 6650": [
+      "major-required"
+    ],
+    "MAED 6660": [
+      "major-required"
+    ],
+    "MAED 6661": [
+      "major-required"
+    ],
     "MAED 7495": [
       "conc-secondary-mathematics"
     ],
@@ -193,14 +284,27 @@
     ],
     "SCED 6418": [
       "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "SCED 6650": [
+      "major-required"
+    ],
+    "SCED 6660": [
+      "major-required"
+    ],
+    "SCED 6661": [
+      "major-required"
+    ],
+    "WLED 6650": [
+      "major-required"
+    ],
+    "WLED 6660": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Students with Exceptionalities (3 Credit Hours)'",
-    "unrecognized section 'Clinical Experience (9 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
+    "ARED 6650",
     "text: Select 6 credit hours of advisor approved electives."
   ],
-  "draftHash": "5bfe4001ee27939137bc33accc24dd2a4bc307117ddcf13a0c769f1223044638"
+  "draftHash": "980eaff27d65c61fe5ab992bbf89a88de3da5a72439916d97869e9e1add0afe9"
 }

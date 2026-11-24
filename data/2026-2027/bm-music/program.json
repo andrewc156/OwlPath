@@ -66,8 +66,21 @@
   },
   "choices": [
     [
+      "MUTC 3200",
+      "MUTC 3313"
+    ],
+    [
       "MUTC 3320",
       "MUTC 3325"
+    ],
+    [
+      "MUSI 1165",
+      "MUSI 3333"
+    ],
+    [
+      "MUSI 2165",
+      "MUSI 3360",
+      "MUSI 3333"
     ],
     [
       "MUTC 3326",
@@ -119,7 +132,8 @@
       "conc-jazz-performance"
     ],
     "MUAP 2102": [
-      "core-field"
+      "core-field",
+      "major-required"
     ],
     "MUAP 3096": [
       "conc-instrumental-performance",
@@ -226,6 +240,12 @@
     "MUEN 3352": [
       "conc-voice-performance"
     ],
+    "MUSI 1165": [
+      "major-required"
+    ],
+    "MUSI 2165": [
+      "major-required"
+    ],
     "MUSI 3000": [
       "major-required"
     ],
@@ -241,6 +261,7 @@
       "conc-piano-performance"
     ],
     "MUSI 3333": [
+      "major-required",
       "conc-piano-performance"
     ],
     "MUSI 3334": [
@@ -257,6 +278,9 @@
     ],
     "MUSI 3355": [
       "conc-jazz-performance"
+    ],
+    "MUSI 3360": [
+      "major-required"
     ],
     "MUSI 3390": [
       "major-required"
@@ -297,8 +321,23 @@
     "MUTC 3007": [
       "conc-composition"
     ],
+    "MUTC 3100": [
+      "major-required"
+    ],
+    "MUTC 3110": [
+      "major-required"
+    ],
     "MUTC 3168": [
       "conc-music-theory"
+    ],
+    "MUTC 3200": [
+      "major-required"
+    ],
+    "MUTC 3210": [
+      "major-required"
+    ],
+    "MUTC 3313": [
+      "major-required"
     ],
     "MUTC 3320": [
       "major-required"
@@ -401,12 +440,7 @@
       "conc-music-therapy"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Applied Lessons (2 Credit Hours)'",
-    "unrecognized section 'Theory/Aural Skills Sequence (6 Credit Hours)'",
-    "unrecognized section 'Group 1'",
-    "unrecognized section 'Group 2'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Repeat the following course for 6 credit hours:",
     "text: or Music Therapy Concentration students must take:",
@@ -421,5 +455,5 @@
     "text: Select one of the following courses:",
     "text: Repeat the following course for 2 credit hours:"
   ],
-  "draftHash": "56a794410f77567e92da34107f3a40c3b4f8b3e5f6b2166a18571f2de8f41b78"
+  "draftHash": "8a144312c85142ea18f89c416d33394513b304ae2f56abd028be42b05134d821"
 }

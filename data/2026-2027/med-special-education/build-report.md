@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **INED 7730**
-  - unrecognized: Admission into a graduate program in any education major
-- **INED 7955**
-  - unrecognized: permission from Program Coordinator
+None.
 
 ## Left out on purpose
 

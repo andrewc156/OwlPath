@@ -7,27 +7,10 @@
 - **ECON 2106**
   - unrecognized: higher
 - **ECON 2300**
-  - unrecognized: Business Majors:
-  - unrecognized: ; Non-business Majors:
-  - missing operator before 'MATH 1111', assumed and
-  - missing operator before '; Non-business Majors:', assumed and
-  - missing operator before 'MATH 1101', assumed and
-- **FIN 3100**
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: Admission as a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
+  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 - **IS 2200**
   - unrecognized: higher
-- **IS 3100**
-  - unrecognized: Earned grade of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-- **ISYE 4500**
-  - unrecognized: Engineering Standing
 - **SCM 2000**
-  - unrecognized: A declared major within the College of Science
   - unrecognized: Mathematics
 
 ## Notes

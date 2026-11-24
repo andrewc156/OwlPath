@@ -6,30 +6,15 @@
   - ambiguous and/or precedence: BIOL 3370 and BIOL 3370L or permission of the instructor
 - **BIOL 4322**
   - could not parse (unexpected ')'): BIOL 1108 and BIOL 1108L)
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
-- **ENVS 4399**
-  - unrecognized: Environmental Science Major
-  - unrecognized: 90+ Credit Hours
 - **GEOL 1121K**
-  - unrecognized: A grade of 'C'
-  - unrecognized: better in any two 1000-level
+  - unrecognized: any two 1000-level
   - unrecognized: 2000-level science courses
 - **GIS 4415**
-  - unrecognized: permission of the Geospatial Sciences
   - unrecognized: GSS
   - unrecognized: Internship Coordinator
   - missing operator before '(', assumed and
   - missing operator before 'Internship Coordinator', assumed and
 - **SCM 2000**
-  - unrecognized: A declared major within the College of Science
   - unrecognized: Mathematics
 
 ## Left out on purpose

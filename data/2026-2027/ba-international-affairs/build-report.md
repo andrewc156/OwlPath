@@ -8,10 +8,6 @@
 - **WLC 1002**
   - unrecognized: the equivalent
 
-## Drafting warnings
-
-- unrecognized section 'Lower-Division Career Program (6 Credit Hours)'
-
 ## Left out on purpose
 
 - POLS 4490

@@ -6,37 +6,20 @@
   - unrecognized: comparable research methods course
   - ambiguous and/or precedence: (BIOL 1107 and BIOL 1107L) and (BIOL 1108 and BIOL 1108L) or comparable research methods course
 - **BIOL 4399**
-  - unrecognized: 90 credit hours
   - ambiguous and/or precedence: BIOL 3410 and 90 credit hours or permission of the instructor
 - **BIOL 4465**
-  - unrecognized: ; Recommended -
-  - missing operator before '; Recommended -', assumed and
+  - unrecognized: Recommended -
   - missing operator before 'BIOL 3340', assumed and
 - **BIOL 4475**
-  - unrecognized: ; Recommended -
-  - missing operator before '; Recommended -', assumed and
+  - unrecognized: Recommended -
   - missing operator before 'BIOL 3340', assumed and
 - **BIOL 4486**
   - unrecognized: plus a minimum of 9 additional hours of 3000-4000 level Biology
   - unrecognized: Biochemistry
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
-- **PSYC 2210**
-  - unrecognized: ; Declared Psychology major
-  - missing operator before '; Declared Psychology major', assumed and
 - **PSYC 3000**
   - unrecognized: Any 1000-level MATH course
-  - unrecognized: ;
-  - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+  - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
 - **SCM 2000**
-  - unrecognized: A declared major within the College of Science
   - unrecognized: Mathematics
 
 ## Left out on purpose

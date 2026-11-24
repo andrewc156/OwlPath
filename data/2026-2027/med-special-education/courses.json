@@ -1,0 +1,142 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7631",
+      "notes": [],
+      "prereqs": null,
+      "title": "Evidence-Based Instruction/Intervention for Learners with Dyslexia and Other Learning Disabilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on understanding laws at the national and state levels, policies and procedures, as well as current legal trends and issues that impact students with disabilities. Emphasis is placed on eligibility procedures including providing services and developing and implementing the Individualized Education Program. In addition, information regarding disability categories, characteristics and how they manifest in the classroom, as well as approaching disability from a culturally responsive asset-based perspective will be addressed. Note: All candidates must earn a \u201cB\u201d or higher in this course for certification as stated in the Georgia PSC 505-2-.24 Special Georgia Requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7710",
+      "notes": [
+        "Admission to KSU graduate program"
+      ],
+      "prereqs": null,
+      "title": "Foundations in Special Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133351",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on developing skills in implementing proactive strategies for positive behavior and academic supports. Basic application of culturally responsive school-wide positive behavior support strategies, individualized behavioral supports, and positive classroom support strategies are emphasized. Candidates will apply research-based principles and strategies through an application project while working in the field with a student with challenging behaviors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7720",
+      "notes": [],
+      "prereqs": null,
+      "title": "Positive Behavior Intervention Supports"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133352",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide knowledge and skills regarding assessment procedures, process (including pre-referral and Response to Intervention), and protocols utilized in making eligibility and instructional decisions regarding individualized education programs and placements. In addition, candidates develop an understanding of assessment terminology, accommodations, and fidelity of implementation, as well as culturally appropriate assessments, and gain expertise in communicating assessment results to key stakeholders including students and families. Note: Field experience required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7730",
+      "notes": [
+        "Admission into a graduate program in any education major"
+      ],
+      "prereqs": null,
+      "title": "Assessment for Student Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates develop a basic understanding of educational research paradigms including qualitative, quantitative and action research designs. Candidates will develop expertise as consumers and producers of research, critically examining the use of data in policy aimed at improving student outcomes. Major topics include use of district-state wide assessment data to inform instruction, the ethical use of data, and teacher evaluation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7742",
+      "notes": [
+        "Admission to KSU graduate degree program"
+      ],
+      "prereqs": null,
+      "title": "Data-based Inquiry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133056",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates completing this course will continue to expand their professional knowledge base of individualized learning and the context of schools, families, and communities. Students identify, select, and implement a repertoire of evidence-based intervention strategies for students with disabilities to include assistive technology and information literacy. Candidates use current research in teaching as a rationale for strategy selection. Field experience required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7762",
+      "notes": [],
+      "prereqs": null,
+      "title": "Designing Curriculum and Instruction for All Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133349",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to familiarize the learner with an overview of characteristics, etiology, empirical based treatments, and prevalence of Autism Spectrum Disorder (ASD). Additionally, this course aims to inform participants with the knowledge and skill to effectively facilitate a learning environment in which individuals with ASD are successful. Effective teaching strategies, classroom organization, and collaborating with professionals and families will be introduced, evaluated, and discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7775",
+      "notes": [],
+      "prereqs": null,
+      "title": "Nature of Autism: Theory and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133354",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course fulfills the teacher certification requirement for a full-time internship in a K-12 accredited school in a classroom of the intern\u2019s area of certification. It provides a synthesis of the candidates\u2019 program of study and provides an opportunity to connect personal experiences, university coursework, and applied experiences in order to develop a broader understanding of the context of schooling in the United States. Field experience required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7955",
+      "notes": [
+        "Admission to KSU Graduate Program",
+        "permission from Program Coordinator"
+      ],
+      "prereqs": null,
+      "title": "Capstone in Special Education"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "med-special-education",
+    "name": "MEd Special Education"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -2,12 +2,19 @@
 
 ## Warnings needing review
 
+- **PRWR 7460**
+  - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6460, or permission of the graduate program director
+- **PRWR 7470**
+  - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6470, or permission of the graduate program director
+- **PRWR 7480**
+  - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6480, or permission of the graduate program director
+- **PRWR 7520**
+  - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6520, or permission of the graduate program director
 - **PRWR 7960**
-  - unrecognized: Completion of 27 credit hours in the MAPW program
-  - unrecognized: at least four courses in the concentration; approval of capstone committee
+  - unrecognized: at least four courses in the concentration
 
-## Drafting warnings
+## Left out on purpose
 
-- unrecognized section 'Applied Writing'
-- unrecognized section 'Composition and Rhetoric'
-- unrecognized section 'Creative Writing'
+- PRWR 7600
+- PRWR 7900
+- PRWR 7950

@@ -89,12 +89,11 @@
       "core-field"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Public Health Internship (6 or 9 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "PH 4720",
-    "text: Note: Students who complete 9 credit hours of internship will need to complete 18 credit hours of Free Electives. Those who complete 6 credit hours of internship will need to complete 21 credit hours of Free Electives."
+    "text: Note: Students who complete 9 credit hours of internship will need to complete 18 credit hours of Free Electives. Those who complete 6 credit hours of internship will need to complete 21 credit hours of Free Electives.",
+    "PH 4750"
   ],
-  "draftHash": "a9c158faa9bfde86858e36d1f2b0772a6886c5404d575f954ea035a257c6e6a1"
+  "draftHash": "578ea2d406225a072d1d044b6365bc23d625b0ff94d26140800f8f578fac0ff6"
 }

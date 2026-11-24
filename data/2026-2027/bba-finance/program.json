@@ -30,8 +30,32 @@
     "ACCT 2102": [
       "core-field"
     ],
+    "ACCT 3100": [
+      "major-elective"
+    ],
+    "ACCT 3200": [
+      "major-elective"
+    ],
+    "ACCT 4150": [
+      "major-elective"
+    ],
+    "ACCT 4300": [
+      "major-elective"
+    ],
+    "ACCT 4550": [
+      "major-elective"
+    ],
+    "ACCT 4700": [
+      "major-elective"
+    ],
     "BLAW 2200": [
       "major-required"
+    ],
+    "BLAW 3400": [
+      "major-elective"
+    ],
+    "BLAW 4300": [
+      "major-elective"
     ],
     "BUSA 1000": [
       "major-required"
@@ -50,6 +74,54 @@
     ],
     "ECON 3200": [
       "major-required"
+    ],
+    "ECON 4210": [
+      "major-elective"
+    ],
+    "ECON 4510": [
+      "major-elective"
+    ],
+    "ECON 4530": [
+      "major-elective"
+    ],
+    "ECON 4550": [
+      "major-elective"
+    ],
+    "ECON 4590": [
+      "major-elective"
+    ],
+    "ECON 4610": [
+      "major-elective"
+    ],
+    "ECON 4710": [
+      "major-elective"
+    ],
+    "ECON 4730": [
+      "major-elective"
+    ],
+    "ECON 4750": [
+      "major-elective"
+    ],
+    "ECON 4760": [
+      "major-elective"
+    ],
+    "ECON 4810": [
+      "major-elective"
+    ],
+    "ECON 4850": [
+      "major-elective"
+    ],
+    "ECON 4870": [
+      "major-elective"
+    ],
+    "ENTR 3001": [
+      "major-elective"
+    ],
+    "ENTR 4002": [
+      "major-elective"
+    ],
+    "ENTR 4003": [
+      "major-elective"
     ],
     "FIN 3100": [
       "major-required"
@@ -90,11 +162,20 @@
     "FIN 4620": [
       "major-elective"
     ],
+    "INS 4500": [
+      "major-elective"
+    ],
     "IS 2200": [
       "core-field"
     ],
     "IS 3100": [
       "major-required"
+    ],
+    "IS 3280": [
+      "major-elective"
+    ],
+    "IS 4540": [
+      "major-elective"
     ],
     "MATH 1160": [
       "major-required"
@@ -105,25 +186,37 @@
     "MGT 3200": [
       "major-required"
     ],
+    "MGT 4003": [
+      "major-elective"
+    ],
+    "MGT 4130": [
+      "major-elective"
+    ],
     "MGT 4199": [
       "major-required"
     ],
     "MKTG 3100": [
       "major-required"
     ],
+    "MKTG 4100": [
+      "major-elective"
+    ],
+    "MKTG 4430": [
+      "major-elective"
+    ],
+    "RE 3400": [
+      "major-elective"
+    ],
     "RE 4500": [
       "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Related Studies (6 Credit Hours)'",
-    "unrecognized section 'I. Capital Markets'",
-    "unrecognized section 'II. Corporate Finance'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
     "FIN 4490",
-    "text: Any 300/400 level FIN course not already taken to satisfy degree requirements"
+    "text: Any 300/400 level FIN course not already taken to satisfy degree requirements",
+    "FIN 4400"
   ],
-  "draftHash": "19542ecb3b9ad2c2c19890313609423d954e0d6cebd5ef6c480256c63ce381b5"
+  "draftHash": "73891a9b4f5ac9b64c7286b73d9f7d8a5bafe1586f421bfad68bb6457eb0ec73"
 }

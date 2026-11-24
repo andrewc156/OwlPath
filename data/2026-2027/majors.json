@@ -1,9 +1,45 @@
 [
   {
     "checked": false,
+    "id": "ma-american-studies",
+    "level": "graduate",
+    "name": "MA American Studies"
+  },
+  {
+    "checked": false,
+    "id": "ma-integrated-global-communication",
+    "level": "graduate",
+    "name": "MA Integrated Global Communication"
+  },
+  {
+    "checked": false,
+    "id": "macc-accounting",
+    "level": "graduate",
+    "name": "MAcc Accounting"
+  },
+  {
+    "checked": false,
     "id": "mba-executive-business-administration",
     "level": "graduate",
     "name": "MBA (Executive) Business Administration"
+  },
+  {
+    "checked": false,
+    "id": "mba-webmba-business-administration",
+    "level": "graduate",
+    "name": "MBA (WebMBA) Business Administration"
+  },
+  {
+    "checked": false,
+    "id": "med-secondary-and-middle-grades-education",
+    "level": "graduate",
+    "name": "MEd Secondary and Middle Grades Education"
+  },
+  {
+    "checked": false,
+    "id": "med-special-education",
+    "level": "graduate",
+    "name": "MEd Special Education"
   },
   {
     "checked": false,
@@ -37,6 +73,12 @@
   },
   {
     "checked": false,
+    "id": "ms-prosthetics-and-orthotics",
+    "level": "graduate",
+    "name": "MS Prosthetics and Orthotics"
+  },
+  {
+    "checked": false,
     "id": "msit-information-technology",
     "level": "graduate",
     "name": "MSIT Information Technology"
@@ -49,9 +91,45 @@
   },
   {
     "checked": false,
+    "id": "msn-family-nurse-practitioner",
+    "level": "graduate",
+    "name": "MSN Family Nurse Practitioner"
+  },
+  {
+    "checked": false,
+    "id": "msn-leadership-in-nursing",
+    "level": "graduate",
+    "name": "MSN Leadership in Nursing"
+  },
+  {
+    "checked": false,
     "id": "msseng-systems-engineering",
     "level": "graduate",
     "name": "MSSENG Systems Engineering"
+  },
+  {
+    "checked": false,
+    "id": "phd-business-administration",
+    "level": "graduate",
+    "name": "PhD Business Administration"
+  },
+  {
+    "checked": false,
+    "id": "bs-aerospace-engineering",
+    "level": "undergraduate",
+    "name": "BS Aerospace Engineering"
+  },
+  {
+    "checked": false,
+    "id": "bs-anthropology",
+    "level": "undergraduate",
+    "name": "BS Anthropology"
+  },
+  {
+    "checked": false,
+    "id": "bs-artificial-intelligence",
+    "level": "undergraduate",
+    "name": "BS Artificial Intelligence"
   },
   {
     "checked": true,
@@ -64,5 +142,17 @@
     "id": "bs-dsa",
     "level": "undergraduate",
     "name": "BS Data Science and Analytics"
+  },
+  {
+    "checked": false,
+    "id": "bs-political-science",
+    "level": "undergraduate",
+    "name": "BS Political Science"
+  },
+  {
+    "checked": false,
+    "id": "bsswe-software-engineering",
+    "level": "undergraduate",
+    "name": "BSSWE Software Engineering"
   }
 ]

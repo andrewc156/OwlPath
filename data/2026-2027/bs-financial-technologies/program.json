@@ -30,6 +30,12 @@
     "ACCT 2101": [
       "core-field"
     ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
     "ECON 2105": [
       "core-field"
     ],
@@ -38,6 +44,9 @@
     ],
     "ENTR 2001": [
       "core-field"
+    ],
+    "FIN 3100": [
+      "major-required"
     ],
     "FIS 3820": [
       "major-required"
@@ -63,6 +72,9 @@
     "IS 2200": [
       "core-field"
     ],
+    "IS 3100": [
+      "major-required"
+    ],
     "IS 3815": [
       "major-required"
     ],
@@ -72,6 +84,9 @@
     "MATH 1113": [
       "core-field"
     ],
+    "MKTG 3100": [
+      "major-required"
+    ],
     "STAT 1401": [
       "core-field"
     ],
@@ -79,11 +94,9 @@
       "core-field"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Business Foundations (12 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: *If taken to satisfy General Education Core IMPACTS, students may select up to 6 credit hours of free electives."
   ],
-  "draftHash": "30a122f24fea5f96c1204947ff57710da09f56418cf8feb283c37f5f005ed15a"
+  "draftHash": "98f8f8027d9416d44eedfd927a60823fd0c2585606aa43a60a7a94513fa49ba1"
 }

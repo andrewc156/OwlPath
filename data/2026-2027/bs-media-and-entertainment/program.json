@@ -10,7 +10,14 @@
       {
         "label": "Required courses",
         "groups": [
-          "core-field"
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
         ]
       }
     ]
@@ -19,6 +26,9 @@
   "courses": {
     "COMM 1110": [
       "core-field"
+    ],
+    "COMM 2020": [
+      "major-required"
     ],
     "COMM 2033": [
       "core-field"
@@ -34,18 +44,107 @@
     ],
     "COMM 2340": [
       "core-field"
+    ],
+    "COMM 3435": [
+      "major-required"
+    ],
+    "COMM 4200": [
+      "major-required"
+    ],
+    "FILM 3105": [
+      "major-required"
+    ],
+    "FILM 3125": [
+      "major-required"
+    ],
+    "JOUR 3330": [
+      "major-required"
+    ],
+    "JOUR 3360": [
+      "major-elective"
+    ],
+    "JOUR 3820": [
+      "major-elective"
+    ],
+    "JOUR 4100": [
+      "major-required"
+    ],
+    "JOUR 4445": [
+      "major-elective"
+    ],
+    "JOUR 4450": [
+      "major-elective"
+    ],
+    "MEBU 3370": [
+      "major-elective"
+    ],
+    "MENT 3100": [
+      "major-required"
+    ],
+    "MENT 3200": [
+      "major-required"
+    ],
+    "MENT 3300": [
+      "major-elective"
+    ],
+    "MENT 3326": [
+      "major-required"
+    ],
+    "MENT 3400": [
+      "major-required"
+    ],
+    "MENT 4420": [
+      "major-required"
+    ],
+    "MENT 4424": [
+      "major-required"
+    ],
+    "MENT 4425": [
+      "major-required"
+    ],
+    "MENT 4435": [
+      "major-required"
+    ],
+    "MENT 4444": [
+      "major-required"
+    ],
+    "MENT 4454": [
+      "major-elective"
+    ],
+    "MENT 4464": [
+      "major-elective"
+    ],
+    "MENT 4474": [
+      "major-elective"
+    ],
+    "MENT 4475": [
+      "major-elective"
+    ],
+    "MENT 4485": [
+      "major-required"
+    ],
+    "MENT 4495": [
+      "major-required"
+    ],
+    "PR 4405": [
+      "major-elective"
+    ],
+    "PR 4605": [
+      "major-elective"
+    ],
+    "WRIT 3150": [
+      "major-required"
+    ],
+    "WRIT 3151": [
+      "major-required"
+    ],
+    "WRIT 3152": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Context (6 Credit Hours)'",
-    "unrecognized section 'Methods (6 Credit Hours)'",
-    "unrecognized section 'Storytelling (6 Credit Hours)'",
-    "unrecognized section 'Culminating (3 Credit Hours)'",
-    "unrecognized section 'Professional Development (3 Credit Hours)'",
-    "unrecognized section 'Photography & Design Production (6 Credit Hours)'",
-    "unrecognized section 'Film & Video Production (6 Credit Hours)'",
-    "unrecognized section 'Audio Production (6 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "COMM 3398"
   ],
-  "leftOut": [],
-  "draftHash": "f8ccc389b44873e6ac175c0cd1171a1d22480aea14c6d024da689229d8ceb3bb"
+  "draftHash": "73dd3182dd29b4e1b3052c781d113a3b872597455fa1fbcde7b426027c2cdf83"
 }

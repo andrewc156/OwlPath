@@ -4,14 +4,6 @@
 
 None.
 
-## Drafting warnings
-
-- unrecognized section 'Secondary English or Middle Grades Language Arts'
-- unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'
-- unrecognized section 'Secondary History or Middle Grades Social Studies'
-- unrecognized section 'Secondary Chemistry'
-- unrecognized section 'Secondary Biology or Middle Grades Science'
-
 ## Left out on purpose
 
 - text: Choose One of the Following Course Options:

@@ -1,0 +1,953 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The primary objective of this course is to provide a introduction to the basic principles and applications of Artificial Intelligence. It covers the basic areas of artificial intelligence including problem solving, knowledge representation, reasoning, decision making, planning, perception and action, and learning \u2013 and their applications. Students will design and implement key components of intelligent agents of modern complexity and evaluate their performance. Students are expected to develop familiarity with current research problems, research methods, and the research literature in AI.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "AI 3642",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CS 3305",
+          {
+            "external": "AI 2000"
+          }
+        ]
+      },
+      "title": "Artificial Intelligence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136371",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces concepts and techniques in machine vision. Students successfully completing this course will be able to apply a variety of image processing techniques for the design and analysis of efficient algorithms for real-world applications, such as optical character recognition, face detection and recognition, motion estimation, human tracking, and gesture recognition. Topics include basic image enhancement, corner and edge detection, image morphology, linear and non-linear filters, image transformations, camera models, two-dimensional and three-dimensional image geometry, clustering and segmentation (and classification), object recognition and Bag-of-Words models, image texture, shape analysis, and tracking.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "AI 4732",
+      "notes": [],
+      "prereqs": "AI 3642",
+      "title": "Machine Vision"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135898",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces data structures, specification, application, and implementation. The case studies will illustrate how data structures are used in computing applications. The emphasis of the course is on linear and some nonlinear data structures and object oriented principles. Topics include: abstract data types, stacks, queues, lists, binary search trees, priority queues, recursion, algorithm efficiency, trees, heaps, hash tables, and analysis of search and sort algorithms and their performance for implementation and manipulation. The programming language to be used in this course is any standard high-level object-oriented programming language such as C++, Java, and Ada.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 3305",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 2345",
+              "CSE 2300"
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "CSE 1322",
+                  "CSE 1322L"
+                ]
+              },
+              {
+                "external": "MTRE 2710",
+                "minGrade": "B"
+              },
+              {
+                "external": "CPE 3000",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Data Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135969",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers the basic concepts, design and implementation of operating systems. Topics include an overview of basic computing hardware components, operating system structures, process management, memory management, file systems, input/output systems, protection and security. The Windows and/or UNIX/Linux operating systems will be reviewed as example systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 3502",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3305",
+          "CS 3503"
+        ]
+      },
+      "title": "Operating Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136677",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers computer architecture. Topics include data representation and encoding, binary arithmetic, fixed- and floating-point representation, numbering systems, error-control, instruction set architecture, assembly language and programming, microcode, memory organization and addressing, I/O, interrupts, internal architecture, instruction pipelining, multi-core architectures and CPU/ALU basics. The course also covers computer organization. Topics include Boolean Algebra, logic gates, flip-flops, counters, registers, combinational and sequential circuits, K-maps, circuit design, and various digital components.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 3503",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1322",
+          "CSE 1322L"
+        ]
+      },
+      "title": "Computer Organization and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136758",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction on the fundamentals and underlying theory of data communication networks, their architecture, principles of operations and performance analyses. Topics include OSI reference model and standards, communication codes, network protocol concepts, synchronous and asynchronous transmission methods, line coding, signaling, effects of bandwidth and noise, digital and analog modulation, interfacing, error/flow/media-access control, switching and routing methods, and network topologies. Other areas studied are Local area networks (LANs), Wide area networks (WANs), Wireless networks, Fiber optic networks, internetworking technologies, and an introduction to the Internet, TCP/IP, cryptography and network security.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 3622",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "course": "CSE 1322",
+            "minGrade": "B"
+          },
+          {
+            "course": "CSE 1322L",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Fundamentals of Data Communications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136759",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 3305",
+      "credits": "3",
+      "description": "The course covers both mathematical and practical foundations of cryptography. Topics include basic number theory for cryptography, conversion of text, and implementation using a programming language. The course includes historical cryptography, symmetric cryptography, asymmetric cryptography, hash functions, and well-known attack strategies with countermeasures. Exercises cover programming of simple cryptography in a programming language.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 3626",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 2345",
+          "CSE 2300"
+        ]
+      },
+      "title": "Cryptography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135782",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamental concepts on which programming languages are based and the execution models supporting them. Topics include values, variables, bindings, type systems, control structures, exceptions, concurrency, and modularity. Languages representing different paradigms are introduced.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4308",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3305",
+          "CS 3503"
+        ]
+      },
+      "title": "Concepts of Programming Languages"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135882",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 3502",
+      "credits": "3",
+      "description": "This course introduces students to the fundamental principles common to the design and implementation of programs that run on two or more interconnected computer systems - in parallel or distributed configurations. Topics to be covered include: essentials of operating systems, network protocols for process communication, and synchronization using message queues; understanding of client-server paradigms, web-based group or collaborative communication systems; advanced distributed computing paradigms for parallel computing and handling concurrency issues; and sockets. Programming will focus on using API\u2019s for parallel or distributed applications (e.g., MPI and RMI).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4504",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3305",
+          "CS 3503"
+        ]
+      },
+      "title": "Parallel and Distributed Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135901",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the software-development life cycle as it applies to real-time systems. Alternatives: \u2022 Including labs that involve the use of a real-time operating system and an associated development environment, or \u2022 Modeling with UML, and object oriented simulation. Introduction to formal specification of real-time systems. A course project is required to be completed by the end of the semester.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4514",
+      "notes": [],
+      "prereqs": "CS 3502",
+      "title": "Real-Time Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135896",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of practical parallel algorithms with an emphasis on implementation and performance issues on massively parallel processors. Design and implement high performance computing applications using CUDA running on Graphics Processing Unit (GPU). Topics include heterogeneous parallel programming, hardware threading models, synchronization, parallel blocking algorithms, register allocations, memory performance, and inter-thread communication.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4523",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3305",
+          "CS 3502"
+        ]
+      },
+      "title": "Programming Massively Parallel Processors"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135904",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course discusses the fundamental concepts and techniques of cloud computing. Students will develop an understanding of cloud computing architecture, Infrastructure as a Service (IaaS), Platform-as-a-Service (PaaS), Software as a Service (SaaS), Virtualization, and Application Development on Cloud.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4524",
+      "notes": [],
+      "prereqs": "CS 4504",
+      "title": "Cloud Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135770",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces the fundamental concepts and principles of software security. Topics covered include buffer overflows, defense mechanisms, return oriented programming, reverse engineering, vulnerabilities analysis. Additional topics: mobile security, hardware platform security, embedded system security.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4612",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3502",
+          "CS 3626"
+        ]
+      },
+      "title": "Software Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135906",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers computer networking and includes software application-related, protocol-related and security-related issues involved in the Internet. Topics include basic network structures, mechanisms for application-to-application communications, protocol layering, Internet addressing, unicast and multicast routing, connection establishment and termination, data flow and congestion control, and error handling. A specific protocol suite will be examined in detail. More advanced topics that build on the student\u2019s understanding of network protocols are also introduced, such as network security, mobile networks and the future Internet.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4622",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3503",
+          "CS 3622"
+        ]
+      },
+      "title": "Computer Networks"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135900",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the modeling and simulation of the structure and behavior of real-world systems using object-oriented discrete-event simulation techniques. The course emphasizes the modeling and computer programming perspective of simulation; design and implementation of simulation models. The fundamental concepts of object-oriented simulation are introduced. Model implementation will require programming in an object-oriented simulation language such as OOSimL, or in a general purpose programming language (Java or C++). Students will also be exposed to a commercial integrated simulation software tool: Arena.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4632",
+      "notes": [],
+      "prereqs": "CS 3305",
+      "title": "Modeling and Simulation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135889",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A comprehensive study of techniques in design and implementation of user interfaces engineering. Topics include the foundation of human-computer interaction and interface related to software lifecycle, building a graphic user interface engineering, interaction devices and technologies, human-computer dialogue, cognitive models, usability, the design and development process, user interface management systems (UIMS), interface style and techniques, user learning, and diversity in interaction styles. Major research and the building of a working graphic user interface are included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4712",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1322",
+          "CSE 1322L"
+        ]
+      },
+      "title": "User Interface Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135661",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces current technologies for modeling, designing, implementing, and developing Web applications. Topics include developing for the server and the client, programming frameworks, server administration and integration with databases. Practice will involve platforms and language such as Linux, Python, PHP, Ruby and JavaScript.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4720",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 3305",
+          {
+            "or": [
+              {
+                "external": "CS 3410"
+              },
+              "CSE 3153"
+            ]
+          }
+        ]
+      },
+      "title": "Internet Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135893",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The basic principles and practices of interactive computer graphics and multimedia systems are covered in this introductory course. The design and implementation of state-of-the-art computer graphic rendering and visual multimedia systems are the main part of the course. The sub-topics of the course deal with specific input/output hardware devices and their technology, software and hardware standards, programming methods for implementing 3-dimensional graphical applications and interactive multimedia applications, and a study and evaluation of the effectiveness of graphic/multimedia communications. A large component of the class is the building of a large-scale application.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 4722",
+      "notes": [],
+      "prereqs": "CS 3305",
+      "title": "Computer Graphics and Multimedia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321L",
+      "credits": "3",
+      "description": "This course provides an introduction to computing with a focus on programming. Instruction centers on an overview of programming, problem-solving, and algorithm development. Particular topics include object-oriented design/programming, primitive data types, arithmetic and logical operators, selection and repetition structures, interactive user input, exception handling, using and designing basic classes, single-dimensional data structures with searching and sorting, and arrays. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions and the relationship between correct code and security.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321",
+      "credits": "1",
+      "description": "Lab activities with programming to accompany CSE 1321.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136676",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CSE 1322L",
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event-driven programming are also introduced. Students will use good programming style including proper documentation.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1322",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136669",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1322",
+      "credits": "1",
+      "description": "This course is the required and supervised lab course to accompany CSE 1322.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1322L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136287",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Coverage of discrete structures is crucial to any program in computing. This course covers propositional and predicate logic, proofs, set theory, relations and functions, algorithms and complexity theory, matrices, graphs and trees, and combinatorics. Throughout, the emphasis will be on applications of these concepts in computing.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 2300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "course": "CSE 1321",
+            "minGrade": "B"
+          },
+          {
+            "course": "CSE 1321L",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Discrete Structures for Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136123",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The topics in this course span from a review of the traditional file processing systems to database management systems. Topics include files systems and file processing logic, planning, and major phases of database development: analysis, design and implementation. Labs use an SQL based database product such as Oracle.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CSE 3153",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CSE 1322",
+              "CSE 1322L"
+            ]
+          },
+          {
+            "external": "IT 1113"
+          },
+          {
+            "and": [
+              {
+                "external": "IT 1114"
+              },
+              {
+                "external": "IT 1114L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Database Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135880",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course covers the historical, social and economic consideration of the discipline. It includes studies of professional conduct, risks, and liabilities, and intellectual property relative to the software engineering and computing professions. Software engineering/computing case studies will be used.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CSE 3801",
+      "notes": [
+        "IT 3123 may be taken concurrently"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CSE 1322",
+              "CSE 1322L"
+            ]
+          },
+          {
+            "external": "IT 3123"
+          }
+        ]
+      },
+      "title": "Professional Practices and Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135913",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student develops knowledge of the principles of information assurance at the policy, procedural, and technical levels to prepare the student for a role as a business decision-maker. Real-world examples from the text and current events will be used to demonstrate the applicability of the techniques of information assurance.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 4823",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "CSE 2300",
+              "MATH 2345"
+            ]
+          },
+          {
+            "or": [
+              {
+                "external": "IT 3123"
+              },
+              "CS 3503"
+            ]
+          }
+        ]
+      },
+      "title": "Information Security Administration & Privacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135840",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the fundamentals of discrete mathematics. Topics include sets, formal logic, methods of proof, counting relations, functions, graphs and trees, and finite state automata.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2345",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Discrete Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135631",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a foundational, calculus-based introduction to statistics and probability. The following conceptual themes will be developed through the process of statistical investigation: exploratory data analysis (univariate and bivariate), fundamentals of experiment design and sampling, planning and conducting a study, exploring random phenomenon using probability and simulation, and the fundamentals of statistical inference. Technology is integrated into each theme, and the statistical software package used will be chosen by the instructor.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 2332",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Probability and Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135987",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the software engineering discipline, introducing the student to the fundamental principles and processes of software engineering. This course highlights the need for an engineering approach (both personal and team) to software with understanding of the activities performed at each stage in the development cycle. In this course, students will perform requirements analysis, design, implementation and testing. The course presents software development processes at the various degrees of granularity. Students will become aware of libraries of standards (IEEE, ACM, SWEBOK, etc.).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 3313",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1322",
+          "CSE 1322L"
+        ]
+      },
+      "title": "Introduction to Software Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135988",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers engineering activities related to the definition and representation of software system requirements. Topics include the elicitation, analysis, specification and validation of software system requirements. Emphasis is on the application of processes and techniques of requirements engineering. Projects focus on current analysis methods and supporting tools for specification, organization, change management, traceability, prototyping, and validating requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 3623",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "SWE 3313",
+              {
+                "or": [
+                  "CSE 2300",
+                  "MATH 2345"
+                ]
+              }
+            ]
+          },
+          {
+            "external": "CPE 3000"
+          }
+        ]
+      },
+      "title": "Software Systems Requirements"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135989",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamental design principles and strategy for software architecture and design. Architectural styles, quality attributes, design notations and documents, reference architecture, domain specific architecture in architecture process and pattern-oriented design, component-oriented design, and interface design in detailed design process are discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 3633",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "SWE 3313",
+          {
+            "external": "CPE 3000"
+          }
+        ]
+      },
+      "title": "Software Architecture and Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135990",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will show how software quality assurance and configuration management are performed and how software process improvement is maintained in order to assure the highest possible quality. Topics include software process metrics and their use in QA, testing approaches, methods and techniques. Development of QA plans, reviews, inspections and audits will be done.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 3643",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "SWE 3313",
+          {
+            "external": "CPE 3000"
+          }
+        ]
+      },
+      "title": "Software Testing & Quality Assurance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135991",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The analysis and design course focuses on using modern methods, techniques, and tools for specification and design of embedded systems. Topics include analytical methods such as RMA, development methods such as HOOD, and notations like UML, Petri-nets, etc. are covered. Performance evaluation based on modeling and simulation techniques is also covered. This is a project based course.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 3683",
+      "notes": [],
+      "prereqs": "CS 3305",
+      "title": "Embedded Systems Analysis and Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136238",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the fundamental knowledge, processes, skills, and practices leading to the user-centered design (UCD) of (computer) systems and applications. UCD is not limited to the design of software systems but applies to the plan and development of any objects. This course will define the important concepts in UCD, cognition and its relationship with UCD, and two views of human-centered design. Usability engineering techniques are covered leading to improved system effectiveness in supporting use of computers, user learning, diversity in interaction styles, and individual versus group work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 4324",
+      "notes": [],
+      "prereqs": "SWE 3313",
+      "title": "User-Centered Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135992",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course discusses the fundamental concepts and tools of cloud-based application development. Students will learn how to develop apps on top of the cloud with an understanding of various contemporary cloud providers (e.g., Amazon Web Services, Google Cloud, or Microsoft Azure). Students will do hands-on projects focused on building cloud-run applications using their platform of choice.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 4633",
+      "notes": [],
+      "prereqs": "CS 3305",
+      "title": "Cloud Software Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135993",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on organizational and technical roles in software engineering. Models of software engineering life cycle, software maturity framework, strategies of implementing software, software process assessment, project planning principles and tools, software configuration management, managing software quality and usability, leadership principles and legal issues will be covered. A required team project combines technical and managerial techniques of software design and development.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 4663",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SWE 3313",
+          "STAT 2332"
+        ]
+      },
+      "title": "Software Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135994",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "SWE 3643",
+          "SWE 4663"
+        ]
+      },
+      "credits": "3",
+      "description": "Students work as part of a team to develop solutions to problems posed by either internal or external customers in a specific SWE Application Domain. The purpose of the course is for students to gain an understanding of the selected application domain and its use of software to support functions/operations within that domain. Application domain selection is done every term from a variety of industrial domains including Security, Gaming, Automotive, Aerospace, Military, Finance and Commerce. Problems may require considerable software development or evolution and maintenance of existing software products. The course culminates with the completion and presentation of an increment of the project solution.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 4713",
+      "notes": [],
+      "prereqs": "SWE 3623",
+      "title": "SWE Application Domain"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135995",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "SWE 3643",
+          "SWE 4663"
+        ]
+      },
+      "credits": "4",
+      "description": "This is the capstone project course and constitutes a major design experience. The course focuses on a team project comprising the development of a realistic software system during all phases of the software development life cycle. Topics include software project management, design, verification and validation, development, evolution and quality assurance. Current methods, techniques, and software tools are utilized in the development of the project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 4724",
+      "notes": [],
+      "prereqs": "SWE 3623",
+      "title": "Software Engineering Capstone Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135996",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course involves engineering activities related to the analysis, design, and implementation of object-oriented software systems. Topics include modeling foundations, requirements specification and documentation, design concepts and strategies, and OOAD methodologies with an emphasis on UML. The course includes a major project utilizing current analysis and design methods and tools implemented in a contemporary IDE.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 4743",
+      "notes": [],
+      "prereqs": "CS 3305",
+      "title": "Object-Oriented Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135997",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the basic theories and principles applied to the design of human-computer interfaces. It introduces students to the basic concepts used in designing interactions. It will cover the basic theory and methods that exist in the field. Case studies are used throughout the readings to exemplify the methods presented and to lend a context to the issues discussed. This course will focus on the semiotic engineering approach to human-computer interaction, in which the interaction is analyzed in terms of communication between the designers of the artifact and the user.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 4783",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "SWE 3313",
+          "SWE 4324"
+        ]
+      },
+      "title": "User Interaction Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136333",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is an introduction to organization, style, and mechanics of technical writing. It includes practice in writing such typical documents as technical descriptions, instructions, proposals, and recommendation reports. Emphasis is placed on incorporating rhetorical theory into planning, organizing, and writing reports; designing visual aids; and editing. Among other assignments, at least one complete technical report is required.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TCOM 2010",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Technical Writing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bsswe-software-engineering",
+    "name": "BSSWE Software Engineering"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

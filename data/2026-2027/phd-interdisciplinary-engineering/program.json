@@ -17,6 +17,12 @@
   },
   "choices": [],
   "courses": {
+    "CE 8201": [
+      "major-required"
+    ],
+    "CS 8267": [
+      "major-required"
+    ],
     "ENGR 8001": [
       "major-required"
     ],
@@ -31,15 +37,52 @@
     ],
     "ENGR 8120": [
       "major-required"
+    ],
+    "ENGR 8130": [
+      "major-required"
+    ],
+    "ENGR 8210": [
+      "major-required"
+    ],
+    "ENGR 8220": [
+      "major-required"
+    ],
+    "ENGR 8300": [
+      "major-required"
+    ],
+    "ENGR 8310": [
+      "major-required"
+    ],
+    "ENGR 8320": [
+      "major-required"
+    ],
+    "ENGR 8330": [
+      "major-required"
+    ],
+    "ENGR 8400": [
+      "major-required"
+    ],
+    "ENGR 8410": [
+      "major-required"
+    ],
+    "ENGR 8420": [
+      "major-required"
+    ],
+    "ENGR 8430": [
+      "major-required"
+    ],
+    "MTRE 8100": [
+      "major-required"
+    ],
+    "SYE 8005": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Intelligent Robotic Systems'",
-    "unrecognized section 'Smart infrastructure'",
-    "unrecognized section 'Biomedical and Health Systems'",
-    "unrecognized section 'Innovative Materials'",
-    "unrecognized section 'Research (36 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "MTRE 8400",
+    "ENGR 8860",
+    "ENGR 9900"
   ],
-  "leftOut": [],
-  "draftHash": "37dbf29d4777cd7129eb77b71fbdc13e1908f375b3dec70baedef9a2b3c32d19"
+  "draftHash": "47ded556a41a607e94eb7e925de6d1f1453853ce9094c5e678731fdc107cde59"
 }

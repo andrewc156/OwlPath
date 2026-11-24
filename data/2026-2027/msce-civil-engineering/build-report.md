@@ -2,16 +2,8 @@
 
 ## Warnings needing review
 
-- **CE 3201**
-  - unrecognized: Engineering Standing
 - **CE 3343**
   - course page not found ('CE 3343')
-- **CE 3501**
-  - unrecognized: Engineering Standing
-- **CE 3702**
-  - unrecognized: Engineering Standing
-- **CE 4177**
-  - unrecognized: Engineering Standing
 - **CE 6101**
   - unrecognized: equivalent
   - could not parse (unexpected 'or'): CE 3201 (or equivalent) or approval of instructor
@@ -22,7 +14,6 @@
   - unrecognized: equivalent
 - **CE 6104**
   - unrecognized: equivalent
-  - unrecognized: approval by instructor
   - ambiguous and/or precedence: CE 3701 and CE 4105 (or equivalent), or approval by instructor
   - could not parse (unexpected 'or'): CE 3701 and CE 4105 (or equivalent), or approval by instructor
 - **CE 6105**
@@ -34,7 +25,6 @@
   - unrecognized: equivalent
   - could not parse (unexpected 'or'): CE 3501 (or equivalent), or approval of advisor
 - **CE 6302**
-  - unrecognized: Admission to program
   - unrecognized: equivalent
   - ambiguous and/or precedence: Admission to program and CE 3702 or equivalent
 - **CE 6303**
@@ -45,16 +35,6 @@
   - unrecognized: equivalent
 - **CE 6633**
   - unrecognized: equivalent
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
-- **ENGR 3305**
-  - unrecognized: Engineering Standing Requirements
-- **ENGR 3343**
-  - unrecognized: Engineering Standing
 - **ENGR 6002**
   - unrecognized: in Engineering
   - missing operator before 'in Engineering', assumed and

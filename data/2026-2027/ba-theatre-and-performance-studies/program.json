@@ -45,6 +45,9 @@
     "DANC 3000": [
       "conc-musical-theatre"
     ],
+    "SA 4490": [
+      "major-required"
+    ],
     "TPS 1500": [
       "core-field"
     ],
@@ -78,6 +81,18 @@
     ],
     "TPS 3015": [
       "conc-musical-theatre"
+    ],
+    "TPS 3050": [
+      "major-required"
+    ],
+    "TPS 3051": [
+      "major-required"
+    ],
+    "TPS 3052": [
+      "major-required"
+    ],
+    "TPS 3053": [
+      "major-required"
     ],
     "TPS 3193": [
       "major-required",
@@ -156,11 +171,30 @@
     "TPS 3853": [
       "conc-design-technology"
     ],
+    "TPS 4010": [
+      "major-required"
+    ],
+    "TPS 4020": [
+      "major-required"
+    ],
     "TPS 4030": [
+      "major-required",
       "conc-acting"
+    ],
+    "TPS 4050": [
+      "major-required"
+    ],
+    "TPS 4051": [
+      "major-required"
+    ],
+    "TPS 4052": [
+      "major-required"
     ],
     "TPS 4243": [
       "conc-acting"
+    ],
+    "TPS 4244": [
+      "major-required"
     ],
     "TPS 4313": [
       "conc-performance-studies"
@@ -193,16 +227,20 @@
     "TPS 4833": [
       "conc-design-technology"
     ],
+    "TPS 4860": [
+      "major-required"
+    ],
     "TPS 4999": [
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Applied Professional Sequence (6 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Select 6 credit hours from the following list of courses:",
-    "text: Select 3 credit hours from the following list of courses:"
+    "text: Select 3 credit hours from the following list of courses:",
+    "TPS 3398",
+    "TPS 4400",
+    "TPS 4490"
   ],
-  "draftHash": "0e76426c56e6766e8e4309e5d42854c7bd877ec6fca26631d608bb82dfa45ef4"
+  "draftHash": "c9d17134199275aee90d9bf45200368ea208c59111f3cd09855c139d40ebe318"
 }

@@ -3,15 +3,12 @@
 ## Warnings needing review
 
 - **FIS 6815**
-  - unrecognized: Full admission to the Digital Financial Technologies
   - unrecognized: M.S
   - missing operator before 'M.S', assumed and
 - **FIS 6870**
-  - unrecognized: Full admission to the Digital Financial Technologies
   - unrecognized: M.S
   - missing operator before 'M.S', assumed and
 - **FIS 6880**
-  - unrecognized: Full admission to the Digital Financial Technologies
   - unrecognized: M.S
   - missing operator before 'M.S', assumed and
 - **IS 7060**

@@ -2,22 +2,9 @@
 
 ## Warnings needing review
 
-- **EDRS 8100**
-  - unrecognized: Admission to graduate study in Education
-- **EDRS 8200**
-  - unrecognized: Admission to graduate study in Education
-- **EDSM 8500**
-  - unrecognized: Admission to graduate study in Education
 - **EDSM 8701**
   - unrecognized: in education
   - missing operator before 'in education', assumed and
-- **EDSM 9300**
-  - unrecognized: Permission of the professor
-
-## Drafting warnings
-
-- unrecognized section 'Technology Course (3 Credit Hours)'
-- unrecognized section 'Note:'
 
 ## Left out on purpose
 

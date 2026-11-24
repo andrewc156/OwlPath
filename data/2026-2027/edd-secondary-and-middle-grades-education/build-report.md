@@ -2,32 +2,17 @@
 
 ## Warnings needing review
 
-- **EDRS 8100**
-  - unrecognized: Admission to graduate study in Education
-- **EDRS 8200**
-  - unrecognized: Admission to graduate study in Education
 - **EDRS 9100**
   - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
 - **EDRS 9200**
   - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-- **EDSM 8500**
-  - unrecognized: Admission to graduate study in Education
 - **EDSM 8701**
   - unrecognized: in education
   - missing operator before 'in education', assumed and
-- **EDSM 9300**
-  - unrecognized: Permission of the professor
-
-## Drafting warnings
-
-- unrecognized section 'Technology Course (3 Credit Hours)'
-- unrecognized section 'Secondary English or Middle Grades Language Arts'
-- unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'
-- unrecognized section 'Secondary History or Middle Grades Social Studies'
-- unrecognized section 'Note:'
-- unrecognized section 'Dissertation (9 Credit Hours minimum)'
+- **ENED 9400**
+  - unrecognized: 6 hours graduate research courses
 
 ## Left out on purpose
 
@@ -42,3 +27,7 @@ Any 7000, 8000, or 9000 level MATH or MAED course. Students may also consider 60
 - text: Additional credit hours selected from the following:
 
 Any 7000, 8000, or 9000 level HIST, GEOG, ECON, ANTH, POLS, SSED or EDSS course. Students may also consider 6000 or higher AMST courses with history advisor or program coordinator approval.
+- CHED 9900
+- EDAD 9900
+- ENED 9900
+- MAED 9900

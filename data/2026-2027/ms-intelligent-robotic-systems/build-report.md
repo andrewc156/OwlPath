@@ -16,8 +16,6 @@
 - **MTRE 6750**
   - unrecognized: in Intelligent Robotic Systems
   - missing operator before 'in Intelligent Robotic Systems', assumed and
-- **MTRE 6800**
-  - unrecognized: Admission to the MS ​program in Intelligent Robotic Systems
 
 ## Left out on purpose
 

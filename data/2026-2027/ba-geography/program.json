@@ -63,11 +63,86 @@
     "GEOG 2200": [
       "major-required"
     ],
+    "GEOG 3000": [
+      "major-elective"
+    ],
+    "GEOG 3305": [
+      "major-elective"
+    ],
+    "GEOG 3310": [
+      "major-elective"
+    ],
+    "GEOG 3312": [
+      "major-elective"
+    ],
+    "GEOG 3315": [
+      "major-elective"
+    ],
+    "GEOG 3320": [
+      "major-elective"
+    ],
+    "GEOG 3330": [
+      "major-elective"
+    ],
+    "GEOG 3340": [
+      "major-elective"
+    ],
+    "GEOG 3350": [
+      "major-elective"
+    ],
+    "GEOG 3360": [
+      "major-elective"
+    ],
+    "GEOG 3370": [
+      "major-elective"
+    ],
+    "GEOG 3390": [
+      "major-elective"
+    ],
+    "GEOG 3395": [
+      "major-elective"
+    ],
+    "GEOG 3700": [
+      "major-elective"
+    ],
+    "GEOG 3710": [
+      "major-elective"
+    ],
+    "GEOG 3800": [
+      "major-elective"
+    ],
+    "GEOG 3850": [
+      "major-elective"
+    ],
+    "GEOG 3900": [
+      "major-elective"
+    ],
     "GEOG 4100": [
       "major-required"
     ],
+    "GEOG 4300": [
+      "major-elective"
+    ],
+    "GEOG 4345": [
+      "major-elective"
+    ],
+    "GEOG 4349": [
+      "major-elective"
+    ],
+    "GEOG 4380": [
+      "major-elective"
+    ],
+    "GEOG 4405": [
+      "major-elective"
+    ],
+    "GEOG 4410": [
+      "major-elective"
+    ],
     "GEOG 4499": [
       "major-required"
+    ],
+    "GEOG 4700": [
+      "major-elective"
     ],
     "GWST 2000": [
       "major-elective"
@@ -83,19 +158,21 @@
     ],
     "SOCI 2251": [
       "major-elective"
+    ],
+    "SURV 3320": [
+      "major-elective"
+    ],
+    "SURV 3451": [
+      "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Group A: Human/Regional Geography'",
-    "unrecognized section 'Group B: Physical/Environmental Geography'",
-    "unrecognized section 'Group C: Geographic Techniques'",
-    "unrecognized section 'Group D: Miscellaneous Courses'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Select 6 credit hours of 1000-2000 level coursework from the following prefixes: ARAB, ASL, CHIN, FREN, GRMN, HEBR, ITAL, JAPN, KOR, LATN, PORT, RUSS, SPAN, or WLC. *If taken in General Education Core IMPACTS: Arts and Humanities students may select 3 credit hours of free electives.",
     "text: Select 3 credit hours from the following list of courses:",
     "GEOG 3398",
-    "text: Study Abroad 3000-4000 level (any subject)"
+    "text: Study Abroad 3000-4000 level (any subject)",
+    "GEOG 4490"
   ],
-  "draftHash": "2de048d0dc42091c8efeced2402a09d13a7d0671c085da87b23bbd8ce7cc3820"
+  "draftHash": "097d0c0f0e8ac4d694b1c22167d3fa0122fcbc273ebc754b8586826ed8ad81c5"
 }

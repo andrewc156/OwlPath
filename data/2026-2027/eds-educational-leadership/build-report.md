@@ -9,7 +9,3 @@
   - unrecognized: in education
   - missing operator before 'Ed.S.', assumed and
   - missing operator before 'Ed.D.', assumed and
-
-## Drafting warnings
-
-- unrecognized section 'Educational Leadership Residency Courses (18 Credit Hours)'

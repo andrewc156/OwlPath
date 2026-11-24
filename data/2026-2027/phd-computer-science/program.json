@@ -81,13 +81,12 @@
       "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Dissertation (24-30 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "CS 8990",
     "CSE 7983",
-    "DS 9700"
+    "DS 9700",
+    "CS 9900"
   ],
-  "draftHash": "9d16095bb04466ba28c5cb8194b80c95288783a505f2311c31e60f42751fcc44"
+  "draftHash": "bf9f6920f165ab2373cb3bb27a8570d8ce8e90cfcd84e2579c2ae651ee62771c"
 }

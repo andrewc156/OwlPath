@@ -4,10 +4,6 @@
 
 - **CRJU 7998**
   - unrecognized: Completion of six core courses
-- **PAD 6200**
-  - unrecognized: Admission to graduate study
-- **PAD 6250**
-  - unrecognized: Admission to graduate study
 
 ## Left out on purpose
 

@@ -13,6 +13,12 @@
           "core-field",
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -44,11 +50,35 @@
     "CM 3000": [
       "major-required"
     ],
+    "CM 3040": [
+      "major-elective"
+    ],
     "CM 3110": [
       "major-required"
     ],
+    "CM 3170": [
+      "major-elective"
+    ],
     "CM 3180": [
       "major-required"
+    ],
+    "CM 3260": [
+      "major-elective"
+    ],
+    "CM 3270": [
+      "major-elective"
+    ],
+    "CM 3280": [
+      "major-elective"
+    ],
+    "CM 3290": [
+      "major-elective"
+    ],
+    "CM 3310": [
+      "major-elective"
+    ],
+    "CM 3400": [
+      "major-elective"
     ],
     "CM 3410": [
       "major-required"
@@ -56,14 +86,47 @@
     "CM 3420": [
       "major-required"
     ],
+    "CM 3440": [
+      "major-elective"
+    ],
+    "CM 3480": [
+      "major-elective"
+    ],
+    "CM 3500": [
+      "major-elective"
+    ],
+    "CM 3710": [
+      "major-elective"
+    ],
     "CM 3800": [
       "major-required"
+    ],
+    "CM 3910": [
+      "major-elective"
+    ],
+    "CM 4190": [
+      "major-elective"
+    ],
+    "CM 4230": [
+      "major-elective"
+    ],
+    "CM 4480": [
+      "major-elective"
     ],
     "CM 4510": [
       "major-required"
     ],
+    "CM 4512": [
+      "major-elective"
+    ],
     "CM 4560": [
       "major-required"
+    ],
+    "CM 4620": [
+      "major-elective"
+    ],
+    "CM 4660": [
+      "major-elective"
     ],
     "CM 4710": [
       "major-required"
@@ -86,6 +149,9 @@
     "MGT 3100": [
       "major-required"
     ],
+    "MKTG 3100": [
+      "major-elective"
+    ],
     "PHYS 1111": [
       "core-field"
     ],
@@ -96,15 +162,11 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'General Construction - Commercial (GC/CM)'",
-    "unrecognized section 'Heavy Civil Construction and Land Development'",
-    "unrecognized section 'Specialty Trade Construction/Facilities Management'",
-    "unrecognized section 'Residential Construction'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: One (1) credit hour carried over from Applied Mathematics.",
-    "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences."
+    "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences.",
+    "CM 3398"
   ],
-  "draftHash": "c3762f48961b89926937261f51042c8058bc6b945f00f848b0bf001365563e8a"
+  "draftHash": "cfd5b352a9af402c95c7781ab40433a6d5da9cef6f879434a67a91a5c3530e0f"
 }

@@ -40,12 +40,33 @@
     ],
     "NURS 7779": [
       "major-required"
+    ],
+    "NURS 7800": [
+      "major-required"
+    ],
+    "NURS 7805": [
+      "major-required"
+    ],
+    "NURS 7830": [
+      "major-required"
+    ],
+    "NURS 7835": [
+      "major-required"
+    ],
+    "NURS 7850": [
+      "major-required"
+    ],
+    "NURS 7851": [
+      "major-required"
+    ],
+    "NURS 7852": [
+      "major-required"
+    ],
+    "NURS 7853": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Family Curriculum (10 Credit Hours)'",
-    "unrecognized section 'Residency (17 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "33a62e5bd97d53d8c99ff1ef5ad70933510c2162878f174b7fc0813cc65d477e"
+  "draftHash": "8d19a8bdef1a36e2dce30a30c610b302551ccd28eb4423373621d1733dc37f9c"
 }

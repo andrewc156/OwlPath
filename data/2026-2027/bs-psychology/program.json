@@ -38,7 +38,49 @@
     "PSYC 3000": [
       "major-required"
     ],
+    "PSYC 3220": [
+      "major-required"
+    ],
+    "PSYC 3325": [
+      "major-required"
+    ],
+    "PSYC 3335": [
+      "major-required"
+    ],
+    "PSYC 3355": [
+      "major-required"
+    ],
+    "PSYC 3385": [
+      "major-required"
+    ],
+    "PSYC 3395": [
+      "major-required"
+    ],
+    "PSYC 3410": [
+      "major-required"
+    ],
+    "PSYC 3425": [
+      "major-required"
+    ],
     "PSYC 4100": [
+      "major-required"
+    ],
+    "PSYC 4345": [
+      "major-required"
+    ],
+    "PSYC 4410": [
+      "major-required"
+    ],
+    "PSYC 4415": [
+      "major-required"
+    ],
+    "PSYC 4430": [
+      "major-required"
+    ],
+    "PSYC 4440": [
+      "major-required"
+    ],
+    "PSYC 4455": [
       "major-required"
     ],
     "PSYC 4499": [
@@ -48,18 +90,12 @@
       "major-project"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Diversity and Multicultural Area (3 Credit Hours)'",
-    "unrecognized section 'Personality and Social Area (3 Credit Hours)'",
-    "unrecognized section 'Biological Bases Area (3 Credit Hours)'",
-    "unrecognized section 'Learning and Cognition Area (3 Credit Hours)'",
-    "unrecognized section 'Mental Health and Well-Being (3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: One, 1000-2000 level 3-hr STEM class: MATH, STAT, DATA, BIOL, CHEM, PHYS, TCOM, CSE, CS, or ECON 2300 .",
     "text: One, 1000-2000 level 3-hr STEM or Social Sciences class: MATH, STAT, DATA, BIOL, CHEM, PHYS, TCOM, CSE, CS, WLC, SOCI, ANTH, CRJU, ISD, GWST, BLCK, AADS, or ECON 2300 .",
     "PSYC 4404",
     "PSYC 4498"
   ],
-  "draftHash": "40e459334fed386ed01f283b94cb34b07f2c08321edab6ec75dde0588a9434dd"
+  "draftHash": "89300958a284d2107d53e32ba698ca1e85ca4024fa4cf9282011c9eb6b03f3a1"
 }

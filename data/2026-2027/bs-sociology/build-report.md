@@ -7,7 +7,6 @@
   - unrecognized: subject
 - **SOCI 4405**
   - unrecognized: 60 hours
-  - unrecognized: Declared student in WIRC Certificate Program
 
 ## Left out on purpose
 

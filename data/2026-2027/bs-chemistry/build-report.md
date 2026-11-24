@@ -2,20 +2,10 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
 - **CHEM 4100**
-  - unrecognized: Junior level status;
+  - unrecognized: Junior level status
   - unrecognized: chair
 - **SCM 2000**
-  - unrecognized: A declared major within the College of Science
   - unrecognized: Mathematics
 
 ## Notes

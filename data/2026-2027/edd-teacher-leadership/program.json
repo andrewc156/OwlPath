@@ -67,12 +67,12 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Dissertation (12 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Advisor Approved Elective - I\n\nAdvisor Approved Elective - II",
-    "EDL 9600"
+    "EDL 9600",
+    "TLED 9950",
+    "TLED 9900"
   ],
-  "draftHash": "5bdf969fcebe2f626aab94abf0b56e32b0644f5512fbfbd298ea19560c8f75d7"
+  "draftHash": "75a30545d773b869dd068eb524c10b8b0b6284a5709d18cb86554b2ca44c5dd7"
 }

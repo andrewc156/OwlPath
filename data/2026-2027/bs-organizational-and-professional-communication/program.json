@@ -13,11 +13,20 @@
           "core-field",
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
   "choices": [],
   "courses": {
+    "BLCK 3200": [
+      "major-elective"
+    ],
     "COMM 1100": [
       "core-field"
     ],
@@ -30,8 +39,29 @@
     "COMM 2240": [
       "core-field"
     ],
+    "COMM 3315": [
+      "major-elective"
+    ],
+    "COMM 3318": [
+      "major-elective"
+    ],
+    "COMM 3320": [
+      "major-elective"
+    ],
     "COMM 3435": [
       "major-required"
+    ],
+    "MENT 3326": [
+      "major-elective"
+    ],
+    "MENT 4424": [
+      "major-elective"
+    ],
+    "MENT 4425": [
+      "major-elective"
+    ],
+    "MENT 4434": [
+      "major-elective"
     ],
     "ORGC 2025": [
       "core-field"
@@ -45,18 +75,49 @@
     "ORGC 3325": [
       "core-field"
     ],
+    "ORGC 3459": [
+      "major-elective"
+    ],
+    "ORGC 4344": [
+      "major-elective"
+    ],
+    "ORGC 4440": [
+      "major-elective"
+    ],
     "ORGC 4455": [
       "major-required"
+    ],
+    "POLS 3380": [
+      "major-elective"
+    ],
+    "POLS 3385": [
+      "major-elective"
+    ],
+    "POLS 3850": [
+      "major-elective"
+    ],
+    "PR 3375": [
+      "major-elective"
+    ],
+    "PR 3429": [
+      "major-elective"
+    ],
+    "PR 4210": [
+      "major-elective"
+    ],
+    "SOCI 3304": [
+      "major-elective"
+    ],
+    "SOCI 3333": [
+      "major-elective"
+    ],
+    "SOCI 3374": [
+      "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Organizational and Team Communication'",
-    "unrecognized section 'Political and Civic Communication'",
-    "unrecognized section 'Technology and Communication'",
-    "unrecognized section 'Health Communication'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Select 6 credit hours from the following list of courses:"
   ],
-  "draftHash": "2bdeb65a2152a9042ce59da8c9491f05413c9814016f969023a649d017b8a1e7"
+  "draftHash": "f670876f42c6800b74433a5462f082e6d60d70fbeb63343e56fd1a029cee3772"
 }

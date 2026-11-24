@@ -2,17 +2,6 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
-- **ENGR 3407**
-  - unrecognized: Engineering Standing
 - **IET 3424**
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
 - **IET 4135**

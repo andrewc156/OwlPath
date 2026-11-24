@@ -17,21 +17,50 @@
   },
   "choices": [],
   "courses": {
+    "IPM 7710": [
+      "major-required"
+    ],
     "IPM 7720": [
       "major-required"
     ],
     "IPM 7725": [
       "major-required"
     ],
+    "IPM 7730": [
+      "major-required"
+    ],
+    "IPM 7735": [
+      "major-required"
+    ],
+    "IPM 7740": [
+      "major-required"
+    ],
+    "IPM 7745": [
+      "major-required"
+    ],
+    "IPM 7750": [
+      "major-required"
+    ],
+    "IPM 7755": [
+      "major-required"
+    ],
+    "IPM 7756": [
+      "major-required"
+    ],
+    "IPM 7757": [
+      "major-required"
+    ],
     "IPM 7760": [
+      "major-required"
+    ],
+    "IPM 7770": [
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Additional Courses (15 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
-    "IPM 7765"
+    "IPM 7765",
+    "IPM 7900"
   ],
-  "draftHash": "977f0bab9366be61cd5902b09e634a4248d89e0b179bcdbe3eb72d1a5e52f3bf"
+  "draftHash": "b04428a7d6e4c51bd5e27a67be6ee50f9944b65041243ced69e15eae5654dcb7"
 }

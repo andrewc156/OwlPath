@@ -14,13 +14,6 @@
   - unrecognized: Department Chair
 - **IS 2200**
   - unrecognized: higher
-- **IS 3040**
-  - unrecognized: a Coles Partner Student
-- **IS 3100**
-  - unrecognized: Earned grade of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
 
 ## Notes
 

@@ -6,12 +6,14 @@
   - unrecognized: higher
 - **ECON 2106**
   - unrecognized: higher
+- **ECON 2300**
+  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 - **IS 2200**
   - unrecognized: higher
 
-## Drafting warnings
+## Notes
 
-- unrecognized section 'Business Foundations (12 Credit Hours)'
+- FIN 3100: added ECON 2300 so (ECON 2300, ECON 2400) has an option on the map
 
 ## Left out on purpose
 

@@ -8,6 +8,13 @@
     "name": "BA English",
     "filters": [
       {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
         "label": "Literature and Culture",
         "groups": [
           "conc-literature-and-culture"
@@ -44,6 +51,12 @@
     "AMST 3740": [
       "conc-literature-and-culture"
     ],
+    "ENGL 2110": [
+      "core-field"
+    ],
+    "ENGL 2145": [
+      "core-field"
+    ],
     "ENGL 2160": [
       "major-elective"
     ],
@@ -54,18 +67,23 @@
       "major-elective"
     ],
     "ENGL 3105": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3119": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "ENGL 3124": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3125": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3126": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3127": [
@@ -81,15 +99,18 @@
       "conc-literature-and-culture"
     ],
     "ENGL 3330": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3340": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3342": [
       "conc-literature-and-culture"
     ],
     "ENGL 3350": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 3360": [
@@ -105,9 +126,11 @@
       "conc-literature-and-culture"
     ],
     "ENGL 4220": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 4230": [
+      "major-required",
       "conc-literature-and-culture"
     ],
     "ENGL 4340": [
@@ -149,6 +172,9 @@
     "ENGL 4580": [
       "conc-literature-and-culture"
     ],
+    "ENGL 4620": [
+      "major-required"
+    ],
     "FILM 3105": [
       "conc-film-tv-and-screen-studies",
       "conc-writing-and-linguistics"
@@ -161,6 +187,7 @@
       "conc-film-tv-and-screen-studies"
     ],
     "FILM 3205": [
+      "major-required",
       "conc-film-tv-and-screen-studies"
     ],
     "FILM 3210": [
@@ -176,12 +203,14 @@
       "conc-film-tv-and-screen-studies"
     ],
     "FILM 3240": [
+      "major-required",
       "conc-film-tv-and-screen-studies"
     ],
     "FILM 3245": [
       "conc-film-tv-and-screen-studies"
     ],
     "FILM 3250": [
+      "major-required",
       "conc-film-tv-and-screen-studies"
     ],
     "FILM 3560": [
@@ -196,6 +225,7 @@
       "conc-writing-and-linguistics"
     ],
     "FILM 4200": [
+      "major-required",
       "conc-film-tv-and-screen-studies"
     ],
     "LING 3020": [
@@ -205,18 +235,22 @@
       "conc-writing-and-linguistics"
     ],
     "LING 3030": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "LING 3035": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "LING 3040": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "LING 3045": [
       "conc-writing-and-linguistics"
     ],
     "LING 3050": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "LING 3055": [
@@ -229,6 +263,7 @@
       "conc-writing-and-linguistics"
     ],
     "WRIT 3000": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "WRIT 3100": [
@@ -250,9 +285,11 @@
       "conc-writing-and-linguistics"
     ],
     "WRIT 3140": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "WRIT 3150": [
+      "major-required",
       "conc-writing-and-linguistics"
     ],
     "WRIT 3151": [
@@ -292,21 +329,13 @@
       "conc-writing-and-linguistics"
     ],
     "WRIT 4240": [
+      "major-required",
       "conc-writing-and-linguistics"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Introduction to English Studies (3 Credit Hours)'",
-    "unrecognized section 'World Literature (3 Credit Hours)'",
-    "unrecognized section 'Linguistics (3 Credit Hours)'",
-    "unrecognized section 'Writing (3 Credit Hours)'",
-    "unrecognized section 'Film, TV, and Screen (3 Credit Hours)'",
-    "unrecognized section 'Cultural Studies (3 Credit Hours)'",
-    "unrecognized section 'Literature (3 Credit Hours)'",
-    "unrecognized section 'Theory (3 Credit Hours)'",
-    "unrecognized section 'Professionalization and Career Preparation (3 Credit Hours)'",
-    "unrecognized section 'Senior Seminar (3 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "ENGL 3398"
   ],
-  "leftOut": [],
-  "draftHash": "a0f8bab1898da1016eded5d98f62f12e64d5f3fa0fab62b855fd8c7341a8cd02"
+  "draftHash": "f69d914028ee0e298b74538f78ceb6da0785f5d9c6bbe3382075c282982f6ed0"
 }

@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **AI 4850**
-  - unrecognized: completion of 90 credit hours
+None.
 
 ## Notes
 
