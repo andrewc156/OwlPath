@@ -40,6 +40,17 @@ def _lines(text: str) -> list[str]:
     return [line for line in lines if line and not FOOTER.match(line) and not CHROME.match(line)]
 
 
+def _loose_credits(line: str) -> str:
+    """Any other "... Credit Hours" line with whole numbers ("1 to 5", "3, 6 or 9", "(0-1)"): their range."""
+    if not re.search(r"credit hours?$", line, re.IGNORECASE) or re.search(r"\d\.\d", line):
+        return ""
+    nums = [int(n) for n in re.findall(r"\d+", line)]
+    if not nums:
+        return ""
+    lo, hi = min(nums), max(nums)
+    return str(lo) if lo == hi else f"{lo}-{hi}"
+
+
 def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
     credits = ""
     fields: dict[str, list[str]] = {}
@@ -51,8 +62,8 @@ def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
     # after the field lines, so there each field is one line and the text after it is the description.
     labeled = "Description" in body
     for line in body:
-        if not credits and (m := CREDITS.match(line)):
-            credits = m.group(1) + (f"-{m.group(2)}" if m.group(2) else "")
+        if not credits and ((m := CREDITS.match(line)) or (loose := _loose_credits(line))):
+            credits = (m.group(1) + (f"-{m.group(2)}" if m.group(2) else "")) if m else loose
             if not labeled:  # graduate: a course with no field lines starts its description here
                 current = description
         elif m := FIELD.match(line):

@@ -200,3 +200,17 @@ def test_graduate_course_with_no_field_lines_keeps_its_description():
 def test_credit_hour_forms(line, credits):
     c = parse_listing(f"XX 1000: Thing\n{line}\nDescription\nWords.\n", "")["XX 1000"]
     assert c.credits == credits and c.warnings == []
+
+
+@pytest.mark.parametrize("line, credits", [
+    ("1 to 5 Credit Hours", "1-5"), ("3, 6 or 9 Credit Hours", "3-9"), ("(0-1) Credit Hours", "0-1"),
+    ("0 or 3 Credit Hours", "0-3"), ("Variable 1 to 4 credit hours Credit Hours", "1-4"),
+    ("1-9 (Repeatable, Regular Grades) Credit Hours", "1-9")])
+def test_loose_credit_hour_forms(line, credits):
+    c = parse_listing(f"XX 1000: Thing\n{line}\nDescription\nWords.\n", "")["XX 1000"]
+    assert c.credits == credits and c.warnings == []
+
+
+def test_fractional_credits_still_warn():
+    c = parse_listing("XX 1000: Thing\n1.5 Credit Hours\nDescription\nWords.\n", "")["XX 1000"]
+    assert "no credit hours found" in c.warnings
