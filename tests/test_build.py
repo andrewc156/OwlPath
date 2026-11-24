@@ -1,6 +1,10 @@
+import functools
+import json
+
 import pytest
 
-from owlpath_pipeline.build import build_dataset, check_overrides, level_get_raw, load_overrides
+from owlpath_pipeline import config
+from owlpath_pipeline.build import build_dataset, build_major, check_overrides, level_get_raw, load_overrides
 from owlpath_pipeline.model import RawCourse
 from owlpath_pipeline.validate import validate_dataset
 
@@ -213,17 +217,47 @@ def test_cli_rejects_unknown_program():
     assert e.value.code == 2
 
 
-@pytest.mark.parametrize("major", ["bs-cs", "bs-dsa", "ms-dsa"])
-def test_checked_majors_rebuild_unchanged_from_snapshot(major):
-    """Pins the reviewed datasets: the committed snapshot + shared overrides rebuild exactly the committed courses.json."""
-    import json
-    from owlpath_pipeline import config
-    from owlpath_pipeline.build import build_major
+DATA_DIR = config.DATA_DIR
 
-    folder = config.program_dir(major)
-    _, dataset, warnings, errors, _ = build_major(folder)
+
+def committed_majors(checked: bool) -> list[str]:
+    """Major folders whose program.json is checked, or (checked=False) unchecked ones that ship a courses.json."""
+    return [p.parent.name for p in sorted(DATA_DIR.glob("*/program.json"))
+            if bool(json.loads(p.read_text(encoding="utf-8")).get("checked")) is checked
+            and (checked or (p.parent / "courses.json").exists())]
+
+
+@functools.cache
+def snapshot_get_raw(level):
+    return level_get_raw(level, "snapshot", DATA_DIR)
+
+
+def rebuild(major):
+    folder = DATA_DIR / major
+    spec, dataset, warnings, errors, _ = build_major(folder, data_dir=DATA_DIR, get_raw_for=snapshot_get_raw)
+    return spec, dataset, warnings, errors, json.loads((folder / "courses.json").read_text())
+
+
+def test_pin_tests_find_the_checked_majors():
+    assert {"bs-cs", "bs-dsa", "ms-dsa"} <= set(committed_majors(checked=True))
+
+
+@pytest.mark.parametrize("major", committed_majors(checked=True))
+def test_checked_majors_rebuild_unchanged_from_snapshot(major):
+    """Pins the reviewed datasets: the committed snapshot + shared overrides rebuild exactly the committed courses.json.
+    This test (not the web guard, which can't build) is what stops a checked major from changing or failing."""
+    _, dataset, warnings, errors, committed = rebuild(major)
     assert warnings == [] and errors == []
-    assert dataset == json.loads((folder / "courses.json").read_text())
+    assert dataset == committed
+
+
+@pytest.mark.parametrize("major", committed_majors(checked=False))
+def test_shipped_auto_majors_rebuild_unchanged_from_snapshot(major):
+    """A shipped auto-built major rebuilds clean and identical, so a code or override change without a republish
+    fails CI."""
+    spec, dataset, warnings, errors, committed = rebuild(major)
+    assert warnings == [] and errors == [] and spec.get("draftWarnings", []) == []
+    assert dataset == committed
 
 
 def test_cli_requires_a_catalog_level(tmp_path, monkeypatch):

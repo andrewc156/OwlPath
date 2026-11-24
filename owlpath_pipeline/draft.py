@@ -202,6 +202,9 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
     program_json = {
         "catalogYear": config.CATALOG_YEAR,
         "level": level,
+        # The catalog program this draft came from: publish retires the folder once no program drafts to it.
+        "catoid": config.catoid(level),
+        "poid": page.get("poid"),
         "program": {"id": ident[0], "name": ident[1], "filters": filters},
         "choices": choices,
         "courses": dict(sorted(courses.items())),

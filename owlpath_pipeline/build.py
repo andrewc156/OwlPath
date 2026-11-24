@@ -269,7 +269,8 @@ def catalog_get_raw(level: str = "undergraduate", directory: Path | None = None)
 
 def level_get_raw(level: str, source: str = "snapshot", data_dir: Path | None = None) -> Callable[[str], RawCourse]:
     """Look a course up in `level` first, then in the other level; KeyError if neither has it.
-    source is "snapshot" (catalog-courses.json under data_dir, a level without one is skipped) or "pdf" (listing PDFs saved by hand)."""
+    source is "snapshot" (catalog-courses.json under data_dir, a level without one is skipped) or "pdf" (listing
+    PDFs saved by hand in data_dir's catalog/<level>/)."""
     if source not in ("pdf", "snapshot"):
         raise ValueError(f"unknown catalog source {source!r}; expected 'pdf' or 'snapshot'")
     levels = [level] + [l for l in config.CATALOGS if l != level]
@@ -283,7 +284,7 @@ def level_get_raw(level: str, source: str = "snapshot", data_dir: Path | None = 
                 continue
         else:
             try:
-                tables.append(catalog_get_raw(lv))
+                tables.append(catalog_get_raw(lv, Path(data_dir) / "catalog" / lv if data_dir else None))
             except ValueError:  # level not set up (no catoid)
                 continue
 
