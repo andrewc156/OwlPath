@@ -42,7 +42,7 @@ _TOKEN = re.compile(
 _REQUIREMENT_WORDS = re.compile(
     r"\b(?:admission|admitted|acceptance|accepted|standing|majors?|program|student|permission|consent|approval|approved"
     r"|credit\ hours|gpa|certificate|certification|endorsement|clinical|candidacy|enrolled|enrollment|placement"
-    r"|equivalent|concurrent|concurrently|registration|declared|eligible|eligibility|varies|audition|portfolio|insurance|school\ of|degree|mba|ph\.?d|ed\.?\ ?[ds]|[bm]\.\ ?(?:ed|s|a|f\.?a)\b\.?"
+    r"|minor|completion|hours|status|chair|equivalent|concurrent|concurrently|registration|declared|eligible|eligibility|varies|audition|portfolio|insurance|school\ of|degree|mba|ph\.?d|ed\.?\ ?[ds]|[bm]\.\ ?(?:ed|s|a|f\.?a)\b\.?"
     r"|(?-i:(?:B|M)(?:S|A|Ed|FA|BA|SN|AT|PA)))",
     re.IGNORECASE | re.VERBOSE)
 
@@ -66,6 +66,10 @@ class _ParseError(Exception):
 def _normalize(text: str) -> str:
     text = text.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
     text = text.replace(" ", " ")
+    text = text.replace("&nbsp;", " ")
+    text = re.sub(r"\[\s*inactive\s*\]", " ", text, flags=re.IGNORECASE)  # "ENGL 2121 [Inactive]"
+    text = re.sub(r"\bone of the following(?: courses)?:\s*", "", text, flags=re.IGNORECASE)  # the or-list follows
+    text = re.sub(r'\b(higher|better)"(?=\s*[)\]])', r"\1", text)  # a stray closing quote
     text = re.sub(r"(?<=[a-z])(?=[A-Z]{2,4}\s*\d{4})", " ", text)  # "inCSE 1321" -> "in CSE 1321"
     text = re.sub(r"\b([A-Z]{2,4})\s+(\d{4}[A-Z]?)\b", r"\1 \2", text)  # normalize spacing inside ids
     text = re.sub(r"\(\s*or\s+(?:its\s+|an?\s+)?equivalent\s*\)", " or equivalent", text, flags=re.IGNORECASE)
@@ -179,7 +183,7 @@ def _check_ambiguity(toks: list[_Tok], text: str, warnings: list[str]) -> None:
         warnings.append(f"ambiguous and/or precedence: {text}")
 
 
-def _insert_implicit_ops(toks: list[_Tok], warnings: list[str]) -> list[_Tok]:
+def _insert_implicit_ops(toks: list[_Tok], warnings: list[str], fallback: str = "AND") -> list[_Tok]:
     """Oxford-list rule: adjacent operands take the next operator at the same bracket depth."""
     out: list[_Tok] = []
     for i, t in enumerate(toks):
@@ -196,7 +200,7 @@ def _insert_implicit_ops(toks: list[_Tok], warnings: list[str]) -> list[_Tok]:
                     op = later.kind
                     break
             if op is None:
-                op = "AND"
+                op = fallback
                 warnings.append(f"missing operator before '{t.text}', assumed and")
             out.append(_Tok(op, ""))
         out.append(t)
@@ -316,6 +320,16 @@ def _same_either_way(toks: list[_Tok], expr: Expr) -> bool:
     return _finish(copy.deepcopy(expr), []) == _finish(other, [])
 
 
+def _same_with(toks: list[_Tok], expr: Expr) -> bool:
+    """True when parsing toks gives the same requirement as expr once notes drop out."""
+    import copy
+    try:
+        other = _Parser(toks).parse()
+    except _ParseError:
+        return False
+    return _finish(copy.deepcopy(expr), []) == _finish(other, [])
+
+
 def _clauses(text: str) -> list[str]:
     """Split on ";" outside brackets: KSU separates whole clauses that way, each one required."""
     parts, depth, start = [], 0, 0
@@ -334,27 +348,34 @@ def _clauses(text: str) -> list[str]:
 def parse_requirement(text: str) -> ParseResult:
     warnings: list[str] = []
     clean = _normalize(text)
-    clauses = _clauses(clean)
-    if any(c.endswith(":") or re.search(r":\s", c) for c in clauses) and len(clauses) > 1:
+    clauses = [re.sub(r"^and\s+", "", c, flags=re.IGNORECASE) for c in _clauses(clean)]
+    if len(clauses) > 1 and any(re.search(r":(\s|$)", c) and re.search(r"[A-Z]{2,4} \d{4}", c) for c in clauses):
         # "Business Majors: X; Non-business Majors: Y" is a choice by major, not "X and Y".
         return ParseResult(None, [clean], [f"could not parse (per-major clauses): {clean}"])
     exprs: list[Expr] = []
+    extra_notes: list[str] = []
     for clause in clauses:
+        if re.match(r"recommended\b", clause, re.IGNORECASE):
+            extra_notes.append(clause)  # advice, never a requirement
+            continue
         toks = _tokenize(clause, warnings)
         if not toks:
             continue
         ambiguity: list[str] = []
         _check_ambiguity(toks, clause, ambiguity)
-        toks = _insert_implicit_ops(toks, warnings)
+        missing: list[str] = []
+        with_and = _insert_implicit_ops(toks, missing, "AND")
         try:
-            expr = _Parser(toks).parse()
+            expr = _Parser(with_and).parse()
         except _ParseError as e:
-            return ParseResult(None, [clean], warnings + [f"could not parse ({e}): {clean}"])
-        if ambiguity and not _same_either_way(toks, expr):
+            return ParseResult(None, [clean], warnings + missing + [f"could not parse ({e}): {clean}"])
+        if missing and not _same_with(_insert_implicit_ops(toks, [], "OR"), expr):
+            warnings.extend(missing)  # "A B": and or or changes the requirement, so a person decides
+        if ambiguity and not _same_either_way(with_and, expr):
             warnings.extend(ambiguity)
         exprs.append(expr)
     if not exprs:
-        return ParseResult(None, [], warnings)
+        return ParseResult(None, extra_notes, warnings)
     notes: list[str] = []
     expr = exprs[0] if len(exprs) == 1 else {"and": exprs}
-    return ParseResult(_finish(expr, notes), notes, warnings)
+    return ParseResult(_finish(expr, notes), notes + extra_notes, warnings)
