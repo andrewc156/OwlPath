@@ -134,3 +134,40 @@ def test_unknown_prose_and_labels_still_warn():
     assert parse_requirement("MATH 2202 and two semesters of chemistry").warnings
     r = parse_requirement("Business Majors: ECON 2105; Non-business Majors: ECON 2100")
     assert r.warnings  # a per-major condition must reach a person, never become "both"
+
+
+# --- batch 2 ---
+
+def test_phrase_with_commas_stays_one_note():
+    r = parse_requirement("EDUC 2130 and Elementary Education, B.S. major")
+    assert r.expr == C("EDUC 2130") and r.notes == ["Elementary Education, B.S. major"] and r.warnings == []
+
+
+def test_words_right_after_a_known_phrase_join_it():
+    r = parse_requirement("Admission to Ed.D. Program in Educational Leadership")
+    assert r.expr is None and r.notes == ["Admission to Ed.D. Program in Educational Leadership"] and r.warnings == []
+    r = parse_requirement("HS 2200; HS major or Non-majors with permission of the department.")
+    assert r.expr == C("HS 2200") and r.warnings == []
+
+
+def test_admission_to_a_degree_is_a_note():
+    r = parse_requirement("Admission to Elementary and Early Childhood Education, M.Ed.")
+    assert r.expr is None and r.warnings == []
+
+
+def test_trailing_minimum_grade_applies_to_the_group():
+    r = parse_requirement("((IT 1114 and IT 1114L, minimum grade of 'B') or (CSE 1321 and CSE 1321L, minimum grade of 'B'))")
+    assert r.expr == {"or": [{"and": [C("IT 1114", "B"), C("IT 1114L", "B")]}, {"and": [C("CSE 1321", "B"), C("CSE 1321L", "B")]}]}
+    assert r.warnings == []
+
+
+def test_parentheses_without_courses_or_operators_are_unwrapped():
+    r = parse_requirement("GEOG 4405 and permission of the Geospatial Sciences (GSS) Internship Coordinator.")
+    assert r.expr == C("GEOG 4405") and r.warnings == []
+    r = parse_requirement("CE 3201 (or equivalent) or approval of instructor")
+    assert r.expr == C("CE 3201") and r.warnings == []
+
+
+def test_course_requirements_in_words_still_warn():
+    assert parse_requirement("Any General Education DN core curriculum course").warnings
+    assert parse_requirement("MATH 2202 and two semesters of chemistry").warnings
