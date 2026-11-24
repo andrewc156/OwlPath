@@ -104,9 +104,9 @@ def run(page, cat):
     return draft_program(page, ("bs-x", "BS X"), "undergraduate", cat)
 
 
-def test_three_warning_kinds_and_empty_page():
+def test_two_warning_kinds_and_empty_page():
     d = run(P(("Odd Stuff", 2, ["AAA 1000"]), ("Major Requirements", 2, ["AAA 2000"])), {"AAA 1000": C("AAA 1000")})
-    assert d.warnings == ["unrecognized section 'Odd Stuff'", "AAA 2000 is not in the catalog listings"]
+    assert d.warnings == ["AAA 2000 is not in the catalog listings"]
     text_only = P(("Major Requirements", 2, [{"kind": "text", "text": "any course"}]))
     assert run(text_only, {}).warnings == ["no courses found"]
 
@@ -218,3 +218,19 @@ def test_draft_diff():
 def test_identity_slugs_the_degree_part_too():
     assert program_identity("Business Administration, MBA (Evening)", 1, 83) == (
         "mba-evening-business-administration", "MBA (Evening) Business Administration")
+
+
+def test_unnamed_subsection_inherits_its_parent_group():
+    cat = {"AAA 1000": C("AAA 1000"), "AAA 2000": C("AAA 2000")}
+    d = run(P(("Major Electives", 2, []), ("Group A", 3, ["AAA 1000"]), ("Major Requirements", 2, []),
+              ("Teaching Field Courses", 3, ["AAA 2000"])), cat)
+    assert d.program_json["courses"] == {"AAA 1000": ["major-elective"], "AAA 2000": ["major-required"]}
+    assert d.warnings == []
+
+
+def test_unnamed_top_section_is_elective_only_when_its_text_says_choose():
+    cat = {"AAA 1000": C("AAA 1000"), "AAA 2000": C("AAA 2000")}
+    d = run(P(("Large Ensemble", 2, [{"kind": "text", "text": "Select 4 credit hours from the following:"}, "AAA 1000"]),
+              ("Teaching Field Courses", 2, ["AAA 2000"])), cat)
+    assert d.program_json["courses"] == {"AAA 1000": ["major-elective"], "AAA 2000": ["major-required"]}
+    assert d.warnings == []
