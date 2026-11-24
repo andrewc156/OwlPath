@@ -48,5 +48,114 @@
         }
       ]
     }
+  },
+  "ANIM 6105": {
+    "reason": "Catalog: admission to the MA in Art & Design and ANIM 6100. Admission is a note; ANIM 6100 is the only course prerequisite.",
+    "prereqs": "ANIM 6100",
+    "notes": [
+      "Admission to the MA in Art & Design required"
+    ]
+  },
+  "CE 6303": {
+    "reason": "Catalog: CE 3343 or approval of instructor. CE 3343 is not in either catalog snapshot (no such course page), so it can't be a node; no course prerequisite on the map, and the text is kept as a note.",
+    "prereqs": null,
+    "notes": [
+      "CE 3343 or approval of instructor"
+    ]
+  },
+  "CS 6021": {
+    "reason": "Catalog: coursework in computer architecture and operating systems, or CS 5020 as per admissions analysis. Non-course coursework is a note; CS 5020 (Computer Organization and Architecture) is the course path kept.",
+    "prereqs": "CS 5020",
+    "notes": [
+      "Or coursework in computer architecture and operating systems, as determined by admissions analysis"
+    ]
+  },
+  "CS 7827": {
+    "reason": "Catalog: coursework in Operating Systems or CS 6025 as determined by admission. Keeps the course path CS 6025; the coursework alternative is a note.",
+    "prereqs": "CS 6025",
+    "notes": [
+      "Or prior coursework in Operating Systems, as determined by program admission"
+    ]
+  },
+  "EDRD 6718": {
+    "reason": "Catalog prerequisite is admission to a KSU BCOE program and a criminal background check; no courses, so notes only.",
+    "prereqs": null,
+    "notes": [
+      "Must be admitted to a KSU BCOE program, certificate or endorsement program and have evidence of passing a criminal background check"
+    ]
+  },
+  "EDRD 7717": {
+    "reason": "Catalog prerequisite is only evidence of a passing background check; no course prerequisite.",
+    "prereqs": null,
+    "notes": [
+      "Evidence of passing a background check required"
+    ]
+  },
+  "EDRD 7718": {
+    "reason": "Catalog prerequisite is only evidence of a passing criminal background check; no course prerequisite.",
+    "prereqs": null,
+    "notes": [
+      "Evidence of passing a criminal background check required"
+    ]
+  },
+  "EDRD 7720": {
+    "reason": "Catalog: EDRD 7717, EDRD 7718 and a criminal background check (note).",
+    "prereqs": {
+      "and": [
+        "EDRD 7717",
+        "EDRD 7718"
+      ]
+    },
+    "notes": [
+      "Evidence of passing a criminal background check required"
+    ]
+  },
+  "ENED 6650": {
+    "reason": "Prerequisites EDUC 6240, ENGL 7731, ENGL 7735 (all required); certificate and admission as notes. Corequisites EDUC 6610 and ENED 6414.",
+    "prereqs": {
+      "and": [
+        "EDUC 6240",
+        "ENGL 7731",
+        "ENGL 7735"
+      ]
+    },
+    "coreqs": {
+      "and": [
+        "EDUC 6610",
+        "ENED 6414"
+      ]
+    },
+    "notes": [
+      "Pre-service certificate and admission to Yearlong Clinical Experience required"
+    ]
+  },
+  "ENED 6660": {
+    "reason": "Catalog: ENED 6650 plus GACE eligibility and Educator Ethics Assessment 370, which are notes. Corequisite ENED 6416.",
+    "prereqs": "ENED 6650",
+    "coreqs": "ENED 6416",
+    "notes": [
+      "Eligibility to take GACE English tests required",
+      "Educator Ethics Assessment 370 (required by the Georgia Professional Standards Commission)"
+    ]
+  },
+  "PRWR 7960": {
+    "reason": "Credit-hour, concentration-course count and committee approval are program conditions, not specific courses, so they are notes.",
+    "prereqs": null,
+    "notes": [
+      "Completion of 27 credit hours in the MAPW program and at least four courses in the concentration",
+      "Approval of capstone committee required"
+    ]
+  },
+  "SWE 6883": {
+    "reason": "SWE 6623 and SWE 6613 are required; the permission alternative is a note.",
+    "prereqs": {
+      "and": [
+        "SWE 6623",
+        "SWE 6613"
+      ]
+    },
+    "notes": [
+      "Permission by program coordinator may substitute"
+    ]
   }
 }

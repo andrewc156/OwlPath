@@ -141,5 +141,532 @@
     "notes": [
       "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
     ]
+  },
+  "ARCH 3011": {
+    "reason": "Catalog gives two tracks (Traditional or Accelerated). Both are real course paths, so they are kept as an or of two and groups; portfolio-review acceptance is a note.",
+    "prereqs": {
+      "or": [
+        {
+          "and": [
+            "ARCH 2004",
+            "ARCH 2211",
+            "ARCH 2311"
+          ]
+        },
+        {
+          "and": [
+            "ARCH 1000",
+            "ARCH 2013",
+            "ARCH 2211",
+            "ARCH 2242",
+            "ARCH 2311"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Traditional Track: ARCH 2004, ARCH 2211, ARCH 2311. Accelerated Track: ARCH 1000, ARCH 2013, ARCH 2211, ARCH 2242, ARCH 2311, and acceptance into third year upon portfolio review"
+    ]
+  },
+  "BIOL 3375K": {
+    "reason": "Catalog: (BIOL 1107 and lab) and (BIOL 1108 and lab), or a comparable research methods course. Keeps the course path; the non-course alternative is a note.",
+    "prereqs": {
+      "and": [
+        "BIOL 1107",
+        "BIOL 1107L",
+        "BIOL 1108",
+        "BIOL 1108L"
+      ]
+    },
+    "notes": [
+      "A comparable research methods course may substitute for the BIOL 1107/1108 sequence"
+    ]
+  },
+  "BIOL 4322": {
+    "reason": "Catalog text has a stray closing parenthesis; the intended prerequisite is BIOL 1108 and BIOL 1108L.",
+    "prereqs": {
+      "and": [
+        "BIOL 1108",
+        "BIOL 1108L"
+      ]
+    }
+  },
+  "BIOL 4486": {
+    "reason": "Catalog: BIOL 3300 plus 9 more hours of 3000-4000 level Biology or Biochemistry, or consent of instructor. The hours rule can't be expressed as courses, so it is a note; BIOL 3300 is the only listed course.",
+    "prereqs": "BIOL 3300",
+    "notes": [
+      "Also requires a minimum of 9 additional hours of 3000-4000 level Biology or Biochemistry, or consent of instructor"
+    ]
+  },
+  "CM 3310": {
+    "reason": "Catalog lists 'ACCT 2101, CM 3110' with a comma; read as both required.",
+    "prereqs": {
+      "and": [
+        "ACCT 2101",
+        "CM 3110"
+      ]
+    }
+  },
+  "CM 4560": {
+    "reason": "Catalog lists 'CM 4510, CM 3410' with a comma; read as both required.",
+    "prereqs": {
+      "and": [
+        "CM 4510",
+        "CM 3410"
+      ]
+    }
+  },
+  "COMM 4200": {
+    "reason": "Catalog: COMM 3435 plus consent of the instructor and School Director and declared major status; the course prerequisite is COMM 3435, the rest are notes.",
+    "prereqs": "COMM 3435",
+    "notes": [
+      "Consent of the instructor and School Director required",
+      "Must be a declared major in the School of Communication & Media"
+    ]
+  },
+  "CYBR 3223": {
+    "reason": "Catalog: (CSE 1321 and CSE 1321L) or IT 1113, and a Cybersecurity major, minor or certificate (typo 'CSE 1321and'). Major/minor/certificate is a note.",
+    "prereqs": {
+      "or": [
+        {
+          "and": [
+            "CSE 1321",
+            "CSE 1321L"
+          ]
+        },
+        "IT 1113"
+      ]
+    },
+    "notes": [
+      "Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate required"
+    ]
+  },
+  "CYBR 3397": {
+    "reason": "Catalog: CYBR 3100 and approval by the Career and Internship Advisor; approval is a note. The credit line '3, 6 or 9 Credit Hours' is not parseable and credits cannot be set by an override, so the controller must fix credits.",
+    "prereqs": "CYBR 3100",
+    "notes": [
+      "Approval by the Career and Internship Advisor required"
+    ]
+  },
+  "ECET 3410": {
+    "reason": "Catalog 'PPHYS 2212' is a typo for PHYS 2212 (PPHYS 2212 is not a catalog course).",
+    "prereqs": {
+      "and": [
+        "ECET 2300",
+        {
+          "or": [
+            "PHYS 1112",
+            "PHYS 2212"
+          ]
+        }
+      ]
+    }
+  },
+  "EDG 4222": {
+    "reason": "Catalog: MET majors and/or department approval, EDG 1212. Major/approval is a note; EDG 1212 is the course prerequisite.",
+    "prereqs": "EDG 1212",
+    "notes": [
+      "MET majors and/or department approval"
+    ]
+  },
+  "EDMG 4650": {
+    "reason": "Prerequisite: INED 4431 with certification and admission as notes. Corequisites: EDUC 4610 and EDSM 3360 are required; 'two of EDMG 4401-4404, 4408' can't be expressed without over-requiring, so it is a note (corequisites never block).",
+    "prereqs": "INED 4431",
+    "coreqs": {
+      "and": [
+        "EDUC 4610",
+        "EDSM 3360"
+      ]
+    },
+    "notes": [
+      "Pre-service certification and admission to Yearlong Clinical Experience required",
+      "Corequisite: two of EDMG 4401, EDMG 4402, EDMG 4403, EDMG 4404, EDMG 4408"
+    ]
+  },
+  "EDMG 4660": {
+    "reason": "Catalog: EDMG 4650 and two of EDMG 4401-4404. The two-of rule can't be expressed without over-requiring, so only EDMG 4650 is a prerequisite and the rest is a note.",
+    "prereqs": "EDMG 4650",
+    "coreqs": "EDMG 4411",
+    "notes": [
+      "Two of the following also required: EDMG 4401, EDMG 4402, EDMG 4403, EDMG 4404"
+    ]
+  },
+  "EDSM 3000K": {
+    "reason": "Catalog allows any science course from the General Education Core; that can't be a specific course without over-requiring, so a note.",
+    "prereqs": null,
+    "notes": [
+      "Any science course from Technology, Mathematics, and Sciences in the General Education Core Curriculum"
+    ]
+  },
+  "ENED 4650": {
+    "reason": "Prerequisites are ENGL 3241, ENGL 3310 and ENGL 3391 (semicolons separate items, all required); admission, certificate and clinical admission are notes. Corequisites ENED 4414 and EDUC 4610.",
+    "prereqs": {
+      "and": [
+        "ENGL 3241",
+        "ENGL 3310",
+        "ENGL 3391"
+      ]
+    },
+    "coreqs": {
+      "and": [
+        "ENED 4414",
+        "EDUC 4610"
+      ]
+    },
+    "notes": [
+      "Admission to the English Education Program, Pre-Service Certificate, and admission to Yearlong Clinical Experience required"
+    ]
+  },
+  "ENGL 2390": {
+    "reason": "Catalog allows any 1000 or 2000 level ENGL course; no specific course can be required without over-requiring, so a note.",
+    "prereqs": null,
+    "notes": [
+      "Any 1000 or 2000 level ENGL course"
+    ]
+  },
+  "ENGL 3310": {
+    "reason": "Catalog: ENGL 2271 and admission to the English Education or Secondary and Middle Grades Language Arts program (note).",
+    "prereqs": "ENGL 2271",
+    "notes": [
+      "Admission to the English Education or Secondary and Middle Grades Language Arts program required"
+    ]
+  },
+  "ENGR 1100": {
+    "reason": "Prerequisite MATH 1113 is read as written. MATH 1179 and MATH 1189 are the two-part Calculus I sequence equivalent to MATH 1190, so the corequisite is MATH 1190 or both of them.",
+    "prereqs": "MATH 1113",
+    "coreqs": {
+      "or": [
+        "MATH 1190",
+        {
+          "and": [
+            "MATH 1179",
+            "MATH 1189"
+          ]
+        }
+      ]
+    }
+  },
+  "ENGR 3324": {
+    "reason": "Read as (MATH 1190 or MATH 1179 and MATH 1189) and EDG 2160, with Engineering Standing as a note. MATH 1179 and MATH 1189 are the two-part Calculus I sequence equivalent to MATH 1190, so the calculus requirement is MATH 1190 or both of them.",
+    "prereqs": {
+      "and": [
+        {
+          "or": [
+            "MATH 1190",
+            {
+              "and": [
+                "MATH 1179",
+                "MATH 1189"
+              ]
+            }
+          ]
+        },
+        "EDG 2160"
+      ]
+    },
+    "notes": [
+      "Engineering Standing required"
+    ]
+  },
+  "ES 3700": {
+    "reason": "Prerequisites are BIOL 2251 and ES 2300; the Exercise Science major requirement is a note. ES 3750 (lab) is the corequisite; the title after the course id tripped the parser.",
+    "prereqs": {
+      "and": [
+        "BIOL 2251",
+        "ES 2300"
+      ]
+    },
+    "coreqs": "ES 3750",
+    "notes": [
+      "Exercise Science major required"
+    ]
+  },
+  "ES 3750": {
+    "reason": "Prerequisites are BIOL 2251 and ES 2300 (separators were commas); the major requirement is a note. Corequisite is ES 3700.",
+    "prereqs": {
+      "and": [
+        "BIOL 2251",
+        "ES 2300"
+      ]
+    },
+    "coreqs": "ES 3700",
+    "notes": [
+      "Exercise Science major required"
+    ]
+  },
+  "GEOG 2391": {
+    "reason": "The catalog text has a doubled 'or'; it is a plain OR of five introductory geography courses.",
+    "prereqs": {
+      "or": [
+        "GEOG 1101",
+        "GEOG 1112K",
+        "GEOG 1113K",
+        "GEOG 1125",
+        "GEOG 1130"
+      ]
+    }
+  },
+  "GEOG 4100": {
+    "reason": "'Any upper-division geography course' cannot be a specific course, so no course prerequisite is invented; it and the permission become notes.",
+    "prereqs": null,
+    "notes": [
+      "Any upper-division geography course required",
+      "Consent of instructor and chair required"
+    ]
+  },
+  "GEOL 1121K": {
+    "reason": "The catalog allows any two 1000- or 2000-level science courses, which the map cannot express; no specific course is required, so it is a note.",
+    "prereqs": null,
+    "notes": [
+      "A grade of C or better in any two 1000-level or 2000-level science courses"
+    ]
+  },
+  "HPAL 3252": {
+    "reason": "Any General Education D1 course is a category, not a specific course, so it is a note.",
+    "prereqs": null,
+    "notes": [
+      "Any General Education D1 core curriculum course"
+    ]
+  },
+  "HPAL 4900": {
+    "reason": "HPAL 3050 and HPAL 3395 are required; the 'one Advanced Coaching Course' is a category not on the map, and permission is non-blocking, so both are notes.",
+    "prereqs": {
+      "and": [
+        "HPAL 3050",
+        "HPAL 3395"
+      ]
+    },
+    "notes": [
+      "One Advanced Coaching Course required",
+      "Permission from the Coaching Coordinator required"
+    ]
+  },
+  "IET 3424": {
+    "reason": "Prerequisite is MATH 1113 or STAT 1401. MATH 1179 and MATH 1189 are the two-part Calculus I sequence equivalent to MATH 1190, so the corequisite is MATH 1190 or both of them.",
+    "prereqs": {
+      "or": [
+        "MATH 1113",
+        "STAT 1401"
+      ]
+    },
+    "coreqs": {
+      "or": [
+        "MATH 1190",
+        {
+          "and": [
+            "MATH 1179",
+            "MATH 1189"
+          ]
+        }
+      ]
+    }
+  },
+  "IET 4135": {
+    "reason": "Prerequisite MATH 1113 as written. MATH 1179 and MATH 1189 are the two-part Calculus I sequence equivalent to MATH 1190, so the corequisite is MATH 1190 or both of them.",
+    "prereqs": "MATH 1113",
+    "coreqs": {
+      "or": [
+        "MATH 1190",
+        {
+          "and": [
+            "MATH 1179",
+            "MATH 1189"
+          ]
+        }
+      ]
+    }
+  },
+  "IS 3397": {
+    "reason": "IS 3100 is the course prerequisite; approval of the Career and Internship Advisor is a note.",
+    "prereqs": "IS 3100",
+    "notes": [
+      "Approval of the Career and Internship Advisor (KSU Career Planning and Development) required"
+    ]
+  },
+  "ISD 4497": {
+    "reason": "'Any B2: Cultural Perspectives course' is a General Education category, not a specific course, so it is a note.",
+    "prereqs": null,
+    "notes": [
+      "Any B2: Cultural Perspectives course"
+    ]
+  },
+  "JOUR 4488": {
+    "reason": "JOUR 3700 and JOUR 4100 are required; the 90 credit hours, declared-major rule and non-major permission are notes.",
+    "prereqs": {
+      "and": [
+        "JOUR 3700",
+        "JOUR 4100"
+      ]
+    },
+    "notes": [
+      "90 or more credit hours required",
+      "Must be a declared major in the School of Communication & Media; non-majors need permission of the School"
+    ]
+  },
+  "MAED 4414": {
+    "reason": "'Two of the following three: STAT 2332, MATH 2390 or MATH 3260' is written as an OR of the three possible pairs. EDUC 2120 and MATH 2203 are required; admission is a note; EDSM 4414 is the corequisite.",
+    "prereqs": {
+      "and": [
+        "EDUC 2120",
+        "MATH 2203",
+        {
+          "or": [
+            {
+              "and": [
+                "STAT 2332",
+                "MATH 2390"
+              ]
+            },
+            {
+              "and": [
+                "STAT 2332",
+                "MATH 3260"
+              ]
+            },
+            {
+              "and": [
+                "MATH 2390",
+                "MATH 3260"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Admission to Teacher Education required"
+    ]
+  },
+  "MAED 4424": {
+    "reason": "Only admission to the Teacher Education Program is required, which is a note; MAED 4414 is the corequisite.",
+    "prereqs": null,
+    "coreqs": "MAED 4414",
+    "notes": [
+      "Admission to the Teacher Education Program required"
+    ]
+  },
+  "MATH 2008": {
+    "reason": "The prerequisite is completing the Mathematics and Applied Math IMPACT core courses (a category) and being in an education major; both are notes, no specific course is required.",
+    "prereqs": null,
+    "notes": [
+      "Completion of Mathematics and Applied Math IMPACT Core courses with a minimum grade of C",
+      "Enrolled in Elementary Education, Elementary Education (Interest), Early Childhood Birth to Kindergarten Traditional, or its (Interest) version"
+    ]
+  },
+  "MET 2124": {
+    "reason": "Read as (MATH 1190 or MATH 1179 and MATH 1189) and ((PHYS 1111 and 1111L) or (PHYS 2211 and 2211L)); the physics lecture-plus-lab pairs are the alternatives. MATH 1179 and MATH 1189 are the two-part Calculus I sequence equivalent to MATH 1190, so the calculus requirement is MATH 1190 or both of them.",
+    "prereqs": {
+      "and": [
+        {
+          "or": [
+            "MATH 1190",
+            {
+              "and": [
+                "MATH 1179",
+                "MATH 1189"
+              ]
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "and": [
+                "PHYS 1111",
+                "PHYS 1111L"
+              ]
+            },
+            {
+              "and": [
+                "PHYS 2211",
+                "PHYS 2211L"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MTRE 4710": {
+    "reason": "MTRE 3110 after 'Engineering Standing Requirements' is also in the corequisite list, so it is not required as a prerequisite; the prerequisite is the control-course OR, MTRE 3720 and MATH 2306. Engineering Standing is a note.",
+    "prereqs": {
+      "and": [
+        {
+          "or": [
+            {
+              "and": [
+                "MTRE 3610",
+                "MTRE 3610L"
+              ]
+            },
+            "EE 4201",
+            {
+              "and": [
+                "ME 3501",
+                "ME 4501"
+              ]
+            }
+          ]
+        },
+        "MTRE 3720",
+        "MATH 2306"
+      ]
+    },
+    "coreqs": {
+      "or": [
+        "MTRE 3110",
+        "ENGR 3343",
+        "EE 3701",
+        "CPE 4010"
+      ]
+    },
+    "notes": [
+      "Engineering Standing Requirements apply"
+    ]
+  },
+  "MUAP 3101": {
+    "reason": "MUAP 2101 is the course prerequisite (four semesters passed, a repeatable course); admission as a music major and the semester count are notes.",
+    "prereqs": "MUAP 2101",
+    "notes": [
+      "Must be a fully admitted music major",
+      "Must have taken and passed four semesters of MUAP 2101"
+    ]
+  },
+  "PHYS 3230": {
+    "reason": "Comma-separated list of PHYS 2212 and its lab PHYS 2212L, both required with a C or better.",
+    "prereqs": {
+      "and": [
+        "PHYS 2212",
+        "PHYS 2212L"
+      ]
+    }
+  },
+  "PSYC 4430": {
+    "reason": "'One 3000-level psychology course' is a category, not a specific course, so it is a note.",
+    "prereqs": null,
+    "notes": [
+      "One 3000-level psychology course required"
+    ]
+  },
+  "PSYC 4440": {
+    "reason": "'One 3000-level psychology course' is a category, not a specific course, so it is a note.",
+    "prereqs": null,
+    "notes": [
+      "One 3000-level psychology course required"
+    ]
+  },
+  "SCI 3360": {
+    "reason": "The catalog allows any two 1000- or 2000-level science courses, which the map cannot express; no specific course is required, so it is a note.",
+    "prereqs": null,
+    "notes": [
+      "A grade of C or better in any two 1000-level or 2000-level science courses"
+    ]
+  },
+  "SPAN 2034": {
+    "reason": "Alternatives include high school Spanish and equivalents, which are not courses; following the project's reading, the course path SPAN 1001 is kept and the others become a note.",
+    "prereqs": "SPAN 1001",
+    "notes": [
+      "One year of high school Spanish or the equivalent also satisfies this"
+    ]
   }
 }
