@@ -2,34 +2,16 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
 - **EDG 3112**
-  - unrecognized: MET majors
-  - unrecognized: department approval
   - ambiguous and/or precedence: MET majors or department approval, and EDG 1212
 - **EDG 4111**
-  - unrecognized: MET majors
-  - unrecognized: department approval
   - ambiguous and/or precedence: MET majors or department approval, and EDG 1211
 - **EDG 4222**
-  - unrecognized: MET majors
-  - unrecognized: department approval
   - ambiguous and/or precedence: MET majors and or department approval, EDG 1212
   - missing operator before 'EDG 1212', assumed and
   - could not parse (unexpected 'or'): MET majors and or department approval, EDG 1212
-- **ENGR 3325**
-  - unrecognized: Engineering Standing
-- **ENGR 3407**
-  - unrecognized: Engineering Standing
 - **ENGT 4901**
-  - unrecognized: for MET Majors
   - unrecognized: concurrently
-  - unrecognized: for EET Majors
   - missing operator before '(', assumed and
   - missing operator before 'for EET Majors', assumed and
 - **IET 3424**
@@ -39,8 +21,6 @@
 - **MET 2124**
   - ambiguous and/or precedence: (MATH 1190 or (MATH 1179 and MATH 1189)) and (PHYS 1111 and PHYS 1111L) or (PHYS 2211 and PHYS 2211L)
 - **MET 3332**
-  - unrecognized: MET Majors
-  - unrecognized: department approval
   - ambiguous and/or precedence: MET Majors and EDG 1212, or department approval
 
 ## Notes

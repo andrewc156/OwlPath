@@ -26,15 +26,153 @@
     "PRWR 6000": [
       "major-required"
     ],
+    "PRWR 6100": [
+      "major-required"
+    ],
+    "PRWR 6125": [
+      "major-required"
+    ],
+    "PRWR 6141": [
+      "major-required"
+    ],
+    "PRWR 6150": [
+      "major-required"
+    ],
+    "PRWR 6151": [
+      "major-required"
+    ],
+    "PRWR 6153": [
+      "major-required"
+    ],
+    "PRWR 6200": [
+      "major-required"
+    ],
+    "PRWR 6240": [
+      "major-required"
+    ],
+    "PRWR 6255": [
+      "major-required"
+    ],
+    "PRWR 6260": [
+      "major-required"
+    ],
+    "PRWR 6280": [
+      "major-required"
+    ],
+    "PRWR 6300": [
+      "major-required"
+    ],
+    "PRWR 6410": [
+      "major-required"
+    ],
+    "PRWR 6440": [
+      "major-required"
+    ],
+    "PRWR 6451": [
+      "major-required"
+    ],
+    "PRWR 6455": [
+      "major-required"
+    ],
+    "PRWR 6460": [
+      "major-required"
+    ],
+    "PRWR 6470": [
+      "major-required"
+    ],
+    "PRWR 6480": [
+      "major-required"
+    ],
+    "PRWR 6500": [
+      "major-required"
+    ],
+    "PRWR 6520": [
+      "major-required"
+    ],
+    "PRWR 6550": [
+      "major-required"
+    ],
+    "PRWR 6570": [
+      "major-required"
+    ],
+    "PRWR 6650": [
+      "major-required"
+    ],
+    "PRWR 6730": [
+      "major-required"
+    ],
+    "PRWR 6760": [
+      "major-required"
+    ],
+    "PRWR 6800": [
+      "major-required"
+    ],
+    "PRWR 6810": [
+      "major-required"
+    ],
+    "PRWR 6850": [
+      "major-required"
+    ],
+    "PRWR 6860": [
+      "major-required"
+    ],
+    "PRWR 7460": [
+      "major-required"
+    ],
+    "PRWR 7470": [
+      "major-required"
+    ],
+    "PRWR 7480": [
+      "major-required"
+    ],
+    "PRWR 7520": [
+      "major-required"
+    ],
+    "PRWR 7800": [
+      "major-required"
+    ],
+    "PRWR 7801": [
+      "major-required"
+    ],
+    "PRWR 7810": [
+      "major-required"
+    ],
     "PRWR 7960": [
       "major-project"
+    ],
+    "STVW 6400": [
+      "major-required"
+    ],
+    "STVW 6450": [
+      "major-required"
+    ],
+    "STVW 6490": [
+      "major-required"
+    ],
+    "STVW 6495": [
+      "major-required"
+    ],
+    "STVW 6496": [
+      "major-required"
+    ],
+    "STVW 7400": [
+      "major-required"
+    ],
+    "STVW 7490": [
+      "major-required"
+    ],
+    "STVW 7495": [
+      "major-required"
+    ],
+    "STVW 7496": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Applied Writing'",
-    "unrecognized section 'Composition and Rhetoric'",
-    "unrecognized section 'Creative Writing'"
+  "draftWarnings": [],
+  "leftOut": [
+    "PRWR 7600",
+    "PRWR 7900",
+    "PRWR 7950"
   ],
-  "leftOut": [],
-  "draftHash": "89b46a8bc58d4281d3047467696d40c26a12380d75d0576574b3fcfa6828431e"
+  "draftHash": "4f0d7ae423189e2e8af50674c9c7976d7c37be27259ef7dbd72cf4efca359019"
 }

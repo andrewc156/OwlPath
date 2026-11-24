@@ -355,6 +355,8 @@ def main(argv: list[str]) -> int:
     ap.add_argument("program", choices=config.programs(), help="which major to build, e.g. bs-cs")
     ap.add_argument("--draft", action="store_true", help="write output even with unresolved warnings")
     ap.add_argument("--from-pdfs", action="store_true", help="read courses from listing PDFs saved by hand instead of the catalog snapshot")
+    ap.add_argument("--accept-checked", action="store_true",
+                    help="write a checked major's changed build (only after the user's OK)")
     args = ap.parse_args(argv)
 
     out = config.program_dir(args.program)
@@ -369,11 +371,20 @@ def main(argv: list[str]) -> int:
 
     # Never write a dataset that fails validation, and never replace the reviewed
     # one with output that still has unresolved warnings unless --draft is given.
-    if not errors and (args.draft or not unresolved):
-        (out / "courses.json").write_text(json.dumps(dataset, sort_keys=True, indent=2) + "\n")
+    path = out / "courses.json"
+    text = json.dumps(dataset, sort_keys=True, indent=2) + "\n"
+    # Like publish: a checked major's reviewed courses.json changes only with --accept-checked.
+    held_checked = (spec.get("checked") is True and path.exists() and path.read_text() != text
+                    and not args.accept_checked)
+    if not errors and (args.draft or not unresolved) and not held_checked:
+        path.write_text(text)
     (out / "build-report.md").write_text(major_report(warnings, errors, notes, draft_warnings,
                                                        spec.get("leftOut", [])))
     print(f"{len(dataset['courses'])} courses, {unresolved} unresolved warnings, {len(errors)} validation errors")
+    if held_checked:
+        print(f"{args.program} is checked and this build changes its courses.json; not written. "
+              f"Rerun with --accept-checked after the user's OK.")
+        return 1
     if errors or (unresolved and not args.draft):
         return 1
     return 0

@@ -1,0 +1,183 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133844",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced graduate seminar considers emerging trends and research on adolescence. Topics may include research in neuroscience, resilience, self-regulation, and positive youth development models in deepening educators\u2019 understanding of the cognitive, psycho-social, and behavioral changes occurring during adolescence and the implication of such changes for middle and secondary school contexts. Adolescent development and related research is understood through an asset versus a deficit lens. Note: This course may be cross-leveled with EDSM 8500",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDSM 7500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Emerging Trends and Research in Adolescence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133845",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course deepens experienced educators\u2019 knowledge of research-based best practices in classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice. Note: This course may be cross-leveled with EDUC 8100",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Study of Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133371",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the first course in a two-course capstone sequence in secondary and middle grades education. Students work under the supervision of faculty to demonstrate their expertise in a focused area of their teaching field through an independent, research-based capstone project. In this first capstone course, students learn how to develop research questions, maintain ethics in research, evaluate relevant existing research, and write a literature review or annotated bibliography.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7700",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDUC 7100",
+          "EDSM 7500"
+        ]
+      },
+      "title": "Capstone I in Secondary & Middle Grades Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on a variety of diagnostic, formative, and summative assessment strategies and instruments that are valid and appropriate for content and student populations in secondary and middle grades education. Students learn how to plan, construct, and analyze traditional and non-traditional educational assessments that they can use for instructional and accountability purposes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7705",
+      "notes": [],
+      "prereqs": null,
+      "title": "Rethinking Assessment and Evaluation in Secondary and Middle Grades Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133374",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares teachers to become responsive educators who know how to improve middle and secondary grades content learning for all students through assessment, differentiation, and academic language, particularly in the service of English learners and students with special needs. Course includes 20-hour field experience in approved educational setting with English learners and/or students with disabilities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7750",
+      "notes": [
+        "Admission to M.Ed. Program"
+      ],
+      "prereqs": null,
+      "title": "Differentiation, Academic Language, and Assessment in Middle and Secondary Classrooms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133372",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares advanced candidates to be reflective scholar-practitioners who build reciprocal relationships. Advanced candidates are prepared to be co-problem-solvers who know how to develop and sustain partnerships with families to improve middle and secondary grades content learning for adolescent students. Theories and practical approaches for effective middle and secondary grades teaching and learning in collaboration with families are explored while centering students and their families\u2019 lived experiences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7752",
+      "notes": [],
+      "prereqs": null,
+      "title": "Family Partnerships in Secondary and Middle Grades Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133373",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the second course in a two-course capstone sequence in secondary and middle grades education. Students work under the supervision of faculty to demonstrate their expertise in a focused area of their teaching field through an independent, research-based capstone project. In this second capstone course, students demonstrate an understanding of maintaining ethics in research, collect and analyze data, and report on their results.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7797",
+      "notes": [],
+      "prereqs": "EDUC 7700",
+      "title": "Capstone II in Secondary & Middle Grades Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132511",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focus on the current effects and potential of technology and multimedia in writing, reading and literature instruction. Students explore ways technology is changing reading and writing processes in school, the workplace and in daily life and develop effective ways of integrating technology into instructional programs.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGL 7741",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Technology and Media in English and Language Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to technologies available in schools and explores technology integration frameworks grounded in research-based pedagogical strategies to maximize student engagement. Candidates will design exemplary technology-supported learning experiences that foster higher-order thinking, collaboration, authentic/meaningful learning tasks, and achievement of student content and technology standards. Candidates will also learn how to coach other educators toward higher levels of technology implementation. Appropriate for classroom teachers and other educational leaders interested in increasing effective technology-supported instructional practices in their schools.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ITEC 7400",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program",
+        "certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Teaching, Technology & Student Engagement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132684",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focus is on the current effects and potential of technology for doing, teaching, and learning mathematics. Students explore mathematics as they develop skill in innovative mathematics technologies. Technologies include graphing calculators, data collection technologies (such as CBL, CBR), dynamic geometry software, statistics software, web simulations, web courseware, and other technology tools for mathematics.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MAED 7719",
+      "notes": [
+        "Admission to the graduate college"
+      ],
+      "prereqs": null,
+      "title": "Technology and Mathematics"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "med-secondary-and-middle-grades-education",
+    "name": "MEd Secondary and Middle Grades Education"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

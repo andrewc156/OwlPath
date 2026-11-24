@@ -2,22 +2,15 @@
 
 ## Warnings needing review
 
-- **ISD 4498**
-  - unrecognized: completion of at least 90 credit hours
+- **ISD 4497**
+  - empty description
+  - unrecognized: Any B2: Cultural Perspectives course
+- **SA 4490**
+  - unrecognized: Varies with discipline
+  - unrecognized: subject
 
-## Notes
+## Left out on purpose
 
-- ISD 3100: added ASIA 3001 so (ASIA 3001, BLCK 1101, BLCK 1102, ISD 1198) has an option on the map
-
-## Drafting warnings
-
-- unrecognized section 'Introduction to Interdisciplinary Studies (3 Credit Hours)'
-- unrecognized section 'Introduction to Interdisciplinary Thinking (3 Credit Hours)'
-- unrecognized section 'Interdisciplinarity in the Workplace and Society (3 Credit Hours)'
-- unrecognized section 'Foundations (3 Credit Hours)'
-- unrecognized section 'Literacy (3 Credit Hours)'
-- unrecognized section 'Critical Inquiry (3 Credit Hours)'
-- unrecognized section 'Engaged Learning (3 Credit Hours)'
-- unrecognized section 'Gender, Race, and Culture'
-- unrecognized section 'Leadership, Community, and Justice'
-- unrecognized section 'Science, Technology, and Society'
+- ISD 3398
+- SA 4400
+- LALS 4490

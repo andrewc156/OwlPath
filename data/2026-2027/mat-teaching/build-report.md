@@ -2,102 +2,34 @@
 
 ## Warnings needing review
 
+- **ARED 6660**
+  - unrecognized: MAT faculty review
 - **ECE 6620**
-  - unrecognized: Admission to Teaching
   - unrecognized: MAT
   - missing operator before 'MAT', assumed and
 - **ECE 6630**
-  - unrecognized: Admission to the Teaching
   - unrecognized: MAT with a concentration in Elementary Education
   - missing operator before 'MAT with a concentration in Elementary Education', assumed and
 - **ECE 7514**
-  - unrecognized: Admission to the Teaching
   - unrecognized: MAT with a concentration in Elementary Education
   - missing operator before 'MAT with a concentration in Elementary Education', assumed and
-- **EDRD 6714**
-  - unrecognized line: This course is designed to fulfill partial requirements for the Georgia PSC Reading Endorsement. It applies and uses the principles of research-based reading instructional practices and the integration of the reading components following a systematic problem-solving process to scaffold the reading development of K-2 students. It also addresses having knowledge of effective, research-based instructional methodology to prevent reading difficulties and promote acceleration of reading progress for struggling students.
-  - empty description
 - **EDRD 6718**
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
   - unrecognized: have evidence of passing criminal background check
   - ambiguous and/or precedence: Candidates must be admitted to a KSU BCOE program, certificate or endorsement program and have evidence of passing criminal background check
-- **EDUC 6240**
-  - unrecognized: Admission to MAT
-- **EDUC 6610**
-  - unrecognized: Admission to teacher education
-  - unrecognized: admission to Yearlong Clinical Experience
 - **ENED 6650**
-  - unrecognized: ; pre-service certificate;
-  - unrecognized: admission to Yearlong Clinical Experience
+  - missing operator before 'ENGL 7731', assumed and
+  - missing operator before 'ENGL 7735', assumed and
+  - could not parse (unexpected 'and'): EDUC 6240, ENGL 7731, ENGL 7735; pre-service certificate; and admission to Yearlong Clinical Experience
 - **ENED 6660**
   - unrecognized: eligibility to take GACE English tests
   - unrecognized: Educator Ethics Assessment 370
   - unrecognized: required by the Georgia Professional Standards Commission
   - missing operator before '(', assumed and
-- **ENGL 7701**
-  - unrecognized: Admission to graduate study in education
-- **ENGL 7721**
-  - unrecognized: Admission to graduate study in education
-- **ENGL 7731**
-  - unrecognized: Admission to graduate study in education
-- **ENGL 7735**
-  - unrecognized: Admission to graduate study in education
-- **INED 7611**
-  - unrecognized line: In this course, candidates learn about the characteristics of individuals with dyslexia and other learning disabilities across a learner’s lifespan. Candidates learn theory and current issues related to the definition, assessment, eligibility, service delivery, family impact, and transition planning of learners with dyslexia. Upon completion of the course, students will be able to compare characteristics between individuals with and without dyslexia and other learning disabilities as well as identify scientifically-based interventions that are effective for students with dyslexia and other learning disabilities.
-  - empty description
-- **INED 7620**
-  - unrecognized: Admission into a KSU graduate program
-- **INED 7621**
-  - unrecognized line: This course develops knowledge of assessment and evaluation for learners with dyslexia with an emphasis on analyzing data for educational decision-making within P-12 schooling contexts. The course aims to prepare special education teachers for the administration procedures and practices used in reading and writing assessments, the interrelation of critical factors that impact an educational assessment, and the communication of assessment findings to parents and other professionals. The competencies in this course are derived from the requirements of relevant state and professional standards.
-  - empty description
-- **INED 7631**
-  - unrecognized line: The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.
-  - empty description
-- **INED 7750**
-  - unrecognized line: This course is designed to engage students in an investigation of critical pedagogy, theory, and philosophy as these concepts relate to their emerging roles as ESOL teachers and teacher leaders. Students will examine historical and current language policy, theoretical concepts related to language and power, the impact of theory on pedagogical decisions of ESOL teachers, develop an educational philosophy for the ESOL classroom, and hone their knowledge concerning advocacy for multilingual students.
-  - empty description
-- **INED 7763**
-  - unrecognized line: This course prepares candidates with the historical, theoretical and research-based knowledge to evaluate English language programs, and develop curricula for culturally/linguistically varied P-12 students. Candidates critically examine curricula for promotion of critical thinking, language development, content area learning, and learner engagement. Candidates develop an interdisciplinary, learner-centered, culturally relevant unit that applies Universal Design, Sheltered Instruction, project-based learning/assessment, arts-based learning, and 21st Century technologies to enhance the engagement and academic achievement of English learners.
-  - empty description
-- **INED 7779**
-  - unrecognized line: This course focuses on the development of the collaborative skills, knowledge and attitudes necessary to be successful with partners in the creation of and advocacy for inclusive classroom communities. Taking an asset-based view of families and communities, this course aims to bridge theory to practice in the development of the pedagogical acumen necessary to support successful, outcomes for all learners in multicultural communities.
-  - empty description
-- **INED 7781**
-  - unrecognized line: This course develops a knowledge base about culture, its influence on learning and teaching, and its role in intercultural classroom settings. Prospective ESOL teachers examine major theories related to educating immigrant students and a multilingual student body; critically analyze education policy and practice at the institutional level; analyze the sociopolitical context of teaching; and develop new strategies and tools to prepare candidates for advocacy, community engagement, and collaboration within the school context.
-  - empty description
-- **INED 7782**
-  - unrecognized line: This course focuses on the major theories of first and second language acquisition, principles of linguistic systems (e.g. phonology, phonetics, and morphology), and examines these topics drawing on a student-centered approach. Specifically, course content will explore these topics as they relate to classroom-based language learning and implications for schools. In addition, the course material is framed within the current conversations related to literacy, assessment, WIDA English language development standards, and dual-served students.
-  - empty description
-- **INED 7783**
-  - unrecognized line: The purpose of this course is to acquaint candidates with instructional strategies and materials that will help them be effective ESOL teachers. Candidates will work closely with the instructor to conduct directed activities in their own classrooms. If candidates are not teaching in classrooms that include English language learners, the Bagwell College’s Office of Field Experiences will find suitable placements. Methods of lesson planning and implementation of sheltered instruction using the SIOP Method, in conjunction with the concepts of Understanding by Design, and WIDA language assessment, will be studied and implemented in this course. Candidates will spend approximately 40 hours in the field.
-  - empty description
-- **INED 7787**
-  - unrecognized line: This course focuses on research-based instruction and assessment of literacy for English learners in P-12 classrooms. Candidates develop knowledge and skills to effectively organize and implement instruction at all language development levels. Emphasis is on understanding similarities and differences between literacy development of English learners and native English speakers. Candidates are introduced to issues of collaboration with grade-level teachers and literacy personnel and the socio-cultural and socio-political dimensions of teaching academic literacy in urban and rural environments.
-  - empty description
-- **ITEC 6200**
-  - unrecognized line: Teacher candidates learn to use technologies to promote student achievement of required content and technology standards through higher-level thinking, collaboration, problem-solving, and relevant, meaningful learning in their classrooms. Students will also explore digital equity, acceptable use, Internet safety, online learning, and other issues/trends relevant to technology in schools.
-  - empty description
-- **ITEC 7400**
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **MAED 6495**
-  - unrecognized line: Students’ understanding of secondary mathematics will be deepened and broadened through the study of algebraic structures, analytic geometry, and trigonometry, including conic sections, complex numbers, polynomials and functions. This course is designed so that students can revisit key ideas in high school mathematics, bringing with them the skills and understandings of college course work in mathematics, deepening and broadening their understanding, and connecting more advanced ideas to the topics they will teach in high school.
-  - empty description
-- **MAED 6650**
-  - unrecognized: Admission to Yearlong Clinical Experience
-- **SCED 6650**
-  - unrecognized: issued pre-service certificate
-  - unrecognized: admission to year-long clinical experience
-
-## Drafting warnings
-
-- unrecognized section 'Students with Exceptionalities (3 Credit Hours)'
-- unrecognized section 'Clinical Experience (9 Credit Hours)'
+- **INED 6400**
+  - unrecognized: M.A.T
+  - missing operator before 'M.A.T', assumed and
 
 ## Left out on purpose
 
+- ARED 6650
 - text: Select 6 credit hours of advisor approved electives.

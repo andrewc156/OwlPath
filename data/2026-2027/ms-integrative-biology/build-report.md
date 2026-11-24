@@ -2,18 +2,10 @@
 
 ## Warnings needing review
 
-- **BIOL 6399**
-  - unrecognized: Admission
-  - unrecognized: enrollment in the Master of Science in Integrative Biology program
 - **BIOL 7410**
-  - unrecognized: Admission to Integrative Biology
   - unrecognized: MS
   - missing operator before 'MS', assumed and
-- **BIOL 7420**
-  - unrecognized: Enrollment in the M.S. in Integrative Biology Program
 - **BIOL 7998**
-  - unrecognized: 18 credit hours of graduate coursework in the Integrative Biology
-  - unrecognized: M.S. program
   - missing operator before 'M.S. program', assumed and
 
 ## Left out on purpose

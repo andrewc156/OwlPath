@@ -44,17 +44,47 @@
     "EDSM 9300": [
       "major-elective"
     ],
+    "EDUC 7702": [
+      "major-required"
+    ],
+    "EDUC 7705": [
+      "major-required"
+    ],
+    "EDUC 7706": [
+      "major-required"
+    ],
+    "EDUC 7710": [
+      "major-required"
+    ],
+    "EDUC 7725": [
+      "major-required"
+    ],
     "EDUC 8100": [
       "major-required"
     ],
     "EDUC 8300": [
       "major-elective"
+    ],
+    "ENED 8741": [
+      "major-required"
+    ],
+    "ITEC 7400": [
+      "major-required"
+    ],
+    "ITEC 7430": [
+      "major-required"
+    ],
+    "ITEC 7480": [
+      "major-required"
+    ],
+    "ITEC 7600": [
+      "major-required"
+    ],
+    "MAED 7719": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Technology Course (3 Credit Hours)'",
-    "unrecognized section 'Note:'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "EDSM 8400",
     "text: Any 7000, 8000 or 9000 level ENGL or ENED courses. Students may also consider 6000 level or higher EDRD or PRWR courses with English advisor or program coordinator approval.",
@@ -63,5 +93,5 @@
     "text: Any 5000 or higher level CHEM courses. Students may also consider any 5000 level or higher EDSC, SCED, or SCI courses.",
     "text: Any 5000 level or higher CHEM, SCED, ESCD, SCI, BIOL, PHYS, PHED or GEOL courses."
   ],
-  "draftHash": "b9af2da8b0c652765aa647486faa3a4555ac44f53e169907ab0cc6518be544c3"
+  "draftHash": "b7132ed6bbf50a2f92042cd1dded289592b2f3ab1a7474304e24d488efc476eb"
 }

@@ -13,9 +13,10 @@ from .model import DEFAULT_MIN_GRADE, Expr, ParseResult
 
 _TOKEN = re.compile(
     r"""
-    (?P<GRADE_PREFIX>a\ grade\ of\ "(?P<pg>[A-F])"\ or\ (?:higher|better)\ in\b)
-  | (?P<GRADE_SUFFIX>(?P<each>each\ )?with\ an?\ "(?P<sg>[A-F])"\ or\ (?:higher|better))
-  | (?P<NOTE>by\ placement
+    (?P<GRADE_PREFIX>(?:an?\ )?(?:minimum\ )?(?:earned\ )?grades?\ of\ ["']?(?P<pg>[A-F])["']?\ or\ (?:higher|better)\ in\b)
+  | (?P<GRADE_SUFFIX>(?P<each>(?:each|both|all)\ )?with\ (?:an?\ (?:(?:minimum\ )?grade\ of\ )?)?["'](?P<sg>[A-F])["']
+      \ or\ (?:higher|better))
+  | (?P<NOTE>(?:by\ )?placement(?:\ (?:in)?to\ (?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)(?:\ or\ higher)?)?
       | (?:admission\ to|acceptance\ into)\ .*?\ program\b
       | (?:freshman|sophomore|junior|senior|graduate)\ standing
       | (?:by\ )?(?:instructor's|department's)(?:\ or\ department's)?\ permission
@@ -23,7 +24,7 @@ _TOKEN = re.compile(
         (?:instructor|department(?:\ chair)?|(?:[A-Z]{2,}\ )?program\ (?:director|coordinator)|advisor|dean)\b
       | ph\.d\.\ candidacy)
   | (?P<COURSE>(?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)\b)
-  | (?P<AND>\band\b)
+  | (?P<AND>\band\b|&)
   | (?P<OR>\bor\b)
   | (?P<LP>[(\[])
   | (?P<RP>[)\]])
@@ -32,6 +33,14 @@ _TOKEN = re.compile(
     """,
     re.IGNORECASE | re.VERBOSE,
 )
+
+# A leftover phrase (no course id) that names one of these is a known kind of non-course requirement
+# (admission, standing, major, hours, GPA, approval, certification): a note, shown and never blocking.
+# Anything else, and any phrase ending in ":" (a per-major or per-program condition), still warns.
+_REQUIREMENT_WORDS = re.compile(
+    r"\b(admission|admitted|acceptance|accepted|standing|majors?|program|student|permission|consent|approval|approved"
+    r"|credit\ hours|gpa|certificate|certification|endorsement|clinical|candidacy|enrolled|enrollment|placement)\b",
+    re.IGNORECASE | re.VERBOSE)
 
 _OPERAND_END = {"COURSE", "NOTE", "RP", "GRADE_SUFFIX"}
 _OPERAND_START = {"COURSE", "NOTE", "LP", "GRADE_PREFIX"}
@@ -67,7 +76,8 @@ def _tokenize(text: str, warnings: list[str]) -> list[_Tok]:
         leftover = buf.strip(" ,")
         if leftover:
             toks.append(_Tok("NOTE", leftover))
-            warnings.append(f"unrecognized: {leftover}")
+            if leftover.endswith(":") or not _REQUIREMENT_WORDS.search(leftover):
+                warnings.append(f"unrecognized: {leftover}")
         buf = ""
 
     pos = 0
@@ -231,17 +241,41 @@ def _finish(expr: Expr, notes: list[str]) -> Expr | None:
     return children[0] if len(children) == 1 else {op: children}
 
 
+def _clauses(text: str) -> list[str]:
+    """Split on ";" outside brackets: KSU separates whole clauses that way, each one required."""
+    parts, depth, start = [], 0, 0
+    for i, ch in enumerate(text):
+        if ch in "([":
+            depth += 1
+        elif ch in ")]":
+            depth -= 1
+        if ch == ";" and depth == 0:
+            parts.append(text[start:i])
+            start = i + 1
+    parts.append(text[start:])
+    return [p.strip(" ,") for p in parts if p.strip(" ,")]
+
+
 def parse_requirement(text: str) -> ParseResult:
     warnings: list[str] = []
     clean = _normalize(text)
-    toks = _tokenize(clean, warnings)
-    if not toks:
+    clauses = _clauses(clean)
+    if any(c.endswith(":") or re.search(r":\s", c) for c in clauses) and len(clauses) > 1:
+        # "Business Majors: X; Non-business Majors: Y" is a choice by major, not "X and Y".
+        return ParseResult(None, [clean], [f"could not parse (per-major clauses): {clean}"])
+    exprs: list[Expr] = []
+    for clause in clauses:
+        toks = _tokenize(clause, warnings)
+        if not toks:
+            continue
+        _check_ambiguity(toks, clause, warnings)
+        toks = _insert_implicit_ops(toks, warnings)
+        try:
+            exprs.append(_Parser(toks).parse())
+        except _ParseError as e:
+            return ParseResult(None, [clean], warnings + [f"could not parse ({e}): {clean}"])
+    if not exprs:
         return ParseResult(None, [], warnings)
-    _check_ambiguity(toks, clean, warnings)
-    toks = _insert_implicit_ops(toks, warnings)
-    try:
-        expr = _Parser(toks).parse()
-    except _ParseError as e:
-        return ParseResult(None, [clean], warnings + [f"could not parse ({e}): {clean}"])
     notes: list[str] = []
+    expr = exprs[0] if len(exprs) == 1 else {"and": exprs}
     return ParseResult(_finish(expr, notes), notes, warnings)

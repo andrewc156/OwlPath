@@ -50,6 +50,12 @@
     "INCM 9103": [
       "major-required"
     ],
+    "INCM 9210": [
+      "major-required"
+    ],
+    "INCM 9230": [
+      "major-required"
+    ],
     "INCM 9250": [
       "major-required"
     ],
@@ -84,13 +90,12 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Advanced Research Methods (3 Credit Hours)'",
-    "unrecognized section 'Dissertation Research (9-15 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "INCM 9600",
-    "INCM 9410"
+    "INCM 9410",
+    "INCM 9290",
+    "INCM 9900"
   ],
-  "draftHash": "95c756795b28ceb601791a0613c053ae9784796bbeed7faf9fc368f5be267f29"
+  "draftHash": "4a1896c932f2cb8a812791849d145e794e104001c67449ad99c98c6e8bcedae2"
 }

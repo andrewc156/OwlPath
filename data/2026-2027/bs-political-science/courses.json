@@ -1,0 +1,463 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to provide an introduction into the field of Data Science. Students will develop skills in appropriate technology and basic statistical methods by completing hands-on projects focused on real-world data and addressing the social consequences of data analysis and application.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "DATA 1501",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137004",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Political science seeks to describe and understand political phenomena, and to explore their ethical and normative dimensions. The purpose of this course is to provide a broad overview of the substantive areas of interest and skills one needs to study politics and government. As such, this course is a survey of the substantive content areas, theoretical perspectives, and major questions in political science. Topics include-but may not be limited to-political theory, comparative politics, international relations, and American politics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Political Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135314",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the comparative approaches for the study of politics, focusing on patterns of development and change in contemporary political systems.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2240",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to Comparative Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the study of international relations. Sources of international order, conflict and war, determinants of foreign policy, global actors and the dynamics of political interaction between nation-states are examined.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2250",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to International Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135317",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Emphasizes the political development and application of contemporary ideologies such as nationalism, capitalism, socialism, democracy, Marxism, conservatism, liberalism, feminism, communitarianism, fascism, liberation movements, and others.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2270",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Political Ideologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135318",
+      "catalogYear": "2026-2027",
+      "coreqs": "DATA 1501",
+      "credits": "3",
+      "description": "An introduction to the empirical methods in social science research. It provides the student with a working knowledge of the design, implementation and evaluation of social science research.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2280",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135319",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of American law. The course covers the basic design and structures of the United States court system, trial and appellate legal process, and Constitutional law basics including governmental powers and civil rights and liberties.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3300",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "U.S. Constitution and Courts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137005",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "State and local governments are increasingly important arenas of policymaking and political conflict in the United States. Around the country states are in the forefront of public policymaking and political controversy on issues ranging from economic development, education, labor relations, health care, environmental protection and marijuana laws, to social issues such as abortion, contraception, same-sex marriage and LGBT rights. Even when the federal government sets agendas and policies, state and local governments are often where implementation actually comes into contact with real people like you and me.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3312",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Concepts in State and Local Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135320",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to public policy analysis using data and methodological approaches as well as political and social inputs into the policy process. Analysis of policy outcomes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3313",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Public Policy Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135322",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to legal resources for law-related courses and to problems that demonstrate the effective utilization of legal research and reference tools in a manner designed to meet the needs of the student in both law and non-law fields. An understanding of legal rules is necessary for scientists, archaeologists and other professionals.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3320",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Legal Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135324",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The methods and procedures of governmental administration and the control of public bureaucracies in democratic societies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3343",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Principles of Public Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135325",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the conduct, substantive policy issues and problems associated with American foreign policy. The contemporary aspects and problems evolving out of and confronted by America\u2019s foreign policy are emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3350",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "American Foreign Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135326",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Presents an in-depth treatment of the origins, development, operation of the U.S. Senate and House of Representatives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3360",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "The United States Congress"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137006",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class examines courts in the United States from an institutional perspective. Accordingly, most of the focus is on federal courts as the co-equal third branch of the U.S. government. Court structures, the role of courts, the legal process, and interactions between the judiciary and other institutions are all covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3365",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "United States Judiciary"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135327",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the historical development of the presidency, the constitutional powers, the personalities, the roles and the relationship with other governmental entities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3370",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "The United States Presidency"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135328",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the intersection of media and politics. Emphasis is placed on the role of various types of media and forms of communication in political processes and systems in the United States, as well as in other democratic and non-democratic societies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3380",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Media and Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135329",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An in-depth look at the process of selecting governmental leaders in the United States. Includes a segment on foreign elections.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3385",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Campaigns and Elections"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137007",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class examines political parties, interest groups, and lobbying in the American political system. Accordingly, most of the focus is on political party and interest group dynamics from historical and modern perspectives, and implications in terms of the current political climate and for the future. In addition, the course addresses the ways in which groups and individuals leverage their influence to impact political outcomes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3387",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Political Parties, Interest Groups, and Lobbying"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135332",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the techniques and uses of polls and surveys in political science and public policy. Students will learn the art of questionnaire design, questionnaire construction, sampling, data collection, coding, and analysis. Students will learn the basics of telephone survey techniques and focus group moderation for the purposes of collecting information. Class projects may include the construction and implementation of a survey, reading and critiquing existing surveys and questionnaires. Quantitative and qualitative approaches will be examined.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3394",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Public Opinion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135682",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course teaches students advanced techniques in political and social research methods. The course covers both qualitative and quantitative methods, including hands-on training in computer-based analysis of large datasets and social science statistical methods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4280",
+      "notes": [],
+      "prereqs": "POLS 2280",
+      "title": "Political Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135339",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the ways in which the courts and the law in different countries affect public policy. The source and methods utilized in different legal systems (both democratic and nondemocratic) as transforming agents of society and/or means for maintaining order within it are explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4405",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Comparative Legal Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135342",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Emphasis on the changing patterns of local and municipal governments and politics, impact of reapportionment and other problems generated by an urbanized society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4412",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Urban Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135346",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of classical, medieval, and modern political thinkers and their political thoughts. It discusses their impacts on the development of political processes and institutions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4423",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Great Political Thinkers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135347",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the diverse spectrum of American political thinking from the pre-revolutionary period to the present. Beginning with colonial discourse, this comprehensive review captures the depth and distinctiveness of American thought as expressed by and through the writings and actions of philosophers, politicians, radicals, and revolutionaries.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4427",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "American Political Thought"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135685",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines contemporary theories and politics of \u201cdifference,\u201d broadly understood as institutionalized hierarchies which marginalize and oppress certain groups and inhibit their political power. Students use race, gender, sexuality, and class as intersecting analytical frameworks to understand how multiple hierarchies of difference are structured and reproduced in the political process. Using critical race, feminist, queer, and political theory, students explore how political dynamics are shaped by difference.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4428",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Race, Gender, and the Politics of Difference"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the system of law governing relations between nation-states, and the roles and functions of international organizations. It explores the conventional international law in the areas of diplomacy, territorial questions and armed conflicts, as well as the developing regimes in trade and human rights. In addition, the course examines the structures and functions of some contemporary organizations in the security and economic areas and evaluates their performance and contribution.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4430",
+      "notes": [],
+      "prereqs": "POLS 2250",
+      "title": "International Law and Organization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135352",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course confronts the patterns of development of governmental institutions and use of political processes in meeting the problems of the emerging nations of Asia, Africa, Latin America and the Middle East.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4436",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "POLS 2240",
+          "POLS 2250"
+        ]
+      },
+      "title": "Politics of Developing Areas"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135353",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the primary threats to international security in the 21st century and examines the response of national governments, the United Nations, and regional international organizations in meeting the challenges posed by those threats.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4437",
+      "notes": [],
+      "prereqs": "POLS 2250",
+      "title": "Global Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the process of democratization from a cross-national comparative perspective, with significant emphasis placed on the relationship between economic and political development. It begins with an examination of Western conceptions of democracy and the paths to democratic governance that Western states have taken. It then examines the concept of democracy through the lenses of non-Western cultures and values, and compares the distinct paths that states in each region of the world have taken toward democratization. In so doing, students critically analyze the merits of many controversial arguments put forth by political development scholars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4440",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Comparative Democratization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135369",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course is designed to complete the major by integrating the problems, research and theories from the divergent specialty areas of the Political Science curriculum. The course focuses on both the theoretical and empirical concerns, as well as the interconnectedness among the various Political Science specialty areas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4499",
+      "notes": [
+        "Satisfactory completion of 18 hours of upper-division major requirements"
+      ],
+      "prereqs": "POLS 2280",
+      "title": "Senior Seminar"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-political-science",
+    "name": "BS Political Science"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

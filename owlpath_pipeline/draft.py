@@ -110,6 +110,14 @@ def _group_for(heading: str) -> str | None:
     return None
 
 
+_CHOOSE = re.compile(r"\b(select|choose|chosen|from the following|one of|elective)", re.IGNORECASE)
+
+
+def _unnamed_group(items: list[dict]) -> str:
+    texts = " ".join(i["text"] for i in items if i["kind"] == "text")
+    return "major-elective" if _CHOOSE.search(texts) else "major-required"
+
+
 def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[str, RawCourse]) -> Draft:
     courses: dict[str, list[str]] = {}
     choices: list[list[str]] = []
@@ -118,6 +126,7 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
     conc_labels: list[tuple[str, str]] = []  # (label, group), page order
     conc: tuple[int, str] | None = None  # (heading level, group)
     skipped: int | None = None  # level of the skipped heading whose subtree we are in
+    named: list[tuple[int, str]] = []  # (heading level, group) of the recognized headings above this one
 
     def add_left_out(entry: str) -> None:
         if entry not in left_out:
@@ -147,12 +156,16 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
         for item in items:
             if item["kind"] == "text":
                 add_left_out(f"text: {item['text']}")
+        while named and named[-1][0] >= level_no:
+            named.pop()
+        own = _group_for(heading)
+        if own:
+            named.append((level_no, own))
         if not any(i["kind"] == "course" for i in items):
             continue
-        group = conc[1] if conc else _group_for(heading)
-        if group is None:
-            warnings.append(f"unrecognized section '{section['heading']}'")
-            continue
+        # A heading the rules don't name ("Group A", "Teaching Field Courses") takes its parent's group;
+        # at the top it is an elective list when its text says to choose, otherwise required.
+        group = conc[1] if conc else own or (named[-1][1] if named else _unnamed_group(items))
         chain: list[str] = []
         pending_or = False
 

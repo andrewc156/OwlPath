@@ -2,13 +2,20 @@
 
 ## Warnings needing review
 
-- **SW 7801**
-  - unrecognized: Advanced Standing in the MSW Program
+- **SW 7802**
+  - unrecognized: All MSW Foundational-Level courses
+- **SW 7803**
+  - unrecognized: All MSW Foundation-Level courses
+- **SW 7807**
+  - unrecognized: All MSW Foundation-Level courses
+- **SW 7830**
+  - unrecognized: All MSW Foundational-Level courses
 - **SW 7929**
   - unrecognized: All MSW Foundational-Level courses
-  - unrecognized: Advanced Standing in MSW program
 
-## Drafting warnings
+## Left out on purpose
 
-- unrecognized section 'Foundational MSW Course Sequence (30 Credit Hours)'
-- unrecognized section 'Advanced Clinical Courses (21 Credit Hours)'
+- SW 7708
+- SW 7709
+- SW 7812
+- SW 7813

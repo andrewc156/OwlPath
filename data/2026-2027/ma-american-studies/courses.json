@@ -1,0 +1,115 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This interdisciplinary graduate course covers the history and cultural interaction of the United States and the Americas, with attention to relationships between policy, labor dynamics, and cultural expressions across the Americas, as well as theoretical frameworks common in transnational study of the US and the Americas. Topics covered may include the Atlantic slave trade; culture and history of migrant labor; indigenous studies; and history and culture of transnational social movements in the Americas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 6201",
+      "notes": [],
+      "prereqs": null,
+      "title": "History and Culture of the Americas"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133441",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this interdisciplinary course, students learn about major transnational literary movements in the Americas, with an emphasis on understanding literature in a global context. Course readings and assignments provide an overview of important questions, methods, and theoretical approaches in contemporary American Studies literary scholarship as well as an advanced introduction to important literary works.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 6401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Literature and Culture of the Americas"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132243",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores a variety of themes, theoretical influences, and methodological approaches currently alive in American Studies and its related disciplinary fields. Particular emphasis is placed on the current controversies and scholarship focused on race, ethnicity, gender and sexuality. The course is organized around broad thematic concepts, with attention to global perspectives. The course introduces some basic conceptual building blocks in the field, and explores some of the historical development of American Studies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 7000",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Studies Scholarship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132244",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduces students to current methods in American Studies research and public practice. The course focuses on core concepts, objects of analysis, and evolving research practices used for working in American Studies. While critiquing notable examples from the field, students consider various dynamic professional contexts for \u201cdoing\u201d American Studies, such as professional organizations and journals, classrooms, the workplace, public settings, and other diverse communities outside the university.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 7100",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Studies Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133404",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-6",
+      "description": "In the first part of the American Studies capstone experience, students work with faculty advisors to review scholarly literature and write a research or project proposal. The research reviewed will consist of interdisciplinary scholarship from American Studies and related fields that investigates questions consistent with the program\u2019s mission and the student\u2019s professional goals. Students work with faculty advisors to review literature and develop a proposal related to their topic or project aims.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "AMST 7901",
+      "notes": [
+        "Permission of the American Studies graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Capstone Literature Review and Proposal"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132257",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-6",
+      "description": "A major research project or a project using interdisciplinary methods from American Studies to investigate questions consistent with the program\u2019s mission and the student\u2019s professional goals. Students work with faculty advisors to carry out research related to their topic or project aims, and complete a product drawing on the content of program courses and integrating it with new, individualized study.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "AMST 7902",
+      "notes": [
+        "Permission of the program coordinator"
+      ],
+      "prereqs": "AMST 7901",
+      "title": "Capstone Experience"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "ma-american-studies",
+    "name": "MA American Studies"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

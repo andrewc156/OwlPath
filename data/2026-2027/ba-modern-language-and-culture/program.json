@@ -41,6 +41,18 @@
     "BLAW 2200": [
       "major-required"
     ],
+    "CHIN 1001": [
+      "major-required"
+    ],
+    "CHIN 1002": [
+      "major-required"
+    ],
+    "CHIN 2001": [
+      "major-required"
+    ],
+    "CHIN 2002": [
+      "major-required"
+    ],
     "ECON 2105": [
       "major-required"
     ],
@@ -62,16 +74,100 @@
     "FIN 3100": [
       "major-required"
     ],
+    "FREN 1001": [
+      "major-required"
+    ],
+    "FREN 1002": [
+      "major-required"
+    ],
+    "FREN 2001": [
+      "major-required"
+    ],
+    "FREN 2002": [
+      "major-required"
+    ],
+    "GRMN 1001": [
+      "major-required"
+    ],
+    "GRMN 1002": [
+      "major-required"
+    ],
+    "GRMN 2001": [
+      "major-required"
+    ],
+    "GRMN 2002": [
+      "major-required"
+    ],
     "INED 3300": [
       "major-required"
     ],
     "IS 2200": [
       "major-required"
     ],
+    "ITAL 1001": [
+      "major-required"
+    ],
+    "ITAL 1002": [
+      "major-required"
+    ],
+    "ITAL 2001": [
+      "major-required"
+    ],
+    "ITAL 2002": [
+      "major-required"
+    ],
+    "JAPN 1001": [
+      "major-required"
+    ],
+    "JAPN 1002": [
+      "major-required"
+    ],
+    "JAPN 2001": [
+      "major-required"
+    ],
+    "JAPN 2002": [
+      "major-required"
+    ],
+    "KOR 1001": [
+      "major-required"
+    ],
+    "KOR 1002": [
+      "major-required"
+    ],
+    "KOR 2001": [
+      "major-required"
+    ],
+    "KOR 2002": [
+      "major-required"
+    ],
     "MGT 3100": [
       "major-required"
     ],
     "MKTG 3100": [
+      "major-required"
+    ],
+    "PORT 1001": [
+      "major-required"
+    ],
+    "PORT 1002": [
+      "major-required"
+    ],
+    "PORT 2001": [
+      "major-required"
+    ],
+    "PORT 2002": [
+      "major-required"
+    ],
+    "SPAN 1001": [
+      "major-required"
+    ],
+    "SPAN 1002": [
+      "major-required"
+    ],
+    "SPAN 2001": [
+      "major-required"
+    ],
+    "SPAN 2002": [
       "major-required"
     ],
     "WLC 2209": [
@@ -102,23 +198,7 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Chinese'",
-    "unrecognized section 'French'",
-    "unrecognized section 'German'",
-    "unrecognized section 'Italian'",
-    "unrecognized section 'Japanese'",
-    "unrecognized section 'Korean'",
-    "unrecognized section 'Spanish'",
-    "unrecognized section 'Chinese'",
-    "unrecognized section 'French'",
-    "unrecognized section 'German'",
-    "unrecognized section 'Italian'",
-    "unrecognized section 'Japanese'",
-    "unrecognized section 'Korean'",
-    "unrecognized section 'Portuguese'",
-    "unrecognized section 'Spanish'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Select 3 credit hours of 1000-2000 level coursework from the University Catalog",
     "text: Select 9 credit hours of 3000-4000 level CHIN coursework.",
@@ -131,5 +211,5 @@
     "text: Select 9 credit hours of 3000-4000 level SPAN coursework.",
     "text: Select 3 credit hours from the following list of courses:"
   ],
-  "draftHash": "ddd3f3025135b37c600e541075cf4d3b2adaad473446e46d30bed696278cca94"
+  "draftHash": "7188ccf401293e59655fd7bacc49b79c8da48cb79fb80d9e33205d300ae46270"
 }

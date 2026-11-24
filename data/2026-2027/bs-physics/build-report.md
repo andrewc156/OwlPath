@@ -2,41 +2,7 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **EE 3701**
-  - unrecognized: Engineering Standing
-- **EE 4201**
-  - unrecognized: Engineering Standing
-- **ENGR 3343**
-  - unrecognized: Engineering Standing
-- **ENGR 3345**
-  - unrecognized: Engineering Standing
-- **ME 4141**
-  - unrecognized: Engineering Standing
-- **PHYS 3220**
-  - unrecognized: Grades of "C"
-  - unrecognized: better in
-  - ambiguous and/or precedence: Grades of "C" or better in MATH 2203, MATH 2306, PHYS 2212 and PHYS 2212L
-- **PHYS 3260**
-  - unrecognized: Grade of 'C'
-  - unrecognized: better in
-  - ambiguous and/or precedence: Grade of 'C' or better in MATH 2202, and PHYS 2212
-- **PHYS 3410K**
-  - unrecognized: Grades of "C"
-  - unrecognized: better in
-  - ambiguous and/or precedence: Grades of "C" or better in PHYS 2212 and PHYS 2212L
-- **PHYS 3500K**
-  - unrecognized: Grades of "C"
-  - unrecognized: higher in
-  - ambiguous and/or precedence: Grades of "C" or higher in PHYS 2212 and PHYS 2212L
-- **PHYS 3710**
-  - unrecognized: Grade of "C"
-  - unrecognized: higher in
-  - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
 - **SCM 2000**
-  - unrecognized: A declared major within the College of Science
   - unrecognized: Mathematics
 
 ## Notes

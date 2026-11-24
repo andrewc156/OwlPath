@@ -1,0 +1,233 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132225",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of financial audits, assurance services, and internal audits. Emphasis is on current developments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7101",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Auditing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132228",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines corporate governance and the broader business environment from the perspective of accounting. The course will be taught in a seminar format, with a great deal of interaction in class.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7201",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Corporate Governance and the Business Environment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132231",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the federal income taxation of corporations and shareholders. Topics covered include corporate contributions, distributions of shareholders, stock redemptions, and corporate liquidations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7301",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Corporate Tax and Shareholders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132215",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of financial accounting theory and its application, including current and future business reporting models.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7401",
+      "notes": [
+        "Admission to MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Financial Accounting Theory and Application"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132230",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the U.S. federal tax system, including research processes, tax practice, and procedural issues. This course is intended to strengthen students\u2019 problem solving and communication skills in a tax research setting. Electronic tax research services are used in the search for applicable tax authority.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7510",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Tax Research and Procedure"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132232",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced study of the federal income taxation of flow-through entities, including partnerships, S Corporations and Limited Liability Companies. Topics include contributions and distributions from a flow-through entity; reporting of profits, gains and losses; complete and partial liquidations; and the partnership special allocation rules.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7530",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Taxation of Flow-Through Entities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133116",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The goal of this course is to develop knowledge and research skills in the area of state and local taxation. The course will include a review of the U.S. Constitution\u2019s Due Process and Commerce Clauses, and resulting court cases. Calculations for state personal income, corporate income, sales, and ad valorem property taxes will be included. Selected current issues in the area of state and local taxation will also be incorporated. Estate and gift taxes will also be investigated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7545",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "State and Local Taxation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133381",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to extend the student\u2019s knowledge and understanding of systems and controls with a focus on the role of risk professionals (for example, risk advisory consultants and internal auditors).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7610",
+      "notes": [
+        "Admission to Master of Accounting Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Systems and Control for Risk Advisors"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133380",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will extend the student\u2019s knowledge and understanding of accounting and data analytics with a focus on the role of auditors and other risk professionals (for example, advisory consultants, forensic or tax accountants and internal auditors).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7620",
+      "notes": [
+        "Admission to Master of Accounting Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Accounting Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133379",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers several topics related to regulation of public financial reporting regulation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7630",
+      "notes": [
+        "Admission to the MAcc Program"
+      ],
+      "prereqs": null,
+      "title": "Regulatory Structures and Emerging Issues in Financial Reporting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132226",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide advanced internal audit knowledge to students considering careers in the accounting and auditing functions with an emphasis on internal auditing. The purpose of the course is to extend students\u2019 knowledge of auditing in today\u2019s organizations; knowledge that extends beyond the traditional attestation of the financial statements. The course examines in detail internal audit theory, applies internal audit concepts to real corporate cases and involves critical analysis of internal audit practices. The course will also incorporate research papers to achieve its objectives.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7640",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Internal Auditing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133452",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Preparation for professional licensure or certification and career advancement consistent with students\u2019 professional goals. Students work with faculty advisers to develop a plan for licensure or certification and for honing professional skills consistent with their goals.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7701",
+      "notes": [
+        "Admission to the MAcc program"
+      ],
+      "prereqs": null,
+      "title": "MAcc Capstone Experience 1"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133453",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Continuation of ACCT 7701: Preparation for professional licensure or certification and career advancement consistent with students\u2019 professional goals. Students work with faculty advisers to develop a plan for licensure or certification and for honing professional skills consistent with their goals. Students will prepare for their final capstone project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 7702",
+      "notes": [],
+      "prereqs": "ACCT 7701",
+      "title": "MAcc Capstone Experience 2"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "macc-accounting",
+    "name": "MAcc Accounting"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -1,0 +1,491 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133739",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the payment process ecosystem and the history of payments as a foundation from which to provide students with the requisite knowledge, and as important background, regarding the evolution of products and services used and recommended by financial technology services. The student will learn the different types of payment products and services used by organizations such as Apple, Amazon, PayPal, and Venmo to gain an understanding that fascinating customer experiences are not covered only in the physical financial technology products created but also in a framework of corresponding exchanges and services. The student will also learn about risk management, customer relationships, regulatory compliance, settlements, strategies, and best practices for acquiring merchants and services. Students are expected to develop a broad background of the latest developments in payments as well as its impact on various portions of the world. Students will also have hands-on problem-solving case studies that can be beneficial in payments applications and innovations. This course will provide a good understanding of the trajectory of the payments industry primarily from a US point of view, however, with some global perspective. Note: This course may be cross-leveled with FTA 3810.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "FIS 6810",
+      "notes": [],
+      "prereqs": null,
+      "title": "Payments Processing in FinTech"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133113",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students analyze and formulate software solutions appropriate for an IT organization. Foundational program constructs, software design and development are covered.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IT 5413",
+      "notes": [],
+      "prereqs": null,
+      "title": "Software Design and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133114",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundation course will provide an overview of computer networks and system administration. Topics include network protocols, network traffic analysis, operating systems fundamentals and system management.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IT 5423",
+      "notes": [],
+      "prereqs": null,
+      "title": "Computer Networks and System Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133115",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide a practical foundation of database systems with emphasis on relational database design, implementation, and management. Topics include normalization, ERD, logical and physical design, SQL query, database applications, usage of XML in database, and data warehouse.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IT 5433",
+      "notes": [],
+      "prereqs": null,
+      "title": "Databases: Design and Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133130",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces World Wide Web as a fundamental application platform for today\u2019s information systems. Students will examine core aspects of web technologies and web applications, and will develop secure web applications.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IT 5443",
+      "notes": [],
+      "prereqs": "IT 5413",
+      "title": "Web Technologies and Application Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133168",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This core course covers technologies and methods of designing and implementing an IT application built from multiple subsystems. Students will explore modern system architectures and integration techniques used in enterprise environment. Students will develop a complete IT application through a major project to demonstrate their proficiency in all major technical areas of IT. These may include data management, networking and communication, servers and platforms, application development, user interface, web interface or security.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 6203",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IT 5433",
+          "IT 5443"
+        ]
+      },
+      "title": "IT Design Studio"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133908",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores IT management, strategy, and governance, focusing on aligning IT with business goals. Students develop IT policies, manage resources, ensure security, and implement governance frameworks to maximize organizational value, culminating in a comprehensive project applying course concepts to real-world IT challenges.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 6433",
+      "notes": [],
+      "prereqs": null,
+      "title": "IT Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133933",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamental concepts and practices of data processing and management. Students will explore technologies and techniques in broader areas, including data modeling, data engineering, data analytics, business intelligence, data science, data architecture, data integration, data service, and data governance. Students will also practice advanced database query techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 6443",
+      "notes": [],
+      "prereqs": "IT 5433",
+      "title": "Data Processing and Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133143",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the principles, methodologies, and best practices in securing an enterprise IT infrastructure. Topics include security frameworks and models, risk assessment and management, access control, cryptography, instruction detection/prevention systems, penetration testing, incident response and recovery, and other existing and emerging security domains.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 6823",
+      "notes": [],
+      "prereqs": "IT 5423",
+      "title": "Information Security Concepts and Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers in detail blockchain and distributed ledger technology and how it can be used to solve some major problems of current payment systems. Topics of this course include but are not limited to issues with the current payment systems, cryptocurrency and distributed ledger technology, Bitcoin and Etherreum, central bank digital currencies, and wallets & key management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 6923",
+      "notes": [],
+      "prereqs": "FIS 6810",
+      "title": "Blockchain Technology in Payments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133750",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers applications of different machine learning techniques to a variety of Fintech problems. Topics include supervised learning for predictive analysis, unsupervised learning for financial data clustering and visualization, and deep learning/reinforcement learning for financial decision making.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 6933",
+      "notes": [],
+      "prereqs": null,
+      "title": "Machine Learning Technology in FinTech"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133464",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students will learn concepts and practical skills that are necessary to perform an end-to-end data analytics project. Topics include: understanding business problems, collecting business data, exploring the data, preparing the data for data analytics, selecting and training a model, fine-tuning a model, presenting the solution, launching, monitoring and maintaining the system.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7103",
+      "notes": [],
+      "prereqs": null,
+      "title": "Practical Data Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133387",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces data visualization theories, techniques, and tools particularly for analyzing business data and improving business decision making. Students will design, develop, and evaluate effective visualizations and dashboards at strategic, tactic, and operational levels.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7113",
+      "notes": [],
+      "prereqs": "IT 5433",
+      "title": "Data Visualization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133303",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course discusses the concepts, technologies, processes, and applications of business intelligence. Student will go through the complete business intelligence process of data gathering, data model design, data integration, data analysis, and data presentation, in a specific application domain.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7123",
+      "notes": [],
+      "prereqs": "IT 5433",
+      "title": "Business Intelligence Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133650",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Enterprise IT processes massive data acquired from servers, operating systems, applications and users. Artificial Intelligence (AI) can be used to analyze these data with the aim of significantly improving IT operations. This course covers a variety of AI techniques that can be applied to IT. Students will learn practical skills on developing intelligent IT applications.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7133",
+      "notes": [],
+      "prereqs": null,
+      "title": "Enterprise AI Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133651",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the data analytics practices and technologies that are executed in a cloud environment for IT enterprise operations. The course explores key areas of the cloud analytical process, including data preparation, storage, access, analysis, presentation, and practical configurations and settings. Under the umbrella of cloud analytics, emerging analytics topics will be discussed, such as internet of things and edge/fog computing in information technology. The course also covers hands-on training on modern could systems that directly support the complete analytics process.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7143",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cloud Analytics Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133652",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover the applied techniques and technologies to preserve and protect data privacy. Topics include but are not limited to privacy definition, privacy regulation and laws, anonymous communication, database and file privacy, privacy in IoT systems, privacy preserving technologies, location privacy, privacy evaluation, digital identity protection and privacy, digital surveillance, and current and advanced privacy techniques.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7303",
+      "notes": [],
+      "prereqs": "IT 6823",
+      "title": "Data Privacy Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133653",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces fundamental security issues in physical IT systems. Topics include but are not limited to physical IT systems, secure architecture, container security, physical system security, emulating physical systems, SCADA security, defense mechanism for physical system, secure cloud integration with physical system, and emerging topics in physical IT system security.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7313",
+      "notes": [],
+      "prereqs": "IT 6823",
+      "title": "Physical IT Systems Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133239",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies techniques and tools in computing investigation, digital evidence collection, recovery, and analysis. Topics include but are not limited to describing the computer forensics profession; analyzing different OS file systems, images and register; recovering images; performing network, email, web and mobile device forensic; investigating logs and network traffic and recovering passwords. The course will provide hands-on experience labs conducting a variety of forensics practices and students will prepare professional forensics reports.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7323",
+      "notes": [],
+      "prereqs": "IT 6823",
+      "title": "Computer Forensics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133654",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced study and analysis of the concepts, methodologies and technologies in securing enterprise cloud and wireless networks. Topics include but are not limited to wireless network protocols, wireless LAN security tools, cloud computing infrastructure, evolution of cloud, confidentiality and integrity of cloud, and current trends in cloud and wireless security. Students are required to research and implement solutions to secure enterprise cloud and wireless systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7333",
+      "notes": [],
+      "prereqs": "IT 6823",
+      "title": "Enterprise Cloud and Wireless Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the major issues surrounding the use of penetration testing to secure network security and important skills of a professional hacker and common security challenges that an information security officer will face in his/her work. Topics include the ethics of ethical hacking, laws and regulations, vulnerability discovery and risk analysis, internal and external attacks, how malicious hackers attack and exploit system vulnerabilities, penetration testing methods and tools, latest security countermeasures, and various types of penetration testing and programming skills required to complete successful penetration tests and to secure real systems against real attacks.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7343",
+      "notes": [],
+      "prereqs": "IT 6823",
+      "title": "Ethical Hacking: Network Security and Penetration Testing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133145",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the importance of information technology and information systems in the health care industry. It provides an overview of the healthcare IT industry in the U.S. and clinical terminologies, a review of fundamental characteristics of clinical information, health information exchange stands (HL7); healthcare payment and reimbursement systems, the challenges of IT implementation, and a detailed discussion of the primary clinical and managerial applications of information (including electronic health records - EHR). Group and individual research will be required.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7503",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Health Information Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133144",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth study and analysis of the concepts, practices and concerns of information security unique to the healthcare settings. The course provides the student with the necessary background to evaluate the HIPAA security and privacy rules and meaningful use security requirements. It covers security risk assessment in the healthcare setting and how to integrate privacy and security into healthcare settings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7533",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "IT 7503",
+          {
+            "external": "CYBR 7300"
+          }
+        ]
+      },
+      "title": "Health Information Security and Privacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133167",
+      "catalogYear": "2026-2027",
+      "coreqs": "IT 6433",
+      "credits": "3",
+      "description": "This elective course will examine aspects of how the law affects an IT operation. Topics such as contract law, internet law, privacy and security will be discussed. Graduates of the MSIT need to know how the law affects IT and understand the basic laws particularly geared toward an IT operation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7703",
+      "notes": [],
+      "prereqs": null,
+      "title": "IT Policy and Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133649",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover the fundamental ideas behind enterprise cloud, the evolution of the paradigm, its applicability; benefits, as well as current and future challenges; the basic ideas and principles in enterprise cloud; cloud management techniques and enterprise cloud deployment considerations; cloud storage technologies and relevant distributed file systems, NoSQL databases and object storage. The course also covers the hands-on labs to practice on the cloud platform.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7733",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fundamentals of Enterprise Cloud"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133171",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers data administration and management, backup/recovery, security, access control, performance monitoring and tuning, data warehousing, data mining, online analytical processing, centralized versus distributed environments, client server and world-wide-web database integration.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7743",
+      "notes": [],
+      "prereqs": "IT 5433",
+      "title": "Database Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133169",
+      "catalogYear": "2026-2027",
+      "coreqs": "IT 5423",
+      "credits": "3",
+      "description": "This course covers the concepts and industry best practices in enterprise IT service management. Topics include system development life cycle, IT project management, IT service management framework - the collective processes and practices, such as service strategy, design, transition, operation, continuous improvement, and service assessment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7753",
+      "notes": [],
+      "prereqs": null,
+      "title": "IT Service Delivery"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133146",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This core course covers methods and best practices of assessing business needs, functional requirements and value for IT system acquisition (including decisions about appropriate sourcing strategies) and integrating the acquired IT components or services into the existing IT infrastructure. Major project included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7763",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "IT 5413",
+          "IT 5433"
+        ]
+      },
+      "title": "IT System Acquisition & Integration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133465",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers materials and methods of scholarly research in information technology. It includes the study of standard research paradigms with illustrative cases of each and the use of research methods and data presentations in industrial and business settings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7913",
+      "notes": [],
+      "prereqs": null,
+      "title": "Research Seminar in IT"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133172",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced web concepts and technologies such as web business models and strategies, web architectures, cloud-based services, scalability, load balancing, web security, application development lifecycles, and DevOps. Students will complete a major web development project following the proper lifecycle processes by selecting and using the appropriate architecture and technology stack. Students will also complete a research concept paper on future trends and development of web technologies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7923",
+      "notes": [],
+      "prereqs": "IT 6203",
+      "title": "Advanced Web Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133466",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for students to work in teams researching and developing IT solutions addressing business or organizational needs or opportunities. It\u2019s highly recommended for students to take this course in the last semester of your program.",
+      "groups": [
+        "conc-capstone",
+        "major-elective"
+      ],
+      "id": "IT 7993",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IT 6203",
+          "IT 6433",
+          "IT 6443"
+        ]
+      },
+      "title": "IT Capstone"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-capstone"
+        ],
+        "label": "Capstone"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "msit-information-technology",
+    "name": "MSIT Information Technology"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

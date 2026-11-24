@@ -1,0 +1,623 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133321",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to introduce students to the fundamentals of business research, including but not limited to: the fundamental philosophical orientations in research, the role of theory in business research, integrity and ethics in research, and an overview of major research designs. Students will learn the major components of a research article and what is required for effective academic writing. Each subject is introduced through a textbook chapter and/or research articles covering relevant aspects. Wherever possible, faculty will attempt to tie the course content back to the students\u2019 individual research interests.",
+      "groups": [
+        "conc-accounting"
+      ],
+      "id": "ACCT 9001",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133508",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to developments in selected research areas in accounting within the context of important elements of the research process. The important research issues examined should enable students to understand the nature and developments in accounting research. The nature of the course necessitates drawing from seminal and contemporary research articles. As such, each seminar will focus on the research questions, theories, research designs and methods, and interpreting empirical results. Students are requested to supplement the required readings with other readings and research methods textbooks.",
+      "groups": [
+        "conc-accounting"
+      ],
+      "id": "ACCT 9005",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Developments in Accounting Research Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133505",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to expose students to a selection of behavioral (interview and survey methods) and experimental research in accounting, auditing, and taxation. Students should leave this course with a basic knowledge of behavioral research and be better able to create, analyze, and critique such research to enable the development of a research proposal. This course may also help students identify a dissertation topic.",
+      "groups": [
+        "conc-accounting"
+      ],
+      "id": "ACCT 9006",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Behavioral Accounting Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133506",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The focus of this course is to provide an overview of archival research in auditing and financial accounting, and further develop literature review and critique skills to enable students to formulate ideas for future research. As there is a huge body of literature, the course offers a selection of papers to provide a springboard for further thought. This course may also help students identify a dissertation topic.",
+      "groups": [
+        "conc-accounting"
+      ],
+      "id": "ACCT 9007",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Archival Accounting Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133509",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course applies STATA as the statistical software package to analyze and interpret empirical archival data in accounting research. The course will cover multivariate techniques focusing primarily on multiple regression and its numerous diagnostics. The course will also empirically address special topics such as heteroskedasticity, two-stage regressions, selection bias including inverse mills ratio, and propensity score matching. Capital market event study analysis and \u201cdifference-in-difference\u201d techniques, interaction effects, and economic effects will also be addressed. Students will be required to empirically replicate at least one fully published research paper and parts of other published research papers.",
+      "groups": [
+        "conc-accounting"
+      ],
+      "id": "ACCT 9008",
+      "notes": [],
+      "prereqs": "BRM 9201",
+      "title": "Multivariate Analysis in Accounting Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138422",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide doctoral students with an in-depth understanding of advanced business management research theories, methodologies, and applications across various business disciplines. This course will explore the integration of theories and practices with other business domains, including, but not limited to, management, marketing, information systems, accounting, risk & decision analytics, and finance. Students will engage in critical analysis, discussion, and application of interdisciplinary research to address complex challenges.",
+      "groups": [
+        "conc-accounting"
+      ],
+      "id": "ACCT 9100",
+      "notes": [
+        "Admission into the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Intradisciplinary Topics in Business Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops skills for designing a research study and basic data analysis. Topics include an understanding of major types of research designs such as surveys, experiments, archival, and qualitative methods. Basic univariate statistical techniques will be covered for understanding the sample, preparing the data for analysis, and conducting two group hypothesis tests. Students will use actual data to perform the empirical analysis and interpret the results.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BRM 9201",
+      "notes": [
+        "Admission into the PhD in Business Administration",
+        "Post-Master's Certificate in Business Research Methods"
+      ],
+      "prereqs": null,
+      "title": "Research Methods and Basic Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133514",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops skills in utilizing appropriate techniques for analyzing data related to tests of differences between more than two groups for single and multiple dependent variables. The course covers analysis of variance (ANOVA) and multivariate analysis of variance (MANOVA). Factorial designs, interaction effects, and analysis of covariates are also covered in this course. The course will introduce students to techniques analyzing simple relationships such as correlations and simple regression. Students will use actual data to perform the empirical analysis and interpret the results.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BRM 9202",
+      "notes": [],
+      "prereqs": "BRM 9201",
+      "title": "Analysis of Variance Designs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133511",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an opportunity for doctoral students to broaden their research skill sets by understanding and experiencing the practice of qualitative inquiry. We will examine a wide variety of qualitative methods in several business disciplines and discuss design, implementation, and writing. The qualitative research skills developed in this course will supplement the quantitative methods skills developed in the PhD Program, thus enhancing students\u2019 abilities to conduct mixed-methods research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BRM 9203",
+      "notes": [],
+      "prereqs": "BRM 9201",
+      "title": "Qualitative Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133513",
+      "catalogYear": "2026-2027",
+      "coreqs": "BRM 9201",
+      "credits": "3",
+      "description": "This course develops skills in utilizing multiple regression analysis focusing on ordinary least squares regression and logistic regression. The course will cover various topics in regression ranging from assumptions to interpretation, advanced diagnostics such as multicollinearity, serial correlation and heteroscedasticity, endogeneity, two-stage analysis, panel data analysis, and interaction effects. Issues unique to logistic regression will also be covered. Students will use actual data to perform the empirical analysis and interpret the results.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BRM 9204",
+      "notes": [
+        "Admission into the PhD in Business Administration",
+        "Post-Master's Certificate in Business Research Methods"
+      ],
+      "prereqs": null,
+      "title": "Regression Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133512",
+      "catalogYear": "2026-2027",
+      "coreqs": "BRM 9202",
+      "credits": "3",
+      "description": "This course covers advanced statistical methods for analyzing quantitative data from empirical studies. Students extend research ideas from the first quantitative course and explore how advanced analytical software enables them to assess the measurement characteristics of variables, constructs, and relationships based on covariance analysis. Topics include application of exploratory and confirmatory factor analysis (CFA) to develop valid and reliable constructs and to examine and improve measurement aspects of questionnaires.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BRM 9205",
+      "notes": [
+        "Admission into the PhD in Business Administration",
+        "Post-Master's Certificate in Business Research Methods"
+      ],
+      "prereqs": {
+        "and": [
+          "BRM 9201",
+          "BRM 9204"
+        ]
+      },
+      "title": "Advanced Business Research Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133768",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the theory and application of quantitative decision models for decision and risk analysis. General topics include basics of probabilistic modeling, including probability and probability distributions (discrete and continuous) and their properties, random variables, and stochastic decision and risk analysis. Emphasis is on the understanding and evaluating the formulation, solution, and interpretation of models with application to a variety of business issues, and how quantitative techniques can provide for better decision making and risk assessment. A number of recent research articles will be reviewed to give the students a broad overview of applications. The goal of the course is to be able to understand and implement modeling tools for risk analysis and how they could be applied in their own research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BRM 9206",
+      "notes": [],
+      "prereqs": null,
+      "title": "Decision and Risk Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133769",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to introduce students to the fundamentals of business research, including but not limited to: the fundamental philosophical orientations in research, the role of theory in business research, integrity and ethics in research, and an overview of major research designs. Students will learn the major components of a research article and what is required for effective academic writing. Each subject is introduced through a textbook chapter and/or research articles covering relevant aspects. Wherever possible, faculty will attempt to tie the course content back to the students\u2019 individual research interests.",
+      "groups": [
+        "conc-risk-and-decision-analytics"
+      ],
+      "id": "ECON 9001",
+      "notes": [
+        "Admission into the Coles PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Business Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133773",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a broad introduction to econometric concepts and tools that are essential in decision analytics in economics and business settings. It covers basic techniques in linear regression analysis as well as a variety of more advanced and widely used methods, such as difference-in-differences, regression discontinuity design, and synthetic control method. The course presents statistical and econometric theories that allow students to understand the background of the technical applications. It also exposes students to classical examples in the literature that showcase the application of the methods. Hands-on exercises are designed for students to work with data sets and practice the techniques.",
+      "groups": [
+        "conc-risk-and-decision-analytics"
+      ],
+      "id": "ECON 9011",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Econometrics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133774",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This graduate-level course relates classical asset pricing theory to empirical estimation and evaluation of asset pricing models. The approach is to integrate economic insights, financial data, and econometric tools. Topics will include, but not limited to: capital asset pricing model, risk and returns on assets, consumption-based asset pricing theory, cross-section of expected returns, linear factor models, stochastic discount factor models, regression analysis for asset pricing, econometric tools for causal inference, and generalized method of moments techniques.",
+      "groups": [
+        "conc-risk-and-decision-analytics"
+      ],
+      "id": "ECON 9012",
+      "notes": [],
+      "prereqs": null,
+      "title": "Empirical Asset Pricing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133767",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the theory and research in operations research techniques, including network optimization and integer programming, which both have wide applications in various business areas, such as production, planning, finance, scheduling, and transportation. Network optimization models and integer programming models tend to have complex and large-scale mathematical structures and to be NP-hard to solve. This course provides a good opportunity to explore and study how to approach these difficult practical problems theoretically and computationally. An in-depth study of the theories and solution methodologies will be conducted, and the state-of-the-art optimization software will be used. Both the seminal and latest research papers will be discussed. This course also emphasizes the review and evaluation of published research articles and identification of possible application of the methodologies in students\u2019 own research.",
+      "groups": [
+        "conc-risk-and-decision-analytics"
+      ],
+      "id": "ECON 9013",
+      "notes": [
+        "Admission to the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Decision Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138426",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the basics of dynamic programming (DP), a general and conceptually simple technique for solving problems involving decisions made in stages. Topics include understanding DP and its application to various domains such as inventory policies, production control, financial decisions, and healthcare operations; structured policies for discrete state space problems over finite/infinite time horizons; and computational methods such as value iteration and policy iteration. The course will also discuss the \u201ccurse of dimensionality\u201d and suboptimal control approaches.",
+      "groups": [
+        "conc-risk-and-decision-analytics"
+      ],
+      "id": "ECON 9015",
+      "notes": [
+        "Admission to the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Dynamic Programming and Stochastic Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide doctoral students with an in-depth understanding of advanced business management research theories, methodologies, and applications across various business disciplines. This course will explore the integration of theories and practices with other business domains, including, but not limited to, management, marketing, information systems, accounting, risk & decision analytics, and finance. Students will engage in critical analysis, discussion, and application of interdisciplinary research to address complex challenges.",
+      "groups": [
+        "conc-risk-and-decision-analytics"
+      ],
+      "id": "ECON 9100",
+      "notes": [
+        "Admission into the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Intradisciplinary Topics in Business Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133322",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to introduce students to the fundamentals of business research, including but not limited to: the fundamental philosophical orientations in research, the role of theory in business research, integrity and ethics in research, and an overview of major research designs. Students will learn the major components of a research article and what is required for effective academic writing. Each subject is introduced through a textbook chapter and/or research articles covering relevant aspects. Wherever possible, faculty will attempt to tie the course content back to the students\u2019 individual research interests.",
+      "groups": [
+        "conc-information-systems-and-security"
+      ],
+      "id": "IS 9001",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133517",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines topics and research in business information systems (IS) focusing particularly on the major theories associated with relevant individual-level themes. It provides an overview of the field of IS and appreciation for its foundations. The goal is to delve into a collection of individual-level theories in enough depth that students, as researchers, will be sufficiently familiar with the theories to adopt them into their own work.",
+      "groups": [
+        "conc-information-systems-and-security"
+      ],
+      "id": "IS 9005",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Individual Level Theory Seminar on Information Systems I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133518",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines topics and research in business information systems (IS) focusing particularly on the major theories associated with relevant individual and organizational constructs and themes. Topics will vary but are based on areas of current interest in IS. Possible course topics include human-computer interaction, IS leadership, design science, dynamic capabilities, critical and qualitative approaches to IS, and addressing the research needs of practice.",
+      "groups": [
+        "conc-information-systems-and-security"
+      ],
+      "id": "IS 9006",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Individual Level Theory Seminar on Information Systems II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133520",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines macro-level topics and research in information systems focusing particularly on the major theories associated with relevant group and organizational constructs and themes. Secondly, the seminar also includes additional contemporary topics of discussions in Information Systems research. These topics may change to keep currency with the research discipline.",
+      "groups": [
+        "conc-information-systems-and-security"
+      ],
+      "id": "IS 9007",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Organizational Level Theories and Contemporary Topics in Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133521",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines research in IS topics that have not been covered in previous IS seminar courses. The topics focus on a mixture of macro and micro topics. These topics may change to keep current with the research discipline.",
+      "groups": [
+        "conc-information-systems-and-security"
+      ],
+      "id": "IS 9008",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in IS Research II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138430",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide doctoral students with an in-depth understanding of advanced business management research theories, methodologies, and applications across various business disciplines. This course will explore the integration of theories and practices with other business domains, including, but not limited to, management, marketing, information systems, accounting, risk & decision analytics, and finance. Students will engage in critical analysis, discussion, and application of interdisciplinary research to address complex challenges.",
+      "groups": [
+        "conc-information-systems-and-security"
+      ],
+      "id": "IS 9100",
+      "notes": [
+        "Admission into the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Intradisciplinary topics in Business Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133323",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to introduce students to the fundamentals of business research, including but not limited to: the fundamental philosophical orientations in research, the role of theory in business research, integrity and ethics in research, and an overview of major research designs. Students will learn the major components of a research article and what is required for effective academic writing. Each subject is introduced through a textbook chapter and/or research articles covering relevant aspects. Wherever possible, faculty will attempt to tie the course content back to the students\u2019 individual research interests.",
+      "groups": [
+        "conc-management"
+      ],
+      "id": "MGT 9001",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133525",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help doctoral students gain an understanding of research in the field of Human Resource Management. In this seminar, we will concentrate on critical reviews and evaluations of existing work, and the identification of potential directions for theory development and future research. Although an exhaustive review of the entire field\u2019s work is not possible in the context of a single semester, the objective of the course is to develop foundational knowledge in the field by reviewing classic and contemporary theories, current debates, and impactful empirical work. The nature of the course necessitates drawing from seminal and contemporary research articles.",
+      "groups": [
+        "conc-management"
+      ],
+      "id": "MGT 9005",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Human Resource Management Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133526",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help doctoral students gain an understanding of research in the fields of Entrepreneurship and International Business. In this seminar, we will concentrate on critical reviews and evaluations of existing work, and the identification of potential directions for theory development and future research. Although an exhaustive review of the entire field\u2019s work is not possible in the context of a single semester, the objective of the course is to develop foundational knowledge in the field by reviewing classic and contemporary theories, current debates, and impactful empirical work. The nature of the course necessitates drawing from seminal and contemporary research articles.",
+      "groups": [
+        "conc-management"
+      ],
+      "id": "MGT 9006",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Entrepreneurship and International Business Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133522",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help doctoral students gain an understanding of research in the field of Organizational Behavior. In this seminar, we will review and evaluate existing work, with the aim of identifying potential directions for theory development and future empirical studies. Potential research areas covered with Organizational Behavior include, but are not limited to: attitudes, personality, cognition, motivation, and power within organizations Although an exhaustive review of the entire field\u2019s work is not possible in the context of a single semester, the objective of the course is to develop foundational knowledge in the field by reviewing classic and contemporary theories, current debates, and impactful empirical work. The nature of the course necessitates drawing from seminal and contemporary research articles.",
+      "groups": [
+        "conc-management"
+      ],
+      "id": "MGT 9007",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Organizational Behavior Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133523",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help doctoral students gain an understanding of research in the field of Strategic Management. In this seminar, we will concentrate on critical reviews and evaluations of existing work, and the identification of potential directions for theory development and future research. Although an exhaustive review of the entire field\u2019s work is not possible in the context of a single semester, the objective of the course is to develop foundational knowledge in the field by reviewing classic and contemporary theories, current debates, and impactful empirical work. The nature of the course necessitates drawing from seminal and contemporary research articles.",
+      "groups": [
+        "conc-management"
+      ],
+      "id": "MGT 9008",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Strategic Management Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138433",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide doctoral students with an in-depth understanding of advanced business management research theories, methodologies, and applications across various business disciplines. This course will explore the integration of theories and practices with other business domains, including, but not limited to, management, marketing, information systems, accounting, risk & decision analytics, and finance. Students will engage in critical analysis, discussion, and application of interdisciplinary research to address complex challenges.",
+      "groups": [
+        "conc-management"
+      ],
+      "id": "MGT 9100",
+      "notes": [
+        "Admission into the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Intradisciplinary Topics in Business Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133324",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to introduce students to the fundamentals of business research, including but not limited to: the fundamental philosophical orientations in research, the role of theory in business research, integrity and ethics in research, and an overview of major research designs. Students will learn the major components of a research article and what is required for effective academic writing. Each subject is introduced through a textbook chapter and/or research articles covering relevant aspects. Wherever possible, faculty will attempt to tie the course content back to the students\u2019 individual research interests.",
+      "groups": [
+        "conc-marketing-and-sales-leadership"
+      ],
+      "id": "MKTG 9001",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133527",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An essential component of marketing is consumer insight. Marketing focuses on the satisfaction of the needs and wants of consumers. Hence, an understanding of consumers and the processes that underlie their choices in the marketplace is essential to understand marketing. To understand consumers, it is important to understand both conscious thought and the deeper more profound unconscious motives that drive human behavior. This course will explore classic literature in consumer behavior as well as recent research exploring the most recent findings in the field, including recent research in neuroscience.",
+      "groups": [
+        "conc-marketing-and-sales-leadership"
+      ],
+      "id": "MKTG 9005",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Consumer Behavior"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133529",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the present state of theory and practice in marketing. The goal of the course is to provide students with an understanding of theory and begin the process of being able to assess theory. A historical overview leads to an examination of a variety of current issues in marketing, in order to equip students with an understanding of current areas of research in the discipline.",
+      "groups": [
+        "conc-marketing-and-sales-leadership"
+      ],
+      "id": "MKTG 9006",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Theory and Current Issues in Marketing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133530",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines theories and research as they apply to sales leadership. In particular, the course will cover business-to-business sales research, personal selling, sales management, sales technology and analytics, and current sales topics in leading academic journals. Each subject is introduced through research articles covering relevant theories, methods, and topics of current scholarly interest. The course will involve a combination of lectures, student presentations, in-class discussions, and assignments.",
+      "groups": [
+        "conc-marketing-and-sales-leadership"
+      ],
+      "id": "MKTG 9007",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Sales Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133531",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Marketing strategy is concerned with planning and deployment of resources to achieve marketing objectives in a target market. It involves analysis and decision-making regarding marketing goal setting, target market selection, desired positioning as well as resource allocation. The fundamental goal is to achieve and maintain a fit between the organization and its changing environment. Marketing strategy research involves a variety of analytic techniques including cluster analysis for market segmentation, individual choice modeling and conjoint analysis for pricing and brand development and multidimensional scaling and correspondence analysis for brand positioning.",
+      "groups": [
+        "conc-marketing-and-sales-leadership"
+      ],
+      "id": "MKTG 9008",
+      "notes": [
+        "Admission into the PhD in Business Administration Program"
+      ],
+      "prereqs": null,
+      "title": "Marketing Strategy and Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138434",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide doctoral students with an in-depth understanding of advanced business management research theories, methodologies, and applications across various business disciplines. This course will explore the integration of theories and practices with other business domains, including, but not limited to, management, marketing, information systems, accounting, risk & decision analytics, and finance. Students will engage in critical analysis, discussion, and application of interdisciplinary research to address complex challenges.",
+      "groups": [
+        "conc-marketing-and-sales-leadership"
+      ],
+      "id": "MKTG 9100",
+      "notes": [
+        "Admission into the PhD in Business Administration program"
+      ],
+      "prereqs": null,
+      "title": "Intradisciplinary Topics in Business Research"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-accounting"
+        ],
+        "label": "Accounting"
+      },
+      {
+        "groups": [
+          "conc-information-systems-and-security"
+        ],
+        "label": "Information Systems & Security"
+      },
+      {
+        "groups": [
+          "conc-management"
+        ],
+        "label": "Management"
+      },
+      {
+        "groups": [
+          "conc-marketing-and-sales-leadership"
+        ],
+        "label": "Marketing & Sales Leadership"
+      },
+      {
+        "groups": [
+          "conc-risk-and-decision-analytics"
+        ],
+        "label": "Risk & Decision Analytics"
+      }
+    ],
+    "id": "phd-business-administration",
+    "name": "PhD Business Administration"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -90,6 +90,9 @@
   },
   "choices": [],
   "courses": {
+    "ANIM 3600": [
+      "major-elective"
+    ],
     "ANIM 3620": [
       "conc-illustration",
       "conc-comics-and-sequential-art"
@@ -263,6 +266,7 @@
       "conc-graphic-communications"
     ],
     "ART 3015": [
+      "major-elective",
       "conc-illustration",
       "conc-comics-and-sequential-art"
     ],
@@ -273,16 +277,19 @@
       "conc-graphic-communications"
     ],
     "ART 3120": [
+      "major-elective",
       "conc-ceramics",
       "conc-sculpture"
     ],
     "ART 3150": [
+      "major-elective",
       "conc-illustration",
       "conc-painting-and-drawing",
       "conc-printmaking",
       "conc-comics-and-sequential-art"
     ],
     "ART 3160": [
+      "major-elective",
       "conc-illustration",
       "conc-painting-and-drawing",
       "conc-comics-and-sequential-art"
@@ -292,10 +299,12 @@
       "conc-painting-and-drawing"
     ],
     "ART 3265": [
+      "major-elective",
       "conc-illustration",
       "conc-painting-and-drawing"
     ],
     "ART 3300": [
+      "major-elective",
       "conc-art-education",
       "conc-sculpture"
     ],
@@ -303,12 +312,14 @@
       "conc-sculpture"
     ],
     "ART 3320": [
+      "major-elective",
       "conc-sculpture"
     ],
     "ART 3330": [
       "conc-sculpture"
     ],
     "ART 3341": [
+      "major-elective",
       "conc-sculpture"
     ],
     "ART 3360": [
@@ -320,12 +331,15 @@
       "conc-sculpture"
     ],
     "ART 3400": [
+      "major-elective",
       "conc-photography-and-video"
     ],
     "ART 3410": [
+      "major-elective",
       "conc-photography-and-video"
     ],
     "ART 3430": [
+      "major-elective",
       "conc-photography-and-video"
     ],
     "ART 3441": [
@@ -338,6 +352,7 @@
       "conc-photography-and-video"
     ],
     "ART 3500": [
+      "major-elective",
       "conc-illustration",
       "conc-printmaking",
       "conc-comics-and-sequential-art"
@@ -350,10 +365,12 @@
       "conc-printmaking"
     ],
     "ART 3550": [
+      "major-elective",
       "conc-illustration",
       "conc-printmaking"
     ],
     "ART 3600": [
+      "major-elective",
       "conc-illustration",
       "conc-comics-and-sequential-art"
     ],
@@ -361,6 +378,7 @@
       "conc-illustration"
     ],
     "ART 3705": [
+      "major-elective",
       "conc-illustration",
       "conc-comics-and-sequential-art"
     ],
@@ -376,6 +394,9 @@
     "ART 3820": [
       "conc-textiles-and-surface-design"
     ],
+    "ART 3830": [
+      "major-elective"
+    ],
     "ART 3840": [
       "conc-textiles-and-surface-design"
     ],
@@ -387,6 +408,9 @@
     ],
     "ART 3880": [
       "conc-textiles-and-surface-design"
+    ],
+    "ART 3990": [
+      "major-elective"
     ],
     "ART 4021": [
       "conc-graphic-communications"
@@ -545,10 +569,7 @@
       "conc-art-education"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section '2-D Courses'",
-    "unrecognized section '3-D Courses'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "ARH 4400",
     "ARH 4490",
@@ -556,5 +577,5 @@
     "ARH 3398",
     "ART 3398"
   ],
-  "draftHash": "6fc884ebadd2fc34041244c2cb526decb02ad4ae585f6c3e3c3aa350eca99be1"
+  "draftHash": "35257eedf7b5f2b25ec0e7de400b0ba2c35f9060d121fea9a56993225ef034ac"
 }

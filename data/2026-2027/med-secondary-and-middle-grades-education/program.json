@@ -12,6 +12,12 @@
         "groups": [
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -37,15 +43,18 @@
     ],
     "EDUC 7797": [
       "major-required"
+    ],
+    "ENGL 7741": [
+      "major-elective"
+    ],
+    "ITEC 7400": [
+      "major-elective"
+    ],
+    "MAED 7719": [
+      "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Secondary English or Middle Grades Language Arts'",
-    "unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'",
-    "unrecognized section 'Secondary History or Middle Grades Social Studies'",
-    "unrecognized section 'Secondary Chemistry'",
-    "unrecognized section 'Secondary Biology or Middle Grades Science'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Choose One of the Following Course Options:",
     "text: Select 9 credit hours of any 5000 level or higher courses with the following prefixes: ENGL, PRWR, ENED, or EDRD.",
@@ -57,5 +66,5 @@
     "text: Additional education courses at the graduate level with prior approval from graduate program coordinator.",
     "text: Additional teaching field courses at graduate level with prior approval from graduate program coordinator."
   ],
-  "draftHash": "033fa69fc56ee42f01909aa0c1edf759e0da4b2aed43daf5b05d5cc996edb2ff"
+  "draftHash": "517e28e30a50be0ddc5ea2eb6a172a9b1ec9126bd8e508c60cac1c24eca77823"
 }

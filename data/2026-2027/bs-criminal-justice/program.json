@@ -36,6 +36,12 @@
     "ACCT 2101": [
       "core-field"
     ],
+    "ANTH 3307": [
+      "major-required"
+    ],
+    "ANTH 3310": [
+      "major-required"
+    ],
     "COMM 2240": [
       "core-field"
     ],
@@ -81,6 +87,7 @@
       "major-elective"
     ],
     "CRJU 3355": [
+      "major-required",
       "major-elective"
     ],
     "CRJU 3365": [
@@ -128,6 +135,12 @@
     "SOCI 2251": [
       "core-field"
     ],
+    "SOCI 3314": [
+      "major-required"
+    ],
+    "SOCI 3350": [
+      "major-required"
+    ],
     "SOCI 3360": [
       "major-elective"
     ],
@@ -150,9 +163,7 @@
       "core-field"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Cultural Diversity (3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Select three of the following:",
     "text: Complete three credit hours from one of the following:",
@@ -161,5 +172,5 @@
     "CRJU 4400",
     "CRJU 4490"
   ],
-  "draftHash": "e5b31c19e7441aa15eb764142323a1d4d4ae16e76eda8dc3c5531cdd6b04d1a6"
+  "draftHash": "53ee78b3880332159c324927a13db4fddd79e1a57e0ea0e4bf9fa61657784106"
 }

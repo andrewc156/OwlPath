@@ -4,10 +4,7 @@
 
 None.
 
-## Drafting warnings
+## Left out on purpose
 
-- unrecognized section 'Foundations in Anthropology (9 Credit Hours)'
-- unrecognized section 'Anthropological Applications (6 Credit Hours)'
-- unrecognized section 'Cultural Anthropology'
-- unrecognized section 'Biological Anthropology'
-- unrecognized section 'Archaeology'
+- ANTH 3398
+- ANTH 4150

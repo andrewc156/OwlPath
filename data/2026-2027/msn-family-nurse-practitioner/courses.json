@@ -1,0 +1,267 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132747",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Within this course, role theory, change theory, and leadership theory as they apply to advanced practice nursing are examined. The issues related to the role of the advanced practice nurse in today\u2019s health care environment are explored. Ethical and legal decision-making processes are investigated. The standards and regulations governing advanced practice nursing are examined.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7715",
+      "notes": [
+        "Admission to MSN Program"
+      ],
+      "prereqs": null,
+      "title": "Professional Advanced Role Development and Health Care Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to develop the student\u2019s skill and critical appraisal of the history and physical examination of clients. Health promotion, risk screening, and disease prevention are emphasized while clinical strategies and interventions are critiqued utilizing research and theoretical data. A clinical practicum provides experiences in health promotion and maintenance allowing students to develop their assessment, interpretive, and diagnostic competencies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7735",
+      "notes": [
+        "Admission to MSN Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Health Assessment, Health Maintenance and Health Promotion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course expands the experienced professional nurse\u2019s understanding of pharmacological principles, including pharmacokinetics and pharmacodynamics. Emphasis is placed on enhancing the knowledge necessary to improve client care outcomes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7755",
+      "notes": [
+        "Admission to MSN Program",
+        "permission of the program coordinator"
+      ],
+      "prereqs": null,
+      "title": "Pharmacology for Advanced Practice Nursing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132750",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of human physiological changes which are the result of pathologic processes. The course expands core knowledge of human anatomy and physiology. This course is designed to provide the experienced professional nurse with advanced content concerning normal and abnormal human physiologic responses to pertinent pathophysiologic conditions. Emphasis is placed on the clinical manifestations of these conditions so that the student may successfully intervene in a variety of advanced practice settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7765",
+      "notes": [
+        "Admission to MSN Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Physiology and Pathophysiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133751",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course focuses on examining concepts and theories as they apply to advanced nursing practice, education, and leadership. The generation and utilization of theories in nursing and health-related research is addressed. The critical appraisal of research methods and designs, clinical practice guidelines, and standards of practice are integral components of this course. Students will appraise and critique evidence in an area of interest, generate research questions, and communicate synthesized evidence in a variety of scholarly ways. This course involves the systematic examination and application of the research process. This course is foundational for nurses to conduct scholarly inquiry and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7776",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Theory and Research for Advanced Nursing Scholarship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133752",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to prepare advanced practice nurses, educators, and leaders to apply theory and evidence in practice. The course focuses on developing relevant research questions, searching for and identifying best evidence, critically appraising evidence, and integrating patient preferences in evidence-based decisions. Students will gain a greater appreciation of how theory, research, and practice articulate and how best to apply theory and evidence in a variety of settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7777",
+      "notes": [],
+      "prereqs": "NURS 7776",
+      "title": "Evidence-Based Practice I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133753",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is the second course in the series of EBP courses. It continues to prepare advanced practice nurses, educators, and leaders to apply theory and evidence in practice through conducting integrative reviews and EBP. The course focuses on continuing to search for and identifying best evidence, critically appraising evidence, and integrating patient preferences in evidence-based decisions. Students will continue to develop a greater appreciation of how theory, research, and practice articulate, how best to apply theory and evidence in a variety of settings, and will finalize the search for and appraisal of evidence for their integrative reviews.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7778",
+      "notes": [],
+      "prereqs": "NURS 7777",
+      "title": "Evidence-Based Practice II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133754",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is the final course for evidence-based practice. Students complete their integrative reviews and disseminate their findings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7779",
+      "notes": [],
+      "prereqs": "NURS 7778",
+      "title": "Evidence-Based Practice III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132755",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7850",
+      "credits": "3",
+      "description": "This course addresses the common health conditions, both simple and complex, affecting individuals, aged 17 and older, frequently encountered in primary care setting. Client\u2019s clinical presentation, underlying causes, and appropriate treatment modalities are explored. The nurse practitioner\u2019s role in the clinical management of common health conditions in the adult client is the focus with emphasis on referral, follow-up, and client education. The impact of health problems on the family unit is also explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7800",
+      "notes": [],
+      "prereqs": "NURS 7735",
+      "title": "Clinical Management of Selected Common Health Conditions in Adults"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132756",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7851",
+      "credits": "3",
+      "description": "This course is designed to provide an exploration of theories and knowledge needed for child health supervision in the primary care setting with a focus on the nurse practitioner\u2019s role in clinical management, anticipatory guidance, referral, and follow-up. Emphasis is placed upon parents as participants in assessment, decision-making, and management of common health problems and the stresses of normal development in infancy, childhood, and adolescence.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7805",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 7735",
+          "NURS 7800"
+        ]
+      },
+      "title": "Clinical Management of Selected Common Health Conditions in Children"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132757",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7852",
+      "credits": "2",
+      "description": "This course focuses on the reproductive and sexual health care needs of essentially healthy individuals. While emphasis is placed on holistic care of diverse healthy families from preconception through the childbearing process, high-risk conditions, and the interventions necessary for successful adaptation are discussed. Appropriate referral and follow up for more complex health care problems are explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7830",
+      "notes": [],
+      "prereqs": "NURS 7805",
+      "title": "Clinical Management of Reproductive Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133788",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to facilitate acquisition of comprehensive knowledge to manage complex conditions in key populations that experience marginalization related to social determinants of health. This course focuses on the nurse practitioner\u2019s role in assessing population health, utilizing prevention strategies, and managing complex, chronic conditions and emerging health problems. Emphasis is placed upon the competencies that position the NP as a high functioning member of interprofessional healthcare teams and an advocate for minimizing health disparities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7835",
+      "notes": [],
+      "prereqs": "NURS 7830",
+      "title": "Clinical Management of Key Populations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132758",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7800",
+      "credits": "5",
+      "description": "This course consists of an introductory practicum with a nurse practitioner, physician assistant or physician preceptor approved by NP faculty. Beginning clinical management skills are the focus of the course. The theory component emphasizes student case study presentation and critique.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7850",
+      "notes": [],
+      "prereqs": "NURS 7735",
+      "title": "Primary Care Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132759",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7805",
+      "credits": "4",
+      "description": "A continuation of the practicum experience with appropriate preceptors. Improved clinical management skills are an expectation in a variety of clinical sites. The case study methodology is continued.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7851",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 7800",
+          "NURS 7850"
+        ]
+      },
+      "title": "Primary Care Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132760",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7830",
+      "credits": "4",
+      "description": "This course is a continuation of the practicum experience with appropriate preceptors. Increasing complex clinical management skills are an expectation in a variety of appropriate clinical sites. The case study methodology is continued.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7852",
+      "notes": [],
+      "prereqs": "NURS 7851",
+      "title": "Primary Care Practicum III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132761",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7835",
+      "credits": "4",
+      "description": "This course is the capstone practicum experience in which students synthesize all elements of their clinical management skills. Competence in the clinical management of health conditions frequently encountered is an expectation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7853",
+      "notes": [],
+      "prereqs": "NURS 7852",
+      "title": "Primary Care Practicum IV"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "msn-family-nurse-practitioner",
+    "name": "MSN Family Nurse Practitioner"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

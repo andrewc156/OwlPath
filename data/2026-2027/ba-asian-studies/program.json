@@ -10,6 +10,7 @@
       {
         "label": "Required courses",
         "groups": [
+          "core-field",
           "major-required"
         ]
       },
@@ -21,7 +22,16 @@
       }
     ]
   },
-  "choices": [],
+  "choices": [
+    [
+      "CHIN 2002",
+      "JAPN 1002"
+    ],
+    [
+      "JAPN 2002",
+      "KOR 1002"
+    ]
+  ],
   "courses": {
     "ASIA 1102": [
       "major-required"
@@ -80,6 +90,15 @@
     "ASIA 4517": [
       "major-elective"
     ],
+    "CHIN 1002": [
+      "core-field"
+    ],
+    "CHIN 2001": [
+      "core-field"
+    ],
+    "CHIN 2002": [
+      "core-field"
+    ],
     "CHIN 3200": [
       "major-elective"
     ],
@@ -110,6 +129,15 @@
     "HIST 3381": [
       "major-elective"
     ],
+    "JAPN 1002": [
+      "core-field"
+    ],
+    "JAPN 2001": [
+      "core-field"
+    ],
+    "JAPN 2002": [
+      "core-field"
+    ],
     "JAPN 3200": [
       "major-elective"
     ],
@@ -121,6 +149,15 @@
     ],
     "JAPN 3304": [
       "major-elective"
+    ],
+    "KOR 1002": [
+      "core-field"
+    ],
+    "KOR 2001": [
+      "core-field"
+    ],
+    "KOR 2002": [
+      "core-field"
     ],
     "KOR 3200": [
       "major-elective"
@@ -159,9 +196,7 @@
       "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Lower-Division Asian Language Courses (9 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: Or \nChoose any 1000-2000 level coursework with the following prefixes: BLCK, HIST, PHIL, POLS. Other coursework can be used in this area with approval by an advisor.",
     "text: Additional Asian-focused coursework can be used in this area with approval by an advisor.",
@@ -169,5 +204,5 @@
     "ASIA 4400",
     "ASIA 4490"
   ],
-  "draftHash": "80fc4533b1a5d113a535156efee53e298865b5cbce255c35d24eb40ac98784b1"
+  "draftHash": "d74922ba78d76120c29231a4bd8b1cb165580ea3456f3ac5654bd7d1a55dd9d6"
 }

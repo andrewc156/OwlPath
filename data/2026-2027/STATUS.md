@@ -4,14 +4,16 @@
 
 | Level | Checked | Auto | Held |
 |---|---|---|---|
-| graduate | 1 | 1 | 56 |
-| undergraduate | 2 | 0 | 73 |
+| graduate | 1 | 18 | 39 |
+| undergraduate | 2 | 5 | 68 |
 
 ## Held majors
 
 ### edd-educational-leadership (graduate)
 
 - Build warnings:
+  - **EDL 7780**
+    - unrecognized: for which the course is being requested
   - **EDL 9310**
     - unrecognized: in Leadership for Learning
     - missing operator before 'in Leadership for Learning', assumed and
@@ -48,177 +50,56 @@
   - **EDL 9890**
     - unrecognized: in Educational Leadership
     - missing operator before 'in Educational Leadership', assumed and
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
   - **EDRS 9200**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-- Drafting warnings:
-  - unrecognized section 'Leadership in Urban Schools'
-  - unrecognized section 'Leading Independent and Charter Schools'
-  - unrecognized section 'Coaching for Performance'
-  - unrecognized section 'Dissertation (Minimum 9 Credit Hours)'
 
 ### edd-instructional-technology (graduate)
 
 - Build warnings:
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
   - **EDRS 9200**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-  - **EDUC 8100**
-    - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-    - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-    - empty description
-  - **ITEC 7305**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7430**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7455**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7460**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7480**
-    - unrecognized: Admittance to a graduate program
-    - unrecognized: certificate program
-    - unrecognized: endorsement program within the Bagwell College of Education
-  - **ITEC 7485**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7500**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7600**
-    - unrecognized: Candidates must be admitted to a KSU EPP program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-- Drafting warnings:
-  - unrecognized section 'Advanced ITEC Courses (6 Credit Hours)'
-  - unrecognized section 'Dissertation (9 Credit Hours)'
 
 ### edd-secondary-and-middle-grades-education (graduate)
 
 - Build warnings:
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
   - **EDRS 9200**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-  - **EDSM 8500**
-    - unrecognized: Admission to graduate study in Education
   - **EDSM 8701**
     - unrecognized: in education
     - missing operator before 'in education', assumed and
-  - **EDSM 9300**
-    - unrecognized: Permission of the professor
-  - **EDUC 8100**
-    - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-    - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Technology Course (3 Credit Hours)'
-  - unrecognized section 'Secondary English or Middle Grades Language Arts'
-  - unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'
-  - unrecognized section 'Secondary History or Middle Grades Social Studies'
-  - unrecognized section 'Note:'
-  - unrecognized section 'Dissertation (9 Credit Hours minimum)'
+  - **ENED 9400**
+    - unrecognized: 6 hours graduate research courses
 
 ### edd-teacher-leadership (graduate)
 
 - Build warnings:
   - **EDL 9700**
-    - unrecognized: Admission to the EdD in Teacher Leadership
     - unrecognized: the EdD in Educational Leadership
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
-  - **TLED 8101**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Teacher Leadership in the Post-Master Certificate
-  - **TLED 8215**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Certification Graduate Certificate in Teacher Leadership
-  - **TLED 8401**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Certification Graduate Certificate in Teacher Leadership
-  - **TLED 8615**
-    - unrecognized: Admission to the EdD
-    - unrecognized: Certification Graduate Certificate in Teacher Leadership
   - **TLED 9200**
-    - unrecognized: Admission to the EdD in Teacher Leadership
     - unrecognized: Advanced Concentration
     - missing operator before '(', assumed and
   - **TLED 9830**
-    - unrecognized: Admission to the EdD in Teacher Leadership
     - unrecognized: Advanced Concentration
     - missing operator before '(', assumed and
-  - **TLED 9880**
-    - unrecognized: Admission to the EdD in Teacher Leadership
   - **EDRS 9100**
     - unrecognized: its equivalent
     - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
-- Drafting warnings:
-  - unrecognized section 'Dissertation (12 Credit Hours)'
 
 ### eds-curriculum-and-instruction (graduate)
 
 - Build warnings:
-  - **EDCI 7800**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
-  - **EDCI 7810**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
-  - **EDCI 7820**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
-  - **EDCI 7830**
-    - unrecognized: Admission into a Bagwell College of Education graduate program
-  - **EDCI 7870**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. graduate program
-  - **EDCI 7880**
-    - unrecognized: Admission into the Curriculum
-    - unrecognized: Instruction Ed.S. program
   - **EDRS 8000**
     - unrecognized: M.Ed.
     - unrecognized: Ed.S.
@@ -237,8 +118,6 @@
     - unrecognized: in education
     - missing operator before 'Ed.S.', assumed and
     - missing operator before 'Ed.D.', assumed and
-- Drafting warnings:
-  - unrecognized section 'Educational Leadership Residency Courses (18 Credit Hours)'
 
 ### eds-instructional-technology (graduate)
 
@@ -250,76 +129,13 @@
     - unrecognized: in education
     - missing operator before 'Ed.S.', assumed and
     - missing operator before 'Ed.D.', assumed and
-  - **EDUC 8100**
-    - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-    - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-    - empty description
-  - **ITEC 7305**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7430**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7455**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7460**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7480**
-    - unrecognized: Admittance to a graduate program
-    - unrecognized: certificate program
-    - unrecognized: endorsement program within the Bagwell College of Education
-  - **ITEC 7485**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7500**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7600**
-    - unrecognized: Candidates must be admitted to a KSU EPP program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
 
 ### eds-secondary-and-middle-grades-education (graduate)
 
 - Build warnings:
-  - **EDRS 8100**
-    - unrecognized: Admission to graduate study in Education
-  - **EDRS 8200**
-    - unrecognized: Admission to graduate study in Education
-  - **EDSM 8500**
-    - unrecognized: Admission to graduate study in Education
   - **EDSM 8701**
     - unrecognized: in education
     - missing operator before 'in education', assumed and
-  - **EDSM 9300**
-    - unrecognized: Permission of the professor
-  - **EDUC 8100**
-    - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-    - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Technology Course (3 Credit Hours)'
-  - unrecognized section 'Note:'
 
 ### eds-special-education (graduate)
 
@@ -336,381 +152,116 @@
   - **EDL 7615**
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
-  - **EDUC 8100**
-    - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-    - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-    - empty description
-  - **INED 8360**
-    - unrecognized line: This course examines effective practices and innovations within today’s education system that contribute to improved outcomes for students with a wide range of learning needs. Through the study of theoretical and practical frameworks, analysis of empirical research, and application of inclusive leadership practices, candidates will develop the knowledge and skills necessary to serve as effective leaders in advancing student learning and success.
-    - empty description
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-
-### ma-american-studies (graduate)
-
-- Build warnings:
-  - **AMST 6201**
-    - unrecognized line: This interdisciplinary graduate course covers the history and cultural interaction of the United States and the Americas, with attention to relationships between policy, labor dynamics, and cultural expressions across the Americas, as well as theoretical frameworks common in transnational study of the US and the Americas. Topics covered may include the Atlantic slave trade; culture and history of migrant labor; indigenous studies; and history and culture of transnational social movements in the Americas.
-    - empty description
-  - **AMST 6401**
-    - unrecognized line: In this interdisciplinary course, students learn about major transnational literary movements in the Americas, with an emphasis on understanding literature in a global context. Course readings and assignments provide an overview of important questions, methods, and theoretical approaches in contemporary American Studies literary scholarship as well as an advanced introduction to important literary works.
-    - empty description
-  - **AMST 7000**
-    - unrecognized line: This course explores a variety of themes, theoretical influences, and methodological approaches currently alive in American Studies and its related disciplinary fields. Particular emphasis is placed on the current controversies and scholarship focused on race, ethnicity, gender and sexuality. The course is organized around broad thematic concepts, with attention to global perspectives. The course introduces some basic conceptual building blocks in the field, and explores some of the historical development of American Studies.
-    - empty description
-  - **AMST 7100**
-    - unrecognized line: Introduces students to current methods in American Studies research and public practice. The course focuses on core concepts, objects of analysis, and evolving research practices used for working in American Studies. While critiquing notable examples from the field, students consider various dynamic professional contexts for “doing” American Studies, such as professional organizations and journals, classrooms, the workplace, public settings, and other diverse communities outside the university.
-    - empty description
-  - **AMST 7901**
-    - unrecognized: Permission of the American Studies graduate program director
 
 ### ma-art-and-design (graduate)
 
 - Build warnings:
   - **ANIM 6100**
-    - unrecognized: Admission to MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6105**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6110**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ANIM 6115**
-    - unrecognized: Admission to the MA in Art & Design
-  - **ANIM 6117**
-    - unrecognized line: This is a digital art and experimental media studio and seminar course designed to support innovative research and production at the graduate level. It will focus on investigating new technologies in digital animation, with research into current and latest technological advances and the creative application of those technologies. Students will examine various advancements in emerging animation trends and identify connections within contemporary and historical works.
-    - empty description
+    - unrecognized: Design
   - **ANIM 6120**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6100**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6105**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6110**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6115**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ARED 6120**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 6010**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 6020**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 6030**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **ART 7050**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6100**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6110**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6115**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6120**
-    - unrecognized: Admission to the MA in Art & Design
+    - unrecognized: Design
   - **MUSE 6125**
-    - unrecognized: Admission to the MA in Art & Design
-
-### ma-integrated-global-communication (graduate)
-
-- Build warnings:
-  - **COM 6100**
-    - unrecognized: permission from the instructor
-  - **COM 6200**
-    - unrecognized: permission from the instructor
-  - **COM 6410**
-    - unrecognized: permission from the instructor
-  - **COM 6420**
-    - unrecognized: permission from the instructor
-  - **COM 6490**
-    - unrecognized: permission from the instructor
-  - **COM 6670**
-    - unrecognized line: Leaders need communication skills and requisite knowledge to guide organizations through the tumultuous crises of the future. This course addresses numerous content areas, including: factors involved in decision-making under pressure; training and organizational skills in crisis management communication as a core competency; and leading in local and transboundary crises through an integrated approach for organizations with different decision-making structures, different resource commitments to crisis preparations and response, and different communication and cultural strategies.
-    - empty description
-  - **COM 6690**
-    - unrecognized line: This course offers theoretical and applied approaches to global communication from perspectives of mass media, public relations and organizational communication. Semester topics will vary. Potential topics include: communication leadership trends and strategies, media ownership, global news trends, and media’s influence on people’s lives.
-    - empty description
-  - **COM 6900**
-    - unrecognized: permission from the instructor
-  - **COM 7100**
-    - unrecognized line: This course provides an overview of global communication, its modern development and the role of information technology; global communication law and policies; global news and information flow; global communication in transnational and global companies; global public relations; global advertising; and issues in global communication.
-    - empty description
-  - **COM 7200**
-    - unrecognized line: This course introduces graduate students to three elements that are crucial to success in a graduate program: understanding the role of and approaches to graduate research at KSU; appreciating the importance of the rationale employed to understand ways in which the world around us works in the context of the communication process; and exploring ways to test or make sense of that rationale.
-    - empty description
-  - **COM 7205**
-    - unrecognized: Admission into any KSU graduate program
-  - **COM 7300**
-    - unrecognized line: This course examines the principles and concepts of practicing public relations globally including cultural, political and economic considerations; organizational goals and objectives; the role of traditional media; and the challenges new media technologies are bringing to public relations for corporate and government entities.
-    - empty description
-  - **COM 7400**
-    - unrecognized line: This course deals with analysis of types of problems, concepts, definitions, variables, methods and measurement techniques as well as interpretation of data prevalent in communication research. The purpose of this course is to guide students to conduct elementary statistics, design research and develop their own research proposals.
-    - empty description
-  - **COM 7500**
-    - unrecognized line: The ever intensified globalization has motivated and forced many business people to work cross-culturally. Intercultural communication has become an integral component for business and managerial education. Effective communication is a vital skill for everyone in business today, especially for those who work in multinational corporations. Great communicators have a distinct advantage in building successful businesses and careers. Effective intercultural business communication requires one not only to be proficient with business strategy and linguistic skills, but also to be competent with intercultural communication and multicultural negotiation capabilities. Using case studies conducted at multinational corporations across the globe, this course introduces students to the world of international business and management by studying key concepts of intercultural communication, negotiation, international trade and global team-building. Such areas as cultural and sub-cultural differences, changing organizational structures, advanced communication technologies, and verbal and nonverbal communication channels will be covered in this course.
-    - empty description
-  - **COM 7600**
-    - unrecognized line: This course continues what students began learning in the global communication theory seminar. This course focuses on how technology impacts the communication process in five specific areas: public relations, advertising, political communication, citizen media, and law. It will look at the legal, social, and economic implications of technology in each of these areas. Students will be able to examine and critique technology’s role in the communication field. Specifically, they will examine the role technology has on public communication.
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Global Experience Course (3 Credit Hours)'
+    - unrecognized: Design
 
 ### mapw-professional-writing (graduate)
 
 - Build warnings:
+  - **PRWR 7460**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6460, or permission of the graduate program director
+  - **PRWR 7470**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6470, or permission of the graduate program director
+  - **PRWR 7480**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6480, or permission of the graduate program director
+  - **PRWR 7520**
+    - ambiguous and/or precedence: Admission to the MAPW program and PRWR 6520, or permission of the graduate program director
   - **PRWR 7960**
-    - unrecognized: Completion of 27 credit hours in the MAPW program
-    - unrecognized: at least four courses in the concentration; approval of capstone committee
-- Drafting warnings:
-  - unrecognized section 'Applied Writing'
-  - unrecognized section 'Composition and Rhetoric'
-  - unrecognized section 'Creative Writing'
+    - unrecognized: at least four courses in the concentration
 
 ### mat-teaching (graduate)
 
 - Build warnings:
+  - **ARED 6660**
+    - unrecognized: MAT faculty review
   - **ECE 6620**
-    - unrecognized: Admission to Teaching
     - unrecognized: MAT
     - missing operator before 'MAT', assumed and
   - **ECE 6630**
-    - unrecognized: Admission to the Teaching
     - unrecognized: MAT with a concentration in Elementary Education
     - missing operator before 'MAT with a concentration in Elementary Education', assumed and
   - **ECE 7514**
-    - unrecognized: Admission to the Teaching
     - unrecognized: MAT with a concentration in Elementary Education
     - missing operator before 'MAT with a concentration in Elementary Education', assumed and
-  - **EDRD 6714**
-    - unrecognized line: This course is designed to fulfill partial requirements for the Georgia PSC Reading Endorsement. It applies and uses the principles of research-based reading instructional practices and the integration of the reading components following a systematic problem-solving process to scaffold the reading development of K-2 students. It also addresses having knowledge of effective, research-based instructional methodology to prevent reading difficulties and promote acceleration of reading progress for struggling students.
-    - empty description
   - **EDRD 6718**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
     - unrecognized: have evidence of passing criminal background check
     - ambiguous and/or precedence: Candidates must be admitted to a KSU BCOE program, certificate or endorsement program and have evidence of passing criminal background check
-  - **EDUC 6240**
-    - unrecognized: Admission to MAT
-  - **EDUC 6610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: admission to Yearlong Clinical Experience
-  - **ENGL 7701**
-    - unrecognized: Admission to graduate study in education
-  - **ENGL 7721**
-    - unrecognized: Admission to graduate study in education
-  - **ENGL 7731**
-    - unrecognized: Admission to graduate study in education
-  - **ENGL 7735**
-    - unrecognized: Admission to graduate study in education
-  - **INED 7611**
-    - unrecognized line: In this course, candidates learn about the characteristics of individuals with dyslexia and other learning disabilities across a learner’s lifespan. Candidates learn theory and current issues related to the definition, assessment, eligibility, service delivery, family impact, and transition planning of learners with dyslexia. Upon completion of the course, students will be able to compare characteristics between individuals with and without dyslexia and other learning disabilities as well as identify scientifically-based interventions that are effective for students with dyslexia and other learning disabilities.
-    - empty description
-  - **INED 7620**
-    - unrecognized: Admission into a KSU graduate program
-  - **INED 7621**
-    - unrecognized line: This course develops knowledge of assessment and evaluation for learners with dyslexia with an emphasis on analyzing data for educational decision-making within P-12 schooling contexts. The course aims to prepare special education teachers for the administration procedures and practices used in reading and writing assessments, the interrelation of critical factors that impact an educational assessment, and the communication of assessment findings to parents and other professionals. The competencies in this course are derived from the requirements of relevant state and professional standards.
-    - empty description
-  - **INED 7631**
-    - unrecognized line: The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.
-    - empty description
-  - **INED 7750**
-    - unrecognized line: This course is designed to engage students in an investigation of critical pedagogy, theory, and philosophy as these concepts relate to their emerging roles as ESOL teachers and teacher leaders. Students will examine historical and current language policy, theoretical concepts related to language and power, the impact of theory on pedagogical decisions of ESOL teachers, develop an educational philosophy for the ESOL classroom, and hone their knowledge concerning advocacy for multilingual students.
-    - empty description
-  - **INED 7763**
-    - unrecognized line: This course prepares candidates with the historical, theoretical and research-based knowledge to evaluate English language programs, and develop curricula for culturally/linguistically varied P-12 students. Candidates critically examine curricula for promotion of critical thinking, language development, content area learning, and learner engagement. Candidates develop an interdisciplinary, learner-centered, culturally relevant unit that applies Universal Design, Sheltered Instruction, project-based learning/assessment, arts-based learning, and 21st Century technologies to enhance the engagement and academic achievement of English learners.
-    - empty description
-  - **INED 7779**
-    - unrecognized line: This course focuses on the development of the collaborative skills, knowledge and attitudes necessary to be successful with partners in the creation of and advocacy for inclusive classroom communities. Taking an asset-based view of families and communities, this course aims to bridge theory to practice in the development of the pedagogical acumen necessary to support successful, outcomes for all learners in multicultural communities.
-    - empty description
-  - **INED 7781**
-    - unrecognized line: This course develops a knowledge base about culture, its influence on learning and teaching, and its role in intercultural classroom settings. Prospective ESOL teachers examine major theories related to educating immigrant students and a multilingual student body; critically analyze education policy and practice at the institutional level; analyze the sociopolitical context of teaching; and develop new strategies and tools to prepare candidates for advocacy, community engagement, and collaboration within the school context.
-    - empty description
-  - **INED 7782**
-    - unrecognized line: This course focuses on the major theories of first and second language acquisition, principles of linguistic systems (e.g. phonology, phonetics, and morphology), and examines these topics drawing on a student-centered approach. Specifically, course content will explore these topics as they relate to classroom-based language learning and implications for schools. In addition, the course material is framed within the current conversations related to literacy, assessment, WIDA English language development standards, and dual-served students.
-    - empty description
-  - **INED 7783**
-    - unrecognized line: The purpose of this course is to acquaint candidates with instructional strategies and materials that will help them be effective ESOL teachers. Candidates will work closely with the instructor to conduct directed activities in their own classrooms. If candidates are not teaching in classrooms that include English language learners, the Bagwell College’s Office of Field Experiences will find suitable placements. Methods of lesson planning and implementation of sheltered instruction using the SIOP Method, in conjunction with the concepts of Understanding by Design, and WIDA language assessment, will be studied and implemented in this course. Candidates will spend approximately 40 hours in the field.
-    - empty description
-  - **INED 7787**
-    - unrecognized line: This course focuses on research-based instruction and assessment of literacy for English learners in P-12 classrooms. Candidates develop knowledge and skills to effectively organize and implement instruction at all language development levels. Emphasis is on understanding similarities and differences between literacy development of English learners and native English speakers. Candidates are introduced to issues of collaboration with grade-level teachers and literacy personnel and the socio-cultural and socio-political dimensions of teaching academic literacy in urban and rural environments.
-    - empty description
-  - **ITEC 6200**
-    - unrecognized line: Teacher candidates learn to use technologies to promote student achievement of required content and technology standards through higher-level thinking, collaboration, problem-solving, and relevant, meaningful learning in their classrooms. Students will also explore digital equity, acceptable use, Internet safety, online learning, and other issues/trends relevant to technology in schools.
-    - empty description
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **MAED 6495**
-    - unrecognized line: Students’ understanding of secondary mathematics will be deepened and broadened through the study of algebraic structures, analytic geometry, and trigonometry, including conic sections, complex numbers, polynomials and functions. This course is designed so that students can revisit key ideas in high school mathematics, bringing with them the skills and understandings of college course work in mathematics, deepening and broadening their understanding, and connecting more advanced ideas to the topics they will teach in high school.
-    - empty description
   - **ENED 6650**
-    - unrecognized: ; pre-service certificate;
-    - unrecognized: admission to Yearlong Clinical Experience
+    - missing operator before 'ENGL 7731', assumed and
+    - missing operator before 'ENGL 7735', assumed and
+    - could not parse (unexpected 'and'): EDUC 6240, ENGL 7731, ENGL 7735; pre-service certificate; and admission to Yearlong Clinical Experience
   - **ENED 6660**
     - unrecognized: eligibility to take GACE English tests
     - unrecognized: Educator Ethics Assessment 370
     - unrecognized: required by the Georgia Professional Standards Commission
     - missing operator before '(', assumed and
-  - **MAED 6650**
-    - unrecognized: Admission to Yearlong Clinical Experience
-  - **SCED 6650**
-    - unrecognized: issued pre-service certificate
-    - unrecognized: admission to year-long clinical experience
-- Drafting warnings:
-  - unrecognized section 'Students with Exceptionalities (3 Credit Hours)'
-  - unrecognized section 'Clinical Experience (9 Credit Hours)'
-
-### macc-accounting (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Option A: Audit/Advisory Specialization'
-  - unrecognized section 'Option B: Tax Specialization'
+  - **INED 6400**
+    - unrecognized: M.A.T
+    - missing operator before 'M.A.T', assumed and
 
 ### mba-evening-business-administration (graduate)
 
 - Build warnings:
-  - **ACCT 7415**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7430**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7450**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7460**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7470**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ACCT 7480**
-    - unrecognized: Admission to MBA - Accounting Concentration
-  - **ECON 7101**
-    - unrecognized line: By analyzing economic development and market functions specific to rural economies, this course in microeconomics of rural management provides an understanding of the economics of development in rural areas. Topics covered in this course may include: theory of consumer behavior and demand, market structures especially in the context of rural areas and agro-economies, institutional frameworks that affect rural development; land, credit markets, labor, poverty and nourishment, income distribution, healthcare and micro-finance and political institutions.
-    - empty description
-  - **ECON 7710**
-    - unrecognized line: The ability to quickly and accurately understand, present and interpret data is an essential business skill. This course introduces fundamental statistical methods that are relevant in business analysis. It discusses methods to collect, analyze, model, interpret and present business data. Topics include statistical summary methods, finding linear and nonlinear associations between variables, statistical test, linear regression, analysis of variance, time series forecasting, etc. Data analysis requires the use of an effective tool. R is a free and open source software for statistical data analysis and graphics, and it can run on a variety of platforms. This course teaches students the basics in using R for data analysis.
-    - empty description
   - **FIN 7320**
     - unrecognized: equivalent
   - **FIN 7330**
     - unrecognized: equivalent
   - **FIN 7360**
     - unrecognized: equivalent
-  - **FIN 7370**
-    - unrecognized line: An introduction to the concepts, institutions, and financial structure facing multinational firms and the consequent implications for financial decision making in a multi-currency environment.
-    - empty description
   - **FIN 7380**
     - unrecognized: equivalent
-  - **FIS 6810**
-    - unrecognized line: This course focuses on the payment process ecosystem and the history of payments as a foundation from which to provide students with the requisite knowledge, and as important background, regarding the evolution of products and services used and recommended by financial technology services. The student will learn the different types of payment products and services used by organizations such as Apple, Amazon, PayPal, and Venmo to gain an understanding that fascinating customer experiences are not covered only in the physical financial technology products created but also in a framework of corresponding exchanges and services. The student will also learn about risk management, customer relationships, regulatory compliance, settlements, strategies, and best practices for acquiring merchants and services. Students are expected to develop a broad background of the latest developments in payments as well as its impact on various portions of the world. Students will also have hands-on problem-solving case studies that can be beneficial in payments applications and innovations. This course will provide a good understanding of the trajectory of the payments industry primarily from a US point of view, however, with some global perspective.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3810.
-    - empty description
-  - **FIS 6850**
-    - unrecognized line: This course examines security and assurance issues related to digital payments. Students will learn about framework and standards such as NIST cybersecurity framework, ISO 27001 information security management, and Payment Card Industry Data Security Standards (PCI DSS). Students will also investigate PCI DSS requirements in the context of the larger framework of digital payments security, which can help organizations understand the motivation for each security standard requirement. Strategies for successful implementation of each requirement will also be examined.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3850.
-    - empty description
-  - **FIS 6860**
-    - unrecognized line: Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, business have critical infrastructure assets that present conversion challenges or incompatible. In this course students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition. Students will also evaluate the strategic decisions that are undertaken by companies in the FinTech space.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3860.
-    - empty description
-  - **FIS 6890**
-    - unrecognized line: Students engage in research and team-based interactive virtual experiential learning with a collaborating industry partner. The student gains industry insight and hands-on experience that provides the underpinning for the student research. A virtual collaboration platform is used to enroll, onboard, empathize, reboot, experiment, and deliver business solutions for client problems. Students get mentored, trained, and practice on FinTech research, tools and techniques used in industry. Prototyping and experimentation are encouraged to understand “real world” issues. Partner companies share their anonymized dataset, tools and techniques. The student identifies potential research topics to complement the industry partner’s mission. The student will be strongly encouraged to publish her/his research. Coaching activities including design thinking, backlog management, business modeling, and research & publishing guidelines are offered in this course.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3890.
-    - empty description
   - **IS 7090**
     - unrecognized: Full
   - **IS 7935**
     - unrecognized: director
     - missing operator before 'director', assumed and
-  - **MGT 7101**
-    - unrecognized line: Developing strategic management skills for agribusinesses and rural development projects is essential for sustainable success. This course will explore topics pertaining to: public policy, corporate social responsibility, supply chain management, micro finance and rural marketing strategies. This course will include a field project that encompasses one week in a rural setting, where students have the opportunity to apply their knowledge in the field.
-    - unrecognized line: Note: One week field project is required for the successful completion of this course. Project is arranged by the program and will take place in a rural setting within the State of Georgia. Students are responsible for the lodging expense.
-    - empty description
   - **MGT 7200**
     - unrecognized: equivalent
-  - **MGT 7525**
-    - unrecognized line: This course provides an overview of organizational innovation and entrepreneurship, along with practical implications that the student can bring back to their organization to be more innovative and entrepreneurial. To maintain a competitive edge, organizations must access opportunities from internal and external sources, create an environment for those opportunities to be successful, and direct resources towards that capability to be sustainable and repeatable. A key theme will involve not only how organizations can avoid market disruption, but also how they can become their own disruptors.
-    - empty description
   - **MGT 7999**
     - unrecognized: Completion of seven MBA core courses
     - unrecognized: at least six hours of MBA electives
-    - unrecognized: permission from the Graduate Business Offices
   - **MKTG 7730**
     - unrecognized: equivalent
-  - **MKTG 7760**
-    - unrecognized line: In this course students learn how data analysis technologies are used to improve marketing decision-making and analysis. The fundamental principles and techniques of data analytics are emphasized, and real-world cases are explored to place data analytics techniques in context, develop data-analytic thinking, and illustrate that proper application is as much an art as it is a science. Students work “hands-on” with data analytics software such as SQL, Tableau, RapidMiner, DataRobot, Python, and Google Analytics.
-    - empty description
-
-### mba-executive-business-administration (graduate)
-
-- Build warnings:
-  - **GBA 7211**
-    - unrecognized line: As the inaugural course for the Executive MBA program, this course covers certain business acumen foundations needed to support learning throughout the program, with a focus on developing basic knowledge and skills associated with identifying and using information that serves as the basis for managerial planning and control. Students are introduced to the fundamentals of economics, finance, accounting, and statistics, as well as selected common techniques for financial analysis, planning, forecasting, and managing. The course is centered on critical skills and knowledge required of managers at all levels to effectively understand and employ basic analytical tools, while also learning how they support business strategy and leadership principles.
-    - empty description
-  - **GBA 7212**
-    - unrecognized line: Today most experts agree that the degree to which organizations effectively compete-and in many cases, succeed or fail-is determined by how effectively they apply both business acumen and teamwork. A manager’s ability to work “smart” and interact effectively within a team setting will significantly determine her personal success in any career. In addition to its focus on leadership principles, it also introduces the student to the foundations of lifelong learning, the role and impact of personality on team dynamics, the principles of coaching, and the basic building blocks of high performance teams.
-    - empty description
-  - **GBA 7221**
-    - unrecognized line: The fundamental challenge self-imposed on any business is the development and implementation of a sound business model and strategy. Those that succeed are also characterized by in-depth competencies in financial and operational analysis to support other competencies inherent in their human capital assets. This course provides the foundational techniques and models for sound business strategy development and management, and introduces the student to several of the traditional tools, methodologies, and techniques employed in the areas of accounting, finance, marketing/sales, and operations for decision-making.
-    - empty description
-  - **GBA 7222**
-    - unrecognized line: This course sets the stage for understanding the unique dynamics of working collaboratively with people by understanding the differences in how people think, learn, and behave. It also covers teaming in a business environment, the effective use of oral and written communications, and interpersonal transactional analysis. Students are given several opportunities to apply the principles covered in the course in a simulated, interactive teaming environment, equipping them with the critical knowledge and skills required of any successful manager, at any level, to work effectively with others to assure that business results are achieved.
-    - empty description
-  - **GBA 7231**
-    - unrecognized line: All organizations operate as a complex system of integrated business processes, specific activities dependent on the availability of sufficient financial and human capital. The degree to which an organization’s performance incrementally improves is generally directly related to the degree to which its processes change in response to opportunities for improvement. This course provides an in-depth examination of the business processes commonly associated with an enterprise’s value chain, as well as with general project management, and introduces the student to traditional business process improvement methodologies.
-    - empty description
-  - **GBA 7232**
-    - unrecognized line: Human capital is the fuel that runs the engine of the business enterprise; without it, a business is nothing more than an idle collection of products and/or services. Attracting and retaining the best employees, and effectively managing employee performance and reward and recognition programs, are crucial to optimizing an enterprise’s human capital business model. This course covers several of the critical skills, knowledge, and abilities required of managers at all levels to be able to effectively manage human capital assets, and explores in depth the strategic partnership role of the Human Resources function in an organization. A special section covers post-merger workforce integration.
-    - empty description
-  - **GBA 7241**
-    - unrecognized line: Globalization, rapid technological advancement, and interconnected markets have created both opportunities and complexities for modern organizations. This course prepares executives to navigate the global business environment by analyzing the economic, cultural, political, and regulatory factors that influence international operations. Students examine global market dynamics, international trade, cross-border finance, and multinational strategic management. Emphasis is placed on developing analytical and adaptive skills needed to operate effectively in diverse cultural and economic contexts. A key component of the course is an international consulting project with a global client organization. Student teams apply strategic and cross-functional knowledge from across the EMBA curriculum to solve real business challenges, integrating principles of finance, marketing, operations, and leadership in a global setting. This hands-on experience enables students to demonstrate global business acumen, strengthen cross-cultural collaboration, and deliver high-impact strategic recommendations to international partners.
-    - empty description
-  - **GBA 7242**
-    - unrecognized line: Leading across borders requires cultural intelligence, emotional awareness, and adaptive leadership skills to unite diverse global teams. This course focuses on developing the leadership and collaboration capabilities necessary to manage, influence, and motivate individuals in multinational and multicultural business environments. Students explore frameworks for cross-cultural leadership, global communication, and organizational behavior, as well as the role of emotional intelligence and ethical decision-making in international contexts. The course is integrated with the international consulting project in GBA 7241, allowing students to apply global leadership and collaboration skills in real-world client engagements. Through leadership assessments, intercultural simulations, and feedback exercises, students learn to navigate complex interpersonal dynamics, foster inclusive team environments, and lead effectively across geographic and cultural boundaries.
-    - empty description
-  - **GBA 7251**
-    - unrecognized line: This course is the capstone course of the Executive MBA program, integrating the principles, methodologies, techniques, and skills covered in the overall program. As a comprehensive practicum, the course covers application of the business acumen, leadership, teaming, and coaching topics developed extensively in prior program courses. In addition, several closing topics in specialized areas such as executive compensation, business taxation, corporate governance, and other ever-changing contemporary issues facing managers today are included in the course curriculum.
-    - empty description
-  - **GBA 7253**
-    - unrecognized line: Career management involves identifying, pursuing, and maintaining one’s personal ideal work environment - the type of business in which one is engaged, the places where one performs their work, the work colleagues with whom one interacts, and one’s specific work responsibilities and activities. Virtually nothing in the world of work is perfectly stable, so continuous monitoring of these factors is critical to personal career satisfaction. In conjunction with GBA7233, this course enables implementation of a student’s Personal Plan of Action via a combination of a “virtual classroom” environment (using a technology platform unique to the Executive MBA program) and private in-person meetings with a member of the faculty who specializes in career coaching.
-    - empty description
-
-### mba-webmba-business-administration (graduate)
-
-- Build warnings:
-  - **WMBA 6000**
-    - unrecognized line: Human Behavior in Organizations is a graduate level introductory course to organizational behavior designed for both the entry level and high level manager with any functional responsibility. This course explores some of the ways in which human behavior affects how one manages and leads and ultimately how it affects individual, group, and organizational performance. Students will apply concepts to case studies, their own companies and industry leaders. By the end of the course, students will be able to identify key organizational behavior issues and apply practical solutions to improve organizational effectiveness.
-    - empty description
-  - **WMBA 6010**
-    - unrecognized line: Managerial Accounting is designed for both entry level and high level managers with any functional responsibility. The course covers a wide range of topics that emphasize the use of both internal and external data to enhance the decision-making skills of managers. Concepts covered include an overview of the management accounting function within the organization, cost management and cost accumulation systems, planning and control systems, use of historical data in forecasting costs, and the use of accounting information in management decision-making. Case studies will be used to enhance students’ critical thinking, problem solving, and communication skills. Students will apply concepts to a variety of companies using problems and case studies. By the end of the course, students will be able to understand and apply accounting information in management decision making functions.
-    - empty description
-  - **WMBA 6030**
-    - unrecognized line: Global and International Business Strategy is designed for both entry level and high level managers with any functional responsibility. The course is designed to explain to students the growing opportunities and potential risks in doing business across national boundaries. The nature and economic role of the global business, including the impact of legal, political, social, and cultural variables are examined for their influence upon business performance and managerial activity. Students will apply concepts to case studies, country report, and other assignments. By the end of the course, students will have a truly global approach in identifying, analyzing, and solving problems.
-    - empty description
-  - **WMBA 6040**
-    - unrecognized line: Managerial Decision Analysis is designed for entry level through high level managers who either provide input to or are responsible for managerial decisions based on solid logic and analysis. The course presents an introduction to the statistical and management science techniques that are most commonly used by managers in both the public and private sectors. We build the course providing tools you may find useful for your team project which may either be a consulting project addressing a real issue in a not-for-profit or for-profit entity or focus on a current topic of interest to a segment of the business community. By the end of the course, students will be able to understand the role of quantitative methods in the decision-making process; demonstrate the ability to visualize, present, analyze and interpret business data; develop an understanding of the application of quantitative analysis to the solution of management problems; and utilize spreadsheet analysis as a tool in analyzing data and developing a solution/recommendation to a problem situation.
-    - empty description
-  - **WMBA 6050**
-    - unrecognized line: Strategic Marketing is a graduate level introductory course to marketing designed for both the entry level and high level manager with any functional responsibility. The purpose of the course is to familiarize students with the marketing concept and to help students understand how the marketing concept (and a firm’s market orientation) influences various decisions made by managers in a firm. Marketing management involves the coordination and control of the firm’s marketing functions in a dynamic operating environment. This course provides a study of the strategic managerial aspects of marketing and covers topics that include basic marketing concepts as well as some of the tools and strategies used by marketing managers. Topics focus on product, price, promotion, and place in the ethical planning, implementing, and controlling of marketing operations. A strategic marketing plan project utilizing an organization of the associates’ choice provides the opportunity for students to apply and demonstrate understanding of the concepts learned in the course to a real-world situation.
-    - empty description
-  - **WMBA 6060**
-    - unrecognized line: Managerial Finance is a study of financial risk and return, capital budgeting, valuation, capital structure, working capital management and current topics in financial management. It develops a student’s knowledge, analytical skills and communication skills in the area of financial management. The course gives students tools to analyze a company’s financial position relative to the industry, apply time value of money concepts to business cash flows, evaluate the acceptability of a short-term and long-term financial decision, and understand the relationship between capital structure, risk, and the cost of capital.
-    - empty description
-  - **WMBA 6070**
-    - unrecognized line: Entrepreneurship is intended to expose graduate business students to both the spirit and mechanics of entrepreneurial and entrepreneurial thinking and action. The course takes the perspective of both the needs of the would-be entrepreneur as well as the manager of creative and entrepreneurial activity This course is also designed to offer insights for students seeking entrepreneurial careers in new or established organizations. It describes the new venture startup process and strategies for increasing the likelihood of successful venture launch. Topics covered include models of new venture formation, strategic resource acquisition and deployment, marketing, operations, and financial strategies for successful ventures, and the leadership skills and behaviors required for venture success. Participants will also learn how to write a business plan, and assess business plans written by others.
-    - empty description
-  - **WMBA 6080**
-    - unrecognized line: The Management Information Systems course is designed to provide a framework for understanding how technology can support or destroy everything from strategic decisions to operational actions. Course lectures, discussions, and application-oriented essay exams are used to develop the ability to incorporate academic theories into business practice. Business cases, current events, and personal experiences are discussed to help students learn to find points of success or failure based on the theories presented in class. Each student team investigates and presents current research from top academic journals and trade publications. By the end of the term, students have been exposed to many business cases and numerous current research publications with the intent of developing their ability to analyze situations in light of academic theories that have been proven to foster IT success. The final project helps students apply these skills in a very personal way to develop their own framework for IT decisions as they exit the course.
-    - empty description
-  - **WMBA 6100**
-    - unrecognized line: This course is designed for both new and high level managers with any functional managerial responsibility - which requires both administrative and analytical skills. The course will cover a wide range of topics such as: operations strategy, process selection, capacity planning, facility location and layout planning, job design, and total quality management. Students will apply concepts to all possible operational issues and challenges in their daily function. By the end of the course, students will be able to identify strategic decisions in operations management; select appropriate process for a given production system, employ available techniques in firm’s long-range capacity planning and layout design, and apply all related OM approaches in management decision making process.
-    - empty description
-  - **WMBA 6110**
-    - unrecognized line: Business Strategic Management is designed to provide an executive viewpoint of strategy formation and management of an enterprise. It is the final experience for WebMBA students. It serves as an integrative capstone for the program. Students learn how to analyze complex situations to determine the firm’s strategies for competitive advantage and growth in competitive markets.
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Orientation Residency'
 
 ### med-educational-leadership (graduate)
 
@@ -744,195 +295,66 @@
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
   - **HESA 7000**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7100**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7150**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7200**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7250**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7400**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7500**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **HESA 7600**
-    - unrecognized: Admission to the Educational Leadership
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
-  - **TLED 7980**
-    - unrecognized line: Candidates will examine and implement the process of classroom-based action research. Topics covered include an overview of the action research process, planning and developing a research plan, collecting and analyzing data, and developing and sharing action research reports. The curriculum will also focus on how to engage and facilitate colleagues’ use of action research to improve a problem of practice in the teacher leader’s content area.
-    - empty description
 
 ### med-elementary-and-early-childhood-education (graduate)
 
 - Build warnings:
-  - **ECE 7525**
-    - unrecognized: permission of the EECE graduate program coordinator
   - **ECE 7531**
-    - unrecognized: Admission to Elementary
     - unrecognized: Early Childhood Education
     - unrecognized: M.Ed
     - missing operator before 'M.Ed', assumed and
   - **ECE 7704**
-    - unrecognized: Admission to M.Ed. in Elementary
     - unrecognized: Early Childhood Education
   - **ECE 7706**
-    - unrecognized: Admission to the M.Ed. in Elementary
     - unrecognized: Early Childhood Education
   - **ECE 7707**
-    - unrecognized: Admission to M.Ed. in Elementary
     - unrecognized: Early Childhood Education
 
 ### med-instructional-technology (graduate)
 
 - Build warnings:
-  - **ITEC 7305**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7430**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7455**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7460**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
   - **ITEC 7470**
     - unrecognized: in Instructional Technology
     - missing operator before 'in Instructional Technology', assumed and
-  - **ITEC 7480**
-    - unrecognized: Admittance to a graduate program
-    - unrecognized: certificate program
-    - unrecognized: endorsement program within the Bagwell College of Education
-  - **ITEC 7485**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7500**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
-  - **ITEC 7600**
-    - unrecognized: Candidates must be admitted to a KSU EPP program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
 
 ### med-literacy-education (graduate)
 
 - Build warnings:
   - **ECE 7704**
-    - unrecognized: Admission to M.Ed. in Elementary
     - unrecognized: Early Childhood Education
-  - **EDRD 6714**
-    - unrecognized line: This course is designed to fulfill partial requirements for the Georgia PSC Reading Endorsement. It applies and uses the principles of research-based reading instructional practices and the integration of the reading components following a systematic problem-solving process to scaffold the reading development of K-2 students. It also addresses having knowledge of effective, research-based instructional methodology to prevent reading difficulties and promote acceleration of reading progress for struggling students.
-    - empty description
   - **EDRD 7720**
     - unrecognized: evidence of passing a criminal background check
-  - **EDRD 7735**
-    - unrecognized line: This course will examine how literacy leaders can use assessment data from large data sets to improve literacy instruction within elementary, middle, and high schools/districts. The course will focus on analyzing summative and formative assessment data from multiple sources and providing recommendations for differentiated instruction for a variety of student populations using research-based literacy strategies. Students will examine current research methodologies and conduct applied research.
-    - empty description
-  - **INED 7611**
-    - unrecognized line: In this course, candidates learn about the characteristics of individuals with dyslexia and other learning disabilities across a learner’s lifespan. Candidates learn theory and current issues related to the definition, assessment, eligibility, service delivery, family impact, and transition planning of learners with dyslexia. Upon completion of the course, students will be able to compare characteristics between individuals with and without dyslexia and other learning disabilities as well as identify scientifically-based interventions that are effective for students with dyslexia and other learning disabilities.
-    - empty description
-  - **INED 7621**
-    - unrecognized line: This course develops knowledge of assessment and evaluation for learners with dyslexia with an emphasis on analyzing data for educational decision-making within P-12 schooling contexts. The course aims to prepare special education teachers for the administration procedures and practices used in reading and writing assessments, the interrelation of critical factors that impact an educational assessment, and the communication of assessment findings to parents and other professionals. The competencies in this course are derived from the requirements of relevant state and professional standards.
-    - empty description
-  - **INED 7631**
-    - unrecognized line: The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.
-    - empty description
-  - **ITEC 7400**
-    - unrecognized: Candidates must be admitted to a KSU BCOE program
-    - unrecognized: certificate
-    - unrecognized: endorsement program
-    - unrecognized: approved by the ITEC department to take this course
   - **EDRD 7717**
     - unrecognized: Evidence of passing a background check
   - **EDRD 7718**
     - unrecognized: Evidence of passing a criminal background check
 
-### med-secondary-and-middle-grades-education (graduate)
-
-- Build warnings:
-  - **EDSM 7500**
-    - unrecognized line: This advanced graduate seminar considers emerging trends and research on adolescence. Topics may include research in neuroscience, resilience, self-regulation, and positive youth development models in deepening educators’ understanding of the cognitive, psycho-social, and behavioral changes occurring during adolescence and the implication of such changes for middle and secondary school contexts. Adolescent development and related research is understood through an asset versus a deficit lens.
-    - unrecognized line: Note: This course may be cross-leveled with EDSM 8500
-    - empty description
-  - **EDUC 7100**
-    - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-    - unrecognized line: Note: This course may be cross-leveled with EDUC 8100
-    - empty description
-  - **EDUC 7705**
-    - unrecognized line: This course focuses on a variety of diagnostic, formative, and summative assessment strategies and instruments that are valid and appropriate for content and student populations in secondary and middle grades education. Students learn how to plan, construct, and analyze traditional and non-traditional educational assessments that they can use for instructional and accountability purposes.
-    - empty description
-  - **EDUC 7752**
-    - unrecognized line: This course prepares advanced candidates to be reflective scholar-practitioners who build reciprocal relationships. Advanced candidates are prepared to be co-problem-solvers who know how to develop and sustain partnerships with families to improve middle and secondary grades content learning for adolescent students. Theories and practical approaches for effective middle and secondary grades teaching and learning in collaboration with families are explored while centering students and their families’ lived experiences.
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Secondary English or Middle Grades Language Arts'
-  - unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'
-  - unrecognized section 'Secondary History or Middle Grades Social Studies'
-  - unrecognized section 'Secondary Chemistry'
-  - unrecognized section 'Secondary Biology or Middle Grades Science'
-
-### med-special-education (graduate)
-
-- Build warnings:
-  - **INED 7631**
-    - unrecognized line: The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.
-    - empty description
-  - **INED 7720**
-    - unrecognized line: This course focuses on developing skills in implementing proactive strategies for positive behavior and academic supports. Basic application of culturally responsive school-wide positive behavior support strategies, individualized behavioral supports, and positive classroom support strategies are emphasized. Candidates will apply research-based principles and strategies through an application project while working in the field with a student with challenging behaviors.
-    - empty description
-  - **INED 7730**
-    - unrecognized: Admission into a graduate program in any education major
-  - **INED 7762**
-    - unrecognized line: Candidates completing this course will continue to expand their professional knowledge base of individualized learning and the context of schools, families, and communities. Students identify, select, and implement a repertoire of evidence-based intervention strategies for students with disabilities to include assistive technology and information literacy. Candidates use current research in teaching as a rationale for strategy selection. Field experience required.
-    - empty description
-  - **INED 7775**
-    - unrecognized line: This course is designed to familiarize the learner with an overview of characteristics, etiology, empirical based treatments, and prevalence of Autism Spectrum Disorder (ASD). Additionally, this course aims to inform participants with the knowledge and skill to effectively facilitate a learning environment in which individuals with ASD are successful. Effective teaching strategies, classroom organization, and collaborating with professionals and families will be introduced, evaluated, and discussed.
-    - empty description
-  - **INED 7955**
-    - unrecognized: permission from Program Coordinator
-
 ### med-teacher-leadership-and-educational-leadership (graduate)
 
 - Build warnings:
-  - **EDCO 7010**
-    - unrecognized line: This is the first of the three courses in the Coaching Endorsement sequence. This course focuses on developing a knowledge base for coaching that is framed within an organization’s mission, vision, beliefs, and goals, and that is focused on performance criteria. Candidates develop skills in personal assessment; feedback techniques; collaboration; written, verbal, and non-verbal communication; and ethical behavior. Learning is supported by field-based practice that provides context for addressing the needs of various groups of learners and educators.
-    - empty description
   - **EDL 7401**
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
@@ -946,12 +368,10 @@
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
   - **EDL 7620**
-    - unrecognized: Admission to the Teacher Leadership
     - unrecognized: Educational Leadership
     - unrecognized: MEd
     - missing operator before 'MEd', assumed and
   - **EDL 7625**
-    - unrecognized: Admission to the Teacher Leadership
     - unrecognized: Educational Leadership
     - unrecognized: MEd
     - missing operator before 'MEd', assumed and
@@ -959,128 +379,57 @@
     - unrecognized: in the Department of Educational Leadership
     - unrecognized: the Ed.S. in Special Education
   - **TLED 7215**
-    - unrecognized: Admission to the Teacher Leadership
     - unrecognized: Educational Leadership
     - unrecognized: MEd
     - missing operator before 'MEd', assumed and
-  - **TLED 7980**
-    - unrecognized line: Candidates will examine and implement the process of classroom-based action research. Topics covered include an overview of the action research process, planning and developing a research plan, collecting and analyzing data, and developing and sharing action research reports. The curriculum will also focus on how to engage and facilitate colleagues’ use of action research to improve a problem of practice in the teacher leader’s content area.
-    - empty description
-
-### med-teaching-of-english-to-speakers-of-other-languages-tesol (graduate)
-
-- Build warnings:
-  - **INED 7750**
-    - unrecognized line: This course is designed to engage students in an investigation of critical pedagogy, theory, and philosophy as these concepts relate to their emerging roles as ESOL teachers and teacher leaders. Students will examine historical and current language policy, theoretical concepts related to language and power, the impact of theory on pedagogical decisions of ESOL teachers, develop an educational philosophy for the ESOL classroom, and hone their knowledge concerning advocacy for multilingual students.
-    - empty description
-  - **INED 7763**
-    - unrecognized line: This course prepares candidates with the historical, theoretical and research-based knowledge to evaluate English language programs, and develop curricula for culturally/linguistically varied P-12 students. Candidates critically examine curricula for promotion of critical thinking, language development, content area learning, and learner engagement. Candidates develop an interdisciplinary, learner-centered, culturally relevant unit that applies Universal Design, Sheltered Instruction, project-based learning/assessment, arts-based learning, and 21st Century technologies to enhance the engagement and academic achievement of English learners.
-    - empty description
-  - **INED 7764**
-    - unrecognized line: This course focuses on the theory, research, and policy foundations for effective instruction and practice with English Learners. Students focus on the current issues as well as techniques in instructing and assessing students at all stages of English language proficiency. Students learn to identify and assess multilingual students’ strengths and needs to design classroom language and content-area learning experiences based on current language and academic standards.
-    - empty description
-  - **INED 7769**
-    - unrecognized line: This course explores key issues and theories in immigration/migration, refugee education, and other international/global issues and trends as they relate to TESOL, including postcolonial and decolonizing approaches to language education. This course considers the historical and theoretical underpinnings of the fields of TESOL, critically examining and questioning practices that have upheld unjust outcomes for learners and particular communities. Candidates engage their own reflection and subjectivities as they deepen their own pedagogies and praxis as TESOL experts in particular cultural and geographic contexts.
-    - empty description
-  - **INED 7778**
-    - unrecognized line: This course expands upon current theories, research and practice in second language acquisition, applied linguistics, and literacy. Candidates examine theories of literacy development, investigate how literacy and grammar development for English learners is different from that of native English speakers, how culture influences literacy development, and inquire into pedagogical implications of reading and writing instruction for English learners in P-12 classrooms including the use of digital technologies to scaffold language and literacy skill development.
-    - empty description
-  - **INED 7779**
-    - unrecognized line: This course focuses on the development of the collaborative skills, knowledge and attitudes necessary to be successful with partners in the creation of and advocacy for inclusive classroom communities. Taking an asset-based view of families and communities, this course aims to bridge theory to practice in the development of the pedagogical acumen necessary to support successful, outcomes for all learners in multicultural communities.
-    - empty description
-  - **INED 7781**
-    - unrecognized line: This course develops a knowledge base about culture, its influence on learning and teaching, and its role in intercultural classroom settings. Prospective ESOL teachers examine major theories related to educating immigrant students and a multilingual student body; critically analyze education policy and practice at the institutional level; analyze the sociopolitical context of teaching; and develop new strategies and tools to prepare candidates for advocacy, community engagement, and collaboration within the school context.
-    - empty description
-  - **INED 7782**
-    - unrecognized line: This course focuses on the major theories of first and second language acquisition, principles of linguistic systems (e.g. phonology, phonetics, and morphology), and examines these topics drawing on a student-centered approach. Specifically, course content will explore these topics as they relate to classroom-based language learning and implications for schools. In addition, the course material is framed within the current conversations related to literacy, assessment, WIDA English language development standards, and dual-served students.
-    - empty description
-  - **INED 7783**
-    - unrecognized line: The purpose of this course is to acquaint candidates with instructional strategies and materials that will help them be effective ESOL teachers. Candidates will work closely with the instructor to conduct directed activities in their own classrooms. If candidates are not teaching in classrooms that include English language learners, the Bagwell College’s Office of Field Experiences will find suitable placements. Methods of lesson planning and implementation of sheltered instruction using the SIOP Method, in conjunction with the concepts of Understanding by Design, and WIDA language assessment, will be studied and implemented in this course. Candidates will spend approximately 40 hours in the field.
-    - empty description
-  - **INED 7787**
-    - unrecognized line: This course focuses on research-based instruction and assessment of literacy for English learners in P-12 classrooms. Candidates develop knowledge and skills to effectively organize and implement instruction at all language development levels. Emphasis is on understanding similarities and differences between literacy development of English learners and native English speakers. Candidates are introduced to issues of collaboration with grade-level teachers and literacy personnel and the socio-cultural and socio-political dimensions of teaching academic literacy in urban and rural environments.
-    - empty description
 
 ### mpa-public-administration (graduate)
 
 - Build warnings:
-  - **PAD 6200**
-    - unrecognized: Admission to graduate study
-  - **PAD 6250**
-    - unrecognized: Admission to graduate study
-  - **PAD 6300**
-    - unrecognized: Admission to graduate study
-  - **PAD 6350**
-    - unrecognized: Admission to graduate study
-  - **PAD 6450**
-    - unrecognized: Admission to graduate study
-  - **PAD 6700**
-    - unrecognized: Admission to the graduate college
-  - **PAD 7100**
-    - unrecognized: Admission to graduate study
-  - **PAD 7180**
-    - unrecognized: Admission to graduate study
+  - **IS 7005**
+    - unrecognized: Full
+  - **IS 7060**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
+  - **IS 7080**
+    - unrecognized: Full
+  - **IS 7090**
+    - unrecognized: Full
+  - **IS 7305**
+    - unrecognized: Full
+  - **IS 7500**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
+  - **IS 7700**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
+  - **IS 7800**
+    - unrecognized: director
+    - missing operator before 'director', assumed and
   - **PAD 7998**
-    - unrecognized: Completion of 21 credit hours in the MPA program
-    - unrecognized: during the semester preceding course enrollment
     - missing operator before 'during the semester preceding course enrollment', assumed and
-- Drafting warnings:
-  - unrecognized section 'State, Local, and Regional Administration'
-  - unrecognized section 'Information Systems Administration'
-  - unrecognized section 'Select two of the following:'
-  - unrecognized section 'Additional Course Options'
 
 ### ms-artificial-intelligence (graduate)
 
-- Errors:
-  - schema: courses/19/credits: '' does not match '^\\d+(-\\d+)?$'
 - Build warnings:
-  - **AI 7000**
-    - unrecognized line: As the field of artificial intelligence grows, so does the need for strong ethical guidelines. Students learn foundational ethical theories, frameworks, and origins within artificial intelligence. Using case studies and readings students explore ethical dilemmas around the collection, management, use of data, models, and algorithms, and the future of artificial intelligence. Students prepare an ethics statement. Topics include Privacy, Informed Consent, Ownership, Security, Bias, Misinformation, Data Governance and Codes of Ethics.
-    - empty description
   - **CS 7998**
-    - unrecognized line: 1 - 3 Credit Hours
-    - no credit hours found
     - unrecognized: Varies by topic
-  - **CS 5020**
-    - unrecognized line: This course covers the following topics: Number Systems, Two-level combinational logic, Multilevel combinational logic, Sequential logic design, Finite state machine design, Arithmetic circuits, Assembly and machine languages with a focus on concepts, and the principles of computer organization. The objective of this course is to learn the Concepts of Digital Systems, Combinational Circuits, Sequential Circuits, and Computer Architecture.
-    - empty description
-  - **CS 5000**
-    - unrecognized line: The course covers foundations of programming with emphasis on program design and computer science concepts. A modern, Object-Oriented language is used. Topics include primitive data types, arithmetic and logical operators, selection and repetition structures, methods, arrays, objects and classes, inheritance, polymorphism, exception handling, and file I/O. Programming projects are included.
-    - empty description
-  - **CS 5070**
-    - unrecognized line: This course covers discrete mathematics topics, including elementary set theory, relations, functions, principles of counting, graphs, formal logic, recursion, and mathematical proof methods. This course includes introduction to formal languages such as regular and context-free languages. Emphasis is given to how mathematics relates to computer science.
-    - empty description
 
 ### ms-chemical-sciences (graduate)
 
 - Build warnings:
-  - **CHEM 7000**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
-  - **CHEM 7100**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
   - **CHEM 7300**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
     - unrecognized: chair
     - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
   - **CHEM 7500**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
     - unrecognized: chair
     - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
   - **CHEM 7600**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Chemical Sciences degree program
     - unrecognized: chair
     - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
 
 ### ms-computer-science (graduate)
 
-- Errors:
-  - schema: courses/28/credits: '' does not match '^\\d+(-\\d+)?$'
 - Build warnings:
   - **CS 7125**
     - unrecognized: Equivalent
@@ -1089,28 +438,12 @@
   - **CS 7535**
     - unrecognized: a Bachelor of Science in Computer Science degree
   - **CS 7998**
-    - unrecognized line: 1 - 3 Credit Hours
-    - no credit hours found
     - unrecognized: Varies by topic
-  - **MATH 8020**
-    - unrecognized: permission by the department
-  - **MATH 8030**
-    - unrecognized: permission by the department
   - **STAT 8240**
     - unrecognized: in Analytics
     - unrecognized: Data Science
-    - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
     - unrecognized: Data Science
     - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
-  - **CS 5020**
-    - unrecognized line: This course covers the following topics: Number Systems, Two-level combinational logic, Multilevel combinational logic, Sequential logic design, Finite state machine design, Arithmetic circuits, Assembly and machine languages with a focus on concepts, and the principles of computer organization. The objective of this course is to learn the Concepts of Digital Systems, Combinational Circuits, Sequential Circuits, and Computer Architecture.
-    - empty description
-  - **CS 5000**
-    - unrecognized line: The course covers foundations of programming with emphasis on program design and computer science concepts. A modern, Object-Oriented language is used. Topics include primitive data types, arithmetic and logical operators, selection and repetition structures, methods, arrays, objects and classes, inheritance, polymorphism, exception handling, and file I/O. Programming projects are included.
-    - empty description
-  - **CS 5070**
-    - unrecognized line: This course covers discrete mathematics topics, including elementary set theory, relations, functions, principles of counting, graphs, formal logic, recursion, and mathematical proof methods. This course includes introduction to formal languages such as regular and context-free languages. Emphasis is given to how mathematics relates to computer science.
-    - empty description
   - **CS 6021**
     - unrecognized: Coursework in computer architecture
     - unrecognized: operating systems
@@ -1123,138 +456,54 @@
 - Build warnings:
   - **CRJU 7998**
     - unrecognized: Completion of six core courses
-  - **PAD 6200**
-    - unrecognized: Admission to graduate study
-  - **PAD 6250**
-    - unrecognized: Admission to graduate study
-
-### ms-cybersecurity (graduate)
-
-- Build warnings:
-  - **CYBR 7400**
-    - unrecognized line: This course covers essential cryptographic technologies that can be utilized to guarantee the security of familiar applications such as file systems, computer systems, networks, Internet, email systems, as well as World Wide Web. The essential cryptographic technologies include authentication, encryption, private and public key crypto systems, and so forth. In addition, security analysis including assessing and identifying risks, defining security requirements, and ethical issues will be covered.
-    - empty description
-  - **CYBR 7700**
-    - unrecognized line: This course explores the security risks and protections associated with AI systems. Students examine adversarial attacks, data poisoning, model robustness, privacy, and governance across the AI lifecycle. Emphasis is placed on securing machine learning pipelines, ensuring trustworthy and explainable AI, and understanding how AI supports cybersecurity operations. Aligned with NICE AI Security competencies, the course prepares students to design and defend resilient, ethical, and secure AI-driven systems.
-    - empty description
-  - **CYBR 7913**
-    - unrecognized line: This course engages students in current research trends and emerging challenges in cybersecurity. Students critically review scholarly papers, analyze methodologies, and discuss implications for policy, technology, and practice. Emphasis is placed on research design, ethical considerations, and effective communication of technical results. Students will develop a research proposal or paper that demonstrates their ability to synthesize literature, identify open problems, and propose innovative cybersecurity solutions.
-    - empty description
-  - **IT 5423**
-    - unrecognized line: This foundation course will provide an overview of computer networks and system administration. Topics include network protocols, network traffic analysis, operating systems fundamentals and system management.
-    - empty description
 
 ### ms-digital-financial-technologies (graduate)
 
 - Build warnings:
-  - **FIS 6810**
-    - unrecognized line: This course focuses on the payment process ecosystem and the history of payments as a foundation from which to provide students with the requisite knowledge, and as important background, regarding the evolution of products and services used and recommended by financial technology services. The student will learn the different types of payment products and services used by organizations such as Apple, Amazon, PayPal, and Venmo to gain an understanding that fascinating customer experiences are not covered only in the physical financial technology products created but also in a framework of corresponding exchanges and services. The student will also learn about risk management, customer relationships, regulatory compliance, settlements, strategies, and best practices for acquiring merchants and services. Students are expected to develop a broad background of the latest developments in payments as well as its impact on various portions of the world. Students will also have hands-on problem-solving case studies that can be beneficial in payments applications and innovations. This course will provide a good understanding of the trajectory of the payments industry primarily from a US point of view, however, with some global perspective.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3810.
-    - empty description
   - **FIS 6815**
-    - unrecognized: Full admission to the Digital Financial Technologies
     - unrecognized: M.S
     - missing operator before 'M.S', assumed and
-  - **FIS 6850**
-    - unrecognized line: This course examines security and assurance issues related to digital payments. Students will learn about framework and standards such as NIST cybersecurity framework, ISO 27001 information security management, and Payment Card Industry Data Security Standards (PCI DSS). Students will also investigate PCI DSS requirements in the context of the larger framework of digital payments security, which can help organizations understand the motivation for each security standard requirement. Strategies for successful implementation of each requirement will also be examined.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3850.
-    - empty description
-  - **FIS 6860**
-    - unrecognized line: Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, business have critical infrastructure assets that present conversion challenges or incompatible. In this course students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition. Students will also evaluate the strategic decisions that are undertaken by companies in the FinTech space.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3860.
-    - empty description
   - **FIS 6870**
-    - unrecognized: Full admission to the Digital Financial Technologies
     - unrecognized: M.S
     - missing operator before 'M.S', assumed and
   - **FIS 6880**
-    - unrecognized: Full admission to the Digital Financial Technologies
     - unrecognized: M.S
     - missing operator before 'M.S', assumed and
-  - **FIS 6890**
-    - unrecognized line: Students engage in research and team-based interactive virtual experiential learning with a collaborating industry partner. The student gains industry insight and hands-on experience that provides the underpinning for the student research. A virtual collaboration platform is used to enroll, onboard, empathize, reboot, experiment, and deliver business solutions for client problems. Students get mentored, trained, and practice on FinTech research, tools and techniques used in industry. Prototyping and experimentation are encouraged to understand “real world” issues. Partner companies share their anonymized dataset, tools and techniques. The student identifies potential research topics to complement the industry partner’s mission. The student will be strongly encouraged to publish her/his research. Coaching activities including design thinking, backlog management, business modeling, and research & publishing guidelines are offered in this course.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3890.
-    - empty description
   - **IS 7060**
     - unrecognized: director
     - missing operator before 'director', assumed and
   - **IS 7935**
     - unrecognized: director
     - missing operator before 'director', assumed and
-  - **IT 6933**
-    - unrecognized line: This course covers applications of different machine learning techniques to a variety of Fintech problems. Topics include supervised learning for predictive analysis, unsupervised learning for financial data clustering and visualization, and deep learning/reinforcement learning for financial decision making.
-    - empty description
 
 ### ms-electrical-and-computer-engineering (graduate)
 
 - Build warnings:
-  - **EE 6770**
-    - unrecognized line: This course introduces the student to the principles and theories associated with neural networks and Artificial Intelligence (AI). Several neural networking architectures and training techniques associated with real-world applications (e.g. traffic pattern analysis, classification schemes, adaptive engineering systems) are discussed and modeled using Object-Oriented Programming techniques and MATLAB applications. Additionally, several instructor-led examples and software-based exercises are given to provide the student with a practical understanding of the theory covered.
-    - empty description
   - **ENGR 6002**
     - unrecognized: in Engineering
     - missing operator before 'in Engineering', assumed and
-  - **ENGR 6120**
-    - unrecognized line: This course introduces graduate engineering students to analytical and numerical analysis methods that can be used to solve engineering problems. Topics include linear algebra, systems of ordinary differential equations, complex analysis, Laplace transforms, numerical methods, partial differential equations, and probability and statistics.
-    - empty description
-
-### ms-exercise-science (graduate)
-
-- Build warnings:
-  - **ES 6100**
-    - unrecognized line: This course is designed to discuss concepts and methodologies employed in research design typically applied in studies dealing in exercise science and sport management. The intent is to provide the student with an intuitive or conceptual understanding of theory, tools, and processes involved in designing research studies relevant to these disciplines.
-    - empty description
-  - **ES 6200**
-    - unrecognized line: This course focuses on statistical methods used in the fields of sports and exercise science. Students will be introduced to basic statistical concepts including organizing and displaying data, mode, median, and mean, and measures of variability. More advanced topics including correlation and regression, t tests, analysis of variance, and analysis of nonparametric data will be explored. Students will calculate and interpret data along with using the statistical software SPSS.
-    - empty description
-  - **ES 6510**
-    - unrecognized line: An advanced study of the acute and chronic metabolic, cardiovascular, respiratory, and neuromuscular responses to exercise.
-    - empty description
-  - **ES 6520**
-    - unrecognized line: This course addresses psychological aspects related to sport performance and exercise participation. Various factors related to sport performance, exercise adoption and adherence, and physical activity intervention planning are addressed. The course is taught with an emphasis on the application of concepts and discussion and evaluation of the scientific research.
-    - empty description
 
 ### ms-healthcare-management-and-informatics (graduate)
 
 - Build warnings:
   - **HMI 7510**
     - unrecognized: Full
-  - **IT 7503**
-    - unrecognized line: This course provides an overview of the importance of information technology and information systems in the health care industry. It provides an overview of the healthcare IT industry in the U.S. and clinical terminologies, a review of fundamental characteristics of clinical information, health information exchange stands (HL7); healthcare payment and reimbursement systems, the challenges of IT implementation, and a detailed discussion of the primary clinical and managerial applications of information (including electronic health records - EHR). Group and individual research will be required.
-    - empty description
-  - **IT 5433**
-    - unrecognized line: This course will provide a practical foundation of database systems with emphasis on relational database design, implementation, and management. Topics include normalization, ERD, logical and physical design, SQL query, database applications, usage of XML in database, and data warehouse.
-    - empty description
 
 ### ms-integrative-biology (graduate)
 
 - Build warnings:
-  - **BIOL 6399**
-    - unrecognized: Admission
-    - unrecognized: enrollment in the Master of Science in Integrative Biology program
   - **BIOL 7410**
-    - unrecognized: Admission to Integrative Biology
     - unrecognized: MS
     - missing operator before 'MS', assumed and
-  - **BIOL 7420**
-    - unrecognized: Enrollment in the M.S. in Integrative Biology Program
   - **BIOL 7998**
-    - unrecognized: 18 credit hours of graduate coursework in the Integrative Biology
-    - unrecognized: M.S. program
     - missing operator before 'M.S. program', assumed and
 
 ### ms-intelligent-robotic-systems (graduate)
 
 - Build warnings:
-  - **MTRE 6000**
-    - unrecognized line: This course covers topics of classical control theory and modern control theory. Important concepts and approaches related to control system analysis and design will be introduced and MATLAB/Simulink simulations will be utilized to validate and facilitate control system design. It provides students with a solid foundation to learn more advanced control theories.
-    - empty description
   - **MTRE 6100**
     - unrecognized: in Intelligent Robotic Systems
     - missing operator before 'in Intelligent Robotic Systems', assumed and
-  - **MTRE 6710**
-    - unrecognized line: Processing of point cloud data is of increasing importance for perception in autonomous systems. This course examines the primary algorithms for extracting features from raw point cloud data for use with object detection and localization tasks, with data acquired from both LiDAR and stereo imaging. The efficiency of such algorithms is explored by developing them from the ground up, as well as assessing performance using popular point cloud libraries.
-    - empty description
   - **MTRE 6720**
     - unrecognized: in Intelligent Robotic Systems
     - missing operator before 'in Intelligent Robotic Systems', assumed and
@@ -1266,50 +515,19 @@
   - **MTRE 6750**
     - unrecognized: in Intelligent Robotic Systems
     - missing operator before 'in Intelligent Robotic Systems', assumed and
-  - **MTRE 6800**
-    - unrecognized: Admission to the MS ​program in Intelligent Robotic Systems
 
 ### ms-international-policy-management (graduate)
 
 - Build warnings:
+  - **IPM 7756**
+    - missing operator before '(', assumed and
   - **IPM 7760**
     - unrecognized: Completion of first-year fall
     - unrecognized: spring semesters
-- Drafting warnings:
-  - unrecognized section 'Additional Courses (15 Credit Hours)'
-
-### ms-prosthetics-and-orthotics (graduate)
-
-- Build warnings:
-  - **OP 6000L**
-    - unrecognized line: This course introduces clinical methods and basic processes associated with the provision and fabrication of prostheses and orthoses.
-    - empty description
-  - **OP 6100**
-    - unrecognized line: This course offers a systems level overview of human pathology with emphasis on the effect of disease and disease processes on human movement and neuromuscular function relative to the need for orthotic and/or prosthetic rehabilitation.
-    - empty description
-  - **OP 6200**
-    - unrecognized line: This lecture and laboratory course provides analysis of normal and pathological human locomotion. It includes the study of theory and instrumentation for measurement of temporal and spatial kinematics and kinetics, electromyography, and plantar pressure.
-    - empty description
-  - **OP 6400L**
-    - unrecognized line: This laboratory course introduces the field of prosthetics with a focus on lower-limb devices. The course covers how lower limb prostheses are constructed and adapted. Students are introduced to the design aspects of lower limb prostheses, including socket designs, interfaces, suspensions and components.
-    - empty description
-  - **OP 7100L**
-    - unrecognized line: This laboratory course introduces theories and devices associated with assistive technology and mobility aids, emphasizing topics important to clinical practice in prosthetics and orthotics.
-    - empty description
-  - **OP 6950**
-    - unrecognized line: The seminar introduces the foundational concepts of scientific inquiry, emphasizing interdisciplinary research, responsible conduct of research, ethics, internal review board processes, and planning. Students begin scientific and technical writing of specific aims and hypothesis formulation related to their research. Students critique, present, and discuss literature reviews of critical clinical and scientific papers.
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Clinical Practicum (7 Credit Hours)'
-  - unrecognized section 'Research Seminars (3 Credit Hours)'
 
 ### ms-technology-management-and-leadership (graduate)
 
 - Build warnings:
-  - **FIS 6860**
-    - unrecognized line: Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, business have critical infrastructure assets that present conversion challenges or incompatible. In this course students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition. Students will also evaluate the strategic decisions that are undertaken by companies in the FinTech space.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3860.
-    - empty description
   - **IS 7005**
     - unrecognized: Full
   - **IS 7060**
@@ -1326,8 +544,6 @@
   - **IS 7800**
     - unrecognized: director
     - missing operator before 'director', assumed and
-  - **IS 7910**
-    - unrecognized: Must be approved by graduate program director
   - **IS 7935**
     - unrecognized: director
     - missing operator before 'director', assumed and
@@ -1345,7 +561,6 @@
     - unrecognized: equivalent
   - **CE 6104**
     - unrecognized: equivalent
-    - unrecognized: approval by instructor
     - ambiguous and/or precedence: CE 3701 and CE 4105 (or equivalent), or approval by instructor
     - could not parse (unexpected 'or'): CE 3701 and CE 4105 (or equivalent), or approval by instructor
   - **CE 6105**
@@ -1357,47 +572,19 @@
     - unrecognized: equivalent
     - could not parse (unexpected 'or'): CE 3501 (or equivalent), or approval of advisor
   - **CE 6302**
-    - unrecognized: Admission to program
     - unrecognized: equivalent
     - ambiguous and/or precedence: Admission to program and CE 3702 or equivalent
   - **CE 6333**
     - unrecognized: equivalent
-  - **CE 6343**
-    - unrecognized line: The course discusses the advanced topics on solid waste treatment, storage, disposal, and control processes. Detailed design and regulatory requirements of solid waste landfills and other solid waste management facilities are also covered.
-    - empty description
-  - **CE 6433**
-    - unrecognized line: The course applies principals of fluid mechanics to the design and analysis of hydraulic systems. The course emphasizes open channel flow and addresses topics of interest to the Civil Engineer. Topics include hydraulic grade line calculations, pump design, culvert analysis and design, based flood elevation studies using HEC-RAS, non-uniform flow, gutters and inlets, water distribution, open channel design.
-    - empty description
   - **CE 6533**
     - unrecognized: equivalent
   - **CE 6633**
     - unrecognized: equivalent
-  - **CE 6683**
-    - unrecognized line: Introduction of theories in applied mechanics that govern the inelastic behavior of pavement materials. The topic areas will include linear and nonlinear viscoelasticity and continuum damage mechanics.
-    - empty description
   - **ENGR 6002**
     - unrecognized: in Engineering
     - missing operator before 'in Engineering', assumed and
-  - **CE 3201**
-    - unrecognized: Engineering Standing
-  - **CE 4177**
-    - unrecognized: Engineering Standing
-  - **CE 3501**
-    - unrecognized: Engineering Standing
-  - **CE 3702**
-    - unrecognized: Engineering Standing
   - **CE 3343**
     - course page not found ('CE 3343')
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3305**
-    - unrecognized: Engineering Standing Requirements
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
   - **CE 6303**
     - prerequisites can't be met by courses on the map (text only: CE 3343)
 
@@ -1413,483 +600,144 @@
   - **MSCM 7230**
     - unrecognized: in consultation with faculty
     - missing operator before 'in consultation with faculty', assumed and
-  - **MSCM 7311**
-    - unrecognized line: In this course, students examine the theories, concepts, and dynamics of interpersonal conflict. The skills and tools learned in previous coursework continue to be sharpened through application to problems of negotiation and third-party intervention in interpersonal conflicts.
-    - empty description
-  - **MSCM 7315**
-    - unrecognized: Admission to graduate study
   - **MSCM 7320**
     - unrecognized: in consultation with faculty
     - ambiguous and/or precedence: Admission to the MSCM program or permission of the program director in consultation with faculty, MSCM 7210, MSCM 7220, MSCM 7230, and MSCM 7310
   - **MSCM 7321**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-  - **MSCM 7335**
-    - unrecognized line: The class will focus on the key skills needed for superior organizational leadership. Class will review the literature on leadership and conflict management, dynamic organizational leaders, and analysis of scenarios.
-    - empty description
-  - **MSCM 7355**
-    - unrecognized line: This clinic will examine the applicability of mediation to a range of international disputes, with emphases on the coordination and timing of mediation efforts, and the complexity of the international arena. Students will review standards of practice from international organizations related to diplomacy and commerce, and apply these to selected cases.
-    - empty description
-  - **MSCM 7365**
-    - unrecognized line: This is a two-day training course designed to explore a range of dilemmas and scenarios in humanitarian, peacebuilding, conflict and human rights crises. The course is built around using simulations.
-    - empty description
-  - **MSCM 7400**
-    - unrecognized line: Unlike most courses you will take in graduate school, this course does not revolve around discussing the merits of certain arguments or analyzing specific research findings. This course will teach you how to develop a literature review, design a research project, select and apply the appropriate methods to systematically answer your research questions(s). More specifically, you will learn to break down social science theory into testable hypotheses that lay out relationships whose magnitude and significance can be measured and explained (statistically, substantively, and hermeneutically), particularly within the context of specific problems.
-    - empty description
-  - **MSCM 7500**
-    - unrecognized line: This course will prepare students to design a system to address conflict in the environment of an organization.
-    - empty description
   - **MSCM 7501**
-    - unrecognized: Admission to the INCM
     - unrecognized: MSCM programs
   - **MSCM 7502**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7511**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
   - **MSCM 7512**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-  - **MSCM 7600**
-    - unrecognized line: In this course students choose a setting for application of the knowledge and skills acquired through the academic and clinical components of the program. The project design provides the context for the student’s capstone/thesis experience in the final semester of the MS Conflict Management program.
-    - empty description
-  - **MSCM 7706**
-    - unrecognized line: This course examines the theories and techniques of evaluation and grant writing across a variety of contexts. Students learn logic models to support program design and development and practice evaluation methods ranging from online surveys to participant observation. Formative and collaborative approaches to evaluation are emphasized.
-    - empty description
-  - **MSCM 7707**
-    - unrecognized line: Using examples from the field of peacebuilding and post-conflict reconstruction in classroom discussion, exercises and role play, students develop policy recommendations, design, and plan strategies for conflict prevention and/or intervention. Students are introduced to the case study methodology, learn how to develop and use case studies effectively in their professional environments, and develop an outline for a case study with particular relevance to their current or desired field of employment.
-    - empty description
   - **MSCM 7708**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-  - **MSCM 7710**
-    - unrecognized line: This course includes a fieldwork, study, and travel to a specific domestic conflict environment chosen by the student with the guidance of the faculty. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.
-    - empty description
-  - **MSCM 7715**
-    - unrecognized line: This course includes a fieldwork, study, and travel to a specific international conflict environment. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.
-    - empty description
-  - **MSCM 7310**
-    - unrecognized line: Students examine the dynamics of and interventions in interpersonal and intergroup conflicts, including the role of identity and community dispute resolution in contemporary ADR. Students will sharpen the skills and tools they learned in previous MSCM coursework.
-    - empty description
 
 ### msem-engineering-management (graduate)
 
 - Build warnings:
-  - **EM 6005**
-    - unrecognized line: This course provides a broad overview of the field of engineering management, introducing students to the key roles, responsibilities, and skills required of engineering managers. Students will gain a foundational understanding of how engineering managers bridge the gap between technical expertise and business operations, preparing them for more advanced courses and professional development in technical management roles. Topics may include planning and managing resources and teams, aligning technical activities with organizational goals, and applying problem-solving and leadership strategies.
-    - empty description
-  - **EM 6510**
-    - unrecognized line: Introduces students to probability and statistics emphasizing applications to engineering management decision problems. Topics include descriptive statistics, probability, interval estimation, hypotheses testing and regression.
-    - empty description
-  - **EM 6602**
-    - unrecognized line: This course is a study of the functions and responsibilities of the quality organization. TQM concepts, quality function deployment, and the tools for continuous improvement are analyzed for sequence of use and application. Emphasis is placed on design and performance aspects of a system-wide quality assurance function.
-    - empty description
-  - **EM 6650**
-    - unrecognized line: The Quality Systems Management course prepares students for the development and management of the quality organization, systems, and procedures necessary for effective participation in world markets.
-    - empty description
-  - **EM 6722**
-    - unrecognized line: Human Factors Engineering is a comprehensive survey of human factors theory, research, and applications which are of particular relevance to Quality and Engineering Management. Emphasis will be placed on operator constraints in the design of work processes, workplaces, and instrumentation.
-    - empty description
   - **IS 7090**
     - unrecognized: Full
-  - **SYE 6005**
-    - unrecognized line: The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible.
-    - unrecognized line: Note: This course may be cross-leveled with SYE 8005.
-    - empty description
-  - **SYE 6010**
-    - unrecognized line: Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.
-    - empty description
-  - **SYE 6070**
-    - unrecognized line: This course focuses on decisions vital to success in typical business environments characterized by competition and scarce resources. Students will develop skills in applying a variety of techniques to solve logistics and supply chain management problems. Topics covered will include information sharing and aligning incentives along the supply chain; demand forecasting; inventory decisions; transportation mode and route selection; and pricing and revenue management.
-    - empty description
-  - **SYE 6075**
-    - unrecognized line: This course focuses on decisions important in production and warehousing environments. Production topics include analysis of flows, bottlenecks and queuing, types of manufacturing operations, aggregate production planning, lot sizes and lead times, and pull production systems. Warehouse topics include design and analysis of warehouse layout, order picking strategies, warehousing inventories, and integration of production and distribution systems.
-    - empty description
-
-### msit-information-technology (graduate)
-
-- Build warnings:
-  - **IT 6433**
-    - unrecognized line: This course explores IT management, strategy, and governance, focusing on aligning IT with business goals. Students develop IT policies, manage resources, ensure security, and implement governance frameworks to maximize organizational value, culminating in a comprehensive project applying course concepts to real-world IT challenges.
-    - empty description
-  - **IT 6933**
-    - unrecognized line: This course covers applications of different machine learning techniques to a variety of Fintech problems. Topics include supervised learning for predictive analysis, unsupervised learning for financial data clustering and visualization, and deep learning/reinforcement learning for financial decision making.
-    - empty description
-  - **IT 7103**
-    - unrecognized line: In this course students will learn concepts and practical skills that are necessary to perform an end-to-end data analytics project. Topics include: understanding business problems, collecting business data, exploring the data, preparing the data for data analytics, selecting and training a model, fine-tuning a model, presenting the solution, launching, monitoring and maintaining the system.
-    - empty description
-  - **IT 7133**
-    - unrecognized line: Enterprise IT processes massive data acquired from servers, operating systems, applications and users. Artificial Intelligence (AI) can be used to analyze these data with the aim of significantly improving IT operations. This course covers a variety of AI techniques that can be applied to IT. Students will learn practical skills on developing intelligent IT applications.
-    - empty description
-  - **IT 7143**
-    - unrecognized line: This course introduces the data analytics practices and technologies that are executed in a cloud environment for IT enterprise operations. The course explores key areas of the cloud analytical process, including data preparation, storage, access, analysis, presentation, and practical configurations and settings. Under the umbrella of cloud analytics, emerging analytics topics will be discussed, such as internet of things and edge/fog computing in information technology. The course also covers hands-on training on modern could systems that directly support the complete analytics process.
-    - empty description
-  - **IT 7503**
-    - unrecognized line: This course provides an overview of the importance of information technology and information systems in the health care industry. It provides an overview of the healthcare IT industry in the U.S. and clinical terminologies, a review of fundamental characteristics of clinical information, health information exchange stands (HL7); healthcare payment and reimbursement systems, the challenges of IT implementation, and a detailed discussion of the primary clinical and managerial applications of information (including electronic health records - EHR). Group and individual research will be required.
-    - empty description
-  - **IT 7733**
-    - unrecognized line: This course will cover the fundamental ideas behind enterprise cloud, the evolution of the paradigm, its applicability; benefits, as well as current and future challenges; the basic ideas and principles in enterprise cloud; cloud management techniques and enterprise cloud deployment considerations; cloud storage technologies and relevant distributed file systems, NoSQL databases and object storage. The course also covers the hands-on labs to practice on the cloud platform.
-    - empty description
-  - **IT 7913**
-    - unrecognized line: This course covers materials and methods of scholarly research in information technology. It includes the study of standard research paradigms with illustrative cases of each and the use of research methods and data presentations in industrial and business settings.
-    - empty description
-  - **IT 5433**
-    - unrecognized line: This course will provide a practical foundation of database systems with emphasis on relational database design, implementation, and management. Topics include normalization, ERD, logical and physical design, SQL query, database applications, usage of XML in database, and data warehouse.
-    - empty description
-  - **IT 5423**
-    - unrecognized line: This foundation course will provide an overview of computer networks and system administration. Topics include network protocols, network traffic analysis, operating systems fundamentals and system management.
-    - empty description
-  - **FIS 6810**
-    - unrecognized line: This course focuses on the payment process ecosystem and the history of payments as a foundation from which to provide students with the requisite knowledge, and as important background, regarding the evolution of products and services used and recommended by financial technology services. The student will learn the different types of payment products and services used by organizations such as Apple, Amazon, PayPal, and Venmo to gain an understanding that fascinating customer experiences are not covered only in the physical financial technology products created but also in a framework of corresponding exchanges and services. The student will also learn about risk management, customer relationships, regulatory compliance, settlements, strategies, and best practices for acquiring merchants and services. Students are expected to develop a broad background of the latest developments in payments as well as its impact on various portions of the world. Students will also have hands-on problem-solving case studies that can be beneficial in payments applications and innovations. This course will provide a good understanding of the trajectory of the payments industry primarily from a US point of view, however, with some global perspective.
-    - unrecognized line: Note: This course may be cross-leveled with FTA 3810.
-    - empty description
-  - **IT 5413**
-    - unrecognized line: In this course, students analyze and formulate software solutions appropriate for an IT organization. Foundational program constructs, software design and development are covered.
-    - empty description
-
-### msme-mechanical-engineering (graduate)
-
-- Build warnings:
-  - **EM 6602**
-    - unrecognized line: This course is a study of the functions and responsibilities of the quality organization. TQM concepts, quality function deployment, and the tools for continuous improvement are analyzed for sequence of use and application. Emphasis is placed on design and performance aspects of a system-wide quality assurance function.
-    - empty description
-  - **ENGR 6120**
-    - unrecognized line: This course introduces graduate engineering students to analytical and numerical analysis methods that can be used to solve engineering problems. Topics include linear algebra, systems of ordinary differential equations, complex analysis, Laplace transforms, numerical methods, partial differential equations, and probability and statistics.
-    - empty description
-  - **ME 6220**
-    - unrecognized line: This course focuses on Cartesian tensors, state of stress, kinematics of deformation, and the general principles of solid mechanics. Topics include constitutive equations of elasticity, viscoelasticity, and plasticity (continuum mechanics), with an emphasis on the design criteria based on variable and fluctuating loads (fatigue) and the failure of components based on crack propagation (fracture mechanics). Applications of linear elastic fracture, propagation fatigue life prediction, toughness, and strain energy release rate will be studied.
-    - empty description
-  - **ME 6230**
-    - unrecognized line: This course begins with a review of first law, second law, and equations of state. Analysis of thermodynamic power and refrigeration cycles relevant to the energy and transportation industry are then considered. Fundamental analysis techniques for mixtures/psychometrics, state equations, as well as combustion systems will be also be covered. Applications in thermal systems design are presented.
-    - empty description
-  - **ME 6250**
-    - unrecognized line: This course focuses on dynamics of a particle and of rigid bodies, Newtonian equations in moving coordinate systems, Lagrange’s and Hamilton’s equations of motion, and vibration of discrete and continuous systems. Special problems in vibrations and dynamics are presented.
-    - empty description
-  - **SYE 6005**
-    - unrecognized line: The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible.
-    - unrecognized line: Note: This course may be cross-leveled with SYE 8005.
-    - empty description
-  - **SYE 6010**
-    - unrecognized line: Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.
-    - empty description
-
-### msn-family-nurse-practitioner (graduate)
-
-- Drafting warnings:
-  - unrecognized section 'Family Curriculum (10 Credit Hours)'
-  - unrecognized section 'Residency (17 Credit Hours)'
-
-### msn-leadership-in-nursing (graduate)
-
-- Build warnings:
-  - **NURS 6151**
-    - unrecognized line: This course provides the advanced practice nurse with foundational business knowledge, and the analytical and leadership skills needed in the economic environments of health care systems. The focus is on the skills needed to provide leadership in the successful creation, distribution, and management of health care services.
-    - empty description
-  - **NURS 7711**
-    - unrecognized: Admission into MSN program
-    - unrecognized: permission from program director
-
-### msseng-systems-engineering (graduate)
-
-- Build warnings:
-  - **SYE 6005**
-    - unrecognized line: The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible.
-    - unrecognized line: Note: This course may be cross-leveled with SYE 8005.
-    - empty description
-  - **SYE 6010**
-    - unrecognized line: Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.
-    - empty description
-  - **SYE 6015**
-    - unrecognized line: Methods used to analyze and design complex systems that meet the needs of multiple stakeholders over the system life cycle. Apply systems engineering design and analysis principles to the virtual design of a contemporary complex system.
-    - empty description
-  - **SYE 6025**
-    - unrecognized line: This course covers the basic tools used in engineering economic decision making, including discounted cash flow, replacement and timing decisions, depreciation, risk analysis, and pricing mechanisms. Topics may also include an introduction to preferences and utilities, equilibrium concepts, probabilistic decisions, game theory, and incentive compatibility.
-    - empty description
-  - **SYE 6031**
-    - unrecognized line: This course introduces system dynamics modeling for the analysis of policy changes and strategies on system behaviors. System Dynamics (SD) is a computer-aided approach to policy analysis and design, which focuses on recognizing the interconnections among the parts of a whole system and synthesizing the interconnections using simulation modeling into a unified view of the system. Through models & case studies of successful applications, students learn how to use qualitative & quantitative data to formulate & test models that represent systems behaviors.
-    - empty description
-  - **SYE 6065**
-    - unrecognized line: This course focuses on methods of operations research and their applications. Operations Research methods include linear programs, network models, queuing models, markov chains, and heuristics. Applications in inventory & production planning, transportation & logistics, and finance will be covered.
-    - empty description
-  - **SYE 6070**
-    - unrecognized line: This course focuses on decisions vital to success in typical business environments characterized by competition and scarce resources. Students will develop skills in applying a variety of techniques to solve logistics and supply chain management problems. Topics covered will include information sharing and aligning incentives along the supply chain; demand forecasting; inventory decisions; transportation mode and route selection; and pricing and revenue management.
-    - empty description
-  - **SYE 6075**
-    - unrecognized line: This course focuses on decisions important in production and warehousing environments. Production topics include analysis of flows, bottlenecks and queuing, types of manufacturing operations, aggregate production planning, lot sizes and lead times, and pull production systems. Warehouse topics include design and analysis of warehouse layout, order picking strategies, warehousing inventories, and integration of production and distribution systems.
-    - empty description
-  - **SYE 6610**
-    - unrecognized line: This course may include the topics of sampling concepts and data collection techniques, descriptive statistics, discrete and continuous probability distributions, sampling distributions, confidence intervals, hypothesis tests, categorical data analysis, relationships between two variables, least-squares simple linear regression analysis, and analysis of variance.
-    - empty description
-  - **QA 6610**
-    - unrecognized line: Descriptive statistics for discrete and continuous variables, probability distributions, confidence intervals and hypothesis testing, elementary control charts for variables and attributes, the design of acceptance sampling plans, analysis of variance, and regression and correlation analysis.
-    - empty description
 
 ### msswe-software-engineering (graduate)
 
 - Build warnings:
   - **CS 7125**
     - unrecognized: Equivalent
-  - **CS 7385**
-    - unrecognized: Program Admission
-    - unrecognized: Permission of Director
   - **CS 7455**
     - unrecognized: Coursework in Computer Programming
-    - unrecognized: as determined by program admission
     - missing operator before 'as determined by program admission', assumed and
   - **CS 7535**
     - unrecognized: a Bachelor of Science in Computer Science degree
   - **CS 7827**
     - unrecognized: Coursework in Operating Systems
-    - unrecognized: as determined by program admission
     - missing operator before 'as determined by program admission', assumed and
-  - **SWE 6753**
-    - unrecognized: permission by the program coordinator
-  - **SWE 6783**
-    - unrecognized: permission by the program coordinator
   - **SWE 6883**
-    - unrecognized: ;
-    - unrecognized: permission by program coordinator
-    - ambiguous and/or precedence: SWE 6623 and SWE 6613; or permission by program coordinator
-  - **CS 5020**
-    - unrecognized line: This course covers the following topics: Number Systems, Two-level combinational logic, Multilevel combinational logic, Sequential logic design, Finite state machine design, Arithmetic circuits, Assembly and machine languages with a focus on concepts, and the principles of computer organization. The objective of this course is to learn the Concepts of Digital Systems, Combinational Circuits, Sequential Circuits, and Computer Architecture.
-    - empty description
-  - **CS 5000**
-    - unrecognized line: The course covers foundations of programming with emphasis on program design and computer science concepts. A modern, Object-Oriented language is used. Topics include primitive data types, arithmetic and logical operators, selection and repetition structures, methods, arrays, objects and classes, inheritance, polymorphism, exception handling, and file I/O. Programming projects are included.
-    - empty description
-  - **SWE 5003**
-    - unrecognized line: Software engineering allows the application of engineering and computer science concepts for developing and maintaining reliable, usable, and dependable software. The process of developing software comprises of several activities for which both technical and soft skills are required. These skills include the ability of making use of different levels of abstraction, decomposing data, processes, or problems into smaller, manageable parts, understanding and solving problems more effectively, and applying mathematical concepts to develop more efficient, fair, and secure solutions. All these abilities are part of what is called computational thinking, a set of general problem-solving skills useful in several fields. The purpose of this course is to introduce all the relevant software engineering and computational thinking concepts and principles together with the main activities of the software development life cycle.
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'plus a course covering the entire software development lifecycle'
-  - unrecognized section 'Approved SYE Courses:'
+    - could not parse (unexpected 'or'): SWE 6623 and SWE 6613; or permission by program coordinator
 
 ### msw-social-work (graduate)
 
 - Build warnings:
-  - **SW 7801**
-    - unrecognized: Advanced Standing in the MSW Program
+  - **SW 7802**
+    - unrecognized: All MSW Foundational-Level courses
+  - **SW 7803**
+    - unrecognized: All MSW Foundation-Level courses
+  - **SW 7807**
+    - unrecognized: All MSW Foundation-Level courses
+  - **SW 7830**
+    - unrecognized: All MSW Foundational-Level courses
   - **SW 7929**
     - unrecognized: All MSW Foundational-Level courses
-    - unrecognized: Advanced Standing in MSW program
-- Drafting warnings:
-  - unrecognized section 'Foundational MSW Course Sequence (30 Credit Hours)'
-  - unrecognized section 'Advanced Clinical Courses (21 Credit Hours)'
-
-### phd-business-administration (graduate)
-
-- Build warnings:
-  - **ACCT 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **ACCT 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **ECON 9001**
-    - unrecognized: Admission into the Coles PhD in Business Administration Program
-  - **ECON 9011**
-    - unrecognized line: This course provides a broad introduction to econometric concepts and tools that are essential in decision analytics in economics and business settings. It covers basic techniques in linear regression analysis as well as a variety of more advanced and widely used methods, such as difference-in-differences, regression discontinuity design, and synthetic control method. The course presents statistical and econometric theories that allow students to understand the background of the technical applications. It also exposes students to classical examples in the literature that showcase the application of the methods. Hands-on exercises are designed for students to work with data sets and practice the techniques.
-    - empty description
-  - **ECON 9012**
-    - unrecognized line: This graduate-level course relates classical asset pricing theory to empirical estimation and evaluation of asset pricing models. The approach is to integrate economic insights, financial data, and econometric tools. Topics will include, but not limited to: capital asset pricing model, risk and returns on assets, consumption-based asset pricing theory, cross-section of expected returns, linear factor models, stochastic discount factor models, regression analysis for asset pricing, econometric tools for causal inference, and generalized method of moments techniques.
-    - empty description
-  - **ECON 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **IS 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9008**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **IS 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **MGT 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9008**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MGT 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **MKTG 9001**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9005**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9006**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9007**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9008**
-    - unrecognized: Admission into the PhD in Business Administration Program
-  - **MKTG 9100**
-    - unrecognized: Admission into the PhD in Business Administration program
-  - **BRM 9201**
-    - unrecognized: Admission into the PhD in Business Administration
-    - unrecognized: Post-Master's Certificate in Business Research Methods
-- Drafting warnings:
-  - unrecognized section 'Business Research Methods Courses (15 Credit Hours)'
 
 ### phd-computer-science (graduate)
 
 - Build warnings:
   - **CS 8025**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8041**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8045**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8050**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8125**
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D., Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8260**
-    - unrecognized: Computer Science M.S. Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. Program, Computer Science M.S. Program, or Analytics and Data Science Ph.D. Program
   - **CS 8265**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
   - **CS 8267**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
-    - unrecognized: Interdisciplinary Engineering Ph.D. program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
   - **CS 8998**
     - unrecognized: Varies depending on the topic
-- Drafting warnings:
-  - unrecognized section 'Dissertation (24-30 Credit Hours)'
 
 ### phd-data-science-and-analytics (graduate)
 
 - Build warnings:
   - **CS 8265**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
   - **CS 8267**
-    - unrecognized: Computer Science MS Program
     - unrecognized: Analytics
-    - unrecognized: Data Science Ph.D. Program
-    - unrecognized: Interdisciplinary Engineering Ph.D. program
     - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
-  - **HHS 8000**
-    - unrecognized line: This course introduces students to the rapidly evolving field of mHealth and the application of mobile technologies in community research and healthcare settings. The purpose of this course is to provide an overview of the development of mHealth research projects and interventions aligned with health behavior theory and evidence-based practices to address barriers to adoption, implementation, and evaluation.
-    - empty description
-  - **HHS 8010**
-    - unrecognized line: This course examines key ethical issues that arise in mHealth and related healthcare research and practice. Students analyze the historical context, how ethics have developed with advancements in technology, and the current state of mHealth ethics, as well as key regulations and governing bodies in the health sciences that have relevance in this space. Important considerations for conducting human subjects research using mHealth technologies are reviewed.
-    - unrecognized line: Note: This course may be cross-leveled with HHS 6010.
-    - empty description
-  - **MATH 8020**
-    - unrecognized: permission by the department
-  - **MATH 8030**
-    - unrecognized: permission by the department
   - **STAT 8240**
     - unrecognized: in Analytics
     - unrecognized: Data Science
-    - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
     - unrecognized: Data Science
     - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
-- Drafting warnings:
-  - unrecognized section 'Research (33 Credit Hours)'
 
 ### phd-interdisciplinary-engineering (graduate)
 
 - Build warnings:
-  - **ENGR 8001**
-    - unrecognized: Admission to the Interdisciplinary Engineering
+  - **CE 8201**
     - unrecognized: Ph.D
     - missing operator before 'Ph.D', assumed and
-- Drafting warnings:
-  - unrecognized section 'Intelligent Robotic Systems'
-  - unrecognized section 'Smart infrastructure'
-  - unrecognized section 'Biomedical and Health Systems'
-  - unrecognized section 'Innovative Materials'
-  - unrecognized section 'Research (36 Credit Hours)'
+  - **CS 8267**
+    - unrecognized: Analytics
+    - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
+  - **ENGR 8001**
+    - unrecognized: Ph.D
+    - missing operator before 'Ph.D', assumed and
 
 ### phd-international-conflict-management (graduate)
 
 - Build warnings:
   - **MSCM 7321**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-  - **MSCM 7365**
-    - unrecognized line: This is a two-day training course designed to explore a range of dilemmas and scenarios in humanitarian, peacebuilding, conflict and human rights crises. The course is built around using simulations.
-    - empty description
   - **MSCM 7502**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-  - **MSCM 7707**
-    - unrecognized line: Using examples from the field of peacebuilding and post-conflict reconstruction in classroom discussion, exercises and role play, students develop policy recommendations, design, and plan strategies for conflict prevention and/or intervention. Students are introduced to the case study methodology, learn how to develop and use case studies effectively in their professional environments, and develop an outline for a case study with particular relevance to their current or desired field of employment.
-    - empty description
   - **MSCM 7708**
-    - unrecognized: Admission to the MSCM
     - unrecognized: INCM programs
-  - **MSCM 7715**
-    - unrecognized line: This course includes a fieldwork, study, and travel to a specific international conflict environment. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.
-    - empty description
-- Drafting warnings:
-  - unrecognized section 'Advanced Research Methods (3 Credit Hours)'
-  - unrecognized section 'Dissertation Research (9-15 Credit Hours)'
 
 ### ba-asian-studies (undergraduate)
 
 - Build warnings:
-  - **ASIA 3306**
-    - unrecognized: Completion of 30 credit hours
-  - **ASIA 3308**
-    - unrecognized: Completion of 30 credit hours
+  - **CHIN 1002**
+    - unrecognized: the equivalent
   - **CHIN 3200**
     - unrecognized: equivalent
   - **CHIN 3302**
     - unrecognized: equivalent
-  - **HIST 3372**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3373**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3374**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3375**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3380**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3381**
-    - unrecognized: Must have earned at least 30 credit hours
+  - **JAPN 1002**
+    - unrecognized: the equivalent
   - **JAPN 3200**
     - unrecognized: the equivalent
   - **JAPN 3302**
     - unrecognized: the equivalent
   - **JAPN 3304**
+    - unrecognized: the equivalent
+  - **KOR 1002**
     - unrecognized: the equivalent
   - **KOR 3200**
     - unrecognized: the equivalent
@@ -1899,18 +747,6 @@
     - unrecognized: the equivalent
   - **KOR 3304**
     - unrecognized: the equivalent
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **ORGC 3325**
-    - unrecognized: 60+ credit hours
   - **SA 4490**
     - unrecognized: Varies with discipline
     - unrecognized: subject
@@ -1918,146 +754,61 @@
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **CHIN 1002**
-    - unrecognized: the equivalent
-  - **JAPN 1002**
-    - unrecognized: the equivalent
-  - **KOR 1002**
-    - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Lower-Division Asian Language Courses (9 Credit Hours)'
 
 ### ba-dance (undergraduate)
 
 - Build warnings:
-  - **DANC 1900**
-    - unrecognized: Declared Dance Major
   - **DANC 2000**
-    - unrecognized: Must be a Dance Major
     - unrecognized: Dance Minor
-    - unrecognized: Dance- Interest;
-    - ambiguous and/or precedence: Must be a Dance Major, Dance Minor, or Dance- Interest; and ENGL 1101
+    - unrecognized: Dance- Interest
+    - could not parse (unexpected 'and'): Must be a Dance Major, Dance Minor, or Dance- Interest; and ENGL 1101
   - **DANC 2715**
-    - unrecognized: Dance Major
     - unrecognized: Dance Minor
-  - **DANC 3001**
-    - unrecognized: Dance Major
-  - **DANC 3110**
-    - unrecognized: Dance Major
-  - **DANC 3210**
-    - unrecognized: Dance Major
   - **DANC 3240**
-    - unrecognized: Dance Major
     - unrecognized: Dance Minor
-  - **DANC 3310**
-    - unrecognized: Dance Major
-  - **DANC 3620**
-    - unrecognized: Dance Major
+  - **DANC 3550**
+    - unrecognized: Dance
+    - unrecognized: Dance Minor
   - **DANC 4010**
-    - unrecognized: declared Dance Major
     - unrecognized: Minor
     - ambiguous and/or precedence: DANC 2000 and declared Dance Major or Minor
   - **DANC 4100**
-    - unrecognized: declared Dance Major
     - unrecognized: Minor
     - ambiguous and/or precedence: DANC 2000 and declared Dance Major or Minor
-  - **DANC 4250**
-    - unrecognized: Dance Major
   - **DANC 4300**
-    - unrecognized: declared Dance Major
     - unrecognized: Minor
     - ambiguous and/or precedence: DANC 2000 and declared Dance Major or Minor
-  - **DANC 4850**
-    - unrecognized: Dance Major
-- Drafting warnings:
-  - unrecognized section 'Creative Process Courses (5 Credit Hours)'
-  - unrecognized section 'Applied Profession Skills (3 Credit Hours)'
+  - **DANC 4714**
+    - unrecognized: Audition
 
 ### ba-english (undergraduate)
 
 - Build warnings:
+  - **ENGL 4620**
+    - unrecognized: Completion of 90 hours
   - **LING 3020**
     - unrecognized: One of the following courses:
     - unrecognized: Inactive
     - unrecognized: Inactive
     - unrecognized: Inactive
     - missing operator before '[', assumed and
-- Drafting warnings:
-  - unrecognized section 'Introduction to English Studies (3 Credit Hours)'
-  - unrecognized section 'World Literature (3 Credit Hours)'
-  - unrecognized section 'Linguistics (3 Credit Hours)'
-  - unrecognized section 'Writing (3 Credit Hours)'
-  - unrecognized section 'Film, TV, and Screen (3 Credit Hours)'
-  - unrecognized section 'Cultural Studies (3 Credit Hours)'
-  - unrecognized section 'Literature (3 Credit Hours)'
-  - unrecognized section 'Theory (3 Credit Hours)'
-  - unrecognized section 'Professionalization and Career Preparation (3 Credit Hours)'
-  - unrecognized section 'Senior Seminar (3 Credit Hours)'
 
 ### ba-geography (undergraduate)
 
 - Build warnings:
+  - **GEOG 3000**
+    - unrecognized: Students must be 21 years of age
   - **GEOG 4100**
-    - unrecognized: Any upper-division geography course;
+    - unrecognized: Any upper-division geography course
     - unrecognized: chair
   - **GEOG 4499**
     - unrecognized: Students must be GEOG
-    - unrecognized: GSS major with 60+ credit hours
-- Drafting warnings:
-  - unrecognized section 'Group A: Human/Regional Geography'
-  - unrecognized section 'Group B: Physical/Environmental Geography'
-  - unrecognized section 'Group C: Geographic Techniques'
-  - unrecognized section 'Group D: Miscellaneous Courses'
 
 ### ba-history (undergraduate)
 
 - Build warnings:
-  - **HIST 3100**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3325**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3326**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3327**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3328**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3376**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3377**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3378**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 4425**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4426**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4427**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4430**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4435**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **HIST 4495**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4496**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4497**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4498**
-    - unrecognized: ; Departmental Approval
-    - missing operator before '; Departmental Approval', assumed and
-  - **HIST 4911**
-    - unrecognized: Must have earned at least 45 credit hours
   - **WLC 1002**
     - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Non-Western History Courses (6 Credit Hours)'
-  - unrecognized section 'U.S. History Courses (6 Credit Hours)'
-  - unrecognized section 'European History Courses (6 Credit Hours)'
 
 ### ba-international-affairs (undergraduate)
 
@@ -2067,120 +818,88 @@
     - ambiguous and/or precedence: Consent of the instructor and department chair, and POLS 2280 or ACCT 2101 or ECON 2300
   - **WLC 1002**
     - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Lower-Division Career Program (6 Credit Hours)'
 
 ### ba-modern-language-and-culture (undergraduate)
 
 - Build warnings:
+  - **CHIN 1002**
+    - unrecognized: the equivalent
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
+  - **FREN 1002**
+    - unrecognized: the equivalent
+  - **GRMN 1002**
+    - unrecognized: the equivalent
   - **IS 2200**
     - unrecognized: higher
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **WLED 4650**
-    - unrecognized: Admission to Teacher Education
-    - unrecognized: Issued Pre-Service Certificate
-    - unrecognized: Admission to Yearlong Clinical Experience
+  - **ITAL 1002**
+    - unrecognized: the equivalent
+  - **JAPN 1002**
+    - unrecognized: the equivalent
+  - **KOR 1002**
+    - unrecognized: the equivalent
+  - **PORT 1002**
+    - unrecognized: the equivalent
+  - **PORT 2001**
+    - unrecognized: equivalent
+  - **PORT 2002**
+    - unrecognized: equivalent
+  - **SPAN 1002**
+    - unrecognized: the equivalent
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-- Drafting warnings:
-  - unrecognized section 'Chinese'
-  - unrecognized section 'French'
-  - unrecognized section 'German'
-  - unrecognized section 'Italian'
-  - unrecognized section 'Japanese'
-  - unrecognized section 'Korean'
-  - unrecognized section 'Spanish'
-  - unrecognized section 'Chinese'
-  - unrecognized section 'French'
-  - unrecognized section 'German'
-  - unrecognized section 'Italian'
-  - unrecognized section 'Japanese'
-  - unrecognized section 'Korean'
-  - unrecognized section 'Portuguese'
-  - unrecognized section 'Spanish'
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### ba-theatre-and-performance-studies (undergraduate)
 
 - Build warnings:
+  - **SA 4490**
+    - unrecognized: Varies with discipline
+    - unrecognized: subject
   - **TPS 1500**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
-  - **TPS 1510**
-    - unrecognized: TPS Major
   - **TPS 1600**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 1713**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 2203**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 2715**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 2813**
     - unrecognized: Theatre
     - unrecognized: Performance Studies
-    - unrecognized: B.A. major
     - missing operator before 'B.A. major', assumed and
   - **TPS 3000**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 1600', assumed and
   - **TPS 3015**
     - unrecognized: Declared Theatre
-    - unrecognized: Performance Studies Major
-  - **TPS 3400**
-    - unrecognized: TPS Major.
   - **TPS 3403**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 1500', assumed and
   - **TPS 3500**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 3403', assumed and
   - **TPS 3600**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 1600', assumed and
-  - **TPS 3703**
-    - unrecognized: TPS Major
+  - **TPS 4010**
+    - unrecognized: . Audition required
+    - missing operator before '. Audition required', assumed and
+  - **TPS 4020**
+    - unrecognized: Entrance by audition
+    - unrecognized: application
+    - ambiguous and/or precedence: Entrance by audition or application and acceptance into Musical Theatre Ensemble
   - **TPS 4030**
     - unrecognized: Audition
     - unrecognized: /
@@ -2188,29 +907,16 @@
     - ambiguous and/or precedence: Audition and/or the approval of the instructor
     - missing operator before 'approval of the instructor', assumed and
   - **TPS 4313**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 3403', assumed and
   - **TPS 4323**
-    - unrecognized: TPS Major.
     - missing operator before 'TPS 3403', assumed and
   - **TPS 4333**
     - unrecognized: /department
     - missing operator before '/department', assumed and
-- Drafting warnings:
-  - unrecognized section 'Applied Professional Sequence (6 Credit Hours)'
 
 ### bas-information-technology (undergraduate)
 
 - Build warnings:
-  - **IT 3203**
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
   - **IT 3883**
     - unrecognized: minimum grade of 'C'
     - unrecognized: minimum grade of 'C'
@@ -2223,764 +929,184 @@
 
 - Build warnings:
   - **ARCH 1000**
-    - unrecognized: ARCH Majors
     - unrecognized: Minors Only
-- Drafting warnings:
-  - unrecognized section 'Lower-Division Studio (16 Credit Hours)'
-  - unrecognized section 'Upper-Division Studio (24 Credit Hours)'
+  - **ARCH 1001**
+    - unrecognized: Minors Only
+  - **ARCH 3011**
+    - unrecognized: Traditional Track:
+    - unrecognized: Accelerated Track:
 
 ### bba-accounting (undergraduate)
 
 - Build warnings:
-  - **ACCT 3100**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - missing operator before 'ACCT 2101', assumed and
-  - **ACCT 3200**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a minimum GPA of 2.0
-    - ambiguous and/or precedence: Grade of "B" or higher in ACCT 2101 and ACCT 2102, and a minimum GPA of 2.0
-  - **ACCT 3300**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4050**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4100**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4150**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4152**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4200**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4250**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4300**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4350**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4550**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4600**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4700**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 4800**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-economics (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **ECON 4510**
-    - unrecognized: BBA major
-    - unrecognized: Coles Partner Student
-  - **ECON 4610**
-    - unrecognized: BBA major
-    - unrecognized: Coles Partner Student
-  - **ECON 4710**
-    - unrecognized: a Coles Partner Student
-  - **ECON 4990**
-    - unrecognized: BBA major
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
+  - **ECON 4730**
+    - could not parse (per-major clauses): Business Majors: Admission to the Coles College of Business; Non-Business Majors: ECON 2300 or STAT 1401
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
-- Drafting warnings:
-  - unrecognized section 'Group A (9-12 Credit Hours)'
-  - unrecognized section 'Group B (0-3 Credit Hours)'
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-entrepreneurship (undergraduate)
 
 - Build warnings:
-  - **ACCT 4700**
-    - unrecognized: a Coles Partner Student
   - **BUSA 3500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **ENTR 3001**
-    - unrecognized: completion of 30 credit hours
-    - unrecognized: a minimum cumulative GPA of 2.00
-  - **ENTR 4002**
-    - unrecognized: a Coles Partner Student
-  - **ENTR 4003**
-    - unrecognized: a Coles Partner Student
-  - **ENTR 4004**
-    - unrecognized: a Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **FIN 4260**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 3300**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 3410**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4260**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4470**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4520**
-    - unrecognized: a Coles Partner Student
-  - **ACCT 3100**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - missing operator before 'ACCT 2101', assumed and
-  - **ACCT 3200**
-    - unrecognized: Grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a minimum GPA of 2.0
-    - ambiguous and/or precedence: Grade of "B" or higher in ACCT 2101 and ACCT 2102, and a minimum GPA of 2.0
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-finance (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
+  - **BLAW 3400**
+    - unrecognized: with minimum grade of "C"
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
+  - **ECON 4730**
+    - could not parse (per-major clauses): Business Majors: Admission to the Coles College of Business; Non-Business Majors: ECON 2300 or STAT 1401
   - **FIN 4199**
     - unrecognized: Finance
-    - unrecognized: BBA major
-    - unrecognized: 90 credit hours completed
-  - **FIN 4220**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4260**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4320**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4360**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4420**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4460**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4520**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4560**
-    - unrecognized: a Coles Partner Student
-  - **FIN 4590**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: Admission to the Coles College. Membership in Student Managed Investment Fund
-  - **FIN 4620**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
+  - **RE 3400**
+    - ambiguous and/or precedence: FIN 3100, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
   - **RE 4500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: FIN 3100, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
-- Drafting warnings:
-  - unrecognized section 'Related Studies (6 Credit Hours)'
-  - unrecognized section 'I. Capital Markets'
-  - unrecognized section 'II. Corporate Finance'
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-hospitality-management (undergraduate)
 
 - Build warnings:
-  - **BLAW 4960**
-    - unrecognized: a Coles Partner Student
   - **BUSA 3500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **ENTR 4125**
-    - unrecognized: a Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **HMGT 3300**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 3397**
-    - unrecognized: Hospitality management major
-  - **HMGT 3500**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 4100**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 4300**
-    - unrecognized: a Coles Partner Student
-  - **HMGT 4500**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3190**
-    - unrecognized: a Coles Partner Student
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
-  - **MGT 3600**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4123**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4124**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4161**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4174**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4190**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MGT 4476**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4880**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 4830**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4880**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-information-systems (undergraduate)
 
 - Errors:
   - schema: courses/27/credits: '' does not match '^\\d+(-\\d+)?$'
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3040**
-    - unrecognized: a Coles Partner Student
-  - **IS 3060**
-    - unrecognized: a Coles Partner Student
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **IS 3397**
     - unrecognized line: 0 or 3 Credit Hours
     - no credit hours found
-    - unrecognized: approval of the Career
     - unrecognized: Internship Advisor
     - unrecognized: KSU Career Planning
     - unrecognized: Development
     - missing operator before '(', assumed and
   - **IS 4880**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: IS 3020, IS 3280, and IS 3060, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-management (undergraduate)
 
 - Build warnings:
   - **BLAW 3400**
     - unrecognized: with minimum grade of "C"
-    - unrecognized: a Coles Partner Student
-  - **BLAW 4960**
-    - unrecognized: a Coles Partner Student
   - **BUSA 3500**
-    - unrecognized: 60 credit hours with a minimum GPA of 2.0
-    - unrecognized: student in a Coles College Partner Program that includes this course
     - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **HMGT 3300**
-    - unrecognized: a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4001**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4002**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4003**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4004**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4174**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4190**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MGT 4476**
-    - unrecognized: a Coles Partner Student
-  - **MGT 4800**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 4260**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4470**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **MGT 3600**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-marketing (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 3150**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 3410**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4100**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4500**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4990**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bba-professional-sales (undergraduate)
 
 - Build warnings:
-  - **BUSA 4000**
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **ECON 3200**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: BBA Major
-    - unrecognized: Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **MGT 4199**
     - unrecognized: . This course is taken in the last
-    - unrecognized: next-to-last semester in the B.B.A. program
     - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-  - **MKTG 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **MKTG 3410**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4220**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4430**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4450**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4470**
-    - unrecognized: a Coles Partner Student
-  - **MKTG 4980**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
-  - **ECON 3300**
-    - unrecognized: a Coles Partner Student
-  - **BUSA 3150**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bfa-art (undergraduate)
 
 - Build warnings:
   - **ANIM 3620**
     - unrecognized: passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA Digital Animation
   - **ARED 3302**
@@ -2988,108 +1114,78 @@
     - unrecognized: Design
   - **ARED 3304**
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Pre-Service Certificate
   - **ARED 3306**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certificate
   - **ARED 3308**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certificate
   - **ARED 4410**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
   - **ARED 4650**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
   - **ARED 4660**
     - unrecognized: EPP
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
   - **ARH 3850**
     - unrecognized: Art majors:
     - unrecognized: . Non art majors:
   - **ARH 4990**
-    - unrecognized: ; senior status
-    - missing operator before '; senior status', assumed and
+    - unrecognized: senior status
   - **ART 1100**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1150**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1200**
     - unrecognized: This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2150**
     - unrecognized: . This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2550**
     - unrecognized: .This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2990**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA in Digital Animation
   - **ART 3020**
     - unrecognized: - may also be taken concurrently
     - missing operator before '- may also be taken concurrently', assumed and
-  - **ART 3120**
-    - unrecognized: full admission into the art program
-  - **ART 3410**
-    - unrecognized: acceptance into the art major
   - **ART 3510**
-    - unrecognized: ;
     - unrecognized: may also be taken concurrently
-    - missing operator before ';', assumed and
-    - missing operator before 'ART 2990', assumed and
     - missing operator before '(', assumed and
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-- Drafting warnings:
-  - unrecognized section '2-D Courses'
-  - unrecognized section '3-D Courses'
 
 ### bfa-digital-animation (undergraduate)
 
 - Build warnings:
-  - **ANIM 1550**
-    - unrecognized: Admission to the Digital Animation BFA
   - **ANIM 3620**
     - unrecognized: passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA Digital Animation
   - **ARH 3850**
@@ -3097,67 +1193,52 @@
     - unrecognized: . Non art majors:
   - **ART 1100**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1150**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1200**
     - unrecognized: This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2150**
     - unrecognized: . This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2550**
     - unrecognized: .This course is for Art
     - unrecognized: BFA
     - unrecognized: Digital Animation
-    - unrecognized: BFA majors only
     - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
     - missing operator before 'BFA majors only', assumed and
   - **ART 2990**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
     - unrecognized: BFA in Digital Animation
-- Drafting warnings:
-  - unrecognized section 'Senior Review Exhibition (3 Credit Hours)'
 
 ### bm-music (undergraduate)
 
 - Build warnings:
   - **MUAP 2102**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: minor
   - **MUAP 3101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: have taken
     - unrecognized: passed four semesters of
     - missing operator before 'MUAP 2101', assumed and
-  - **MUAP 3102**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3353**
-    - unrecognized: Must be a fully admitted music major
   - **MUEN 3343**
     - unrecognized: Audition
   - **MUEN 3344**
@@ -3170,23 +1251,22 @@
     - unrecognized: Audition
   - **MUEN 3348**
     - unrecognized: Audition
-  - **MUEN 3352**
-    - unrecognized: Enrollment by audition only
+  - **MUSI 1165**
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
   - **MUSI 3333**
-    - unrecognized: Must be a fully admitted music major;
-  - **MUSI 3334**
-    - unrecognized: Must be a fully admitted music major
+    - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
   - **MUSI 3390**
     - unrecognized: completion of
     - missing operator before 'MUTC 3200', assumed and
-  - **MUSI 4430**
-    - unrecognized: Must be a fully admitted music major
   - **MUTC 2100**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
   - **MUTC 2110**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
   - **MUTC 3326**
     - unrecognized: "
     - missing operator before '"', assumed and
@@ -3194,65 +1274,25 @@
     - ambiguous and/or precedence: MUTC 3327 or MUTC 3372 and permission of the instructor
   - **MUTC 4496**
     - unrecognized: Completion of 90 hours of course work
-    - unrecognized: admitted music major
   - **MUTC 4497**
     - unrecognized: completion of 90 hours of coursework
   - **MUTH 1000**
     - unrecognized: Music
-    - unrecognized: B.M. major
     - missing operator before 'B.M. major', assumed and
   - **MUAP 2101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: minor
-- Drafting warnings:
-  - unrecognized section 'Applied Lessons (2 Credit Hours)'
-  - unrecognized section 'Theory/Aural Skills Sequence (6 Credit Hours)'
-  - unrecognized section 'Group 1'
-  - unrecognized section 'Group 2'
 
 ### bm-music-education (undergraduate)
 
 - Build warnings:
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **MUAP 2101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: minor
-  - **MUAP 3100**
-    - unrecognized: Must be a fully admitted music minor
   - **MUAP 3101**
-    - unrecognized: Must be a fully admitted music major
     - unrecognized: have taken
     - unrecognized: passed four semesters of
     - missing operator before 'MUAP 2101', assumed and
-  - **MUED 3005**
-    - unrecognized: admission into Teacher Education Program
-  - **MUED 3308**
-    - unrecognized: ;
-    - missing operator before ';', assumed and
-    - missing operator before 'admission to the Teacher Education program', assumed and
-  - **MUED 3351**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3353**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3355**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3357**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3361**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3365**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3366**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3370**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 3371**
-    - unrecognized: Must be a fully admitted music major
-  - **MUED 4650**
-    - unrecognized: Admission to Music Education Admission to Teacher Education Admission to Yearlong Clinical Experience Issued Pre-service Certificate
   - **MUED 4660**
     - unrecognized: Educator Ethics Assessment 360 Eligibility
     - unrecognized: GACE Eligibility
@@ -3260,101 +1300,31 @@
     - unrecognized: Membership is open to all students with previous experience playing an instrument
   - **MUEN 3345**
     - unrecognized: Audition
+  - **MUEN 3346**
+    - unrecognized: Audition
   - **MUEN 3347**
     - unrecognized: Audition
   - **MUEN 3348**
     - unrecognized: Audition
-  - **MUSI 3336**
-    - unrecognized: Must be a fully-admitted music major
-  - **MUTC 2100**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
-  - **MUTC 2110**
-    - unrecognized: Must be a fully admitted music major
-    - unrecognized: minor; placement determined by proficiency test
   - **MUSI 1165**
-    - unrecognized: Must be a fully admitted music major; placement determined by proficiency test
-- Drafting warnings:
-  - unrecognized section 'Group 1'
-  - unrecognized section 'Group 2'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-  - unrecognized section 'Large Ensemble (7 Credit Hours)'
-
-### bs-aerospace-engineering (undergraduate)
-
-- Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 3803**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4802**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **MATH 2335**
-    - unrecognized: A grade of 'C'
-    - unrecognized: higher in
-    - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
-  - **ME 3410**
-    - unrecognized: Engineering Standing
-  - **ME 3705**
-    - unrecognized: Engineering Standing
-  - **ME 4520**
-    - unrecognized: Engineering Standing
-  - **ME 3440**
-    - unrecognized: Engineering Standing
-  - **ENGR 3125**
-    - unrecognized: Engineering Standing
-  - **ME 3343**
-    - unrecognized: Engineering Standing
-
-### bs-anthropology (undergraduate)
-
-- Drafting warnings:
-  - unrecognized section 'Foundations in Anthropology (9 Credit Hours)'
-  - unrecognized section 'Anthropological Applications (6 Credit Hours)'
-  - unrecognized section 'Cultural Anthropology'
-  - unrecognized section 'Biological Anthropology'
-  - unrecognized section 'Archaeology'
-
-### bs-artificial-intelligence (undergraduate)
-
-- Build warnings:
-  - **AI 4850**
-    - unrecognized: completion of 90 credit hours
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
+  - **MUSI 3333**
+    - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
+  - **MUTC 2100**
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
+  - **MUTC 2110**
+    - unrecognized: minor
+    - unrecognized: determined by proficiency test
+    - missing operator before 'determined by proficiency test', assumed and
 
 ### bs-biochemistry (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-- Drafting warnings:
-  - unrecognized section 'Supporting Discipline Courses (23 Credit Hours)'
+  - **SCM 2000**
+    - unrecognized: Mathematics
 
 ### bs-biology (undergraduate)
 
@@ -3363,136 +1333,50 @@
     - unrecognized: comparable research methods course
     - ambiguous and/or precedence: (BIOL 1107 and BIOL 1107L) and (BIOL 1108 and BIOL 1108L) or comparable research methods course
   - **BIOL 4399**
-    - unrecognized: 90 credit hours
     - ambiguous and/or precedence: BIOL 3410 and 90 credit hours or permission of the instructor
   - **BIOL 4465**
-    - unrecognized: ; Recommended -
-    - missing operator before '; Recommended -', assumed and
+    - unrecognized: Recommended -
     - missing operator before 'BIOL 3340', assumed and
   - **BIOL 4475**
-    - unrecognized: ; Recommended -
-    - missing operator before '; Recommended -', assumed and
+    - unrecognized: Recommended -
     - missing operator before 'BIOL 3340', assumed and
   - **BIOL 4486**
     - unrecognized: plus a minimum of 9 additional hours of 3000-4000 level Biology
     - unrecognized: Biochemistry
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
   - **PSYC 3000**
     - unrecognized: Any 1000-level MATH course
-    - unrecognized: ;
-    - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+    - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
-  - **PSYC 2210**
-    - unrecognized: ; Declared Psychology major
-    - missing operator before '; Declared Psychology major', assumed and
 
 ### bs-chemistry (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
   - **CHEM 4100**
-    - unrecognized: Junior level status;
+    - unrecognized: Junior level status
     - unrecognized: chair
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
 
 ### bs-civil-engineering (undergraduate)
 
 - Build warnings:
-  - **CE 3201**
-    - unrecognized: Engineering Standing
-  - **CE 3501**
-    - unrecognized: Engineering Standing
-  - **CE 3702**
-    - unrecognized: Engineering Standing
   - **CE 3704**
     - unrecognized: concurrent registration
-  - **CE 4177**
-    - unrecognized: Engineering Standing
-  - **CE 4703**
-    - unrecognized: Engineering Standing
-  - **CE 4800**
-    - unrecognized: Engineering Standing
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3305**
-    - unrecognized: Engineering Standing Requirements
   - **ENGR 3324**
-    - unrecognized: Engineering Standing
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
-- Drafting warnings:
-  - unrecognized section 'CEDG 1 - Environmental Engineering'
-  - unrecognized section 'CEDG 2 - Geotechnical/Transportation Engineering'
-  - unrecognized section 'CEDG 3 - Other Engineering'
 
 ### bs-computer-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CPE 3000**
-    - unrecognized: Engineering Standing
-  - **CPE 3020**
-    - unrecognized: Engineering Standing
-  - **CPE 3030**
-    - unrecognized: Engineering Standing
-  - **CPE 3500**
-    - unrecognized: Engineering Standing
-  - **CPE 4010**
-    - unrecognized: Engineering Standing
-  - **CPE 4020**
-    - unrecognized: Engineering Standing
   - **CPE 4810**
     - unrecognized: Senior Status
-    - unrecognized: Engineering Standing
-  - **CPE 4820**
-    - unrecognized: Engineering Standing
-  - **CPE 4903**
-    - unrecognized: Engineering Standing
-  - **EE 4201**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
 
 ### bs-construction-management (undergraduate)
 
 - Build warnings:
+  - **CM 3310**
+    - missing operator before 'CM 3110', assumed and
   - **CM 4560**
     - missing operator before 'CM 3410', assumed and
   - **ECON 2105**
@@ -3501,152 +1385,70 @@
     - unrecognized: higher
   - **IS 2200**
     - unrecognized: higher
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-- Drafting warnings:
-  - unrecognized section 'General Construction - Commercial (GC/CM)'
-  - unrecognized section 'Heavy Civil Construction and Land Development'
-  - unrecognized section 'Specialty Trade Construction/Facilities Management'
-  - unrecognized section 'Residential Construction'
 
 ### bs-criminal-justice (undergraduate)
 
 - Build warnings:
   - **CRJU 4499**
-    - unrecognized: ;
-    - unrecognized: ; Criminal Justice Major;
-    - unrecognized: 90 credit hours
+    - could not parse (unexpected 'and'): CRJU 1101; CRJU 3301; Criminal Justice Major; and 90 credit hours
   - **SA 4490**
     - unrecognized: Varies with discipline
     - unrecognized: subject
   - **SPAN 2034**
     - unrecognized: One year of high school Spanish
     - unrecognized: the equivalent
-- Drafting warnings:
-  - unrecognized section 'Cultural Diversity (3 Credit Hours)'
 
 ### bs-cybersecurity (undergraduate)
 
 - Errors:
   - schema: courses/14/credits: '' does not match '^\\d+(-\\d+)?$'
 - Build warnings:
-  - **CYBR 2310**
-    - unrecognized: both with a grade of "C"
-    - unrecognized: higher
-    - ambiguous and/or precedence: IT 1114 and CSE 1321, both with a grade of "C" or higher
   - **CYBR 3100**
-    - unrecognized: admission to the Cybersecurity major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Undergraduate Cybersecurity Certificate
     - ambiguous and/or precedence: (CSE 1321 and CSE 1321L), and admission to the Cybersecurity major, Cybersecurity Minor, or Undergraduate Cybersecurity Certificate
   - **CYBR 3153**
-    - unrecognized: Cybersecurity major
     - ambiguous and/or precedence: (CSE 1322 and CSE 1322L) or IT 1113 or (IT 1114 and IT 1114L) and Cybersecurity major
   - **CYBR 3200**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: CYBR 3100 and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
   - **CYBR 3210**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: (CSE 1321 and CSE 1321L), and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
-  - **CYBR 3220**
-    - unrecognized: Cybersecurity Major
   - **CYBR 3223**
     - unrecognized: CSE 1321and
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: (CSE 1321and CSE 1321L) or IT 1113, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
     - missing operator before 'CSE 1321L', assumed and
   - **CYBR 3300**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: CYBR 3100, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
-  - **CYBR 3305**
-    - unrecognized: Cybersecurity Major
   - **CYBR 3397**
     - unrecognized line: 3, 6 or 9 Credit Hours
     - no credit hours found
-    - unrecognized: approval by the Career
     - unrecognized: Internship Advisor
   - **CYBR 3423**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 3123 or IT 3123, and Cybersecurity Major
-  - **CYBR 4200**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4220**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4305**
-    - unrecognized: Cybersecurity Major
   - **CYBR 4323**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 3123 or IT 3123, and Cybersecurity Major
   - **CYBR 4330**
-    - unrecognized: Cybersecurity Major
     - unrecognized: Cybersecurity Minor
-    - unrecognized: Cybersecurity Undergraduate Certificate
     - ambiguous and/or precedence: CYBR 3300, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
   - **CYBR 4333**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 4323 or IT 4323 and Cybersecurity Major
-  - **CYBR 4350**
-    - unrecognized: Cybersecurity Major
   - **CYBR 4423**
-    - unrecognized: Cybersecurity Major
     - ambiguous and/or precedence: CYBR 3423 or IT 3423, and Cybersecurity Major
-  - **CYBR 4810**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4833**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4843**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4853**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4883**
-    - unrecognized: Cybersecurity Major
-  - **CYBR 4893**
-    - unrecognized: Cybersecurity Major
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bs-early-childhood-education-birth-through-kindergarten (undergraduate)
 
 - Build warnings:
-  - **ECE 3575**
-    - unrecognized: Admission the Teacher Education
-  - **ECE 4525**
-    - unrecognized: ;
-    - missing operator before ';', assumed and
-    - missing operator before 'EDUC 2120', assumed and
-  - **ECE 4535**
-    - unrecognized: Admission into Teacher Education
-  - **ECE 4545**
-    - unrecognized: Admission to Teacher Education
-  - **ECE 4555**
-    - unrecognized: Admission to Teacher Education
   - **ECE 4650**
-    - unrecognized: Admission to Teacher Education
-    - unrecognized: Admission to the Yearlong Clinical Experience
-    - unrecognized: Issued Pre-Service Certificate
     - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
     - missing operator before 'Issued Pre-Service Certificate', assumed and
   - **ECE 4660**
-    - unrecognized: ; Eligibility to take GACE
-    - missing operator before '; Eligibility to take GACE', assumed and
+    - unrecognized: Eligibility to take GACE
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **ISCI 2001**
     - unrecognized: Completion of any four-hour laboratory science course at the 1000
@@ -3656,9 +1458,7 @@
     - unrecognized: 2000 level
   - **MATH 2008**
     - unrecognized: The completion of Mathematics
-    - unrecognized: Applied Math IMPACT Core courses with a minimum grade of "C"
-    - unrecognized: higher
-    - unrecognized: enrolled in one of the following majors: Elementary Education
+    - unrecognized: Applied Math IMPACT Core courses
     - unrecognized: Elementary Education
     - unrecognized: Interest
     - unrecognized: Early Childhood Birth to Kindergarten Traditional
@@ -3670,129 +1470,37 @@
 ### bs-electrical-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CPE 3020**
-    - unrecognized: Engineering Standing
-  - **CPE 3030**
-    - unrecognized: Engineering Standing
-  - **CPE 3500**
-    - unrecognized: Engineering Standing
-  - **CPE 4010**
-    - unrecognized: Engineering Standing
-  - **CPE 4903**
-    - unrecognized: Engineering Standing
-  - **EE 3501**
-    - unrecognized: Engineering Standing
-  - **EE 3601**
-    - unrecognized: Engineering Standing Requirements
-  - **EE 3605**
-    - unrecognized: Engineering Standing
-  - **EE 3701**
-    - unrecognized: Engineering Standing
-  - **EE 4201**
-    - unrecognized: Engineering Standing
-  - **ENGR 3250**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3410**
-    - unrecognized: Engineering Standing
-  - **ENGR 3411**
-    - unrecognized: Engineering Standing
-  - **ENGR 3412**
-    - unrecognized: Engineering Standing
-  - **ENGR 3501**
-    - unrecognized: Engineering Standing
-  - **ENGR 3601**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 3602**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 3603**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 3801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
-  - **ENGR 4601**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 4602**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 4603**
-    - unrecognized: Engineering Standing Requirements
-  - **ENGR 4604**
-    - unrecognized: Engineering Standing Requirements
-  - **ISYE 4500**
-    - unrecognized: Engineering Standing
-  - **MTRE 4610**
-    - unrecognized: Engineering Standing
   - **MTRE 4710**
-    - unrecognized: Engineering Standing Requirements
     - missing operator before 'MTRE 3110', assumed and
   - **PHYS 3230**
-    - unrecognized: Grades of "C"
-    - unrecognized: better in
-    - missing operator before 'PHYS 2212', assumed and
     - missing operator before 'PHYS 2212L', assumed and
-  - **PHYS 3710**
-    - unrecognized: Grade of "C"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
-  - **MTRE 3720**
-    - unrecognized: Engineering Standing
-  - **MTRE 3110**
-    - unrecognized: Engineering Standing
 
 ### bs-electrical-engineering-technology (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
   - **ECET 3410**
     - unrecognized: P
     - missing operator before 'PHYS 2212', assumed and
   - **ENGT 4901**
-    - unrecognized: for MET Majors
     - unrecognized: concurrently
-    - unrecognized: for EET Majors
     - missing operator before '(', assumed and
     - missing operator before 'for EET Majors', assumed and
 
 ### bs-elementary-education (undergraduate)
 
 - Build warnings:
-  - **ECE 3360**
-    - unrecognized: Admission to Teacher Education
   - **ECE 4408**
     - missing operator before 'EDUC 2130', assumed and
   - **ECE 4465**
     - unrecognized: Elementary Education
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **ECE 4650**
-    - unrecognized: Admission to Teacher Education
-    - unrecognized: Admission to the Yearlong Clinical Experience
-    - unrecognized: Issued Pre-Service Certificate
     - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
     - missing operator before 'Issued Pre-Service Certificate', assumed and
   - **ECE 4660**
-    - unrecognized: ; Eligibility to take GACE
-    - missing operator before '; Eligibility to take GACE', assumed and
+    - unrecognized: Eligibility to take GACE
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **HPE 3670**
-    - unrecognized: Admission to Teacher Education
   - **ISCI 2001**
     - unrecognized: Completion of any four-hour laboratory science course at the 1000
     - unrecognized: 2000 level
@@ -3801,9 +1509,7 @@
     - unrecognized: 2000 level
   - **MATH 2008**
     - unrecognized: The completion of Mathematics
-    - unrecognized: Applied Math IMPACT Core courses with a minimum grade of "C"
-    - unrecognized: higher
-    - unrecognized: enrolled in one of the following majors: Elementary Education
+    - unrecognized: Applied Math IMPACT Core courses
     - unrecognized: Elementary Education
     - unrecognized: Interest
     - unrecognized: Early Childhood Birth to Kindergarten Traditional
@@ -3815,134 +1521,41 @@
 ### bs-english-education (undergraduate)
 
 - Build warnings:
-  - **ENGL 3241**
-    - unrecognized: admission into the English Education program
+  - **EDUC 4610**
+    - unrecognized: Varies by program:
+  - **ENED 4650**
+    - missing operator before 'ENGL 3310', assumed and
+    - missing operator before 'ENGL 3391', assumed and
+    - missing operator before 'EDUC 4610', assumed and
   - **ENGL 3310**
-    - unrecognized: admission into the English Education
     - unrecognized: Secondary
-    - unrecognized: Middle Grades Language Arts program
     - ambiguous and/or precedence: ENGL 2271 and admission into the English Education or Secondary and Middle Grades Language Arts program
   - **ENGL 3311**
-    - unrecognized: admission to the English Education
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
-  - **ENGL 3391**
-    - unrecognized: admission into the English Education program
-- Drafting warnings:
-  - unrecognized section 'Cultural Studies of Literature (3 Credit Hours)'
-  - unrecognized section 'Studies in Pre-20th-Century Literature (3 Credit Hours)'
-  - unrecognized section 'Studies in 20th- and 21st-Century Literature (3 Credit Hours)'
-  - unrecognized section 'Yearlong Clinical Experience (24 Credit Hours)'
 
 ### bs-environmental-engineering (undergraduate)
 
 - Build warnings:
-  - **CE 3501**
-    - unrecognized: Engineering Standing
-  - **CE 3702**
-    - unrecognized: Engineering Standing
-  - **CE 3703**
-    - unrecognized: Engineering Standing
   - **CE 3704**
     - unrecognized: concurrent registration
-  - **CE 4343**
-    - unrecognized: Engineering Standing
-  - **CE 4353**
-    - unrecognized: Engineering Standing
-  - **CE 4363**
-    - unrecognized: Engineering Standing
-  - **CE 4373**
-    - unrecognized: Engineering Standing
-  - **CE 4383**
-    - unrecognized: Engineering Standing
-  - **CE 4703**
-    - unrecognized: Engineering Standing
-  - **CE 4704**
-    - unrecognized: Engineering Standing
-  - **CE 4708**
-    - unrecognized: Engineering Standing
-  - **CE 4800**
-    - unrecognized: Engineering Standing
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3305**
-    - unrecognized: Engineering Standing Requirements
   - **ENGR 3324**
-    - unrecognized: Engineering Standing
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
 
 ### bs-exercise-science (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ES 2200**
-    - unrecognized: Exercise Science Majors
   - **ES 2300**
-    - unrecognized: Exercise Science Major
     - unrecognized: Exercise Science Interest
     - unrecognized: Public Health Education Interest
-    - unrecognized: Public Health Education Major
     - unrecognized: Biomedical Engineering Minor
-    - unrecognized: Integrated Health Science Major
   - **ES 2500**
-    - unrecognized: Exercise Science Interest/ Major
-    - unrecognized: Public Health Education Interest/ Major
-    - unrecognized: Sport Management Major
-    - unrecognized: Integrated Health Science Major
     - unrecognized: Nutritional Science Minor
-  - **ES 3600**
-    - unrecognized: Exercise Science major;
   - **ES 3700**
-    - unrecognized: Exercise Science major;
     - unrecognized: Strength
     - unrecognized: Conditioning Laboratory
   - **ES 3750**
-    - unrecognized: Exercise Science Major
     - missing operator before 'BIOL 2251', assumed and
     - missing operator before 'ES 2300', assumed and
-  - **ES 3800**
-    - unrecognized: Exercise Science major
-  - **ES 3900**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'BIOL 2252', assumed and
-  - **ES 4200**
-    - unrecognized: Exercise Science major
-  - **ES 4300**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'ES 3900', assumed and
-  - **ES 4500**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'ES 3900', assumed and
-  - **ES 4550**
-    - unrecognized: Exercise Science major;
-    - missing operator before 'ES 3900', assumed and
-  - **ES 4600**
-    - unrecognized: Exercise Science major;
-  - **ES 4650**
-    - unrecognized: Exercise Science major;
-  - **ES 4700**
-    - unrecognized: Exercise Science major;
-  - **ES 4900**
-    - unrecognized: Exercise Science Major
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
 
 ### bs-financial-technologies (undergraduate)
 
@@ -3953,8 +1566,8 @@
     - unrecognized: higher
   - **IS 2200**
     - unrecognized: higher
-- Drafting warnings:
-  - unrecognized section 'Business Foundations (12 Credit Hours)'
+  - **ECON 2300**
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bs-geospatial-sciences (undergraduate)
 
@@ -3967,13 +1580,6 @@
     - unrecognized: Department Chair
   - **IS 2200**
     - unrecognized: higher
-  - **IS 3040**
-    - unrecognized: a Coles Partner Student
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
@@ -3983,59 +1589,29 @@
 
 - Build warnings:
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
   - **HPAL 3252**
     - unrecognized: Any General Education D1 core curriculum course
-  - **HPAL 3393**
-    - unrecognized: 90 credit hours completed
-  - **HPAL 3395**
-    - unrecognized: permission from the Coaching Coordinator
   - **HPAL 4900**
     - unrecognized: one Advanced Coaching Course
-    - unrecognized: Permission from the Coaching Coordinator
   - **HPE 3350**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued GaPSC Preservice Certificate
     - unrecognized: proof of liability insurance are required
   - **HPE 3450**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 3550**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 3625**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued GaPSC Preservice Certificate
     - unrecognized: proof of liability insurance are required
   - **HPE 3650**
-    - unrecognized: admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 4420**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 4430**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Preservice Certificate
   - **HPE 4850**
-    - unrecognized: Admission to the Health
-    - unrecognized: Physical Education Teacher Certification Concentration
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
-    - unrecognized: admission to student teaching
 
 ### bs-history-education (undergraduate)
 
@@ -4043,91 +1619,39 @@
   - **ECON 2106**
     - unrecognized: higher
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
   - **HIED 4550**
-    - unrecognized: Pre-Service Certificate
     - unrecognized: Coordinator
     - missing operator before 'Admission to Yearlong Clinical Experience, Permission of Program', assumed and
     - missing operator before 'Coordinator', assumed and
-  - **HIED 4650**
-    - unrecognized: Admission to Yearlong Clinical Experience
-    - unrecognized: Issued Pre-service Certificate
-  - **HIST 3100**
-    - unrecognized: Must have earned at least 30 credit hours
   - **HIST 3271**
     - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued PSC Pre-Service Certificate;
-    - unrecognized: ;
-  - **HIST 3304**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
-- Drafting warnings:
-  - unrecognized section 'American History (6 Credit Hours)'
-  - unrecognized section 'European History (3 Credit Hours)'
-  - unrecognized section 'Non-Western World Studies (6 Credit Hours)'
 
 ### bs-human-services (undergraduate)
 
 - Build warnings:
   - **HHS 3500**
-    - unrecognized: 60 credit hours;
-    - unrecognized: ; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
     - missing operator before 'permission of department', assumed and
   - **HHS 4800**
-    - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
     - missing operator before 'permission of the Department', assumed and
-  - **HS 2900**
-    - unrecognized: HS Majors
   - **HS 3100**
-    - unrecognized: HS major
-    - unrecognized: Non-major with
     - missing operator before 'permission of department', assumed and
-  - **HS 3110**
-    - unrecognized: Human Services major
   - **HS 3200**
-    - unrecognized: ; HS major
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3300**
-    - unrecognized: HS majors
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3400**
-    - unrecognized: HS majors
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3700**
-    - unrecognized: HS majors
-    - unrecognized: Non-majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3750**
-    - unrecognized: HS majors
-    - unrecognized: Non majors with
     - missing operator before 'permission of the department', assumed and
   - **HS 3900**
-    - unrecognized: HS majors
-    - unrecognized: Non majors with
     - missing operator before 'permission of the department', assumed and
-  - **HS 4900**
-    - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
-  - **HS 4910**
-    - unrecognized: HS Major
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **HS 3000**
-    - unrecognized: Human Services Majors only
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
@@ -4136,17 +1660,6 @@
 ### bs-industrial-engineering-technology (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3407**
-    - unrecognized: Engineering Standing
   - **IET 3424**
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
   - **IET 4135**
@@ -4155,54 +1668,15 @@
 ### bs-industrial-and-systems-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
   - **ENGR 1100**
     - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
-  - **ENGR 3250**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
-  - **ISYE 3100**
-    - unrecognized: Engineering Standing
-  - **ISYE 3125**
-    - unrecognized: Engineering Standing Requirements
-  - **ISYE 3150**
-    - unrecognized: Engineering Standing
-  - **ISYE 3200**
-    - unrecognized: Engineering Standing
-  - **ISYE 3300**
-    - unrecognized: Engineering Standing
-  - **ISYE 3350**
-    - unrecognized: Engineering Standing
-  - **ISYE 3450**
-    - unrecognized: Engineering Standing
-  - **ISYE 4250**
-    - unrecognized: Engineering Standing
-  - **ISYE 4425**
-    - unrecognized: Engineering Standing
-  - **ISYE 4500**
-    - unrecognized: Engineering Standing
   - **ISYE 4901**
-    - unrecognized: Engineering Standing
     - unrecognized: Senior Status
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
 
 ### bs-integrated-health-science (undergraduate)
 
 - Build warnings:
   - **COMM 3320**
-    - unrecognized: Must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: 30+ credit hours
-    - unrecognized: permission from the School of Communication
     - unrecognized: Media
   - **ECON 3478**
     - unrecognized: Any 1000 level MATH
@@ -4212,65 +1686,45 @@
     - unrecognized: 3000 ECON course
     - ambiguous and/or precedence: Any 1000 level MATH or STAT course, and Any 1000, 2000, or 3000 ECON course
   - **HHS 3500**
-    - unrecognized: 60 credit hours;
-    - unrecognized: ; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
     - missing operator before 'permission of department', assumed and
   - **HHS 4800**
-    - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
     - unrecognized: Human Services
-    - unrecognized: Non-majors with
-    - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+    - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
     - missing operator before 'permission of the Department', assumed and
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
-  - **HS 4900**
-    - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
-  - **IHS 4760**
-    - unrecognized: 90 credit hours
 
 ### bs-interactive-design (undergraduate)
 
 - Build warnings:
   - **ART 1100**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
   - **ART 1150**
     - unrecognized: This course is for students who have passed the portfolio requirement
-    - unrecognized: been accepted into the School of Art
-    - unrecognized: Design with majors in BFA Art
     - unrecognized: Including students in the Art Education concentration
-    - unrecognized: ; BFA Digital Animation;
-    - unrecognized: BS Interactive Design majors
+    - missing operator before '(', assumed and
+    - unrecognized: BFA Digital Animation
     - unrecognized: only
     - missing operator before 'only', assumed and
-  - **TCID 4700**
-    - unrecognized: 90+ credit hours
+    - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 
 ### bs-interdisciplinary-studies (undergraduate)
 
 - Build warnings:
-  - **ISD 4498**
-    - unrecognized: completion of at least 90 credit hours
-- Drafting warnings:
-  - unrecognized section 'Introduction to Interdisciplinary Studies (3 Credit Hours)'
-  - unrecognized section 'Introduction to Interdisciplinary Thinking (3 Credit Hours)'
-  - unrecognized section 'Interdisciplinarity in the Workplace and Society (3 Credit Hours)'
-  - unrecognized section 'Foundations (3 Credit Hours)'
-  - unrecognized section 'Literacy (3 Credit Hours)'
-  - unrecognized section 'Critical Inquiry (3 Credit Hours)'
-  - unrecognized section 'Engaged Learning (3 Credit Hours)'
-  - unrecognized section 'Gender, Race, and Culture'
-  - unrecognized section 'Leadership, Community, and Justice'
-  - unrecognized section 'Science, Technology, and Society'
+  - **ISD 4497**
+    - empty description
+    - unrecognized: Any B2: Cultural Perspectives course
+  - **SA 4490**
+    - unrecognized: Varies with discipline
+    - unrecognized: subject
 
 ### bs-journalism-and-emerging-media (undergraduate)
 
@@ -4285,50 +1739,56 @@
     - unrecognized: Entertainment
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
     - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
     - missing operator before 'B.S. major', assumed and
-  - **JOUR 3360**
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-  - **JOUR 3820**
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
-    - missing operator before 'must be a declared major in the School of Communication & Media. Non-majors: permission of the School required', assumed and
-  - **JOUR 3900**
-    - unrecognized: Must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+  - **COMM 3320**
+    - unrecognized: Media
+  - **COMM 3350**
+    - unrecognized: Media
+  - **JOUR 3395**
+    - could not parse (per-major clauses): COMM 2230;and 30 credit hours; and must be a declared major in the School of Communication and Media. Non-majors: Permission of the School required
   - **JOUR 4100**
-    - unrecognized: &nbsp;
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+    - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
   - **JOUR 4300**
-    - unrecognized: permission of instruction
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
     - ambiguous and/or precedence: JOUR 3330 or permission of instruction and must be a declared major in the School of Communication and Media. Non-majors: Permission of the School required
-  - **JOUR 4410**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
   - **JOUR 4412**
-    - unrecognized: ; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
-  - **JOUR 4420**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
+    - could not parse (per-major clauses): JOUR 3330, and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4445**
-    - unrecognized: 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4450**
-    - unrecognized: ; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4470**
-    - unrecognized: ; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-    - missing operator before '; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required', assumed and
+    - could not parse (per-major clauses): COMM 2230 and POLS 1101; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **JOUR 4488**
     - unrecognized: 90
-    - unrecognized: more credit hours
-    - unrecognized: must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
     - ambiguous and/or precedence: JOUR 3700, JOUR 4100, and 90 or more credit hours, and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
-- Drafting warnings:
-  - unrecognized section 'Advanced Journalism Professional Practice (3 Credit Hours)'
-  - unrecognized section 'Related Studies (3 Credit Hours)'
+  - **MENT 3326**
+    - unrecognized: Media
+  - **MENT 4424**
+    - unrecognized: Media
+  - **MENT 4425**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4436**
+    - unrecognized: Media
+  - **MENT 4464**
+    - unrecognized: Media
+  - **ORGC 3459**
+    - unrecognized: Media
+  - **ORGC 4470**
+    - unrecognized: Media
+  - **PR 4605**
+    - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 
 ### bs-learning-design-and-technology (undergraduate)
 
@@ -4338,7 +1798,6 @@
   - **LDT 4600**
     - unrecognized: Declared Bachelor of Science in Learning
     - unrecognized: Design
-    - unrecognized: Technology major.
     - unrecognized: is required
     - missing operator before 'Permission of the LDT program coordinator', assumed and
     - missing operator before 'is required', assumed and
@@ -4346,20 +1805,7 @@
 ### bs-mathematics (undergraduate)
 
 - Build warnings:
-  - **FIN 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: Admission as a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-  - **IS 3100**
-    - unrecognized: Earned grade of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-  - **ISYE 4500**
-    - unrecognized: Engineering Standing
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
   - **ECON 2105**
     - unrecognized: higher
@@ -4368,126 +1814,27 @@
   - **IS 2200**
     - unrecognized: higher
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bs-mechanical-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3125**
-    - unrecognized: Engineering Standing
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
-  - **ENGR 3501**
-    - unrecognized: Engineering Standing
-  - **ENGR 3502**
-    - unrecognized: Engineering Standing
-  - **ENGR 3801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 3802**
-    - unrecognized: Engineering Standing
-  - **ENGR 3803**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4402**
-    - unrecognized: Engineering Standing
-  - **ENGR 4501**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4502**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4503**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4504**
-    - unrecognized: Engineering Standing
-  - **ENGR 4801**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4802**
-    - unrecognized: & Engineering Standing
-    - missing operator before '& Engineering Standing', assumed and
-  - **ENGR 4803**
-    - unrecognized: Engineering Standing
-  - **MATH 2335**
-    - unrecognized: A grade of 'C'
-    - unrecognized: higher in
-    - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
-  - **ME 3343**
-    - unrecognized: Engineering Standing
-  - **ME 3410**
-    - unrecognized: Engineering Standing
-  - **ME 3440**
-    - unrecognized: Engineering Standing
-  - **ME 3501**
-    - unrecognized: Engineering Standing
-  - **ME 3701**
-    - unrecognized: Engineering Standing
-  - **ME 3705**
-    - unrecognized: Engineering Standing
-  - **ME 4141**
-    - unrecognized: Engineering Standing
-  - **ME 4201**
-    - unrecognized: Engineering Standing
-  - **ME 4202**
-    - unrecognized: Engineering Standing
-  - **ME 4250**
-    - unrecognized: Engineering Standing
-  - **ME 4403**
-    - unrecognized: Engineering Standing
   - **ME 4501**
     - unrecognized: can be taken concurrently
-    - unrecognized: Engineering Standing
-  - **ME 4520**
-    - unrecognized: Engineering Standing
 
 ### bs-mechanical-engineering-technology (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
   - **EDG 3112**
-    - unrecognized: MET majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET majors or department approval, and EDG 1212
   - **EDG 4111**
-    - unrecognized: MET majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET majors or department approval, and EDG 1211
   - **EDG 4222**
-    - unrecognized: MET majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET majors and or department approval, EDG 1212
     - missing operator before 'EDG 1212', assumed and
     - could not parse (unexpected 'or'): MET majors and or department approval, EDG 1212
-  - **ENGR 3325**
-    - unrecognized: Engineering Standing
-  - **ENGR 3407**
-    - unrecognized: Engineering Standing
   - **ENGT 4901**
-    - unrecognized: for MET Majors
     - unrecognized: concurrently
-    - unrecognized: for EET Majors
     - missing operator before '(', assumed and
     - missing operator before 'for EET Majors', assumed and
   - **IET 3424**
@@ -4497,45 +1844,15 @@
   - **MET 2124**
     - ambiguous and/or precedence: (MATH 1190 or (MATH 1179 and MATH 1189)) and (PHYS 1111 and PHYS 1111L) or (PHYS 2211 and PHYS 2211L)
   - **MET 3332**
-    - unrecognized: MET Majors
-    - unrecognized: department approval
     - ambiguous and/or precedence: MET Majors and EDG 1212, or department approval
 
 ### bs-mechatronics-engineering (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENGR 3410**
-    - unrecognized: Engineering Standing
-  - **ENGR 3411**
-    - unrecognized: Engineering Standing
-  - **ENGR 3412**
-    - unrecognized: Engineering Standing
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
-  - **MTRE 2710**
-    - unrecognized: to
-    - unrecognized: higher
-  - **MTRE 3110**
-    - unrecognized: Engineering Standing
-  - **MTRE 3610**
-    - unrecognized: Engineering Standing
-  - **MTRE 3720**
-    - unrecognized: Engineering Standing
-  - **MTRE 3810**
-    - unrecognized: Engineering Standing
   - **MTRE 4710**
-    - unrecognized: Engineering Standing Requirements
     - missing operator before 'MTRE 3110', assumed and
-  - **MTRE 4810**
-    - unrecognized: Engineering Standing
-  - **MTRE 4820**
-    - unrecognized: Engineering Standing Requirements
 
 ### bs-media-and-entertainment (undergraduate)
 
@@ -4550,18 +1867,71 @@
     - unrecognized: Entertainment
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
     - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
     - missing operator before 'B.S. major', assumed and
-- Drafting warnings:
-  - unrecognized section 'Context (6 Credit Hours)'
-  - unrecognized section 'Methods (6 Credit Hours)'
-  - unrecognized section 'Storytelling (6 Credit Hours)'
-  - unrecognized section 'Culminating (3 Credit Hours)'
-  - unrecognized section 'Professional Development (3 Credit Hours)'
-  - unrecognized section 'Photography & Design Production (6 Credit Hours)'
-  - unrecognized section 'Film & Video Production (6 Credit Hours)'
-  - unrecognized section 'Audio Production (6 Credit Hours)'
+  - **COMM 4200**
+    - unrecognized: School Director
+    - unrecognized: Media
+  - **JOUR 4100**
+    - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+  - **JOUR 4445**
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+  - **JOUR 4450**
+    - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+  - **MENT 3200**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2135 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 3326**
+    - unrecognized: Media
+  - **MENT 4424**
+    - unrecognized: Media
+  - **MENT 4425**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4435**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2020 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4454**
+    - unrecognized: Media
+  - **MENT 4464**
+    - unrecognized: Media
+  - **MENT 4485**
+    - unrecognized: Media
+    - unrecognized: Entertainment
+  - **PR 4605**
+    - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
+  - **MEBU 2270**
+    - unrecognized: class instructor
 
 ### bs-middle-grades-education (undergraduate)
 
@@ -4575,8 +1945,6 @@
   - **EDMG 4404**
     - unrecognized: successful completion of all teaching field courses
   - **EDMG 4650**
-    - unrecognized: Pre-service certification
-    - unrecognized: Admission to Yearlong Clinical Experience
     - missing operator before 'INED 4431', assumed and
     - unrecognized: Two of the following:
     - missing operator before 'EDMG 4401', assumed and
@@ -4590,47 +1958,57 @@
     - missing operator before 'EDMG 4402', assumed and
     - missing operator before 'EDMG 4403', assumed and
     - missing operator before 'EDMG 4404', assumed and
+  - **EDSM 3000K**
+    - unrecognized: Any science course from Technology
+    - unrecognized: Mathematics
+    - unrecognized: Sciences in the General Education Core Curriculum
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **HIST 3305**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3366**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3367**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3373**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3374**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3382**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3391**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 3392**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **HIST 4391**
-    - unrecognized: Must have earned at least 45 credit hours
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
+  - **ENGL 2390**
+    - unrecognized: Any 1000
+    - unrecognized: 2000 level ENGL course
+  - **ISCI 2002**
+    - unrecognized: Completion of any four-hour laboratory science course at the 1000
+    - unrecognized: 2000 level
+  - **MAED 1190**
+    - unrecognized: The successful completion of two 1000
+    - unrecognized: 2000 level MATH
+    - unrecognized: STAT courses
+  - **MAED 2390**
+    - unrecognized: The successful completion of two 1000
+    - unrecognized: 2000 level MATH
+    - unrecognized: STAT courses
+  - **SCI 3360**
+    - unrecognized: any two 1000-level
+    - unrecognized: 2000-level science courses
   - **EDMG 4408**
     - unrecognized: successful completion of all teaching field courses
-- Drafting warnings:
-  - unrecognized section 'Primary Field (6 Credit Hours)'
-  - unrecognized section 'Secondary Field (3 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (3 Credit Hours)'
 
 ### bs-organizational-and-professional-communication (undergraduate)
 
 - Build warnings:
+  - **COMM 3320**
+    - unrecognized: Media
+  - **MENT 3326**
+    - unrecognized: Media
+  - **MENT 4424**
+    - unrecognized: Media
+  - **MENT 4425**
+    - unrecognized: Journalism
+    - unrecognized: Emerging Media
+    - unrecognized: B.S.
+    - unrecognized: Media
+    - unrecognized: Entertainment
+    - unrecognized: B.S.
+    - unrecognized: Organizational
+    - unrecognized: Professional Communication
+    - unrecognized: B.S.
+    - unrecognized: Public Relations
+    - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+    - missing operator before 'B.S. major.', assumed and
+  - **MENT 4434**
+    - could not parse (per-major clauses): MENT 3100; must be a declared major in the School of Communication and Media. Non-majors: permission of the instructor
   - **ORGC 2025**
-    - unrecognized: Must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: 30+ credit hours
-    - unrecognized: permission from the School of Communication
     - unrecognized: Media
   - **ORGC 2245**
     - unrecognized: Journalism
@@ -4643,14 +2021,14 @@
     - unrecognized: Professional Communication
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
-    - unrecognized: 30 credit hours completed
     - ambiguous and/or precedence: (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major) and 30 credit hours completed
     - missing operator before 'B.S. major', assumed and
-  - **ORGC 2276**
-    - unrecognized: Must have earned at least 30 credit hours
-  - **ORGC 3325**
-    - unrecognized: 60+ credit hours
+  - **ORGC 3459**
+    - unrecognized: Media
+  - **ORGC 4344**
+    - could not parse (per-major clauses): ORGC 2025,and 60+ hours; must be a declared major in the School of Communication and Media. Non-majors: Permission of the School of Communication & Media
+  - **ORGC 4440**
+    - unrecognized: Media
   - **ORGC 4455**
     - unrecognized: Journalism
     - unrecognized: Emerging Media
@@ -4662,107 +2040,39 @@
     - unrecognized: Professional Communication
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
-    - unrecognized: 90 credit hours completed
     - ambiguous and/or precedence: COMM 3435 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major) and 90 credit hours completed
     - missing operator before 'B.S. major', assumed and
-- Drafting warnings:
-  - unrecognized section 'Organizational and Team Communication'
-  - unrecognized section 'Political and Civic Communication'
-  - unrecognized section 'Technology and Communication'
-  - unrecognized section 'Health Communication'
 
 ### bs-physics (undergraduate)
 
 - Build warnings:
-  - **EE 3701**
-    - unrecognized: Engineering Standing
-  - **EE 4201**
-    - unrecognized: Engineering Standing
-  - **ENGR 3343**
-    - unrecognized: Engineering Standing
-  - **ENGR 3345**
-    - unrecognized: Engineering Standing
-  - **ME 4141**
-    - unrecognized: Engineering Standing
-  - **PHYS 3220**
-    - unrecognized: Grades of "C"
-    - unrecognized: better in
-    - ambiguous and/or precedence: Grades of "C" or better in MATH 2203, MATH 2306, PHYS 2212 and PHYS 2212L
-  - **PHYS 3260**
-    - unrecognized: Grade of 'C'
-    - unrecognized: better in
-    - ambiguous and/or precedence: Grade of 'C' or better in MATH 2202, and PHYS 2212
-  - **PHYS 3410K**
-    - unrecognized: Grades of "C"
-    - unrecognized: better in
-    - ambiguous and/or precedence: Grades of "C" or better in PHYS 2212 and PHYS 2212L
-  - **PHYS 3500K**
-    - unrecognized: Grades of "C"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: Grades of "C" or higher in PHYS 2212 and PHYS 2212L
-  - **PHYS 3710**
-    - unrecognized: Grade of "C"
-    - unrecognized: higher in
-    - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-
-### bs-political-science (undergraduate)
-
-- Drafting warnings:
-  - unrecognized section 'Senior Seminar (3 Credit Hours)'
-  - unrecognized section 'Subfield 1: American Government and Politics'
-  - unrecognized section 'Subfield 2: Political Behavior'
-  - unrecognized section 'Subfield 3: International Relations'
-  - unrecognized section 'Subfield 4: Comparative Politics'
-  - unrecognized section 'Subfield 5: Political Theory'
-  - unrecognized section 'Subfield 6: Public Law and Administration'
-  - unrecognized section 'Subfield 7: Research Methods'
 
 ### bs-psychology (undergraduate)
 
 - Build warnings:
-  - **PSYC 2210**
-    - unrecognized: ; Declared Psychology major
-    - missing operator before '; Declared Psychology major', assumed and
   - **PSYC 3000**
     - unrecognized: Any 1000-level MATH course
-    - unrecognized: ;
-    - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
-- Drafting warnings:
-  - unrecognized section 'Diversity and Multicultural Area (3 Credit Hours)'
-  - unrecognized section 'Personality and Social Area (3 Credit Hours)'
-  - unrecognized section 'Biological Bases Area (3 Credit Hours)'
-  - unrecognized section 'Learning and Cognition Area (3 Credit Hours)'
-  - unrecognized section 'Mental Health and Well-Being (3 Credit Hours)'
+    - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+  - **PSYC 4430**
+    - unrecognized: One 3000-level psychology course
+  - **PSYC 4440**
+    - unrecognized: One 3000-level psychology course
 
 ### bs-public-health (undergraduate)
 
 - Build warnings:
   - **HPAL 2250**
     - unrecognized: Any General Education D2 core curriculum course
-  - **PH 3850**
-    - unrecognized: Public Health major
-- Drafting warnings:
-  - unrecognized section 'Public Health Internship (6 or 9 Credit Hours)'
 
 ### bs-public-relations (undergraduate)
 
 - Build warnings:
-  - **PR 3355**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
-  - **PR 3375**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
-  - **PR 3380**
-    - unrecognized: must be a declared major in the School of Communication
-    - unrecognized: Media. Non-majors: Permission of the School required
+  - **COMM 3350**
+    - unrecognized: Media
+  - **JOUR 4470**
+    - could not parse (per-major clauses): COMM 2230 and POLS 1101; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
   - **PR 4465**
     - unrecognized: Journalism
     - unrecognized: Emerging Media
@@ -4774,14 +2084,10 @@
     - unrecognized: Professional Communication
     - unrecognized: B.S.
     - unrecognized: Public Relations
-    - unrecognized: B.S. major
-    - unrecognized: 90 credit hours completed
     - ambiguous and/or precedence: PR 3365 and PR 3375 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major) and 90 credit hours completed
     - missing operator before 'B.S. major', assumed and
-- Drafting warnings:
-  - unrecognized section 'Context'
-  - unrecognized section 'Skills'
-  - unrecognized section 'Related Studies (3 Credit Hours)'
+  - **PR 4605**
+    - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 
 ### bs-sociology (undergraduate)
 
@@ -4791,7 +2097,6 @@
     - unrecognized: subject
   - **SOCI 4405**
     - unrecognized: 60 hours
-    - unrecognized: Declared student in WIRC Certificate Program
 
 ### bs-sport-management (undergraduate)
 
@@ -4800,74 +2105,46 @@
     - unrecognized: higher
   - **SM 2200**
     - unrecognized: Sport Management Interest
-    - unrecognized: Sport Management Major
   - **SM 2400**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 3000**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 3050**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 3100**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 3200**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 3500**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 3850**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 4800**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - missing operator before 'B.S. major', assumed and
   - **SM 4850**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
   - **SM 4875**
     - unrecognized: Sport Management
-    - unrecognized: B.S. major
     - unrecognized: Community Sport Minor
-  - **SM 4925**
-    - unrecognized: 90 credit hours completed
-- Drafting warnings:
-  - unrecognized section 'Sport Management Senior Experience (6 Credit Hours)'
 
 ### bscgdd-computer-game-design-and-development (undergraduate)
 
 - Build warnings:
-  - **MGT 3100**
-    - unrecognized: Grades of "B"
-    - unrecognized: higher in
-    - unrecognized: a Coles Partner Student
-    - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-  - **MGT 4185**
-    - unrecognized: a Coles Partner Student
   - **ECON 2105**
     - unrecognized: higher
   - **ECON 2106**
     - unrecognized: higher
-  - **MGT 3200**
-    - unrecognized: a Coles Partner Student
   - **ECON 2300**
-    - unrecognized: Business Majors:
-    - unrecognized: ; Non-business Majors:
-    - missing operator before 'MATH 1111', assumed and
-    - missing operator before '; Non-business Majors:', assumed and
-    - missing operator before 'MATH 1101', assumed and
+    - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 
 ### bses-environmental-science (undergraduate)
 
@@ -4876,75 +2153,43 @@
     - ambiguous and/or precedence: BIOL 3370 and BIOL 3370L or permission of the instructor
   - **BIOL 4322**
     - could not parse (unexpected ')'): BIOL 1108 and BIOL 1108L)
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-  - **ENVS 4399**
-    - unrecognized: Environmental Science Major
-    - unrecognized: 90+ Credit Hours
   - **GEOL 1121K**
-    - unrecognized: A grade of 'C'
-    - unrecognized: better in any two 1000-level
+    - unrecognized: any two 1000-level
     - unrecognized: 2000-level science courses
   - **GIS 4415**
-    - unrecognized: permission of the Geospatial Sciences
     - unrecognized: GSS
     - unrecognized: Internship Coordinator
     - missing operator before '(', assumed and
     - missing operator before 'Internship Coordinator', assumed and
   - **SCM 2000**
-    - unrecognized: A declared major within the College of Science
     - unrecognized: Mathematics
 
 ### bsed-secondary-education (undergraduate)
 
 - Build warnings:
   - **EDUC 4610**
-    - unrecognized: Admission to teacher education
-    - unrecognized: an issued pre-service certificate
     - unrecognized: Varies by program:
-  - **INED 3300**
-    - unrecognized: Admission to Teacher Education
-  - **ARED 4650**
-    - unrecognized: EPP
-    - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
-  - **ARED 4410**
-    - unrecognized: EPP
-    - unrecognized: current teacher liability insurance
-    - unrecognized: a currently issued GaPSC Pre-Service Certification
-  - **SCED 4650**
-    - unrecognized: Admission to Yearlong Clinical Experience
-    - unrecognized: Pre-Service Certificate
-  - **SCED 4424**
-    - unrecognized: ; obtain pre-service certificate
-    - missing operator before '; obtain pre-service certificate', assumed and
-- Drafting warnings:
-  - unrecognized section 'Teaching Field Courses (9 Credit Hours)'
-  - unrecognized section 'Teaching Field Professional Education (19-20 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (31 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (31 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (32 Credit Hours)'
-  - unrecognized section 'Teaching Field Courses (31 Credit Hours)'
+  - **MAED 3475**
+    - unrecognized: Graduation Criteria
+  - **MAED 4414**
+    - unrecognized: two of the following three:
+    - ambiguous and/or precedence: Admission to Teacher Education, EDUC 2120, MATH 2203, and two of the following three: STAT 2332, MATH 2390 or MATH 3260
+  - **MAED 4424**
+    - empty description
+  - **MAED 4660**
+    - unrecognized: eligibility to take GACE
+  - **SCED 4660**
+    - unrecognized: eligibility to take GACE
+    - missing operator before 'eligibility to take GACE', assumed and
+  - **SCI 3360**
+    - unrecognized: any two 1000-level
+    - unrecognized: 2000-level science courses
+  - **EDSM 4414**
+    - missing operator before ': Obtain Pre-Service Certificate', assumed and
 
 ### bsit-information-technology (undergraduate)
 
 - Build warnings:
-  - **IT 3203**
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - unrecognized: with 'C'
-    - unrecognized: better
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
-    - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
   - **IT 3883**
     - unrecognized: minimum grade of 'C'
     - unrecognized: minimum grade of 'C'
@@ -4956,177 +2201,73 @@
 ### bsn-nursing (undergraduate)
 
 - Build warnings:
-  - **CHEM 1211L**
-    - unrecognized: to
-    - unrecognized: higher
   - **NURS 3101**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3102**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3103**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3104**
     - unrecognized: Nursing
-    - unrecognized: BSN Major
     - missing operator before 'BSN Major', assumed and
   - **NURS 3105**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
   - **NURS 3106**
     - unrecognized: Nursing
-    - unrecognized: BSN major
     - missing operator before 'BSN major', assumed and
-  - **CHEM 1211**
-    - unrecognized: to
-    - unrecognized: higher
-  - **CHEM 1212**
-    - unrecognized: to
-    - unrecognized: higher
-
-### bsswe-software-engineering (undergraduate)
-
-- Drafting warnings:
-  - unrecognized section 'List 1'
-  - unrecognized section 'List 2'
 
 ## Courses holding the most majors
 
-- **CHEM 1211**: 19 majors (bs-aerospace-engineering, bs-biochemistry, bs-biology, bs-chemistry, bs-civil-engineering, bs-computer-engineering, bs-electrical-engineering, bs-electrical-engineering-technology, bs-environmental-engineering, bs-exercise-science, bs-industrial-and-systems-engineering, bs-industrial-engineering-technology, bs-mechanical-engineering, bs-mechanical-engineering-technology, bs-mechatronics-engineering, bs-physics, bses-environmental-science, bsn-nursing, msce-civil-engineering)
-  - unrecognized: to
-  - unrecognized: higher
 - **ECON 2106**: 19 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-financial-technologies, bs-geospatial-sciences, bs-history-education, bs-human-services, bs-mathematics, bs-sport-management, bscgdd-computer-game-design-and-development)
-  - unrecognized: higher
-- **CHEM 1211L**: 17 majors (bs-aerospace-engineering, bs-biochemistry, bs-biology, bs-chemistry, bs-civil-engineering, bs-computer-engineering, bs-electrical-engineering, bs-electrical-engineering-technology, bs-environmental-engineering, bs-exercise-science, bs-industrial-and-systems-engineering, bs-industrial-engineering-technology, bs-mechanical-engineering, bs-mechanical-engineering-technology, bs-mechatronics-engineering, bses-environmental-science, bsn-nursing)
-  - unrecognized: to
   - unrecognized: higher
 - **ECON 2105**: 17 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-financial-technologies, bs-geospatial-sciences, bs-human-services, bs-mathematics, bscgdd-computer-game-design-and-development)
   - unrecognized: higher
 - **IS 2200**: 15 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-financial-technologies, bs-geospatial-sciences, bs-learning-design-and-technology, bs-mathematics)
   - unrecognized: higher
-- **MGT 3100**: 14 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-construction-management, bs-human-services, bscgdd-computer-game-design-and-development)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
-- **CHEM 1212**: 13 majors (bs-aerospace-engineering, bs-biochemistry, bs-biology, bs-chemistry, bs-civil-engineering, bs-environmental-engineering, bs-exercise-science, bs-industrial-and-systems-engineering, bs-industrial-engineering-technology, bs-mechanical-engineering, bses-environmental-science, bsn-nursing, msce-civil-engineering)
-  - unrecognized: to
-  - unrecognized: higher
-- **ECON 2300**: 13 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-cybersecurity, bs-mathematics, bscgdd-computer-game-design-and-development)
-  - unrecognized: Business Majors:
-  - unrecognized: ; Non-business Majors:
-  - missing operator before 'MATH 1111', assumed and
-  - missing operator before '; Non-business Majors:', assumed and
-  - missing operator before 'MATH 1101', assumed and
-- **FIN 3100**: 11 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-mathematics)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: Admission as a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
-- **IS 3100**: 11 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-geospatial-sciences, bs-mathematics)
-  - unrecognized: Earned grade of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
-- **MKTG 3100**: 11 majors (ba-asian-studies, ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: a Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
-- **MGT 3200**: 10 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bscgdd-computer-game-design-and-development)
-  - unrecognized: a Coles Partner Student
-- **BUSA 3150**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
-- **BUSA 4000**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: BBA Major
-  - unrecognized: Coles Partner Student
-- **ECON 3200**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: Grades of "B"
-  - unrecognized: higher in
-  - unrecognized: BBA Major
-  - unrecognized: Coles Partner Student
-  - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
-- **ECON 3300**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
-  - unrecognized: a Coles Partner Student
-- **EDUC 4610**: 9 majors (ba-modern-language-and-culture, bfa-art, bm-music-education, bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education, bs-health-and-physical-activity-leadership, bs-history-education, bs-middle-grades-education, bsed-secondary-education)
-  - unrecognized: Admission to teacher education
-  - unrecognized: an issued pre-service certificate
+- **ECON 2300**: 14 majors (ba-modern-language-and-culture, bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales, bs-cybersecurity, bs-financial-technologies, bs-mathematics, bscgdd-computer-game-design-and-development)
+  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
+- **EDUC 4610**: 10 majors (ba-modern-language-and-culture, bfa-art, bm-music-education, bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education, bs-english-education, bs-health-and-physical-activity-leadership, bs-history-education, bs-middle-grades-education, bsed-secondary-education)
   - unrecognized: Varies by program:
 - **MGT 4199**: 9 majors (bba-accounting, bba-economics, bba-entrepreneurship, bba-finance, bba-hospitality-management, bba-information-systems, bba-management, bba-marketing, bba-professional-sales)
   - unrecognized: . This course is taken in the last
-  - unrecognized: next-to-last semester in the B.B.A. program
   - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
-- **ENGR 3325**: 6 majors (bs-aerospace-engineering, bs-computer-engineering, bs-electrical-engineering, bs-industrial-and-systems-engineering, bs-mechanical-engineering, bs-mechanical-engineering-technology)
-  - unrecognized: Engineering Standing
-- **ITEC 7400**: 6 majors (edd-instructional-technology, eds-instructional-technology, eds-special-education, mat-teaching, med-instructional-technology, med-literacy-education)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **EDRS 8100**: 5 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education, edd-teacher-leadership, eds-secondary-and-middle-grades-education)
-  - unrecognized: Admission to graduate study in Education
-- **EDRS 8200**: 5 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education, edd-teacher-leadership, eds-secondary-and-middle-grades-education)
-  - unrecognized: Admission to graduate study in Education
-- **EDUC 8100**: 5 majors (edd-instructional-technology, edd-secondary-and-middle-grades-education, eds-instructional-technology, eds-secondary-and-middle-grades-education, eds-special-education)
-  - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-  - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-  - empty description
-- **SCM 2000**: 5 majors (bs-biology, bs-chemistry, bs-mathematics, bs-physics, bses-environmental-science)
-  - unrecognized: A declared major within the College of Science
+- **SCM 2000**: 6 majors (bs-biochemistry, bs-biology, bs-chemistry, bs-mathematics, bs-physics, bses-environmental-science)
   - unrecognized: Mathematics
+- **SA 4490**: 5 majors (ba-asian-studies, ba-theatre-and-performance-studies, bs-criminal-justice, bs-interdisciplinary-studies, bs-sociology)
+  - unrecognized: Varies with discipline
+  - unrecognized: subject
 - **EDRS 9100**: 4 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education, edd-teacher-leadership)
   - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
-- **ENGR 3343**: 4 majors (bs-civil-engineering, bs-environmental-engineering, bs-physics, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3345**: 4 majors (bs-civil-engineering, bs-environmental-engineering, bs-mechanical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ENGR 4402**: 4 majors (bs-computer-engineering, bs-electrical-engineering, bs-industrial-and-systems-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
 - **HPAL 2250**: 4 majors (bs-health-and-physical-activity-leadership, bs-integrated-health-science, bs-mechatronics-engineering, bs-public-health)
   - unrecognized: Any General Education D2 core curriculum course
-- **INED 3300**: 4 majors (ba-modern-language-and-culture, bs-history-education, bs-middle-grades-education, bsed-secondary-education)
-  - unrecognized: Admission to Teacher Education
 - **ART 1100**: 3 majors (bfa-art, bfa-digital-animation, bs-interactive-design)
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
-  - unrecognized: ; BFA Digital Animation;
-  - unrecognized: BS Interactive Design majors
+  - missing operator before '(', assumed and
+  - unrecognized: BFA Digital Animation
   - unrecognized: only
   - missing operator before 'only', assumed and
+  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 - **ART 1150**: 3 majors (bfa-art, bfa-digital-animation, bs-interactive-design)
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
-  - unrecognized: ; BFA Digital Animation;
-  - unrecognized: BS Interactive Design majors
+  - missing operator before '(', assumed and
+  - unrecognized: BFA Digital Animation
   - unrecognized: only
   - missing operator before 'only', assumed and
+  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 - **BUSA 3500**: 3 majors (bba-entrepreneurship, bba-hospitality-management, bba-management)
-  - unrecognized: 60 credit hours with a minimum GPA of 2.0
-  - unrecognized: student in a Coles College Partner Program that includes this course
   - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-- **CE 3501**: 3 majors (bs-civil-engineering, bs-environmental-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **CE 3702**: 3 majors (bs-civil-engineering, bs-environmental-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **CS 5000**: 3 majors (ms-artificial-intelligence, ms-computer-science, msswe-software-engineering)
-  - unrecognized line: The course covers foundations of programming with emphasis on program design and computer science concepts. A modern, Object-Oriented language is used. Topics include primitive data types, arithmetic and logical operators, selection and repetition structures, methods, arrays, objects and classes, inheritance, polymorphism, exception handling, and file I/O. Programming projects are included.
-  - empty description
-- **CS 5020**: 3 majors (ms-artificial-intelligence, ms-computer-science, msswe-software-engineering)
-  - unrecognized line: This course covers the following topics: Number Systems, Two-level combinational logic, Multilevel combinational logic, Sequential logic design, Finite state machine design, Arithmetic circuits, Assembly and machine languages with a focus on concepts, and the principles of computer organization. The objective of this course is to learn the Concepts of Digital Systems, Combinational Circuits, Sequential Circuits, and Computer Architecture.
-  - empty description
+- **COMM 3320**: 3 majors (bs-integrated-health-science, bs-journalism-and-emerging-media, bs-organizational-and-professional-communication)
+  - unrecognized: Media
+- **CS 8267**: 3 majors (phd-computer-science, phd-data-science-and-analytics, phd-interdisciplinary-engineering)
+  - unrecognized: Analytics
+  - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
 - **EDL 7401**: 3 majors (eds-special-education, med-educational-leadership, med-teacher-leadership-and-educational-leadership)
   - unrecognized: in the Department of Educational Leadership
   - unrecognized: the Ed.S. in Special Education
@@ -5143,109 +2284,38 @@
 - **EDRS 9200**: 3 majors (edd-educational-leadership, edd-instructional-technology, edd-secondary-and-middle-grades-education)
   - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
-- **EE 4201**: 3 majors (bs-computer-engineering, bs-electrical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ENGR 3305**: 3 majors (bs-civil-engineering, bs-environmental-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing Requirements
-- **ENGR 3801**: 3 majors (bs-aerospace-engineering, bs-electrical-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
-- **FIS 6810**: 3 majors (mba-evening-business-administration, ms-digital-financial-technologies, msit-information-technology)
-  - unrecognized line: This course focuses on the payment process ecosystem and the history of payments as a foundation from which to provide students with the requisite knowledge, and as important background, regarding the evolution of products and services used and recommended by financial technology services. The student will learn the different types of payment products and services used by organizations such as Apple, Amazon, PayPal, and Venmo to gain an understanding that fascinating customer experiences are not covered only in the physical financial technology products created but also in a framework of corresponding exchanges and services. The student will also learn about risk management, customer relationships, regulatory compliance, settlements, strategies, and best practices for acquiring merchants and services. Students are expected to develop a broad background of the latest developments in payments as well as its impact on various portions of the world. Students will also have hands-on problem-solving case studies that can be beneficial in payments applications and innovations. This course will provide a good understanding of the trajectory of the payments industry primarily from a US point of view, however, with some global perspective.
-  - unrecognized line: Note: This course may be cross-leveled with FTA 3810.
-  - empty description
-- **FIS 6860**: 3 majors (mba-evening-business-administration, ms-digital-financial-technologies, ms-technology-management-and-leadership)
-  - unrecognized line: Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, business have critical infrastructure assets that present conversion challenges or incompatible. In this course students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition. Students will also evaluate the strategic decisions that are undertaken by companies in the FinTech space.
-  - unrecognized line: Note: This course may be cross-leveled with FTA 3860.
-  - empty description
-- **HMGT 3300**: 3 majors (bba-entrepreneurship, bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **INED 7631**: 3 majors (mat-teaching, med-literacy-education, med-special-education)
-  - unrecognized line: The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.
-  - empty description
+- **IS 7060**: 3 majors (mpa-public-administration, ms-digital-financial-technologies, ms-technology-management-and-leadership)
+  - unrecognized: director
+  - missing operator before 'director', assumed and
+- **IS 7090**: 3 majors (mba-evening-business-administration, mpa-public-administration, msem-engineering-management)
+  - unrecognized: Full
 - **IS 7935**: 3 majors (mba-evening-business-administration, ms-digital-financial-technologies, ms-technology-management-and-leadership)
   - unrecognized: director
   - missing operator before 'director', assumed and
-- **ISYE 4500**: 3 majors (bs-electrical-engineering, bs-industrial-and-systems-engineering, bs-mathematics)
-  - unrecognized: Engineering Standing
-- **ITEC 7305**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7430**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7455**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7460**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7480**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Admittance to a graduate program
-  - unrecognized: certificate program
-  - unrecognized: endorsement program within the Bagwell College of Education
-- **ITEC 7485**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7500**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU BCOE program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **ITEC 7600**: 3 majors (edd-instructional-technology, eds-instructional-technology, med-instructional-technology)
-  - unrecognized: Candidates must be admitted to a KSU EPP program
-  - unrecognized: certificate
-  - unrecognized: endorsement program
-  - unrecognized: approved by the ITEC department to take this course
-- **MKTG 3410**: 3 majors (bba-entrepreneurship, bba-marketing, bba-professional-sales)
-  - unrecognized: a Coles Partner Student
-- **MKTG 4470**: 3 majors (bba-entrepreneurship, bba-management, bba-professional-sales)
-  - unrecognized: a Coles Partner Student
-- **SA 4490**: 3 majors (ba-asian-studies, bs-criminal-justice, bs-sociology)
-  - unrecognized: Varies with discipline
-  - unrecognized: subject
-- **SYE 6005**: 3 majors (msem-engineering-management, msme-mechanical-engineering, msseng-systems-engineering)
-  - unrecognized line: The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible.
-  - unrecognized line: Note: This course may be cross-leveled with SYE 8005.
-  - empty description
-- **SYE 6010**: 3 majors (msem-engineering-management, msme-mechanical-engineering, msseng-systems-engineering)
-  - unrecognized line: Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.
-  - empty description
-- **ACCT 3100**: 2 majors (bba-accounting, bba-entrepreneurship)
-  - unrecognized: Grade of "B"
-  - unrecognized: higher in
-  - missing operator before 'ACCT 2101', assumed and
-- **ACCT 3200**: 2 majors (bba-accounting, bba-entrepreneurship)
-  - unrecognized: Grade of "B"
-  - unrecognized: higher in
-  - unrecognized: a minimum GPA of 2.0
-  - ambiguous and/or precedence: Grade of "B" or higher in ACCT 2101 and ACCT 2102, and a minimum GPA of 2.0
-- **ACCT 4700**: 2 majors (bba-accounting, bba-entrepreneurship)
-  - unrecognized: a Coles Partner Student
+- **ISCI 2002**: 3 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education, bs-middle-grades-education)
+  - unrecognized: Completion of any four-hour laboratory science course at the 1000
+  - unrecognized: 2000 level
+- **MENT 3326**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-organizational-and-professional-communication)
+  - unrecognized: Media
+- **MENT 4424**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-organizational-and-professional-communication)
+  - unrecognized: Media
+- **MENT 4425**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-organizational-and-professional-communication)
+  - unrecognized: Journalism
+  - unrecognized: Emerging Media
+  - unrecognized: B.S.
+  - unrecognized: Media
+  - unrecognized: Entertainment
+  - unrecognized: Organizational
+  - unrecognized: Professional Communication
+  - unrecognized: Public Relations
+  - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
+  - missing operator before 'B.S. major.', assumed and
+- **PR 4605**: 3 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment, bs-public-relations)
+  - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 - **ANIM 3620**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
   - unrecognized: BFA Digital Animation
-- **ARED 4410**: 2 majors (bfa-art, bsed-secondary-education)
-  - unrecognized: EPP
-  - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
-- **ARED 4650**: 2 majors (bfa-art, bsed-secondary-education)
-  - unrecognized: EPP
-  - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
 - **ARH 3850**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: Art majors:
   - unrecognized: . Non art majors:
@@ -5253,41 +2323,30 @@
   - unrecognized: This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2150**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: . This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2550**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: .This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2990**: 2 majors (bfa-art, bfa-digital-animation)
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
   - unrecognized: BFA in Digital Animation
-- **BLAW 4960**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **CE 3201**: 2 majors (bs-civil-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
+- **BLAW 3400**: 2 majors (bba-finance, bba-management)
+  - unrecognized: with minimum grade of "C"
 - **CE 3704**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
   - unrecognized: concurrent registration
-- **CE 4177**: 2 majors (bs-civil-engineering, msce-civil-engineering)
-  - unrecognized: Engineering Standing
-- **CE 4703**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
-  - unrecognized: Engineering Standing
-- **CE 4800**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
-  - unrecognized: Engineering Standing
+- **CHIN 1002**: 2 majors (ba-asian-studies, ba-modern-language-and-culture)
+  - unrecognized: the equivalent
 - **COMM 2340**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
   - unrecognized: Communication
   - unrecognized: B.S.
@@ -5296,53 +2355,28 @@
   - unrecognized: Media
   - unrecognized: Entertainment
   - unrecognized: Public Relations
-  - unrecognized: B.S. major
   - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
   - missing operator before 'B.S. major', assumed and
-- **CPE 3020**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 3030**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 3500**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 4010**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CPE 4903**: 2 majors (bs-computer-engineering, bs-electrical-engineering)
-  - unrecognized: Engineering Standing
-- **CS 5070**: 2 majors (ms-artificial-intelligence, ms-computer-science)
-  - unrecognized line: This course covers discrete mathematics topics, including elementary set theory, relations, functions, principles of counting, graphs, formal logic, recursion, and mathematical proof methods. This course includes introduction to formal languages such as regular and context-free languages. Emphasis is given to how mathematics relates to computer science.
-  - empty description
+- **COMM 3350**: 2 majors (bs-journalism-and-emerging-media, bs-public-relations)
+  - unrecognized: Media
 - **CS 7125**: 2 majors (ms-computer-science, msswe-software-engineering)
   - unrecognized: Equivalent
 - **CS 7535**: 2 majors (ms-computer-science, msswe-software-engineering)
   - unrecognized: a Bachelor of Science in Computer Science degree
 - **CS 7998**: 2 majors (ms-artificial-intelligence, ms-computer-science)
-  - unrecognized line: 1 - 3 Credit Hours
-  - no credit hours found
   - unrecognized: Varies by topic
 - **CS 8265**: 2 majors (phd-computer-science, phd-data-science-and-analytics)
-  - unrecognized: Computer Science MS Program
   - unrecognized: Analytics
-  - unrecognized: Data Science Ph.D. Program
   - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
-- **CS 8267**: 2 majors (phd-computer-science, phd-data-science-and-analytics)
-  - unrecognized: Computer Science MS Program
-  - unrecognized: Analytics
-  - unrecognized: Data Science Ph.D. Program
-  - unrecognized: Interdisciplinary Engineering Ph.D. program
-  - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
 - **ECE 4650**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
-  - unrecognized: Admission to Teacher Education
-  - unrecognized: Admission to the Yearlong Clinical Experience
-  - unrecognized: Issued Pre-Service Certificate
   - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
   - missing operator before 'Issued Pre-Service Certificate', assumed and
 - **ECE 4660**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
-  - unrecognized: ; Eligibility to take GACE
-  - missing operator before '; Eligibility to take GACE', assumed and
+  - unrecognized: Eligibility to take GACE
 - **ECE 7704**: 2 majors (med-elementary-and-early-childhood-education, med-literacy-education)
-  - unrecognized: Admission to M.Ed. in Elementary
   - unrecognized: Early Childhood Education
+- **ECON 4730**: 2 majors (bba-economics, bba-finance)
+  - could not parse (per-major clauses): Business Majors: Admission to the Coles College of Business; Non-Business Majors: ECON 2300 or STAT 1401
 - **EDL 7101**: 2 majors (eds-special-education, med-educational-leadership)
   - unrecognized: in the Department of Educational Leadership
   - unrecognized: the Ed.S. in Special Education
@@ -5355,273 +2389,122 @@
 - **EDL 7601**: 2 majors (med-educational-leadership, med-teacher-leadership-and-educational-leadership)
   - unrecognized: in the Department of Educational Leadership
   - unrecognized: the Ed.S. in Special Education
-- **EDRD 6714**: 2 majors (mat-teaching, med-literacy-education)
-  - unrecognized line: This course is designed to fulfill partial requirements for the Georgia PSC Reading Endorsement. It applies and uses the principles of research-based reading instructional practices and the integration of the reading components following a systematic problem-solving process to scaffold the reading development of K-2 students. It also addresses having knowledge of effective, research-based instructional methodology to prevent reading difficulties and promote acceleration of reading progress for struggling students.
-  - empty description
-- **EDSM 8500**: 2 majors (edd-secondary-and-middle-grades-education, eds-secondary-and-middle-grades-education)
-  - unrecognized: Admission to graduate study in Education
 - **EDSM 8701**: 2 majors (edd-secondary-and-middle-grades-education, eds-secondary-and-middle-grades-education)
   - unrecognized: in education
   - missing operator before 'in education', assumed and
-- **EDSM 9300**: 2 majors (edd-secondary-and-middle-grades-education, eds-secondary-and-middle-grades-education)
-  - unrecognized: Permission of the professor
-- **EE 3701**: 2 majors (bs-electrical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **EM 6602**: 2 majors (msem-engineering-management, msme-mechanical-engineering)
-  - unrecognized line: This course is a study of the functions and responsibilities of the quality organization. TQM concepts, quality function deployment, and the tools for continuous improvement are analyzed for sequence of use and application. Emphasis is placed on design and performance aspects of a system-wide quality assurance function.
-  - empty description
-- **ENGR 3125**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3250**: 2 majors (bs-electrical-engineering, bs-industrial-and-systems-engineering)
-  - unrecognized: Engineering Standing
 - **ENGR 3324**: 2 majors (bs-civil-engineering, bs-environmental-engineering)
-  - unrecognized: Engineering Standing
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
-- **ENGR 3407**: 2 majors (bs-industrial-engineering-technology, bs-mechanical-engineering-technology)
-  - unrecognized: Engineering Standing
-- **ENGR 3410**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3411**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3412**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3501**: 2 majors (bs-electrical-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ENGR 3803**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
-- **ENGR 4801**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
-- **ENGR 4802**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: & Engineering Standing
-  - missing operator before '& Engineering Standing', assumed and
 - **ENGR 6002**: 2 majors (ms-electrical-and-computer-engineering, msce-civil-engineering)
   - unrecognized: in Engineering
   - missing operator before 'in Engineering', assumed and
-- **ENGR 6120**: 2 majors (ms-electrical-and-computer-engineering, msme-mechanical-engineering)
-  - unrecognized line: This course introduces graduate engineering students to analytical and numerical analysis methods that can be used to solve engineering problems. Topics include linear algebra, systems of ordinary differential equations, complex analysis, Laplace transforms, numerical methods, partial differential equations, and probability and statistics.
-  - empty description
 - **ENGT 4901**: 2 majors (bs-electrical-engineering-technology, bs-mechanical-engineering-technology)
-  - unrecognized: for MET Majors
   - unrecognized: concurrently
-  - unrecognized: for EET Majors
   - missing operator before '(', assumed and
   - missing operator before 'for EET Majors', assumed and
-- **FIN 4260**: 2 majors (bba-entrepreneurship, bba-finance)
-  - unrecognized: a Coles Partner Student
-- **FIS 6850**: 2 majors (mba-evening-business-administration, ms-digital-financial-technologies)
-  - unrecognized line: This course examines security and assurance issues related to digital payments. Students will learn about framework and standards such as NIST cybersecurity framework, ISO 27001 information security management, and Payment Card Industry Data Security Standards (PCI DSS). Students will also investigate PCI DSS requirements in the context of the larger framework of digital payments security, which can help organizations understand the motivation for each security standard requirement. Strategies for successful implementation of each requirement will also be examined.
-  - unrecognized line: Note: This course may be cross-leveled with FTA 3850.
-  - empty description
-- **FIS 6890**: 2 majors (mba-evening-business-administration, ms-digital-financial-technologies)
-  - unrecognized line: Students engage in research and team-based interactive virtual experiential learning with a collaborating industry partner. The student gains industry insight and hands-on experience that provides the underpinning for the student research. A virtual collaboration platform is used to enroll, onboard, empathize, reboot, experiment, and deliver business solutions for client problems. Students get mentored, trained, and practice on FinTech research, tools and techniques used in industry. Prototyping and experimentation are encouraged to understand “real world” issues. Partner companies share their anonymized dataset, tools and techniques. The student identifies potential research topics to complement the industry partner’s mission. The student will be strongly encouraged to publish her/his research. Coaching activities including design thinking, backlog management, business modeling, and research & publishing guidelines are offered in this course.
-  - unrecognized line: Note: This course may be cross-leveled with FTA 3890.
-  - empty description
+- **GEOG 3000**: 2 majors (ba-geography, bs-geospatial-sciences)
+  - unrecognized: Students must be 21 years of age
 - **HHS 3500**: 2 majors (bs-human-services, bs-integrated-health-science)
-  - unrecognized: 60 credit hours;
-  - unrecognized: ; a major in the Wellstar College of Health
   - unrecognized: Human Services
-  - unrecognized: Non-majors with
-  - ambiguous and/or precedence: 60 credit hours; (DATA 1501 or STAT 2332 or STAT 1401 or MATH 1160 or MATH 1190 or MATH 1179 or MATH 2202); a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
+  - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
   - missing operator before 'permission of department', assumed and
 - **HHS 4800**: 2 majors (bs-human-services, bs-integrated-health-science)
-  - unrecognized: Completion of 90 credit hours; a major in the Wellstar College of Health
   - unrecognized: Human Services
-  - unrecognized: Non-majors with
-  - ambiguous and/or precedence: Completion of 90 credit hours; a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+  - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
   - missing operator before 'permission of the Department', assumed and
-- **HIST 3100**: 2 majors (ba-history, bs-history-education)
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3373**: 2 majors (ba-asian-studies, bs-middle-grades-education)
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3374**: 2 majors (ba-asian-studies, bs-middle-grades-education)
-  - unrecognized: Must have earned at least 30 credit hours
-- **HS 4900**: 2 majors (bs-human-services, bs-integrated-health-science)
-  - unrecognized: Human Services Majors only; Completion of 90 credit hours; Minimum 2.0 Institutional GPA
 - **IET 3424**: 2 majors (bs-industrial-engineering-technology, bs-mechanical-engineering-technology)
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
 - **IET 4135**: 2 majors (bs-industrial-engineering-technology, bs-mechanical-engineering-technology)
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
-- **INED 7611**: 2 majors (mat-teaching, med-literacy-education)
-  - unrecognized line: In this course, candidates learn about the characteristics of individuals with dyslexia and other learning disabilities across a learner’s lifespan. Candidates learn theory and current issues related to the definition, assessment, eligibility, service delivery, family impact, and transition planning of learners with dyslexia. Upon completion of the course, students will be able to compare characteristics between individuals with and without dyslexia and other learning disabilities as well as identify scientifically-based interventions that are effective for students with dyslexia and other learning disabilities.
-  - empty description
-- **INED 7621**: 2 majors (mat-teaching, med-literacy-education)
-  - unrecognized line: This course develops knowledge of assessment and evaluation for learners with dyslexia with an emphasis on analyzing data for educational decision-making within P-12 schooling contexts. The course aims to prepare special education teachers for the administration procedures and practices used in reading and writing assessments, the interrelation of critical factors that impact an educational assessment, and the communication of assessment findings to parents and other professionals. The competencies in this course are derived from the requirements of relevant state and professional standards.
-  - empty description
-- **INED 7750**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: This course is designed to engage students in an investigation of critical pedagogy, theory, and philosophy as these concepts relate to their emerging roles as ESOL teachers and teacher leaders. Students will examine historical and current language policy, theoretical concepts related to language and power, the impact of theory on pedagogical decisions of ESOL teachers, develop an educational philosophy for the ESOL classroom, and hone their knowledge concerning advocacy for multilingual students.
-  - empty description
-- **INED 7763**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: This course prepares candidates with the historical, theoretical and research-based knowledge to evaluate English language programs, and develop curricula for culturally/linguistically varied P-12 students. Candidates critically examine curricula for promotion of critical thinking, language development, content area learning, and learner engagement. Candidates develop an interdisciplinary, learner-centered, culturally relevant unit that applies Universal Design, Sheltered Instruction, project-based learning/assessment, arts-based learning, and 21st Century technologies to enhance the engagement and academic achievement of English learners.
-  - empty description
-- **INED 7779**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: This course focuses on the development of the collaborative skills, knowledge and attitudes necessary to be successful with partners in the creation of and advocacy for inclusive classroom communities. Taking an asset-based view of families and communities, this course aims to bridge theory to practice in the development of the pedagogical acumen necessary to support successful, outcomes for all learners in multicultural communities.
-  - empty description
-- **INED 7781**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: This course develops a knowledge base about culture, its influence on learning and teaching, and its role in intercultural classroom settings. Prospective ESOL teachers examine major theories related to educating immigrant students and a multilingual student body; critically analyze education policy and practice at the institutional level; analyze the sociopolitical context of teaching; and develop new strategies and tools to prepare candidates for advocacy, community engagement, and collaboration within the school context.
-  - empty description
-- **INED 7782**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: This course focuses on the major theories of first and second language acquisition, principles of linguistic systems (e.g. phonology, phonetics, and morphology), and examines these topics drawing on a student-centered approach. Specifically, course content will explore these topics as they relate to classroom-based language learning and implications for schools. In addition, the course material is framed within the current conversations related to literacy, assessment, WIDA English language development standards, and dual-served students.
-  - empty description
-- **INED 7783**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: The purpose of this course is to acquaint candidates with instructional strategies and materials that will help them be effective ESOL teachers. Candidates will work closely with the instructor to conduct directed activities in their own classrooms. If candidates are not teaching in classrooms that include English language learners, the Bagwell College’s Office of Field Experiences will find suitable placements. Methods of lesson planning and implementation of sheltered instruction using the SIOP Method, in conjunction with the concepts of Understanding by Design, and WIDA language assessment, will be studied and implemented in this course. Candidates will spend approximately 40 hours in the field.
-  - empty description
-- **INED 7787**: 2 majors (mat-teaching, med-teaching-of-english-to-speakers-of-other-languages-tesol)
-  - unrecognized line: This course focuses on research-based instruction and assessment of literacy for English learners in P-12 classrooms. Candidates develop knowledge and skills to effectively organize and implement instruction at all language development levels. Emphasis is on understanding similarities and differences between literacy development of English learners and native English speakers. Candidates are introduced to issues of collaboration with grade-level teachers and literacy personnel and the socio-cultural and socio-political dimensions of teaching academic literacy in urban and rural environments.
-  - empty description
-- **IS 3040**: 2 majors (bba-information-systems, bs-geospatial-sciences)
-  - unrecognized: a Coles Partner Student
-- **IS 7060**: 2 majors (ms-digital-financial-technologies, ms-technology-management-and-leadership)
+- **IS 7005**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: Full
+- **IS 7080**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: Full
+- **IS 7500**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
   - unrecognized: director
   - missing operator before 'director', assumed and
-- **IS 7090**: 2 majors (mba-evening-business-administration, msem-engineering-management)
-  - unrecognized: Full
+- **IS 7700**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: director
+  - missing operator before 'director', assumed and
+- **IS 7800**: 2 majors (mpa-public-administration, ms-technology-management-and-leadership)
+  - unrecognized: director
+  - missing operator before 'director', assumed and
 - **ISCI 2001**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
   - unrecognized: Completion of any four-hour laboratory science course at the 1000
   - unrecognized: 2000 level
-- **ISCI 2002**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
-  - unrecognized: Completion of any four-hour laboratory science course at the 1000
-  - unrecognized: 2000 level
-- **IT 3203**: 2 majors (bas-information-technology, bsit-information-technology)
-  - unrecognized: with 'C'
-  - unrecognized: better
-  - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
 - **IT 3883**: 2 majors (bas-information-technology, bsit-information-technology)
   - unrecognized: minimum grade of 'C'
   - missing operator before 'minimum grade of 'C'', assumed and
-- **IT 5423**: 2 majors (ms-cybersecurity, msit-information-technology)
-  - unrecognized line: This foundation course will provide an overview of computer networks and system administration. Topics include network protocols, network traffic analysis, operating systems fundamentals and system management.
-  - empty description
-- **IT 5433**: 2 majors (ms-healthcare-management-and-informatics, msit-information-technology)
-  - unrecognized line: This course will provide a practical foundation of database systems with emphasis on relational database design, implementation, and management. Topics include normalization, ERD, logical and physical design, SQL query, database applications, usage of XML in database, and data warehouse.
-  - empty description
-- **IT 6933**: 2 majors (ms-digital-financial-technologies, msit-information-technology)
-  - unrecognized line: This course covers applications of different machine learning techniques to a variety of Fintech problems. Topics include supervised learning for predictive analysis, unsupervised learning for financial data clustering and visualization, and deep learning/reinforcement learning for financial decision making.
-  - empty description
-- **IT 7503**: 2 majors (ms-healthcare-management-and-informatics, msit-information-technology)
-  - unrecognized line: This course provides an overview of the importance of information technology and information systems in the health care industry. It provides an overview of the healthcare IT industry in the U.S. and clinical terminologies, a review of fundamental characteristics of clinical information, health information exchange stands (HL7); healthcare payment and reimbursement systems, the challenges of IT implementation, and a detailed discussion of the primary clinical and managerial applications of information (including electronic health records - EHR). Group and individual research will be required.
-  - empty description
+- **JAPN 1002**: 2 majors (ba-asian-studies, ba-modern-language-and-culture)
+  - unrecognized: the equivalent
+- **JOUR 4100**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
+- **JOUR 4445**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+- **JOUR 4450**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+- **JOUR 4470**: 2 majors (bs-journalism-and-emerging-media, bs-public-relations)
+  - could not parse (per-major clauses): COMM 2230 and POLS 1101; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
+- **KOR 1002**: 2 majors (ba-asian-studies, ba-modern-language-and-culture)
+  - unrecognized: the equivalent
 - **MATH 2008**: 2 majors (bs-early-childhood-education-birth-through-kindergarten, bs-elementary-education)
   - unrecognized: The completion of Mathematics
-  - unrecognized: Applied Math IMPACT Core courses with a minimum grade of "C"
-  - unrecognized: higher
-  - unrecognized: enrolled in one of the following majors: Elementary Education
+  - unrecognized: Applied Math IMPACT Core courses
   - unrecognized: Elementary Education
   - unrecognized: Interest
   - unrecognized: Early Childhood Birth to Kindergarten Traditional
   - ambiguous and/or precedence: The completion of Mathematics and Applied Math IMPACT Core courses with a minimum grade of "C" or higher, and enrolled in one of the following majors: Elementary Education, Elementary Education (Interest), Early Childhood Birth to Kindergarten Traditional, or Early Childhood Birth to Kindergarten Traditional (Interest)
   - missing operator before '(', assumed and
-- **MATH 2335**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: A grade of 'C'
-  - unrecognized: higher in
-  - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
-- **MATH 8020**: 2 majors (ms-computer-science, phd-data-science-and-analytics)
-  - unrecognized: permission by the department
-- **MATH 8030**: 2 majors (ms-computer-science, phd-data-science-and-analytics)
-  - unrecognized: permission by the department
-- **ME 3343**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 3410**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 3440**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 3705**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **ME 4141**: 2 majors (bs-mechanical-engineering, bs-physics)
-  - unrecognized: Engineering Standing
-- **ME 4520**: 2 majors (bs-aerospace-engineering, bs-mechanical-engineering)
-  - unrecognized: Engineering Standing
-- **MGT 3600**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MGT 4174**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MGT 4190**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MGT 4476**: 2 majors (bba-hospitality-management, bba-management)
-  - unrecognized: a Coles Partner Student
-- **MKTG 4260**: 2 majors (bba-entrepreneurship, bba-management)
-  - unrecognized: a Coles Partner Student
+- **MENT 4464**: 2 majors (bs-journalism-and-emerging-media, bs-media-and-entertainment)
+  - unrecognized: Media
 - **MSCM 7321**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized: Admission to the MSCM
   - unrecognized: INCM programs
-- **MSCM 7365**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized line: This is a two-day training course designed to explore a range of dilemmas and scenarios in humanitarian, peacebuilding, conflict and human rights crises. The course is built around using simulations.
-  - empty description
 - **MSCM 7502**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized: Admission to the MSCM
   - unrecognized: INCM programs
-- **MSCM 7707**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized line: Using examples from the field of peacebuilding and post-conflict reconstruction in classroom discussion, exercises and role play, students develop policy recommendations, design, and plan strategies for conflict prevention and/or intervention. Students are introduced to the case study methodology, learn how to develop and use case studies effectively in their professional environments, and develop an outline for a case study with particular relevance to their current or desired field of employment.
-  - empty description
 - **MSCM 7708**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized: Admission to the MSCM
   - unrecognized: INCM programs
-- **MSCM 7715**: 2 majors (mscm-conflict-management, phd-international-conflict-management)
-  - unrecognized line: This course includes a fieldwork, study, and travel to a specific international conflict environment. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.
-  - empty description
-- **MTRE 3110**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
-- **MTRE 3720**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing
 - **MTRE 4710**: 2 majors (bs-electrical-engineering, bs-mechatronics-engineering)
-  - unrecognized: Engineering Standing Requirements
   - missing operator before 'MTRE 3110', assumed and
 - **MUAP 2101**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
   - unrecognized: minor
 - **MUAP 3101**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
   - unrecognized: have taken
   - unrecognized: passed four semesters of
   - missing operator before 'MUAP 2101', assumed and
-- **MUED 3353**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
 - **MUEN 3344**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Membership is open to all students with previous experience playing an instrument
 - **MUEN 3345**: 2 majors (bm-music, bm-music-education)
+  - unrecognized: Audition
+- **MUEN 3346**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Audition
 - **MUEN 3347**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Audition
 - **MUEN 3348**: 2 majors (bm-music, bm-music-education)
   - unrecognized: Audition
+- **MUSI 1165**: 2 majors (bm-music, bm-music-education)
+  - unrecognized: determined by proficiency test
+  - missing operator before 'determined by proficiency test', assumed and
+- **MUSI 3333**: 2 majors (bm-music, bm-music-education)
+  - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
 - **MUTC 2100**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
-  - unrecognized: minor; placement determined by proficiency test
+  - unrecognized: minor
+  - unrecognized: determined by proficiency test
+  - missing operator before 'determined by proficiency test', assumed and
 - **MUTC 2110**: 2 majors (bm-music, bm-music-education)
-  - unrecognized: Must be a fully admitted music major
-  - unrecognized: minor; placement determined by proficiency test
-- **ORGC 3325**: 2 majors (ba-asian-studies, bs-organizational-and-professional-communication)
-  - unrecognized: 60+ credit hours
-- **PAD 6200**: 2 majors (mpa-public-administration, ms-criminal-justice)
-  - unrecognized: Admission to graduate study
-- **PAD 6250**: 2 majors (mpa-public-administration, ms-criminal-justice)
-  - unrecognized: Admission to graduate study
-- **PHYS 3710**: 2 majors (bs-electrical-engineering, bs-physics)
-  - unrecognized: Grade of "C"
-  - unrecognized: higher in
-  - ambiguous and/or precedence: Grade of "C" or higher in PHYS 2212 and PHYS 2212L
-- **PSYC 2210**: 2 majors (bs-biology, bs-psychology)
-  - unrecognized: ; Declared Psychology major
-  - missing operator before '; Declared Psychology major', assumed and
+  - unrecognized: minor
+  - unrecognized: determined by proficiency test
+  - missing operator before 'determined by proficiency test', assumed and
+- **ORGC 3459**: 2 majors (bs-journalism-and-emerging-media, bs-organizational-and-professional-communication)
+  - unrecognized: Media
 - **PSYC 3000**: 2 majors (bs-biology, bs-psychology)
   - unrecognized: Any 1000-level MATH course
-  - unrecognized: ;
-  - ambiguous and/or precedence: Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+  - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+- **SCI 3360**: 2 majors (bs-middle-grades-education, bsed-secondary-education)
+  - unrecognized: any two 1000-level
+  - unrecognized: 2000-level science courses
 - **STAT 8240**: 2 majors (ms-computer-science, phd-data-science-and-analytics)
   - unrecognized: in Analytics
   - unrecognized: Data Science
-  - unrecognized: Passing the assessment test offered by the Program Director of PhD in Analytics
   - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
-- **SYE 6070**: 2 majors (msem-engineering-management, msseng-systems-engineering)
-  - unrecognized line: This course focuses on decisions vital to success in typical business environments characterized by competition and scarce resources. Students will develop skills in applying a variety of techniques to solve logistics and supply chain management problems. Topics covered will include information sharing and aligning incentives along the supply chain; demand forecasting; inventory decisions; transportation mode and route selection; and pricing and revenue management.
-  - empty description
-- **SYE 6075**: 2 majors (msem-engineering-management, msseng-systems-engineering)
-  - unrecognized line: This course focuses on decisions important in production and warehousing environments. Production topics include analysis of flows, bottlenecks and queuing, types of manufacturing operations, aggregate production planning, lot sizes and lead times, and pull production systems. Warehouse topics include design and analysis of warehouse layout, order picking strategies, warehousing inventories, and integration of production and distribution systems.
-  - empty description
-- **TLED 7980**: 2 majors (med-educational-leadership, med-teacher-leadership-and-educational-leadership)
-  - unrecognized line: Candidates will examine and implement the process of classroom-based action research. Topics covered include an overview of the action research process, planning and developing a research plan, collecting and analyzing data, and developing and sharing action research reports. The curriculum will also focus on how to engage and facilitate colleagues’ use of action research to improve a problem of practice in the teacher leader’s content area.
-  - empty description
 - **WLC 1002**: 2 majors (ba-history, ba-international-affairs)
   - unrecognized: the equivalent
 
@@ -5657,10 +2540,10 @@ None.
 
 ### undergraduate
 
-- **CS 3622**: Parsed tree is right; the catalog's word 'both' was left over as a note. (majors: bs-cs)
+- **CS 3622**: Parsed tree is right; the catalog's word 'both' was left over as a note. (majors: bs-cs, bsswe-software-engineering)
 - **CSE 2300**: Catalog text has an unbalanced bracket. Read as: (CSE 1321 and CSE 1321L, both B or higher, since the grade sits inside their bracket) and (MATH 1113 or MATH 1190 or MATH 1179). Cross-checked against Banner. (majors: bas-information-technology, bs-artificial-intelligence, bs-dsa, bscgdd-computer-game-design-and-development, bsit-information-technology, bsswe-software-engineering)
 - **CSE 3801**: Parsed tree is right; '(may take concurrently)' applies to IT 3123 and is a note. (majors: bas-information-technology, bs-artificial-intelligence, bs-cs, bscgdd-computer-game-design-and-development, bsit-information-technology, bsswe-software-engineering)
-- **STAT 3125**: Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked. (majors: bs-biology, bs-dsa, bs-mathematics, bses-environmental-science)
+- **STAT 3125**: Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked. (majors: bs-biology, bs-dsa, bs-mathematics, bsed-secondary-education, bses-environmental-science)
 
 ## Programs left out of scope
 

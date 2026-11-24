@@ -14,6 +14,12 @@
         ]
       },
       {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      },
+      {
         "label": "Project",
         "groups": [
           "major-project"
@@ -28,6 +34,56 @@
     ]
   ],
   "courses": {
+    "IS 7005": [
+      "major-required"
+    ],
+    "IS 7060": [
+      "major-required"
+    ],
+    "IS 7080": [
+      "major-required"
+    ],
+    "IS 7090": [
+      "major-required"
+    ],
+    "IS 7100": [
+      "major-elective",
+      "major-required"
+    ],
+    "IS 7200": [
+      "major-required"
+    ],
+    "IS 7305": [
+      "major-required"
+    ],
+    "IS 7310": [
+      "major-required"
+    ],
+    "IS 7320": [
+      "major-required"
+    ],
+    "IS 7330": [
+      "major-required"
+    ],
+    "IS 7400": [
+      "major-required"
+    ],
+    "IS 7500": [
+      "major-required"
+    ],
+    "IS 7600": [
+      "major-required"
+    ],
+    "IS 7700": [
+      "major-elective",
+      "major-required"
+    ],
+    "IS 7800": [
+      "major-required"
+    ],
+    "MSCM 7100": [
+      "major-required"
+    ],
     "PAD 6200": [
       "major-required"
     ],
@@ -55,21 +111,61 @@
     "PAD 7100": [
       "major-required"
     ],
+    "PAD 7120": [
+      "major-required"
+    ],
+    "PAD 7130": [
+      "major-required"
+    ],
+    "PAD 7140": [
+      "major-required"
+    ],
+    "PAD 7150": [
+      "major-required"
+    ],
     "PAD 7180": [
+      "major-required"
+    ],
+    "PAD 7230": [
+      "major-required"
+    ],
+    "PAD 7250": [
+      "major-required"
+    ],
+    "PAD 7390": [
+      "major-required"
+    ],
+    "PAD 7430": [
+      "major-required"
+    ],
+    "PAD 7455": [
+      "major-required"
+    ],
+    "PAD 7461": [
+      "major-required"
+    ],
+    "PAD 7465": [
+      "major-required"
+    ],
+    "PAD 7470": [
+      "major-required"
+    ],
+    "PAD 7995": [
       "major-required"
     ],
     "PAD 7998": [
       "major-project"
+    ],
+    "PRWR 6255": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'State, Local, and Regional Administration'",
-    "unrecognized section 'Information Systems Administration'",
-    "unrecognized section 'Select two of the following:'",
-    "unrecognized section 'Additional Course Options'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
-    "text: Students will select two other graduate IS or MPA courses, or other graduate course approved by the program director."
+    "text: Students will select two other graduate IS or MPA courses, or other graduate course approved by the program director.",
+    "PAD 7900",
+    "PAD 7950",
+    "PAD 7985"
   ],
-  "draftHash": "1b4ef19b4af2f9b5f109c9b67341e218c12bd51f2a4ade51797c002f3a4c7154"
+  "draftHash": "2d1a9d906b0115e45989147dea23fdd184185f12890764b09f714dfee8db7e0d"
 }

@@ -13,6 +13,12 @@
           "core-field",
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -36,6 +42,21 @@
     "COMM 2240": [
       "core-field"
     ],
+    "COMM 3350": [
+      "major-elective"
+    ],
+    "JOUR 3310": [
+      "major-elective"
+    ],
+    "JOUR 3330": [
+      "major-elective"
+    ],
+    "JOUR 4420": [
+      "major-elective"
+    ],
+    "JOUR 4470": [
+      "major-elective"
+    ],
     "PR 3335": [
       "major-required"
     ],
@@ -51,15 +72,46 @@
     "PR 3380": [
       "major-required"
     ],
+    "PR 3385": [
+      "major-elective"
+    ],
+    "PR 3429": [
+      "major-elective"
+    ],
+    "PR 4210": [
+      "major-elective"
+    ],
+    "PR 4405": [
+      "major-elective"
+    ],
+    "PR 4415": [
+      "major-elective"
+    ],
+    "PR 4425": [
+      "major-elective"
+    ],
+    "PR 4450": [
+      "major-elective"
+    ],
+    "PR 4460": [
+      "major-elective"
+    ],
     "PR 4465": [
       "major-required"
+    ],
+    "PR 4495": [
+      "major-elective"
+    ],
+    "PR 4605": [
+      "major-elective"
+    ],
+    "PR 4670": [
+      "major-elective"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Context'",
-    "unrecognized section 'Skills'",
-    "unrecognized section 'Related Studies (3 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "COMM 3398"
   ],
-  "leftOut": [],
-  "draftHash": "afb1c0c15197e79ca260777ccf33778ed7c2a308ac43fa9e0c9f4a68bb679274"
+  "draftHash": "f66e5ba18d2deeb3c2e924239b68d43cb70f0d393dd1aa0530d114dd354b8be3"
 }

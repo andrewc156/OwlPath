@@ -18,6 +18,24 @@
   },
   "choices": [],
   "courses": {
+    "BIOL 1107": [
+      "major-required"
+    ],
+    "BIOL 1107L": [
+      "major-required"
+    ],
+    "BIOL 1108": [
+      "major-required"
+    ],
+    "BIOL 1108L": [
+      "major-required"
+    ],
+    "BIOL 3300": [
+      "major-required"
+    ],
+    "BIOL 3300L": [
+      "major-required"
+    ],
     "CHEM 1211": [
       "core-field"
     ],
@@ -74,15 +92,28 @@
     ],
     "MATH 2202": [
       "core-field"
+    ],
+    "PHYS 2211": [
+      "major-required"
+    ],
+    "PHYS 2211L": [
+      "major-required"
+    ],
+    "PHYS 2212": [
+      "major-required"
+    ],
+    "PHYS 2212L": [
+      "major-required"
+    ],
+    "SCM 2000": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Supporting Discipline Courses (23 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: One (1) credit hour carried over from Applied Math.",
     "text: One (1) credit hour carried over from Natural Sciences",
     "text: If taken in Natural Sciences, please consult an advisor on how to fulfill this requirement."
   ],
-  "draftHash": "60292c5dca48abecbbabe7437f222a671a474dd2747e1575be0586baa2ddcc8c"
+  "draftHash": "16787c15d8b6c9437ba61e3c1a3c245c571469f9e3b6a349373ba086d032f4e0"
 }

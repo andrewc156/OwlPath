@@ -1,0 +1,214 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133245",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Descriptive statistics for discrete and continuous variables, probability distributions, confidence intervals and hypothesis testing, elementary control charts for variables and attributes, the design of acceptance sampling plans, analysis of variance, and regression and correlation analysis.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "QA 6610",
+      "notes": [],
+      "prereqs": null,
+      "title": "Statistics for Quality Assurance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133269",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible. Note: This course may be cross-leveled with SYE 8005.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6005",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Systems Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133270",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SYE 6010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Project Management Processes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133271",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Methods used to analyze and design complex systems that meet the needs of multiple stakeholders over the system life cycle. Apply systems engineering design and analysis principles to the virtual design of a contemporary complex system.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6015",
+      "notes": [],
+      "prereqs": null,
+      "title": "Systems Analysis and Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133272",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the basic tools used in engineering economic decision making, including discounted cash flow, replacement and timing decisions, depreciation, risk analysis, and pricing mechanisms. Topics may also include an introduction to preferences and utilities, equilibrium concepts, probabilistic decisions, game theory, and incentive compatibility.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SYE 6025",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Economic Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133661",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces system dynamics modeling for the analysis of policy changes and strategies on system behaviors. System Dynamics (SD) is a computer-aided approach to policy analysis and design, which focuses on recognizing the interconnections among the parts of a whole system and synthesizing the interconnections using simulation modeling into a unified view of the system. Through models & case studies of successful applications, students learn how to use qualitative & quantitative data to formulate & test models that represent systems behaviors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SYE 6031",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced System Dynamics Modeling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133273",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The use of models and simulations to validate or predict expected performance, behavior, and interaction of selected design elements in a controlled environment will be examined. This course will also present guidelines for selecting and using models and simulations on projects. Various modeling and simulation methods and tools will be examined and their value and applications probed for differing engineering development needs.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6035",
+      "notes": [],
+      "prereqs": "QA 6610",
+      "title": "Modeling and Simulation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133274",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Concepts for reliability and sustainability (maintainability) engineering and their integration into system development will be examined. In addition, techniques for ensuring the integration of these factors into core design decisions through specified requirements will be explored.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6050",
+      "notes": [],
+      "prereqs": "QA 6610",
+      "title": "Reliability and Sustainability"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133276",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on methods of operations research and their applications. Operations Research methods include linear programs, network models, queuing models, markov chains, and heuristics. Applications in inventory & production planning, transportation & logistics, and finance will be covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6065",
+      "notes": [],
+      "prereqs": null,
+      "title": "System Optimization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133277",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on decisions vital to success in typical business environments characterized by competition and scarce resources. Students will develop skills in applying a variety of techniques to solve logistics and supply chain management problems. Topics covered will include information sharing and aligning incentives along the supply chain; demand forecasting; inventory decisions; transportation mode and route selection; and pricing and revenue management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6070",
+      "notes": [],
+      "prereqs": null,
+      "title": "Logistics and Supply Chain Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133278",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on decisions important in production and warehousing environments. Production topics include analysis of flows, bottlenecks and queuing, types of manufacturing operations, aggregate production planning, lot sizes and lead times, and pull production systems. Warehouse topics include design and analysis of warehouse layout, order picking strategies, warehousing inventories, and integration of production and distribution systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6075",
+      "notes": [],
+      "prereqs": null,
+      "title": "Manufacturing and Warehousing Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133782",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course may include the topics of sampling concepts and data collection techniques, descriptive statistics, discrete and continuous probability distributions, sampling distributions, confidence intervals, hypothesis tests, categorical data analysis, relationships between two variables, least-squares simple linear regression analysis, and analysis of variance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SYE 6610",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133783",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The application of advanced statistical methodologies to the analysis and solution of process problems. Topics include process analysis and improvement models, probability theory, statistical process control charts, process capability, process control plans, measurement system analysis, acceptance sampling, and design of experiments.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6611",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "SYE 6610",
+          "QA 6610"
+        ]
+      },
+      "title": "Statistics for Process Analysis and Improvement"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "msseng-systems-engineering",
+    "name": "MSSENG Systems Engineering"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

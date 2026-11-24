@@ -4,8 +4,6 @@
 
 - **ANIM 3620**
   - unrecognized: passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
   - unrecognized: BFA Digital Animation
 - **ARED 3302**
@@ -13,100 +11,72 @@
   - unrecognized: Design
 - **ARED 3304**
   - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued PSC Pre-Service Certificate
 - **ARED 3306**
   - unrecognized: EPP
   - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certificate
 - **ARED 3308**
   - unrecognized: EPP
   - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certificate
 - **ARED 4410**
   - unrecognized: EPP
   - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
 - **ARED 4650**
   - unrecognized: EPP
   - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
 - **ARED 4660**
   - unrecognized: EPP
   - unrecognized: current teacher liability insurance
-  - unrecognized: a currently issued GaPSC Pre-Service Certification
 - **ARH 3850**
   - unrecognized: Art majors:
   - unrecognized: . Non art majors:
 - **ARH 4990**
-  - unrecognized: ; senior status
-  - missing operator before '; senior status', assumed and
+  - unrecognized: senior status
 - **ART 1100**
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
-  - unrecognized: ; BFA Digital Animation;
-  - unrecognized: BS Interactive Design majors
+  - missing operator before '(', assumed and
+  - unrecognized: BFA Digital Animation
   - unrecognized: only
   - missing operator before 'only', assumed and
+  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 - **ART 1150**
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
-  - unrecognized: ; BFA Digital Animation;
-  - unrecognized: BS Interactive Design majors
+  - missing operator before '(', assumed and
+  - unrecognized: BFA Digital Animation
   - unrecognized: only
   - missing operator before 'only', assumed and
+  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art (Including students in the Art Education concentration); BFA Digital Animation; and BS Interactive Design majors, only
 - **ART 1200**
   - unrecognized: This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2150**
   - unrecognized: . This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2550**
   - unrecognized: .This course is for Art
   - unrecognized: BFA
   - unrecognized: Digital Animation
-  - unrecognized: BFA majors only
   - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
   - missing operator before 'BFA majors only', assumed and
 - **ART 2990**
   - unrecognized: This course is for students who have passed the portfolio requirement
-  - unrecognized: been accepted into the School of Art
-  - unrecognized: Design with majors in BFA Art
   - unrecognized: Including students in the Art Education concentration
   - unrecognized: BFA in Digital Animation
 - **ART 3020**
   - unrecognized: - may also be taken concurrently
   - missing operator before '- may also be taken concurrently', assumed and
-- **ART 3120**
-  - unrecognized: full admission into the art program
-- **ART 3410**
-  - unrecognized: acceptance into the art major
 - **ART 3510**
-  - unrecognized: ;
   - unrecognized: may also be taken concurrently
-  - missing operator before ';', assumed and
-  - missing operator before 'ART 2990', assumed and
   - missing operator before '(', assumed and
 - **EDUC 4610**
-  - unrecognized: Admission to teacher education
-  - unrecognized: an issued pre-service certificate
   - unrecognized: Varies by program:
-
-## Drafting warnings
-
-- unrecognized section '2-D Courses'
-- unrecognized section '3-D Courses'
 
 ## Left out on purpose
 

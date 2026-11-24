@@ -122,6 +122,9 @@
       "conc-ballet",
       "conc-modern"
     ],
+    "DANC 3550": [
+      "major-required"
+    ],
     "DANC 3600": [
       "conc-ballet",
       "conc-modern"
@@ -146,6 +149,12 @@
     "DANC 4300": [
       "major-required"
     ],
+    "DANC 4500": [
+      "major-required"
+    ],
+    "DANC 4714": [
+      "major-required"
+    ],
     "DANC 4850": [
       "major-project"
     ],
@@ -153,14 +162,13 @@
       "major-project"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Creative Process Courses (5 Credit Hours)'",
-    "unrecognized section 'Applied Profession Skills (3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "DANC 2713",
     "DANC 2714",
-    "DANC 2290"
+    "DANC 2290",
+    "DANC 3398",
+    "DANC 4400"
   ],
-  "draftHash": "6fa0b8ea3130529280ef11fe8ad06785b2b2206b99eacfb52993b3acd69750ca"
+  "draftHash": "9d0e2c843ae4d163a7837c30d473175a4e86f73ad08f9476f44427cccc4a29e9"
 }

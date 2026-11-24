@@ -13,6 +13,12 @@
           "core-field",
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -47,20 +53,53 @@
     "CE 3702": [
       "major-required"
     ],
+    "CE 3703": [
+      "major-elective"
+    ],
     "CE 3704": [
       "major-required"
     ],
     "CE 3708": [
       "major-required"
     ],
+    "CE 4103": [
+      "major-elective"
+    ],
+    "CE 4105": [
+      "major-elective"
+    ],
     "CE 4177": [
       "major-required"
+    ],
+    "CE 4178": [
+      "major-elective"
     ],
     "CE 4179": [
       "major-required"
     ],
+    "CE 4343": [
+      "major-elective"
+    ],
+    "CE 4353": [
+      "major-elective"
+    ],
     "CE 4703": [
       "major-required"
+    ],
+    "CE 4704": [
+      "major-elective"
+    ],
+    "CE 4705": [
+      "major-elective"
+    ],
+    "CE 4706": [
+      "major-elective"
+    ],
+    "CE 4707": [
+      "major-elective"
+    ],
+    "CE 4708": [
+      "major-elective"
     ],
     "CE 4800": [
       "major-required"
@@ -73,6 +112,9 @@
     ],
     "CHEM 1212": [
       "core-field"
+    ],
+    "CM 3040": [
+      "major-elective"
     ],
     "EDG 2160": [
       "major-required"
@@ -114,15 +156,14 @@
       "core-field"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'CEDG 1 - Environmental Engineering'",
-    "unrecognized section 'CEDG 2 - Geotechnical/Transportation Engineering'",
-    "unrecognized section 'CEDG 3 - Other Engineering'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
     "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
-    "text: Any 3000-4000 level SURV/GIS course."
+    "text: Any 3000-4000 level SURV/GIS course.",
+    "CE 3398",
+    "CE 4400",
+    "CE 4490"
   ],
-  "draftHash": "f372d4cc9de6c6dcef94f780d9223785c4d6b08faeac7ed4baecf71149648abc"
+  "draftHash": "8599ffb902a1872da526cd5eba7c423d6a8f5ca8b2f32ed60c24d0a2a7a592bd"
 }

@@ -13,6 +13,12 @@
           "core-field",
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -45,8 +51,29 @@
     "ECON 3200": [
       "major-required"
     ],
+    "ECON 4210": [
+      "major-elective"
+    ],
+    "ECON 4310": [
+      "major-elective"
+    ],
+    "ECON 4410": [
+      "major-elective"
+    ],
     "ECON 4510": [
       "major-required"
+    ],
+    "ECON 4530": [
+      "major-elective"
+    ],
+    "ECON 4540": [
+      "major-elective"
+    ],
+    "ECON 4550": [
+      "major-elective"
+    ],
+    "ECON 4590": [
+      "major-elective"
     ],
     "ECON 4610": [
       "major-required"
@@ -54,11 +81,38 @@
     "ECON 4710": [
       "major-required"
     ],
+    "ECON 4730": [
+      "major-elective"
+    ],
+    "ECON 4810": [
+      "major-elective"
+    ],
+    "ECON 4850": [
+      "major-elective"
+    ],
+    "ECON 4870": [
+      "major-elective"
+    ],
     "ECON 4990": [
       "major-required"
     ],
     "FIN 3100": [
       "major-required"
+    ],
+    "FIN 4320": [
+      "major-elective"
+    ],
+    "FIN 4360": [
+      "major-elective"
+    ],
+    "FIN 4380": [
+      "major-elective"
+    ],
+    "FIN 4620": [
+      "major-elective"
+    ],
+    "INS 4500": [
+      "major-elective"
     ],
     "IS 2200": [
       "core-field"
@@ -82,12 +136,11 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Group A (9-12 Credit Hours)'",
-    "unrecognized section 'Group B (0-3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
-    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "ECON 4400",
+    "ECON 4490"
   ],
-  "draftHash": "ce0bf46c43657cd5bfdce281ce33df70eb714b0ff38d06c733acc72aea973bb1"
+  "draftHash": "2be54a25aa2d24ae3fada82bc025cf77052023b7d9ae6d0a3c4ea0f51bde8ff8"
 }

@@ -58,27 +58,72 @@
     "EDSM 9300": [
       "major-elective"
     ],
+    "EDSS 8600": [
+      "major-required"
+    ],
+    "EDUC 7702": [
+      "major-required"
+    ],
+    "EDUC 7705": [
+      "major-required"
+    ],
+    "EDUC 7706": [
+      "major-required"
+    ],
+    "EDUC 7710": [
+      "major-required"
+    ],
+    "EDUC 7725": [
+      "major-required"
+    ],
     "EDUC 8100": [
       "major-required"
     ],
     "EDUC 8300": [
       "major-elective"
+    ],
+    "ENED 8310": [
+      "major-required"
+    ],
+    "ENED 8701": [
+      "major-required"
+    ],
+    "ENED 8741": [
+      "major-required"
+    ],
+    "ENED 9400": [
+      "major-required"
+    ],
+    "ITEC 7400": [
+      "major-required"
+    ],
+    "ITEC 7430": [
+      "major-required"
+    ],
+    "ITEC 7480": [
+      "major-required"
+    ],
+    "ITEC 7600": [
+      "major-required"
+    ],
+    "MAED 7719": [
+      "major-required"
+    ],
+    "MAED 8900": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Technology Course (3 Credit Hours)'",
-    "unrecognized section 'Secondary English or Middle Grades Language Arts'",
-    "unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'",
-    "unrecognized section 'Secondary History or Middle Grades Social Studies'",
-    "unrecognized section 'Note:'",
-    "unrecognized section 'Dissertation (9 Credit Hours minimum)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "EDSM 8400",
     "EDSM 9350",
     "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level ENGL or ENED courses. Students may also consider 6000 level or higher EDRD or PRWR courses with English advisor or program coordinator approval.",
     "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level MATH or MAED course. Students may also consider 6000 or higher STAT courses with mathematics advisor or program coordinator approval.",
-    "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level HIST, GEOG, ECON, ANTH, POLS, SSED or EDSS course. Students may also consider 6000 or higher AMST courses with history advisor or program coordinator approval."
+    "text: Additional credit hours selected from the following:\n\nAny 7000, 8000, or 9000 level HIST, GEOG, ECON, ANTH, POLS, SSED or EDSS course. Students may also consider 6000 or higher AMST courses with history advisor or program coordinator approval.",
+    "CHED 9900",
+    "EDAD 9900",
+    "ENED 9900",
+    "MAED 9900"
   ],
-  "draftHash": "d21bf7303dde393e9d1b398ad7242a702e5f26c90a6566b3540a79f0bea889ad"
+  "draftHash": "eff15a6dc85e7ac7a55233c479de5950dcecfbbdf075781d2ce04c1d6486d4f6"
 }

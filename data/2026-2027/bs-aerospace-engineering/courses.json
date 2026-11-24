@@ -1,0 +1,1141 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137385",
+      "catalogYear": "2026-2027",
+      "coreqs": "MATH 1190",
+      "credits": "1",
+      "description": "The lab course is the first taste of Aerospace Engineering for AAE majors. It provides an example of the application of the principles of mathematics and physics to aerospace engineering from the perspective of fundamental quantitative analysis. This lab aims to provide the background and basis for further exploration of fluid mechanics, structures, and aerodynamics and for emerging into the world of professional engineering and/or academia.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AAE 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Introduction to Aerospace Engineering Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137376",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to Aeronautical and Astronautical Engineering. Technological and historical perspectives are covered at a fundamental level via the study of several topics including the first aeronautical engineers, the atmosphere, aerodynamic concepts, aircraft performance, stability and control, space flight, propulsion, and hypersonic vehicles.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AAE 3000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Flight"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137377",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a comprehensive introduction to the fundamentals of orbital mechanics, focusing on two-body motion and conic sections. Students will explore Kepler\u2019s laws, integrals of motion, and the universal variables formulation as they apply to spacecraft orbits. Emphasis is placed on both analytical and numerical methods for predicting orbits, accounting for gravitational, aerodynamic, and other perturbing forces. The course covers specific trajectory types, including ballistic missile trajectories, lunar and planetary orbits, and deep space missions. Additionally, students will learn the fundamentals of perturbation theory, variation of parameters, and Lagrange\u2019s planetary equations, with applications to orbital maneuvers, rendezvous, and space navigation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AAE 3125",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2306",
+          "ENGR 3122"
+        ]
+      },
+      "title": "Orbital Mechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137378",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "In this laboratory course, students will learn hands on problem solving related to aerodynamics and fluid flow. Students will learn experiments related to Bernoulli\u2019s principle, airflow over airfoils, air flow around blunt and streamlined bodies, pressure distribution around cylinder and airfoils, lift and drag forces for blunt and streamlined shapes, and flow visualization.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AAE 3801L",
+      "notes": [],
+      "prereqs": "ENGR 3801",
+      "title": "Aerodynamics and UAS Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137379",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Airplane conceptual design principles are developed to meet modern aerodynamics, propulsion, structural, and performance specifications. Students perform requirements analysis, design concepts, weight estimation, constraint analyses, mission profiles, etc.",
+      "groups": [
+        "conc-aeronautics"
+      ],
+      "id": "AAE 4201",
+      "notes": [],
+      "prereqs": "AAE 4250",
+      "title": "Aircraft and UAS Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137380",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A complete airplane is designed, resulting in a design package consisting of specifications, aerodynamic calculations, inboard profile drawing, weight and balance, general arrangement drawing, aerodynamic drag analysis, and complete performance report.",
+      "groups": [
+        "conc-aeronautics"
+      ],
+      "id": "AAE 4202",
+      "notes": [],
+      "prereqs": "AAE 4201",
+      "title": "Aircraft and UAS Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137381",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Spacecraft preliminary design principles are developed to meet mission objectives. The complete space-related system is designed, resulting in a design package consisting of specifications, calculations, CAD drawings, weight and various subsystem budgets, and a series of trade studies, reviews, and design reports.",
+      "groups": [
+        "conc-astronautics"
+      ],
+      "id": "AAE 4203",
+      "notes": [],
+      "prereqs": "AAE 4250",
+      "title": "Spacecraft Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137382",
+      "catalogYear": "2026-2027",
+      "coreqs": "AAE 4203",
+      "credits": "3",
+      "description": "Principles of spacecraft detail and subsystem design, analysis, modeling, manufacture, and testing are covered and incorporated into projects to give actual experience in the detailed design and integration of space-related subsystems and systems. Integration of multiple subsystems into a single functional model is a key component of the course.",
+      "groups": [
+        "conc-astronautics"
+      ],
+      "id": "AAE 4204",
+      "notes": [],
+      "prereqs": null,
+      "title": "Spacecraft Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Fundamental concepts and procedures of the Finite Element Method (FEM) for calculations of stress, strain, and deformation in structures and materials. Various finite element formulations and applications to one-, two- and three-dimensional problems in solid mechanics are central to the course. The engineering practice of finite element analysis, such as geometric modeling, mesh design, material constitutive behavior, as well as Verification and Validation (V&V) is introduced. This course also describes the role of a commercial finite element package in aerospace structural analysis and design. Students are expected to carry out projects with the software package independently by developing life-long learning skills.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AAE 4250",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 3801",
+          "ENGR 3804"
+        ]
+      },
+      "title": "Aerospace Structures Computer-Aided Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137384",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will learn and solve problems related to linearized equations of motion. They will analyze the modes and natural motion of aircrafts and unmanned aircraft systems (UASs).",
+      "groups": [
+        "conc-aeronautics"
+      ],
+      "id": "AAE 4501",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ME 1311",
+          "MATH 2306",
+          "AAE 3125"
+        ]
+      },
+      "title": "Aircraft and UAS Dynamic Systems and Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137386",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "In this laboratory course, students will learn and perform experiments to linearized motions. They will analyze modes and natural motion of aircraft and unmanned aircraft systems (UASs).",
+      "groups": [
+        "conc-aeronautics"
+      ],
+      "id": "AAE 4502",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "AAE 4501",
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Aircraft and UAS Dynamic Systems and Control Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137387",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will learn and solve problems related to the dynamics of spaceflight: orbits, maneuvers, satellite stability and control, rocket performance, and re-entry. They solve linearized equations of motion in space. They analyze modes and natural motion of spacecraft.",
+      "groups": [
+        "conc-astronautics"
+      ],
+      "id": "AAE 4503",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ME 1311",
+          "MATH 2306",
+          "AAE 3125"
+        ]
+      },
+      "title": "Spacecraft Dynamic Systems and Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137388",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "In this Lab course, students will learn and perform experiments related to dynamics of spaceflight: orbits, maneuvers, satellite stability and control, rocket performance, reentry. They learn to demonstrate linearized equations of motion in space. They analyze the modes and natural motion of spacecraft.",
+      "groups": [
+        "conc-astronautics"
+      ],
+      "id": "AAE 4504",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "AAE 4503",
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Spacecraft Dynamic Systems and Control Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137389",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to the basic principles of liquid and solid propulsion systems. Flight performance parameters are presented for single and multi-stage vehicles. The thermochemistry of the combustion process will also be discussed. Performance enhancements of nuclear rockets and electric propulsion will be covered",
+      "groups": [
+        "conc-astronautics"
+      ],
+      "id": "AAE 4802",
+      "notes": [],
+      "prereqs": "ENGR 3801",
+      "title": "Spacecraft Propulsion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the first course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, biological chemistry; cellular structure and function; tissues; and the integumentary, skeletal, muscular, and nervous systems. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions. Cannot be used for credit toward a degree in Biology.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 2251",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              {
+                "external": "CHEM 1151"
+              },
+              {
+                "external": "CHEM 1151L"
+              }
+            ]
+          },
+          {
+            "and": [
+              "CHEM 1211",
+              "CHEM 1211L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 1111"
+              },
+              {
+                "external": "PHYS 1111L"
+              }
+            ]
+          },
+          {
+            "and": [
+              "BIOL 1107",
+              {
+                "external": "BIOL 1107L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1108"
+              },
+              {
+                "external": "BIOL 1108L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Anatomy & Physiology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321L",
+      "credits": "3",
+      "description": "This course provides an introduction to computing with a focus on programming. Instruction centers on an overview of programming, problem-solving, and algorithm development. Particular topics include object-oriented design/programming, primitive data types, arithmetic and logical operators, selection and repetition structures, interactive user input, exception handling, using and designing basic classes, single-dimensional data structures with searching and sorting, and arrays. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions and the relationship between correct code and security.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CSE 1321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321",
+      "credits": "1",
+      "description": "Lab activities with programming to accompany CSE 1321.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CSE 1321L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136156",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to engineering graphics in mechanical engineering and manufacturing with an emphasis on using computer-aided design (CAD) to produce finished engineering drawings according to industry and ASME standards. Topics include fundamentals of engineering graphics, introduction to GD&T principles, introduction to SolidWorks sheet metal and weldment design environments, orthographic projection, sectional views, pictorial drawings, dimensioning, industry practices, file management, geometric construction, basic 3D coordinate geometry, parametric solid modeling, and drawing composition.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDG 1211",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Graphics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136681",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course covers the electrical characteristics of fundamental circuit components including resistors, capacitors and inductors in DC circuits, single-phase AC and three-phase AC circuits. Fundamental concepts of AC power and phasors are examined. The course also introduces the devices that generate and transform electrical power, as well as switching and protection of electrical circuits. Practical applications of motors, generators, transformers and operational amplifiers will be covered to provide non-electrical engineering majors a comprehensive understanding of electro-mechanical systems.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EE 2305",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PHYS 2212",
+          {
+            "external": "ISYE 2600"
+          }
+        ]
+      },
+      "title": "Electronic Circuits and Machines"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136176",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the force vectors, equilibrium of particles, equilibrium of rigid bodies in two and three dimensions; trusses, friction, centroids and moments of inertia.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 2214",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2211",
+          "PHYS 2211L"
+        ]
+      },
+      "title": "Engineering Mechanics - Statics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136178",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the mechanics of particles and rigid bodies. Topics covered include: kinematics and kinetics of particles; work and kinetic energy; impulse and momentum; rigid body motions; relative motion; and moving coordinate systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3122",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Engineering Mechanics - Dynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136179",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The analysis of motion, velocity, acceleration, and forces in mechanisms and machines. Emphasis is placed on the analytical methods suitable for computerized analysis as well as graphical methods for visualization and preliminary design studies. Also an introduction to vibration theory, including the modeling and analysis of oscillatory phenomena found in linear discrete and continuous mechanical systems.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGR 3125",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "ME 1311",
+              {
+                "and": [
+                  "CSE 1321",
+                  "CSE 1321L"
+                ]
+              }
+            ]
+          },
+          "ENGR 3122"
+        ]
+      },
+      "title": "Machine Dynamics and Vibrations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136180",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and mathematical modeling of the mechanical behavior of materials under load. Emphasis will be on the elastic conditions of equilibrium, compatibility and material behavior. Includes study of stress and strain in columns, connectors, beams, eccentrically-loaded members, as well as introduction to statically indeterminate members.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3131",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Strength of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136181",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENGR 3131",
+      "credits": "1",
+      "description": "The study and performance of laboratory testing and analysis techniques used in the determination of the mechanical behavior of materials under load.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3132",
+      "notes": [],
+      "prereqs": null,
+      "title": "Strength of Materials Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn the time value of money and the basic tools used in engineering economic decision making. The tools include engineering factor notation, algebraic formulas, and Excel functionality. The time value effect is studied as equivalences for present worth, annual worth, or future worth evaluations. Useful algorithms are presented for making sound economic investment decisions involving replacement theory, risk analysis, depreciation, tax incentives, rate of return, cost benefit ratio, return on investment, and economic service life.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3325",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Engineering Economic Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136247",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to aerodynamics; including circulation theory of lift, thin airfoil theory, viscous flow, boundary layer, finite wing theory, and drag in incompressible flow.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3801",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "MATH 2202",
+      "title": "Aerodynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136258",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The primary topics of this course are related to the understanding of the principles, theory, and technology of modern avionic systems for both military and civil aircraft. Various subsystems including sensory, fly-by-wire control, display, navigation, air data, autopilots, and flight management are examined individually and as an integrated whole. Both mathematical and conceptual approaches to every subsystem will be taught as well as key considerations, such as flight safety, which undergird their usage and functionality.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3803",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3801",
+      "title": "Fundamentals of Avionics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137082",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course for analyzing aircraft structures. It bridges together the basic solid mechanics with applications to aerospace structures. This course covers an overview of air- craft analysis, design, and certification criteria, followed by an in-depth discussion on material selection, determination of material allowables, and stress-strain approximation allowable curves are covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3804",
+      "notes": [],
+      "prereqs": "ENGR 3801",
+      "title": "Introduction to Aerospace Structural Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136254",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course involves preliminary design, subject to specifications, of an air-breathing engine for aircraft propulsion. This course discusses cycle calculations, installed performance and engine sizing information. Design and integration of components and support systems are explored. Propeller theory is introduced.",
+      "groups": [
+        "conc-aeronautics"
+      ],
+      "id": "ENGR 4801",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3801",
+      "title": "Aircraft Propulsion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136255",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is designed for students interested in helicopter theory as an application of large scale complex system. It presents a comprehensive introduction to rotorcraft technology, covering a range of disciplines from design, aerodynamics and propulsion points of view. It teaches what a helicopter engineer or enthusiast needs to know to analyze an existing design or participate in the development of a new one. The course covers all aspects of hover, vertical flight and forward flight.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 4802",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3801",
+      "title": "Helicopter Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the third in the calculus curriculum and is concerned with functions defined on regions in two or three dimensional space and that have values in one, two, or three dimensional space. Topics include partial derivatives, vector fields, multiple integrals, and applications of these topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2203",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Calculus III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the theory of ordinary differential equations (ODEs), methods of solving first and higher order linear differential equations and linear systems, some applications in the sciences and engineering, the Laplace transform and its application in solving differential equations and linear systems, and Euler\u2019s numerical algorithm.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2306",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Ordinary Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135805",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to numerical approximation techniques in the solution of problems encountered in engineering and science. Topics include Taylor polynomials, iterative methods for root finding, interpolation, numerical quadrature and differentiation. Error analysis, effective application, and limitations of methods are emphasized.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MATH 2335",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          {
+            "or": [
+              {
+                "and": [
+                  "CSE 1321",
+                  "CSE 1321L"
+                ]
+              },
+              {
+                "external": "ECET 3710"
+              },
+              "ME 1311"
+            ]
+          }
+        ]
+      },
+      "title": "Numerical Methods for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to linear algebra and some of its classical and modern applications. Among topics to be included will be systems of linear equations, matrices, determinants of matrices and applications, vector spaces, and inner product spaces. Significant use of technology will be employed in performing matrix computations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MATH 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Linear Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135066",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces fundamental numerical methods for solving nonlinear equations, systems of linear equations, and eigenvalue-eigenvector problems. Interpolation and approximation of functions will be considered. Computing and programming techniques will be used extensively.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MATH 3261",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 3260",
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Numerical Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136295",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ME 1001L"
+          },
+          "AAE 1001L"
+        ]
+      },
+      "credits": "3",
+      "description": "This course will provide an introduction to fundamental computing principles and programming concepts. Students will use the high-level programming language, MATLAB to develop and implement programs to solve engineering problems. Basic programming concepts covered include: algorithm design, data types, flow control, functions, sorting, plotting, simulation, and numerical methods.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ME 1311",
+      "notes": [],
+      "prereqs": "MATH 1190",
+      "title": "MATLAB for Engineers with Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136265",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of metals, ceramics, polymers, and composites as related to material selection for design and manufacturing. Areas include atomic structure and bonding, crystal structure and defects, mechanical properties and failure, diffusion, dislocation and strengthening, alloying, phase diagrams and transformations/heat treatment, polymers, ceramics and glasses, and composites.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ME 3101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Materials Science and Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136297",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "To provide a broad introduction to the technology and mechanics of advanced composites (polymer, metal and ceramic matrix), with a particular emphasis on mechanical design using fiber reinforced composites. Micromechanics of composites, as well as effective properties such as lamination theory will be introduced. Design considerations, applications and composite fabrication will also be introduced.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ME 3133",
+      "notes": [],
+      "prereqs": "ENGR 3131",
+      "title": "Composite Mechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137260",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamentals of fluid flows. Topics include fluid statics and kinematics, control volume and differential flow analyses, similitude, inviscid, viscous and turbulent flows, pipe flow, boundary layers, and external flows. By the end of this course, students will develop an understanding of the basic principles of fluid mechanics, apply basic fluid mechanics principles to analyze fluid flows, and gain some knowledge of fluid flow phenomena in mechanical engineering systems.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ME 3343",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 2214",
+      "title": "Fluid Dynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136269",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Fundamentals of Thermodynamics including the concept of energy and the laws governing the transfers and transformations of energy. Emphasis on thermodynamic properties and the first and second law analysis of systems and control volumes. Integration of these concepts into the analysis of basic power cycles is introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ME 3410",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 2214",
+      "title": "Thermodynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136270",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Fundamentals and applications of heat transfer including conduction, convection and radiation. Steady state and transient conduction in one and multi dimensions. Forced and free convection with boundary layer theory. Radiation properties and radiative heat transfer among black and non-black bodies. Calculation of heat transfer rates, heating/cooling times and design of heat exchangers.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ME 3440",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "ME 3410",
+          "ME 3343"
+        ]
+      },
+      "title": "Heat Transfer"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136719",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an introduction to internal combustion engines from Thermodynamics and Heat Transfer viewpoints. Students will learn the classification of internal combustion engines, engine performance parameters, gas power cycles on which the engines work on will be discussed. Various engine components and their functions will be introduced. Engine performance calculation will be taught in detail followed by the discussion on the formation of exhaust emission and various control methods to meet the emission norms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ME 3705",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ME 3440",
+      "title": "Internal Combustion Engines"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137184",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The fundamentals of Fracture Mechanics (FM) with applications are covered in this course. Concepts include linear elastic and elastic plastic FM, stress intensity, fracture toughness, fatigue crack growth, J integral, and experimental and software-based methods. Applications such as damage tolerance and leak before burst are examined and relevant software used for evaluation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ME 4304",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ME 3101",
+          "ENGR 3131"
+        ]
+      },
+      "title": "Applied Fracture Mechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136720",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to acoustics with an emphasis on the engineering application of noise control. Students will learn the acoustic wave equation and apply it to spherical and plan wave sources; such as the reflection, absorption, and transmission of sound waves through barriers, as well as reverberation and HVAC noise standards within indoor spaces. Applications of acoustics to noise control are evaluated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ME 4520",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "ENGR 3125",
+          "MATH 2306"
+        ]
+      },
+      "title": "Acoustics & Noise Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-aeronautics"
+        ],
+        "label": "Aeronautics"
+      },
+      {
+        "groups": [
+          "conc-astronautics"
+        ],
+        "label": "Astronautics"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-aerospace-engineering",
+    "name": "BS Aerospace Engineering"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

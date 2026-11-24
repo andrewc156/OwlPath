@@ -1,0 +1,119 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132492",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to discuss concepts and methodologies employed in research design typically applied in studies dealing in exercise science and sport management. The intent is to provide the student with an intuitive or conceptual understanding of theory, tools, and processes involved in designing research studies relevant to these disciplines.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Research Methods in Sports and Exercise"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133346",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on statistical methods used in the fields of sports and exercise science. Students will be introduced to basic statistical concepts including organizing and displaying data, mode, median, and mean, and measures of variability. More advanced topics including correlation and regression, t tests, analysis of variance, and analysis of nonparametric data will be explored. Students will calculate and interpret data along with using the statistical software SPSS.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Statistical Methods in Sports and Exercise"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133864",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced study of the acute and chronic metabolic, cardiovascular, respiratory, and neuromuscular responses to exercise.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6510",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Exercise Physiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132494",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses psychological aspects related to sport performance and exercise participation. Various factors related to sport performance, exercise adoption and adherence, and physical activity intervention planning are addressed. The course is taught with an emphasis on the application of concepts and discussion and evaluation of the scientific research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6520",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sport and Exercise Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133861",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 6510",
+      "credits": "3",
+      "description": "Techniques and research applications for measuring, assessing, and evaluating physiological parameters.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6530",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Laboratory Techniques in Exercise Physiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133862",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the acute and chronic neuromuscular adaptations to the performance of work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6540",
+      "notes": [],
+      "prereqs": "ES 6510",
+      "title": "Neuromuscular Physiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133863",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examination of the mechanisms of cardiopulmonary dynamics and metabolic function at rest and during exercise in healthy and associated diseased populations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 6550",
+      "notes": [],
+      "prereqs": "ES 6510",
+      "title": "Advanced Clinical Exercise Physiology"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "ms-exercise-science",
+    "name": "MS Exercise Science"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

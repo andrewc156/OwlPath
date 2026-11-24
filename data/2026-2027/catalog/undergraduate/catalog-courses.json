@@ -1582,15 +1582,12 @@
   },
   "ARCH 3398": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-12",
    "description": "This course is an internship course designed to provide real world experience options supported by the department.",
    "prereqText": "Department Approval",
    "title": "Internship",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ARCH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: Variable 1-12 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ARCH 4013": {
    "coreqText": null,
@@ -1666,27 +1663,21 @@
   },
   "ARCH 4400": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-3",
    "description": "This course is designed to provide an independent study option for students to satisfy curriculum requirements.",
    "prereqText": "Departmental Approval",
    "title": "Directed Study",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ARCH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: Variable 1-3 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ARCH 4490": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-4",
    "description": "Special Topics in Architecture determined by the Department topics vary in credit hour and in focus",
    "prereqText": "Departmental Approval",
    "title": "Special Topics",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ARCH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: Variable 1-4 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ARCH 4891": {
    "coreqText": null,
@@ -3418,15 +3409,12 @@
   },
   "ASIA 4400": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-3",
    "description": "Directed Study is a course in which a student works with a supervising faculty member to investigate a selected advanced topic not served by the existing curriculum.",
    "prereqText": "Approval of instructor and department chair prior to registration",
    "title": "Directed Study",
    "url": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136462",
-   "warnings": [
-    "unrecognized line: Variable 1-3 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ASIA 4409": {
    "coreqText": null,
@@ -3853,15 +3841,12 @@
   },
   "BIOL 3396": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-3",
    "description": "A supervised work experience program for a minimum of two academic semesters at a previously approved site in business, industry or government or a private agency. For sophomore, junior or senior level students who wish to obtain successive on the job experience in conjunction with their academic training.",
    "prereqText": "Approval of Program Coordinator and Coordinator of Cooperative Education/ Internships (Career Services).",
    "title": "Cooperative Study",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=BIOL&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: Variable 1-3 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "BIOL 3398": {
    "coreqText": null,
@@ -5422,15 +5407,12 @@
   },
   "CHEM 3398": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-12",
    "description": "A supervised, credit-earning work experience of one academic semester with a previously approved business firm, private agency or government agency.",
    "prereqText": "Approval of internship coordinator and chair.",
    "title": "Internship",
    "url": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134461",
-   "warnings": [
-    "unrecognized line: Variable 1-12 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "CHEM 3400": {
    "coreqText": null,
@@ -7660,15 +7642,12 @@
   },
   "DANC 2290": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-3",
    "description": "Topics of a special interest to students and faculty.",
    "prereqText": "Varies by topic",
    "title": "Special Topics in Dance",
    "url": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136744",
-   "warnings": [
-    "unrecognized line: 1 -3 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "DANC 2500": {
    "coreqText": null,
@@ -17339,15 +17318,12 @@
   },
   "ISYE 4400": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-4",
    "description": "This course covers special topics and seminars of an advanced nature, external to regular course offerings that allow a student to work individually with an instructor. A Directed Study may include original research projects and/or practicum experiences.",
    "prereqText": "Approval of instructor and department chair.",
    "title": "Directed Study",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ISYE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: 1-4 Variable Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ISYE 4425": {
    "coreqText": null,
@@ -17360,15 +17336,12 @@
   },
   "ISYE 4490": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-4",
    "description": "Selected special topics of interest to faculty and students. This course may be taken more than once.",
    "prereqText": "Approval of instructor and department chair and Engineering Standing",
    "title": "Special Topics",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ISYE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: 1-4 Variable Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ISYE 4500": {
    "coreqText": null,
@@ -25690,15 +25663,12 @@
   },
   "PSYC 4490": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-3",
    "description": "This course will address selected topics of special interest to faculty and students.",
    "prereqText": "One 3000-level psychology course",
    "title": "Special Topics in Psychology",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=PSYC&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: Variable 1-3 Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "PSYC 4498": {
    "coreqText": null,
@@ -27709,15 +27679,12 @@
   },
   "TPS 2290": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-12",
    "description": "Students will explore special topics relevant to the Department of Theatre and Performance Studies.",
    "prereqText": null,
    "title": "Special Topics",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=TPS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
-   "warnings": [
-    "unrecognized line: 1-12 Variable Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "TPS 2713": {
    "coreqText": null,

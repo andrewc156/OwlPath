@@ -2,15 +2,6 @@
 
 ## Warnings needing review
 
-- **IT 3203**
-  - unrecognized: with 'C'
-  - unrecognized: better
-  - unrecognized: with 'C'
-  - unrecognized: better
-  - unrecognized: with 'C'
-  - unrecognized: better
-  - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
-  - ambiguous and/or precedence: (IT 1114 and IT 1114L with 'C' or better) OR (IT 1113 with 'C' or better) OR (CSE 1321 and CSE 1321L with 'C' or better)
 - **IT 3883**
   - unrecognized: minimum grade of 'C'
   - unrecognized: minimum grade of 'C'

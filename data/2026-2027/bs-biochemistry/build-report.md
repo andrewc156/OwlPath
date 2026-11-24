@@ -2,23 +2,12 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1212**
-  - unrecognized: to
-  - unrecognized: higher
+- **SCM 2000**
+  - unrecognized: Mathematics
 
 ## Notes
 
 - MATH 2202: added MATH 1190 so (MATH 1190, MATH 1179, MATH 1189) has an option on the map
-
-## Drafting warnings
-
-- unrecognized section 'Supporting Discipline Courses (23 Credit Hours)'
 
 ## Left out on purpose
 

@@ -224,7 +224,7 @@ def test_snapshot_drafts_builds_and_ships_clean_program_as_auto(tmp_path):
 
 
 def test_snapshot_program_with_draft_warnings_is_held(tmp_path):
-    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Mystery Block", "AA 1000")])])
+    write_snapshot(tmp_path, [page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "QQ 4040")])])
     r = by_id(snap_publish(tmp_path))["bs-alpha-studies"]
     assert r.state == "held"
     assert not (tmp_path / "bs-alpha-studies" / "courses.json").exists()

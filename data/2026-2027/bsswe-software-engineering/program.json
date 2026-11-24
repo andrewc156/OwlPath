@@ -13,6 +13,12 @@
           "core-field",
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -23,6 +29,9 @@
     ]
   ],
   "courses": {
+    "AI 4732": [
+      "major-elective"
+    ],
     "CS 3305": [
       "major-required"
     ],
@@ -31,6 +40,39 @@
     ],
     "CS 3503": [
       "major-required"
+    ],
+    "CS 4308": [
+      "major-elective"
+    ],
+    "CS 4504": [
+      "major-elective"
+    ],
+    "CS 4514": [
+      "major-elective"
+    ],
+    "CS 4523": [
+      "major-elective"
+    ],
+    "CS 4524": [
+      "major-elective"
+    ],
+    "CS 4612": [
+      "major-elective"
+    ],
+    "CS 4622": [
+      "major-elective"
+    ],
+    "CS 4632": [
+      "major-elective"
+    ],
+    "CS 4712": [
+      "major-elective"
+    ],
+    "CS 4720": [
+      "major-elective"
+    ],
+    "CS 4722": [
+      "major-elective"
     ],
     "CSE 1321": [
       "core-field"
@@ -53,6 +95,9 @@
     "CSE 3801": [
       "major-required"
     ],
+    "IT 4823": [
+      "major-elective"
+    ],
     "MATH 2345": [
       "core-field"
     ],
@@ -71,8 +116,14 @@
     "SWE 3643": [
       "major-required"
     ],
+    "SWE 3683": [
+      "major-elective"
+    ],
     "SWE 4324": [
       "major-required"
+    ],
+    "SWE 4633": [
+      "major-elective"
     ],
     "SWE 4663": [
       "major-required"
@@ -83,18 +134,25 @@
     "SWE 4724": [
       "major-required"
     ],
+    "SWE 4743": [
+      "major-elective"
+    ],
+    "SWE 4783": [
+      "major-elective"
+    ],
     "TCOM 2010": [
       "core-field"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'List 1'",
-    "unrecognized section 'List 2'"
-  ],
+  "draftWarnings": [],
   "leftOut": [
     "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
     "text: Two (2) credit hours carried over from Technology, Mathematics, & Sciences.",
+    "SWE 4723",
+    "SWE 4490",
+    "SWE 4803",
+    "CSE 4983",
     "text: IT, CS, CGDD 4000-level courses- coordinator approval"
   ],
-  "draftHash": "c6c1f80877ef5cab09c23a60e2440897a6e71c33294b7972dafb525c5ee8cb69"
+  "draftHash": "f23c84c76007397c0b3552823561cb67ebe3d85fd715ab668a3e4165e8556c4e"
 }

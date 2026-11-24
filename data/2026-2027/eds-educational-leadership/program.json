@@ -26,13 +26,29 @@
     "EDL 8200": [
       "major-required"
     ],
+    "EDL 8805": [
+      "major-required"
+    ],
+    "EDL 8810": [
+      "major-required"
+    ],
+    "EDL 8820": [
+      "major-required"
+    ],
+    "EDL 8835": [
+      "major-required"
+    ],
+    "EDL 8840": [
+      "major-required"
+    ],
+    "EDL 8850": [
+      "major-required"
+    ],
     "EDRS 8000": [
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Educational Leadership Residency Courses (18 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "b86027142b814ae9c9acb6403cb6f1ec70ec221fdd301b690c8ffc07ad777616"
+  "draftHash": "c2710212ae78a2a18445164cd3d49a22188caee5c0145ff350589a32d9dc359b"
 }

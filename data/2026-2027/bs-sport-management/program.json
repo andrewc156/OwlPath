@@ -67,9 +67,9 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Sport Management Senior Experience (6 Credit Hours)'"
+  "draftWarnings": [],
+  "leftOut": [
+    "SM 4950"
   ],
-  "leftOut": [],
-  "draftHash": "3d6b7bb1d27347b34fd686dc9d91e0473b14a05eac2f669ab24d7edbc2c6db5a"
+  "draftHash": "8d358276c8778d23cc7e9ddda8d8262df71ec9ec1ed35eb0df09a1f00c6c4829"
 }

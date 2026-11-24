@@ -13,8 +13,6 @@
 - **EDMG 4408**
   - unrecognized: successful completion of all teaching field courses
 - **EDMG 4650**
-  - unrecognized: Pre-service certification
-  - unrecognized: Admission to Yearlong Clinical Experience
   - missing operator before 'INED 4431', assumed and
   - unrecognized: Two of the following:
   - missing operator before 'EDMG 4401', assumed and
@@ -28,44 +26,33 @@
   - missing operator before 'EDMG 4402', assumed and
   - missing operator before 'EDMG 4403', assumed and
   - missing operator before 'EDMG 4404', assumed and
+- **EDSM 3000K**
+  - unrecognized: Any science course from Technology
+  - unrecognized: Mathematics
+  - unrecognized: Sciences in the General Education Core Curriculum
 - **EDUC 4610**
-  - unrecognized: Admission to teacher education
-  - unrecognized: an issued pre-service certificate
   - unrecognized: Varies by program:
-- **HIST 3305**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3366**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3367**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3373**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3374**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3382**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3391**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 3392**
-  - unrecognized: Must have earned at least 30 credit hours
-- **HIST 4391**
-  - unrecognized: Must have earned at least 45 credit hours
-- **INED 3300**
-  - unrecognized: Admission to Teacher Education
+- **ENGL 2390**
+  - unrecognized: Any 1000
+  - unrecognized: 2000 level ENGL course
+- **ISCI 2002**
+  - unrecognized: Completion of any four-hour laboratory science course at the 1000
+  - unrecognized: 2000 level
+- **MAED 1190**
+  - unrecognized: The successful completion of two 1000
+  - unrecognized: 2000 level MATH
+  - unrecognized: STAT courses
+- **MAED 2390**
+  - unrecognized: The successful completion of two 1000
+  - unrecognized: 2000 level MATH
+  - unrecognized: STAT courses
+- **SCI 3360**
+  - unrecognized: any two 1000-level
+  - unrecognized: 2000-level science courses
 
 ## Notes
 
-- GEOG 3360: added GEOG 1101 so (GEOG 1101, GEOG 1130) has an option on the map
 - HIST 2206: added HIST 1100 so (HIST 1100, HIST 1111, HIST 1112) has an option on the map
-
-## Drafting warnings
-
-- unrecognized section 'Primary Field (6 Credit Hours)'
-- unrecognized section 'Secondary Field (3 Credit Hours)'
-- unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-- unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-- unrecognized section 'Teaching Field Courses (9-12 Credit Hours)'
-- unrecognized section 'Teaching Field Courses (3 Credit Hours)'
 
 ## Left out on purpose
 

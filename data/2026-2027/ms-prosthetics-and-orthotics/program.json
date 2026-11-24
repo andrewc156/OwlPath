@@ -41,6 +41,9 @@
     "OP 6400L": [
       "major-required"
     ],
+    "OP 6500": [
+      "major-required"
+    ],
     "OP 6600L": [
       "major-required"
     ],
@@ -54,6 +57,12 @@
       "major-required"
     ],
     "OP 6800L": [
+      "major-required"
+    ],
+    "OP 6900": [
+      "major-required"
+    ],
+    "OP 6950": [
       "major-required"
     ],
     "OP 7100L": [
@@ -71,6 +80,12 @@
     "OP 7300L": [
       "major-required"
     ],
+    "OP 7500": [
+      "major-required"
+    ],
+    "OP 7550": [
+      "major-required"
+    ],
     "OP 7600": [
       "major-required"
     ],
@@ -83,14 +98,17 @@
     "OP 7700L": [
       "major-required"
     ],
+    "OP 7800": [
+      "major-required"
+    ],
     "OP 7900": [
       "major-project"
+    ],
+    "OP 7950": [
+      "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Clinical Practicum (7 Credit Hours)'",
-    "unrecognized section 'Research Seminars (3 Credit Hours)'"
-  ],
+  "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "f04d9495d9e00c43a79c4206d5c23fda2a8eaa709cdf5414e05d335bd5291245"
+  "draftHash": "344eb07fa8f2640a6f34cb5bccdea91ec53131401700ec759dd6e789921c8259"
 }

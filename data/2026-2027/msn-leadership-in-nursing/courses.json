@@ -1,0 +1,450 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133755",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course provides the advanced practice nurse with foundational business knowledge, and the analytical and leadership skills needed in the economic environments of health care systems. The focus is on the skills needed to provide leadership in the successful creation, distribution, and management of health care services.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 6151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Nurse Executive Financial Management Skills"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133472",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with the opportunity to explore essential knowledge, skills, and attitudes to promote influential leadership in a nursing executive role. Strategies to assess and improve nursing executive impact are explored: healthcare business communication, relationship management in the healthcare setting, influencing behaviors, and business etiquette. Students explore personal attributes necessary to develop and use executive presence as a nursing leader in healthcare settings through review of current nursing literature, case studies, self-assessment, and experiences from nursing leadership experience and leadership practicums. Information and discussion on key nursing executive presence components including building trust and credibility as a nursing executive leader are reviewed.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7711",
+      "notes": [
+        "Admission into MSN program",
+        "permission from program director"
+      ],
+      "prereqs": null,
+      "title": "Executive Presence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133469",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to the roles of the nurse educator and teaching-learning theories in a variety of diverse academic nursing programs, health care agencies, or corporate settings with a health care focus.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7712",
+      "notes": [
+        "Admission to MSN program",
+        "approval of program director"
+      ],
+      "prereqs": null,
+      "title": "Nurse Educator Role"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133473",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to assist the advanced practice nursing student to understand innovative teaching methods and outcome measurement. The focus will be on principles of teaching and learning and culture that can be applied in the development, implementation, and evaluation of educational courses, seminars, workshops, or community programs for nurses, students, patients, or community members.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7723",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of program director"
+      ],
+      "prereqs": null,
+      "title": "Instructional Methods and Outcome Measurement in Nursing Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133474",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide the advanced practice nurse the theoretical underpinnings of curriculum development, design, and evaluation. The knowledge gained can be applied to the educator role in a variety of diverse academic nursing programs, in health care agencies, or in corporate settings with a health care focus.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7724",
+      "notes": [
+        "Admission to MSN program",
+        "permission of program director"
+      ],
+      "prereqs": null,
+      "title": "Curriculum Design and Evaluation in Nursing Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132928",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to develop the student\u2019s skill and critical appraisal of the history and physical examination of clients of appropriate age groups. Health promotion, risk screening and disease prevention are emphasized while clinical strategies and interventions are critiqued utilizing research and theoretical data. A clinical practicum provides experiences in health promotion and health maintenance allowing students to develop their assessment, interpretive and diagnostic competencies.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7736",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced Health Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132927",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the first of a two course series designed to assist students in preparing to teach in a technology-rich environment. This course includes the use of emerging technology in education and nursing practice. Content includes the use of technology and information systems (electronic health records, telecommunications, informatics) for decision making in the provision of safe, effective care; use of multiple methods of simulation and virtual reality learning, distance learning. Online course development, tele-health/tele-medicine, and other technology based instructional methods will be included.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7753",
+      "notes": [],
+      "prereqs": "NURS 7723",
+      "title": "Technology in Nursing Education and Practice I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133174",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the second in the two-part series to assist students to teach in a technology-rich nursing environment through application. The focus of the course is an integration of practice standards to create, implement, and evaluate technology in teaching and learning.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7754",
+      "notes": [],
+      "prereqs": "NURS 7753",
+      "title": "Technology in Nursing Education and Practice II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course expands the experienced professional nurse\u2019s understanding of pharmacological principles, including pharmacokinetics and pharmacodynamics. Emphasis is placed on enhancing the knowledge necessary to improve client care outcomes.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7755",
+      "notes": [
+        "Admission to MSN Program",
+        "permission of the program coordinator"
+      ],
+      "prereqs": null,
+      "title": "Pharmacology for Advanced Practice Nursing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132750",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of human physiological changes which are the result of pathologic processes. The course expands core knowledge of human anatomy and physiology. This course is designed to provide the experienced professional nurse with advanced content concerning normal and abnormal human physiologic responses to pertinent pathophysiologic conditions. Emphasis is placed on the clinical manifestations of these conditions so that the student may successfully intervene in a variety of advanced practice settings.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7765",
+      "notes": [
+        "Admission to MSN Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Physiology and Pathophysiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133751",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course focuses on examining concepts and theories as they apply to advanced nursing practice, education, and leadership. The generation and utilization of theories in nursing and health-related research is addressed. The critical appraisal of research methods and designs, clinical practice guidelines, and standards of practice are integral components of this course. Students will appraise and critique evidence in an area of interest, generate research questions, and communicate synthesized evidence in a variety of scholarly ways. This course involves the systematic examination and application of the research process. This course is foundational for nurses to conduct scholarly inquiry and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7776",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Theory and Research for Advanced Nursing Scholarship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133752",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to prepare advanced practice nurses, educators, and leaders to apply theory and evidence in practice. The course focuses on developing relevant research questions, searching for and identifying best evidence, critically appraising evidence, and integrating patient preferences in evidence-based decisions. Students will gain a greater appreciation of how theory, research, and practice articulate and how best to apply theory and evidence in a variety of settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7777",
+      "notes": [],
+      "prereqs": "NURS 7776",
+      "title": "Evidence-Based Practice I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133753",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is the second course in the series of EBP courses. It continues to prepare advanced practice nurses, educators, and leaders to apply theory and evidence in practice through conducting integrative reviews and EBP. The course focuses on continuing to search for and identifying best evidence, critically appraising evidence, and integrating patient preferences in evidence-based decisions. Students will continue to develop a greater appreciation of how theory, research, and practice articulate, how best to apply theory and evidence in a variety of settings, and will finalize the search for and appraisal of evidence for their integrative reviews.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7778",
+      "notes": [],
+      "prereqs": "NURS 7777",
+      "title": "Evidence-Based Practice II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133754",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is the final course for evidence-based practice. Students complete their integrative reviews and disseminate their findings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 7779",
+      "notes": [],
+      "prereqs": "NURS 7778",
+      "title": "Evidence-Based Practice III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132751",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the principles, theories, & skills of conflict management required for advanced practice nurses. In addition, the course engages the student in exploration of the ethical & legal frameworks, theories & applications that relate to leadership, management, & decision-making in health care delivery systems. Case analysis & presentation will emphasize the student\u2019s ability to identify problems & offer collaborative resolution in areas related to patient care, patient safety, & appropriate workplace environments that support quality care.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7780",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of the program coordinator"
+      ],
+      "prereqs": null,
+      "title": "Seminar in Conflict Management & Ethics of Leadership for Advanced Practice Nursing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132752",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This seminar provides students with an advanced understanding of the issues in health policy as it relates to nursing leadership. The course addresses theories and models of the health policy process with a focus on integrating healthcare research theory and methods. Students engage in intensive study of trends in health policy, leadership issues related to policy, and the active engagement of the advance practice nurse in forming health policy. Perspectives on agenda setting, media roles, advocacy, policy innovation, diffusion, and implementation are also integrated with examples of specific nursing policy problems.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7793",
+      "notes": [
+        "Admission to MSN program"
+      ],
+      "prereqs": null,
+      "title": "Health Policy Leadership Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132753",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops proactive leadership skills in leading and shaping organizations in a multicultural society. The course examines the impact of family and welfare policy on health status, health care access, and health outcomes. Diversity and cultural competence are studied in relation to the changing global populations.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7794",
+      "notes": [
+        "Admission to MSN program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Leadership and Policy in a Multicultural World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132754",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on global perspectives, intercultural engagement, and global citizenship. The student will recognize and incorporate a worldview of healthcare in advanced practice nursing.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7795",
+      "notes": [
+        "Admission to MSN program"
+      ],
+      "prereqs": null,
+      "title": "Global Initiatives in Healthcare, Changing World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132974",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course introduces the advanced practice leadership role in nursing administration, exploring the standards and regulations governing advanced practice. Topics include role theory, change theory, leadership theory, and complexity science as they apply to advanced practice nursing. Emphasis is on transition to a leadership role and integration of the various advanced practice roles by the nursing administrator with oversight of care delivery in complex healthcare systems.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7796",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced Nursing Leadership Role"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133470",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course provides students with a comprehensive understanding of the issues in health policy as it relates to the nurse in advanced practice. The course addresses theories and models of the health policy process with a focus on integrating healthcare research theory and methods.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7797",
+      "notes": [
+        "Admission to MSN program"
+      ],
+      "prereqs": null,
+      "title": "Health Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132926",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 7712",
+      "credits": "3-4",
+      "description": "This course is designed to expand the knowledge gained in the science-driven courses to advance direct patient care in a selected clinical specialty. This practicum promotes student proficiency in the clinical aspects of the nurse educator role.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7873",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 7736",
+          "NURS 7755",
+          "NURS 7765"
+        ]
+      },
+      "title": "Nurse Educator Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132925",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed as a continuation of the clinical practicum experience that expands the proficiency of the nurse educator role. This practicum provides the opportunity to serve as a facilitator of learning in a didactic setting in the role of the nurse educator.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7874",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 7873",
+          "NURS 7723"
+        ]
+      },
+      "title": "Nurse Educator Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132924",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone practicum is designed to integrate previous knowledge from the MSN courses and allows the student to develop proficiency in the advanced specialty role. This course is designed for application, demonstration, and synthesis of theory and competencies related to the role of the nurse educator. Note: Students are expected to complete 120 practicum hours in this course.",
+      "groups": [
+        "conc-nursing-education-leadership-in-a-digital-world"
+      ],
+      "id": "NURS 7875",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 7874",
+          "NURS 7724"
+        ]
+      },
+      "title": "Nurse Educator Practicum III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132762",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introductory practicum with a preceptor/site identified as being appropriate for the student\u2019s area of interest/track and approved by the faculty. Advanced practice leadership competencies are the focus of the course with students analyzing and evaluating policy, structure, process, and outcomes while participating in their implementation in the delivery of client care. The theory component emphasizes case study presentation and critique related to leadership issues in advanced practice nursing.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7880",
+      "notes": [],
+      "prereqs": "NURS 7796",
+      "title": "Leadership Role in Nursing Administration - Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132763",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a continuation of the practicum experience in which students synthesize all elements of their advanced leadership role with a focus on safety and quality. Leadership competencies continue development at a specific agency with appropriate mentor/preceptor with planning for career trajectory.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7881",
+      "notes": [],
+      "prereqs": "NURS 7880",
+      "title": "Leadership Role in Nursing Administration-Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course provides a synthesis of all elements of an advanced nursing leadership role. Analysis of current issues in healthcare in addition to population health, health policy, and disaster management.",
+      "groups": [
+        "conc-nursing-administration-and-transformational-leadership"
+      ],
+      "id": "NURS 7882",
+      "notes": [],
+      "prereqs": "NURS 7881",
+      "title": "Leadership Role in Nursing Administration-Practicum III"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-nursing-education-leadership-in-a-digital-world"
+        ],
+        "label": "Nursing Education Leadership in a Digital World"
+      },
+      {
+        "groups": [
+          "conc-nursing-administration-and-transformational-leadership"
+        ],
+        "label": "Nursing Administration and Transformational Leadership"
+      }
+    ],
+    "id": "msn-leadership-in-nursing",
+    "name": "MSN Leadership in Nursing"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -12,6 +12,12 @@
         "groups": [
           "major-required"
         ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
       }
     ]
   },
@@ -23,14 +29,32 @@
     "ACCT 7201": [
       "major-required"
     ],
+    "ACCT 7301": [
+      "major-elective"
+    ],
     "ACCT 7401": [
       "major-required"
+    ],
+    "ACCT 7510": [
+      "major-elective"
     ],
     "ACCT 7530": [
       "major-required"
     ],
+    "ACCT 7545": [
+      "major-elective"
+    ],
+    "ACCT 7610": [
+      "major-elective"
+    ],
     "ACCT 7620": [
       "major-required"
+    ],
+    "ACCT 7630": [
+      "major-elective"
+    ],
+    "ACCT 7640": [
+      "major-elective"
     ],
     "ACCT 7701": [
       "major-required"
@@ -39,10 +63,7 @@
       "major-required"
     ]
   },
-  "draftWarnings": [
-    "unrecognized section 'Option A: Audit/Advisory Specialization'",
-    "unrecognized section 'Option B: Tax Specialization'"
-  ],
+  "draftWarnings": [],
   "leftOut": [],
-  "draftHash": "8763c0fcaac15065a4ee0583c6c5af8bc6702af7110a8a1c5c0090d7359f6ae8"
+  "draftHash": "3d9af103c70cfe6a246b38dc1fd6e96c9dac7ca4e93dfd9f813a7320eafadde2"
 }

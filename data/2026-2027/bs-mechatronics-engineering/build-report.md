@@ -2,38 +2,10 @@
 
 ## Warnings needing review
 
-- **CHEM 1211**
-  - unrecognized: to
-  - unrecognized: higher
-- **CHEM 1211L**
-  - unrecognized: to
-  - unrecognized: higher
-- **ENGR 3410**
-  - unrecognized: Engineering Standing
-- **ENGR 3411**
-  - unrecognized: Engineering Standing
-- **ENGR 3412**
-  - unrecognized: Engineering Standing
 - **HPAL 2250**
   - unrecognized: Any General Education D2 core curriculum course
-- **MTRE 2710**
-  - unrecognized: to
-  - unrecognized: higher
-- **MTRE 3110**
-  - unrecognized: Engineering Standing
-- **MTRE 3610**
-  - unrecognized: Engineering Standing
-- **MTRE 3720**
-  - unrecognized: Engineering Standing
-- **MTRE 3810**
-  - unrecognized: Engineering Standing
 - **MTRE 4710**
-  - unrecognized: Engineering Standing Requirements
   - missing operator before 'MTRE 3110', assumed and
-- **MTRE 4810**
-  - unrecognized: Engineering Standing
-- **MTRE 4820**
-  - unrecognized: Engineering Standing Requirements
 
 ## Notes
 

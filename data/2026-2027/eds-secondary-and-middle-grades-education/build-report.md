@@ -2,26 +2,9 @@
 
 ## Warnings needing review
 
-- **EDRS 8100**
-  - unrecognized: Admission to graduate study in Education
-- **EDRS 8200**
-  - unrecognized: Admission to graduate study in Education
-- **EDSM 8500**
-  - unrecognized: Admission to graduate study in Education
 - **EDSM 8701**
   - unrecognized: in education
   - missing operator before 'in education', assumed and
-- **EDSM 9300**
-  - unrecognized: Permission of the professor
-- **EDUC 8100**
-  - unrecognized line: The course deepens experienced educators’ knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice.
-  - unrecognized line: Note: This course may be cross-leveled with EDUC 7100
-  - empty description
-
-## Drafting warnings
-
-- unrecognized section 'Technology Course (3 Credit Hours)'
-- unrecognized section 'Note:'
 
 ## Left out on purpose
 
