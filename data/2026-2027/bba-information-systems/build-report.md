@@ -1,18 +1,8 @@
 # Build report — 2026-2027
 
-## Validation errors
-
-- schema: courses/27/credits: '' does not match '^\\d+(-\\d+)?$'
-
 ## Warnings needing review
 
-- **IS 3397**
-  - unrecognized line: 0 or 3 Credit Hours
-  - no credit hours found
-  - unrecognized: Internship Advisor
-  - unrecognized: KSU Career Planning
-  - unrecognized: Development
-  - missing operator before '(', assumed and
+None.
 
 ## Notes
 

@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **MTRE 4710**
-  - missing operator before 'MTRE 3110', assumed and
+None.
 
 ## Notes
 

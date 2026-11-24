@@ -1,0 +1,685 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137029",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course serves as the introductory cohort experience for dance majors. Students accumulate an overview of the dance industry and its role in the marketplace through topics on professional preparation. Students are acquainted with studying dance in the university learning enlivenment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 1900",
+      "notes": [
+        "Declared Dance Major"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Professional Practice of Dance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134567",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Explores dance as a reflection of culture and as an art form from the earliest societies to the present. International ballet, modern dance, and American dance will be observed closely as art forms and as commercial entertainment. Throughout the course students will read from books the observations of prominent dance critics, and they will view recordings of acclaimed dance pieces. Cultural influence and the contributions of individual artists will be investigated.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 2000",
+      "notes": [
+        "Must be a Dance Major, Dance Minor",
+        "Dance- Interest"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Dance History I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134568",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course provides an energetic introduction and exploration of African Dance techniques, movement styles, and traditional dance forms that impact how this dance style informs cultural and social norms. Students will learn dance steps from various African Dances that represent and embody the cultural tradition and lifestyles of African people and the African diaspora.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DANC 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "African Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134569",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students develop rhythmic complexity and performance techniques in tap dance. They will develop an understanding and experience of a variety of tap dance styles along with a historical understanding of the development of tap as an American art form. May be taken twice for credit.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DANC 2200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Tap Dance Technique I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136343",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students strengthen foundational skills covered in Tap Dance I. They further develop rhythmic complexity, performance quality, and a deeper understanding of various tap styles. This course may be taken twice for credit",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DANC 2210",
+      "notes": [],
+      "prereqs": "DANC 2200",
+      "title": "Tap Dance Technique II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135629",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is an introductory course of Indian Classical dance techniques. Students explore the movement styles of Indian Classical dances from historical, cultural, and aesthetic perspectives.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DANC 2500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Indian Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136345",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "The course is designed to introduce digital video technology in dance through the acquisition of technical and creative skills required to choreograph, compose, edit, and disseminate Dance for Camera works.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DANC 2715",
+      "notes": [
+        "Dance Major",
+        "Dance Minor",
+        "permission of instructor"
+      ],
+      "prereqs": null,
+      "title": "Dance Filmmaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137250",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Embodied Wellness is explored through a holistic lens with attention given to physical experiences within a supportive, classroom community. Dance students will engage in embodied wellness through participation in somatic, movement-based classes in areas such as yoga, dance improvisation, and meditation. Students will research content areas that will support their careers as physical performers and creators within the context of dance as a profession and an art form. Topics of study include wellness related to injury prevention and recovery, as well as nutrition and healthy lifestyle choices. Students demonstrate their knowledge through reflections, discussions, assignments, and presentations. Topics surrounding the specific needs of a dancer\u2019s mental and emotional health are addressed by expert lectures and visits. Each participant is empowered to create their own research project on an area of personal interest within the larger field of embodied wellness.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 2800",
+      "notes": [],
+      "prereqs": null,
+      "title": "Embodied Wellness"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138387",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces Hip-Hop dance and its related styles. Students will learn about and discuss Hip-Hop dance and its origins and influences both culturally and socially. Students will identify and execute the various styles of Hip-Hop dance while engaging in communal aspects of the art form.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DANC 2900",
+      "notes": [],
+      "prereqs": null,
+      "title": "Hip Hop"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134571",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "An introduction to major dance styles for musical theater including: fundamental performance skills, exercises in body awareness, and principles of choreography for musical theater pieces. Students address the process of creating a character through movement and develop audition and rehearsal techniques through in-class work and out-of-class assignments. This course includes a survey of the history of dance in musical theater.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DANC 3000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Musical Theatre Dance: Styles I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134572",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers advanced study of a selected musical theater dance style, including a history of the form and its major choreographers.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3001",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": "DANC 3000",
+      "title": "Musical Theater Dance: Styles II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134573",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to introduce students to the basic technique and terminology of ballet. Through beginning-level barre and center work, students will explore kinesthetic and spatial awareness, alignment, musicality, and use of weight. Exercises in this course are designed to develop strength, balance, and flexibility. Students will practice professionalism and gain an appreciation and understanding of the art form.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DANC 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ballet I: Classical Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134574",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed for students who are able to demonstrate and execute a basic understanding of ballet technique. Students will enhance their understanding of kinesthetic and spatial awareness, alignment, musicality, and use of weight. Students will practice professionalism and gain an appreciation and understanding of the art form.",
+      "groups": [
+        "major-required",
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3110",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": "DANC 3100",
+      "title": "Ballet II: Classical Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134575",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed for students who are able to demonstrate an intermediate/advanced understanding of ballet technique. Students will develop a more refined understanding of kinesthetic and spatial awareness, alignment, musicality, and use of weight. Barre and center exercises become more complex and emphasis is placed on strengthening performance skills. Students will practice professionalism and deepen their appreciation and understanding of the art form.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3120",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3110",
+      "title": "Ballet III: Classical Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134576",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed for students who are able to demonstrate an advanced understanding of ballet technique. Students will display a complex understanding of kinesthetic and spatial awareness, alignment, musicality, and the use of weight. Barre and center exercises become more intricate and style and performance skills are emphasized. Students will practice professionalism and expand their appreciation and understanding of the art form.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3130",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3120",
+      "title": "Ballet IV: Classical Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134577",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students will explore the principles and art of jazz dance through correct alignment, body control, flexibility, weight shift and rhythmic control. Center work, stretching, isolations, extensions, turns, jumps, simple combinations and vocabulary are introduced. Students will learn to apply techniques of defined traveling movements in a range of dynamic and changing rhythms while acquiring an understanding and appreciation of jazz dance as an art form.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DANC 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Jazz Dance: Styles I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134578",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students acquire complex motor skills, intermediate and advanced techniques and knowledge appropriate for the successful participation in jazz dance performance. Multiple simultaneous isolations, contracted falls and turning jumps are explored, along with movement combinations of 64 beats and longer.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3210",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": "DANC 3200",
+      "title": "Jazz Dance: Styles II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134579",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is an intermediate-advanced jazz technique course for the advanced dancers. Emphasis is placed on learning complex and challenging combinations with correct body placement and balance. Students will continue developing their motor skills, jazz dance techniques, musically and artistry.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3220",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3210",
+      "title": "Jazz Dance: Styles III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134580",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is an advanced jazz technique course for pre-professional dancers. Emphasis is placed on continuing to develop advanced level performance techniques and learning technically, musically and artistically challenging combinations as well as professional repertory.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3230",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3220",
+      "title": "Jazz Dance: Style IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138389",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Commercial Dance is a practical and technical course designed to support students in their understanding of the commercial dance field. They will learn how to successfully understand, perform, and audition for professional dance work within the commercial dance genre.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3240",
+      "notes": [
+        "Dance Major",
+        "Dance Minor"
+      ],
+      "prereqs": "DANC 3200",
+      "title": "Commercial Dance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134581",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students will explore contemporary movement styles, including principles of kinesthetic and spatial awareness, alignment, musicality, and use of weight. The course prepares students for more complex choreography by increasing body connectivity and coordination while building performance skills. Students will practice professionalism and gain an appreciation and understanding of the art form.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DANC 3300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Dance I: Contemporary Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134582",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students demonstrate knowledge of contemporary movement styles, enhancing understanding of kinesthetic and spatial awareness, alignment, musicality, and use of weight. This course begins to incorporate complex choreography through body connectivity and coordination while strengthening performance skills. Students will demonstrate professionalism and an appreciation and understanding of the art form.",
+      "groups": [
+        "major-required",
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3310",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": "DANC 3300",
+      "title": "Modern Dance II: Contemporary Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134583",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students demonstrate intermediate/advanced knowledge of contemporary movement styles, increasing their complex understanding of kinesthetic and spatial awareness, alignment, musicality, and use of weight. This course incorporates complex movement phrases through integrated body connectivity and coordination while performing at an intermediate/advanced level. Students will demonstrate professionalism and an appreciation and understanding of the art form.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3320",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3310",
+      "title": "Modern Dance III: Contemporary Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134584",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students demonstrate advanced knowledge and proficiency of contemporary movement styles, accomplishing complex understanding of kinesthetic and spatial awareness, alignment, musicality, and use of weight. This course incorporates complex movement phrases through integrated body connectivity and coordination while performing at an advanced level and demonstrating professionalism. Students show readiness for the professional practice of contemporary dance and an understanding of their place within the art form.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3330",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3320",
+      "title": "Modern Dance IV: Contemporary Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138385",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course supports intermediate tap dancers with previous tap training. The course refines technique, explores complex rhythms and musicality, and develops individual tap style through complex choreographic and improvisational exercises.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3420",
+      "notes": [],
+      "prereqs": "DANC 2210",
+      "title": "Tap Dance Technique III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134586",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course develops a student\u2019s pointe skills in dance through the increased technical development and learning of classical variations and repertory. This course is designed to develop the advanced-intermediate level dance student\u2019s ability to apply classical ballet skills into the performance of a variety of pointe variations. May be taken twice for credit.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3500",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "DANC 3110",
+      "title": "Pointe/Variations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136346",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces dance choreography including improvisational techniques and choreographic devices appropriate for the concert stage.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 3550",
+      "notes": [
+        "Dance, BA major",
+        "Dance Minor"
+      ],
+      "prereqs": {
+        "or": [
+          "DANC 3110",
+          "DANC 3310"
+        ]
+      },
+      "title": "Choreography I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134587",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "In this course, students will creatively discover and investigate the body\u2019s potential to move without preconception. Through a variety of movement stimulation exercises students are encouraged to develop their inner creativity and explore movement invention.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Dance Improvisation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138386",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "In this course, students will focus on building a safe practice and understanding of the elements of contemporary partnering principles including weight sharing, counterbalance, lifting, supporting, and contact improvisation.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3620",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": null,
+      "title": "Contemporary Partnering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134588",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers the study of a variety of physical conditioning methods such as yoga and pilates combined with injury prevention techniques that promote physical efficiency and physical development of the body.",
+      "groups": [
+        "conc-ballet",
+        "conc-modern"
+      ],
+      "id": "DANC 3700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Body Conditioning and Somatics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134589",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A historical study of prevalent twentieth-century dance forms and their development. Socio-cultural influences in dance and the contributions of individual artists is investigated and researched. A portion of this course studies the history of dance in world cultures and global trends in the development of dance as an art form.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 4010",
+      "notes": [
+        "declared Dance Major",
+        "Minor"
+      ],
+      "prereqs": "DANC 2000",
+      "title": "Dance History II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134590",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the science of the human body, its anatomy and movement physics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 4100",
+      "notes": [
+        "declared Dance Major",
+        "Minor"
+      ],
+      "prereqs": "DANC 2000",
+      "title": "Dance Kinesiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops students\u2019 analytical, critical, and research skills through the study and application of diverse dance research methodologies. This course engages with aesthetic and critical issues relevant to students\u2019 senior capstone projects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 4250",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": "DANC 2000",
+      "title": "Research in Dance Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134592",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students study the philosophical and practical principles associated with the teaching of dance as an art form. Through practical application of theoretical learning objectives, students learn to identify and work conceptually from core principles in technique and pedagogy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 4300",
+      "notes": [
+        "declared Dance Major",
+        "Minor"
+      ],
+      "prereqs": "DANC 2000",
+      "title": "Dance Pedagogy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134595",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores choreographic devices, improvisational techniques, and principles of composition to develop a personalized approach to choreography.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 4500",
+      "notes": [],
+      "prereqs": "DANC 3550",
+      "title": "Choreography II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137160",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes advanced work in the development of new choreography in support of public productions sponsored by the Department of Dance. Students rehearse and take class weekly, in addition to show week responsibilities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "DANC 4714",
+      "notes": [
+        "Audition",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Advanced Dance Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134596",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages with aesthetic and critical issues relevant to students\u2019 senior capstone projects and provides students with practical knowledge pertaining to careers in dance and related fields.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DANC 4800",
+      "notes": [
+        "permission of the department chair"
+      ],
+      "prereqs": "DANC 4010",
+      "title": "Senior Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138390",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Designed for senior dance majors, this capstone course synthesizes the knowledge, skills, and experiences developed throughout the program. Students will engage in practical preparation for professional careers in dance and related fields.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "DANC 4850",
+      "notes": [
+        "Dance Major"
+      ],
+      "prereqs": "DANC 4010",
+      "title": "Professional Pathways: Career Strategies in Dance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134597",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course combines seminar discussion with studio work to assist students with their senior projects. Each student will present their work publicly at the end of the semester.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "DANC 4900",
+      "notes": [],
+      "prereqs": "DANC 4800",
+      "title": "Senior Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-ballet"
+        ],
+        "label": "Ballet"
+      },
+      {
+        "groups": [
+          "conc-modern"
+        ],
+        "label": "Modern"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "ba-dance",
+    "name": "BA Dance"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

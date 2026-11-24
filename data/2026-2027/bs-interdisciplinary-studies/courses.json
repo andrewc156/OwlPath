@@ -1,0 +1,1164 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "ISD 3001",
+      "ISD 3004"
+    ],
+    [
+      "ISD 3002",
+      "ISD 3003"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135536",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores what it means to be \u201cAmerican.\u201d Examining \u201cAmerican Identities\u201d from local and global perspectives, and through a variety of disciplinary frameworks, this course focuses on the diverse forms of \u201cAmerican Identity,\u201d as well as the social and cultural histories that have shaped these identities. Students examine their own and others\u2019 identities. Students gain knowledge and skills related to intercultural relations through various methods that include research, reading, writing, performance, and class activities.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "AMST 1102",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Identities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137314",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "What hopes, possibilities, fears, and concerns (should) inform our thinking about American futures? Turning to the work of scholars, artists, activists, or leaders, this course mines historical, theoretical, and cultural texts to better understand some of the threats that may compromise American futures as well as interventions for crafting alternative and more equitable paths forward. The course may focus on how a particular genre (e.g., dystopia), political philosophy (e.g., democratic socialism), or social goal/issue (e.g., sustainability) imagines, critiques, and finds hope in American futures.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3600",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Futures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the historical and contemporary issues surrounding birth and death in the United States. Taking an interdisciplinary approach, the course surveys methods, concepts, and frameworks relevant to understanding birth, death, and life in between as human rites of passage within various historical, cultural, ethnic, and ethical contexts. Students engage in the close reading of scholarly work, learn and practice a variety of research methods, and analyze historical sources.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3620",
+      "notes": [],
+      "prereqs": null,
+      "title": "Life and Death in America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137316",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers a thematic study of the cultural, social, and economic patterns of the American South using texts and methods from a variety of disciplines, such as history, literature, and sociology. Employing the techniques of critical reading and historical analysis, students interrogate texts ranging from contemporary novels, to film and media representations, to primary historical documents, to land-based learning to gain a fuller understanding of the multiple narratives and cultures that comprise the South.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3650",
+      "notes": [],
+      "prereqs": null,
+      "title": "Southern Cultures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137317",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the cultural, social, political, and economic implications of sound and music. The course applies deep listening and critical thinking techniques for students to interrogate how American societies engage with discourses around music production, circulation, and consumption. Studying sounds and music genres as texts, students analyze a plethora of topics, including but not limited to historical studies of jazz, cultural politics of country music, and contemporary iterations of rap music. Using hemispheric approaches, students also interrogate sounds and music genres of the Americas to grasp how sounds travel across borders.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3660",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sounds of America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137318",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a comprehensive introduction to sustainability, focusing on its three foundational pillars: environmental respect, social equity, and economic viability. Students explore the dynamic interactions between these pillars and their implications for social justice, environmental stewardship, and economic development. Through critical analysis, discussion, and practical application, students develop a thorough understanding of sustainability and its relevance to both global and personal contexts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3670",
+      "notes": [],
+      "prereqs": null,
+      "title": "Greening America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137319",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This interdisciplinary course explores the culture and societal impact of participatory media audiences, commonly known as \u201cfans.\u201d Drawn from the word \u201cfanatic,\u201d the fan has often been cast in a negative light, but fans are also integral to media marketing and are increasingly prominent in popular culture. From Beatlemania to the Big Bang Theory, fans are not only consumers, but also the subjects of representation in popular media. As a result of this increasing media influence, there is now a considerable body of scholarly literature on the worlds of fans or \u201cfandom.\u201d In this course, students engage with a selection of classic and contemporary works in fan studies from a variety of academic disciplines, applying concepts and methods learned in the course to the study of specific fan cultures in order to understand the impact of fandom on culture and society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3680",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fan Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134279",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines \u201cAmerica\u201d as a cultural signifier that circulates around the world. These representations not only travel to other countries, but also return to us in cultural products from other countries. In addition to cultural theory, we will look at film, television, literature, and music. A primary concern is to interrogate what ideological assumptions underlie our notion of what \u201cAmerica\u201d means.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3710",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "U.S. in the World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136734",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course serves as a broad overview of Native American cultures, history, and contemporary issues, with an emphasis on multidisciplinary approaches to the field. Students learn about Native America through a variety of perspectives and topics, including the relationship between Native nations and the U.S. government, questions of tribal identity and belonging, and Indigenous cultural productions, ranging from traditional stories to contemporary texts. Given KSU\u2019s location, special attention is paid to southeastern tribes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3730",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Native American Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134280",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Critical analysis of popular culture in American society. A particular offering of the course could focus on a specific area of popular culture (e.g., books, music, sports, food, mass consumption or advertising) or survey several of those topics. Historical and theoretical readings will support students\u2019 analysis of primary texts, including examples highlighting the globalization of American popular culture, mass markets and niche markets, the social formation of taste, and shifts in society\u2019s preferences for mass consumption in different time periods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3740",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "American Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136976",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to occupations and job opportunities in the public, private, and non-profit sectors relevant to the field of Black Studies. Students engage in exercises designed to assist in successfully progressing and completing the Black Studies major. Topics include an overview of the Black Studies undergraduate major, career options relevant to Black Studies, preparation for employment with a bachelor\u2019s degree, and preparing for and succeeding in graduate school.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BLCK 2100",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Career Success with Black Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136975",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an introduction to Black Political Thought. It analyzes traditions and trajectories of Black intellectual discourse during the 20th Century. Emphasis is placed on foundational texts in the field of Black Studies, yet students will engage with a range of works representing the diversity of Black thought in the 20th Century. This course examines the goals, viewpoints, and strategies of various intellectuals, social movements, and other political voices from the African Diaspora.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BLCK 2200",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Black Thought Matters"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137196",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores historical, cultural, and societal perspectives of religion and spirituality in the African Diaspora. A salient feature of this endeavor is to explore the Black Church in the United States and its relationship to the spiritual and religious expression of the African Diaspora.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Black Religion & Spirituality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136973",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines technology as a factor in historical change, emphasizing the role of tools, machines, and systems in revolutions, culture, politics, and economics in Africa and the African diaspora. Students engage in historiographical debates and readings on the relationship between race and technology in the recent and distant past. More broadly, students develop a critical understanding of the role of race inquiry in technological knowledge through biographies, case studies, and primary source documents.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3200",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Race and Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136974",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a critical analysis of popular culture in the US, the Caribbean, African, and/or other region in the African diaspora. A particular offering of the course could focus on a specific area of popular culture in film and/or media (e.g., books, music, sports, language, food, mass consumption or advertising) or a survey several of those topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3300",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Black Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136929",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to Hip Hop Studies. Students will learn the pillars of Hip Hop, map its development from an urban youth culture in New York to a global phenomenon, and use Hip Hop to interrogate shifting ideas of race, gender, and identity in the 20th and 21st centuries. Through an interdisciplinary framework consisting of readings (both critical and creative), music, film, and television, students investigate the implications of the commodification and consumption of Hip Hop Culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3310",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Hip Hop Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137197",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the history and contemporary challenges of minority-owned businesses in the United States. Students in this course will become familiar with critical issues in entrepreneurship through multicultural and multidisciplinary perspectives of African Americans, Latino/Hispanic-Americans, Asian Americans, Native Americans, and women through critical readings and community-engaged projects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3390",
+      "notes": [],
+      "prereqs": null,
+      "title": "Black & Minority Entrepreneurship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines Black Activism in Brazil. The course reviews the history of resistance of Black Brazilians to racism, from slavery to contemporary Brazil. The course also examines the intersections of Black Social Movements with other social movements based on race, gender, and social class. The course analyzes the connections between Black Social movements and Civil Rights and other anti-racist movements in various parts of the African Diaspora, especially the United States.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3400",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Black Activism in Brazil"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136969",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the personal narrative as an interdisciplinary approach to researching the global black experience. We examine a range of types and categories in biographical writing including autobiographies and memoirs, political and historical biographies, fugitive and captivity narratives, and fictional biographies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3440",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Black Biography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135554",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the experiences, theoretical contributions, and representations of Black women in the United States from feminist, literary, historical, and psychological perspectives. Students learn: (a) the impact of racial and gender oppression in the lived experiences of Black women historically and contemporarily; (b) the various ways Black women have coped with and resisted their oppression; and (c) the intersectional effects of class and sexual identity on Black women\u2019s lives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3500",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "The Black Woman"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136928",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a comparative study of literature by Black women writers from the U.S., the Caribbean, Africa, and/or any region in the African diaspora. Readings for the course may include poetry, short fictions, novels, drama, biography, and autobiography. Topics include narrative strategies, modes of representation, and textual depictions of the intersections of race, gender, sexuality, ethnicity, class, nationality, and/or generation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3510",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Black Women Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136931",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the experiences, theoretical contributions, and representations of Black men and masculinities in the U.S. from social science, literary, and historical perspectives. The course pays particular attention to: (a) the intersection of race, gender, sexuality and class for Black men historically and contemporaneously; (b) the various ways that Black men cope with and resist their oppression c) the various ways that Black men create new masculinities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3520",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Black Masculinities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136932",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Black women have poorer health outcomes on a variety of psychological and physical measures compared to other groups such as Black men, White men, and White women. This course focuses on why this is by examining the interlocking systemic, interpersonal, and individual stressors shown to negatively impact Black women\u2019s health (e.g., gendered-racism). Students also explore and engage in evidence-based techniques that protect and enhance wellbeing in a variety of populations, including Black women.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3550",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Black Women\u2019s Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135674",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth analysis of a selected contemporary topic, trend, issue, or problem in the field of Black Studies (also known as African and African Diaspora Studies, Africana, African American, and Pan-African Studies). Particular attention is paid to how socio-demographic variables, such as race, gender, class, religion, and/or ethnicity impact the issues facing the African Diaspora.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 3780",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Contemporary Topics & Trends in Black Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136972",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Black Panthers is an in-depth interdisciplinary examination of figures and issues of the black radical imagination using the Black Panther Party and the Marvel Comics superhero Black Panther. Through the discussion of film, music, comics, and other texts, students learn how historical, political, cultural, and community-based models of the Black Panther party and superhero are applied to a variety of fields of study, careers, and projects for social change.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 4031",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Black Panthers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135672",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an in-depth examination of a major issue or figure relevant to the field of Black Studies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 4040",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Major Issues and Figures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136970",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores how to transform grassroots social movements into sustainable institutions with organizational, political, and policy objectives. The aim of the course is to bring marginalized perspectives to the challenges facing activists and policymakers. In this course, students foster more awareness on how interdisciplinary strategies and grassroots collaborations can bring about sustainable social change.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 4500",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Social Policy & Grassroots Organizing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136971",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with a scholarly examination of violence imposed on the African Diaspora with a focus on the Black populations in both the United States and Brazil. Students investigate how Black lives can matter. Students examine cases of police violence, the dynamics of incarceration, racial segregation, and dehumanization to sustain class discussions. The course challenges students to make connections between local, national and global trends in the African Diaspora.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLCK 4550",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Black Genocide"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134799",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Feminist Theories involves the study of concepts and ideologies that articulate and define theories of feminism through the intersections of gender with race, class, nationality, sexuality, and other social differences. Students will engage with several foundational and vibrantly contested conversations within feminist theory that draw from a variety of theoretical perspectives, including those influenced by liberalism, Marxism/socialism, psychoanalysis, radical feminism, post-modernism, and post-colonialism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Feminist Theories"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134800",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Queer Theory & Sexuality is an interdisciplinary course that considers the global emergence and significance of theories and practices that 1) refute and destabilize the notion of an essential, normative sexuality and gender and 2) suggest that sexuality is fluid and varied and is constructed by social, political, and economic factors. The course surveys a broad array of scholarship and other forms of print and non-print media and explores a range of topics that might broadly be identified as 1) practices, identities, and communities; 2) the cultural construction of gender and sexuality; 3) sexual citizenship and the nation-state.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Queer Theory & Sexuality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134801",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of historical and contemporary black feminist traditions. Core themes could include the intersections of race and gender with class, sexuality, generation, and place; black feminist thought and its relationship to womanism and other feminisms; outsider-within positionality of black women; black feminist epistemologies; mediated representations of black women\u2019s identities; black lesbian feminism; commodification of black women\u2019s bodies; black women\u2019s global resistance to racism and sexism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3020",
+      "notes": [],
+      "prereqs": null,
+      "title": "Black Feminisms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134802",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of gender as depicted in popular culture texts. Focusing on one medium (e.g., film, television, periodicals, music) or surveying a range of popular culture forms, students will critique depictions of gender; practice using theories and methods from gender and women\u2019s studies to understand popular culture\u2019s role in shaping gender identity; and do research on gender in the context of popular culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3030",
+      "notes": [],
+      "prereqs": null,
+      "title": "Gender in Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134804",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Gender and the Workplace examines work and professional-related gender issues from several perspectives, including the legal, sociological and economic viewpoints. Students will engage with a variety of relevant and timely topics that include gender stereotyping and discrimination, career development, diversity issues, sexual harassment, and work/life balance. As part of the course requirements, students will complete a civic/community engagement assignment relative to the course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3060",
+      "notes": [],
+      "prereqs": null,
+      "title": "Gender in the Workplace"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135582",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an interdisciplinary approach to the social and historical constitution of gender in a social justice framework. Students will explore a wide variety of critical and literary materials to analyze interlocking systems of hierarchy and domination; to evaluate gendered experience across local, regional, national, and global contexts; and to identify critical responses to systemic forms of oppression in the contemporary world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3070",
+      "notes": [],
+      "prereqs": null,
+      "title": "Gender and Social Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134805",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Masculinities Studies is an interdisciplinary introduction to this growing and often contested field. Using a variety of texts, students explore historical, political, and theoretical development, as well as social and cultural constructions, of the category \u201cmasculinity.\u201d Students map central debates surrounding masculinity, including why it is frequently thought to be \u201cin crisis.\u201d The course examines political and social movements related to masculinity as it considers masculinity in relation to other theories, including feminist, postcolonial, etc.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3080",
+      "notes": [],
+      "prereqs": null,
+      "title": "Masculinity Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134806",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Transnational Feminisms is an interdisciplinary study of the economic, social, and political consequences of the phenomenon known as globalization, particularly those consequences that affect issues of gender. As such, students analyze transnational feminisms, studying both the opportunities and challenges that are inherent in transnational feminist scholarship and activism. Through critical inquiry into a variety of texts, the course dynamically reconceptualizes relationships between women and nation; between gender and globalization; and between feminist theory and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3090",
+      "notes": [],
+      "prereqs": null,
+      "title": "Transnational Feminisms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136605",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Gender and the U.S. South examines intersections between cultural norms and values of the southern United States with gender and related identity categories such as race, class, and sexuality. The course invites students to consider ways that gender, race, class, and sexuality are complicated by and related to regional ideas, history, and identity. Additionally, the course explores gender in the U.S. South in connection with other cultures in the Global South.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Gender and the US South"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136814",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an interdisciplinary study of social understandings of disability, particularly its relationship to categories of sex/sexuality, gender, and identity. Using examples drawn from various points in history, various countries around the world, and various disability categories (psychiatric/psychosocial, intellectual, physical, etc.), students read a variety of texts including ethnographies, autobiographies, and case studies in order to understand the variety of the disability experience. This class draws from critical disability studies, feminist, and queer theory.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Disability & Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137349",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This interdisciplinary course approaches sports as an institution with tremendous cultural, social, economic, and political power. Using feminist theoretical frameworks, students interrogate assumptions about the human body, while attending to the ways that popular discourses about gender and race frame our understanding of athletic performance. Students consider how sport is used to delineate membership, community and belonging. Possible topics include gender verification, scientific racism, nationalism, the business of sport, scandal, and fan culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Gender, Race, & Sports"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137350",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the impact of feminist, anti-racist, anti-homophobic, and anti-ableist interventions into various fields of science and technology, as well as the impact of those fields on conceptions of gender, race, sexuality, and disability.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 3400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Gender, Science, & Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134807",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an in-depth examination of a major topic or major figure relevant to the field of gender and women\u2019s studies. Students will learn how to conduct interdisciplinary research and employ gender analysis through the advanced study of one major thinker or the advanced, comparative study of a set of thinkers grouped according to a major topic.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GWST 4040",
+      "notes": [],
+      "prereqs": null,
+      "title": "Major Topics & Figures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136998",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Through this course, students learn about the field of interdisciplinary studies and make connections between classroom experiences and the broader world. In order to facilitate this exploration, students examine complex contemporary issues in the Humanities, Social Sciences, and Natural Sciences and gain a familiarity with academic and popular forms of writing, media, and research. The interdisciplinary learning process involves research, articulating knowledge, using evidence to draw conclusions, and self-reflection.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ISD 1198",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Interdisciplinary Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135999",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is required for students pursuing an ISD Certificate. The course introduces students to global theories and practices of diversity and social justice with a focus on 20th century social movements in the US. It addresses the roots of interdisciplinarity through prominent scholars concerned with diversity and social justice. Students learn about social movements that have had a significant impact on our own time, including women\u2019s liberation and anti-globalization.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ISD 2001",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Introduction to Diversity and Social Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136845",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will examine trends in the workplace as they pertain to today\u2019s undergraduates. Students will examine how \u201cwork\u201d has evolved to become interdisciplinary, regionally and globally interconnected, technology-driven, and collaborative.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ISD 2700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Perspectives on the World of Work"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136547",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, learners explore how the power of integrative thinking and methods can be leveraged toward a more socially just and inclusive society. Using the framework of intersectionality, learners examine the interdependent systems of discrimination, disadvantage, and inequity experienced by individuals or groups related to the individual\u2019s or groups\u2019 interconnected identity characteristics. Using social constructivist pedagogies, learners function as a community in which they explore and share their own interdisciplinary expertise and perspectives to articulate problems and conceptualize solutions related to social justice and inclusion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISD 3001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Integrative Approaches to Social Justice and Inclusion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137177",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students learn interdisciplinary approaches to studying and shaping literacy in a range of social contexts, including instructional, workplace, and community settings. Based upon the designated topic, students will learn about relevant interdisciplinary literacy studies research, practices, and skills. Course may be repeated with a change in content.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISD 3002",
+      "notes": [],
+      "prereqs": null,
+      "title": "Literacy in Interdisciplinary Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137001",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students actively participate in efforts to increase public, democratic, participation in science through critical science literacy. This course allows students to understand science in context. Students become more familiar with understanding how basic scientific research is conducted and are introduced to critical understandings of science in society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISD 3003",
+      "notes": [],
+      "prereqs": null,
+      "title": "Critical Science Literacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136997",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students increase their interdisciplinary understanding of complex global issues facing our contemporary world. Students explore how significant issues are shaped and perceived by global forces, international institutions, and cultural norms, and how local, regional, and national communities and identities are impacted by and connected to those issues. This course is interdisciplinary in nature, and draws on concepts, sources, and theories from within and beyond the sciences, humanities, and social sciences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISD 3004",
+      "notes": [],
+      "prereqs": null,
+      "title": "Global Perspectives"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136839",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a course on the nature of interdisciplinary inquiry. Students acquire a foundational understanding of modes of thinking interdisciplinary scholars and professionals use. Topics may include an introduction to scientific, social scientific, and/or humanities-based research and inquiry methods, as well as approaches to reasoning used in applied settings. The class discusses strategies for selecting a framework and analytical approach and engage ethical questions associated with research, policy development, and decision-making in interdisciplinary studies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISD 3100",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "ASIA 3001"
+          },
+          {
+            "external": "BLCK 1101"
+          },
+          {
+            "external": "BLCK 1102"
+          },
+          "ISD 1198"
+        ]
+      },
+      "title": "Applied Interdisciplinary Inquiry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137178",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISD 4497",
+      "notes": [
+        "Any B2: Cultural Perspectives course"
+      ],
+      "prereqs": null,
+      "title": "Community Exchange"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136999",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This Capstone course prepares students to understand the methods and advantages of their interdisciplinary education. In this course, students demonstrate the ability to formulate, research, and address complex, interdisciplinary problems through a major creative and/or scholastic work. Additionally, the course helps prepare students for graduation by developing post-graduate and career-oriented skills. These two parts, the academic and applied, once integrated, represent the skills and knowledge students need to successfully transition from university to life after graduation.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "ISD 4498",
+      "notes": [
+        "completion of at least 90 credit hours"
+      ],
+      "prereqs": "ISD 3100",
+      "title": "Interdisciplinary Studies Capstone"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135607",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students critically approach Latin America/Latino-US from interdisciplinary perspectives while analyzing texts within a social, political, cultural, economic, historical, artistic, and geographical context. The concept of a global understanding of Latin America within the notion of a hemispheric America is emphasized, as well as how different nations relate to one another in terms of identity formation and statehood. Issues of representation in the context of immigration and multicultural relations are also studied.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "LALS 1102",
+      "notes": [],
+      "prereqs": null,
+      "title": "Understanding Latin America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136821",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to broader conversations surrounding U.S. Latinx communities such as migration trends and scholarly debates in Latinx studies. Historically-established Latinx communities and contemporary Latin American immigrants have taken up residence in U.S. cities and towns due to labor demands, U.S. foreign intervention, and political instability plaguing Latin America. The course examines the impact of such trends on Latinx communities in the U.S.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LALS 3550",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Latinx Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137357",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages with representations of U.S. Latinx communities in expressive cultures. The study of Latinx popular culture position students to explore how race, immigration, gender, class, and citizenship informs media and artistic productions. The larger goal of this course is centering U.S. Latinx communities and their relationships to popular culture. Topics covered in this course may include popular music, sports, film, social media trends, television, and musical theatre.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LALS 3660",
+      "notes": [],
+      "prereqs": null,
+      "title": "Latinx Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136013",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course critically examines the representation of social issues and identity formation in films from Latin America, as well as how they are related to the globalization of American popular culture. This course also focuses on the social and political conditions that affect film-making in the region.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LALS 3770",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Latin American Cinema"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135041",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course serves as an introduction to leadership theory and practice. Learners will examine the history, theories, models, and approaches of leadership in an experiential, self-reflective learning environment that allows learners to apply theoretical leadership concepts to real world applications. In this course, learners also examine some of the major factors that affect leadership, such as situation, context, gender, race, and culture. This study of theory, coupled with real-world investigation and personal reflection, should help learners better understand the ethical and practical issues inherent in the study and practice of leadership in ways they can use in their work, school, and personal lives, as well as prepare them for further leadership courses. No previous exposure to leadership or leadership studies is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Leadership: History, Theory, and Application"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135708",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students explore the relationship between leadership and the concepts of change and conflict in organizational and societal contexts. Students study phases of the change process, characteristics of change, and how individual and system level leadership affect change. Students also examine and discuss the behaviors effective leaders demonstrate during change processes as well as strategies to manage conflict. Finally, students examine their response to change and conflict as they develop and refine their personal leadership practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Change and Conflict Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135042",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, learners examine leadership through a contemporary, interdisciplinary, and global lens. Students will explore how diversity and cultural context affect leadership styles, skills, knowledge, and best practices. Learners will also develop leadership strategies that are critical for effectively and responsibly addressing global issues and trends.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Leadership in a Global Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136822",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Following an introduction to theoretical foundations of leadership, this course emphasizes leadership as a socially and culturally bound process and phenomenon. Anchored by the relational leadership model, learners will identify, investigate, analyze, and reflect on leadership behaviors and competencies critical to the leadership process within multicultural spaces. Students will conduct individual and group inquiry to examine social and contemporary contexts that influence leadership and multiculturalism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3201",
+      "notes": [],
+      "prereqs": null,
+      "title": "Leadership and Multiculturalism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135043",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students explore connections between leadership and various forms of community engagement. Differences between civic engagement, civic responsibility, community service, service learning, advocacy, and activism are examined in conjunction with leadership approaches and models aimed at effecting social change. Students apply principles of these engaged leadership models while designing and implementing community-based team projects that influence social change. Students leave the course with an understanding of how engaged leaders can impact their communities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Leadership and Community Engagement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135044",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines leaders\u2019 behaviors through an ethical lens and delves into the moral decision-making process and the role of ethics in leadership. By analyzing case studies of current and historical events, students gain an understanding of ethical leadership decision making while touching on the theories of ethics and their application. Students can expect to focus on the importance of understanding ethics in a global environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ethics In Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135707",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course makes connections and draws conclusions about leadership, particularly as it applies to gender and women. Through a review of research on gender and leadership styles and traits, learners will integrate leadership theory and experiences to understand the unique state and current thinking regarding issues pertaining to women and leadership. Issues for interrogation include the impact of stereotypes and discrimination on the representation of women as leaders, the lack of parity between men and women in leadership, and obstacles to women\u2019s progress in attaining executive-level roles of leadership. Recent progress toward equal opportunity, remaining challenges, and strategies for securing parity in top level leadership will also be examined in the course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Leadership and Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135045",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the creation and leadership of teams in a variety of settings. There will be a major focus on the interpersonal processes and structural characteristics that influence effective teams. The main purpose of this course is to study the theory, processes, and skills necessary to lead and work in teams that will be more effective, enjoyable, and efficient.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDRS 3800",
+      "notes": [],
+      "prereqs": null,
+      "title": "Building and Leading Effective Teams"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135676",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines selected world religions and peace through an interdisciplinary lens. Drawing primarily on religious and philosophical resources and other cultural texts, the course analyzes the conduct of religions in peace work and religious ideas about peace and peacebuilding.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAX 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Peace and Religion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136548",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of some of the major figures, traditions and texts on the relationship between peace and the environment from Western and non-Western perspectives. The course also poses important questions such as \u201cHow can we make peace with the environment?\u201d \u201cWhat are the most challenging threats to the environment today?\u201d and \u201cHow can we live harmoniously with the non-human world?\u201d",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAX 3300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Peace and the Environment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135678",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the major figures and texts on the topic of non-violence from both Western and non-Western perspectives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAX 3600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Theories of Non-violence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135285",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on current issues, trends, and activism in the field of Peace Studies. The course is interdisciplinary and includes international content in English. Course may be repeated with a change in content.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAX 3780",
+      "notes": [],
+      "prereqs": null,
+      "title": "Trends in Peace Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136549",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the basic skills, tools, processes and frameworks required for effective peacebuilding across cultures. Students apply theoretical and practical knowledge of peace and peacebuilding to real life peacebuilding campaigns as they identify and execute fundamental techniques of non-violent activism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAX 4000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Peacebuilding Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136686",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on gender as a category of analysis for the study of religion, the relationship between religion and sexuality, and how religion informs gender and how gender informs religion. Some topics covered may include the construction of male and female roles in religious texts and rituals, feminist critique of religion and/or the uses and abuses of gendered imagery and language in religious discourse.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "RELS 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Religion and Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136687",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This interdisciplinary course introduces students to the ways that various religious traditions address moral questions and issues. The students study how ethical moral responses are both researched by scholars of religion and addressed by practitioners of specific religious traditions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "RELS 3300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ethical Issues in Religion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an interdisciplinary course that examines the ways that religious themes, symbols, icons, artifacts and language are used in expressions of popular culture(s) and also how religion is itself influenced by popular culture(s). The interaction between religion and pop culture(s) is studied from a critical perspective with a range of diverse cultural and religious examples across both media platforms and forms of pop culture(s).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "RELS 3500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Religion and Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135679",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on current issues and trends in the field of Religious Studies. This course is interdisciplinary includes international content in English.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "RELS 3780",
+      "notes": [],
+      "prereqs": null,
+      "title": "Trends in Religious Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-12",
+      "description": "Upper division study abroad course denoting junior, senior level work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SA 4490",
+      "notes": [
+        "Varies with discipline and subject"
+      ],
+      "prereqs": null,
+      "title": "Upper-division Study Abroad"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135938",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with the knowledge and tools necessary to critically examine the development and integration of science, technology, and society. The course seeks to help students better understand the world in which they live, the broader implications of their major course of study, and the complex social, ethical, and moral choices presented by modern science and technology in human relationships.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Science, Technology, and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136220",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the technical, social and moral issues raised by current international advances in science and technology. Places emphasis on comparative studies by examining a series of topics, each from the perspectives of a variety of nations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STS 4000",
+      "notes": [],
+      "prereqs": null,
+      "title": "International Issues in Science and Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136221",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the technical, social and moral issues raised by a particular issue of current concern in international science and technology. Students develop technical understanding, historical perspective and current events literacy relevant to the topic explored in a given term.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STS 4400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Topical Studies in Science and Technology"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "bs-interdisciplinary-studies",
+    "name": "BS Interdisciplinary Studies"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

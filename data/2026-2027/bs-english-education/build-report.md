@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **ENED 4650**
-  - missing operator before 'ENGL 3310', assumed and
-  - missing operator before 'ENGL 3391', assumed and
-  - missing operator before 'EDUC 4610', assumed and
-- **ENGL 3310**
-  - unrecognized: Secondary
+None.
 
 ## Left out on purpose
 

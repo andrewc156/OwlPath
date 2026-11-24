@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **ANIM 6105**
-  - unrecognized: Design
+None.
 
 ## Left out on purpose
 

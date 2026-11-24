@@ -1,0 +1,1110 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "IET 3424",
+      "ENGR 3325"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136139",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Covers basic circuit theory including the ac and dc characteristics of resistors, capacitors and inductors as used in elementary single and three-phase circuits. Characteristics of basic industrial electric motors and single and three-phase connections are studied. Basic factory automation is covered including sensors, relay control and programmable logic controllers. Laboratory exercises supplement the material discussed in class. This course cannot be used for credit by CpET or EET majors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3000",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "PHYS 2212",
+              "PHYS 2212L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 1112"
+              },
+              {
+                "external": "PHYS 1112L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Electrical Principles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136149",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This introductory design course is a study of manual and automatic, starters and controllers of ac and dc motors. The course will concentrate on three-phase induction motor starters and controllers with some study of dc motor starters and controllers. The induction motor coverage will include both full-voltage and reduced voltage techniques, with the emphasis on the reduced voltage methods. Line impedance, auto-transformer, wye-delta and part-winding starters will be included. The laboratory will consist of several projects in designing, testing and demonstrating various motor starters and controllers. The designs will require using Programmable Logic Controllers in the projects. The course will conclude with variable frequency drives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 4530",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              {
+                "external": "ECET 2111"
+              },
+              {
+                "external": "ECET 3500"
+              }
+            ]
+          },
+          "ECET 3000"
+        ]
+      },
+      "title": "Industrial Motor Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136156",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to engineering graphics in mechanical engineering and manufacturing with an emphasis on using computer-aided design (CAD) to produce finished engineering drawings according to industry and ASME standards. Topics include fundamentals of engineering graphics, introduction to GD&T principles, introduction to SolidWorks sheet metal and weldment design environments, orthographic projection, sectional views, pictorial drawings, dimensioning, industry practices, file management, geometric construction, basic 3D coordinate geometry, parametric solid modeling, and drawing composition.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDG 1211",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Graphics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136157",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A continuation of Engineering Graphics I, covering advanced concepts of 3D geometry, parametric solid modeling, boundary representation of solids, databases for manufacturing and inspection, an introduction to geometric dimensioning and tolerancing according to the American National Standards Institute.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDG 1212",
+      "notes": [],
+      "prereqs": "EDG 1211",
+      "title": "Engineering Graphics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136159",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced 3D CAD features and solid modeling techniques including patterning, configurations, library features, sketch blocks, advanced assemblies, and multi-body parts. Students who complete this course are eligible for the SolidWorks CSWP exam.",
+      "groups": [
+        "conc-engineering-design-graphics"
+      ],
+      "id": "EDG 3112",
+      "notes": [
+        "MET majors",
+        "department approval"
+      ],
+      "prereqs": "EDG 1212",
+      "title": "Advanced Engineering Graphics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136160",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers surface modeling in 3D CAD, combining surface modeling, solid modeling and creating master models. The student is introduced to complex solid modeling, free form surface modeling and surface analysis. Splines, curves and three-dimensional sketches are used in conjunction with surfacing techniques to create shapes common to the automotive or aircraft industry. The shapes are analyzed for surface continuity to optimize designs.",
+      "groups": [
+        "conc-engineering-design-graphics"
+      ],
+      "id": "EDG 4111",
+      "notes": [
+        "MET majors",
+        "department approval"
+      ],
+      "prereqs": "EDG 1211",
+      "title": "Surface Modeling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136161",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers topics in customizing CAD software and creating company standards. Topics include identifying company requirements, customizing the user interface, and writing company standards for the use of the software.",
+      "groups": [
+        "conc-engineering-design-graphics"
+      ],
+      "id": "EDG 4222",
+      "notes": [
+        "MET majors and/or department approval"
+      ],
+      "prereqs": "EDG 1212",
+      "title": "CAD Customization and Standards"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136162",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Advanced manufacturing specific CAD skills are emphasized including top-down design, weldments, sheet metal, custom properties, BOMs, custom drawing formats/layouts, and ASME Y14.5 compliant drawing creation. Students will design, document for manufacturing, and complete hands-on manufacturing analysis/exercises during the lab component of the class\u2013gaining an understanding and mastery of manufacturing processes and manufacturing-ready documentation creation.",
+      "groups": [
+        "conc-engineering-design-graphics",
+        "conc-manufacturing"
+      ],
+      "id": "EDG 4224",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDG 1212",
+          "MET 1400",
+          "MET 1800"
+        ]
+      },
+      "title": "Engineering Design Graphics for Custom Manufacturing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn the time value of money and the basic tools used in engineering economic decision making. The tools include engineering factor notation, algebraic formulas, and Excel functionality. The time value effect is studied as equivalences for present worth, annual worth, or future worth evaluations. Useful algorithms are presented for making sound economic investment decisions involving replacement theory, risk analysis, depreciation, tax incentives, rate of return, cost benefit ratio, return on investment, and economic service life.",
+      "groups": [
+        "conc-general",
+        "conc-manufacturing"
+      ],
+      "id": "ENGR 3325",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Engineering Economic Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137151",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the application of the Six Sigma methodology in the area of process improvement and an introduction to Lean manufacturing concepts. This course includes a Term Project where the student will use the concepts presented in this course to create a quality control plan or a Lean production plan for an organization that includes an acceptance sampling plan, a control chart, or Lean applications, and recommendations for optimizing the overall efficiency of the organization.",
+      "groups": [
+        "conc-general",
+        "conc-manufacturing"
+      ],
+      "id": "ENGR 3407",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "IET 2227",
+          "ENGT 2000"
+        ]
+      },
+      "title": "Lean Six Sigma"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137164",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the practical application of the essential mathematical skills required by practicing engineers. All the basic math skills needed to manage contemporary technology problems are addressed. Topics include algebra, geometry, trigonometry, complex arithmetic, differential and integral calculus, simultaneous algebraic equations, differential equations, Fourier series and Fourier transform, Laplace transform, Mathematics of vectors, and Probability and Statistics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGT 2000",
+      "notes": [],
+      "prereqs": "MATH 1190",
+      "title": "Applied Engineering Math"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137165",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Part 1 of a two-course senior design capstone project for Engineering Technology. Students will form teams, define design projects, and write a proposal.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGT 4901",
+      "notes": [
+        "for MET Majors",
+        "concurrently for EET Majors"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "MET 2800",
+              "MET 4501"
+            ]
+          },
+          {
+            "external": "ECET 3710"
+          }
+        ]
+      },
+      "title": "Engineering Technology Senior Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137166",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Part 2 of a two-course senior design capstone project for Engineering Technology. In teams students will define design projects and write a proposal for the synthesis and analysis of an open-ended mechanical engineering design project, including written and oral communication. Students will also be prepared to take the FE exam.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGT 4902",
+      "notes": [],
+      "prereqs": "ENGT 4901",
+      "title": "Engineering Technology Senior Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136187",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers descriptive statistics, probability, sampling distributions and the central limit theorem, continuous and discrete distributions used in engineering, and inferences about single samples, including point and interval estimates for means, proportions and variances. Industrial applications rather than theoretical developments are emphasized. Computer based solution techniques are used when appropriate. This is the first of a two-course sequence.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IET 2227",
+      "notes": [],
+      "prereqs": "MATH 1113",
+      "title": "Probability and Statistics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136190",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the fundamentals of statistical quality control is provided. Topics include statistical process control with emphasis on applications and techniques including control charts for variables and attributes, and process capability. Other topics include scientific sampling fundamentals, acceptance sampling by attributes and variables, and reliability.",
+      "groups": [
+        "conc-general",
+        "conc-manufacturing"
+      ],
+      "id": "IET 3339",
+      "notes": [],
+      "prereqs": "IET 3403",
+      "title": "Statistical Quality Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136191",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will study quality history, philosophies, and the relationship between quality and organizational performance excellence, as well as the managerial and engineering concepts needed to ensure quality and organizational success through quality.",
+      "groups": [
+        "conc-general",
+        "conc-manufacturing"
+      ],
+      "id": "IET 3356",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quality Concepts and Systems Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136192",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This second of a two-course sequence covers hypothesis testing for means, proportions and variances (one and two samples), categorical data analysis (chi-square contingency tables and goodness-of-fit tests), one- and two-way analysis of variance, experimental design, and introduction to regression analysis, all with engineering applications. Techniques for gathering, analyzing, and presenting technical and engineering data are presented. Computer-based solution techniques are used where appropriate.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IET 3403",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "IET 2227",
+              {
+                "external": "STAT 1401"
+              }
+            ]
+          },
+          "MATH 1113"
+        ]
+      },
+      "title": "Probability and Statistics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136194",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "As an introduction to the effect of the time value of money, this course will use equivalent annual cost, present worth, internal rates of return, and benefit to cost ratios in making economic analysis. Tax consequences, replacement theory and economic life will be examined in the analysis of engineering problems.",
+      "groups": [
+        "conc-general",
+        "conc-manufacturing"
+      ],
+      "id": "IET 3424",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Engineering Economy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136303",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a comprehensive study of human resource management used in industry today. Topics covered are organizational structures, labor relations, supervising professionals, legal issues, team-based environments, performance appraisal, leadership, wage and salary and employee benefits.",
+      "groups": [
+        "conc-general"
+      ],
+      "id": "IET 4115",
+      "notes": [],
+      "prereqs": null,
+      "title": "Human Resources Management for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136304",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course is a comprehensive study of project concepts, such as project definitions, systems and methodologies, project cycles, roles and responsibilities of leaders and members, and procedures used in industrial and production environments. Topics include scheduling, controlling projects, time-cost tradeoff, resource allocation and project cost control.",
+      "groups": [
+        "conc-general",
+        "conc-manufacturing"
+      ],
+      "id": "IET 4135",
+      "notes": [],
+      "prereqs": "MATH 1113",
+      "title": "IET Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137185",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "A continuation of ENGR 1000, MET 1001L actively introduces the student to an exciting career of applied engineering within the context of Mechanical Engineering Technology. The class/lab blends real-world workplace content, engineering tools/processes, critical engineering skills/competencies, and hands-on input-culminating in an exciting class competition that demonstrates an engineered solution to defined problem.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Introduction to Mechanical Engineering Technology Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136630",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MET 1001L",
+          "EDG 1211"
+        ]
+      },
+      "credits": "2",
+      "description": "This course is an introduction to the use and operation of selected welding and fabrication processes. Weld joints and weld types are discussed as they relate to weld design. Weld evaluation and testing methods are covered. Laboratory projects emphasize safety and apply selected welding processes, various inspection processes, fixturing and engineering materials.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MET 1400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Welding & Fabrication for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136631",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is an introduction to the use and operation of selected CNC machines to include mills and lathes with the usage of precision measuring instruments. Laboratory projects emphasize safety, tooling identification, work holding setup, engineering materials, and manual programming with an introduction to CAM programming for CNC operations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 1800",
+      "notes": [],
+      "prereqs": "EDG 1211",
+      "title": "CNC Programming and Machining I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136260",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "2D and 3D forces and moments acting on components, machine parts, frames, and structures are analyzed. Static rigid body force systems in equilibrium, including friction applications are included. Distributed load calculations using centroids and centers of gravity located by composite and CAD methods are practiced. An introduction to calculating the moments of inertia of machines and structures is also included. Real 2D and 3D design applications are emphasized. Assumptions considering safety, economics, quality and function are discussed. Not equivalent to ENGR 2214,",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 2124",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 1190",
+              {
+                "and": [
+                  {
+                    "external": "MATH 1179"
+                  },
+                  {
+                    "external": "MATH 1189"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "PHYS 1111",
+                  "PHYS 1111L"
+                ]
+              },
+              {
+                "and": [
+                  "PHYS 2211",
+                  {
+                    "external": "PHYS 2211L"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Statics with Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136290",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to computation in the context of engineering problem solving. In this course, the fundamental tenets of computer programming will be placed into the context of MATLAB, a user-friendly language for engineers. It employs hands on exercises, examples from the world of engineering, and a variety core tools to increase general proficiency and capability in the computer programming, preparing students to fluidly adapt learned programming concepts to other languages. After teaching the linear, algebra, an introduction to computer programming with MATLAB, including flow charts, loops, condition statements, and functions, is given. Basic numerical methods, including numerical integration, differentiation, and root finding are also covered. Emphasis is placed on using MATLAB to solve engineering problems, and using user-defined functions and toolboxes within MATLAB to create computer programs and GUI\u2019s. A brief introduction to Simulink is also given.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 2501",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113"
+        ]
+      },
+      "title": "Engineering Computation using Matlab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136633",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced CNC programming for 5 Axis Milling and introduction to Dual Spindle Lathe operation and programming, as well as process identification, process optimization, and automation. Tooling and work holding selection is incorporated into the manufacturing design process. Laboratory projects emphasize safety, CNC programming techniques, engineering documentation, design considerations, and in-process inspection.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 2800",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MET 1800",
+          "EDG 1212"
+        ]
+      },
+      "title": "CNC Programming and Machining II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136207",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "The objective of this course is to present fluid mechanics concepts and their applications to practical problems. The main areas are fluid properties, fluid statics, flow in conduits, pump selection and operation, fluid power systems, momentum transfer, external flow, and open channel flow. Principles will be related to industrial applications. Hands-on laboratory exercises will demonstrate principles and applications.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3101",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MET 2124",
+          {
+            "external": "ENGR 2214"
+          }
+        ]
+      },
+      "title": "Fluid Mechanics Principles and Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136259",
+      "catalogYear": "2026-2027",
+      "coreqs": "MET 3124L",
+      "credits": "3",
+      "description": "A study of stress and strain of deformable bodies in tension, compression, bending, and torsion. Topics include: axial stress and strain, thermal stress and strain, statically indeterminate systems, torsional stress and strain, power transmission in shafts, bending stresses in beams, beam deflections, combined stresses, elastic buckling in columns, and finite element analysis methods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3124",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "ENGR 2214"
+          },
+          "MET 2124"
+        ]
+      },
+      "title": "Strength of Materials with Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136350",
+      "catalogYear": "2026-2027",
+      "coreqs": "MET 3124",
+      "credits": "1",
+      "description": "The application of laboratory testing and analysis of results to determine the mechanical behavior of materials under load.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3124L",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "ENGR 2214"
+          },
+          "MET 2124"
+        ]
+      },
+      "title": "Strength of Materials Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136289",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the mechanics of particles and rigid bodies, considering practical examples. Topics covered include: kinematics and kinetics of particles; work and kinetic energy; impulse and momentum; rigid body motions; relative motion and moving coordinate systems. Machinery applications are considered for majority of course materials.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3126",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "external": "ENGR 2214"
+              },
+              "MET 2124"
+            ]
+          },
+          "MATH 2202"
+        ]
+      },
+      "title": "Engineering Dynamics with Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136208",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MET 3124",
+          {
+            "external": "ENGR 3131"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "A study of metals, ceramics, polymers, and composites as related to design. Areas include corrosion, atomic structure, mechanical properties, failure theories, fatigue, creep, cold working, heat treating, alloying, and non-destructive testing. The lab work includes tensile testing, heat treating, impact testing, hardness testing, and corrosion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3132",
+      "notes": [],
+      "prereqs": "CHEM 1211",
+      "title": "Engineering Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136603",
+      "catalogYear": "2026-2027",
+      "coreqs": "MET 3132",
+      "credits": "1",
+      "description": "In this course/laboratory students will gain practical experience in testing of materials including metals, polymers, and composites. Tests include tensile testing, heat treating, impact testing, hardness testing, and corrosion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3132L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Materials Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136209",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this courses jigs and fixtures for production machining processes are covered. Specific subjects include methods of gauging work pieces, ease and simplicity of operation, assembly methods, capital evaluation, techniques for locating and holding work pieces, time studies, tool steels, bending allowances, and reverse engineering techniques. The course is design project oriented. Projects include calculations of tooling forces and costs as well as complete production drawings of the tool design.",
+      "groups": [
+        "conc-manufacturing"
+      ],
+      "id": "MET 3331",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MET 2800",
+          {
+            "or": [
+              {
+                "external": "ENGR 3131"
+              },
+              "MET 3124"
+            ]
+          }
+        ]
+      },
+      "title": "Tool Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136283",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is focused on bringing products to market as quickly as possible primarily through the use of 3D scanning and additive manufacturing technologies. Product Design, reverse engineering, and rapid tooling are topics covered and applied in this course.",
+      "groups": [
+        "conc-engineering-design-graphics",
+        "conc-manufacturing"
+      ],
+      "id": "MET 3332",
+      "notes": [
+        "MET Majors",
+        "department approval"
+      ],
+      "prereqs": "EDG 1212",
+      "title": "Rapid Design and Manufacture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136210",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers the fundamentals of thermodynamics. Use of steam and gas tables is introduced. Property relations for ideal gases and incompressible liquids are introduced. Applications of the First and Second Laws to closed and open systems are studied. Heat engines, refrigerators, heat pumps, availability and irreversibility are studied.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 3401",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 1190",
+              {
+                "and": [
+                  {
+                    "external": "MATH 1179"
+                  },
+                  {
+                    "external": "MATH 1189"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "or": [
+              "PHYS 1111",
+              "PHYS 2211"
+            ]
+          }
+        ]
+      },
+      "title": "Thermodynamics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136212",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduces the student to advanced geometry creation as the necessary input for engineering design and analysis using modern computer aided engineering tools such as finite element stress analysis (FEA) and computation fluid dynamics CFD. Emphasis is placed on the interdependency of geometry creation and engineering analysis.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 4112",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MET 3126",
+              {
+                "external": "ENGR 3122"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "external": "ENGR 3131"
+              },
+              "MET 3124"
+            ]
+          },
+          {
+            "or": [
+              "MET 3101",
+              {
+                "external": "ENGR 3343"
+              }
+            ]
+          },
+          "EDG 1212"
+        ]
+      },
+      "title": "Computer Aided Engineering & Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136652",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The design of machines and machine elements, and cost considerations. The course focuses on power transmission in machines including gears, belts, pulleys, bearings, lubrication, clutches, brakes, chains, power screws, and gear trains. Stress calculations and material selection are discussed. Broad design issues such as safety, ethics, patents, product liability, time value of money, return on investment, and break even analysis are covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MET 4501",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MET 3124",
+          {
+            "external": "ENGR 3131"
+          }
+        ]
+      },
+      "title": "Machine Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136217",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory algebra and trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to falling objects and orbital motion, describe simple harmonic motion, oscillations, and waves, and explain temperature, heat, and entropy.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 1111",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Introductory Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135819",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1111",
+      "credits": "1",
+      "description": "PHYS 1111L is an introductory laboratory for the trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, waves, temperature, and basic fluid dynamics. The analysis of sources of error and formal propagation of uncertainties will also be developed.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 1111L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-general"
+        ],
+        "label": "General"
+      },
+      {
+        "groups": [
+          "conc-engineering-design-graphics"
+        ],
+        "label": "Engineering Design Graphics"
+      },
+      {
+        "groups": [
+          "conc-manufacturing"
+        ],
+        "label": "Manufacturing"
+      }
+    ],
+    "id": "bs-mechanical-engineering-technology",
+    "name": "BS Mechanical Engineering Technology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

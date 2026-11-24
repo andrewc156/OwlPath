@@ -1,0 +1,538 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "WLC 2001",
+      "DATA 1501"
+    ],
+    [
+      "WLC 2002",
+      "POLS 2280"
+    ],
+    [
+      "WLC 1002",
+      "POLS 2401"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to provide an introduction into the field of Data Science. Students will develop skills in appropriate technology and basic statistical methods by completing hands-on projects focused on real-world data and addressing the social consequences of data analysis and application.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "DATA 1501",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136401",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on academic and career planning and development issues for International Affairs majors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 2230",
+      "notes": [
+        "Declared International Affairs major"
+      ],
+      "prereqs": null,
+      "title": "Careers in International Affairs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136665",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the exploration of the fundamental questions about government and policies, market systems, and relations between the two.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2238",
+      "notes": [],
+      "prereqs": "POLS 2250",
+      "title": "Introduction to International Political Economy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135314",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the comparative approaches for the study of politics, focusing on patterns of development and change in contemporary political systems.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2240",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to Comparative Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the study of international relations. Sources of international order, conflict and war, determinants of foreign policy, global actors and the dynamics of political interaction between nation-states are examined.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2250",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to International Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135318",
+      "catalogYear": "2026-2027",
+      "coreqs": "DATA 1501",
+      "credits": "3",
+      "description": "An introduction to the empirical methods in social science research. It provides the student with a working knowledge of the design, implementation and evaluation of social science research.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2280",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137010",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the essential components of research design and data literacy required to understand and conduct both qualitative and quantitative research. Students learn to identify, design, critically analyze, synthesize, and interpret social scientific research using a variety of methodologies as they relate to the understanding of international politics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2285",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Applied Research Design in International Affairs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135851",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Global Issues is an introductory survey course designed to introduce the students to numerous current issues confronting the globe\u2019s policy-makers and populations. Specifically, the course provides an opportunity for diversity in the students\u2019 educational program and provides information that fosters global understanding and engagement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 2401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Global Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135325",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the conduct, substantive policy issues and problems associated with American foreign policy. The contemporary aspects and problems evolving out of and confronted by America\u2019s foreign policy are emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3350",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "American Foreign Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136836",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students critically examine types, challenges, strategies and activities of international nonprofit organizations (i.e., nongovernmental organizations). This course provides a forum for students to analyze NGOs and their relationships to governments, civil societies, donors, and other stakeholders. International development serves as the unifying theme of exploration.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3850",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Nongovernmental Organizations and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135336",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course will offer students an opportunity to investigate political science-oriented concepts and issues by participating in faculty-supervised research or scholarship. Course content and instructional methodologies will be determined by the student and faculty member. The amount of work expected per student will be based on the number of assigned credit hours.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4100",
+      "notes": [
+        "Consent of the instructor",
+        "department chair"
+      ],
+      "prereqs": {
+        "or": [
+          "POLS 2280",
+          {
+            "external": "ACCT 2101"
+          },
+          {
+            "external": "ECON 2300"
+          }
+        ]
+      },
+      "title": "Directed Applied Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the history, structure, procedures, and functions of the US intelligence community and how all of these affect policy decisions. A particular emphasis is placed upon lessons learned from past historical failures of the US intelligence community.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4202",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Politics of the U.S. Intelligence Community"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the system of law governing relations between nation-states, and the roles and functions of international organizations. It explores the conventional international law in the areas of diplomacy, territorial questions and armed conflicts, as well as the developing regimes in trade and human rights. In addition, the course examines the structures and functions of some contemporary organizations in the security and economic areas and evaluates their performance and contribution.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4430",
+      "notes": [],
+      "prereqs": "POLS 2250",
+      "title": "International Law and Organization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135349",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the history and tactics of modern terrorism as well as efforts by modern government to counteract them.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4431",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Politics of International Terrorism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135350",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the politics and policy-making processes of the European Union (EU). It is divided into three parts. The first part addresses the history of European integration and the major theories utilized to explain its origins, evolution and operation. The second part of the course examines the structures and processes that constitute the machinery of EU policymaking. The third part of the course examines the politics of policy-making in an array of issue areas, including the single market, the Euro, and external trade policy. We also examine various noneconomic policy areas such as foreign and security policy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4433",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "European Union Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135352",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course confronts the patterns of development of governmental institutions and use of political processes in meeting the problems of the emerging nations of Asia, Africa, Latin America and the Middle East.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4436",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "POLS 2240",
+          "POLS 2250"
+        ]
+      },
+      "title": "Politics of Developing Areas"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135353",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the primary threats to international security in the 21st century and examines the response of national governments, the United Nations, and regional international organizations in meeting the challenges posed by those threats.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4437",
+      "notes": [],
+      "prereqs": "POLS 2250",
+      "title": "Global Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135802",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the political and economic processes of reform in a variety of post-communist societies, including Russia, Kazakhstan, Ukraine, and Mongolia. A significant portion of the course involves a discussion of the impediments to development in either domain, as well as the significant barriers to economic competition in the world marketplace.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4439",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Political Economy of Russia and Central Asia in Transition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the process of democratization from a cross-national comparative perspective, with significant emphasis placed on the relationship between economic and political development. It begins with an examination of Western conceptions of democracy and the paths to democratic governance that Western states have taken. It then examines the concept of democracy through the lenses of non-Western cultures and values, and compares the distinct paths that states in each region of the world have taken toward democratization. In so doing, students critically analyze the merits of many controversial arguments put forth by political development scholars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4440",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Comparative Democratization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137190",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "As the Arctic region warms, new issues are confronting the region and states that border it. This course examines human, environmental, energy, and traditional security challenges facing the Arctic states and the world. Such challenges include the consequences of renewed Great Power competition, territorial disputes, apparent militarization, rapid environmental change, and significant new investments in energy development and transit/shipping routes. The course evaluates existing multinational legal and political architecture that may help ameliorate such problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4447",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Arctic Politics, Policy, and Security in a Changing Environment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135762",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the unique political traditions and governing institutions of Russia by examining the pre-communist, communist, and post-communist periods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4448",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Russian Politics and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135801",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the international relations of Eurasian states, with particular reference to the Russian Federation\u2019s position in the global security, political, and economic realms, past and present. It covers both intra-Eurasian relations, as well as Russia\u2019s relations with the outside world. The course focuses upon major foreign policy issues that resonate within the region and beyond.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4449",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Russian Foreign Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135358",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Due primarily to the rise of China, East Asia is rapidly becoming the region with the most influence on the world. This course introduces students to the political institutions and processes of China, Japan, and South Korea. Additional consideration is given to Hong Kong, Taiwan, Mongolia, and North Korea. We further examine the interrelations of these states through their political economy, security, and foreign policy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4452",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Politics of East Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135359",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines contemporary socio-political and economic characteristics as well as political institutions needed to understand the countries of Latin America. Two important themes (democracy building and development) will form the central focus of this course. Driving forces which facilitate and/or hinder the Latin American quest for political stability and economic development will also be examined. These include political parties, labor and peasant movements, economic elites, religious organizations and the military. The role and influence of the United States on Latin American politics will also be examined.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4453",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Latin America: Democracy and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135360",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines contemporary socio-political and economic characteristics needed to understand the many countries of the Middle East/North Africa. The role of Islam, the Gulf war, the quest for development, the Palestine issue, and democracy versus authoritarianism are themes which will be covered in the course. In addition, a \u201ccountry profile\u201d approach will also be used. This course examines key countries and studies their political structures in detail.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4454",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Politics of the Middle East"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135361",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the international relations of African states within a conceptual context, with particular reference to Africa\u2019s position in the global political economy. It covers both intra-African relations and African relations with the outside world. The main purpose is an attempt to understand African external politics in order to deal with them, by analyzing past practices and projecting new trends.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4455",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "International Relations of Africa"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135362",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the basic elements of environmental policy making in the international arena. The course highlights current issues such as tropical rain forests, the \u201cGlobal Commons\u201d concept, biodiversity and endangered species. Policy approaches will draw upon examples from specific countries as well as policy developed within international organizations such as the United Nations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4456",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "International Environmental Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135363",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an overview of the main issues that overlay politics in Sri Lanka, Bangladesh, India, and Pakistan. It covers the common historical background and the development of political institutions across the region. The course highlights the main cleavages along which politics are organized and related political, social, and economic outcomes, including the political party system, economic development, social movements, and ethnic conflict.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4457",
+      "notes": [],
+      "prereqs": "POLS 2240",
+      "title": "South Asian Politics: A Comparative Perspective"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136640",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the past, present, and future of the Atlantic Alliance, tracing its development from its creation in 1949 to its post-Cold War expansion, to the Libya Conflict of 2011 to the ongoing Resolute Support Mission in Afghanistan. It also traces the internal politics of the NATO Alliance and the struggle to address the new security challenges of the 21st century from terrorism to nuclear proliferation, and from missile defense to humanitarian intervention.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4460",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Politics of NATO"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134745",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to a foreign language and culture, stressing progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of the culture being studied.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "WLC 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Foreign Language and Culture I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134746",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses continued, progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of the culture being studied.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLC 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "WLC 1001",
+      "title": "Elementary World Language and Culture II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134747",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "WLC 2001",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "WLC 1002",
+      "title": "Intermediate Foreign Language and Culture I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "WLC 2002",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "WLC 2001",
+      "title": "Intermediate Foreign Language and Culture II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "ba-international-affairs",
+    "name": "BA International Affairs"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

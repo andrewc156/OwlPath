@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **CS 6021**
-  - unrecognized: Coursework in computer architecture
-  - unrecognized: operating systems
-  - missing operator before 'as per admissions analysis', assumed and
+None.
 
 ## Left out on purpose
 

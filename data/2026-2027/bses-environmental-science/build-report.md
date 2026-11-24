@@ -2,11 +2,7 @@
 
 ## Warnings needing review
 
-- **BIOL 4322**
-  - could not parse (unexpected ')'): BIOL 1108 and BIOL 1108L)
-- **GEOL 1121K**
-  - unrecognized: any two 1000-level
-  - unrecognized: 2000-level science courses
+None.
 
 ## Left out on purpose
 

@@ -234,3 +234,14 @@ def test_unnamed_top_section_is_elective_only_when_its_text_says_choose():
               ("Teaching Field Courses", 2, ["AAA 2000"])), cat)
     assert d.program_json["courses"] == {"AAA 1000": ["major-elective"], "AAA 2000": ["major-required"]}
     assert d.warnings == []
+
+
+def test_bare_concentration_heading_makes_each_subheading_a_concentration():
+    cat = {"AAA 1000": C("AAA 1000"), "AAA 2000": C("AAA 2000"), "AAA 3000": C("AAA 3000")}
+    d = run(P(("Concentration (12 Credit Hours)", 2, []), ("Leading Independent & Charter Schools", 3, ["AAA 1000"]),
+              ("Higher Education and Student Affairs", 3, ["AAA 2000"]), ("Major Requirements", 2, ["AAA 3000"])), cat)
+    assert d.program_json["courses"] == {"AAA 1000": ["conc-leading-independent-and-charter-schools"],
+                                         "AAA 2000": ["conc-higher-education-and-student-affairs"],
+                                         "AAA 3000": ["major-required"]}
+    labels = [f["label"] for f in d.program_json["program"]["filters"]]
+    assert "Leading Independent & Charter Schools" in labels and "" not in labels and d.warnings == []

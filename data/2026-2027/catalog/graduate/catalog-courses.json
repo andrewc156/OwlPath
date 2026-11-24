@@ -220,15 +220,12 @@
   },
   "ACCT 7940": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-6",
    "description": "Special topics of an advanced or specialized nature not in the regular course offerings.",
    "prereqText": "Admission to MAcc program and ACCT 7000 or its equivalent, and approval of the instructor and MAcc program director prior to registration.",
    "title": "Directed Studies in Accounting and Taxation",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ACCT&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
-   "warnings": [
-    "unrecognized line: 1-3 (Repeatable not to exceed 6 semester hours) Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ACCT 7950": {
    "coreqText": null,
@@ -4347,17 +4344,12 @@
   },
   "ECET 6900": {
    "coreqText": null,
-   "credits": "",
-   "description": "",
+   "credits": "1-5",
+   "description": "The topic election and credit for this course will be by written agreement among the student, the instructor and the department head.",
    "prereqText": null,
    "title": "Special Topics",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=ECET&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
-   "warnings": [
-    "unrecognized line: 1 to 5 Credit Hours",
-    "unrecognized line: The topic election and credit for this course will be by written agreement among the student, the instructor and the department head.",
-    "empty description",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "ECET 7504": {
    "coreqText": null,
@@ -11689,27 +11681,21 @@
   },
   "MUSI 7900": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-3",
    "description": "Selected special topics of interest to students and faculty.",
    "prereqText": "Admission to graduate study in education and permission of advisor, instructor, department chair, and director, graduate study in education.",
    "title": "Special Topics in Music",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MUSI&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
-   "warnings": [
-    "unrecognized line: 1-3 (Regular Grades) Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "MUSI 7950": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-9",
    "description": "Covers special topics and seminars external to regular course offerings. Note: May include original research projects.",
    "prereqText": "Admission to graduate study in education and permission of advisor, instructor, department chair, and director, graduate study in education.",
    "title": "Directed Study",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MUSI&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
-   "warnings": [
-    "unrecognized line: 1-9 (Regular Grades) Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "NURS 6150": {
    "coreqText": null,
@@ -12712,27 +12698,21 @@
   },
   "POLS 7900": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-9",
    "description": "Exploration of a specifically designed topic.",
    "prereqText": "Admission to graduate study in education and permission of advisor, instructor, department chair, and director, graduate study in education.",
    "title": "Special Topics",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=POLS&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
-   "warnings": [
-    "unrecognized line: 1-9 (Repeatable, Regular Grades) Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "POLS 7950": {
    "coreqText": null,
-   "credits": "",
+   "credits": "1-9",
    "description": "A concentrated investigation of selected topics of an advanced nature. Note: The content of the directed study will be determined jointly by the instructor and the student.",
    "prereqText": "Admission to graduate study in education and permission of advisor, instructor, department chair, and director, graduate study in education.",
    "title": "Directed Study",
    "url": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=POLS&filter%5B32%5D=1&cur_cat_oid=83&expand=1",
-   "warnings": [
-    "unrecognized line: 1-9 (Repeatable, Regular Grades) Credit Hours",
-    "no credit hours found"
-   ]
+   "warnings": []
   },
   "PRWR 6000": {
    "coreqText": null,

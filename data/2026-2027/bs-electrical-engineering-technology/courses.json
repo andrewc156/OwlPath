@@ -1,0 +1,925 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137161",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "A continuation of ENGR 1000, this course actively introduces the student to an exciting career of applied engineering within the context of Electrical Engineering Technology. The class/lab blends real-world workplace content, engineering tools/processes, critical engineering skills/competencies, and hands-on input-culminating in an exciting class competition that demonstrates an engineered solution to a defined problem.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Introduction to Electrical Engineering Technology Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136134",
+      "catalogYear": "2026-2027",
+      "coreqs": "MATH 1190",
+      "credits": "3",
+      "description": "This course introduces electrical quantities, element configurations, and circuit analysis tools. DC circuit analysis is emphasized, including circuits containing dependent sources and techniques such as mesh analysis, nodal analysis, superposition, and Thevenin equivalence. Reactive elements are examined, as are the transient responses of circuits that contain a single reactive element. Sinusoidal AC circuit analysis is introduced through the application of basic circuit laws to series and parallel configurations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECET 1101",
+      "notes": [],
+      "prereqs": "ECET 1001L",
+      "title": "Circuits I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136580",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 1101",
+      "credits": "1",
+      "description": "This course provides laboratory experiences to complement ECET 1101 Circuits I. Basic prototyping and testing skills are developed, and lecture concepts are reinforced. Circuits are constructed on solderless breadboards using standard electrical components, and measurements are completed using general-purpose instrumentation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 1101L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Circuits I Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136135",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "ECET 1101",
+          "MATH 1190"
+        ]
+      },
+      "credits": "3",
+      "description": "This course is a study of digital circuit fundamentals with an emphasis on combinational and sequential logic design, logic simplification and implementation using standard digital integrated circuits and programmable logic devices. Topics also include binary number systems, binary arithmetic, logic families, design techniques, logic simulation, flip-flops, counters, registers, memory technologies, and VHDL programming.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 1200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Digital I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136559",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 1200",
+      "credits": "1",
+      "description": "The laboratory component of ECET 1200 is designed to provide the student with hands-on experience in the fundamental concepts and techniques of discrete logic design and implementation using Boolean logic. The concepts are extended into programmable logic design (PLD) using a VHDL programming language. Lab exercises are based on modern digital design principles and practices.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 1200L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Digital I Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136349",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MATH 2202",
+          {
+            "or": [
+              {
+                "and": [
+                  "PHYS 2212",
+                  "PHYS 2212L"
+                ]
+              },
+              {
+                "and": [
+                  {
+                    "external": "PHYS 1112"
+                  },
+                  {
+                    "external": "PHYS 1112L"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course primarily extends the circuit analysis techniques learned in ECET 1101 to circuits containing all three types of passive circuit elements and sinusoidal sources. Several adjunct topics are then presented including analysis of complex networks, dependent sources, transformers, 3-phase circuit analysis, resonance, filters and Bode plots. Laboratory exercises reinforce theoretical concepts presented in the class and provide various opportunities to become proficient in working with standard instrumentation in electrical engineering technology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2111",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 1101",
+          "ECET 1101L"
+        ]
+      },
+      "title": "Circuits II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136581",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 2111",
+      "credits": "1",
+      "description": "This laboratory course reinforces theoretical concepts presented in ECET 2111, expanding on circuit analysis techniques learned in ECET 1101 to circuits containing all three types of passive circuit elements and sinusoidal sources. Students document experimental lab results in reports evaluated based on completion, format, and data accuracy. Lab sessions offer students the opportunity to become proficient in working with standard instrumentation in electrical engineering technology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2111L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Circuits II Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136136",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 2300",
+      "credits": "3",
+      "description": "This course is a study of industry-dominate microcontroller architecture and assembly programming language. Principles covered include: the study of an industry standard micro-controller, assembly language programming, logic family characteristics, system interfacing and system timing issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2210",
+      "notes": [],
+      "prereqs": "ECET 1200",
+      "title": "Digital II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136560",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 2210",
+      "credits": "1",
+      "description": "The laboratory component of ECET 2210 is designed to provide the student with hands-on experience in the fundamental concepts and techniques of microcontroller system design. The concepts are extended into assembly programming language. Lab exercises are based on modern microcontroller embedded design principles and practices.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2210L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Digital II Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136137",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "ECET 2111",
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "This course is a study of the characteristics, analysis, and practical applications of diodes, bipolar-junction transistors (BJTs), and field-effect transistors (FETs). Semiconductor theory, biasing, and small-signal models of BJTs and FETs are included. An introduction to the ideal op amp and basic circuits using it is included.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Electronics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136558",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 2300",
+      "credits": "1",
+      "description": "This course provides laboratory experiences to complement ECET 2300 Electronics I. Standard devices such as op-amps, diodes, bipolar-junction transistors, and field-effect transistors are employed to construct circuits used to: examine device/circuit behavior, become familiar with associated measurements, and reinforce lecture concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2300L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Electronics I Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136138",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of bipolar junction transistor (BJT) and field effect transistor (FET) amplifiers including: amplifier frequency response, multistage amps, differential amps, feedback principles, and heat sink principles. The characteristics, performance and, practical applications of modern linear integrated circuits including: operational amplifiers, comparators, multipliers, logarithmic amplifiers, and oscillators are also covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2310",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2111",
+          "ECET 2300"
+        ]
+      },
+      "title": "Electronics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136582",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 2310",
+      "credits": "1",
+      "description": "In this course students simulate, build, and test single- and multi-stage transistor amplifier circuits and operational amplifier circuits. Applications include determining amplifier and filter gain and frequency response, measuring differential amplifier performance, investigating feedback principles, and implementing oscillator circuits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 2310L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Electronics II Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136140",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of data communication topics. The OSI and TCP/IP protocol models are covered, with emphasis placed on protocols associated with the lower layers. Concepts include synchronous and asynchronous transmission, line codes, signaling, effects of bandwidth and noise, and digital and analog modulation. Error detection and correction are also covered. Other areas studied include analog-to-digital conversion, multiplexing, circuit and packet switching, and network topologies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3400",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2300",
+          {
+            "or": [
+              {
+                "external": "PHYS 1112"
+              },
+              "PHYS 2212"
+            ]
+          }
+        ]
+      },
+      "title": "Data Communications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136141",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of electronic signal transmission systems. It includes an analysis of transmission lines with a concentration on their fundamental principles, specifications, operation and practical applications. The course also includes the study of the fundamental principles of waveguides, and wireless and fiber-optic communications.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3410",
+      "notes": [
+        "P"
+      ],
+      "prereqs": {
+        "and": [
+          "ECET 2300",
+          {
+            "or": [
+              {
+                "external": "PHYS 1112"
+              },
+              "PHYS 2212"
+            ]
+          }
+        ]
+      },
+      "title": "High Frequency Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136142",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of electric machine topics, focusing on the characteristics and applications of basic electric machinery. It introduces classical electromagnetism and magnetic circuits as the basis for electromechanical energy conversion and machine operation. Single-phase and three-phase transformers are covered, along with three-phase and single-phase induction machines, DC machines, and synchronous machines, with emphasis placed on their operational characteristics and modeling.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3500",
+      "notes": [],
+      "prereqs": "ECET 2111",
+      "title": "Survey of Electric Machines"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136557",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 3500",
+      "credits": "1",
+      "description": "This lab course supports the ECET 3500 Survey of Electric Machines course. Students will set-up, operate, measure the operational characteristics, and evaluate the performance of a variety of machines including transformers, induction machines, DC machines, and synchronous machines.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3500L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Electric Machines Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136143",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to test engineering principles with an emphasis on computer-controlled instrumentation and acquisition using a communication interface. Application software will be written in LabVIEW to automatically test devices using GPIB/VISA test equipment. BIST, MTBF, Boundary scan testing, instrumentation, instrumentation automation, ISO 9000, TQM, usability, and other related test engineering topics will also be covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3600",
+      "notes": [],
+      "prereqs": "ECET 2310",
+      "title": "Test Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136556",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 3600",
+      "credits": "1",
+      "description": "This course involves extensive use of LabVIEW for simulation and interfacing to test instruments in the lab. Students learn how to program in LabVIEW and they design an automated test and measurement system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3600L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Test Engineering Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136144",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the analysis of continuous- and discrete-time signals occurring in circuits and systems containing linear and nonlinear elements. Methods include graphical techniques, Laplace transform, Fourier analysis, convolution, and difference equations. Topics regarding communication systems, Bode plots for transfer functions, classical filter responses, and practical second-order filter designs are also presented. An introduction to discrete-time systems including sampling theory is provided covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3620",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGT 2000",
+          "ECET 2300"
+        ]
+      },
+      "title": "Signals and Systems Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136145",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Introduction to the programming and interfacing of embedded systems. Programming will introduce a high-level object-oriented language and explore concepts such as multithreading and industry standard resource management/sharing mechanisms. Programming will focus on low-level hardware interfacing via standard GPIO and a variety of serial communication protocols. The class will also explore the use and application of statistical analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 3701",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2210",
+          "ECET 2310"
+        ]
+      },
+      "title": "Embedded Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136583",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 3701",
+      "credits": "1",
+      "description": "This laboratory course supplements ECET 3701. The initial part consists of a series of weekly labs designed to familiarize students with the target hardware and programming language used in the course. Later labs increase in complexity and target embedded concepts such as timers and multi-threading. The end of the term culminates in a group project where teams develop a complex embedded system.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 3701L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2210",
+          "ECET 2310"
+        ]
+      },
+      "title": "Embedded Systems Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136277",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will teach students the fundamental concepts of hardware programming and interfacing using abstract programming language(s) and several interfacing technologies commonly used in microcontroller design. In addition to learning basic design and interfacing techniques, other skills such as writing pseudo code, developing C/C#-based applications, and applying statistical analysis will be explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3710",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2210",
+          "ECET 2300"
+        ]
+      },
+      "title": "Hardware Programming and Interfacing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136577",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 3710",
+      "credits": "1",
+      "description": "The laboratory component of ECET 3710 is designed to provide the student with hands-on experience in the fundamental concepts of hardware programming and interfacing using abstract programming language(s) and several interfacing technologies commonly used in microcontroller design. Lab exercises are oriented around a popular microcontroller and associated peripheral devices.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 3710L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Hardware Programming and Interfacing Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136146",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course examines radio frequency communications circuits and their applications. Receiver and transmitter circuits such as amplifiers, oscillators, modulators and demodulators are studied. Spectral analysis is introduced and the effects of noise in communications systems is investigated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4420",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2310",
+          {
+            "or": [
+              {
+                "and": [
+                  "PHYS 2212",
+                  "PHYS 2212L"
+                ]
+              },
+              {
+                "and": [
+                  {
+                    "external": "PHYS 1112"
+                  },
+                  {
+                    "external": "PHYS 1112L"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Communications Circuit Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136584",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 4420",
+      "credits": "1",
+      "description": "Students simulate, build, and test circuits used in communications systems. These include amplifiers, oscillators, mixers, filters, and matching networks.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4420L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Communications Circuit Applications Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136147",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course involves the analysis of power systems starting with the calculation of line resistance, line inductance, and line capacitance of power transmission lines. These parameters are used to model power systems in order to derive the bus impedance matrix, perform network calculations and analyze systems for symmetrical and unsymmetrical faults.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4510",
+      "notes": [],
+      "prereqs": "ECET 2111",
+      "title": "Power System Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136148",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introductory design course involves the lighting, wiring and electrical protection systems in commercial and industrial buildings. This course covers: lighting fundamentals, light sources, lighting system layouts for interior spaces, protection of electrical systems, fuses, circuit breakers, instrument transformers and protective relays, grounding and ground-fault protection, feeder design and branch circuits for lighting and motors. This course includes projects - designing lighting and wiring systems for commercial/industrial buildings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4520",
+      "notes": [],
+      "prereqs": "ECET 3500",
+      "title": "Industrial Distribution Systems, Illumination, and the NEC"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136149",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This introductory design course is a study of manual and automatic, starters and controllers of ac and dc motors. The course will concentrate on three-phase induction motor starters and controllers with some study of dc motor starters and controllers. The induction motor coverage will include both full-voltage and reduced voltage techniques, with the emphasis on the reduced voltage methods. Line impedance, auto-transformer, wye-delta and part-winding starters will be included. The laboratory will consist of several projects in designing, testing and demonstrating various motor starters and controllers. The designs will require using Programmable Logic Controllers in the projects. The course will conclude with variable frequency drives.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4530",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "ECET 2111",
+              "ECET 3500"
+            ]
+          },
+          {
+            "external": "ECET 3000"
+          }
+        ]
+      },
+      "title": "Industrial Motor Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136150",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of feedback control systems theory including practical applications of compensation and PID concepts. Control system modeling, transient and steady state characteristics, stability and frequency response are analyzed. Compensation and controller design using Root locus methods are covered. The use of control system software, such as MATLAB, in the analysis and design of control systems is emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 4610",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2310",
+          "ENGT 2000"
+        ]
+      },
+      "title": "Control Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136602",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECET 4610",
+      "credits": "1",
+      "description": "This lab course complements the ECET 4610 lectures. Students investigate feedback control systems including practical applications of compensation and PID concepts. Control system modeling, transient and steady state characteristics, stability and frequency response are analyzed. Compensation and controller design using Root locus methods are covered. The use of MATLAB in the analysis and design of control systems is emphasized. MATLAB is used in conjunction with all the laboratories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECET 4610L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Control Systems Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136151",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the concept of discrete and digital signals and systems. Difference equations, Discrete Fourier Transforms (DFTs), Fast Fourier Transforms (FFTs), Z-Transform techniques, IIR filter design, and FIR filter design are covered. An introduction to the architecture, assembly language and application examples of general and special purpose microprocessors such as the TMS 320 and DSP56000 families is included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4630",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2210",
+          "ECET 2310",
+          "ENGT 2000"
+        ]
+      },
+      "title": "Digital Signal Processing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a thorough introduction to the Virtual Hardware Description Language (VHDL) and apply this knowledge to Field Programmable Gate Arrays (FPGA\u2019s). Current applications are presented and students design, develop, test and document complete FPGA based designs. The use of schematic capture tools for configuring FPGA\u2019s will also be covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4730",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECET 2111",
+          "ECET 2210"
+        ]
+      },
+      "title": "VHDL and Field Programmable Gate Arrays"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136153",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamental concepts, operational characteristics, and design principles of digital networks. The course focuses on local-area and wide-area network topologies and protocols that are used in the Internet. Topics include: TCP/ IP protocol, Internet standards, routing and switching devices, Internet organization, Ethernet and virtual LANS, MPLS, and an overview of aspects of computer network operating systems related to networking.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECET 4820",
+      "notes": [],
+      "prereqs": "ECET 3400",
+      "title": "Communications Networks and the Internet"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136155",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces the students to a broad range of engineering graphics topics. Freehand sketching, and computer-aided design (CAD) assignments cover theory and application in such areas as fundamentals of engineering graphics, drafting technique, lettering, orthographic projection, sectional views, pictorial drawings, dimensioning, and industry practices.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDG 1210",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Engineering Graphics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137164",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the practical application of the essential mathematical skills required by practicing engineers. All the basic math skills needed to manage contemporary technology problems are addressed. Topics include algebra, geometry, trigonometry, complex arithmetic, differential and integral calculus, simultaneous algebraic equations, differential equations, Fourier series and Fourier transform, Laplace transform, Mathematics of vectors, and Probability and Statistics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGT 2000",
+      "notes": [],
+      "prereqs": "MATH 1190",
+      "title": "Applied Engineering Math"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137165",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Part 1 of a two-course senior design capstone project for Engineering Technology. Students will form teams, define design projects, and write a proposal.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGT 4901",
+      "notes": [
+        "for MET Majors",
+        "concurrently for EET Majors"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              {
+                "external": "MET 2800"
+              },
+              {
+                "external": "MET 4501"
+              }
+            ]
+          },
+          "ECET 3710"
+        ]
+      },
+      "title": "Engineering Technology Senior Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137166",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Part 2 of a two-course senior design capstone project for Engineering Technology. In teams students will define design projects and write a proposal for the synthesis and analysis of an open-ended mechanical engineering design project, including written and oral communication. Students will also be prepared to take the FE exam.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGT 4902",
+      "notes": [],
+      "prereqs": "ENGT 4901",
+      "title": "Engineering Technology Senior Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-electrical-engineering-technology",
+    "name": "BS Electrical Engineering Technology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

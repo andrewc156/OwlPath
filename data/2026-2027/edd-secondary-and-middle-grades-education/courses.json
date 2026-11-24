@@ -1,0 +1,520 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "EDRS 9100",
+      "EDRS 9200"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, educators will learn to utilize data to identify school improvement needs and make informed decisions in effectuating change. The ultimate goal of this course is to produce educational leaders who effectively collect, analyze, and use data to improve schools through successfully demonstrated change models. In this course, educators will learn to systemically collect and analyze multiple sources of data to identify improvement needs, determine an effective response, monitor and correct progress, and demonstrate success to stakeholders. Additionally, students will learn to drive and sustain change in a collegial environment, culminating in students\u2019 understanding of, and ability to use, a wide range of applicable leadership practices. Finally, students will learn a variety of technological tools to use for data analysis. They will also learn a variety of Web 2.0 tools to facilitate school communication.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "EDL 7305",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Data Analysis and School Improvement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132999",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will serve as an introduction to qualitative research and methodologies. Methodological origins, theoretical frameworks, literature reviews, and basic methods of data collection and data analysis will be explored in conjunction with an analysis of relevant literature, educational research reports, and ethics in research. Students will apply basic skills of data collection and analysis. Students will differentiate between the types of qualitative research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8100",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Qualitative Research I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132998",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will demonstrate a functional understanding of the nature and design of quantitative research as applied to the educational arena including but not limited to the following topics; the nature and application of descriptive and basic inferential statistics including the concepts of variance, normal distribution, population, sample, power, effect size, hypothesis testing, parametric and nonparametric tests, interaction effects, validity, reliability; the strengths, weaknesses of quantitative research designs; the principles of data collection and analysis using computer software such as SPSS. Candidates will acquire and become proficient in analytical and interpretive skills; and will be prepared to conduct applied quantitative research that will bear positively on schools.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8200",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Quantitative Research I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132455",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced study of qualitative research methodologies including ethnography, case study, and phenomenology. Students will examine a variety of data sources (e.g. interviews, observations) and methods of analysis (e.g. memo writing, coding). Students will conduct research as they formulate their research questions, collect and analyze data, and write a research report.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9100",
+      "notes": [
+        "Admission to the Ed.D. Program",
+        "its equivalent"
+      ],
+      "prereqs": "EDRS 8100",
+      "title": "Advanced Qualitative Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132456",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth study of and application of selected quantitative research designs. The course also involves advanced study of descriptive statistics, inferential statistics, and non-parametric tests traditionally utilized in social and behavioral research. Emphasis will be placed on understanding the process of social and educational research in applied settings. Candidates will deepen their expertise in designing and conducting research and analyzing quantitative data. Candidates will conduct these analyses using quantitative statistical software, interpret their findings, and communicate their results ethically, clearly and effectively.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9200",
+      "notes": [
+        "Admission to the Ed.D. Program",
+        "its equivalent"
+      ],
+      "prereqs": "EDRS 8200",
+      "title": "Advanced Quantitative Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133000",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar will assist the doctoral candidate in conceptualizing, identifying the components of, and articulating the emerging conceptual framework of their dissertation. Under the guidance of the course professor and in consultation with their dissertation chair, the candidate will emerge from the course with a draft his/her conceptual framework which includes the purpose and rationale for his/her research as well as a draft of the theoretical underpinnings of the research described through a review of literature followed by preliminary research questions or hypotheses for his/her dissertation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "EDRS 8100",
+              "EDRS 8200"
+            ]
+          },
+          {
+            "or": [
+              "EDRS 9100",
+              "EDRS 9200"
+            ]
+          }
+        ]
+      },
+      "title": "Research Seminar: Conceptual Frameworks & Research Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132984",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced graduate seminar considers emerging trends and research on adolescence. Topics include research in neuroscience, resilience, self-regulation, and positive youth development models in deepening educators\u2019 understanding of the cognitive, psycho-social, and behavioral changes occurring during adolescence and the implication of such changes for middle and secondary school contexts. Adolescent development and related research is understood through an asset versus a deficit lens. Note: This course may be cross-leveled with EDSM 7500",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDSM 8500",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Emerging Trends & Research on Adolescence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133479",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to broaden students\u2019 understandings of contemporary equity issues in education. With a focus on perspective taking and knowledge creation, students will examine equity issues at the federal, state, and individual levels. Students will assess themselves, their students, their classrooms and schools for contemporary barriers to equity and develop a proposal to address an equity issue in their school setting.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDSM 8701",
+      "notes": [
+        "Admission to a graduate program in education"
+      ],
+      "prereqs": null,
+      "title": "Contemporary Issues in Educational Equity for Secondary & Middle Grades Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133477",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is taken in the first semester of the program and is designed to assist advanced graduate students in developing an understanding of seminal research, contemporary trends, and emerging issues related to teaching and learning in secondary and middle grades settings. The course is designed to assist advanced graduate students in conceptualizing their final capstone project and developing a plan for its completion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDSM 8901",
+      "notes": [
+        "Admission to the Secondary or Middle Grades Education EDD or EDS Program"
+      ],
+      "prereqs": null,
+      "title": "Seminar I: Trends & Issues in Secondary & Middle Grades Ed"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133478",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is taken in the last semester of the Ed.S. program and serves as either the culminating academic endeavor of Ed.S. candidates, or as a bridge for those candidates continuing on toward the Ed.D. The course provides candidates with the opportunity to examine writing, research, or other products related to their own professional interests. Students will complete a capstone project in this course such as evaluating a program, writing a grant for a school or district-based initiative, completing a practitioner research project, writing an article for publication about a teaching strategy they have used in their classroom, designing a research proposal for a potential dissertation topic, or preparing and presenting a paper at a state or national conference.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDSM 8902",
+      "notes": [],
+      "prereqs": "EDSM 8901",
+      "title": "Seminar II: Capstone Course in SMGE"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132979",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A doctoral seminar focused on analysis and problem-solving of a current topic of vital concern relevant to teaching, leading and student learning in schools with a particular emphasis on the contexts of middle and secondary students, classrooms and schools.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDSM 9300",
+      "notes": [
+        "Permission of the professor",
+        "admission to the Ed.S. or Ed.D. program"
+      ],
+      "prereqs": null,
+      "title": "Critical Issues for Student Learning: (Topic)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132985",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a critical analysis of contemporary issues in social studies education theory, research, and practice mainly as identified and discussed in recent scholarly research published in recognized journals, books, and standards adopted by state and national committees or councils for the social studies or social science fields.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDSS 8600",
+      "notes": [
+        "Admission to the Ed.S. or Ed.D. program"
+      ],
+      "prereqs": null,
+      "title": "Critical Analysis of Contemporary Issues in Social Studies Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132465",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "With a focus on the adolescent/young adult learner, this course focuses on preparing expert teacher-leaders to implement research-based best practices of exemplary secondary schools. This course provides extensive examination of learning theories and their application to secondary classrooms. Current renewal and reform initiatives in American high schools are examined in depth with the aim of preparing expert teacher-leaders for collaborative roles in their school and district.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7702",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Best Practices in Secondary Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on a variety of diagnostic, formative, and summative assessment strategies and instruments that are valid and appropriate for content and student populations in secondary and middle grades education. Students learn how to plan, construct, and analyze traditional and non-traditional educational assessments that they can use for instructional and accountability purposes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7705",
+      "notes": [],
+      "prereqs": null,
+      "title": "Rethinking Assessment and Evaluation in Secondary and Middle Grades Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132468",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines current theoretical and motivational research findings that stress the role of dispositional values in motivation. Six main theories (expectancy-values, attribution, social cognitive, goal, intrinsic, and achievement) will provide a foundation of specialized knowledge of this topic. Additionally, teacher candidates will apply specific motivational principles and research to educational settings to support all students\u2019 development of a positive disposition for learning. Teacher candidates will also examine how motivation is contextually facilitated or constrained by various classroom characteristics and socio-cultural factors. Finally, teacher candidates will examine school-level factors and external school reform efforts and their potential for influencing teacher and student motivation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7706",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Motivation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132469",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This graduate course for educators focuses on the critical analysis of national and global large-scale educational testing, emphasizing the core principles, trends and issues surrounding the testing and measurement of achievement. This course is designed for master-level students without extensive mathematical training and covers topics such as the evolution of testing in the US and globally, issues surrounding testing of students with disabilities or English language learners, item analysis with statistics, test domains, sampling, population, measurement error, reliability, validity, score inflation, factors influencing scale scores, scaling, test statistics, performance-based statistics, and testing bias. Graduate candidates will explore these topics within the frameworks of common large-scale tests.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7710",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDL 7305",
+          "EDUC 7705"
+        ]
+      },
+      "title": "Principles, Trends, and Issues in Standardized Educational Testing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132472",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on preparing expert teacher-leaders to implement research-based best practices of exemplary schools. This course provides extensive examination of learning theories and their application to classrooms. Current renewal and reform initiatives in American schools are examined in depth with the aim of preparing expert teacher-leaders for collaborative roles in their school and district.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 7725",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Best Practices in Teaching and Learning in Content Field"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132484",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course deepens experienced educators\u2019 knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice. Note: This course may be cross-leveled with EDUC 7100",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 8100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Study of Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers a theoretical, historical, and practical foundation in critical multicultural and global education. Candidates will gain an understanding of how structures, policies, and practices of schools in U.S. and global contexts tend to perpetuate discriminatory inequities by their effects on students and teachers. Candidates will examine their own identities, cultural assumptions, and instructional practices to enact a philosophy of teaching that disrupts deficit discourses and ensures equitable outcomes for all learners.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDUC 8300",
+      "notes": [
+        "Admission to the Doctoral Program"
+      ],
+      "prereqs": null,
+      "title": "Critical Multicultural and Global Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132496",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher leaders will read, analyze, and apply seminal and current research in the field of writing and composing to English/Language Arts teaching in P-12 or higher education settings. Teacher leaders will examine trends in the research; emerging themes, trends, and research designs; seminal studies in the fields of writing and teaching writing; connections among grammar study, teaching conventions, standards, and writing instruction as reflected in the research; and research-based applications of technology to writing and teaching writing. Attention will also be paid to research on grading and assessing writing, writing program assessment, teaching writing to speakers of English as a second language, curricular development in the field of writing, and to writing across the content areas for the purpose of enhanced student learning in school settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 8310",
+      "notes": [
+        "Admission to the Ed.D. in Adolescent Education English program",
+        "permission of the English Education Ed.D. Advisor"
+      ],
+      "prereqs": null,
+      "title": "Applied Theory and Research in Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132497",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher leaders will read, analyze, and apply seminal and current research in the field of English/Language Arts Education, and design an applied research study related to English/Language Arts Education in P-12 and/or higher education settings. The project may be one that the teacher leader carries out in a workplace setting or may serve as a pilot study for the dissertation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 8701",
+      "notes": [
+        "Admission to the Ed.D. in Adolescent Education English program",
+        "permission of the English Education Ed.D. Advisor"
+      ],
+      "prereqs": null,
+      "title": "Applied Research and Theory in Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher leaders will read, analyze, and apply seminal and current research in the field of digital media and pedagogies as appropriate to English/Language Arts teaching in P-12 and/or higher education settings. Teacher leaders will examine trends in the research; emerging themes, trends, and research designs; seminal studies in the fields; connections among composing, reading, and digital media as reflected in the research; and research-based applications of technology to all aspects of English/Language Arts Education. Attention will also be paid to use of digital media and pedagogies for the purpose of enhanced student learning in school settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 8741",
+      "notes": [
+        "Admission to the Ed.D. in Adolescent Education English/Language program",
+        "permission of the English Education Ed.D. Advisor"
+      ],
+      "prereqs": null,
+      "title": "Digital Media and Pedagogies in English/Language Arts Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132502",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher leaders (graduate students enrolled in the course) will read, analyze, and apply seminal and current research in the field of English/Language Arts Education, and design an applied research study related to English/Language Arts Education in P-12 and/or higher education settings. The project may be one that the teacher leader carries out in a workplace setting or may serve as a pilot study for the dissertation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 9400",
+      "notes": [
+        "6 hours graduate research courses",
+        "permission of the Ed.D. English Education advisor"
+      ],
+      "prereqs": "ENED 8310",
+      "title": "Designing and Conducting Research in English/Language Arts Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to technologies available in schools and explores technology integration frameworks grounded in research-based pedagogical strategies to maximize student engagement. Candidates will design exemplary technology-supported learning experiences that foster higher-order thinking, collaboration, authentic/meaningful learning tasks, and achievement of student content and technology standards. Candidates will also learn how to coach other educators toward higher levels of technology implementation. Appropriate for classroom teachers and other educational leaders interested in increasing effective technology-supported instructional practices in their schools.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7400",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Teaching, Technology & Student Engagement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132659",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to methods and strategies for using the Internet effectively in the classroom. Students will experience a variety of Internet technologies and develop strategies for classroom implementation. The course includes guided tours of some of the best educational sites on the World Wide Web and explores ways to integrate use of the Internet into an educational setting. This course introduces students to systematic instructional methods and models for using the Internet effectively in the classroom. Candidates will create lessons that are current, highly motivating, and mentally engaging.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7430",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Digital Tools for Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132665",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores principles for effective online and blended learning and introduces key terms, issues, policies, challenges, and emerging trends in the field. Topics include published standards for quality online teaching and course design, addressing student academic needs, accessibility of online learning, online assessment principles, accommodations for students with disabilities, and digital citizenship concepts related to online and blended learning. Candidates learn pedagogical strategies for use in an online learning environment and apply them to their discipline. Course projects include creating an online/blended course syllabus and an online learning module.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7480",
+      "notes": [
+        "Admittance to a graduate program, certificate program",
+        "endorsement program within the Bagwell College of Education"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Online & Blended Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133462",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces classroom teachers to personalized learning in technology-rich environments. Candidates will learn various theories and rationale for personalized learning as well as definitions, state standards, and key components of personalized learning. Candidates will devise a plan for implementing personalized learning. The plan will include personalized learning principles and learning standards to address instructional strategies and components of personalized learning and technologies that support personalized learning environments. This course provides the candidate with a broader initial understanding of how personalized learning came about and foundational knowledge of how to create a personalized learning environment enabled by technologies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7600",
+      "notes": [
+        "Candidates must be admitted to a KSU EPP program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Personalized Learning & Technology Rich Environments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132684",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focus is on the current effects and potential of technology for doing, teaching, and learning mathematics. Students explore mathematics as they develop skill in innovative mathematics technologies. Technologies include graphing calculators, data collection technologies (such as CBL, CBR), dynamic geometry software, statistics software, web simulations, web courseware, and other technology tools for mathematics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 7719",
+      "notes": [
+        "Admission to the graduate college"
+      ],
+      "prereqs": null,
+      "title": "Technology and Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132691",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to survey, from an advanced point of view, research methods used in mathematics education by examination of important research in mathematics education. Students will analyze, summarize, and critique published research. Students will also have an opportunity to read extensively the literature relevant to their proposed dissertation research and focus the research questions for their dissertation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 8900",
+      "notes": [
+        "Admission to the Ed.S. or Ed.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Research Methods and Critique in Mathematics Education"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "edd-secondary-and-middle-grades-education",
+    "name": "EdD Secondary and Middle Grades Education"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

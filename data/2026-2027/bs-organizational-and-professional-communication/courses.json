@@ -1,0 +1,598 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136973",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines technology as a factor in historical change, emphasizing the role of tools, machines, and systems in revolutions, culture, politics, and economics in Africa and the African diaspora. Students engage in historiographical debates and readings on the relationship between race and technology in the recent and distant past. More broadly, students develop a critical understanding of the role of race inquiry in technological knowledge through biographies, case studies, and primary source documents.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BLCK 3200",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Race and Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134493",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A broad approach to oral communication skills, including intrapersonal, interpersonal, small group, and public speaking. This is a critical thinking-based course introducing students to various communication contexts. The course will focus on fundamental components of the human communication process, emphasizing selected concepts and practices relevant to success in today\u2019s communication-oriented society.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 1100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Human Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134495",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The organization of materials and the vocal and physical aspects of delivery in various speaking situations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 1110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Public Speaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the approaches and paradigms used in communication research. Emphasis is placed on locating, reviewing, and evaluating communication research studies found in academic publications; the basic structure and function of a literature review; and communication research ethics. This course provides practical experience using the American Psychological Association formatting style.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2020",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "CSI: Communication Sources and Investigations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the various genres of mass media such as books, magazines, newspapers, radio, television, film, Internet and others. Examines the development, roles, functions, problems and criticisms of specific media from a global context.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "COMM 2230",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Mass Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of law, ethics and diversity in mass media. It examines the basics of freedom of expression and press laws in the United States including freedom of information and access to government records. The course analyzes several approaches to ethics in media, journalism and public relations. It also examines diversity in the mass media, journalism and public relations industries.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Communication Law, Ethics and Diversity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134501",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Methods and practice in situational interviewing, including selection, sales, journalistic and media interviews. Examines roles and functions of both interviewee and interviewer.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3315",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Interviewing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138447",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops a framework for exploring the processes involved in patient-provider communication. This course deepens the understanding of the field of health communication, health communication approaches, and represents ways to make the relationship between patients and providers stronger communicationally speaking.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3318",
+      "notes": [],
+      "prereqs": "COMM 1100",
+      "title": "Patient Provider Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134502",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces theoretical and applied aspects of health communication. Current health issues a examined in varied communication contexts, such as interpersonal, group, organizational, and mediated communication. This course analyzes provider-patient communication, intercultural communication and health beliefs, and health messages in the media. A variety of contemporary public health issues are presented. The course also examines the effectiveness of prevention messages using identified communication strategies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3320",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Health Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134515",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an advanced course on the nature of academic inquiry in communication, the structure and methodology of professional and academic research, and the resources available for access to published research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COMM 3435",
+      "notes": [],
+      "prereqs": "COMM 2020",
+      "title": "Communication Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136531",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to media and entertainment. \u201cMedia\u201d topics include not only media institutions, but also the context, history, and economics of media; meaning and ideology; effects on audience behavior; public life; and globalization. \u201cEntertainment\u201d focuses on any communication function used for entertainment purposes, including television, film, music, video games, sports, travel/tourism, museums, and theme parks. This course addresses the history, challenges, trends, and career options in these areas.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MENT 3100",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Fundamentals of Media & Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135690",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores mass media and culture from an international perspective. Students analyze international communication theories, global communication infrastructure, the global media marketplace, and international communication and the internet. Students also examine specific communication systems, both democratic and authoritarian, and how media is disseminated in a global context. International media products such as film, music, radio, and TV programming, online content, and advertisements are also covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 3326",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": "COMM 2230",
+      "title": "International Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134523",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines research findings and commentary about mass media impact and use in the United States. Through the lens of media theory, students explore what mass media \u201cdo\u201d to users and what users \u201cdo\u201d with the mass media, and why these effects and uses are thought to occur. This course is useful for students interested in graduate work in mass media, professional media careers, media literacy, or more conscientious use of mass media and awareness of possible effects on themselves or others.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4424",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": "COMM 2230",
+      "title": "Uses and Effects of Mass Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134524",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of mass media portrayals of gender and race, from years past to present. Students analyze media artifacts, identify recurring themes, and explore research about the societal effects of stereotypical media portrayals.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4425",
+      "notes": [
+        "Journalism",
+        "Emerging Media, B.S., Media",
+        "Entertainment, B.S., Organizational",
+        "Professional Communication, B.S.",
+        "Public Relations, B.S. major."
+      ],
+      "prereqs": "COMM 2240",
+      "title": "Gender, Race, and Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135692",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to media problems and issues. Sample topics may include media literacy, media and society, social and digital media, children and media, celebrity media culture, and courses based on various genres of electronic media. This course may be taken up to two times for a total of six credit hours as long as the course content differs each semester the course is taken.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4434",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: permission of the instructor"
+      ],
+      "prereqs": "MENT 3100",
+      "title": "Topics in Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134497",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to organizational & professional communication as a discipline. It covers methods and applications of basic theories, interactive structures, and directions within various organizational environments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ORGC 2025",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Organizational & Professional Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134507",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of input, process and output variables in small group discussion. The emphasis is on participation, observation and evaluation of various discussion methods.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ORGC 2245",
+      "notes": [
+        "Journalism",
+        "Emerging Media, B.S., Media",
+        "Entertainment, B.S., Organizational",
+        "Professional Communication, B.S.",
+        "Public Relations, B.S. major",
+        "30 credit hours completed"
+      ],
+      "prereqs": null,
+      "title": "Team Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134511",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Theory and application of communication concepts involving interpersonal relationships and contexts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ORGC 2276",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Interpersonal Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134503",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of cultural and communication variables that impact the interaction process between peoples. Intercultural communication is examined during the time communication participants share ideas, information, persuasion and emotions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ORGC 3325",
+      "notes": [
+        "60+ credit hours"
+      ],
+      "prereqs": null,
+      "title": "Intercultural Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134516",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces a model of effective conflict management in organizations and other contexts via appropriate communicative strategies. The model proposes that our perspective of dealing with conflict determines our approach to conflict situations. This course provides students with practical knowledge for understanding the benefits of conflict, recognizing its evolution, and applying various strategies for dealing with different people in a variety of contexts.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ORGC 3459",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Communication and Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134518",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers methods and practice in communication training and development for organizations including pre-assessment, writing objectives, training techniques, post-training evaluation, feedback, implementation. The emphasis is on communication processes and outcomes for the trainer and trainee plus communication skill development within training modules.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ORGC 4344",
+      "notes": [
+        "60+ hours",
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School of Communication",
+        "Media"
+      ],
+      "prereqs": "ORGC 2025",
+      "title": "Training and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134526",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Leadership Communication distinguishes leadership as an influential message-centered process. Based on this perspective, the course examines the variables of message exchange (communicator role, message content and meaning, media, context, and culture) as they impact organizational goal achievement. Eight major communication approaches are used to explain leadership. Special attention is given to understanding communication theory and extending social science research.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ORGC 4440",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Leadership Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134530",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the study and application of the organizational communication assessment process used by consultants, trainers and managers. In this capstone course, students conduct a communication audit for a local company and develop a written analysis of the organization\u2019s internal communication patterns.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ORGC 4455",
+      "notes": [
+        "Journalism",
+        "Emerging Media, B.S., Media",
+        "Entertainment, B.S., Organizational",
+        "Professional Communication, B.S.",
+        "Public Relations, B.S. major",
+        "90 credit hours completed"
+      ],
+      "prereqs": "COMM 3435",
+      "title": "Organizational Communication Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135328",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the intersection of media and politics. Emphasis is placed on the role of various types of media and forms of communication in political processes and systems in the United States, as well as in other democratic and non-democratic societies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 3380",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Media and Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135329",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An in-depth look at the process of selecting governmental leaders in the United States. Includes a segment on foreign elections.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 3385",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Campaigns and Elections"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136836",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students critically examine types, challenges, strategies and activities of international nonprofit organizations (i.e., nongovernmental organizations). This course provides a forum for students to analyze NGOs and their relationships to governments, civil societies, donors, and other stakeholders. International development serves as the unifying theme of exploration.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 3850",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Nongovernmental Organizations and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134505",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the history, role, and functions of public relations, including public relations theory, ethics, and industry and career issues.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PR 3335",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Public Relations Principles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers practice in writing public relations applications, including news releases, public service announcements, and newsletter articles. Students create a portfolio of writing samples.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3375",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Public Relations Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134514",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a study of the theories, methods, applications and implications of persuasion from the days of Aristotle to today\u2019s political and commercial arenas. The course explores the practice of changing attitudes and opinions via non-coercive means.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3429",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Persuasion Methods and Strategies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136018",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn theory and practice of social media in a professional, strategic communication setting, with an emphasis on the connection between traditional best practices and emerging techniques.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4210",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Social Media for Strategic Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135424",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to large scale social organizations, with an emphasis on bureaucracy. It examines both the formal and informal aspects of bureaucracy, including topics ranging from power and authority, to centralization and decentralization, red tape, and professionalism.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SOCI 3304",
+      "notes": [],
+      "prereqs": null,
+      "title": "Social Organization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135429",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the interaction between scientific and technological development and social development, social structure and social issues.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SOCI 3333",
+      "notes": [],
+      "prereqs": null,
+      "title": "Technology and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135435",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the world of work, the changing nature of work, and the implications of these changes for individuals and families. Key themes include theories of work and labor process, intersections of race, ethnicity, and gender, job satisfaction and motivation, labor unions, technological and global challenges, and the structure of professions and occupations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SOCI 3374",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of Work and Occupations"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-organizational-and-professional-communication",
+    "name": "BS Organizational and Professional Communication"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

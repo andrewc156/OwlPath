@@ -1,0 +1,1061 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "PHYS 1111L",
+      "PHYS 1112"
+    ],
+    [
+      "PHYS 1112L",
+      "PHYS 2211"
+    ],
+    [
+      "PHYS 2211L",
+      "PHYS 2212"
+    ],
+    [
+      "PHYS 2212L",
+      "CHEM 1152"
+    ],
+    [
+      "CHEM 1152L",
+      "CHEM 1211"
+    ],
+    [
+      "CHEM 1211L",
+      "CHEM 1212"
+    ],
+    [
+      "CHEM 1212L",
+      "BIOL 1107"
+    ],
+    [
+      "BIOL 1107L",
+      "BIOL 1108"
+    ],
+    [
+      "BIOL 1108L",
+      "SCI 1101K"
+    ],
+    [
+      "ACCT 2101",
+      "IET 2432"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              {
+                "external": "MATH 1001"
+              },
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 1190",
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors. Topics to be covered include elements and compounds, chemical equations, nomenclature, and molecular geometry.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134439",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1151",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1151.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1152",
+      "notes": [],
+      "prereqs": "CHEM 1151",
+      "title": "Survey of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134441",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1152",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1152.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1152L",
+      "notes": [],
+      "prereqs": "CHEM 1151L",
+      "title": "Survey of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136155",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces the students to a broad range of engineering graphics topics. Freehand sketching, and computer-aided design (CAD) assignments cover theory and application in such areas as fundamentals of engineering graphics, drafting technique, lettering, orthographic projection, sectional views, pictorial drawings, dimensioning, and industry practices.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDG 1210",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Engineering Graphics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137151",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the application of the Six Sigma methodology in the area of process improvement and an introduction to Lean manufacturing concepts. This course includes a Term Project where the student will use the concepts presented in this course to create a quality control plan or a Lean production plan for an organization that includes an acceptance sampling plan, a control chart, or Lean applications, and recommendations for optimizing the overall efficiency of the organization.",
+      "groups": [
+        "conc-quality-principles"
+      ],
+      "id": "ENGR 3407",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "IET 2227",
+          {
+            "external": "ENGT 2000"
+          }
+        ]
+      },
+      "title": "Lean Six Sigma"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137173",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is an introductory course for Industrial Engineering Technology majors. The course covers the curriculum and how industrial engineering technology (IET) is used in industry applications. Also covered are research, writing, and presentation skills, Microsoft Excel, and Microsoft PowerPoint.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Industrial Engineering Technology Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137174",
+      "catalogYear": "2026-2027",
+      "coreqs": "IET 1001L",
+      "credits": "3",
+      "description": "Introduce students to Industrial Engineering design concepts important for ensuring product, process, and service performance and safety. Topics include design for usability, safety, reliability, manufacturability, quality, and other current topics in design.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IET 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Industrial Engineering Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136187",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers descriptive statistics, probability, sampling distributions and the central limit theorem, continuous and discrete distributions used in engineering, and inferences about single samples, including point and interval estimates for means, proportions and variances. Industrial applications rather than theoretical developments are emphasized. Computer based solution techniques are used when appropriate. This is the first of a two-course sequence.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 2227",
+      "notes": [],
+      "prereqs": "MATH 1113",
+      "title": "Probability and Statistics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136501",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduces the basics of managerial costing and concepts of tracking variable costs in business production such as administrative costs, labor costs, and cost of goods sold. Includes basic managerial cycle concepts of fixed and variable cost collection, calculations, and decision-making analysis. Topics include: costing vocabulary, concepts, managerial cycle, cash control, inventory, and labor costing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 2432",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Managerial Costing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136188",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an analysis of decision making in the current logistics environment and the tools needed for finding solutions to problems relating to purchasing, inventory, transportation, and warehouse management.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 2449",
+      "notes": [],
+      "prereqs": null,
+      "title": "Logistics and Supply Chain Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136356",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will expand on the topics covered leading students to a deeper understanding of logistics and supply chain systems. Special emphasis will be given to current trends in the field such as global logistics, reverse logistics, nontraditional supply chains and risk assessment/disaster recovery. Each student will also research in more depth a single topic that interest them",
+      "groups": [
+        "conc-logistics"
+      ],
+      "id": "IET 3320",
+      "notes": [],
+      "prereqs": "IET 2449",
+      "title": "Advanced Logistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136189",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course will focus on work design and ergonomics in manufacturing. Topics will include work methods and production processes to improve operator effectiveness and reduce production costs. Techniques studied include operation analysis, motion study, work sampling, time study, line balancing and ergonomic applications.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 3322",
+      "notes": [],
+      "prereqs": null,
+      "title": "Work Measurement and Ergonomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136190",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the fundamentals of statistical quality control is provided. Topics include statistical process control with emphasis on applications and techniques including control charts for variables and attributes, and process capability. Other topics include scientific sampling fundamentals, acceptance sampling by attributes and variables, and reliability.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 3339",
+      "notes": [],
+      "prereqs": "IET 3403",
+      "title": "Statistical Quality Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136191",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will study quality history, philosophies, and the relationship between quality and organizational performance excellence, as well as the managerial and engineering concepts needed to ensure quality and organizational success through quality.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 3356",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quality Concepts and Systems Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136192",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This second of a two-course sequence covers hypothesis testing for means, proportions and variances (one and two samples), categorical data analysis (chi-square contingency tables and goodness-of-fit tests), one- and two-way analysis of variance, experimental design, and introduction to regression analysis, all with engineering applications. Techniques for gathering, analyzing, and presenting technical and engineering data are presented. Computer-based solution techniques are used where appropriate.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 3403",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "IET 2227",
+              {
+                "external": "STAT 1401"
+              }
+            ]
+          },
+          "MATH 1113"
+        ]
+      },
+      "title": "Probability and Statistics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136193",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn the skills and techniques to succeed as a team member in the workplace. Topics include leadership and communication skills, social influences, decision making, problem solving techniques, and team development.",
+      "groups": [
+        "conc-quality-principles"
+      ],
+      "id": "IET 3410",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Team Dynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136194",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "As an introduction to the effect of the time value of money, this course will use equivalent annual cost, present worth, internal rates of return, and benefit to cost ratios in making economic analysis. Tax consequences, replacement theory and economic life will be examined in the analysis of engineering problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 3424",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Engineering Economy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136195",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores cost measurement related to manufacturing and non-manufacturing sectors through cost measurement and control in job order, process, standard and variable costing systems. Content includes the recording and control of material, labor and overhead costs, absorption and direct costing, budgeting, and cost volume profit and analysis.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 3433",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Product and Process Costing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136196",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Topics in green engineering focuses on the science and ethics of ecological, economical, and social environmental issues. The course will delve into the impact the human population has on the current environment as well as explore new sources of energy, air & water quality, waste treatment, reclamation, and conservation efforts. Government regulations, worldwide consortiums, and trends that are leading industries toward sustainability will also be explored.",
+      "groups": [
+        "conc-logistics"
+      ],
+      "id": "IET 3511",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sustainability Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136262",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores various methods and systems dealing with warehousing systems including such areas as management systems, operations, storage and handling strategies, work flow, automation, transportation modes and performance benchmarking.",
+      "groups": [
+        "conc-logistics"
+      ],
+      "id": "IET 3620",
+      "notes": [],
+      "prereqs": null,
+      "title": "Warehousing Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136303",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a comprehensive study of human resource management used in industry today. Topics covered are organizational structures, labor relations, supervising professionals, legal issues, team-based environments, performance appraisal, leadership, wage and salary and employee benefits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4115",
+      "notes": [],
+      "prereqs": null,
+      "title": "Human Resources Management for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136304",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course is a comprehensive study of project concepts, such as project definitions, systems and methodologies, project cycles, roles and responsibilities of leaders and members, and procedures used in industrial and production environments. Topics include scheduling, controlling projects, time-cost tradeoff, resource allocation and project cost control.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4135",
+      "notes": [],
+      "prereqs": "MATH 1113",
+      "title": "IET Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136305",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes basic production and inventory control systems. Areas of focus include forecasting, master planning, MRP, productivity, competitiveness, strategy, product and service design, process selections, capacity planning, and location planning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Operations Management for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136197",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will introduce the students to quantitative techniques used in the solution of industrial operations problems. Topics include linear programming, assignments, transportation/shipment techniques, integer linear programming, and decision analysis.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4405",
+      "notes": [],
+      "prereqs": null,
+      "title": "Operations Research - Concepts, Models and Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136198",
+      "catalogYear": "2026-2027",
+      "coreqs": "IET 3433",
+      "credits": "4",
+      "description": "This course introduces the students to fundamental concepts, theories, and procedures for studying facilities design, physical layout, material flow, and material handling systems. The lab portion of the course teaches students to design facility and parking lot layouts using CAD software. Students are involved in a group project to design a manufacturing or service facility.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4422",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IET 2000",
+          "IET 3322"
+        ]
+      },
+      "title": "Facilities Design, Plant Layout, and Materials Handling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136199",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an in-depth study of simulation as applied to manufacturing, inventory and distribution systems. Topics will include basic simulation and system modeling techniques, random sampling procedures, production modeling, inventory modeling and system evaluation. Emphasis will be upon hands-on simulation of various operations using ARENA, a PC-based graphical simulation program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4451",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "IET 2227",
+              {
+                "external": "STAT 1401"
+              }
+            ]
+          },
+          "IET 2000",
+          "MATH 1113"
+        ]
+      },
+      "title": "Systems Simulation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136200",
+      "catalogYear": "2026-2027",
+      "coreqs": "IET 4135",
+      "credits": "3",
+      "description": "This course focuses on the student completing a project that is a comprehensive application of the subject matter in the IET curriculum. A large-scale feasibility study is to be performed to emphasize the interrelated topics of logistical and production processes for a fictitious company. The course requires a formal written report and a defended oral presentation before industrial and academic experts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 4475",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IET 2000",
+          "IET 2449",
+          "IET 3356",
+          "IET 4422"
+        ]
+      },
+      "title": "Senior Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136003",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamentals of computer programming. Concepts of counters, accumulators, decision-making, looping, subroutines, arrays, files, and string processing are covered. A programing language is used for assignments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IT 1113",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136217",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory algebra and trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to falling objects and orbital motion, describe simple harmonic motion, oscillations, and waves, and explain temperature, heat, and entropy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 1111",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Introductory Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135819",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1111",
+      "credits": "1",
+      "description": "PHYS 1111L is an introductory laboratory for the trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, waves, temperature, and basic fluid dynamics. The analysis of sources of error and formal propagation of uncertainties will also be developed.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 1111L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135929",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory algebra and trigonometry-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, and understand elementary principles of special relativity and quantum physics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 1112",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "PHYS 1111",
+              "PHYS 2211"
+            ]
+          },
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Introductory Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135820",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1112",
+      "credits": "1",
+      "description": "PHYS 1112L is an introductory laboratory for the trigonometry-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 1112L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135412",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in a two part sequence that fulfills the general education science requirement. Using the context of environmental issues it introduces students to the basic nature of matter, energy, and living systems and to the nature of science. Emphasis is placed on making decisions about scientific issues. Lab work includes designing experiments, analyzing data, conducting scientific simulations, and utilizing environmental calculators to assess human impacts on the environment.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SCI 1101K",
+      "notes": [],
+      "prereqs": null,
+      "title": "Science, Society, and the Environment I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136333",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is an introduction to organization, style, and mechanics of technical writing. It includes practice in writing such typical documents as technical descriptions, instructions, proposals, and recommendation reports. Emphasis is placed on incorporating rhetorical theory into planning, organizing, and writing reports; designing visual aids; and editing. Among other assignments, at least one complete technical report is required.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TCOM 2010",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Technical Writing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-quality-principles"
+        ],
+        "label": "Quality Principles"
+      },
+      {
+        "groups": [
+          "conc-logistics"
+        ],
+        "label": "Logistics"
+      }
+    ],
+    "id": "bs-industrial-engineering-technology",
+    "name": "BS Industrial Engineering Technology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

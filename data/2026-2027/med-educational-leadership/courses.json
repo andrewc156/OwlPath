@@ -1,0 +1,321 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133389",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a critical analysis of K-12 education policy at the national, state, and local levels. Topics include issues related to historical, political, cultural, and social contexts of American education. Students examine institutions and processes of public policymaking. The goal of the course is to help leaders think critically about education policy, theory, and praxis and its influences on their students as learners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 7101",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Critical Analysis of Policy, Theory and Praxis for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133820",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for emerging school leaders to develop practical skills using research and data analysis for school improvement and curricular leadership. Candidates will develop knowledge, skills, and dispositions for leading the development of instructional and assessment practices by bridging theory and practice. The course also covers technological applications as tools to improve student achievement. Candidates will analyze, plan, develop, monitor, and evaluate instructional programs that align vertically and horizontally with state and district curriculum standards and that meet the needs of all students, particularly students with exceptionalities, and students with cultural and linguistic differences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 7215",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Data-Informed Curriculum and Assessment for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, educational leaders will learn to facilitate and evaluate instruction, to support and coach teachers in the implementation of a shared vision of teaching and learning, and to use job-embedded professional learning to implement instruction that is standards-based, focused on student and adult learning, and accessible to and inclusive of all students.",
+      "groups": [
+        "conc-k-12"
+      ],
+      "id": "EDL 7401",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Instructional Leadership for Learning & Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides skills necessary for school administrators to act professionally and ethically in the area of human resources. Educational leaders will learn how to be ethically and legally compliant in school operations for the academic success of all P-12 students, regardless of ability, language, or cultural background. Leaders will demonstrate awareness and application of the Georgia Code of Ethics for Educators in professional practice and be able to make decisions based on ethical principles.",
+      "groups": [
+        "conc-k-12"
+      ],
+      "id": "EDL 7415",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Human Resources, Law, and Ethics for School Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133395",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines fiscal policy, control systems, and effective methods of budget planning related to resource-allocation and improving the quality of teaching and learning. The course is designed to prepare school leaders for fiscal planning, operations, financial decision-making, and problem solving. The course will address state financial structures and policies, legal and ethical issues, financial management systems, and budget building and implementation at the school and district level for Georgia Tier I Leadership Certification.",
+      "groups": [
+        "conc-k-12"
+      ],
+      "id": "EDL 7601",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "School Operations and Organizational Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the knowledge, dispositions, and skills needed by school administrators to understand and respond to various community systems and needs, collaborate effectively, mobilize community resources, and interpret the school to the public through a variety of media and modes.",
+      "groups": [
+        "conc-k-12"
+      ],
+      "id": "EDL 7615",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Communication and Community Relations, for School Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133399",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the school leader\u2019s role and responsibilities related to financial management and leadership in independent and charter schools. The course will provide the candidate with basic principles of school management that include leadership, strategic planning, financial accounting, budgeting, nonprofit organizations, and financial analysis. Attention to the ethical and legal aspects of financial management will also be discussed. This course includes a performance-based experience.",
+      "groups": [
+        "conc-leading-independent-and-charter-schools"
+      ],
+      "id": "EDL 7800",
+      "notes": [
+        "Admission to the Program"
+      ],
+      "prereqs": null,
+      "title": "Financial Management and Leadership in Independent and Charter Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133400",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course provides a study of independent and charter school business management, and finance. It is designed to provide the school leader with basic principles of advancement, governance, communications, marketing, branding, school funding, and admissions all necessary components for school sustainability. A focus on current trends, issues, ethical, and legal aspects relating to advancement and governance for independent and charter schools are also a focus of this course.",
+      "groups": [
+        "conc-leading-independent-and-charter-schools"
+      ],
+      "id": "EDL 7801",
+      "notes": [
+        "Admission to the Program"
+      ],
+      "prereqs": null,
+      "title": "Institutional Advancement in Independent and Charter Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133717",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to provide an understanding of the various theories that inform Higher Education and Student Affairs (HESA) leadership and practice. In this course, students will explore leadership as a discipline that transcends functional areas, serving as a framework to lead and guide within higher education and beyond. Students will examine leadership theories presented to formulate their approach as an educator and practitioner. Students will apply a critical lens to examine how HESA administrators lead during times of crisis. Further, these theories will inform the ways in which students are able to engage with the world around them.",
+      "groups": [
+        "conc-higher-education-student-affairs-hesa"
+      ],
+      "id": "HESA 7000",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Leadership for Learning and Change in Higher Education and Student Affairs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133721",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will study historical perspectives, philosophies, trends, practices in Higher Education and Student Affairs (HESA), and the use of data to implement change in post-secondary programs. In particular, students will examine how social foundations, history, historiography, and genealogy can be employed to frame narratives through which universities can more effectively serve various populations and constituencies and create positive educational, social, and economic change. Note: This course may be cross-leveled with HEA 8100.",
+      "groups": [
+        "conc-higher-education-student-affairs-hesa"
+      ],
+      "id": "HESA 7100",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Foundations of Higher Education and Student Affairs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133718",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the application of a variety of institutional assessment processes to inform the development, or improvement, of institutions of higher education. Special attention will be devoted to supporting strategic planning as a necessary foundation for both assessment and development. Further, the course provides context on how to transfer institutional research into effective marketing of post-secondary programs in a variety of media.",
+      "groups": [
+        "conc-higher-education-and-student-affairs"
+      ],
+      "id": "HESA 7150",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Assessment and Institutional Effectiveness in Higher Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133724",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines theories and best practices in leadership and organizational management in higher education. Students will study contemporary leadership theories, including the influences of social constructivism, post-industrialism, and evolutionary and adaptive principles emphasizing the complexities of social processes and human relationships. Students will also examine approaches to leading with and without authority, theorizing about the practices of mobilizing people to thrive in changing and challenging times. Note: This course may be cross-leveled with HEA 8200.",
+      "groups": [
+        "conc-higher-education-student-affairs-hesa"
+      ],
+      "id": "HESA 7200",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Organizational Management in Higher Education and Student Affairs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133719",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines major bodies of theory related to college student development and the contexts in which that development occurs. The areas of psychosocial and cognitive structural development will be emphasized through multiple perspectives including moral development, intellectual development, and social identity development. Students will examine selected theories describing patterns of growth and development during the college years and explore applications of these theories to higher education practice.",
+      "groups": [
+        "conc-higher-education-student-affairs-hesa"
+      ],
+      "id": "HESA 7250",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Leading Student Development and Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133722",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class will provide a theoretical perspective and advanced knowledge of human resources methods and practices from the focal position of HESA administrators. The course is designed to offer authentic examples through case study discussions focusing on the human resources function (e.g., recruitment, selection, and induction; personnel administration; training, developing, and evaluating talent; succession & career planning; employee relations). These applications will be unique from those found in K-12 education. Students will practice critical analysis skills by deconstructing local, state, and national HR practices and policies and critiquing the methodologies of empirical human resources literature. Note: This course may be cross-leveled with HEA 8400.",
+      "groups": [
+        "conc-higher-education-and-student-affairs"
+      ],
+      "id": "HESA 7400",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Human Resources Management in Higher Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133723",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide higher education and student affairs (HESA) administrators with an informed paradigm for ethical and legal decision-making. Various codes of ethics and case studies will be analyzed and applied to specific situations in HESA. Students will engage in critical dialogue, research, and reflection to develop a personal code of ethics. Through deliberate exploration, HESA administrators will examine legal and ethical issues that are predominant in various higher education contexts and research best practices to incorporate into their own leadership practice. Deploying legal research and methodologies, this course will provide HESA administrators with the tools needed to tackle pressing legal and ethical issues in their higher education contexts. Note: This course may be cross-leveled with HEA 8500.",
+      "groups": [
+        "conc-higher-education-and-student-affairs"
+      ],
+      "id": "HESA 7500",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Legal Issues and Ethics for Higher Education and Student Affairs Administrators"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133720",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines various aspects of financial management in higher education such as revenue streams for contemporary programs, legal and ethical dimensions of budgeting and expenditures, and the impact of global economic forces. Students will study the creation of financially nimble and sustainable programs with diversified finances and budgets that assist with programmatic accountability and success. Broader contexts of the global economic impact on higher education will frame the practical discussion of finance and budget. Note: This course may be cross-leveled with HEA 8600.",
+      "groups": [
+        "conc-higher-education-and-student-affairs"
+      ],
+      "id": "HESA 7600",
+      "notes": [
+        "Admission to the Educational Leadership, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Financial Management in Higher Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133435",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will examine and implement the process of classroom-based action research. Topics covered include an overview of the action research process, planning and developing a research plan, collecting and analyzing data, and developing and sharing action research reports. The curriculum will also focus on how to engage and facilitate colleagues\u2019 use of action research to improve a problem of practice in the teacher leader\u2019s content area.",
+      "groups": [
+        "conc-leading-independent-and-charter-schools"
+      ],
+      "id": "TLED 7980",
+      "notes": [],
+      "prereqs": null,
+      "title": "Action Research in Schools"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-k-12"
+        ],
+        "label": "K-12"
+      },
+      {
+        "groups": [
+          "conc-higher-education-student-affairs-hesa"
+        ],
+        "label": "Higher Education Student Affairs (HESA)"
+      },
+      {
+        "groups": [
+          "conc-leading-independent-and-charter-schools"
+        ],
+        "label": "Leading Independent & Charter Schools"
+      },
+      {
+        "groups": [
+          "conc-higher-education-and-student-affairs"
+        ],
+        "label": "Higher Education and Student Affairs"
+      }
+    ],
+    "id": "med-educational-leadership",
+    "name": "MEd Educational Leadership"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

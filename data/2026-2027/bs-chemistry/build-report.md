@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **CHEM 4100**
-  - unrecognized: Junior level status
+None.
 
 ## Notes
 

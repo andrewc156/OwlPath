@@ -1,0 +1,380 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132214",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides managers with an overview of key accounting issues, with an emphasis on concepts, tools, and international perspectives that will provide direct benefits in the workplace. Areas covered include reporting performance to stakeholders outside the entity, using accounting information inside the entity to make decisions and control behavior, and ensuring the reliability of accounting information. Note: This course may not be used in the MAcc program.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 7000",
+      "notes": [
+        "Admission to the Coles MBA program"
+      ],
+      "prereqs": null,
+      "title": "Accounting Insights for Managers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132323",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a graduate level introduction to the theory and research on the nature, causes, and patterns of the etiology of crime and criminal behavior taken from diverse, interdisciplinary perspectives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 7702",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced Criminological Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132324",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A variety of significant issues in modern American law enforcement is addressed in this course, including policing in a diverse and technologically advanced society, the law enforcement subculture, problems and challenges for law enforcement administrators, the role of private security in complementing government law enforcement efforts, and ethical dilemmas facing law enforcement officers throughout the organizational hierarchy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 7703",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced Law Enforcement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132325",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an analysis of contemporary correctional services and issues of prisons and alternative community-based programs for adults and juveniles with emphasis placed on multiculturalism, overcrowding of correctional facilities, and legal issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 7704",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Institutional and Community Corrections"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132326",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the sources of modern American jurisprudence and the influences on legislation. The adversarial system of justice is considered in-depth, and includes consideration of justice models, prosecution and defense strategies, and ethical considerations for the participants in the adjudicatory process.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 7705",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Law and the Legal Process"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132327",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines components of social science research including variable operationalization, research design, sampling techniques, and methods of data collection. Students evaluate the relative strength of research studies in criminal justice and criminology based on methodological factors. Students develop research strategies of their own to investigate criminal behavior, criminal processing, and other issues in the criminal justice system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 7706",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132328",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the interrelationship of the three components of the American criminal justice system and the manner in which each component operates within the larger political system. Goal-setting, problem-solving, planning, and designing the program/policy are examined in the context of law enforcement, courts, and corrections. The course also discusses future trends in criminal justice.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7707",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Strategic Planning in Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132329",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers basic concepts of crime prevention theories and strategies and addresses different crime control program and models. Topics include how and why crime rates differ, the utility of research to address policy questions, and what works and what does not work in crime prevention/control programs.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7708",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Criminal Justice Policy and Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132330",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines and compares the criminal justice systems of several countries by focusing on historical, political, and social factors, and explaining their influence on legal institutions and systems of justice. The course discusses the difficulties in comparisons and how to conduct an effective comparative analysis. Topics may include: perceived causes of crime, police structures, legal systems, victims, crime prevention, corrections, and recent trends in international crime and justice.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7709",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Comparative Criminal Justice Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132331",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines legal and institutional responses to and international cooperation against transnational crime, particularly terrorism, human and drug trafficking. Topics include the analysis of the concept of universal jurisdiction that provides a basis for treating certain crimes as \u201ctransnational\u201d and \u201cinternational\u201d and an evaluation of the range of institutions created to track and punish international criminals (such as the International Criminal Court).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7710",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Transnational Crimes and International Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133456",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces MSCJ students to core statistical concepts and techniques necessary to conduct criminal justice research including descriptive and inferential statistics. Students learn how to summarize criminal justice or criminological data (e.g. National Archive of Criminal Justice Data, Uniform Crime Reports, National Crime Victimization Survey, etc.) with graphs and numbers, generalize from a sample to a population, report quantitative analyses appropriate for professional quality papers, and determine the relationship between two or more variables. This course emphasizes the application and interpretation of statistics using statistical computer software in the field of criminal justice data analysis.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 7712",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the MSCJ Program Director"
+      ],
+      "prereqs": null,
+      "title": "Applied Statistics and Data Analysis in CJ"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133735",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of major issues related to family relationships and criminal activity, including theoretical explanations for family violence and patterns of family violence in the United States, is undertaken. Also explored is how family relationships during childhood can affect long-term behavior. Furthermore, data, theoretical approaches, and current research about the ways in which family relationships relate to criminal involvement and victimization are analyzed. In doing so, the complex ways in which the family-crime - criminal justice connection is both a product of societal forces and affects broader social relations are examined.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7713",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Family, Crime and Violence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133736",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of issues surrounding the relationship between community characteristics and crime is explored. Prominent theoretical perspectives are examined, including social disorganization, social control, and collective efficacy, in order to understand how social conditions interact with crime and place. Patterns and prevalence of community crime are also examined, along with methodology and current research. Finally, the interaction between communities and the criminal justice system is addressed with a focus on relevant policy implications.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7714",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Communities and Crime"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133737",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth examination of racial and ethnic issues related to crime and justice in America. The course explores how racial stratification and inequalities influence crime and victimization and official responses to crime. Topic areas may include disparities in criminal justice enforcement, minority representation in the criminal justice system, and strategies for addressing discrimination across criminal justice policies and practices. Data, theoretical approaches, and current research about the ways in which race and ethnicity relate to criminal involvement and criminal justice processing are examined. In doing so, the complex ways in which the race-crime-criminal justice connection is both a product of societal forces and affects broader social relations are explored.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7715",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Race, Crime and Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132919",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This study facilitates learning about the justice system of another country (which may vary each year) by exposing students to and providing interaction with law enforcement officers, members of the judiciary, and the corrections agencies in a country outside the United States.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 7722",
+      "notes": [
+        "Admission to the MSCJ program",
+        "permission of the MSCJ program director"
+      ],
+      "prereqs": null,
+      "title": "International Criminal Justice Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course requires preparation and completion of a written research project on a criminal justice policy related topic. Students may choose to apply statistical analysis and evaluation in their projects. Emphasis is on actual issues and problems facing practicing criminal justice administrators.",
+      "groups": [
+        "conc-non-thesis"
+      ],
+      "id": "CRJU 7998",
+      "notes": [
+        "Completion of six core courses"
+      ],
+      "prereqs": null,
+      "title": "Demonstration Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132986",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes detailed examinations of critical information security and information systems requirements for governance, risk management, and compliance planning. It includes an examination of policies, procedures, and staffing functions necessary to organize and administrate ongoing security functions in the organization to support secure business and information system operations. Subjects to be covered include IT/InfoSec Governance, security planning and practices, legal and regulatory compliance, continuity planning, and disaster recovery planning.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7310",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Governance, Risk Management, and Compliance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132782",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers the public policymaking process, civil service and administrative agencies, and policy implementation, with brief introductory foray into motivation, leadership, decision making, finance and budgeting, and personnel. Contrasts between public and business administration will be included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PAD 6200",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Public Administration and Public Service"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132783",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops familiarity with methods of research and analysis useful to public service practitioners. It details practical tools for future administrators. Such tools can include, but are not limited to, the use of surveys, qualitative analysis, quantitative analysis, descriptive statistics and inferential statistics. The course explores the uses of research and application of those uses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PAD 6250",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Research Methods and Computer Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132788",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce the basic methods of policy and program evaluation. These evaluation methods are used in needs assessments, monitoring social programs, and assessing the effectiveness and efficiency of their impacts. Quantitative approaches, such as experimental, quasi-experimental, and reflexive designs and the social, political, and ethical context of evaluation studies will be discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PAD 6600",
+      "notes": [],
+      "prereqs": "PAD 6250",
+      "title": "Program Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132799",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Administrative law provides students with a broad ranging analysis of how public administrators must handle constitutional and legal restraints placed on them by legislators, executives and the judiciary. The course provides an overview of those constraints and discusses the United States Supreme Court cases in which the law and constitution are applied to administrative actions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PAD 7455",
+      "notes": [],
+      "prereqs": "PAD 6200",
+      "title": "Administrative Law"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-non-thesis"
+        ],
+        "label": "Non-Thesis"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-criminal-justice",
+    "name": "MS Criminal Justice"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

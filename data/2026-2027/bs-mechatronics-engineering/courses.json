@@ -1,0 +1,1072 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The primary objective of this course is to provide a introduction to the basic principles and applications of Artificial Intelligence. It covers the basic areas of artificial intelligence including problem solving, knowledge representation, reasoning, decision making, planning, perception and action, and learning \u2013 and their applications. Students will design and implement key components of intelligent agents of modern complexity and evaluate their performance. Students are expected to develop familiarity with current research problems, research methods, and the research literature in AI.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "AI 3642",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CS 3305",
+          {
+            "external": "AI 2000"
+          }
+        ]
+      },
+      "title": "Artificial Intelligence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136371",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces concepts and techniques in machine vision. Students successfully completing this course will be able to apply a variety of image processing techniques for the design and analysis of efficient algorithms for real-world applications, such as optical character recognition, face detection and recognition, motion estimation, human tracking, and gesture recognition. Topics include basic image enhancement, corner and edge detection, image morphology, linear and non-linear filters, image transformations, camera models, two-dimensional and three-dimensional image geometry, clustering and segmentation (and classification), object recognition and Bag-of-Words models, image texture, shape analysis, and tracking.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "AI 4732",
+      "notes": [],
+      "prereqs": "AI 3642",
+      "title": "Machine Vision"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135898",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces data structures, specification, application, and implementation. The case studies will illustrate how data structures are used in computing applications. The emphasis of the course is on linear and some nonlinear data structures and object oriented principles. Topics include: abstract data types, stacks, queues, lists, binary search trees, priority queues, recursion, algorithm efficiency, trees, heaps, hash tables, and analysis of search and sort algorithms and their performance for implementation and manipulation. The programming language to be used in this course is any standard high-level object-oriented programming language such as C++, Java, and Ada.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 3305",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 2345",
+              {
+                "external": "CSE 2300"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  {
+                    "external": "CSE 1322"
+                  },
+                  {
+                    "external": "CSE 1322L"
+                  }
+                ]
+              },
+              {
+                "course": "MTRE 2710",
+                "minGrade": "B"
+              },
+              {
+                "external": "CPE 3000",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Data Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321L",
+      "credits": "3",
+      "description": "This course provides an introduction to computing with a focus on programming. Instruction centers on an overview of programming, problem-solving, and algorithm development. Particular topics include object-oriented design/programming, primitive data types, arithmetic and logical operators, selection and repetition structures, interactive user input, exception handling, using and designing basic classes, single-dimensional data structures with searching and sorting, and arrays. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions and the relationship between correct code and security.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321",
+      "credits": "1",
+      "description": "Lab activities with programming to accompany CSE 1321.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136156",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to engineering graphics in mechanical engineering and manufacturing with an emphasis on using computer-aided design (CAD) to produce finished engineering drawings according to industry and ASME standards. Topics include fundamentals of engineering graphics, introduction to GD&T principles, introduction to SolidWorks sheet metal and weldment design environments, orthographic projection, sectional views, pictorial drawings, dimensioning, industry practices, file management, geometric construction, basic 3D coordinate geometry, parametric solid modeling, and drawing composition.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDG 1211",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Graphics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136166",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students learn and apply the fundamentals of digital logic. The concepts gained in this course enable students to build an essential foundation of Boolean algebra, binary logic, digital circuits, hardware descriptive languages, and complex digital systems. This course covers the design, modeling and synthesis of digital functions and systems. Laboratory exercises reinforce theoretical concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 2501",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "EE 2301"
+          },
+          "ENGR 1000"
+        ]
+      },
+      "title": "Digital Logic Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136176",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the force vectors, equilibrium of particles, equilibrium of rigid bodies in two and three dimensions; trusses, friction, centroids and moments of inertia.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 2214",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2211",
+          "PHYS 2211L"
+        ]
+      },
+      "title": "Engineering Mechanics - Statics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136178",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the mechanics of particles and rigid bodies. Topics covered include: kinematics and kinetics of particles; work and kinetic energy; impulse and momentum; rigid body motions; relative motion; and moving coordinate systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3122",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Engineering Mechanics - Dynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136180",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and mathematical modeling of the mechanical behavior of materials under load. Emphasis will be on the elastic conditions of equilibrium, compatibility and material behavior. Includes study of stress and strain in columns, connectors, beams, eccentrically-loaded members, as well as introduction to statically indeterminate members.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3131",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Strength of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136798",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an extensive overview of the field of biomedical engineering. The fundamentals of various key topics that stand at the intersection of engineering, biology, and medicine will be investigated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3410",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Biomedical Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136800",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an introduction to the structural and mechanical behavior of biological tissues and systems by building on engineering concepts such as discussed in Statics, Dynamics, or Strength of Materials.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3411",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Biomechanics for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136799",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of instrumentation systems used in clinical medicine and biomedical research. Some circuit theory and its application to bioinstrumentation will be reviewed. Systems for measuring biologic signals, such as biopotentials, stress and strain, pressure, temperature, and optical properties, will be discussed. Electrical hazards, safety, measuring instruments and techniques will also be discussed. There will be applications to engineering design such as transducer systems and sensing and driving circuits. There will also be discussion of ethical and regulatory issues related to bioinstrumentation as well as review of instrumentation such as CT Scan, MRI, EKG, and EEG sensors.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3412",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Biomedical Circuit Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135615",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of the structure and function of the major body systems, with emphasis on the muscular, skeletal, and cardio-respiratory systems role in human movement and physical activity.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HPAL 2250",
+      "notes": [
+        "Any General Education D2 core curriculum course"
+      ],
+      "prereqs": null,
+      "title": "Anatomy and Physiology for Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the third in the calculus curriculum and is concerned with functions defined on regions in two or three dimensional space and that have values in one, two, or three dimensional space. Topics include partial derivatives, vector fields, multiple integrals, and applications of these topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2203",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Calculus III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the theory of ordinary differential equations (ODEs), methods of solving first and higher order linear differential equations and linear systems, some applications in the sciences and engineering, the Laplace transform and its application in solving differential equations and linear systems, and Euler\u2019s numerical algorithm.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2306",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Ordinary Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135840",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the fundamentals of discrete mathematics. Topics include sets, formal logic, methods of proof, counting relations, functions, graphs and trees, and finite state automata.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2345",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Discrete Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to linear algebra and some of its classical and modern applications. Among topics to be included will be systems of linear equations, matrices, determinants of matrices and applications, vector spaces, and inner product spaces. Significant use of technology will be employed in performing matrix computations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Linear Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137104",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course provides an introduction to robot hardware and software design through VEX Robotics team projects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Introduction to Mechatronics Engineering Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137102",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the basics of circuitry including resistors, capacitors, and inductors in DC and AC circuits. AC power is examined so that devices that generate, transform, switch, and protect electrical power can be covered. Basic circuit analysis includes resistive circuits, voltage and current sources, analysis methods, network theorems, energy storage elements, and AC steady state analysis. DC and Stepper Motors construction with proper sizing and gearing concepts will be studied to select them based on application.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 2110",
+      "notes": [],
+      "prereqs": "PHYS 2212L",
+      "title": "Electric Circuits and Machines"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137103",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 2110",
+      "credits": "1",
+      "description": "This course covers the basics of circuitry including resistors, capacitors, and inductors in DC and AC circuits. AC power is examined so that devices that generate, transform, switch, and protect electrical power can be covered. Basic circuit analysis includes resistive circuits, voltage and current sources, analysis methods, network theorems, energy storage elements, and AC steady state analysis. DC and Stepper Motors construction with proper sizing and gearing concepts will be studied to select them based on application. Laboratory exercises reinforce the theoretical concepts presented in class and provide various opportunities to become proficient with standard instrumentation used in electrical engineering.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 2110L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Electric Circuits and Machines Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137111",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This intermediate programming course covers programming topics relevant for Mechatronics Engineering, using tools such as C++, Arduino, and Python. Object-oriented programming techniques are introduced such as encapsulation, classes, inheritance, and operator overloading. Other course components include basic numerical methods and visualization of data in two and three dimensions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 2710",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Programming for Mechatronics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137112",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 2710",
+      "credits": "1",
+      "description": "This is a laboratory course designed to complement the intermediate programming for mechatronics also covered in MTRE 2710. This intermediate programming course covers programming topics relevant for Mechatronics Engineering, using tools such as C++, Arduino, and Python. Object-oriented programming techniques are introduced such as encapsulation, classes, inheritance, and operator overloading. Other course components include basic numerical methods and visualization of data in two and three dimensions. Laboratory exercises focus on programming relevant to mechatronics such as acquiring analog, digital, and camera sensor data, motor control, pneumatics, etc.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 2710L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming for Mechatronics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137107",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course provides a fundamental understanding of the physical principles of fluid power, along with practical working knowledge of the components utilized in designing, installing, operating, and maintaining hydraulic and pneumatic power systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3110",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2306"
+        ]
+      },
+      "title": "Fluid Power"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137108",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 3110",
+      "credits": "1",
+      "description": "This is a laboratory course designed to complement the Fluid Power fundamental topics also covered in MTRE 3110. The hands-on practice of pneumatics and hydraulic circuit design and analysis are covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3110L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fluid Power Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137115",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a control system course tailored for mechatronics engineering students. While it covers all topics in a traditional control system course, some additional topics, such as modeling of mechatronics systems, controller design of mechatronics systems, and vibration control, are covered as well.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3610",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          {
+            "or": [
+              "MTRE 2110",
+              {
+                "external": "EE 2301"
+              },
+              {
+                "external": "EE 2305"
+              },
+              {
+                "external": "CS 3503"
+              }
+            ]
+          },
+          "PHYS 2211"
+        ]
+      },
+      "title": "Modeling and Feedback Control of Dynamic Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137116",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 3610",
+      "credits": "1",
+      "description": "This is a laboratory course designed to complement the modeling and feedback controls topics also covered in MTRE 3610. Feedback Control (PID Control), Model Identification, MATLAB/Simulink Modeling, and Process Control are studied and analyzed using simulations and physical experiments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3610L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modeling and Feedback Control of Dynamic Systems Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137105",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MATH 3260",
+          {
+            "or": [
+              {
+                "external": "EE 2301"
+              },
+              {
+                "external": "EE 2305"
+              },
+              "MTRE 2110",
+              {
+                "external": "CS 3503"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "2",
+      "description": "This course covers semiconductor electronics as the basic foundation. Further topics covered are Industry, automation, control, a basic sensing scheme, the PLC software environment, and the creation of RLL diagrams. Additionally, detailed communication protocols and interfaces with the AVR microcontroller will be carried out.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3720",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "and": [
+                  {
+                    "external": "CSE 1322"
+                  },
+                  {
+                    "external": "CSE 1322L"
+                  }
+                ]
+              },
+              "MTRE 2710"
+            ]
+          },
+          "EE 2501"
+        ]
+      },
+      "title": "Introduction to PLCs and Microcontrollers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137106",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 3720",
+      "credits": "1",
+      "description": "The lab sessions are designed to have hands-on experience in 3 areas (i) semiconductor electronics, ii) AVR Microcontroller with interfacing, iii) the PLC software environment, and the creation of RLL diagrams. Additionally, detailed communication protocols and interfaces will be carried out.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3720L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to PLCs and Microcontrollers Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137113",
+      "catalogYear": "2026-2027",
+      "coreqs": "MATH 3260",
+      "credits": "3",
+      "description": "This course covers the Robot operating systems (ROS) from basic to advance level to program and build robots in the simulation world, learn algorithmic approaches, mathematical models, and computational and motion control methods applicable to mobile robotic systems. Students will also learn different motion planning and navigation schemes associated with wheeled mobile robots. Finally, students will recognize and analyze the basic mechanical and electrical systems concerning robots\u2019 locomotion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3810",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              {
+                "external": "CSE 1322"
+              },
+              {
+                "external": "CSE 1322L"
+              }
+            ]
+          },
+          "MTRE 2710"
+        ]
+      },
+      "title": "Device Control and Simulation of Mobile Robots"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137114",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 3810",
+      "credits": "1",
+      "description": "This Lab covers the hands-on skillset development for Robot operating systems (ROS) from basic to advance level to program and build wheeled robots in simulation world using Gazebo and Rviz. It will further expand to advance industry tool set using MoveIT.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 3810L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Device Control and Simulation of Mobile Robots Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137109",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MTRE 3110",
+          {
+            "external": "ENGR 3343"
+          },
+          {
+            "external": "EE 3701"
+          },
+          {
+            "external": "CPE 4010"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "Characteristics of instruments used in mechanical systems for determining parameters such as temperature, pressure, and flow are studied. The use of these devices in automated systems is covered. Furthermore, the elements of control theory, selection of control modes, and application to mechanical systems are studied. Exercises illustrating the use of pertinent instrumentation for determining the performance of mechanical equipment are conducted.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4710",
+      "notes": [
+        "Engineering Standing Requirements apply"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "and": [
+                  "MTRE 3610",
+                  "MTRE 3610L"
+                ]
+              },
+              {
+                "external": "EE 4201"
+              },
+              {
+                "and": [
+                  {
+                    "external": "ME 3501"
+                  },
+                  {
+                    "external": "ME 4501"
+                  }
+                ]
+              }
+            ]
+          },
+          "MTRE 3720",
+          "MATH 2306"
+        ]
+      },
+      "title": "Instruments and Controls"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137110",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 4710",
+      "credits": "1",
+      "description": "This is a laboratory course designed to complement the instruments and controls topics also covered in MTRE 4710. Laboratory exercises illustrating the use of pertinent instrumentation for determining the performance of mechanical equipment are conducted. Hands-on instruments are used in mechanical systems for determining parameters such as temperature, pressure, and flow. The use of these devices in automated systems is covered",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4710L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Instruments and Controls Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137119",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the basic principles of robotic manipulators. Students will learn how to derive mathematical models, plan trajectories, and design controllers for robot applications. Software tools, such as MATLAB, are employed to analyze and simulate the robot system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4810",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "and": [
+                  "MTRE 3610",
+                  "MTRE 3610L"
+                ]
+              },
+              {
+                "external": "EE 4201"
+              },
+              {
+                "and": [
+                  {
+                    "external": "ME 3501"
+                  },
+                  {
+                    "external": "ME 4501"
+                  },
+                  {
+                    "external": "ME 1311"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "or": [
+              "MATH 2203",
+              "MATH 3260"
+            ]
+          }
+        ]
+      },
+      "title": "Robotics Analysis and Synthesis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137120",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 4810",
+      "credits": "1",
+      "description": "This is a laboratory course designed to complement the modeling and feedback controls topics also covered in MTRE4810.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4810L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Robotics Analysis and Synthesis Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137121",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the most important topics in the areas of machine learning and computer vision and their specific applications in robotics and mechatronics. The machine learning and computer vision algorithms are extensively verified with simulated and physical robots in the mechatronics lab. Students are trained for developing physical or virtual intelligent robot systems through integrating robot control and machine learning algorithms. Significant programming effort and lab hardware experience are expected.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4820",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": {
+        "and": [
+          "MTRE 2710",
+          "MATH 2203",
+          "MATH 3260"
+        ]
+      },
+      "title": "Machine Learning for Robot Perception"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137122",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 4820",
+      "credits": "1",
+      "description": "This is a laboratory course designed to complement the machine learning and computer vision topics also covered in MTRE4820.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4820L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Machine Learning for Robot Perception Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137123",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 4710",
+      "credits": "2",
+      "description": "The design of mechanical and electrical devices and systems, and cost considerations are covered. The course focuses on reliability, safety, energy and environmental issues, ethics, patents, product liability, time value of money, return on investment, and break-even analysis. The design project is a capstone for the Mechatronics Engineering program. Projects are assigned based on interest, equipment and software availability, and the specific background of the student. Projects require planning, proposal presentation, scheduling, engineering, implementation, and written and oral presentations of project results. Students are encouraged to \u201cdesign and build\u201d and utilize concepts learned from courses throughout the program",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4911",
+      "notes": [],
+      "prereqs": "MTRE 2710",
+      "title": "Design and Integration of Mechatronic Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is a laboratory course designed to complement the mechatronics system design aspects also covered in MTRE 4911. Some aspects covered in this lab are the next. The implementations of mechanical and electrical devices and systems, and cost considerations are covered. The course focuses on reliability, safety, energy and environmental issues, ethics, patents, product liability, time value of money, return on investment, and break-even analysis. The design project is a capstone for the Mechatronics Engineering program. Project proposals are completed and approved prior to the developments. Project implementations require planning, presentation, scheduling, engineering, and written and oral presentations of project results. Students are encouraged to utilize concepts learned from courses throughout the program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 4912",
+      "notes": [],
+      "prereqs": "MTRE 4911",
+      "title": "Mechatronic Prototype Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-mechatronics-engineering",
+    "name": "BS Mechatronics Engineering"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

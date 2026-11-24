@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **IET 3424**
-  - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
-- **IET 4135**
-  - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
+None.
 
 ## Notes
 

@@ -2,22 +2,7 @@
 
 ## Warnings needing review
 
-- **MUAP 3101**
-  - unrecognized: have taken
-  - unrecognized: passed four semesters of
-  - missing operator before 'MUAP 2101', assumed and
-- **MUSI 3333**
-  - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
-- **MUSI 3390**
-  - unrecognized: completion of
-  - missing operator before 'MUTC 3200', assumed and
-- **MUTC 3326**
-  - unrecognized: "
-  - missing operator before '"', assumed and
-- **MUTC 4496**
-  - unrecognized: Completion of 90 hours of course work
-- **MUTC 4497**
-  - unrecognized: completion of 90 hours of coursework
+None.
 
 ## Left out on purpose
 

@@ -1,0 +1,1033 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134571",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "An introduction to major dance styles for musical theater including: fundamental performance skills, exercises in body awareness, and principles of choreography for musical theater pieces. Students address the process of creating a character through movement and develop audition and rehearsal techniques through in-class work and out-of-class assignments. This course includes a survey of the history of dance in musical theater.",
+      "groups": [
+        "conc-musical-theatre"
+      ],
+      "id": "DANC 3000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Musical Theatre Dance: Styles I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134573",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to introduce students to the basic technique and terminology of ballet. Through beginning-level barre and center work, students will explore kinesthetic and spatial awareness, alignment, musicality, and use of weight. Exercises in this course are designed to develop strength, balance, and flexibility. Students will practice professionalism and gain an appreciation and understanding of the art form.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DANC 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ballet I: Classical Dance Technique"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-12",
+      "description": "Upper division study abroad course denoting junior, senior level work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SA 4490",
+      "notes": [
+        "Varies with discipline and subject"
+      ],
+      "prereqs": null,
+      "title": "Upper-division Study Abroad"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135473",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to theatre as a field of study and as an art form.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 1500",
+      "notes": [
+        "Theatre",
+        "Performance Studies, B.A. major"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Theatre Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137298",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course introduces students to the skills required to make original performance work through collaboration.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 1510",
+      "notes": [
+        "TPS Major"
+      ],
+      "prereqs": null,
+      "title": "Devising Performance Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135474",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to performance as a field of study and as an art form.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 1600",
+      "notes": [
+        "Theatre",
+        "Performance Studies, B.A. major"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Performance Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135475",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An overview of the theoretical and practical foundations of entertainment production, including core disciplines such as scenic carpentry, properties, costume construction, scene painting, stage lighting, and sound design. Students gain hands-on experience in theatre crafts while learning essential safety protocols and production workflows.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 1713",
+      "notes": [
+        "Theatre",
+        "Performance Studies, B.A. major"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Technical Theatre"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135477",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The theory and practice of the actor\u2019s craft.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 2203",
+      "notes": [
+        "Theatre",
+        "Performance Studies, B.A. major"
+      ],
+      "prereqs": null,
+      "title": "Acting I: Principles of Acting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135478",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A study of the methods and materials used in the production of theatre scenery and lighting. Hands-on work in the scenic studio and theatres will be an important component of the course.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 2713",
+      "notes": [],
+      "prereqs": "TPS 1713",
+      "title": "Scenic and Lighting Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138472",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A study of the methods and materials used in the production of theatre costumes. Hands-on work in the costume studio and theatres will be an important component of the course.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 2714",
+      "notes": [],
+      "prereqs": "TPS 1713",
+      "title": "Costume Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138473",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A study of the creative process of theatrical show crew from concept to performance. Students will serve as a member of show crew for a production in the department season.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 2715",
+      "notes": [
+        "Theatre",
+        "Performance Studies, B.A. major"
+      ],
+      "prereqs": null,
+      "title": "Show Crew"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136742",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A foundational exploration of visual storytelling across entertainment. Students engage with core design principles, historical context, and current practices through lectures, analysis, and creative projects to build a versatile design vocabulary.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TPS 2813",
+      "notes": [
+        "Theatre",
+        "Performance Studies, B.A. major"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Entertainment Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135479",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of a variety of literary texts through solo and group performance. Students engage course topics through critical reading, written analysis, and embodied performance.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3000",
+      "notes": [
+        "TPS Major."
+      ],
+      "prereqs": "TPS 1600",
+      "title": "Performing Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136741",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course focuses on basic skills in musical theatre singing styles and vocal health.",
+      "groups": [
+        "conc-musical-theatre"
+      ],
+      "id": "TPS 3015",
+      "notes": [
+        "Declared Theatre",
+        "Performance Studies Major"
+      ],
+      "prereqs": null,
+      "title": "Musical Theatre Techniques I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135984",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This practical course focuses on the study, rehearsal, and methods of performance for a Department of Theatre and Performance Studies production for the student actor.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 3050",
+      "notes": [
+        "Enrollment by audition only"
+      ],
+      "prereqs": null,
+      "title": "Applied Performance and Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138461",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This practical course focuses on the pre-production process, rehearsals, and performances for a Department of Theatre and Performance Studies production for students focusing on design, stage management, or other production positions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 3051",
+      "notes": [
+        "Enrollment by application only"
+      ],
+      "prereqs": null,
+      "title": "Design and Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This practical course focuses on the pre-production process, rehearsals, and performances for a Department of Theatre and Performance Studies production for students focusing on creative team positions that include, but are not limited to: direction, writing, composition, choreography, or music direction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 3052",
+      "notes": [
+        "Enrollment by application only"
+      ],
+      "prereqs": null,
+      "title": "Production Creative Team"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138469",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This practical course focuses on the development of dramaturgy for a Department of Theatre and Performance Studies production. Students will engage in processes of pre-production, rehearsal, audience and community engagement, and the creation and dissemination of dramaturgy materials.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 3053",
+      "notes": [
+        "Enrollment by application only"
+      ],
+      "prereqs": null,
+      "title": "Dramaturgy for Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135482",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of world mythology through storytelling performance.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3193",
+      "notes": [],
+      "prereqs": "TPS 1600",
+      "title": "Performing World Myth"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135483",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of personal narratives through performance.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3194",
+      "notes": [],
+      "prereqs": "TPS 1600",
+      "title": "Performing Personal Narrative"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135484",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help performers develop a healthy, expressive and flexible vocal technique equal to the demands of dramatic performance. Students learn to free their natural voices through physical exercises and by mastering the vocabulary of vocal mechanics. Breathing, posture, relaxation, and articulation are examined as key elements of voice and speech production.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 3200",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "TPS 2203",
+      "title": "The Actor\u2019s Voice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137211",
+      "catalogYear": "2026-2027",
+      "coreqs": "TPS 2203",
+      "credits": "3",
+      "description": "This course introduces students to the anatomy, physiology and physicality of the actor\u2019s voice and body. The approach is holistic mind, body and vocal practice. We explore what \u201cphysical freedom\u201d and \u201cembodied voice\u201d mean, and how to use them both in performance. Techniques learned and practiced are applied directly to specific performance assignments.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 3201",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Actor\u2019s Instrument: Integrated Voice and Movement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136948",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Movement for the Actor is a studio course dedicated to bringing awareness to the body as an essential part of the actor\u2019s training. In this course, the student actor will explore the expressive capacity of the physical and emotional body in the context of acting.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 3210",
+      "notes": [],
+      "prereqs": "TPS 2203",
+      "title": "Movement for the Actor"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An intermediate acting course applying acting techniques to the special demands of film and television.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 3213",
+      "notes": [],
+      "prereqs": "TPS 2203",
+      "title": "Acting for the Camera"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135486",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An intermediate acting course applying and advancing the principles of Acting I to intermediate level stage challenges.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 3223",
+      "notes": [],
+      "prereqs": "TPS 2203",
+      "title": "Acting II: Intermediate Acting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores advanced topics in the art of stage acting. Emphasis is on period and genre styles. Theoretical studies will be combined with the performance of selected scenes and critical evaluations of peer and professional work. *This course may be repeated more than once for credit provided that the course content differs entirely from the previous offering.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 3243",
+      "notes": [],
+      "prereqs": "TPS 3223",
+      "title": "Acting III: Acting Styles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135489",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Course examines and applies various approaches for composing live performance events. Additionally, students research and analyze a wide range of performance texts as inspiration for composing and mounting their own performances. Finally, the course culminates in a final presentation of student works.",
+      "groups": [
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3400",
+      "notes": [
+        "TPS Major.",
+        "permission of the instructor"
+      ],
+      "prereqs": "TPS 1600",
+      "title": "Performance Composition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135490",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Textual analysis of playscripts, with an emphasis on the perspective of the practitioner of theatre. A preparatory course for the history of theatre and drama sequence.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 3403",
+      "notes": [
+        "TPS Major."
+      ],
+      "prereqs": "TPS 1500",
+      "title": "Play Analysis for Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135491",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "History, theories, and practice of performance art from futurism to the present. Emphasis is on the creation and performance of image, auteur approaches to literary, mythic, visual art, and personal sources, and the writing and staging of performance pieces.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3493",
+      "notes": [],
+      "prereqs": "TPS 1600",
+      "title": "Performance Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135492",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Close study of performance texts and source material, with an emphasis on dramaturgical praxis, including an overview of the history/theory of the dramaturg.",
+      "groups": [
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3500",
+      "notes": [
+        "TPS Major."
+      ],
+      "prereqs": "TPS 3403",
+      "title": "Dramaturgy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137206",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This immersive course offers students hands-on experience applying theatre-based techniques to create performance works with community partners in diverse, real-world settings.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3510",
+      "notes": [],
+      "prereqs": "TPS 1500",
+      "title": "Applied Theatre in Community"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135493",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of the forms and functions of cultural performance practices. Students engage course topics through critical reading, written analysis, original fieldwork, and embodied performance.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3600",
+      "notes": [
+        "TPS Major."
+      ],
+      "prereqs": "TPS 1600",
+      "title": "Performing Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138465",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of political theories of performance. Students examine performance practices and events that shape and produce political discourse and outcomes.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3601",
+      "notes": [],
+      "prereqs": "TPS 1600",
+      "title": "Performance and Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138463",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of oral histories through the collection, adaptation, and performance of oral histories.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3602",
+      "notes": [],
+      "prereqs": "TPS 1600",
+      "title": "Performing Oral Histories"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138464",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study on the performativity of writing. Students will examine and experiment with performative writing in style, form, and content.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 3603",
+      "notes": [],
+      "prereqs": "TPS 1600",
+      "title": "Writing as Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135534",
+      "catalogYear": "2026-2027",
+      "coreqs": "TPS 1500",
+      "credits": "2",
+      "description": "Music sight-reading skills and aural techniques specifically tailored for the musical theatre performer are the focus of this course. Students will apply these skills through practical application using examples from musical theatre literature.",
+      "groups": [
+        "conc-musical-theatre"
+      ],
+      "id": "TPS 3700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Music Theory for Musical Theatre"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135494",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to musical theatre which surveys the major shows in musical theatre literature, through the study of the plots, scores, characters, and songs of the shows. Students explore the genre\u2019s place and function in theatre history as both an art form and popular entertainment and its influence on culture in general.",
+      "groups": [
+        "conc-musical-theatre"
+      ],
+      "id": "TPS 3703",
+      "notes": [
+        "TPS Major"
+      ],
+      "prereqs": "ENGL 1102",
+      "title": "Musical Theatre History and Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135495",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students the opportunity to develop an effective acting technique for the musical stage. Through in-class exercises and the study of the scores and libretti from major shows in the repertoire, students will develop performance techniques particular to the musical theatre genre and an appreciation of its diverse styles.",
+      "groups": [
+        "conc-musical-theatre"
+      ],
+      "id": "TPS 3713",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "TPS 2203",
+          "TPS 3015"
+        ]
+      },
+      "title": "Acting in Musical Theatre"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136950",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course provides an understanding of technical dance terms, relevant to the varied styles of Musical Theatre, through study and application in the studio. Students will learn various dance numbers from musical theatre repertoire, study the history of musical theatre dance, and prepare for professional theatre dance auditions. Students will also increase performance stamina by integrating dance technique, style, character development, and vocals.",
+      "groups": [
+        "conc-musical-theatre"
+      ],
+      "id": "TPS 3740",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "DANC 3100",
+          {
+            "external": "DANC 3200"
+          }
+        ]
+      },
+      "title": "Musical Theatre Dance Workshop"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will gain the fundamental knowledge of theatrical drafting through computer-aided design (CAD) for entertainment. They will create two-dimensional and three-dimensional digital draftings and renderings for presentation.",
+      "groups": [
+        "conc-design-technology"
+      ],
+      "id": "TPS 3823",
+      "notes": [],
+      "prereqs": "TPS 2813",
+      "title": "Drafting for Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135499",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the history and interrelationships between dress, architecture and the visual arts as they relate to the field of theatrical design.",
+      "groups": [
+        "conc-design-technology"
+      ],
+      "id": "TPS 3853",
+      "notes": [],
+      "prereqs": "TPS 2813",
+      "title": "Period Styles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135500",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Advanced study of the methods and practice of storytelling as a performing art. Students develop a repertoire of stories suitable for various audiences and occasions. Off-campus and out-of-class performances comprise a major required component of the course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4010",
+      "notes": [
+        "permission of the instructor . Audition required"
+      ],
+      "prereqs": "TPS 1600",
+      "title": "Storytelling Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135535",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Advanced practice and study in the craft and theory of musical theatre performance. Work will culminate each semester in either a production or a juried recital. May be repeated for credit up to six times.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4020",
+      "notes": [
+        "Entrance by audition",
+        "application",
+        "acceptance into Musical Theatre Ensemble"
+      ],
+      "prereqs": {
+        "or": [
+          "TPS 3015",
+          {
+            "external": "TPS 4015"
+          }
+        ]
+      },
+      "title": "Musical Theatre Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135608",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This practical-based course focuses on advanced practice and study in the craft and theory of acting. Students explore a variety of acting styles through intensive scene work and exercises. Actor\u2019s Studio may be repeated for credit up to four times; students who have taken the course twice may elect to take the course for 0 credit hours.",
+      "groups": [
+        "major-required",
+        "conc-acting"
+      ],
+      "id": "TPS 4030",
+      "notes": [
+        "Audition",
+        "/",
+        "the approval of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Actor\u2019s Studio"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135501",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This practical course focuses on the study, rehearsal, and methods of performance for a Department of Theatre and Performance Studies production for the student actor.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4050",
+      "notes": [
+        "Enrollment by audition only"
+      ],
+      "prereqs": null,
+      "title": "Advanced Applied Performance and Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138466",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This advanced practical course focuses on the pre-production process, rehearsals, and performances for a Department of Theatre and Performance Studies production for students focusing on design, stage management, or other production positions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4051",
+      "notes": [
+        "Enrollment by application only"
+      ],
+      "prereqs": null,
+      "title": "Advanced Design and Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138468",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This advanced practical course focuses on the pre-production process, rehearsals, and performances for a Department of Theatre and Performance Studies production for students focusing on creative team positions that include, but are not limited to: direction, writing, composition, choreography, or music direction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4052",
+      "notes": [
+        "Enrollment by application only"
+      ],
+      "prereqs": null,
+      "title": "Advanced Production Creative Team"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135502",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares students for the major forms of auditions they will encounter in the field of acting.",
+      "groups": [
+        "conc-acting"
+      ],
+      "id": "TPS 4243",
+      "notes": [],
+      "prereqs": "TPS 2203",
+      "title": "Audition Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138470",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students will prepare for the business of theatre; whether it be on the stage, in front of the camera, as technical staff, or on a production team to develop their career into a small business. Students will create a personal mission statement and a plan of action to achieve it, along with their personal goals. Assignments may include: taxes for the entertainment professional, interview techniques, cover letter construction, audition techniques, resume development, and headshots. Students will engage with business professionals for career guidance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4244",
+      "notes": [],
+      "prereqs": "TPS 1500",
+      "title": "Theatre Careers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135503",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn the fundamentals of directing for the stage. Theoretical studies will be combined with the direction of selected scenes and observation of working directors. Emphasis is on 20th century realism.",
+      "groups": [
+        "conc-performance-studies"
+      ],
+      "id": "TPS 4313",
+      "notes": [
+        "TPS Major."
+      ],
+      "prereqs": "TPS 3403",
+      "title": "Principles of Directing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135504",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn the fundamentals of directing for the stage. Emphasis is on non-realistic period and genre styles. Theoretical studies will be combined with the direction of selected scenes and observation of working directors. *This course may be repeated more than once for credit provided that the course content differs entirely from the previous offering.",
+      "groups": [
+        "conc-performance-studies"
+      ],
+      "id": "TPS 4323",
+      "notes": [
+        "TPS Major."
+      ],
+      "prereqs": "TPS 3403",
+      "title": "Directing Styles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135505",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Aesthetics, methods, and practice in presentational modes of group performance. Emphasis on the selection, adaptation, and staging of poetic, narrative, and nonfiction texts.",
+      "groups": [
+        "major-required",
+        "conc-performance-studies"
+      ],
+      "id": "TPS 4333",
+      "notes": [
+        "permission of the instructor /department"
+      ],
+      "prereqs": "TPS 3000",
+      "title": "Adapting and Staging Literary Texts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135508",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on studies in the history, theory, and literature of world theatre and performance traditions from ancient times through the Renaissance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4513",
+      "notes": [],
+      "prereqs": "TPS 3403",
+      "title": "History and Theory I: Ancient through Renaissance Theatre and Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135509",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on studies in the history, theory, and literature of world theatre and performance traditions from the Neoclassical Age through early Modernism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4523",
+      "notes": [],
+      "prereqs": "TPS 4513",
+      "title": "History and Theory II: Neoclassical through Romantic Theatre and Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135609",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course centers on studies in the history, theory, and literature of world theatre and performance traditions from the Victorian period through the contemporary era.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4533",
+      "notes": [],
+      "prereqs": "TPS 4513",
+      "title": "History and Theory III: Victorian through Contemporary Theatre and Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136641",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Studies in the history of American solo performance and popular entertainment traditions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4543",
+      "notes": [],
+      "prereqs": "TPS 4513",
+      "title": "American Performance Traditions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building blocks for scene design with an emphasis on transforming written text into three-dimensional visual language, and working through fundamental scene design problems.",
+      "groups": [
+        "conc-design-technology"
+      ],
+      "id": "TPS 4813",
+      "notes": [],
+      "prereqs": "TPS 2813",
+      "title": "Scene Design for Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135511",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Study of lighting design for the stage, including study of lighting instruments and control.",
+      "groups": [
+        "conc-design-technology"
+      ],
+      "id": "TPS 4823",
+      "notes": [],
+      "prereqs": "TPS 2813",
+      "title": "Lighting Design for Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135512",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Study of principles, methods and processes for costume design for the stage.",
+      "groups": [
+        "conc-design-technology"
+      ],
+      "id": "TPS 4833",
+      "notes": [],
+      "prereqs": "TPS 2813",
+      "title": "Costume Design for Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138478",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores specialized design and technology skills used in entertainment production. Students engage in hands-on projects that emphasize both creative interpretation and technical execution across diverse theatrical and media contexts. Topics include, but not limited to: lighting programing, draping and flat patterning, wig making and styling, puppetry, and properties design and construction. May be repeated for credit.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4860",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "TPS 1713",
+          "TPS 2813"
+        ]
+      },
+      "title": "Design and Technology Skills"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course investigates the roles creativity, scholarship, and artistic identity play in personal and professional lives via mission statements, career goals, and action steps. Projects include discipline-specific design, development, and integration of self-marketing tools into presentations for entering the professional world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TPS 4999",
+      "notes": [],
+      "prereqs": "TPS 4513",
+      "title": "Senior Seminar: The Scholar Artist"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-acting"
+        ],
+        "label": "Acting"
+      },
+      {
+        "groups": [
+          "conc-performance-studies"
+        ],
+        "label": "Performance Studies"
+      },
+      {
+        "groups": [
+          "conc-design-technology"
+        ],
+        "label": "Design/Technology"
+      },
+      {
+        "groups": [
+          "conc-musical-theatre"
+        ],
+        "label": "Musical Theatre"
+      }
+    ],
+    "id": "ba-theatre-and-performance-studies",
+    "name": "BA Theatre and Performance Studies"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

@@ -1,0 +1,576 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134495",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The organization of materials and the vocal and physical aspects of delivery in various speaking situations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 1110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Public Speaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the approaches and paradigms used in communication research. Emphasis is placed on locating, reviewing, and evaluating communication research studies found in academic publications; the basic structure and function of a literature review; and communication research ethics. This course provides practical experience using the American Psychological Association formatting style.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2020",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "CSI: Communication Sources and Investigations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134494",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "COMM 2033 is an introduction to visual communication using perceptual, physiological, psychological, cultural, and semiotic concepts. The course focuses on visual awareness and processing as key elements in effective communication.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2033",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Visual Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134496",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers application and practice of writing form and style particular to communication industry careers, such as journalism, public relations and human resource areas. Includes weekly writing assignments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2135",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Writing for Public Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the various genres of mass media such as books, magazines, newspapers, radio, television, film, Internet and others. Examines the development, roles, functions, problems and criticisms of specific media from a global context.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2230",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Mass Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of law, ethics and diversity in mass media. It examines the basics of freedom of expression and press laws in the United States including freedom of information and access to government records. The course analyzes several approaches to ethics in media, journalism and public relations. It also examines diversity in the mass media, journalism and public relations industries.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Communication Law, Ethics and Diversity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136342",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the role of the copy editor in print, broadcast, and online media, with a focus on developing the skills required to be an effective editor in the age of convergence. Through lecture, guest speakers, and in-class and out-of-class assignments, students will gain effective experience in copy editing, and the use of graphics, type, headlines, and layout to produce effective news and feature stories, and public relations materials.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3350",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Editing for Today\u2019s Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134515",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an advanced course on the nature of academic inquiry in communication, the structure and methodology of professional and academic research, and the resources available for access to published research.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "COMM 3435",
+      "notes": [],
+      "prereqs": "COMM 2020",
+      "title": "Communication Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134500",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an analysis of the content, process and distribution of new media, including Web-based, network-based, and CD-ROM based products. Students examine, evaluate and prepare material for informational, educational, and/or entertainment new media as well as explore the process of computer-assisted communication.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 3310",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Concepts in New Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134504",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the ways and means of developing, gathering, writing and editing factual and editorial copy. The course examines news personnel functions, reporting and interviewing techniques, ethical and legal considerations, along with news-writing practice surrounding the above.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 3330",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "COMM 2135",
+          "COMM 2230"
+        ]
+      },
+      "title": "News Reporting and Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134522",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course includes methods and practices for writing print and Internet style long-form feature stories. The course focuses on in-depth interviewing skills and query letter writing, as well as understanding multimedia storytelling.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4420",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "JOUR 3330",
+      "title": "Advanced Media Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134533",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth examination of the existing legal structure within which the media operates and the antecedent statutory and case law through which this structure has evolved. The course also addresses ethical concepts and considerations surrounding the media.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4470",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-Majors: Permission of the School required"
+      ],
+      "prereqs": {
+        "and": [
+          "COMM 2230",
+          "POLS 1101"
+        ]
+      },
+      "title": "Media Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134505",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the history, role, and functions of public relations, including public relations theory, ethics, and industry and career issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PR 3335",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Public Relations Principles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134508",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines basic roles and functions of messaging strategy in promoting organizational goals. A case study approach emphasizes theory and methods for effective communication with diverse organizational publics, including the mass media, employees, consumers, financial stakeholders and special interest groups.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PR 3355",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Public Relations Cases"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138420",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a theoretical and applied understanding of the roles research plays in public relations. The course explores research methodologies, techniques, design, and analysis with a focus on applied practices. Course content, activities, and assignments connect the practical application of research to planning effective strategies and tactics, as well as evaluating the success of campaign goals and objectives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PR 3365",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "COMM 2020",
+          "PR 3335"
+        ]
+      },
+      "title": "Public Relations Research & Insights"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers practice in writing public relations applications, including news releases, public service announcements, and newsletter articles. Students create a portfolio of writing samples.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PR 3375",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Public Relations Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136019",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the application of strategies and tactics used to achieve objectives of a public relations plan. Students learn and practice foundational skills and techniques used in the professional practice of public relations, such as developing effective communication strategies and tactics, media relations, media training, distribution of news and information, special events and the use of photos, graphics and video.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PR 3380",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "PR Strategies and Tactics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134512",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the global perspective of public relations while emphasizing corporate and agency public relations. Students learn and apply concepts of planning, research and international or cultural communication in the field of public relations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3385",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "International Public Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134514",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a study of the theories, methods, applications and implications of persuasion from the days of Aristotle to today\u2019s political and commercial arenas. The course explores the practice of changing attitudes and opinions via non-coercive means.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3429",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Persuasion Methods and Strategies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136018",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn theory and practice of social media in a professional, strategic communication setting, with an emphasis on the connection between traditional best practices and emerging techniques.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4210",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Social Media for Strategic Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136020",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores digital publication design in the practice of public relations and strategic communication. In addition to principles of design, including the use of photography and graphics, students learn to prepare content and communicate strategic messages through coordination of text, images, and strategic design. Graphic design software and other online tools are used to develop an understanding of visual communication strategies and skills to create publications that raise awareness, affect attitudes, and influence behavior.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4405",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "COMM 2135",
+      "title": "Digital Publication Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134521",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to public relations strategies and tactics needed by public relations professionals. Students will learn media relations, social media and public relations, special events coordination, entertainment public relations, and ethics and public relations. Semester topics will vary. This course may be taken up to two times for a total of six credit hours as long as the course content differs each semester the course is taken.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4415",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Topics in Public Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136947",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the communication and relationship building skills required to be successful in media relations. Students will learn and practice techniques used in the professional practice of public relations, which may include writing on tight deadlines, monitoring trends, developing media opportunities, maintaining relationships with the media, crafting stories, and pitching news.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4425",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Media Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138421",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth examination of the leadership and operational responsibilities involved in public relations (PR) as the management function that builds and maintains strategic communication between corporations, nonprofits, and public relations agencies and their publics. Students will analyze and develop organizational structures, conduct managerial-level strategic planning, develop team leadership approaches, and role play client relations and performance evaluation scenarios in the context of today\u2019s constantly evolving business environment. Emphasis is on developing managerial skills necessary to lead effective, ethical, and high-performing PR teams.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4450",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PR 3365",
+          "PR 3380"
+        ]
+      },
+      "title": "Public Relations Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134531",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "PR 4460 provides students insights regarding key concepts, theoretical perspectives, essential skills and abilities, and critical thinking and problem solving skills necessary for effective crisis management within organizations. Topics include issues management, risk management, relationship management, crisis planning and preparation, case studies, and developing crisis management plans.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4460",
+      "notes": [
+        "plus 60 credit hours",
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "COMM 3435",
+      "title": "Crisis Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134532",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the study and application of the campaign planning process from inception to evaluation. The class functions as an agency, and student groups develop a strategic communication campaign plan for a campus or community organization.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PR 4465",
+      "notes": [
+        "Journalism",
+        "Emerging Media, B.S., Media",
+        "Entertainment, B.S., Organizational",
+        "Professional Communication, B.S.",
+        "Public Relations, B.S. major",
+        "90 credit hours completed"
+      ],
+      "prereqs": {
+        "and": [
+          "PR 3365",
+          "PR 3375"
+        ]
+      },
+      "title": "Public Relations Campaigns"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134538",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers students the opportunity to learn about integrated communications by visiting some of the nation\u2019s most well-known public relations agencies. Students will gain firsthand exposure to the wide range of services provided by the nation\u2019s top communication professionals. Students meet for an intensive one-week preparation class to better understand the structure and function of public relations; then the class will visit the agencies for a hands-on look at the communication process. Students will incur additional travel expenses, including the instructor\u2019s travel expenses.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4495",
+      "notes": [
+        "60+ credit hours",
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Public Relations Study Tour"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136021",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with a working knowledge of the processes involved in the development, preparation and distribution of a major multi-platform publication. Students are involved in all facets of the magazine publication, including research and information gathering, writing, editorial functions, photography, layout and design, and promotion and advertising.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4605",
+      "notes": [
+        "Approval of application by the instructor",
+        "Must be a declared major in the School of Communication & Media; non-majors need permission of the School"
+      ],
+      "prereqs": {
+        "or": [
+          "PR 3375",
+          "JOUR 3330",
+          "PR 4405"
+        ]
+      },
+      "title": "Magazine Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Leaders need communication skills and requisite knowledge to guide organizations through the tumultuous crises of the future. This course addresses numerous content areas, including: factors involved in decision-making under pressure; training and organizational skills in crisis management communication as a core competency; and leading in local and transboundary crises through an integrated approach for organizations with different decision-making structures, different resource commitments to crisis preparation and response, and different communication and cultural strategies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4670",
+      "notes": [
+        "60 credit hours",
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "COMM 3435",
+      "title": "Crisis Leadership Communication"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-public-relations",
+    "name": "BS Public Relations"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

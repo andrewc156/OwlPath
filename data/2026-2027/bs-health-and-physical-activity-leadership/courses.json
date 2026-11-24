@@ -1,0 +1,814 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "HPAL 2250",
+      "BIOL 2251"
+    ],
+    [
+      "HPAL 3340",
+      "BIOL 2252"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the first course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, biological chemistry; cellular structure and function; tissues; and the integumentary, skeletal, muscular, and nervous systems. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions. Cannot be used for credit toward a degree in Biology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 2251",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CHEM 1151",
+              "CHEM 1151L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "CHEM 1211"
+              },
+              {
+                "external": "CHEM 1211L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 1111"
+              },
+              {
+                "external": "PHYS 1111L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1107"
+              },
+              {
+                "external": "BIOL 1107L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1108"
+              },
+              {
+                "external": "BIOL 1108L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Anatomy & Physiology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134400",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the second course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, the cardiovascular, endocrine, lymphatic and immune, respiratory, digestive, urinary, and reproductive systems. Metabolism and fluid, electrolyte, and acid-base balance will also be covered. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 2252",
+      "notes": [],
+      "prereqs": "BIOL 2251",
+      "title": "Anatomy & Physiology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors. Topics to be covered include elements and compounds, chemical equations, nomenclature, and molecular geometry.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134439",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1151",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1151.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134676",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Given the rapidly changing demographics in our state and country, this course is designed to equip future teachers with the fundamental knowledge of understanding culture and teaching children from diverse backgrounds. Specifically, this course is designed to examine 1) the nature and function of culture; 2) the development of individual and group cultural identity; 3) definitions and implications of diversity, and 4) the influences of culture on learning, development, and pedagogy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 2120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Exploring Socio-Cultural Perspectives in Educational Contexts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136536",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 4650"
+          },
+          {
+            "external": "MUED 4650"
+          },
+          {
+            "external": "WLED 4650"
+          },
+          "HPE 4430",
+          {
+            "external": "ENED 4650"
+          },
+          {
+            "external": "HIED 4650"
+          },
+          {
+            "external": "SCED 4650"
+          },
+          {
+            "external": "MAED 4650"
+          },
+          {
+            "external": "ECE 4650"
+          },
+          {
+            "external": "ECE 4660"
+          },
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "0",
+      "description": "This course is the beginning to the co-teaching Yearlong Clinical Experience in education. Candidates will attend the entirety of pre-planning at their assigned school before the start of the academic year (the exact timing of which will depend on the placement school\u2019s schedule). Additionally, candidates will also attend the first week of the academic year in order to familiarize themselves with the policies and routines of their placement school and Collaborating Teacher.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "EDUC 4610",
+      "notes": [
+        "Admission to teacher education",
+        "An issued pre-service certificate",
+        "The corequisite depends on the program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Yearlong Clinical Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135718",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course introduces the motor skills, fundamental techniques, decision-making strategies, and knowledge necessary for successful participation in the sport of archery.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "HPAL 1055",
+      "notes": [],
+      "prereqs": null,
+      "title": "Archery"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137141",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course serves future HPAL professionals by introducing theories and factors associated with youth success in schools, non-profit organizations, faith-based organizations, recreation/community agencies, military settings, land grant extension services/programs, and other arenas where a focus on youth is established. This course will cover youth development, leadership, and current issues facing youth with an emphasis on positive outcomes and skill development through a dynamic learning environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135615",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of the structure and function of the major body systems, with emphasis on the muscular, skeletal, and cardio-respiratory systems role in human movement and physical activity.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 2250",
+      "notes": [
+        "Any General Education D2 core curriculum course"
+      ],
+      "prereqs": null,
+      "title": "Anatomy and Physiology for Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137134",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore current trends in technology for a variety of disciplines within the field of health and physical activity, including physical education, health education, coaching, and recreation. Sport and fitness technology provides students with foundations that make up the use, understanding, and application of technology in the different fields that are emerging within the sport and fitness industry. The future professional workforce in teaching, coaching, and recreational industries is evolving as technology advances.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Technology in Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137135",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will combine two approaches to teaching games and sports. The Sport Education and Tactical Games approaches will prepare students to facilitate the learning and management of games and sports in a variety of settings including schools, sport leagues, and recreation facilities that promote sport participation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3020",
+      "notes": [],
+      "prereqs": null,
+      "title": "Teaching Games and Sports"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134906",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Basic understanding of the theoretical and practical applications of the sport science areas of physical education related to coaching. Current issues and topics addressing the principles and problems of the prospective interscholastic coach including coaching philosophy, pedagogy, sport psychology, sport medicine and sport physiology. Students successfully completing the course may become certified as a Leader Level Coach by the American Coaches Effectiveness Program.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3050",
+      "notes": [],
+      "prereqs": null,
+      "title": "Coaching Principles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136031",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students will examine the theories and techniques of coaching basketball. The course content may include, but is not limited to, key coaching topics such as: teaching and evaluating technical and tactical skills, player selection for various positions, practice and season planning, offensive and defensive systems of play, game coaching considerations, and conditioning principles.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3055",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Basketball"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136794",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to enhance the student\u2019s usable knowledge of and coaching techniques for American football. Elements of the course will include but are not limited to: technical and tactical skills of position and team play, determining offensive and defensive schemes and personnel use, drill and practice organization, the evaluation of player talent, expectations of today\u2019s coach, logistical planning and organization, philosophy development, common terminology, and film evaluation. In addition, topics may also include the role of the coach in the academic world and skills for increasing employment opportunities.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3061",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Football"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136028",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students will examine theories and techniques of coaching soccer. The course content may include, but is not limited to, key coaching topics such as: teaching and evaluating technical and tactical skills, player selection for various positions; practice and season planning; offensive and defensive systems of play, game coaching considerations, and conditioning principles.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3065",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Soccer"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137140",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Starting with a basic understanding of the USA Archery National Training System for recurve bow, students will progress through advanced coaching topics such as: Macro to Micro philosophy, connecting with athletes, coaching the mental aspect of archery, and practice and competition planning.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3071",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "HPAL 3050",
+          "HPAL 1055"
+        ]
+      },
+      "title": "Advanced Coaching Methods for Archery"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136034",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students will examine the theories and techniques of coaching softball. The course content may include, but is not limited to, various key coaching topics such as: teaching and evaluating technical and tactical skills, player selection for various positions, practice and season planning, offensive and defensive systems of play, game coaching considerations, and conditioning principles.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3075",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Softball"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136029",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students will examine the theories and techniques of coaching tennis. The course content may include, but is not limited to, various key coaching topics such as: teaching and evaluating technical and tactical skills, player selection and development, practice and season planning, singles styles of play, doubles styles of play, game coaching considerations, and conditioning principles.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3085",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Tennis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136032",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn to apply practical and scientific foundations of muscular development, metabolic training concepts and program design for youth and adolescent sports. Course content is intended to guide middle and high school coaches in the implementation of a scientific based approach in the prescription of periodization as it applies to resistance training and anaerobic conditioning specific to adolescence.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3090",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Strength and Conditioning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136030",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students will examine the theories and techniques of coaching both indoor and sand volleyball. The course content may include, but is not limited to, various key coaching topics such as: teaching and evaluating technical and tactical skills, player selection for various positions, practice and season planning, offensive and defensive systems of play, game coaching considerations, and conditioning principles.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3095",
+      "notes": [],
+      "prereqs": "HPAL 3050",
+      "title": "Advanced Coaching Methods for Volleyball"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134907",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of behavioral and psychological factors affecting performance in physical education, physical activity, and sports. Emphasis is on the impact of these factors on performance and the teaching/learning process. Topics will include leadership, motivation, group cohesion, social facilitation, arousal/anxiety, cognitive processes, competition, cooperation, and performance enhancement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Behavioral and Psychological Aspects of Physical Activity and Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137142",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with knowledge and skills necessary to assist diverse populations in the development of health and skill-related fitness. Students will learn the scientific theories behind youth training, apply them to the design of effective programs that maximize creativity, engagement, and fun, and reflect upon contemporary issues that affect youth fitness development.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPAL 3140",
+      "notes": [],
+      "prereqs": null,
+      "title": "Youth Fitness Development and Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134908",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses current theories and principles of motor learning and motor development. Topics include individual differences in motor abilities, information processing, sensory contributions to skilled performance, principles of motor control, and fundamental locomotor skills/movements from a developmental perspective.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Motor Learning and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134910",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the historical, sociological, physiological, and educational perspectives of family living and human sexuality.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPAL 3250",
+      "notes": [],
+      "prereqs": null,
+      "title": "Family Health and Sexuality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136033",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An overview of the purposes and forms of assessments used in health and physical activity programs. Emphasis includes the study of authentic assessments as opportunities for student learning as well as instructional tools for effective teaching. Topics include assessments of knowledge and skill acquisition, long-term athletic development, general athletic assessments, sport-specific testing batteries, skill-related and health-related fitness tests, reporting and interpreting assessment results, and validity and reliability of assessment instruments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3252",
+      "notes": [
+        "Any General Education D1 core curriculum course"
+      ],
+      "prereqs": null,
+      "title": "Measurement and Evaluation for Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137139",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the essential concepts and principles of first aid and injury prevention in sports and recreational activities. Students will examine common and severe injuries to learn the appropriate treatment methods. Students will learn common first aid techniques and many first aid myths will be addressed. Theory, practice, and application for safety, injury prevention, and care to include the American Red Cross First Aid/ Adult & Pediatric CPR & AED (ARC FA/CPR/AED).",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3330",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sport First Aid and Injury Prevention"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137089",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the principles of biomechanics and exercise physiology as they relate to the motor performance and physical fitness levels of children and youth. The course will focus on the application of concepts to all concentrations in the Health and Physical Activity Leadership Program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3340",
+      "notes": [],
+      "prereqs": "HPAL 2250",
+      "title": "Applied Anatomy and Physiology for Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137136",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This culminating capstone experience challenges students to integrate and apply interdisciplinary knowledge, skills, and values gained throughout the Health and Physical Activity Leadership program. Through immersive internships, critical observation, scholarly research, and reflective practice, students will explore and evaluate leadership strategies that promote health and physical activity across varied populations and settings. Emphasizing real-world impact, students will synthesize insights from academic and experiential learning to develop innovative, community-responsive approaches. The course prepares students to articulate their leadership philosophy and present evidence-based solutions that advance wellness and movement initiatives in professional and civic contexts.",
+      "groups": [
+        "conc-interdisciplinary-health-and-physical-activity-leadership"
+      ],
+      "id": "HPAL 3393",
+      "notes": [
+        "90 credit hours completed"
+      ],
+      "prereqs": null,
+      "title": "Practicum in Interdisciplinary Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134913",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A senior-level coaching experience designed for candidates in the Coaching concentration or certificate program of study. Candidates will be assigned as intern (assistant) coaches who will work under the supervision of experienced head or senior coaches at the collegiate, school (only if enrolled in the HPE curriculum), or recreation program levels. This is a field-based practicum that will provide candidates with practical experiences in planning and implementing competitive athletic programs.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 3395",
+      "notes": [
+        "permission from the Coaching Coordinator"
+      ],
+      "prereqs": "HPAL 3050",
+      "title": "Coaching Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134918",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to explore the dynamic factors affecting the health and wellbeing of children and adolescents. Students will examine changing patterns of adolescent health behaviors, strategies to promote health literacy, approaches to youth development, and evidence-based youth programming in schools and communities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 3600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Child and Adolescent Health Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137137",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this capstone course for the Coaching Concentration, students gain insights into the best practices for coaching. This will occur through extensive observations of an experienced, highly renowned coach; reading a biography of a well-known coach; and through in-depth research on fundamental skill(s), tactics, or team season practice plans or strategies. Students will collaborate with an athletic program to explore the qualities, knowledge, values, skills, and attitudes in an ever-changing career environment.",
+      "groups": [
+        "conc-coaching"
+      ],
+      "id": "HPAL 4900",
+      "notes": [
+        "One Advanced Coaching Course required",
+        "Permission from the Coaching Coordinator required"
+      ],
+      "prereqs": {
+        "and": [
+          "HPAL 3050",
+          "HPAL 3395"
+        ]
+      },
+      "title": "Capstone in Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137138",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "In this course students gain insights into the best practices for interdisciplinary health and physical activity leadership. Students integrate and synthesize knowledge, skills, attitudes and values from the array of courses taken in the major as they engage within their internships. The insights occur through extensive observations, working as an intern, reading assignments, and through in-depth research on fundamental skills, plans or strategies for leading various groups focused upon health and physical activity.",
+      "groups": [
+        "conc-interdisciplinary-health-and-physical-activity-leadership"
+      ],
+      "id": "HPAL 4950",
+      "notes": [
+        "permission of instructor"
+      ],
+      "prereqs": "HPAL 3393",
+      "title": "Capstone in Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137171",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to introduce students to the National Health Education Standards and essential components of an effective health education program. Aligned with current best practices of the health education field, students will focus on key elements of a skills-based approach. Topics of study may include acquisition of functional health information, fostering of health-enhancing attitudes, development of health skills and adoption of health behaviors to promote personal, family and community health.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "HPE 2200",
+      "notes": [],
+      "prereqs": "WELL 2000",
+      "title": "Skills-Based Approach to Health Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134922",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the characteristics and abilities of individuals with disabilities and their effect on the physical performance of the individuals. This includes methods for assessing abilities, modifying activities and equipment, and developing suitable physical education programs for schools and activity centers. Particular attention is given to the implications of current legislation affecting individuals with disabilities. Includes a 15-hour practical experience working with an adapted sports program.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 3350",
+      "notes": [
+        "Admission to teacher education, an issued GaPSC Preservice Certificate",
+        "proof of liability insurance are required"
+      ],
+      "prereqs": null,
+      "title": "Adapted Physical Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134915",
+      "catalogYear": "2026-2027",
+      "coreqs": "HPE 3350",
+      "credits": "3",
+      "description": "This course addresses the knowledge, fundamental techniques and motor skill analysis appropriate for the development of children\u2019s games, dance, and gymnastics. The focus of this course is on curriculum development, methods, and materials for planning and implementing a total developmental program for elementary physical education. This course requires a 16-hour early field experience at local elementary schools which provides for the practical application of concepts presented in HPE 3450.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 3450",
+      "notes": [
+        "Admission to the Health",
+        "Physical Education Teacher Certification Concentration, current teacher liability insurance",
+        "a currently issued PSC Preservice Certificate"
+      ],
+      "prereqs": null,
+      "title": "Curriculum, Instruction and Management for Early Childhood Physical Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134917",
+      "catalogYear": "2026-2027",
+      "coreqs": "HPE 4430",
+      "credits": "3",
+      "description": "The purpose of this course is to help candidates acquire the necessary skills and knowledge to design and implement instructional programs in middle and secondary school physical education. Students will concentrate on developing learning objectives, planning instructional units and lessons, exploring instructional strategies, assessing learner performance, and creating a positive learning environment in a middle and secondary physical education classroom.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 3550",
+      "notes": [
+        "Admission to the Health",
+        "Physical Education Teacher Certification Concentration, current teacher liability insurance",
+        "a currently issued PSC Preservice Certificate"
+      ],
+      "prereqs": null,
+      "title": "Curriculum, Instruction and Management for Middle Grade and Secondary Physical Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138454",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course immerses future health and physical education teachers in a model school health classroom experience, simulating the structure and content of quality school health curriculum and pedagogy. Aligned with the National Health Education Standards (NHES), the course emphasizes the acquisition of functional health knowledge, strengthening healthy attitudes and beliefs, and the development of essential health skills that promote health and wellness. Through active participation in student-centered activities and exploration of relevant health topics, students will develop health literacy and a deeper understanding of how school-based health education supports the overall well-being and academic success of youth.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 3625",
+      "notes": [
+        "Admission to teacher education, an issued GaPSC Preservice Certificate",
+        "proof of liability insurance are required"
+      ],
+      "prereqs": null,
+      "title": "Foundations of Skills-Based Health Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134919",
+      "catalogYear": "2026-2027",
+      "coreqs": "HPE 4420",
+      "credits": "3",
+      "description": "This course provides a foundation for teaching health education in K-12 settings. Building on previous knowledge of the National Health Education Standards and other appropriate practices, students will concentrate on developing learning objectives, planning instructional units and lessons, exploring pedagogical methods, assessing learner performance, and creating a positive learning environment in a health education classroom.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 3650",
+      "notes": [
+        "admission to the Health",
+        "Physical Education Teacher Certification Concentration, current teacher liability insurance",
+        "a currently issued PSC Preservice Certificate"
+      ],
+      "prereqs": {
+        "and": [
+          "HPE 2200",
+          "HPAL 3600"
+        ]
+      },
+      "title": "Curriculum, Methods and Materials in Health Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137172",
+      "catalogYear": "2026-2027",
+      "coreqs": "HPE 3650",
+      "credits": "1",
+      "description": "A field-based practicum in both the middle and secondary public schools is designed to provide students with practical experiences in planning and implementing school health education instruction in grades 6-12.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 4420",
+      "notes": [
+        "Admission to the Health",
+        "Physical Education Teacher Certification Concentration, current teacher liability insurance",
+        "a currently issued PSC Preservice Certificate"
+      ],
+      "prereqs": null,
+      "title": "Practicum in Middle and Secondary School Health Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134934",
+      "catalogYear": "2026-2027",
+      "coreqs": "HPE 3550",
+      "credits": "1",
+      "description": "This course is a field-based practicum in both the middle and secondary public schools. It is designed to provide students with practical experiences in planning and implementing physical education instruction in schools for grades 6-12.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 4430",
+      "notes": [
+        "Admission to the Health",
+        "Physical Education Teacher Certification Concentration, current teacher liability insurance",
+        "a currently issued PSC Preservice Certificate"
+      ],
+      "prereqs": null,
+      "title": "Practicum in Middle and Secondary School Physical Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134941",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "EDUC 4610",
+          "HPE 4851"
+        ]
+      },
+      "credits": "10",
+      "description": "This capstone field experience provides teacher candidates with full-time, supervised student teaching in a Health and Physical Education setting. Candidates apply instructional strategies, classroom management techniques, and assessment practices in real-world environments to support student learning and skill development. Emphasis is placed on planning and delivering standards-based instruction, adapting to learners\u2019 needs, and demonstrating professional responsibilities. Candidates work closely with mentor teachers and university supervisors to refine their teaching practice and meet certification requirements.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 4850",
+      "notes": [
+        "Admission to the Health",
+        "Physical Education Teacher Certification Concentration, current teacher liability insurance, a currently issued GaPSC Pre-Service Certification",
+        "admission to student teaching"
+      ],
+      "prereqs": null,
+      "title": "Student Teaching in Health and Physical Education (P-12)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138453",
+      "catalogYear": "2026-2027",
+      "coreqs": "HPE 4850",
+      "credits": "2",
+      "description": "This seminar course is designed to support and enrich the Health and Physical Education student teaching experience. Through collaborative discussions, professional development activities, and reflective practice, teacher candidates apply their knowledge of pedagogy, health literacy, and physical education to promote the holistic development of students. Emphasis is placed on professional preparation, including classroom management, instructional design, and effective communication. Candidates complete signature assignments that demonstrate readiness to enter the teaching profession.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "HPE 4851",
+      "notes": [],
+      "prereqs": null,
+      "title": "Student Teaching Seminar in Health and Physical Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136339",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "In this course, teacher candidates are introduced to first and second language acquisition, linguistic elements, and linguistically responsive pedagogy. In addition, students will begin to develop an understanding of these concepts as they relate to understanding the educational experiences of English learners and recognizing the vast cultural resources that they bring to the classroom in relation to the larger sociopolitical context.",
+      "groups": [
+        "conc-health-and-physical-education-teacher-preparation"
+      ],
+      "id": "INED 4437",
+      "notes": [],
+      "prereqs": null,
+      "title": "Education for Linguistically Multilingual Students"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to examine the scientific and theoretical foundations of health and wellness. Students focus on developing health knowledge and skills necessary to adapt to changing personal, social, and environmental factors related to lifespan development. Topics of exploration include health literacy, goal setting, physical activity, nutrition, stress management, emotional health, substance use, sexual health, self-care, and other health determinants.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WELL 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Health and Wellness"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-health-and-physical-education-teacher-preparation"
+        ],
+        "label": "Health and Physical Education Teacher Preparation"
+      },
+      {
+        "groups": [
+          "conc-coaching"
+        ],
+        "label": "Coaching"
+      },
+      {
+        "groups": [
+          "conc-interdisciplinary-health-and-physical-activity-leadership"
+        ],
+        "label": "Interdisciplinary Health and Physical Activity Leadership"
+      }
+    ],
+    "id": "bs-health-and-physical-activity-leadership",
+    "name": "BS Health and Physical Activity Leadership"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

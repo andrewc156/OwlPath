@@ -1,0 +1,1272 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "GEOG 2200",
+      "TCOM 2010"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              {
+                "external": "MATH 1001"
+              },
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134286",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the comparative study of human cultures and societies through the use of cross-cultural analysis of human behavior and case studies. Major foci are comparisons between universal and culturally relative aspects of human behavior, comparative social organization, cultural change and adaptation, and contemporary global cultural problems.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "ANTH 3307",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134307",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course exposes students to the field of environmental anthropology as they experience fieldwork in the natural environments of Georgia. The intensive field methods and research approaches in this course allow students to learn how to work as part of an anthropological research team as they examine and evaluate global research issues in environmental anthropology at the local and regional level. The course includes topical lectures, field methods, lab analysis, and interactive team projects.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "ANTH 4430",
+      "notes": [],
+      "prereqs": null,
+      "title": "Environmental Anthropology Field Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136158",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to graphic principles and practices in civil engineering technology. This course includes the development of the basic drafting skills needed to produce civil engineering plans and graphical presentations. The elements of descriptive geometry are addressed. A major component of the course is an introduction to the fundamentals of computer-aided drafting and design (CADD).",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "EDG 2160",
+      "notes": [],
+      "prereqs": null,
+      "title": "Civil Graphics and Computer Aided Drafting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135580",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course includes an in-depth survey of sustainability efforts in the areas of campus facilities and curriculum at Kennesaw State University and is especially relevant for students with interest in the area of Environmental Studies. The course has a service-learning component in which teams of students examine aspects of KSU\u2019s sustainability activities and develop proposals to improve or enhance ongoing efforts or introduce new ones.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "ENVS 3720",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "BIOL 1108",
+              "BIOL 1108L"
+            ]
+          },
+          "GEOG 1113K"
+        ]
+      },
+      "title": "Sustainability at KSU"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135572",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory course designed to provide students with a basic foundation for an understanding of the importance of natural resource conservation within the context of a variety of local, regional, national, and global resource and environmental concerns. This course examines the effects various natural resource management practices have on the quality of life for both present and future generations with much of the material focusing on the concept of sustainable development.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "ENVS 3730",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "BIOL 1107",
+              "BIOL 1107L",
+              "BIOL 1108",
+              "BIOL 1108L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "SCI 1101K"
+              },
+              {
+                "external": "SCI 1102"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Natural Resource Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135838",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to extend the traditional boundaries of the ethical relationships between humans to the nonhuman world in the natural environment. Philosophical and social issues have surfaced in the twenty-first century emerging as environmental ethical dilemmas demanding resolution. Case studies and a variety of interdisciplinary literature pieces are incorporated which allow students to consider the impact of ethical dilemmas and evaluate their social influences.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "ENVS 4300",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "ENVS 2202K"
+          },
+          {
+            "external": "SCI 1101K"
+          },
+          "BIOL 1108"
+        ]
+      },
+      "title": "Environmental Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136384",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of global patterns of resources, population, culture, and economic systems. Emphasis is placed upon the factors contributing to these patterns and the distinctions between the technologically advanced and less advanced regions of the world.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Human Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137083",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a survey course for students with an interest in geographic theories, laws, fundamentals, methods, environmental applications and visualizing natural phenomena. With a focus on physical geography, students learn about geographic principles of place and space, as well as introductory geospatial techniques such as map reading, coordinate systems, scale, distance, direction, global positioning system (GPS), geographic information system (GIS), remote sensing, and spatial analysis. Students also learn basic skills in collecting, manipulating, and understanding geospatial data by creating and analyzing maps, aerial photos and satellite imagery to solve problems and interpret the environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 1110",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Digital Earth"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134765",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Components of weather processes, and their measurement. Climatic elements and their control factors. Geographic classification of climatic and vegetative types on the Earth\u2019s surface. The lab focuses on practical and applied aspects of these environmental systems and evidence-based research. Lab work includes map reading, data collection, and data analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1112K",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Weather and Climate"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134766",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Introductory analysis and classification of major types of land surfaces, stressing geographic characteristics. Study and interpretation of relationships between landforms and other phenomena through maps, air photos, and field observations. World coverage with stress on North America. The lab focuses on practical and applied aspects of landform patterns and processes.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1113K",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Landforms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136684",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Interactions between physical systems and human activities, and their effects on environmental quality and sustainability are emphasized. Topics include: geography of population and resource consumption, food production, water and air quality, energy policy, land/biotic resource management. Contrasting social, ethical, and technological perspectives on environmental concerns are explored.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1125",
+      "notes": [],
+      "prereqs": null,
+      "title": "Resources, Society, and the Environment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135951",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to world regions through the context of human geography. The course focuses on basic geographic concepts to analyze social, economic and political issues at local, regional and global scales. Elements of fundamental physical geography will be discussed to illustrate the spatial relationships between the physical environment and human geography.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1130",
+      "notes": [],
+      "prereqs": null,
+      "title": "World Regional Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135571",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to prepare students for scientific research in the environmental field and related disciplines. It introduces students to a variety of spatial and environmental research concepts, approaches, methods and techniques. This course guides students through aspects of scientific research.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 2200",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "GEOG 1101",
+              "GEOG 1125",
+              "GEOG 1130"
+            ]
+          },
+          {
+            "or": [
+              "GEOG 1112K",
+              "GEOG 1113K"
+            ]
+          },
+          "GEOG 1110"
+        ]
+      },
+      "title": "Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136685",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course develops the current professional accomplishments and abilities of students for future professional settings. Students recognize soft skills that promote personal and professional development and competences, and prepare portfolios for their chosen professions. Students also examine ethical problems faced by professionals, and focus on issues of personal decision making and public policy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 2391",
+      "notes": [
+        "GEOG 1101 or or GEOG 1112K or GEOG 1113K or GEOG 1125 or GEOG 1130"
+      ],
+      "prereqs": {
+        "or": [
+          "GEOG 1101",
+          "GEOG 1112K",
+          "GEOG 1113K",
+          "GEOG 1125",
+          "GEOG 1130"
+        ]
+      },
+      "title": "Professionalism and Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136682",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the geographic origins of beer and brewing, and how location influences beer types, styles, and varieties. Students explore the physical, cultural, and economic dimensions that showcase the importance of place, as well as the local to global factors that influence the creation and distribution of beer.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3000",
+      "notes": [
+        "Students must be 21 years of age"
+      ],
+      "prereqs": null,
+      "title": "Geography of Beer"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134768",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the processes and technology of cartography, the science and art of map making. The foundations of map construction and design are presented from theoretical and applied perspectives. Students use hands-on and computerized mapping, leading to a basic appreciation of the map as the integral component of geographic information systems data analysis. This course does not count as an upper-division GEOG requirement toward the degree program for SSED majors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 3305",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Cartographic Processes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134769",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a global approach to the study of the geographic factors affecting historical events associated with the human exploration and settlement of the planet. The influence of geography on economic and political changes over time is reviewed for selected historical phenomena.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3310",
+      "notes": [],
+      "prereqs": null,
+      "title": "Historical Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134771",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students are introduced to the basic design of state-of-the-art GIS and its analytical capabilities. Topics may include: Geodatabases, applications in GIS, map projection information, raster/vector data models, introduction to available data on the internet, and basic GIS analytical functions such as querying and overlaying. The course uses ArcGIS 10 to introduce these concepts in a hands-on environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 3315",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Geographic Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134772",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to explore the following concepts and issues from a geographical perspective: territoriality, theories of the state, spatial expressions of ideology, boundary issues, imperialism, geopolitics, nationalism, electoral geography, national identity, religion and governing power in a spatial context, and cultural and/or economic hegemony.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3320",
+      "notes": [],
+      "prereqs": null,
+      "title": "Political Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134773",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers a geographic analysis of global resources and economic growth. The underlying theme of the course is the impact of space (location, distance, area, boundaries) on economic decision-making. Topics discussed include population, transportation, rural and urban land use, industrial location, natural resource management, and development/underdevelopment. Differing spatial theories are employed to explain the global economy in transition.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3330",
+      "notes": [],
+      "prereqs": null,
+      "title": "Economic Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134774",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A thematic approach is applied to analyze human cultures, to examine world cultural regions, to note the spread of cultural traits, to interpret interactions between culture and environment, and to appreciate multiple traits of cultures and cultural landscapes. The five themes of region, diffusion, ecology, integration, and landscape are used to explore historical and contemporary issues of population, agriculture, politics, language, religion, ethnicity, popular culture, and urban spaces. The philosophy of the course is based on the premise that the built environment is a spatial expression of the beliefs, attitudes, and practices of a people.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3340",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137049",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the human and environmental impact of the clothing industry, using an examination of the global commodity chain to frame questions about globalization and explore competing visions of sustainable economic development. We learn about the \u201cfast fashion\u201d revolution that has transformed the clothing industry in recent decades, and trace the linkages that exist between advertising and consumer behavior, networks of \u201cflexible\u201d production and distribution, and trends of urbanization in developing countries that result in the ongoing supply of the young, typically female labor on which the entire global industry depends.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3395",
+      "notes": [],
+      "prereqs": null,
+      "title": "Geography of Clothing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134780",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to give students an overview of the human dimensions of US environmental issues and is a core course for the environmental studies minor. From a geographical perspective, the course explores how US environmental laws, ethics, viewpoints and economics interact, shape, and manifest themselves across the landscape. Students are introduced to technologies, such as geographic information systems and satellite images, used by geographers to study environmental issues. The course examines spatial patterns arising from the ways in which we manage our natural resources and environment. Natural resources such as water, air, soil, energy and fossil fuels are used as examples in the discussion of spatial patterns arising from resource extraction, transportation and use.",
+      "groups": [
+        "conc-human-environmental",
+        "conc-land-surveying"
+      ],
+      "id": "GEOG 3700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Environmental Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135573",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a critical review of the concept of sustainability and sustainable development in theory and practice. Students analyze ideological arguments, sustainability indicators and other tools, and case studies of sustainability projects worldwide. Students examine different interpretations of sustainability across the globe with special attention given to how sustainability is viewed and implemented in both the developed (core) and developing (periphery) regions.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3710",
+      "notes": [],
+      "prereqs": null,
+      "title": "Local & Global Sustainability"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134781",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the nature of Earth\u2019s climate and the physical processes that determine the variations in climate and weather worldwide. Emphasis is on the interactions among the atmosphere, the hydrologic cycle, and earth\u2019s surface. Aspects of climate change are also addressed.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3800",
+      "notes": [],
+      "prereqs": null,
+      "title": "Climatology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course gives students an overview of Global Climate Change by bringing together science, impacts, abatement technologies, and policy solutions. From an interdisciplinary perspective with geographical emphasis, it leads students to examine the scientific basis, current scientific understanding, future projections, and impacts of climate change, uncertainties and debates on climate change, and technologies and policies to deal with climate change, through lecture presentations, group projects, readings, exams, and a research paper.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 3850",
+      "notes": [],
+      "prereqs": null,
+      "title": "Global Climate Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134782",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the geographic distribution of plants and animals from historical, cultural, and ecological perspectives. Emphasis is on the local, regional, and global patterns and processes that have influenced the distribution and evolution of plant and animal species. Aspects of environmental change and conservation are also addressed.",
+      "groups": [
+        "conc-human-environmental",
+        "conc-land-surveying"
+      ],
+      "id": "GEOG 3900",
+      "notes": [],
+      "prereqs": null,
+      "title": "Biogeography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134767",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to and analysis of the urban environment. Students will examine concepts that focus on the location and the distribution of urban centers, urban land use patterns, and the geographical aspects of general urban issues.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 4300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Urban Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136644",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines key issues that affect population patterns and change at different geographic scales, including fertility, mortality, demographic change, race and ethnicity, internal and international migration, refugee movement, and internal displacement. Students gain a theoretical framework to understand local, national, regional, and global population dynamics, and an applied framework to assess contemporary issues such as population growth, labor migration, refugee resettlement, immigration policy, and transnational identity.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 4345",
+      "notes": [],
+      "prereqs": null,
+      "title": "Population Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137048",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The geography of health considers impacts of natural, built, and social environments on human health. This course introduces students to three geographical contributions to health studies. First, it emphasizes the importance of ecological approaches of health, considering interactions between humans and their environments. Second, a geographical approach examines how aspects such as race, socioeconomic status, and identity influence human health. Third, it considers how spatial methods (cartography, GIS, and spatial statistics) help answer health-related questions.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 4349",
+      "notes": [],
+      "prereqs": null,
+      "title": "Health Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134785",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds upon basic concepts addressed in the Introduction to Geographic Information Systems (GIS) course. The use of topological data procedures and relational database concepts within the GIS context will be investigated along with procedures relevant to building Geodatabases, including map projections, coordinate systems, digitizing vectors, and transformations. Fundamental spatial analysis operations are expanded upon, including spatial query, address matching, spatial aggregations, buffering, polygon overlay, and point-in polygon operations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 4405",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "GEOG 3305",
+          "GEOG 3315"
+        ]
+      },
+      "title": "Advanced Geographic Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134786",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students investigate various mapping techniques used in GIS and geospatial technologies. These techniques can include data collection and management, mapping and visualization, 3D GIS, spatial analytics, and scripts and automation. Students demonstrate their comprehension of GIS techniques by way of exercises that render the production of digital maps.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 4410",
+      "notes": [],
+      "prereqs": "SURV 3320",
+      "title": "Introduction to Remote Sensing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136550",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines Earth surface processes and landforms, including tectonic, volcanic, hillslope, karst, fluvial, glacial, periglacial, eolian, and coastal geomorphic systems, as well as weathering and soils. Relationships between environmental change and the evolution of landscapes are addressed.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "GEOG 4700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Geomorphology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136683",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-6",
+      "description": "This course offers students an opportunity to investigate geospatially-oriented concepts and issues by assisting in faculty-led research or scholarship. Course content and instructional methodologies are identified by the faculty\u2019s needs and expectations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GIS 4100",
+      "notes": [
+        "consent of Instructor",
+        "Department Chair"
+      ],
+      "prereqs": {
+        "or": [
+          "GEOG 3305",
+          "GEOG 3315"
+        ]
+      },
+      "title": "Directed Applied Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide students with the knowledge and skills needed to develop applications in a development environment. Program logic and decision structure will be covered using a modern programming language and framework.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3020",
+      "notes": [],
+      "prereqs": null,
+      "title": "Application Development I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134979",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides foundation skills on information systems infrastructure and their implementation strategies. Topics include hardware, software, communications which includes networking such as LAN, WAN, and wireless; transaction support; facilities for business continuity and security; infrastructure management best practices; cloud, emerging, and edge technologies; risk management including compliance, sourcing, disaster planning, auditing, controls and standards. Looking at the technologies from single board computing, IoT, to SOHO to small corporate and global enterprises, and how infrastructure plays an essential role in corporate information systems, how it is developed and how it is part of corporate strategies. These strategies include local, campus, wide area, national and global implications.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3040",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "IS 2200",
+      "title": "IS Infrastructure and Strategy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course illustrates how to effectively use, manage, and participate in the development of information technology applications that support common business processes. This course focuses on the interdependence among an organization\u2019s management, business processes, and information systems and provides hands-on experience in developing a business information system.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "IS 2200",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Information Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134983",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will be exposed to the basic principles of project management, effective global teamwork and collaboration. It will prepare students to understand key global issues in project management such as project initiation, planning, scheduling, budgeting, risk analysis, quality management and communicating and collaborating across political and cultural boundaries. Tools such as Microsoft Project will be used to develop and track Information Systems projects.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3220",
+      "notes": [],
+      "prereqs": "IS 2200",
+      "title": "Global IS Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134984",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents introductions to many of the basic concepts, issues and techniques related to designing, developing and deploying Web sites. During the course, students will learn about Web design, HTML, basic scripting, and Cascading Style Sheets (CSS). Students will learn how to create sites both manually and through the use of Web site development software tool such as a text editor, Dreamweaver, and Adobe Photoshop.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3260",
+      "notes": [],
+      "prereqs": "IS 2200",
+      "title": "Web Development I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134985",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to the properties, logic, design, implementation, and access to business databases. Particular emphasis is placed on the relational approach to database management and processing, which focuses more on the logical nature of a database than its physical characteristics. Relational database programming assignments are drawn from the fields of business and government.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3280",
+      "notes": [],
+      "prereqs": null,
+      "title": "Data Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134988",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A comprehensive introduction to the principles and techniques that impact human interaction with computers. Topics include the foundations of human-computer interaction, building a graphical user interface, human-centered software evaluation, human-centered software development, graphical user-interface design, graphical user-interface programming, HCI aspects of multimedia, and HCI aspects of collaboration and communication. Major research and the building of a working graphical user interface are included.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3740",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IS 3020",
+          "IS 3260"
+        ]
+      },
+      "title": "Human Computer Interaction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134989",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The architectural model for computer-based application intense software systems centers around component development and deployment. This course will explore concepts related to the development of dynamic component-based web systems including web page connectivity to database systems and the development and utilization of Web Services. Web services include the ability to integrate code written in different programming languages and the emerging platforms, architectures, and technologies (such as XML, SOAP, and WSDL) that have arisen to support the next generation of software systems. Specifically students in this course will have an opportunity to directly interact with an Integrated Development Environment (such as Microsoft\u2019s .NET) and will be required to develop and implement dynamic Web pages and Web services.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 3760",
+      "notes": [],
+      "prereqs": "IS 3260",
+      "title": "Web Development II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137393",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces foundational AI concepts and their application in business, focusing on machine learning, decision-making, and problem-solving from a managerial perspective to achieve business transformation. Students will learn technical and practical AI skills through real-world business examples, case studies, and hands-on practice. The curriculum covers traditional programming and modern AI platforms while exploring the ethical and societal implications of AI in professional environments.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 4545",
+      "notes": [],
+      "prereqs": "IS 2200",
+      "title": "Artificial Intelligence for Business Innovation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137392",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares students for developing and implementing digital performance dashboards to monitor business processes and make informed decisions. It explores comprehension, design, modeling, development, and implementation of data visualization projects driven by data available and tasks to be achieved. The process also includes data modeling, data processing, and mapping data attributes to graphical attributes. Topics include Data Visualization using Storytelling, Prominence of User Interface/Interaction, Research Skills and Techniques for exploring Data Visualization Literature, Visual Component Types, Effective Visual Techniques, Visualization Platforms, Dashboards Synopsis, and Data Visualization Project principles and guidelines. Students will create their own data visualization projects using a variety of data visualization tools and platforms.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "IS 4555",
+      "notes": [],
+      "prereqs": null,
+      "title": "Data Visualization Design & Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134997",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the various technical and administrative aspects of Information Security and Assurance. This course provides the foundation for understanding the key issues associated with protecting information assets, determining the levels of protection and response to security incidents, and designing a consistent, reasonable information security system, with appropriate intrusion detection and reporting features.",
+      "groups": [
+        "conc-information-systems"
+      ],
+      "id": "ISA 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Information Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135574",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Explores U.S. environmental policy and politics from the implicit early efforts (conservationist and preservationist) to the explicit policy that emerged out of postwar environmental movements and culminated in the 1970 with the creation of the US Environmental Protection Agency. Emphasis is on the politics of making and implementing of environmental policy and on the effectiveness of environmental protection.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "POLS 3356",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "U.S. Environmental Policy & Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135342",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Emphasis on the changing patterns of local and municipal governments and politics, impact of reapportionment and other problems generated by an urbanized society.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "POLS 4412",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Urban Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135362",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the basic elements of environmental policy making in the international arena. The course highlights current issues such as tropical rain forests, the \u201cGlobal Commons\u201d concept, biodiversity and endangered species. Policy approaches will draw upon examples from specific countries as well as policy developed within international organizations such as the United Nations.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "POLS 4456",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "International Environmental Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135446",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is concerned with virtually everything that influences, or can be influenced, by population size, distribution, processes, structure, or characteristics. This course addresses the causes and consequences of population change, such as fertility, mortality, migration, technology, lifestyle and culture. Changes in population affect health and illness, the environment and its capacity, urbanization, family and household formation, aging, the labor force, poverty, government policies and business marketing strategies.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "SOCI 4464",
+      "notes": [],
+      "prereqs": null,
+      "title": "Population and Demography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136224",
+      "catalogYear": "2026-2027",
+      "coreqs": "SURV 2221L",
+      "credits": "3",
+      "description": "This course deals with the determination of angles, distances, elevations and horizontal and vertical location using total station and level. Simple horizontal and vertical curves and contouring are covered in this course. This course also introduces the Global Positioning System and coordinate computations.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 2221",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDG 2160",
+          "MATH 1113"
+        ]
+      },
+      "title": "Surveying I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136540",
+      "catalogYear": "2026-2027",
+      "coreqs": "SURV 2221",
+      "credits": "1",
+      "description": "This course deals with the measurement of angles, distances, elevations, horizontal and vertical location using total station and level in the field. This course also covers a topographic survey project.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 2221L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDG 2160",
+          "MATH 1113"
+        ]
+      },
+      "title": "Surveying I Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136225",
+      "catalogYear": "2026-2027",
+      "coreqs": "SURV 3222L",
+      "credits": "3",
+      "description": "This course focuses on the analysis and interpretation of route geometry computations and field techniques. To accomplish this, students demonstrate proficiency in: automated data collection; reduction for topographic surveys; coordinate computations for intersections; and route design projects.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 3222",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SURV 2221",
+          "SURV 2221L"
+        ]
+      },
+      "title": "Surveying II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136838",
+      "catalogYear": "2026-2027",
+      "coreqs": "SURV 3222",
+      "credits": "1",
+      "description": "Continuation of SURV 2221L. Topics include DTM, as-built and design surveys. GPS field methods for land surveyors is introduced.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 3222L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SURV 2221",
+          "SURV 2221L"
+        ]
+      },
+      "title": "Surveying II Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137230",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course instructs the fundamentals of creating controlled map products and three-dimensional (3D) models from unmanned aerial system (UAS)-mounted photogrammetry and light detection and ranging (LiDAR) camera systems. The concepts covered in this course are instructed from a software-agnostic approach that is applicable to any commercially available UAV and camera system.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SURV 3319",
+      "notes": [],
+      "prereqs": "GEOG 3315",
+      "title": "Drone and LiDAR Planning and Operations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136226",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course will focus on the analysis and interpretation of manned and unmanned aerial systems (UAS) that include: drones; kites; blimps; powered paragliders; and fixed wing and copter small-format aerial photography (SFAP). Furthermore, the course will examine digital image processing and interpretation of data, in addition to travel and setup for best results in evaluating SFAP and UAS imagery.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SURV 3320",
+      "notes": [],
+      "prereqs": "GEOG 3315",
+      "title": "Photogrammetry and Drone Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136266",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the theory and methods of the generation, compilation, analysis, and applications of digital elevation data. Specific topics include GIS, terrain data models, photogrammetry and LiDAR DEM processing, terrain surface modeling, digital terrain analysis, terrain visualization, and watershed delineation. Computer exercises in the generation and processing of DEM using GIS and image processing software packages.",
+      "groups": [
+        "major-elective",
+        "conc-land-surveying"
+      ],
+      "id": "SURV 3451",
+      "notes": [],
+      "prereqs": "SURV 3320",
+      "title": "Terrain Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136235",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Cadastral systems; Georgia laws on surveying and property; boundary survey legal research; writing of legal descriptions; evidence evaluation; US Public Land System.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 4465",
+      "notes": [],
+      "prereqs": "SURV 3222",
+      "title": "Legal Aspects of Land Surveying"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136236",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course deals with site analysis, subdivision design, drainage design, sewer design and discusses the legal requirements, platting, and CAD computer methods.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 4470",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SURV 2221",
+          "SURV 2221L",
+          {
+            "or": [
+              {
+                "external": "CE 4703"
+              },
+              "SURV 4465"
+            ]
+          }
+        ]
+      },
+      "title": "Land Development Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136237",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Legal research, boundary analysis, office procedures and business practice as found in a professional land surveying environment. Special emphasis on title surveys and state of Georgia technical and plat requirements.",
+      "groups": [
+        "conc-land-surveying"
+      ],
+      "id": "SURV 4475",
+      "notes": [],
+      "prereqs": "SURV 4465",
+      "title": "Land Surveying Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136333",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is an introduction to organization, style, and mechanics of technical writing. It includes practice in writing such typical documents as technical descriptions, instructions, proposals, and recommendation reports. Emphasis is placed on incorporating rhetorical theory into planning, organizing, and writing reports; designing visual aids; and editing. Among other assignments, at least one complete technical report is required.",
+      "groups": [
+        "conc-human-environmental"
+      ],
+      "id": "TCOM 2010",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Technical Writing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-human-environmental"
+        ],
+        "label": "Human-Environmental"
+      },
+      {
+        "groups": [
+          "conc-information-systems"
+        ],
+        "label": "Information Systems"
+      },
+      {
+        "groups": [
+          "conc-land-surveying"
+        ],
+        "label": "Land Surveying"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-geospatial-sciences",
+    "name": "BS Geospatial Sciences"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

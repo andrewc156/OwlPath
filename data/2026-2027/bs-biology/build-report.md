@@ -2,19 +2,7 @@
 
 ## Warnings needing review
 
-- **BIOL 3375K**
-  - unrecognized: comparable research methods course
-- **BIOL 4465**
-  - unrecognized: Recommended -
-  - missing operator before 'BIOL 3340', assumed and
-- **BIOL 4475**
-  - unrecognized: Recommended -
-  - missing operator before 'BIOL 3340', assumed and
-- **BIOL 4486**
-  - unrecognized: plus a minimum of 9 additional hours of 3000-4000 level Biology
-  - unrecognized: Biochemistry
-- **PSYC 3000**
-  - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
+None.
 
 ## Left out on purpose
 

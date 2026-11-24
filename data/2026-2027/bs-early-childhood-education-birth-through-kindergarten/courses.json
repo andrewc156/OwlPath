@@ -1,0 +1,534 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "ISCI 2001",
+      "ISCI 2002"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134598",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course candidates identify high-quality administrative and programming practices for young children\u2019s programs, evaluate the effectiveness of early care, learn administration practices through a 15-hour observation experience in a child care center, and develop a resource portfolio useful to early care and education administration. Additionally, candidates demonstrate knowledge of appropriate child behavior guidance strategies by developing a guidance plan.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 2205",
+      "notes": [],
+      "prereqs": "EDUC 2110",
+      "title": "Organization and Administration of Early Childhood Programs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134604",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses theories of human development from conception to middle childhood (age eleven years) with attention to the social, emotional, physical and cognitive domains. Issues relating to family, developmental contexts, and culture will be addressed as they relate to development and supporting children\u2019s learning. Candidates will also explore effective learning environments, health, safety & nutrition for children. Observations in natural settings will be required.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECE 2250",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Child Development and Early Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134615",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide teacher candidates with opportunities to understand the importance of a healthy and safe environment for young children. Issues include infectious disease control, injury and accident prevention, chronic health care conditions and illnesses, child abuse and neglect, and proper meal planning and nutrition. Upon successful completion of this course, teacher candidates will be awarded certification in Basic First Aid and CPR for infants and young children.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECE 2540",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Health, Wellness and the Young Child"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134618",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course analyzes family, school, and community resources as related to the family life cycle; explores environmental approaches; and explores careers related to children and families. Strategies to improve communication and collaboration are emphasized with a focus on family types, cultures, languages, economic conditions, school systems, community services, political forces, advocacy groups, and other factors that impact young children and their families. Fifteen hours of service learning at an approved site is required.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECE 2590",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Families, Communities and Schools: Partners in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134600",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course candidates design and implement developmentally appropriate, standards-based curriculum and lessons for preschool children; practice developmentally appropriate screening and assessment with preschool children; and describe effective techniques for working with young children with challenging behaviors. A 30-hour field experience required. Candidates must pass the College of Education\u2019s mandatory background check and a mandatory state Bright from the Start criminal background check prior to beginning field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3313",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Preschool Curriculum and Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134605",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of literature appropriate for infants through kindergarten and early grade readers. It reviews both current and traditional works in several genres and considers various approaches for teaching such literature.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3364",
+      "notes": [
+        "Admission to Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Children\u2019s Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134613",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide teacher candidates with the knowledge and understanding of children\u2019s play in a variety of settings. A review of play theories as well as a historical approach to play is presented. Teacher candidates have the opportunity to explore the relationship of play to curriculum development and assessment. Issues regarding gender, culture, second language acquisition, socioeconomic status, stress and personality types are discussed in relationship to play.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3510",
+      "notes": [
+        "Admission to Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Fostering Young Children\u2019s Learning Through Play"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135970",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECE 3565",
+      "credits": "3",
+      "description": "In this course candidates design and implement developmentally appropriate curriculum and assessment for infants and toddlers. Candidates utilize developmentally appropriate practices for all infants, toddlers, and very young children, including those with cultural and language differences and/or special needs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3520",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Infant and Toddler Curriculum and Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134614",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECE 4555",
+      "credits": "2",
+      "description": "Teacher candidates will learn the utilization of art, music, movement and creativity to instruct children from infancy through five years of age. Topics that will be studied include movement exploration, children\u2019s games, finger plays and songs. This course may require a field experience in an early learning environment. Verification of professional liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3530",
+      "notes": [
+        "Admission to Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Movement, Music and Art in Birth through Kindergarten Programs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135884",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is designed to provide the knowledge and skills to teach children ages six weeks through 36 months. Participation in an intensive 60-hour, hands-on field experience in selected infant toddler/ classroom is required. Lesson plan development, implementation and assessment of infants and toddlers are addressed. Candidates learn how to effectively work with infants and toddlers from various cultural and ability backgrounds, including those babies and toddlers with developmental delays and english-language learners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3565",
+      "notes": [],
+      "prereqs": "ECE 2205",
+      "title": "Infant/Toddler Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135887",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is designed to provide the knowledge and skills to teach children ages 3 years through 5 years. Teacher candidates taking this course will participate in an intensive 60-hour, hands-on learning experience in selected preschool/pre-kindergarten classrooms. Lesson plan development, lesson implementation, and assessment of preschoolers are addressed in this course. Teacher candidates learn how to effectively work with preschoolers/pre -kindergarteners from various cultural and ability backgrounds, including those young children with developmental delays and English Language Learners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3570",
+      "notes": [],
+      "prereqs": "ECE 2205",
+      "title": "Preschool Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134617",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course addresses comparative early care and instruction for infants and children in international settings, including countries in Asia, Africa, Europe, Central and South America, Australia, and North America. Candidates will explore various contexts and aspects of early learning and development including prenatal care, parenting, family practices, and international and child welfare issues. Candidates will also develop knowledge and skills of global awareness and instruction in early learning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 3575",
+      "notes": [
+        "Admission the Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "International Approaches to Early Care and Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134634",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECE 4545",
+      "credits": "3",
+      "description": "This course is designed to deepen the study of language development in typically and atypically developing children from infancy though five years. Candidates learn ages and stages of literacy development, family and cultural influences, and the importance of a language and literacy-rich environment. Candidates also learn methods and strategies for teaching pre-reading and reading to very young children.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4515",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Methods in Teaching and the Development of Teaching Language & Literacy in Birth through Kindergarten"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134635",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECE 3570",
+      "credits": "3",
+      "description": "Candidates will be introduced to the stages of early language development and learn strategies for fostering that development in children birth through five years of age. Candidates will learn appropriate techniques for working with very young dual language learners and families and examine major principles of linguistics as they occur with very young children. Candidates will explore oral and written language teaching for young children and assessment tools for evaluating early dual language development.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4525",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": "EDUC 2120",
+      "title": "Methods of Nurturing Second Language Acquisition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134636",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to assist teacher candidates in preparing environments to meet the needs of children from different cultural and ability backgrounds with cognitive developmental delays, medical conditions, social, language and emotional differences. Legal issues and terms involving preschool special education will be addressed. Curriculum modification and environmental accommodations for children with special needs will be reviewed. Assessment techniques and the role of service providers will be discussed. This course will include a 15-hour field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4535",
+      "notes": [
+        "Admission into Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "Methods of Instruction and Identification of B-5 Children with Special Needs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135974",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECE 4515",
+      "credits": "3",
+      "description": "This course focuses on integrating the science processes, principles, and concepts of inquiry-based science into early childhood education. Candidates develop and implement math and science curriculum in developmentally appropriate ways to different young children. Candidates also design and implement developmentally appropriate math and science assessments with young children. A field experience in an early learning environment may be required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4545",
+      "notes": [
+        "Admission to Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "Methods in Math & Science in Birth through Kindergarten"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135888",
+      "catalogYear": "2026-2027",
+      "coreqs": "ECE 3530",
+      "credits": "3",
+      "description": "Candidates plan and teach developmentally appropriate social studies lessons for birth-through-kindergarten students using research-based early childhood teaching methods. Candidates also design and implement developmentally appropriate assessments with young children in their field experience. Additionally, candidates design and evaluate discipline and guidance practices to promote healthy social and emotional development.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4555",
+      "notes": [
+        "Admission to Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "Methods for Teaching Social Studies Birth through Kindergarten"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135873",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 4610",
+      "credits": "3-6",
+      "description": "Under the guidance of a collaborating teacher and university supervisor, the intern will complete a full-time teaching experience at a designated school. The experience requires working in a co-teaching environment with K-5 Learners including students with exceptionalities and with students who are English learners. It includes regularly scheduled professional seminars. Proof of professional liability insurance is required prior to school placement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4650",
+      "notes": [
+        "Admission to Teacher Education, Admission to the Yearlong Clinical Experience, Issued Pre-Service Certificate"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I (P-5)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135874",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6-10",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in elementary education. Under the guidance of a collaborating teacher and university supervisor and working in a K-5 environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars and the completion of a content pedagogy assessment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 4660",
+      "notes": [
+        "Eligibility to take GACE"
+      ],
+      "prereqs": "ECE 4650",
+      "title": "Yearlong Clinical Experience II (P-5)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134675",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages students in observations, interactions, and analyses of critical and contemporary educational issues. Students will investigate issues influencing the social and political contexts of educational setting in Georgia and the United States. Students will actively examine the teaching profession from multiple vantage points both within and outside the school. Against this backdrop, students will reflect on and interpret the meaning of education and schooling in a diverse culture and examine the moral and ethical responsibilities of teaching in a democracy. This includes the use of current technologies which are directly related to effective teaching and 15 hours of observation in appropriate elementary/early childhood, middle grades, secondary, or P-12 environments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDUC 2110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Investigating Critical & Contemporary Issues in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134676",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Given the rapidly changing demographics in our state and country, this course is designed to equip future teachers with the fundamental knowledge of understanding culture and teaching children from diverse backgrounds. Specifically, this course is designed to examine 1) the nature and function of culture; 2) the development of individual and group cultural identity; 3) definitions and implications of diversity, and 4) the influences of culture on learning, development, and pedagogy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDUC 2120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Exploring Socio-Cultural Perspectives in Educational Contexts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134677",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on an in-depth exploration of research-based best practices concerning the thinking behind making good pedagogical decisions about curriculum and teaching strategies to ensure student success in the classroom. Students engage in field experiences in public schools that highlight theories and practices introduced in class, and reflect on their own learning processes.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDUC 2130",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "EDUC 2110",
+          {
+            "external": "ECE 2270"
+          },
+          {
+            "external": "ENED 2110"
+          },
+          {
+            "external": "HIED 2110"
+          }
+        ]
+      },
+      "title": "Exploring Teaching & Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136536",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 4650"
+          },
+          {
+            "external": "MUED 4650"
+          },
+          {
+            "external": "WLED 4650"
+          },
+          {
+            "external": "HPE 4430"
+          },
+          {
+            "external": "ENED 4650"
+          },
+          {
+            "external": "HIED 4650"
+          },
+          {
+            "external": "SCED 4650"
+          },
+          {
+            "external": "MAED 4650"
+          },
+          "ECE 4650",
+          "ECE 4660",
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "0",
+      "description": "This course is the beginning to the co-teaching Yearlong Clinical Experience in education. Candidates will attend the entirety of pre-planning at their assigned school before the start of the academic year (the exact timing of which will depend on the placement school\u2019s schedule). Additionally, candidates will also attend the first week of the academic year in order to familiarize themselves with the policies and routines of their placement school and Collaborating Teacher.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 4610",
+      "notes": [
+        "Admission to teacher education",
+        "An issued pre-service certificate",
+        "The corequisite depends on the program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Yearlong Clinical Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134972",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares candidates to work collaboratively with families and school personnel to have a positive impact on the educational, social and behavioral development of all students, including those with a full range of disabilities, in an inclusive society. The course focuses on knowledge of legislative mandates for serving exceptional students, characteristics of exceptionality, best practice in facilitating teaching and learning, and accountability through assessment of outcomes. This course requires an observational experience in teaching a lesson plan in an assigned school placement. Verification of professional liability insurance is required prior to placement in the field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 3304",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Education of Exceptional Students"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135014",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Life and Earth Science Concepts defines science, examines how science is done, and develops an understanding of fundamental concepts in biology, geology, and meteorology. Laboratories will emphasize experimental design and data analysis. This course is primarily for early grades and middle education majors and cannot be used for credit towards a degree in Biology programs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISCI 2001",
+      "notes": [
+        "Completion of any four-hour laboratory science course at the 1000",
+        "2000 level"
+      ],
+      "prereqs": null,
+      "title": "Life and Earth Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135015",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Physical Science defines science, examines how science is done, and develops an understanding of fundamental concepts in astronomy, chemistry and physics. Laboratory experiences will emphasize experimental design, data analysis, and inquiry methods. This course is intended for early grades education majors. Cannot be used for credit towards a degree in Biology programs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ISCI 2002",
+      "notes": [
+        "Any four-hour laboratory science course at the 1000 or 2000 level"
+      ],
+      "prereqs": null,
+      "title": "Physical Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135027",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher candidates learn to use technologies to promote student achievement in elementary content area and technology literacy standards. Special topics include using technology to improve students\u2019 English language learning, to assess student learning, and to differentiate instruction. Candidates also learn to manage their digital activities in ways appropriate for a professional educator; advocate for students without beyond-school access; and teach K-12 students how to use technology safely, ethically, and legally.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 3100",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Improving Learning with Technology in Elementary Classrooms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135062",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory mathematics course for early childhood education majors. The course emphasizes the understanding and use of the major concepts of number and operations. As a general theme, strategies of problem solving are used and discussed in the context of various topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2008",
+      "notes": [
+        "Completion of Mathematics and Applied Math IMPACT Core courses with a minimum grade of C",
+        "Enrolled in Elementary Education, Elementary Education (Interest), Early Childhood Birth to Kindergarten Traditional, or its (Interest) version"
+      ],
+      "prereqs": null,
+      "title": "Foundations of Numbers and Operations"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-early-childhood-education-birth-through-kindergarten",
+    "name": "BS Early Childhood Education Birth through Kindergarten"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

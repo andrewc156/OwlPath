@@ -2,13 +2,7 @@
 
 ## Warnings needing review
 
-- **CS 7455**
-  - missing operator before 'as determined by program admission', assumed and
-- **CS 7827**
-  - unrecognized: Coursework in Operating Systems
-  - missing operator before 'as determined by program admission', assumed and
-- **SWE 6883**
-  - could not parse (unexpected 'or'): SWE 6623 and SWE 6613; or permission by program coordinator
+None.
 
 ## Left out on purpose
 

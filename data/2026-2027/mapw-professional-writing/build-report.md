@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **PRWR 7960**
-  - unrecognized: at least four courses in the concentration
+None.
 
 ## Left out on purpose
 

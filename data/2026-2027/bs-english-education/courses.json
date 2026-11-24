@@ -1,0 +1,775 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "ENED 2110",
+      "HUED 2110"
+    ],
+    [
+      "LING 3025",
+      "LING 3035"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134279",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines \u201cAmerica\u201d as a cultural signifier that circulates around the world. These representations not only travel to other countries, but also return to us in cultural products from other countries. In addition to cultural theory, we will look at film, television, literature, and music. A primary concern is to interrogate what ideological assumptions underlie our notion of what \u201cAmerica\u201d means.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3710",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "U.S. in the World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134280",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Critical analysis of popular culture in American society. A particular offering of the course could focus on a specific area of popular culture (e.g., books, music, sports, food, mass consumption or advertising) or survey several of those topics. Historical and theoretical readings will support students\u2019 analysis of primary texts, including examples highlighting the globalization of American popular culture, mass markets and niche markets, the social formation of taste, and shifts in society\u2019s preferences for mass consumption in different time periods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "AMST 3740",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "American Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134676",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Given the rapidly changing demographics in our state and country, this course is designed to equip future teachers with the fundamental knowledge of understanding culture and teaching children from diverse backgrounds. Specifically, this course is designed to examine 1) the nature and function of culture; 2) the development of individual and group cultural identity; 3) definitions and implications of diversity, and 4) the influences of culture on learning, development, and pedagogy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EDUC 2120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Exploring Socio-Cultural Perspectives in Educational Contexts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134677",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on an in-depth exploration of research-based best practices concerning the thinking behind making good pedagogical decisions about curriculum and teaching strategies to ensure student success in the classroom. Students engage in field experiences in public schools that highlight theories and practices introduced in class, and reflect on their own learning processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 2130",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "EDUC 2110"
+          },
+          {
+            "external": "ECE 2270"
+          },
+          "ENED 2110",
+          {
+            "external": "HIED 2110"
+          }
+        ]
+      },
+      "title": "Exploring Teaching & Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136536",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 4650"
+          },
+          {
+            "external": "MUED 4650"
+          },
+          {
+            "external": "WLED 4650"
+          },
+          {
+            "external": "HPE 4430"
+          },
+          "ENED 4650",
+          {
+            "external": "HIED 4650"
+          },
+          {
+            "external": "SCED 4650"
+          },
+          {
+            "external": "MAED 4650"
+          },
+          {
+            "external": "ECE 4650"
+          },
+          {
+            "external": "ECE 4660"
+          },
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "0",
+      "description": "This course is the beginning to the co-teaching Yearlong Clinical Experience in education. Candidates will attend the entirety of pre-planning at their assigned school before the start of the academic year (the exact timing of which will depend on the placement school\u2019s schedule). Additionally, candidates will also attend the first week of the academic year in order to familiarize themselves with the policies and routines of their placement school and Collaborating Teacher.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 4610",
+      "notes": [
+        "Admission to teacher education",
+        "An issued pre-service certificate",
+        "The corequisite depends on the program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Yearlong Clinical Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137337",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages teacher candidates in analyses of critical and contemporary education issues. Candidates investigate issues influencing the social and political contexts of educational settings while actively examining the teaching profession, specifically humanities-based secondary educational settings, from multiple vantage points both within and outside the school. Against this backdrop, candidates reflect upon and interpret education and schooling in a diverse culture. Includes 15 hours of observation and participation in an appropriate school setting.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENED 2110",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Themes in Humanities Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134686",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENED 4650",
+      "credits": "3",
+      "description": "This course addresses the practical application of English Language Arts curricula, learning theories, teaching strategies, instructional materials, and assessment choices within specific teaching contexts. The course emphasizes justifying teaching decisions based on clear rationales anchored in practice, theory, and research; refining the facilitation of high levels of learning in all students through effective practices; and adjusting teaching moves based on evidence, such as classroom self-observation, student response and performance, and student products.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 4414",
+      "notes": [
+        "admission to the English Education program",
+        "Yearlong Clinical Experience"
+      ],
+      "prereqs": {
+        "and": [
+          "ENGL 3241",
+          "ENGL 3310",
+          "ENGL 3391"
+        ]
+      },
+      "title": "Teaching of English Language Arts I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135853",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENED 4660",
+      "credits": "3",
+      "description": "This course continues the practical application of English Language Arts curricula, learning theories, teaching strategies, instructional materials, and assessment choices within specific teaching contexts begun in Teaching of Language Arts I. This course emphasizes justifying teaching decisions based on clear rationales anchored in practice, theory, and research; refining the facilitation of high levels of learning in all students through effective practices; and adjusting teaching moves based on evidence, such as classroom self-observation, student response and performance, and student products.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 4416",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENED 4414",
+          "ENED 4650"
+        ]
+      },
+      "title": "Teaching English Language Arts II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135768",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "ENED 4414",
+          "EDUC 4610"
+        ]
+      },
+      "credits": "6",
+      "description": "This course is the first semester of an intensive and extensive co-teaching yearlong clinical experience in English education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 4650",
+      "notes": [
+        "Admission to the English Education Program, Pre-Service Certificate, and admission to Yearlong Clinical Experience required"
+      ],
+      "prereqs": {
+        "and": [
+          "ENGL 3241",
+          "ENGL 3310",
+          "ENGL 3391"
+        ]
+      },
+      "title": "Yearlong Clinical Experience in ELA I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135956",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENED 4416",
+      "credits": "6",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in English Education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars and the completion of a state content pedagogy assessment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 4660",
+      "notes": [],
+      "prereqs": "ENED 4650",
+      "title": "Yearlong Clinical Experience in ELA II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134691",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the reading, writing, research, and critical strategies essential to KSU English Studies. The course draws connections among the four content areas in the English Department (Literature, Language, Writing, and Theory) and focuses on their relationship to broader social and personal contexts, enabling students to make informed choices about their program of study and their careers.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGL 2145",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to English Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135954",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey of American literature from its beginnings to the present introduces English and Secondary English Education majors to the historical periods and major trends and figures of American literature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGL 2160",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "American Literature Survey"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134692",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey of British literature from its beginnings to 1660 introduces English and Secondary English Education majors to the historical periods and major trends and figures of British literature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGL 2172",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "British Literature, Beginnings to 1660"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135955",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey of British literature from 1660 to the present introduces English and Secondary English Education majors to the historical periods and major trends and figures of British literature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGL 2174",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "British Literature, 1660 to Present"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134693",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to teaching English Language Arts (grades 6-12). Through the study of theory and practice, context-based models, and specific applications, students explore the potential of the English Language Arts classroom and investigate the professional roles, relationships, and responsibilities of the English Language Arts teacher. This course is a prerequisite for all other English Education courses and mandatory for admittance to the English Education program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 2271",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Teaching English Language Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137338",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will attend to the many ways disability is represented in literature, language, and culture, and the impacts these ways of thinking have on cultural understanding, attitudes, and public policies. Course texts will span a range of time periods, genres, and forms, and may include scholarly theory, novels, films, documentaries, graphic novels, poetry, medical literature, and scientific works.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3127",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Disability and Representation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134697",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with experience in the ways in which multimodal and digital texts can be used meaningfully in the English Language Arts classroom. Students explore and analyze different text types (e.g., digital, multimodal, film and video, still images, etc.) and apply what they have learned through the creation of their own compositions as a way to develop comfort with and control using digital tools. The course prepares students to develop adolescents\u2019 literacy practices with multimodal and digital texts in the English/Language Arts classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3241",
+      "notes": [
+        "admission into the English Education program"
+      ],
+      "prereqs": "ENGL 2271",
+      "title": "Teaching Multimodal and Digital Texts in English Language Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134698",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course provides an exploration of theories of composition pedagogy and assessment, including a variety of strategies for teaching writing while dealing with institutional policies such as standardized testing. Students practice oral and written communication for various audiences and purposes; create, implement, and assess writing instruction in a middle school setting; and create and practice research-supported approaches to grammar instruction. The course includes a 45-hour embedded field experience in a middle school.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3310",
+      "notes": [
+        "Admission to the English Education or Secondary and Middle Grades Language Arts program required"
+      ],
+      "prereqs": "ENGL 2271",
+      "title": "Principles of Writing Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137251",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an exploration of current practice in composition pedagogy at the high school level, examining writing expectations, genres, and possibilities. Topics may include conventional and non-traditional approaches to writing instruction; units, assignments, and pacing; establishing a productive workshop environment; assessment approaches; mandates and policies that impact classroom decisions (including state standards and high-stakes testing); sociopolitical pressures related to writing instruction; and writing for audiences and contexts beyond the classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3311",
+      "notes": [
+        "admission to the English Education, B.S. major"
+      ],
+      "prereqs": "ENGL 2271",
+      "title": "Conventions and Tensions in High School Composing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134699",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of authors, themes, genres, and composition of scriptural writings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3320",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Scriptural Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135961",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of literature using gender as the primary category of analysis. Viewing gender as a social construction, it explores such issues as gendered roles in society, interactions between private and public life, gender\u2019s relation to canon formation, and individuals\u2019 struggle to define their place in culture in the face of gendered expectations. It may focus on a region or nation, a time period, a theme, a representative individual, or some combination.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3330",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Gender and Culture in Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134702",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of literature using ethnicity as the primary category of analysis. Individual offerings of the course might survey a range of ethnic literatures (e.g., Asian American, Chicano, Native American, Jewish) or explore one such body of texts (e.g., Caribbean literatures).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3340",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Ethnic Literatures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136767",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic in Native American literature. For example, the course might focus on a single artist (such as Louise Erdrich), a group of artists (such as writers of the Native American Renaissance), a genre (such as Indigenous science fiction), a region (such as writers of the Native South or the Pacific Northwest), or a theme or issue (such as Murdered and Missing Indigenous Women or intergenerational trauma).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3342",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in Native American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134703",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of literature using region as the primary category of analysis. Texts might include fiction and nonfiction, performance texts (such as drama and folktales from the oral tradition), and examples of material culture. The class might focus on a specific geographic region (e.g., the Caribbean); a comparative study of regional culture (e.g., Faulkner\u2019s Yoknapatawpa vs. Hardy\u2019s Wessex); or authors or themes closely associated with a region (e.g., Cather\u2019s West).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3350",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Region and Culture in Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134704",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course concerns the development of African American literature with emphasis on major writers defining trends, movements, genres, and themes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3360",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Major African American Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134706",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Using narrative as a central genre, this course introduces current English teaching philosophy and practice in teaching literature to adolescents. This course models current ways to integrate technology into the curriculum, identifies a variety of multicultural teaching texts, and extends the study of critical theory into the teaching of literature to adolescents.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3391",
+      "notes": [
+        "admission into the English Education program"
+      ],
+      "prereqs": "ENGL 2271",
+      "title": "Teaching Literature to Adolescents"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134708",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic of African-American literature. For example, the course might focus on a single artist (such as Ralph Ellison), a group of artists (such as writers of the Harlem Renaissance), a genre (such as the slave narrative), a source or technique (such as folklore in twentieth century novels), or a theme or issue (such as depictions of women, the oral-musical tradition or humor and signifying).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3500",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in African American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135962",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic in the areas of the African Diaspora. For example, the course might focus on a single author or group of authors: \u201cThe Novels of Paule Marshall\u201d; a country or region: \u201cCaribbean Literatures\u201d; a movement or an event: \u201cPost-Colonial Caribbean Literatures\u201d; a theme or issue: \u201cTwentieth-Century Caribbean Women Writers\u201d; a genre: \u201cAfrican, African American and Afro-Caribbean Autobiography\u201d; or a combination of these or other categories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 3600",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in African Diaspora Literatures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134711",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of selected comedies, histories, and tragedies, covering the range of Shakespeare\u2019s dramatic art. It may include dramatic form and poetic composition as commentaries on the dramatic genres and an examination of performance theory and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4340",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Shakespeare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134713",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents studies in medieval literature. It may include prose, poetry, and drama and investigate aesthetic, intellectual, and social issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4370",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Medieval Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134715",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents British literature from 1660 to the late eighteenth century. It may include poetry, prose, and drama and investigate aesthetic, intellectual, and social issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4374",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Restoration and Eighteenth-Century Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134718",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic in the areas of orature, literature, performance texts, film and/or other media produced in Africa. The course might focus on an author or group of authors: \u201cThe Plays of Wole Soyinka\u201d; a region or country: \u201cTwentieth Century South African Literature\u201d; a movement or event: \u201cAfrican Writers of the Negritude Movement\u201d; a theme or issue: \u201cWomen\u2019s Rights in African Literature\u201d; or a combination of these categories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4401",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in African Literatures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134719",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative writers in American literature in the nineteenth century.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4460",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "19th-Century American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134720",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents studies in Romantic and Victorian literature, from the 1780s to the end of the nineteenth century, examining such aesthetic and social themes as the nature and role of the artist, the impulse toward gothicism, the rise of the autobiography, responses to industrialization, and the conflict between tradition and change.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4470",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "19th-Century British Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134721",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements of the nineteenth century, emphasizing aesthetic and social understanding. It may examine Western and non-Western cultures.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4480",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "19th-Century World Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134722",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements in twentieth-century and twenty-first-century America, emphasizing aesthetic and social understanding.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4560",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "20th-Century and 21st-Century American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134723",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative twentieth-century and twenty-first-century British literature, with an eye towards important themes, aesthetic movements, and social changes during the period.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4570",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "20th-Century and 21st-Century British Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134724",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements of twentieth-century and twenty-first-century world literature, emphasizing aesthetic and social understanding.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4580",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "20th-Century and 21st-Century World Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138455",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages teacher candidates in analyses of critical and contemporary education issues. Candidates investigate issues influencing the social and political contexts of educational settings while actively examining the teaching profession, specifically humanities-based secondary educational settings, from multiple vantage points both within and outside the school. Against this backdrop, candidates reflect upon and interpret education and schooling in a diverse culture. Includes 25 hours of observation and participation in an appropriate school setting.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "HUED 2110",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Themes in Humanities Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136739",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "SCED 4650"
+          },
+          "ENED 4650",
+          {
+            "external": "WLED 4650"
+          },
+          {
+            "external": "HIED 4650"
+          },
+          {
+            "external": "MAED 4424"
+          },
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course prepares candidates to work collaboratively with families and school personnel to positively impact the academic, social/emotional, and behavioral development of students with exceptionalities. This course requires a ten-hour observational and instructional experience in assigned school placement(s). Verification of professional liability insurance is required prior to placement in the field experience. Candidates must have an issued preservice certificate for this course. This course fulfills Georgia HB 671 requirement. Beginning July 1, 2019, all candidates must earn a \u201cB\u201d or higher in this course for certification as stated in the Georgia PSC 505-2-.24 Special Georgia Requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 3300",
+      "notes": [
+        "Admission to Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "Educating Students with Exceptionalities in Inclusive Settings"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136738",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "EDUC 4610",
+          {
+            "external": "EDMG 3350"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course introduces middle and/or secondary teacher candidates to today\u2019s diverse English learner population, education policies that impact these students and how cultural resources can be leveraged to meet their academic needs. This course focuses on developing effective instruction, assessment, and literacy development for English learners and other linguistically diverse learners in middle grade classrooms. Specifically, candidates will a) examine the academic, linguistic and social needs of linguistically diverse learners, b) explore the differences between teaching reading and writing to English learners and native English speakers; and c) develop skills necessary for the differentiation, scaffolding language and content for English learners at a variety of language proficiency levels.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 4431",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations for Teaching Multilingual English Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136586",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Because language study is a key component of the English/Language Arts classroom, this course focuses on specific linguistic aspects of the English language (e.g., morphology, stylistics, discourse, etc.), grammar in context, language variation in life and literature, and sociolinguistic implications of teaching English. There is a strong focus on methodology, such as examining pedagogical stances and creating lesson plans.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LING 3025",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Linguistics for Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134694",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course analyzes the nature of human language. It surveys a variety of major subfields in linguistics, which may include phonology, morphology, syntax, discourse, and semantics. A heavy emphasis is placed on the social and pedagogical implications of modern linguistic theory, which includes an examination of issues such as Standard English, language acquisition, and variation in registers and dialects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LING 3035",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Understanding Language and Linguistics"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-english-education",
+    "name": "BS English Education"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

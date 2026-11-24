@@ -1,0 +1,810 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "CRJU 3301",
+      "CRJU 3320"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134447",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to statistics; the use of spreadsheets; principles of gravimetric and volumetric analysis; concepts of chemical equilibria as applied to acid-base, precipitation and complex ion reactions; electrochemistry and potentiometry; ultraviolet-visible spectroscopy; and an introduction to modern chromatographic separations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 2800",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Quantitative Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134448",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 2800",
+      "credits": "1",
+      "description": "Laboratory experiments include: gravimetric analysis, precipitation, complexometric, and reduction-oxidation titrations; potentiometric applications; calibration techniques using ultraviolet - visible spectroscopy. Tutorials on the application of spreadsheets.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 2800L",
+      "notes": [],
+      "prereqs": "CHEM 1212L",
+      "title": "Quantitative Analytical Chemistry Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134449",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An exploration of the process and practice of chemical research that leads to publication. An introduction to resources and methods for searching the chemical literature.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3000",
+      "notes": [],
+      "prereqs": "CHEM 3361",
+      "title": "Chemical Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134450",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "CHEM 3501"
+          },
+          "CHEM 3500"
+        ]
+      },
+      "credits": "3",
+      "description": "This course covers fundamentals of pharmacology such as drug discovery/development and pharmacokinetics, with emphasis given to the role of chemistry and biochemistry in these areas. A main focus of the course will be how drugs function at the molecular level. Examples will be chosen from drugs that target enzymes, receptors, and DNA.",
+      "groups": [
+        "conc-pharmaceutical-chemistry"
+      ],
+      "id": "CHEM 3010",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          "CHEM 3362"
+        ]
+      },
+      "title": "Medicinal Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134451",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course describes the major techniques used in the analysis of pharmaceuticals following the United States Pharmacopoeia. The topics include quality control, physical and chemical properties of drug molecules and various chemical analysis including classical methods, spectroscopy, and chromatography.",
+      "groups": [
+        "conc-acs-certified-chemistry",
+        "conc-integrative-chemistry",
+        "conc-forensic-chemistry",
+        "conc-pharmaceutical-chemistry"
+      ],
+      "id": "CHEM 3030",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 2800",
+          "CHEM 3000"
+        ]
+      },
+      "title": "Pharmaceutical Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134453",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In-depth study of concepts and theories of inorganic chemistry. Topics include atomic structure, bonding, coordination chemistry, reaction mechanisms, symmetry, and a general survey of descriptive inorganic chemistry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3105",
+      "notes": [],
+      "prereqs": "CHEM 3601",
+      "title": "Inorganic Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134454",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3105",
+      "credits": "1",
+      "description": "Laboratory course to introduce the concepts and practices of inorganic synthetic chemistry. Emphasis is on the synthesis, characterization, reactivity, structure, and other properties of the inorganic compounds and complexes. The course introduces standard methodology for the synthesis and characterization of compounds.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3105L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Inorganic Synthesis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134456",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "3",
+      "description": "This course is the first of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134457",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1212L",
+          "CHEM 3361"
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental method used in organic chemistry for separation of mixture, purification of compounds, and reactions illustrating single functional group transformation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry Lab I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134458",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the second of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3362",
+      "notes": [],
+      "prereqs": "CHEM 3361",
+      "title": "Modern Organic Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134459",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3362",
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental methods used in organic chemistry synthesis, characterization of compounds, and multi-step synthesis of useful target-compounds from readily available starting material.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3362L",
+      "notes": [],
+      "prereqs": "CHEM 3361L",
+      "title": "Modern Organic Chemistry Lab II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134463",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a one-semester, lecture-only biochemistry course. Concepts covered include the structure and function of biomolecules, membranes, enzyme kinetics, metabolism and bioenergetics, as well as biological information flow. Intended for chemistry, biology, or biotechnology majors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3500",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 3361",
+          "CHEM 3361L"
+        ]
+      },
+      "title": "Biochemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134466",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "CHEM 3500",
+          {
+            "external": "CHEM 3501"
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Introduction to biochemistry laboratory techniques including centrifugation, chromatography, electrophoresis, spectroscopy, and exploration of bimolecular structure using computer graphics.",
+      "groups": [
+        "conc-acs-certified-chemistry",
+        "conc-forensic-chemistry",
+        "conc-pharmaceutical-chemistry"
+      ],
+      "id": "CHEM 3501L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 3361",
+          "CHEM 3361L"
+        ]
+      },
+      "title": "Biochemistry I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134468",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "3",
+      "description": "This course provides an introduction to quantum mechanics and its application to selected chemical systems, atomic structure, chemical bonding, atomic, rotational, vibrational, and electronic spectroscopy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3601",
+      "notes": [],
+      "prereqs": "CHEM 2800",
+      "title": "Quantum Chemistry and Spectroscopy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134469",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 3000",
+          "CHEM 3601"
+        ]
+      },
+      "credits": "1",
+      "description": "This course introduces students to laboratory methods of quantum chemistry, spectroscopy, and the formal reporting of experimental results.",
+      "groups": [
+        "conc-acs-certified-chemistry"
+      ],
+      "id": "CHEM 3601L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantum Chemistry and Spectroscopy Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134470",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "3",
+      "description": "The primary emphasis of this course is on chemical thermodynamics, reaction kinetics and dynamics, and statistical thermodynamics. The course includes physical and chemical properties of real and ideal gases, the laws of thermodynamics and their application to physical and chemical systems, treatment of phase equilibria and chemical equilibria, and extends the application of quantum mechanics to thermodynamics in the development of statistical thermodynamics.",
+      "groups": [
+        "conc-acs-certified-chemistry"
+      ],
+      "id": "CHEM 3602",
+      "notes": [],
+      "prereqs": "CHEM 2800",
+      "title": "Thermodynamics and Reaction Kinetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134471",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3000",
+      "credits": "1",
+      "description": "This course introduces students to laboratory methods of thermodynamics and reaction kinetics, and the formal reporting of experimental results.",
+      "groups": [
+        "conc-acs-certified-chemistry"
+      ],
+      "id": "CHEM 3602L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Thermodynamics and Reaction Kinetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134474",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers fundamental topics of forensic analytical chemistry including statistics and data quality, sample preparation, drugs (pharmacology and toxicology), arson and the chemistry of combustion, and trace chemical evidence. Throughout the course, emphasis is placed on modern chemical instrumentation as applied to forensic casework.",
+      "groups": [
+        "conc-acs-certified-chemistry",
+        "conc-integrative-chemistry",
+        "conc-forensic-chemistry",
+        "conc-pharmaceutical-chemistry"
+      ],
+      "id": "CHEM 3800",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 2800",
+          "CHEM 3361"
+        ]
+      },
+      "title": "Forensic Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134476",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "Applied research project directed by a faculty member.",
+      "groups": [
+        "conc-acs-certified-chemistry",
+        "conc-forensic-chemistry"
+      ],
+      "id": "CHEM 4100",
+      "notes": [
+        "Junior level status",
+        "consent of the instructor",
+        "chair"
+      ],
+      "prereqs": null,
+      "title": "Directed Applied Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135541",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course will teach students advanced laboratory skills through work on a designed research project. Students will learn how to search the scientific literature, and will write a journal style report summarizing their research project.",
+      "groups": [
+        "conc-acs-certified-chemistry",
+        "conc-forensic-chemistry"
+      ],
+      "id": "CHEM 4120L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 2800",
+          "CHEM 3362"
+        ]
+      },
+      "title": "Research Methods Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134478",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to chemometrics. Theoretical principles and uses of modern instrumental methods covering: spectroscopy, electroanalysis, and chromatographic separations.",
+      "groups": [
+        "conc-acs-certified-chemistry",
+        "conc-integrative-chemistry",
+        "conc-forensic-chemistry",
+        "conc-pharmaceutical-chemistry"
+      ],
+      "id": "CHEM 4300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 2800",
+          "CHEM 2800L"
+        ]
+      },
+      "title": "Instrumental Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135542",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "CHEM 3030",
+          "CHEM 3800",
+          "CHEM 4300"
+        ]
+      },
+      "credits": "1",
+      "description": "Students will use modern chemical instrumentation to solve complex problems in analytical chemistry. Instrumentation will include FTIR, GC-FID, GC-MS, HPLC, CE, UV-Vis, LIBS and other techniques depending on faculty expertise.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 4310L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 2800",
+          "CHEM 2800L"
+        ]
+      },
+      "title": "Advanced Analytical Chemistry Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134540",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the American criminal justice system including law enforcement, the court system, and the correctional system. Emphasis is placed on crime in the U.S., the criminal justice process from arrest through sentencing, and the roles and responsibilities of criminal justice actors. Current topics in the criminal justice system are addressed such as the death penalty, offender treatment, and criminal justice reform among others.",
+      "groups": [
+        "conc-forensic-chemistry"
+      ],
+      "id": "CRJU 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134542",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the scientific method and the concepts and techniques of social science research. Topic areas include levels of measurement, sampling techniques, research design, survey methodology, and various research techniques. Emphasis is placed on the application of these techniques to the study of specific research questions in criminal justice. This course also examines how to interpret basic statistics and analyze data in a statistical software program.",
+      "groups": [
+        "conc-forensic-chemistry"
+      ],
+      "id": "CRJU 3301",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Research Methods in Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134548",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the historical, theoretical, and technological aspects of the investigation of crime. Topic areas include crime scene examinations, the collection and preservation of evidence, the basic legal principles and procedures governing the use of evidence in court proceedings, forensic and behavioral sciences, interviews and interrogations, and the use of technology by law enforcement agencies.",
+      "groups": [
+        "conc-forensic-chemistry"
+      ],
+      "id": "CRJU 3320",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Criminal Investigation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the third in the calculus curriculum and is concerned with functions defined on regions in two or three dimensional space and that have values in one, two, or three dimensional space. Topics include partial derivatives, vector fields, multiple integrals, and applications of these topics.",
+      "groups": [
+        "conc-acs-certified-chemistry"
+      ],
+      "id": "MATH 2203",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Calculus III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136837",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will develop the skills and mindset of a scientist or mathematician through metacognitive exploration, reflection, and guided inquiry. In addition, students will apply appropriate social methods to build scientific and mathematical collaborations, emulating the modern STEM enterprise. Finally, students will learn to value an inclusive STEM environment and support measures that expand access for all students to STEM.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCM 2000",
+      "notes": [
+        "A declared major within the College of Science",
+        "Mathematics"
+      ],
+      "prereqs": null,
+      "title": "Culture and Success in Science and Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the nature and extent of crime and the causes and correlates of criminal behavior. This course also examines the major criminological theories, including biological, psychological, sociological, rational choice, and developmental theories.",
+      "groups": [
+        "conc-forensic-chemistry"
+      ],
+      "id": "SOCI 4432",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "SOCI 1101"
+          },
+          "CRJU 1101"
+        ]
+      },
+      "title": "Criminology"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-acs-certified-chemistry"
+        ],
+        "label": "ACS Certified Chemistry"
+      },
+      {
+        "groups": [
+          "conc-integrative-chemistry"
+        ],
+        "label": "Integrative Chemistry"
+      },
+      {
+        "groups": [
+          "conc-forensic-chemistry"
+        ],
+        "label": "Forensic Chemistry"
+      },
+      {
+        "groups": [
+          "conc-pharmaceutical-chemistry"
+        ],
+        "label": "Pharmaceutical Chemistry"
+      }
+    ],
+    "id": "bs-chemistry",
+    "name": "BS Chemistry"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

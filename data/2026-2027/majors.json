@@ -16,6 +16,13 @@
   {
     "checked": false,
     "college": "Bagwell College of Education",
+    "id": "edd-secondary-and-middle-grades-education",
+    "level": "graduate",
+    "name": "EdD Secondary and Middle Grades Education"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
     "id": "edd-teacher-leadership",
     "level": "graduate",
     "name": "EdD Teacher Leadership"
@@ -64,10 +71,31 @@
   },
   {
     "checked": false,
+    "college": "Geer College of the Arts",
+    "id": "ma-art-and-design",
+    "level": "graduate",
+    "name": "MA Art and Design"
+  },
+  {
+    "checked": false,
     "college": "Radow College of Humanities and Social Sciences",
     "id": "ma-integrated-global-communication",
     "level": "graduate",
     "name": "MA Integrated Global Communication"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "mapw-professional-writing",
+    "level": "graduate",
+    "name": "MAPW Professional Writing"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "mat-teaching",
+    "level": "graduate",
+    "name": "MAT Teaching"
   },
   {
     "checked": false,
@@ -100,6 +128,13 @@
   {
     "checked": false,
     "college": "Bagwell College of Education",
+    "id": "med-educational-leadership",
+    "level": "graduate",
+    "name": "MEd Educational Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
     "id": "med-elementary-and-early-childhood-education",
     "level": "graduate",
     "name": "MEd Elementary and Early Childhood Education"
@@ -110,6 +145,13 @@
     "id": "med-instructional-technology",
     "level": "graduate",
     "name": "MEd Instructional Technology"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "med-literacy-education",
+    "level": "graduate",
+    "name": "MEd Literacy Education"
   },
   {
     "checked": false,
@@ -162,10 +204,24 @@
   },
   {
     "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "ms-computer-science",
+    "level": "graduate",
+    "name": "MS Computer Science"
+  },
+  {
+    "checked": false,
     "college": "College of Architecture and Construction Management",
     "id": "ms-construction-management",
     "level": "graduate",
     "name": "MS Construction Management"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ms-criminal-justice",
+    "level": "graduate",
+    "name": "MS Criminal Justice"
   },
   {
     "checked": false,
@@ -225,6 +281,13 @@
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ms-international-policy-management",
+    "level": "graduate",
+    "name": "MS International Policy Management"
+  },
+  {
+    "checked": false,
     "college": "Wellstar College of Health and Human Services",
     "id": "ms-prosthetics-and-orthotics",
     "level": "graduate",
@@ -236,6 +299,13 @@
     "id": "ms-technology-management-and-leadership",
     "level": "graduate",
     "name": "MS Technology Management and Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "msce-civil-engineering",
+    "level": "graduate",
+    "name": "MSCE Civil Engineering"
   },
   {
     "checked": false,
@@ -288,6 +358,13 @@
   },
   {
     "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "msswe-software-engineering",
+    "level": "graduate",
+    "name": "MSSWE Software Engineering"
+  },
+  {
+    "checked": false,
     "college": "Wellstar College of Health and Human Services",
     "id": "msw-social-work",
     "level": "graduate",
@@ -337,10 +414,38 @@
   },
   {
     "checked": false,
+    "college": "Geer College of the Arts",
+    "id": "ba-dance",
+    "level": "undergraduate",
+    "name": "BA Dance"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ba-english",
+    "level": "undergraduate",
+    "name": "BA English"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ba-geography",
+    "level": "undergraduate",
+    "name": "BA Geography"
+  },
+  {
+    "checked": false,
     "college": "Radow College of Humanities and Social Sciences",
     "id": "ba-history",
     "level": "undergraduate",
     "name": "BA History"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ba-international-affairs",
+    "level": "undergraduate",
+    "name": "BA International Affairs"
   },
   {
     "checked": false,
@@ -351,10 +456,24 @@
   },
   {
     "checked": false,
+    "college": "Geer College of the Arts",
+    "id": "ba-theatre-and-performance-studies",
+    "level": "undergraduate",
+    "name": "BA Theatre and Performance Studies"
+  },
+  {
+    "checked": false,
     "college": "College of Computing and Software Engineering",
     "id": "bas-information-technology",
     "level": "undergraduate",
     "name": "BAS Information Technology"
+  },
+  {
+    "checked": false,
+    "college": "College of Architecture and Construction Management",
+    "id": "barch-architecture",
+    "level": "undergraduate",
+    "name": "BArch Architecture"
   },
   {
     "checked": false,
@@ -394,6 +513,13 @@
   {
     "checked": false,
     "college": "Coles College of Business",
+    "id": "bba-information-systems",
+    "level": "undergraduate",
+    "name": "BBA Information Systems"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
     "id": "bba-management",
     "level": "undergraduate",
     "name": "BBA Management"
@@ -415,9 +541,30 @@
   {
     "checked": false,
     "college": "Geer College of the Arts",
+    "id": "bfa-art",
+    "level": "undergraduate",
+    "name": "BFA Art"
+  },
+  {
+    "checked": false,
+    "college": "Geer College of the Arts",
     "id": "bfa-digital-animation",
     "level": "undergraduate",
     "name": "BFA Digital Animation"
+  },
+  {
+    "checked": false,
+    "college": "Geer College of the Arts",
+    "id": "bm-music",
+    "level": "undergraduate",
+    "name": "BM Music"
+  },
+  {
+    "checked": false,
+    "college": "Geer College of the Arts",
+    "id": "bm-music-education",
+    "level": "undergraduate",
+    "name": "BM Music Education"
   },
   {
     "checked": false,
@@ -448,11 +595,60 @@
     "name": "BS Biochemistry"
   },
   {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "bs-biology",
+    "level": "undergraduate",
+    "name": "BS Biology"
+  },
+  {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "bs-chemistry",
+    "level": "undergraduate",
+    "name": "BS Chemistry"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-civil-engineering",
+    "level": "undergraduate",
+    "name": "BS Civil Engineering"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-computer-engineering",
+    "level": "undergraduate",
+    "name": "BS Computer Engineering"
+  },
+  {
     "checked": true,
     "college": "College of Computing and Software Engineering",
     "id": "bs-cs",
     "level": "undergraduate",
     "name": "BS Computer Science"
+  },
+  {
+    "checked": false,
+    "college": "College of Architecture and Construction Management",
+    "id": "bs-construction-management",
+    "level": "undergraduate",
+    "name": "BS Construction Management"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-criminal-justice",
+    "level": "undergraduate",
+    "name": "BS Criminal Justice"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bs-cybersecurity",
+    "level": "undergraduate",
+    "name": "BS Cybersecurity"
   },
   {
     "checked": true,
@@ -463,10 +659,73 @@
   },
   {
     "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "bs-early-childhood-education-birth-through-kindergarten",
+    "level": "undergraduate",
+    "name": "BS Early Childhood Education Birth through Kindergarten"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-electrical-engineering",
+    "level": "undergraduate",
+    "name": "BS Electrical Engineering"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-electrical-engineering-technology",
+    "level": "undergraduate",
+    "name": "BS Electrical Engineering Technology"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "bs-elementary-education",
+    "level": "undergraduate",
+    "name": "BS Elementary Education"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-english-education",
+    "level": "undergraduate",
+    "name": "BS English Education"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-environmental-engineering",
+    "level": "undergraduate",
+    "name": "BS Environmental Engineering"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bs-exercise-science",
+    "level": "undergraduate",
+    "name": "BS Exercise Science"
+  },
+  {
+    "checked": false,
     "college": "Coles College of Business",
     "id": "bs-financial-technologies",
     "level": "undergraduate",
     "name": "BS Financial Technologies"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-geospatial-sciences",
+    "level": "undergraduate",
+    "name": "BS Geospatial Sciences"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bs-health-and-physical-activity-leadership",
+    "level": "undergraduate",
+    "name": "BS Health and Physical Activity Leadership"
   },
   {
     "checked": false,
@@ -484,6 +743,20 @@
   },
   {
     "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-industrial-engineering-technology",
+    "level": "undergraduate",
+    "name": "BS Industrial Engineering Technology"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-industrial-and-systems-engineering",
+    "level": "undergraduate",
+    "name": "BS Industrial and Systems Engineering"
+  },
+  {
+    "checked": false,
     "college": "Wellstar College of Health and Human Services",
     "id": "bs-integrated-health-science",
     "level": "undergraduate",
@@ -495,6 +768,20 @@
     "id": "bs-interactive-design",
     "level": "undergraduate",
     "name": "BS Interactive Design"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-interdisciplinary-studies",
+    "level": "undergraduate",
+    "name": "BS Interdisciplinary Studies"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-journalism-and-emerging-media",
+    "level": "undergraduate",
+    "name": "BS Journalism and Emerging Media"
   },
   {
     "checked": false,
@@ -519,6 +806,41 @@
   },
   {
     "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-mechanical-engineering-technology",
+    "level": "undergraduate",
+    "name": "BS Mechanical Engineering Technology"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-mechatronics-engineering",
+    "level": "undergraduate",
+    "name": "BS Mechatronics Engineering"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-media-and-entertainment",
+    "level": "undergraduate",
+    "name": "BS Media and Entertainment"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "bs-middle-grades-education",
+    "level": "undergraduate",
+    "name": "BS Middle Grades Education"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-organizational-and-professional-communication",
+    "level": "undergraduate",
+    "name": "BS Organizational and Professional Communication"
+  },
+  {
+    "checked": false,
     "college": "College of Science and Mathematics",
     "id": "bs-physics",
     "level": "undergraduate",
@@ -533,10 +855,24 @@
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-psychology",
+    "level": "undergraduate",
+    "name": "BS Psychology"
+  },
+  {
+    "checked": false,
     "college": "Wellstar College of Health and Human Services",
     "id": "bs-public-health",
     "level": "undergraduate",
     "name": "BS Public Health"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-public-relations",
+    "level": "undergraduate",
+    "name": "BS Public Relations"
   },
   {
     "checked": false,
@@ -558,6 +894,20 @@
     "id": "bscgdd-computer-game-design-and-development",
     "level": "undergraduate",
     "name": "BSCGDD Computer Game Design and Development"
+  },
+  {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "bses-environmental-science",
+    "level": "undergraduate",
+    "name": "BSES Environmental Science"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "bsed-secondary-education",
+    "level": "undergraduate",
+    "name": "BSEd Secondary Education"
   },
   {
     "checked": false,

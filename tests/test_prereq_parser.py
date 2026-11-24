@@ -214,3 +214,44 @@ def test_degree_abbreviations_eligibility_and_varies_are_notes():
                  "ECE 3000 and Eligibility to take GACE", "Varies by topic"]:
         assert parse_requirement(text).warnings == [], text
     assert parse_requirement("Varies by program: ARED 4650, or MUED 4650").warnings  # a per-program list still warns
+
+
+# --- batch 4 ---
+
+def test_missing_operator_is_fine_when_and_or_or_give_the_same_requirement():
+    for text, expr in [("TPS Major. TPS 1600", C("TPS 1600")),
+                       ("ART 3500; ART 2990 (may also be taken concurrently).", {"and": [C("ART 3500"), C("ART 2990")]}),
+                       ("Acceptance into the Music Entertainment and Business program or completion of MUTC 3200", C("MUTC 3200"))]:
+        r = parse_requirement(text)
+        assert r.expr == expr and r.warnings == [], text
+    assert parse_requirement("MATH 2202 MATH 2203").warnings  # two courses side by side: and or or matters
+
+
+def test_inactive_markers_and_one_of_the_following_prefix():
+    r = parse_requirement("One of the following courses: ENGL 2110, ENGL 2121 [Inactive], or ENGL 2300 [Inactive] .")
+    assert r.expr == {"or": [C("ENGL 2110"), C("ENGL 2121"), C("ENGL 2300")]} and r.warnings == []
+
+
+def test_recommended_clause_is_a_note():
+    r = parse_requirement("BIOL 3300 and BIOL 3300L; Recommended - BIOL 3340")
+    assert r.expr == {"and": [C("BIOL 3300"), C("BIOL 3300L")]} and r.notes == ["Recommended - BIOL 3340"] and r.warnings == []
+
+
+def test_label_in_a_clause_without_courses_is_a_note():
+    r = parse_requirement("JOUR 3330&nbsp;and COMM 2340; must be a declared major in the School of Communication & Media. "
+                          "Non-Majors: Permission of the School required.")
+    assert r.expr == {"and": [C("JOUR 3330"), C("COMM 2340")]} and r.warnings == []
+    assert parse_requirement("Business Majors: MATH 1111; Non-business Majors: MATH 1101").warnings
+
+
+def test_leading_and_after_semicolon_and_stray_quotes():
+    r = parse_requirement("Must be a fully admitted music major; and permission of the instructor.")
+    assert r.expr is None and r.warnings == []
+    r = parse_requirement('MUTC 2200 or (MUTC 2100 with a "B" or higher") or (MUTC 1120 with a "B" or higher)')
+    assert r.expr == {"or": [C("MUTC 2200"), C("MUTC 2100", "B"), C("MUTC 1120", "B")]} and r.warnings == []
+
+
+def test_more_requirement_words():
+    for text in ["DANC 3200 or Dance Major or Dance Minor", "ENGL 2110 and Completion of 90 hours",
+                 "ARH 3990 and ENGL 1102; senior status.", "POLS 2280 and consent of the department chair"]:
+        assert parse_requirement(text).warnings == [], text

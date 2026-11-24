@@ -1,0 +1,489 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135374",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A broad survey of the major topics in psychology including, but not limited to, research methodology, biological and social factors influencing behavior, development, learning, memory, personality, and abnormal.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to General Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136716",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class introduces students to human development, from conception to death, emphasizing biological, cognitive, emotional, social and personality development. Scientific approaches for studying developmental psychology stress the importance of research methodology and research findings across the life-span. Theories of development and applications to real-world problems provide a context for understanding how humans change during the life-cycle.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 2103",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Introduction to Human Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135375",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on career planning and development issues for psychology majors. Using a combination of lecture, readings, and exercises, students will be exposed to information designed to assist in the clarification, selection, and pursuit of a career in psychology or a related field. Topics will include an overview of the undergraduate major in psychology, career options in psychology and related fields, preparation for employment with a bachelor\u2019s degree, preparing for and succeeding in graduate school, and applying for a job or to a graduate school.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 2210",
+      "notes": [
+        "Declared Psychology major"
+      ],
+      "prereqs": "PSYC 1101",
+      "title": "Careers in Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136714",
+      "catalogYear": "2026-2027",
+      "coreqs": "PSYC 2210",
+      "credits": "3",
+      "description": "In this course, students are introduced to psychological research methods, exploration and critical evaluation of professional literature, and scientific writing. Topics include the scientific method, ethical issues in research, and research design. Coverage encompasses descriptive, correlational, quasi-experimental, and experimental research and data collection strategies. Laboratory work is designed to enable students to apply course topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 2500",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Research Methods in Psychological Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136715",
+      "catalogYear": "2026-2027",
+      "coreqs": "PSYC 2210",
+      "credits": "3",
+      "description": "In this course, students are introduced to descriptive and inferential statistical techniques for analyzing psychological research. Coverage encompasses selection of appropriate statistics for differing research questions and designs, and the interpretation and reporting of results. Laboratory work is designed to enable students to apply course topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3000",
+      "notes": [
+        "Any 1000-level MATH course"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 2202",
+              {
+                "external": "STAT 1401"
+              },
+              {
+                "external": "DATA 1501"
+              }
+            ]
+          },
+          "ENGL 1101"
+        ]
+      },
+      "title": "Statistical Applications in Psychological Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135376",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The dynamics of normal and maladaptive adjustment, including the study of appropriate and inappropriate reactions to frustration and stress; resolution of conflicts, fears and anxiety; building emotional stability and preventing mental illness.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3220",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Psychology of Adjustment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135379",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines how people\u2019s thoughts, feelings, and behaviors are shaped by the social environment. Topics include interpersonal attraction, affiliation, aggression, prejudice, conformity, attitudes, persuasion, social cognition, altruism, self-presentation, social perception, and group behavior. Experimental research findings are emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3325",
+      "notes": [],
+      "prereqs": "PSYC 2500",
+      "title": "Social Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135380",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys classic and current theories of personality that represent several of the major perspectives in psychology (e.g., psychoanalytic, biological, developmental, behavioral, humanistic, cognitive, sociocultural), highlighting the contributions of each theory to personality description, assessment, research, therapy, and application.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3335",
+      "notes": [],
+      "prereqs": "PSYC 2500",
+      "title": "Theories of Personality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135382",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An overview of the study and application of psychological principles from a global cultural perspective, including Asian, African, European and North and South American cultures. Topics such as cognition, attitude structure and change, interpersonal communication, personality and mental health will be discussed in the contexts of different cultural orientations in the world, and both between and within-group differences and similarities will be discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3355",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Cross-Cultural Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135387",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of the study and application of ethnic minority psychology. We will examine concepts and issues that pertain to ethnic minority groups in the United States, particularly the following four groups: African Americans, Asian Americans, Hispanic Americans, and Native Americans. Topics for discussions are: multicultural theory and research, history, cultural values, identity, developmental and family issues, mental health and other relevant issues that are pertinent to the experiences of the above-mentioned four ethnic minority groups in the United States. The course will be conducted with a combination of lectures, class discussion, guest speakers, group activities, student presentations, videos, etc.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3385",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Ethnic Minority Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135619",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on psychological theory and research as mechanisms of understanding prejudice and discrimination. Close attention is paid to how privilege (e.g., racial, gender, sexuality, and/or class privilege) can influence how we perceive ourselves and others within and outside our social/cultural group(s). Coursework may involve readings from both psychology and literature, viewing of relevant films, and participation in experiential learning exercises and dialogues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3395",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Psychology of Prejudice and Privilege"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135581",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Through the use of theoretical and empirical approaches, this course focuses on a biopsychological approach to health psychology including psychological and physiological aspects of U.S. and global health issues. Students will develop knowledge of the psychological aspects of a variety of health topics. Potential topics include body management systems, disease prevention, chronic illnesses, pain, stress and coping, substance use disorder, nutrition, and alternative models of health behavior change.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3410",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Health Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135388",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines gender issues from a psychological perspective. Topics include the social construction of gender, gender and personality development, sex role socialization, and a critical examination of the research on gender differences. The ways in which gender intersects with other aspects of identity (e.g., race, ethnicity, class, sexual orientation) are examined. Scientific research findings are emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3425",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Psychology of Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136718",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students integrate research design and statistical concepts to develop an understanding of how research is conducted within the field of psychological science. Students learn the importance of the scientific method and gain hands-on experience with conducting and analyzing scientific research. Topics include selecting appropriate experimental and non-experimental designs to address different research questions, selecting appropriate statistical analyses based on the chosen research design, and practicing written and oral communication of the scientific process. These concepts will be applied to areas within psychological science with a focus on cognitive psychology, learning and behavior, perception, and physiological psychology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4100",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PSYC 2500",
+          "PSYC 3000"
+        ]
+      },
+      "title": "Advanced Laboratory in Psychological Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135389",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an introduction to the various learning mechanisms that influence the establishment, maintenance, and/or reduction of behaviors in both humans and nonhuman animals. The course focuses on linking processes and theories of classical and operant conditioning to everyday behaviors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4345",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PSYC 2500",
+          "PSYC 3000"
+        ]
+      },
+      "title": "Learning and Behavior"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the relationship between our underlying physiological systems and behavior. The topics investigated include neural communication, the anatomy of the nervous system, and the biological bases of sleep, reproductive behavior, stress, learning and memory, and mental disorders.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4410",
+      "notes": [],
+      "prereqs": "PSYC 2500",
+      "title": "Physiological Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135392",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The subject matter of the course includes the physical properties of stimuli, the psychological methods of investigating perception, the anatomy and physiology of the sense organs, the central processing of stimuli, and demonstrations or laboratory investigations of sensory phenomena.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4415",
+      "notes": [],
+      "prereqs": "PSYC 2500",
+      "title": "Perception"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the study of mental disorders, including the major types of distress and dysfunction that occur in human cognition, emotion, behavior, and personality. Students examine current research and applications focused on the classification, features, etiology, course, and treatment of mental disorders. This course prepares students to think critically about topics in psychopathology while considering the philosophical, theoretical, practical, and ethical issues that are involved.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4430",
+      "notes": [
+        "One 3000-level psychology course required"
+      ],
+      "prereqs": null,
+      "title": "Psychopathology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135395",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course provides an introduction to the science and practice of clinical and counseling psychology from integrated perspectives. History, major theories, and scientific underpinnings are covered, as well as current developments in practice and research. Major topics include research design, theoretical models, diagnostic and assessment methods, psychotherapeutic interventions, treatment effectiveness, specialization, and training. The course may emphasize clinical or counseling psychology at the discretion of the instructor.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4440",
+      "notes": [
+        "One 3000-level psychology course required"
+      ],
+      "prereqs": null,
+      "title": "Clinical and Counseling Psychology: Science and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students are introduced to the experimental investigation of complex cognitive processes. Topics include attention, perception, memory, concept formation, reasoning, problem solving, and decision-making. Assignments are designed to enable students to relate course material to their own experiences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 4455",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PSYC 2500",
+          "PSYC 3000"
+        ]
+      },
+      "title": "Cognitive Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135400",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course serves as the culmination of students\u2019 undergraduate experience in psychology, integrating diverse perspectives and topics explored throughout their studies to foster a comprehensive understanding of the field and prepare students for future academic, professional, or applied endeavors. The course focuses on applying academic knowledge and skills, including oral and written communication, to the examination of contemporary issues, problems, research, and theories from the different areas identified in the psychology curriculum.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "PSYC 4499",
+      "notes": [
+        "Senior Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "PSYC 4100",
+          {
+            "or": [
+              "PSYC 4410",
+              "PSYC 4415",
+              "PSYC 4345",
+              "PSYC 4455"
+            ]
+          }
+        ]
+      },
+      "title": "Capstone in Psychological Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136717",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course is designed to complete the major by integrating the student\u2019s prior academic experiences in psychology. The course focuses on applying research methods and statistics knowledge through project-based experiences. Discussion focuses on both substantive and methodological concerns, as well as developing and applying research skills. Results of project-based experiences are communicated through scientific writing and presentation(s).",
+      "groups": [
+        "major-project"
+      ],
+      "id": "PSYC 4500",
+      "notes": [
+        "Senior Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "PSYC 4100",
+          {
+            "or": [
+              "PSYC 4410",
+              "PSYC 4415",
+              "PSYC 4345",
+              "PSYC 4455"
+            ]
+          }
+        ]
+      },
+      "title": "Capstone Integrative Project"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "bs-psychology",
+    "name": "BS Psychology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

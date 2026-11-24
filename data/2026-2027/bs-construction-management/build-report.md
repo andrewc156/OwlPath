@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **CM 3310**
-  - missing operator before 'CM 3110', assumed and
-- **CM 4560**
-  - missing operator before 'CM 3410', assumed and
+None.
 
 ## Left out on purpose
 

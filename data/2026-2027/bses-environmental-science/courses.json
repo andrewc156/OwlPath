@@ -1,0 +1,1328 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "STAT 3125",
+      "IET 2227",
+      "STAT 1401"
+    ],
+    [
+      "POLS 3356",
+      "POLS 4456"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135743",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course will allow students to gain in-depth skills with a specific set of research methodologies through direct involvement in faculty-led research or scholarship. Course content and instructional methodologies will be identified by the faculty\u2019s needs and expectations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3110L",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L"
+        ]
+      },
+      "title": "Directed Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135787",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students in ecosystem ecology will study how energy and material flows and cycles through both the living (plants, animals, microbes) and non-living (soils, atmosphere) components of natural systems. Classes and lab exercises will be used to examine the influence of biological, geological and chemical processes. Students will consider factors that alter ecosystem function including human activities, from the molecular to the global scale.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3250K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Ecosystem Ecology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134403",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents fundamental principles and applications in genetics. Students learn how traits are inherited and to use this information in predicting and analyzing genetic outcomes. Students study nucleic acid structure, learn how DNA replicates and how genes are expressed. Mutation at the gene and chromosomal levels will be surveyed, and their effect on gene structure and function examined. Finally, students will explore various genetic methods, including pedigrees, mapping, and molecular techniques.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 3300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Genetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135946",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3300",
+      "credits": "1",
+      "description": "This course is designed to reinforce principles and applications of transmission genetics, cytogenetics, and molecular genetics. Students will learn to use problem-solving, data analysis and quantitative methods to explore genetics. Exercises in molecular biology will expose students to methods of recombinant DNA technology.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 3300L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Genetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135745",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is a survey of invertebrate animals. Students will explore the varied range of anatomical, physiological, and ecological relationships among these organisms in order to develop an understanding of evolutionary processes that brought about present day patterns in the biodiversity of animal phyla. In lab, students will collect, observe and identify common invertebrate taxa, and relate observed adaptations of form and function to habitat.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3310K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 1212",
+          "CHEM 1212L"
+        ]
+      },
+      "title": "Invertebrate Zoology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135746",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students will use phylogenetic methods to explain evolutionary origins, ecological relationships, and life history traits of vertebrate organisms. In laboratories, students will identify North American vertebrates and analyze the relationship between morphology and taxonomy.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3315K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Vertebrate Zoology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135940",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "In this course students will explore the evolutionary trends and relationships of the phyla of non-vascular and vascular plants, as well as a number of groups of algae. Students will examine vegetative and reproductive morphology across varied life cycles and through paleobotany. Laboratory work is closely tied to lecture material and includes examination of microscope slides as well as dissections and observations of morphological features of specimens. Students will make drawings of many of their specimens. A trip to the Atlanta Botanical Gardens is required.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3320K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Plant Morphology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136337",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course examines the flora, fauna, geology, and environments of selected Georgia ecoregions. Students will learn the historical and geological development of the state\u2019s major habitats and landforms, which are examined by way of two four-day, overnight field trips during the Maymester term.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3335",
+      "notes": [],
+      "prereqs": "BIOL 3370",
+      "title": "Natural History of Georgia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134406",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of prokaryotes, unicellular eukaryotes and viruses. Students will learn about the nature of microorganisms and the techniques used to study microbes. Students will explore the morphology, metabolism, growth, and genetics of various microbes.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3340",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Microbiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134407",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn about the relationships among living organisms and their environments at the individual, population, community and ecosystem level. Students will learn how and why traits evolve over time and how to evaluate scientific information.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3370",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          {
+            "or": [
+              "STAT 1401",
+              "STAT 3125",
+              "IET 2227",
+              {
+                "external": "PSYC 3000"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Ecology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135695",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3370",
+      "credits": "1",
+      "description": "In laboratory and field activities students will utilize inquiry-based activities that emphasize environmental sampling procedures and statistical analysis of data to explore the role of variability and uncertainty in scientific decision-making as related to ecological processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3370L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ecology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students will develop a comprehensive and integrated understanding of physical, chemical, and biological processes occurring in lakes, streams, and wetlands. Particular emphasis will be placed on the ecology of aquatic organisms and the structure and function of freshwater communities and ecosystems that they inhabit. Laboratory exercises will use the scientific method to investigate and contrast basic ecological processes operating in various systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3371K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Freshwater Ecology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is an introduction to the major plant and animal taxa found in aquatic ecosystems. Students will develop field and laboratory identification and collection skills while examining major ecological and biogeographical factors influencing distribution and abundance of aquatic organisms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3372K",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 3370",
+          "BIOL 3370L"
+        ]
+      },
+      "title": "Aquatic Biodiversity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134408",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will study the fundamental questions of evolutionary biology, and focus on how processes such as natural selection, mutation, and drift form the genetic basis of evolutionary change. Students will investigate the role that adaption, speciation, and genome evolution have played in the diversification of Life on Earth over time. Students will explore the application of evolutionary principles, such as phylogenetic inference, to human health, disease, and conservation efforts.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3380",
+      "notes": [],
+      "prereqs": "BIOL 3300",
+      "title": "Evolutionary Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135789",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will explore the physical and biological aspects of the marine environment and describe the impact of humans on this ecosystem. Students will utilize an ecological approach to explore marine flora and fauna.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3650",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Marine Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135790",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course examines the diversity of fishes. Students will learn the anatomy, physiology, evolutionary history, and ecology of these organisms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 3700K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Ichthyology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135791",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the biology of parasites of major medical/veterinary importance. Students will learn how parasites are transmitted to their host(s) and the pathologies that are generated from host-parasite interactions. Students will also examine the epidemiology of parasitic infection, as well as the methods for suppressing parasites in host populations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 4115",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Parasitology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137194",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Laboratory activities will supplement the lecture material of BIOL 4115. Students learn about the different methods to collect and isolate parasites in humans and domestic and wild animals. They will also learn how to identify some parasites of medical and veterinary concern.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 4115L",
+      "notes": [],
+      "prereqs": "BIOL 4115",
+      "title": "Parasitology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135760",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course encompasses the fields of ecology and genetics as they apply to population genetics and conservation and management of natural resources. Students will explore the issues pertaining to the measurement and management of genetic diversity in wild and captive populations and will learn to apply evolutionary concepts to populations and population management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 4242K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 3300",
+          "BIOL 3300L"
+        ]
+      },
+      "title": "Ecological Genetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135696",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course explores the evolutionary relationships of land plants and how those relationships relate to modern and historic classification systems. Students learn the major orders and families of flowering plants along with the skills to identify plants to genus and species in the field and from preserved specimens. The course has a major lab and field component, and students are expected to attend two weekend field trips.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 4322",
+      "notes": [
+        "BIOL 1108 and BIOL 1108L)"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Plant Systematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135944",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students will learn aspects of physiological responses of plants to their environment, methods to determine plant population growth and plant distribution patterns, as well as interactions among plants and other organisms. They will use science as a process and learn to argue scientific points of view persuasively. Students will also learn to use classical and modern technologies to address questions in plant ecology.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 4422K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Plant Ecology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135698",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the principles and mechanisms of toxicology as applied to toxicants encountered in the environment. Students will learn how toxins are absorbed, distributed, stored, and eliminated across a range of organisms. Students will also explore the transport of environmental contaminants and the characteristics of specific classes of toxicants as they relate to testing and regulation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BIOL 4440",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 3361"
+        ]
+      },
+      "title": "Toxicology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134456",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "3",
+      "description": "This course is the first of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134457",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1212L",
+          "CHEM 3361"
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental method used in organic chemistry for separation of mixture, purification of compounds, and reactions illustrating single functional group transformation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry Lab I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134472",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3361",
+      "credits": "3",
+      "description": "This course will cover the environmental chemistry involving the transport, distribution, reactions, and speciation of inorganic, organometallic and organic chemicals occurring in the air, soil and water environments at the local, national and global scale. Environmental transformations and degradation processes, toxicology, pollution and hazardous substances will be discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHEM 3700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Environmental Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135464",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an intermediate survey course of computer-based statistical software applications in the analysis and interpretation of data. Topics include developing a proficiency in coding in multiple languages through quantitative applications. Software packages include the most in-demand statistical languages and packages in the marketplace. (e.g. Python, SAS, R)",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "DATA 3010",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 1401",
+          {
+            "external": "ECON 2300"
+          },
+          "STAT 3125",
+          {
+            "external": "STAT 2332"
+          },
+          {
+            "external": "MATH 3332"
+          }
+        ]
+      },
+      "title": "Computer Applications of Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135831",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is an examination of contemporary environmental issues related to Earth\u2019s natural systems such as human population dynamics, natural resources, environmental quality, global changes, and environmental values in society. Students will learn how to apply scientific principles and data to gain an understanding of modern environmental challenges on local, regional, and global scales.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENVS 2202K",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Environmental Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135833",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1212",
+          "CHEM 1212L"
+        ]
+      },
+      "credits": "4",
+      "description": "This course will provide an overview of soil and water science including study of the physical, chemical and biological properties of each and how these properties relate to soil health and water quality. Students will consider human activities that impact soil and water resources, learn how to assess those impacts and apply management approaches towards them. Laboratory exercises will involve the application of techniques for monitoring soil and water quality and methods for remediation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENVS 3100K",
+      "notes": [],
+      "prereqs": null,
+      "title": "Soil & Water Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136647",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This laboratory course will allow students to gain in-depth skills with a specific set of research methodologies through direct involvement in faculty-led research or scholarship. Course content and instructional methodologies will be identified by the faculty\u2019s needs and expectations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3110L",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "ENVS 2202K",
+      "title": "Directed Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135834",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Environmental toxicology is the study of the nature, properties, effects and detection of toxic substances in the environment and environmentally exposed species, including humans. Students taking this course will learn to quantify environmental exposures using dose-response relationships, categorize the absorption of toxicants, calculate the distribution of storage toxicants, describe the biotransformation and elimination of toxicants, determine target organ toxicity, teratogenesis, mutagenesis, and carcinogenisis of various toxins and manage the risks associated with them.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3150K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 3361",
+          "CHEM 3361L"
+        ]
+      },
+      "title": "Environmental Toxicology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138370",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a 2-week study abroad course where students will explore multiple facets of Japan. Students will learn about volcanism and plate tectonics by hiking a live volcano and visiting geothermal hot springs and will visit Fukushima Prefecture to learn about the impacts of the nuclear meltdown in 2011. Students will explore Japanese culture and history through visits to Japanese museums, a castle, shrines, temples, and a Kabuki play.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3251",
+      "notes": [],
+      "prereqs": null,
+      "title": "Earth Science & Culture of Japan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students in this course will learn how plate tectonics affect the positioning of our continents, how the physical and chemical makeup of seawater affects the ocean\u2019s properties, and how air-sea interactions, ocean circulation, waves and tides all affect our climate. Finally, students will explore the biological richness of the ocean ecosystem by studying coastal habitats, biological productivity, pelagic and benthic marine organisms, marine pollution and the exploitation of marine resources.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3350",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          "CHEM 1212L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Oceanography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135836",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover fundamental principles of conservation biology. Students will learn about the history and development of the conservation movement, learn how to examine human impacts on plants and wildlife, delve into interaction of conservation and society, and determine how to manage and conserve endangered species. Class exercises will cover quantitative techniques used to evaluate and predict the status of plant and animal populations and ecological methods for monitoring and maintaining biodiversity in ecosystems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3450",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Conservation Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135580",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course includes an in-depth survey of sustainability efforts in the areas of campus facilities and curriculum at Kennesaw State University and is especially relevant for students with interest in the area of Environmental Studies. The course has a service-learning component in which teams of students examine aspects of KSU\u2019s sustainability activities and develop proposals to improve or enhance ongoing efforts or introduce new ones.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3720",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "BIOL 1108",
+              "BIOL 1108L"
+            ]
+          },
+          {
+            "external": "GEOG 1113K"
+          }
+        ]
+      },
+      "title": "Sustainability at KSU"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135572",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory course designed to provide students with a basic foundation for an understanding of the importance of natural resource conservation within the context of a variety of local, regional, national, and global resource and environmental concerns. This course examines the effects various natural resource management practices have on the quality of life for both present and future generations with much of the material focusing on the concept of sustainable development.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 3730",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "BIOL 1107",
+              "BIOL 1107L",
+              "BIOL 1108",
+              "BIOL 1108L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "SCI 1101K"
+              },
+              {
+                "external": "SCI 1102"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Natural Resource Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135837",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course covers wetlands as components of natural landscapes. Students will learn to characterize the biogeochemistry, hydrology, geomorphology, and soil properties of wetlands. Students will learn how to classify wetlands by considering soil and hydrologic factors important to wetland delineation and jurisdictional determination. Finally, students will learn how to mitigate impacts on wetlands with an emphasis on wetland restoration and creation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENVS 4000K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "ENVS 3100K"
+        ]
+      },
+      "title": "Wetlands and Mitigation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135838",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to extend the traditional boundaries of the ethical relationships between humans to the nonhuman world in the natural environment. Philosophical and social issues have surfaced in the twenty-first century emerging as environmental ethical dilemmas demanding resolution. Case studies and a variety of interdisciplinary literature pieces are incorporated which allow students to consider the impact of ethical dilemmas and evaluate their social influences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENVS 4300",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ENVS 2202K",
+          {
+            "external": "SCI 1101K"
+          },
+          "BIOL 1108"
+        ]
+      },
+      "title": "Environmental Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135832",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENVS 3100K",
+      "credits": "1",
+      "description": "This seminar will explore current topics in environmental science, regulation, and policy. Faculty and outside speakers from government and private industry will give presentations and lead discussions. Students will be expected to attend all lectures and participate.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENVS 4399",
+      "notes": [
+        "Environmental Science Major",
+        "90+ Credit Hours"
+      ],
+      "prereqs": null,
+      "title": "Environmental Science Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134768",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the processes and technology of cartography, the science and art of map making. The foundations of map construction and design are presented from theoretical and applied perspectives. Students use hands-on and computerized mapping, leading to a basic appreciation of the map as the integral component of geographic information systems data analysis. This course does not count as an upper-division GEOG requirement toward the degree program for SSED majors.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 3305",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Cartographic Processes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134771",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students are introduced to the basic design of state-of-the-art GIS and its analytical capabilities. Topics may include: Geodatabases, applications in GIS, map projection information, raster/vector data models, introduction to available data on the internet, and basic GIS analytical functions such as querying and overlaying. The course uses ArcGIS 10 to introduce these concepts in a hands-on environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GEOG 3315",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Geographic Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135573",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a critical review of the concept of sustainability and sustainable development in theory and practice. Students analyze ideological arguments, sustainability indicators and other tools, and case studies of sustainability projects worldwide. Students examine different interpretations of sustainability across the globe with special attention given to how sustainability is viewed and implemented in both the developed (core) and developing (periphery) regions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 3710",
+      "notes": [],
+      "prereqs": null,
+      "title": "Local & Global Sustainability"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134781",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the nature of Earth\u2019s climate and the physical processes that determine the variations in climate and weather worldwide. Emphasis is on the interactions among the atmosphere, the hydrologic cycle, and earth\u2019s surface. Aspects of climate change are also addressed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 3800",
+      "notes": [],
+      "prereqs": null,
+      "title": "Climatology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course gives students an overview of Global Climate Change by bringing together science, impacts, abatement technologies, and policy solutions. From an interdisciplinary perspective with geographical emphasis, it leads students to examine the scientific basis, current scientific understanding, future projections, and impacts of climate change, uncertainties and debates on climate change, and technologies and policies to deal with climate change, through lecture presentations, group projects, readings, exams, and a research paper.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 3850",
+      "notes": [],
+      "prereqs": null,
+      "title": "Global Climate Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134785",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds upon basic concepts addressed in the Introduction to Geographic Information Systems (GIS) course. The use of topological data procedures and relational database concepts within the GIS context will be investigated along with procedures relevant to building Geodatabases, including map projections, coordinate systems, digitizing vectors, and transformations. Fundamental spatial analysis operations are expanded upon, including spatial query, address matching, spatial aggregations, buffering, polygon overlay, and point-in polygon operations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 4405",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "GEOG 3305",
+          "GEOG 3315"
+        ]
+      },
+      "title": "Advanced Geographic Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134786",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students investigate various mapping techniques used in GIS and geospatial technologies. These techniques can include data collection and management, mapping and visualization, 3D GIS, spatial analytics, and scripts and automation. Students demonstrate their comprehension of GIS techniques by way of exercises that render the production of digital maps.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 4410",
+      "notes": [],
+      "prereqs": "SURV 3320",
+      "title": "Introduction to Remote Sensing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136550",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines Earth surface processes and landforms, including tectonic, volcanic, hillslope, karst, fluvial, glacial, periglacial, eolian, and coastal geomorphic systems, as well as weathering and soils. Relationships between environmental change and the evolution of landscapes are addressed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 4700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Geomorphology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135830",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course covers Earth materials and processes. This course introduces students to the study of Earth, and processes which modify it over time. The course provides an overview of plate tectonics, describes relationships between rocks and structures, examines the role of water in landscape evolution, and places an emphasis on the environmental applications of Earth processes. Lecture and lab familiarize students with the methodology and tools of the geologist, and emphasize the connections between the components of the Earth system.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "GEOL 1121K",
+      "notes": [
+        "A grade of C or better in any two 1000-level or 2000-level science courses"
+      ],
+      "prereqs": null,
+      "title": "Introductory Geosciences I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134787",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a capstone course for the GIS Certificate Program and is designed to integrate students\u2019 prior training in geospatial theory, technologies and/or data analyses through the use of geographic information systems in on-site work settings. Student experiences are applied in nature and are on campus or with selected private or public organizations in the community. Students find and obtain their own practicums, which require the GSS Internship Coordinator\u2019s approval.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GIS 4415",
+      "notes": [
+        "permission of the Geospatial Sciences GSS Internship Coordinator"
+      ],
+      "prereqs": "GEOG 4405",
+      "title": "Practicum in Geographic Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136187",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers descriptive statistics, probability, sampling distributions and the central limit theorem, continuous and discrete distributions used in engineering, and inferences about single samples, including point and interval estimates for means, proportions and variances. Industrial applications rather than theoretical developments are emphasized. Computer based solution techniques are used when appropriate. This is the first of a two-course sequence.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IET 2227",
+      "notes": [],
+      "prereqs": "MATH 1113",
+      "title": "Probability and Statistics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135574",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Explores U.S. environmental policy and politics from the implicit early efforts (conservationist and preservationist) to the explicit policy that emerged out of postwar environmental movements and culminated in the 1970 with the creation of the US Environmental Protection Agency. Emphasis is on the politics of making and implementing of environmental policy and on the effectiveness of environmental protection.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 3356",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "U.S. Environmental Policy & Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135362",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the basic elements of environmental policy making in the international arena. The course highlights current issues such as tropical rain forests, the \u201cGlobal Commons\u201d concept, biodiversity and endangered species. Policy approaches will draw upon examples from specific countries as well as policy developed within international organizations such as the United Nations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "POLS 4456",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "International Environmental Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136837",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will develop the skills and mindset of a scientist or mathematician through metacognitive exploration, reflection, and guided inquiry. In addition, students will apply appropriate social methods to build scientific and mathematical collaborations, emulating the modern STEM enterprise. Finally, students will learn to value an inclusive STEM environment and support measures that expand access for all students to STEM.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SCM 2000",
+      "notes": [
+        "A declared major within the College of Science",
+        "Mathematics"
+      ],
+      "prereqs": null,
+      "title": "Culture and Success in Science and Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135058",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a non-calculus based introduction to statistics. Course content includes descriptive statistics, probability theory, confidence intervals, hypothesis testing, and other selected statistical topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 1401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135465",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with a foundation in statistical methods, including confidence intervals for population parameters, correlation, simple linear regression and hypothesis testing (F and T-tests for regression, chi-square for independence, 2 group and paired sample T-tests). These concepts are taught with heavy emphasis on statistical coding software and real-world datasets from a variety of disciplines.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 3120",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 1401",
+          {
+            "external": "DATA 1501"
+          },
+          {
+            "external": "STAT 2332"
+          },
+          {
+            "external": "MATH 3332"
+          }
+        ]
+      },
+      "title": "Statistical Methods I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135466",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students use descriptive statistics and visual displays to describe biological and medical data. They perform and analyze results of statistical analyses which may include confidence intervals, correlation, linear regression, odds/risk ratios, and hypothesis testing (Chi-square for independence, 2 group and paired sample t-tests). Analyses are performed using the statistical software R.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 3125",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "BIOL 1107",
+          "BIOL 1108",
+          "CHEM 1212"
+        ]
+      },
+      "title": "Biostatistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to build their foundation in statistical methods in this course. They will conduct non-parametric methods (Wilcoxon Signed Rank, Rank Sum, and Kruskal Wallis tests), ANOVA and multiple regression. These concepts are taught with heavy emphasis on statistical coding software and real-world datasets.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "STAT 3130",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DATA 3010",
+          {
+            "or": [
+              "STAT 3120",
+              "STAT 3125",
+              {
+                "external": "STAT 2332"
+              },
+              {
+                "external": "PSYC 3000"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Statistical Methods II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136226",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course will focus on the analysis and interpretation of manned and unmanned aerial systems (UAS) that include: drones; kites; blimps; powered paragliders; and fixed wing and copter small-format aerial photography (SFAP). Furthermore, the course will examine digital image processing and interpretation of data, in addition to travel and setup for best results in evaluating SFAP and UAS imagery.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SURV 3320",
+      "notes": [],
+      "prereqs": "GEOG 3315",
+      "title": "Photogrammetry and Drone Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136266",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the theory and methods of the generation, compilation, analysis, and applications of digital elevation data. Specific topics include GIS, terrain data models, photogrammetry and LiDAR DEM processing, terrain surface modeling, digital terrain analysis, terrain visualization, and watershed delineation. Computer exercises in the generation and processing of DEM using GIS and image processing software packages.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SURV 3451",
+      "notes": [],
+      "prereqs": "SURV 3320",
+      "title": "Terrain Analysis"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bses-environmental-science",
+    "name": "BSES Environmental Science"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

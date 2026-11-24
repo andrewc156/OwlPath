@@ -1,0 +1,793 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the first course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, biological chemistry; cellular structure and function; tissues; and the integumentary, skeletal, muscular, and nervous systems. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions. Cannot be used for credit toward a degree in Biology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2251",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CHEM 1151",
+              "CHEM 1151L"
+            ]
+          },
+          {
+            "and": [
+              "CHEM 1211",
+              "CHEM 1211L"
+            ]
+          },
+          {
+            "and": [
+              "PHYS 1111",
+              "PHYS 1111L"
+            ]
+          },
+          {
+            "and": [
+              "BIOL 1107",
+              "BIOL 1107L"
+            ]
+          },
+          {
+            "and": [
+              "BIOL 1108",
+              "BIOL 1108L"
+            ]
+          }
+        ]
+      },
+      "title": "Anatomy & Physiology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134399",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 2251",
+      "credits": "1",
+      "description": "This course is the laboratory component of BIOL 2251. It is designed to provide hands-on experiences that will enhance and reinforce the content covered in BIOL 2251 including basic anatomy and physiology of the skeletal, nervous, and muscular systems as well as basic histology. Structural and functional relationships will be emphasized.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2251L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Anatomy & Physiology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134400",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the second course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, the cardiovascular, endocrine, lymphatic and immune, respiratory, digestive, urinary, and reproductive systems. Metabolism and fluid, electrolyte, and acid-base balance will also be covered. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2252",
+      "notes": [],
+      "prereqs": "BIOL 2251",
+      "title": "Anatomy & Physiology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134401",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 2252",
+      "credits": "1",
+      "description": "This course is the laboratory component of BIOL 2252. It is designed to provide hands-on experiences that will enhance and reinforce the content covered in BIOL 2252, including basic anatomy and physiology of the cardiovascular, respiratory, digestive, urinary endocrine, and reproductive systems. Structural and functional relationships will be emphasized.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2252L",
+      "notes": [],
+      "prereqs": "BIOL 2251L",
+      "title": "Anatomy & Physiology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors. Topics to be covered include elements and compounds, chemical equations, nomenclature, and molecular geometry.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134439",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1151",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1151.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1151L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1152",
+      "notes": [],
+      "prereqs": "CHEM 1151",
+      "title": "Survey of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134441",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1152",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1152.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1152L",
+      "notes": [],
+      "prereqs": "CHEM 1151L",
+      "title": "Survey of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135596",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an epidemiological foundation to physical activity research specific to public health. Participants will examine the literature relative to the physiological impact of regular physical activity on chronic diseases (e.g., cardiovascular diseases, diabetes, cancer, etc.).",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ES 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Physical Activity in Health and Disease"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135597",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "The purpose of this course is to provide students with the knowledge and skills necessary for using the Exercise Physiology Laboratory safely. Students will learn and practice the emergency action plan. This course will provide students with the knowledge and skills necessary to help provide a safe environment for athletes when they are participating in sport/exercise and, in an emergency, to help sustain life and minimize the consequences of injury or sudden illness until advanced medical help arrives. Students will have an opportunity to become certified in First Aid and CPR/ AED for the Professional.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ES 2200",
+      "notes": [
+        "Exercise Science Majors"
+      ],
+      "prereqs": null,
+      "title": "Safety Training for Exercise Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135598",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "BIOL 2251",
+          {
+            "external": "HPAL 2250"
+          }
+        ]
+      },
+      "credits": "2",
+      "description": "This course will cover the basic techniques for anatomical, physiological, and medical word-building. The course will teach a systematic approach to defining general medical terms and terms for pathological disorders by dividing them into word roots, combining forms and prefixes.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ES 2300",
+      "notes": [
+        "Exercise Science Major, Exercise Science Interest, Public Health Education Interest, Public Health Education Major, Biomedical Engineering Minor",
+        "Integrated Health Science Major"
+      ],
+      "prereqs": null,
+      "title": "Medical Terminology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135599",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce students to the basic principle of nutrition as needed for general health. Topics include the role of diet in the development and prevention of chronic diseases, such as cardiovascular disease, cancer, diabetes, etc.; macro- and micro-nutrient needs for optimum health; U.S. dietary guidelines (and international equivalents); tools to assist with menu planning; and dietary analysis.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ES 2500",
+      "notes": [
+        "Exercise Science Interest/ Major",
+        "Public Health Education Interest/ Major",
+        "Sport Management Major",
+        "Integrated Health Science Major",
+        "Nutritional Science Minor"
+      ],
+      "prereqs": null,
+      "title": "Principles of Nutrition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135917",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the professional standards and guidelines that assist a health and fitness facility with providing quality service and program offerings in a safe environment. Course content will include an overview of risk management and emergency policies, operating practices, facility design and construction, equipment concerns and signage issues related to health and fitness facilities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 3600",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 2251",
+          "ES 2200"
+        ]
+      },
+      "title": "Health Fitness Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135560",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 3750",
+      "credits": "3",
+      "description": "This course offers students an introduction to scientific and practical foundations associated with strength and conditioning programs. The course content promotes the use of a structured scientific approach in the prescription of progressive resistance training and cardiorespiratory conditioning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 3700",
+      "notes": [
+        "Exercise Science major required"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 2251",
+          "ES 2300"
+        ]
+      },
+      "title": "Strength and Conditioning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135916",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 3700",
+      "credits": "3",
+      "description": "This laboratory course provides an introduction to techniques commonly associated with instructing strength and conditioning programs. The laboratory content promotes the use of a structured scientific approach in the prescription of progressive resistance training and cardiorespiratory conditioning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 3750",
+      "notes": [
+        "Exercise Science major required"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 2251",
+          "ES 2300"
+        ]
+      },
+      "title": "Strength and Conditioning Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134924",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the study of neuromuscular and mechanical principles of motion related to the analysis of human movement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 3800",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 2251",
+          "ES 2300"
+        ]
+      },
+      "title": "Biomechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134932",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the human body\u2019s responses to the stress of physical exercise. Students are introduced to the metabolic, cardiovascular, pulmonary and neuromuscular adaptations to acute and chronic exercise.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 3900",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": "BIOL 2252",
+      "title": "Physiology of Exercise"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134929",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the nutritional needs of individuals participating in exercise and sport. Topics include but are not limited to the dietary needs of the human body before, during and after various modalities and intensities of athletics in order to optimize performance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4200",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": {
+        "and": [
+          "ES 2500",
+          "ES 3900"
+        ]
+      },
+      "title": "Nutrition and Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134909",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of exercise physiology and healthy aging. The course emphasizes special considerations during fitness assessment, exercise prescription, and health promotion for special populations including the older adult, children, adolescents, and females during pregnancy and the post-partum period.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4300",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": "ES 3900",
+      "title": "Physiology of Exercise and Aging"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134936",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 4550",
+      "credits": "3",
+      "description": "This course examines the study of the physiological basis of training and factors limiting human performance. Students are introduced to concepts of neuromuscular function, hormonal control, environmental conditions and ergogenic aids as they relate to acute and chronic exercise.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4500",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": "ES 3900",
+      "title": "Physiology of Exercise II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135559",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 4500",
+      "credits": "1",
+      "description": "This course provides an introduction to laboratory techniques commonly used in the field of exercise science. The course includes an overview of ergometry, energy expenditure, blood pressure, cardiovascular, pulmonary, and musculoskeletal responses during exercise. The topics within the course include safe, legal, and ethical practices required when working in an exercise physiology laboratory.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4550",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": "ES 3900",
+      "title": "Exercise Science Laboratory Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135600",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 4650",
+      "credits": "3",
+      "description": "This course introduces students to methods utilized in creating exercise prescriptions and developing exercise programs. Emphasis is placed on developing and delivering safe and valid exercise prescriptions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4600",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": {
+        "and": [
+          "ES 4500",
+          "ES 4550"
+        ]
+      },
+      "title": "Exercise Prescription"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135601",
+      "catalogYear": "2026-2027",
+      "coreqs": "ES 4600",
+      "credits": "3",
+      "description": "Exercise Testing is a detailed examination of various fitness assessments. This course emphasizes current test procedures used for determining body fat percentage, maximum oxygen uptake, maximum power output, and muscular strength and endurance. This course thoroughly familiarizes students with lab procedures, test protocol, and the interpretation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4650",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": {
+        "and": [
+          "ES 4500",
+          "ES 4550"
+        ]
+      },
+      "title": "Exercise Testing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134938",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to address the clinical aspects and implications of exercise physiology principles for those with or at risk of developing cardiovascular, pulmonary or metabolic disease.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ES 4700",
+      "notes": [
+        "Exercise Science major"
+      ],
+      "prereqs": {
+        "and": [
+          "ES 4500",
+          "ES 4550"
+        ]
+      },
+      "title": "Clinical Exercise Physiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135983",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "ES 4600",
+          "ES 4650"
+        ]
+      },
+      "credits": "3",
+      "description": "This course is a capstone course designed as a culminating experience for the major by integrating the student\u2019s prior academic experience in Exercise Science. Students are provided an overview of contemporary issues, trends, theories, and research related to Exercise Science. This course is delivered in a seminar format to encourage student participation and interaction with peers and faculty.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "ES 4900",
+      "notes": [
+        "Exercise Science Major"
+      ],
+      "prereqs": null,
+      "title": "Senior Seminar in Exercise Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136217",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory algebra and trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to falling objects and orbital motion, describe simple harmonic motion, oscillations, and waves, and explain temperature, heat, and entropy.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 1111",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Introductory Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135819",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1111",
+      "credits": "1",
+      "description": "PHYS 1111L is an introductory laboratory for the trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, waves, temperature, and basic fluid dynamics. The analysis of sources of error and formal propagation of uncertainties will also be developed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 1111L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135929",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory algebra and trigonometry-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, and understand elementary principles of special relativity and quantum physics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 1112",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "PHYS 1111",
+              {
+                "external": "PHYS 2211"
+              }
+            ]
+          },
+          {
+            "or": [
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Introductory Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135820",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1112",
+      "credits": "1",
+      "description": "PHYS 1112L is an introductory laboratory for the trigonometry-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 1112L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "bs-exercise-science",
+    "name": "BS Exercise Science"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

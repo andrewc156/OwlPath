@@ -1,0 +1,1341 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137193",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces fundamental concepts of computing by studying instruction flow in a processor architecture. We will study how Assembly and C languages are to drive the architecture and explore fundamental hardware operations. Topics include computer architecture, problem-solving, and algorithm development. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions, relevant to embedded software design.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CPE 2200",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 1000",
+          "EE 2501"
+        ]
+      },
+      "title": "Hardware Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136504",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course will explore the design and development of synchronous and asynchronous machines using VHDL. VHDL is an industry standard design language used to create complex embedded digital systems in programmable devices such as FPGAs and CPLDs. This course will explore design simulation, synthesis, and timing analysis. Physical configurations for FPGAs and CPLDs will also be explored.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CPE 3020",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "EE 2501",
+      "title": "VHDL Design with FPGAs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136505",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "CPE 3000"
+          },
+          "EE 3501"
+        ]
+      },
+      "credits": "4",
+      "description": "This course will introduce the students to advanced embedded system design concepts. In addition to learning linux fundamentals, students will explore advanced embedded design concepts such as multithreading and thread synchronization, complex interfacing of digital and analog sensors, and the use of mutexes/semaphores for managing shared resources.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CPE 3030",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Advanced Embedded Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137080",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course introduces the theoretical and practical foundations of digital signal processing (DSP). Basic concepts of DSP systems including sampling and quantization of continuous time signals, analog to digital and digital to analog conversions are discussed. The course covers the topics of discrete time signals, Z-transform, Fast Fourier Transform (FFT), Discrete Fourier Transform (DFT) and digital filter design. Real-time design considerations of DSPs for embedded systems and hands-on development of real-time algorithms are discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CPE 3500",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CPE 3000"
+          },
+          "EE 3501"
+        ]
+      },
+      "title": "Embedded Digital Signal Processing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136506",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course provides an introduction to the theory and applications of modern sensors and actuators. The mathematical and physical principles that underlie the operation and uses of various types of sensors and actuators as well as the acquisition, processing, and driving of signals associated with these devices is explored. Sensory- and actuator-based devices interfaced with embedded systems are used to augment the theoretical concepts taught.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CPE 4010",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "external": "CPE 3000"
+              },
+              "EE 3501"
+            ]
+          },
+          "EE 3401",
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Sensors, Actuators and Integration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137079",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the system architecture, covering fundamental knowledge for each core technology stack: the device layer, the communication network layer, and the application layer. Students will gain exposure to various smart IoT applications and explore the design trade-off in power consumption, real-time constraint, and size limitation. Students will learn hands-on labs and projects, the basics of data analytics by using off-the-shelf IoT HW and commercial IoT platform to solve real-world problems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CPE 4750",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CPE 3000"
+          },
+          "EE 3501"
+        ]
+      },
+      "title": "Introduction to Internet of Things (IoT)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136692",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to the principles and theories associated with neural networks. Several neural networking-related architectures, algorithms, and training techniques associated with real-world applications (e.g. detection & tracking systems, traffic patterns, classification schemes) are discussed. Also, several in-class examples are given and a term project is assigned to aid the student in a practical understanding of the theory covered-Class examples and the project are conducted using OOP and the MATLAB Neural Network Toolbox. Additionally, a survey of various AI hardware implementations will be conducted to further enhance the student\u2019s knowledge.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CPE 4903",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L",
+          "MATH 2202"
+        ]
+      },
+      "title": "Neural Networks and Machine Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321L",
+      "credits": "3",
+      "description": "This course provides an introduction to computing with a focus on programming. Instruction centers on an overview of programming, problem-solving, and algorithm development. Particular topics include object-oriented design/programming, primitive data types, arithmetic and logical operators, selection and repetition structures, interactive user input, exception handling, using and designing basic classes, single-dimensional data structures with searching and sorting, and arrays. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions and the relationship between correct code and security.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CSE 1321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321",
+      "credits": "1",
+      "description": "Lab activities with programming to accompany CSE 1321.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CSE 1321L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136676",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CSE 1322L",
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event-driven programming are also introduced. Students will use good programming style including proper documentation.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CSE 1322",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136669",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1322",
+      "credits": "1",
+      "description": "This course is the required and supervised lab course to accompany CSE 1322.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CSE 1322L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137163",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is the laboratory portion of the multidisciplinary engineering course, ENGR 1000, serving as its specific Electrical Engineering (EE) component. It introduces the EE faculty and gives overviews of career opportunities, campus facilities, student organizations, etc. Skills necessary for EE students are introduced, including writing formal laboratory reports, preparing a speech with audio-visual highlights, learning basic printed circuit board design and soldering, drafting a winning resume, applying basic computer skills, and performing a small-scale EE research project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Introduction to Electrical Engineering Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136163",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course introduces basic circuit analysis including resistive circuits, voltage and current sources, analysis methods, network theorems, energy storage elements, and AC steady-state analysis. Techniques for analyzing resistive networks are heavily emphasized. In addition, the physical mechanisms of capacitance and inductance are examined along with analysis of transient responses in circuits containing resistors, capacitors, and inductors. Laboratory exercises reinforce the theoretical concepts presented in class and provide various opportunities to become proficient with standard instrumentation used in electrical engineering.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "EE 2301",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PHYS 2212",
+          {
+            "and": [
+              "ENGR 1000",
+              "MATH 1190"
+            ]
+          }
+        ]
+      },
+      "title": "Circuit Analysis I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136164",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A continuation of basic Circuit Analysis I which focuses on RC, RL, and RLC circuits, mutual inductance, series and parallel resonance, two-port networks frequency response, AC power including power factor correction, as well as three phase circuits. Simulation is heavily emphasized using state of the art software such as PSPICE.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 2302",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EE 2301",
+          "MATH 2306",
+          "PHYS 2212"
+        ]
+      },
+      "title": "Circuit Analysis II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136165",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course effectively applies the knowledge of chemistry and physics to understand the operating principles of various semiconductor devices. The course covers topics starting from the fundamental concepts of atomic and crystal structure, crystal growth, impurity doping and energy bands to the in-depth device operation and quantitative analysis of p-n junction diode, metal-semiconductor contacts and Schottky diode, BJTs and MOSFETs. Also, fundamental operating principles of optoelectronic devices such as, LEDs and photodiodes are discussed. Simple device simulation components reinforces the understanding of various critical aspects of device operation. The course concludes with an experiment-based project on device characterization where students perform analysis on the experimentally acquired data to extract various important device parameters.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 2401",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2212",
+          "CHEM 1211",
+          "ENGR 1000"
+        ]
+      },
+      "title": "Semiconductor Devices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136166",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students learn and apply the fundamentals of digital logic. The concepts gained in this course enable students to build an essential foundation of Boolean algebra, binary logic, digital circuits, hardware descriptive languages, and complex digital systems. This course covers the design, modeling and synthesis of digital functions and systems. Laboratory exercises reinforce theoretical concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 2501",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "EE 2301",
+          "ENGR 1000"
+        ]
+      },
+      "title": "Digital Logic Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136167",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course introduces the basic circuits used in analog signal processing systems. The primary focus will be on studying bias circuits and small signal models for diodes, BJTs and MOSFETs. In addition, functional circuits including diode rectifiers, logic circuits, and basic amplifier circuits using single transistors are discussed. A brief introduction to op-amps as signal processing blocks is included. Students put their analog circuit theory into practice in the laboratory.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 3401",
+      "notes": [],
+      "prereqs": "EE 2301",
+      "title": "Engineering Electronics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136168",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course will introduce the students to the fundamental concepts of interfacing a microcontroller platform with sensors, actuators, and stand-alone modules. In addition, we will study how embedded systems are designed for real-world applications. Specifically, the student will engage in project-based work utilizing graphical software to configure embedded system applications and apply robust software development skillsets for concurrent programming.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 3501",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "CPE 2200",
+      "title": "Embedded Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136169",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "The study of the fundamentals of electro-mechanical energy conversion, magnetic circuits and electromagnetic devices, theory of operation and operating characteristics of transformers, DC machines, AC induction and synchronous machines and stepper motors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 3601",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": "EE 2302",
+      "title": "Electric Machines"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136170",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced treatment of static electric and magnetic fields and their sources, Poisson and Laplace equations and boundary value problems, time-varying electromagnetic fields and Maxwell\u2019s equations. Plane wave propagation in free space and in materials is examined.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 3605",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "PHYS 2212",
+          "PHYS 2212L",
+          "MATH 2203"
+        ]
+      },
+      "title": "Electromagnetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136171",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores discrete and continuous-time systems analysis, with emphasis on linear time-invariant (LTI) systems, the classification of continuous-time systems, convolution and its application to LTI systems and analysis of LTI systems via the Laplace transform, Fourier transform, and Fourier series.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 3701",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "EE 2302",
+      "title": "Signals and Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136173",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "The focus of this course is a study of feedback control systems theory including practical applications of compensation and P,PI, and PID concepts. Control system modeling, transient and steady state characteristics and response, stability and frequency response are analyzed; Compensation and controller design using Root locus methods are covered. The use of control system software, such as MATLAB, in the analysis and design of control systems is emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 4201",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "EE 2301",
+          "MATH 2306"
+        ]
+      },
+      "title": "Control Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137328",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is part one of the two-semester senior capstone design course for students in Electrical Engineering. This course involves an in-depth examination of the principles and methods associated with the engineering design process. Students will be grouped into teams where the engineering design principles and methods are put into practice to develop an electrical engineering project. The final product for the design teams will be a project proposal that will be assessed via design review.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 4810",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EE 3401",
+          "EE 3501"
+        ]
+      },
+      "title": "Senior Design Project - I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137336",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is part two of the two-semester senior capstone design course for students in Electrical Engineering. This course will require the student design teams to complete the electrical engineering project they proposed in EE 4810. The steps to completing this project will include building a working prototype of the system/device, and testing this system/device. The design team will also be responsible for drafting the project report, demonstrating that the system/device functions according to specifications, and making an oral presentation of the project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 4820",
+      "notes": [],
+      "prereqs": "EE 4810",
+      "title": "Senior Design Project - II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136176",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the force vectors, equilibrium of particles, equilibrium of rigid bodies in two and three dimensions; trusses, friction, centroids and moments of inertia.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGR 2214",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2211",
+          "PHYS 2211L"
+        ]
+      },
+      "title": "Engineering Mechanics - Statics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136180",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and mathematical modeling of the mechanical behavior of materials under load. Emphasis will be on the elastic conditions of equilibrium, compatibility and material behavior. Includes study of stress and strain in columns, connectors, beams, eccentrically-loaded members, as well as introduction to statically indeterminate members.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3131",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Strength of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a comprehensive study of project concepts, such as project definitions, systems and methodologies, project cycles, roles and responsibilities of leaders and members, and procedures used in industrial and production environments. Topics include such areas as scheduling, controlling projects, time-cost trade-off, resource allocation and project cost control.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3250",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "external": "ISYE 2600"
+          },
+          "STAT 2332"
+        ]
+      },
+      "title": "Project Management for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn the time value of money and the basic tools used in engineering economic decision making. The tools include engineering factor notation, algebraic formulas, and Excel functionality. The time value effect is studied as equivalences for present worth, annual worth, or future worth evaluations. Useful algorithms are presented for making sound economic investment decisions involving replacement theory, risk analysis, depreciation, tax incentives, rate of return, cost benefit ratio, return on investment, and economic service life.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3325",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Engineering Economic Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136798",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an extensive overview of the field of biomedical engineering. The fundamentals of various key topics that stand at the intersection of engineering, biology, and medicine will be investigated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3410",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Biomedical Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136800",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an introduction to the structural and mechanical behavior of biological tissues and systems by building on engineering concepts such as discussed in Statics, Dynamics, or Strength of Materials.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3411",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Biomechanics for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136799",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of instrumentation systems used in clinical medicine and biomedical research. Some circuit theory and its application to bioinstrumentation will be reviewed. Systems for measuring biologic signals, such as biopotentials, stress and strain, pressure, temperature, and optical properties, will be discussed. Electrical hazards, safety, measuring instruments and techniques will also be discussed. There will be applications to engineering design such as transducer systems and sensing and driving circuits. There will also be discussion of ethical and regulatory issues related to bioinstrumentation as well as review of instrumentation such as CT Scan, MRI, EKG, and EEG sensors.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3412",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Biomedical Circuit Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136244",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "credits": "3",
+      "description": "This course provides an overview of the nuclear sciences field. Topics covered include: basic nuclear physics, radioactivity and radioactive decay process, nuclear reactions, radiation detection, basic health physics, radiation protection, fission and fusion processes, neutron interaction, nuclear energy conversion, different nuclear reactors, reactor operations, reactor control and basic nuclear fuel cycle.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3501",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "MATH 2202",
+      "title": "Fundamentals of Nuclear Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137050",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course reviews various renewable energy sources to meet the increasing global energy demand of the 21st century in a sustainable manner. The course introduces the fundamental energy conversion principles, energy economics, and the current status of renewable sources, such as Hydroelectric, Wind, Solar Thermal, Solar Photovoltaics, Ocean Waves, Tidal, Geothermal, and Biomass energy. The course also discusses the basic concepts of renewable energy integration to the grid and various energy storage technologies. The course integrates projects on solar thermal, wind and solar photovoltaic systems and concludes with a project where students effectively apply their knowledge to conceptualize and design an alternative energy harvesting device.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3601",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Renewable Energy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137051",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a detailed overview of energy efficiency related topics in engineering integrated design with a focus on energy efficiency, energy efficiency base codes and standards, developing energy efficiency knowledge categories (Taxonomy), and developing performance based scoring systems. This course also presents a detail building and manufacturing plant energy modeling with software, presenting energy modeling, energy modeling under uncertainty (uncertainty analysis and sensitivity analysis), use of techniques such as decision making under uncertainty to help different managerial and design decisions for Engineers and Decision Makers.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3602",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Energy Efficiency"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137052",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces various forms of hydrokinetic energy and their potential for the generation of electrical energy. The course will discuss the conversion techniques of hydraulic energy into electrical energy and various hydraulic machines that are used for this conversion process. The course will also elaborate the significance and the impact of hydrokinetic energy on the environment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3603",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Hydrokinetic Energy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136247",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to aerodynamics; including circulation theory of lift, thin airfoil theory, viscous flow, boundary layer, finite wing theory, and drag in incompressible flow.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 3801",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "MATH 2202",
+      "title": "Aerodynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136186",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course looks at the practice of engineering in the context of ethics and ethical theory. Issues of safety, liability, professional responsibility, legal obligations are considered in the context of case studies. Particular emphasis is given to the application of the Professional Engineering Code of Ethics published by the National Society of Professional Engineers. Students will consider the resolution of ethical dilemmas through the development and evaluation of various courses of action related to specific case studies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 4402",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Engineering Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137053",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course discusses the principles and applications of solar energy. The course covers fundamental physics and current status of solar thermal and various Photovoltaic (PV) technologies to harvest solar energy through heating and direct conversion of light into electrical energy. The course covers the fundamental operating principles of solar collectors, solar water heating systems, air heaters, solar concentrators, sterling engines, concentrated solar thermal power (CSTP) systems and photovoltaic solar cells. In addition, the course covers solar cell simulation using MATLAB and Simulink, fundamentals of PV system design and installation. The course concludes with a real-world experiment-based design project where students effectively apply their knowledge to perform current-voltage measurements on solar cells, analyze the acquired data, extract important electrical parameters, and design a stand-alone photovoltaic system.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 4601",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Solar Power"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137054",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds upon the basic understandings of fluid mechanics, statics and electrical concepts to provide students with wind energy knowledge as a key renewable energy resource. The course starts with a review of the structure of wind industry in comparison with other renewable and non renewable (conventional) energy resources. Then a detailed engineering analysis and design of wind turbine components and various design configurations will be discussed. The principles of wind power, maximum power, actual power and force analysis on the blades, mean wind and energy velocities will be studied. The Magnus Effect, the lift force, the drag force and different wind turbine designs will be covered. Designing a wind turbine system that can generate power with high efficiency requires a thorough understanding of the principles of aerodynamics and structural dynamics of the rotor system. Therefore, the influence of the number of the blades, the tilt angle of the blades on the power output of the wind turbine will be reviewed in the course. The current-voltage characteristic of wind turbine with constant rotational speed and constant wind speed will be studied as well. The construction, operation and speed control of three-phase induction motors will be thoroughly covered. The course finishes up with a design project of a wind turbine. Students will be assigned to use computer software for wind energy analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 4602",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Wind Power"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137055",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course discusses the resource required for the use of geothermal energy in order to generate electricity, such as fluid, heat and permeability. It also discusses Low-Temperature & Co-produced Resources for electricity generation. An in depth discussion will be provided towards understanding the Enhanced Geothermal Systems (EGS) that hold potential to powering millions of houses and businesses. The course also discusses types, use, and future of Biofuels.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 4603",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Geothermal and Bioenergy Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137056",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The main objective of this course is to provide up-to-date knowledge about the technical and economic issues relating to the distribution generation. In addition to an introduction to various generating technologies, the course will include detailed discussions on the impacts of distributed generation to the power distribution system. The focus will be on electrical issues such as grid connection, control, and power quality. In addition, the economic and regulatory issues will be addressed. The course also introduces the smart grid, both supply-side and demand-side technologies, including advanced metering infrastructure, technologies for better control of the grid and interactions with loads that can be controlled to accommodate variations in supply-side resources.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGR 4604",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": null,
+      "title": "Distributed Generation & Smart Grids"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136246",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers hypothesis testing for means, proportions and variances (one and two samples), categorical data analysis (chi-square), analysis of variance, and introduction to regression analysis, with applications to engineering problems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ISYE 3600",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "external": "ISYE 2600"
+              },
+              "STAT 2332",
+              {
+                "external": "MATH 3332"
+              }
+            ]
+          },
+          "MATH 2202"
+        ]
+      },
+      "title": "Probability and Statistics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136250",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers modeling and simulation of systems. Topics include basic simulation and system modeling techniques, random sampling procedures, input analysis, output analysis and system evaluation. Practical implementations using common modeling languages and simulation software are emphasized.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ISYE 4500",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "external": "ISYE 2600"
+          },
+          "STAT 2332"
+        ]
+      },
+      "title": "System Modeling & Simulation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the third in the calculus curriculum and is concerned with functions defined on regions in two or three dimensional space and that have values in one, two, or three dimensional space. Topics include partial derivatives, vector fields, multiple integrals, and applications of these topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2203",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Calculus III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the theory of ordinary differential equations (ODEs), methods of solving first and higher order linear differential equations and linear systems, some applications in the sciences and engineering, the Laplace transform and its application in solving differential equations and linear systems, and Euler\u2019s numerical algorithm.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2306",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Ordinary Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to linear algebra and some of its classical and modern applications. Among topics to be included will be systems of linear equations, matrices, determinants of matrices and applications, vector spaces, and inner product spaces. Significant use of technology will be employed in performing matrix computations.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Linear Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137105",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MATH 3260",
+          {
+            "or": [
+              "EE 2301",
+              {
+                "external": "EE 2305"
+              },
+              {
+                "external": "MTRE 2110"
+              },
+              {
+                "external": "CS 3503"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "2",
+      "description": "This course covers semiconductor electronics as the basic foundation. Further topics covered are Industry, automation, control, a basic sensing scheme, the PLC software environment, and the creation of RLL diagrams. Additionally, detailed communication protocols and interfaces with the AVR microcontroller will be carried out.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MTRE 3720",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "and": [
+                  "CSE 1322",
+                  "CSE 1322L"
+                ]
+              },
+              {
+                "external": "MTRE 2710"
+              }
+            ]
+          },
+          "EE 2501"
+        ]
+      },
+      "title": "Introduction to PLCs and Microcontrollers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137117",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced study of modern control systems focused on control theories and system applications. It covers the basic theoretical methods and mathematical tools for the analysis and design of control systems. Topics that will be included are a state-space variable method, system transfer function, discrete-time systems, z-transforms, digital control, fundamentals of modern control systems, analysis and design techniques such as controllability, observability, Ackerman\u2019s formula, and pole placement.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MTRE 4610",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "and": [
+                  {
+                    "external": "MTRE 3610"
+                  },
+                  {
+                    "external": "MTRE 3610L"
+                  }
+                ]
+              },
+              "EE 4201",
+              {
+                "and": [
+                  {
+                    "external": "ME 3501"
+                  },
+                  {
+                    "external": "ME 4501"
+                  }
+                ]
+              }
+            ]
+          },
+          "MATH 3260"
+        ]
+      },
+      "title": "Advanced Controls"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137109",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "MTRE 3110"
+          },
+          {
+            "external": "ENGR 3343"
+          },
+          "EE 3701",
+          "CPE 4010"
+        ]
+      },
+      "credits": "3",
+      "description": "Characteristics of instruments used in mechanical systems for determining parameters such as temperature, pressure, and flow are studied. The use of these devices in automated systems is covered. Furthermore, the elements of control theory, selection of control modes, and application to mechanical systems are studied. Exercises illustrating the use of pertinent instrumentation for determining the performance of mechanical equipment are conducted.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MTRE 4710",
+      "notes": [
+        "Engineering Standing Requirements apply"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "and": [
+                  {
+                    "external": "MTRE 3610"
+                  },
+                  {
+                    "external": "MTRE 3610L"
+                  }
+                ]
+              },
+              "EE 4201",
+              {
+                "and": [
+                  {
+                    "external": "ME 3501"
+                  },
+                  {
+                    "external": "ME 4501"
+                  }
+                ]
+              }
+            ]
+          },
+          "MTRE 3720",
+          "MATH 2306"
+        ]
+      },
+      "title": "Instruments and Controls"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135816",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "PHYS 3230 will present fundamentals and applications of geometric and physical optics. Students will study electromagnetic waves as formulated by Maxwell\u2019s equations. The laws of refraction of reflection along with the theories of interference and diffraction will be presented. Students will also learn how some optical devices and lasers work.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PHYS 3230",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Optics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135818",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The topics covered in this course constitute the most fundamental background in modern physics. The main objective of this course is to provide the student with a basic understanding of the physical laws and phenomena that constitute the framework leading to quantum mechanics. Students will strengthen their knowledge of special relativity and explore aspects of the quantum theory of wave/particle duality and the probabilistic interpretation. Students will learn the Schr\u00f6dinger\u2019s equation, its solutions for simple potentials, and properties of the one-electron atom. Students will also study applications of quantum principles to atomic, molecular and nuclear structures.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PHYS 3710",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Modern Physics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135631",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a foundational, calculus-based introduction to statistics and probability. The following conceptual themes will be developed through the process of statistical investigation: exploratory data analysis (univariate and bivariate), fundamentals of experiment design and sampling, planning and conducting a study, exploring random phenomenon using probability and simulation, and the fundamentals of statistical inference. Technology is integrated into each theme, and the statistical software package used will be chosen by the instructor.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 2332",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Probability and Data Analysis"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-electrical-engineering",
+    "name": "BS Electrical Engineering"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

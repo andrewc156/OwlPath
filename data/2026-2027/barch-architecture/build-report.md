@@ -2,9 +2,7 @@
 
 ## Warnings needing review
 
-- **ARCH 3011**
-  - unrecognized: Traditional Track:
-  - unrecognized: Accelerated Track:
+None.
 
 ## Notes
 

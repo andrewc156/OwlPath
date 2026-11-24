@@ -1,0 +1,758 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "WLC 1001",
+      "SPAN 1001"
+    ],
+    [
+      "CRJU 3310",
+      "CRJU 3311"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              {
+                "external": "MATH 1111"
+              },
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134286",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the comparative study of human cultures and societies through the use of cross-cultural analysis of human behavior and case studies. Major foci are comparisons between universal and culturally relative aspects of human behavior, comparative social organization, cultural change and adaptation, and contemporary global cultural problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 3307",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134287",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The interrelated issues of culture, race, ethnicity, identity, gender, and social stratification in American society are examined through a holistic and comparative perspective with an emphasis on the examination of case studies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANTH 3310",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Diversity in the U.S."
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of law, ethics and diversity in mass media. It examines the basics of freedom of expression and press laws in the United States including freedom of information and access to government records. The course analyzes several approaches to ethics in media, journalism and public relations. It also examines diversity in the mass media, journalism and public relations industries.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Communication Law, Ethics and Diversity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134540",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the American criminal justice system including law enforcement, the court system, and the correctional system. Emphasis is placed on crime in the U.S., the criminal justice process from arrest through sentencing, and the roles and responsibilities of criminal justice actors. Current topics in the criminal justice system are addressed such as the death penalty, offender treatment, and criminal justice reform among others.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CRJU 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136555",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores substantive criminal offenses and defenses. Topic areas include the types and elements of felony and misdemeanor criminal offenses, defenses to crimes, and lower and appellate case law interpretations of crimes and defenses. Emphasis is placed on federal and state criminal law, including those pertaining to Georgia. The course also evaluates the historical development of crimes and defenses, public policy implications, and the underlying principles that guide the development of crimes and defenses.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CRJU 2201",
+      "notes": [],
+      "prereqs": null,
+      "title": "Crimes and Defenses"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134541",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the history, development, structure, operation, and organization of criminal court systems in federal and state courts in the U.S. Topic areas include the roles of major professional and non-professional courtroom participants, stages in the process of adjudication of criminal cases from initial charging through post-conviction review, and an introduction to the constitutional rights of the accused.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 3300",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Criminal Courts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134542",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the scientific method and the concepts and techniques of social science research. Topic areas include levels of measurement, sampling techniques, research design, survey methodology, and various research techniques. Emphasis is placed on the application of these techniques to the study of specific research questions in criminal justice. This course also examines how to interpret basic statistics and analyze data in a statistical software program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 3301",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Research Methods in Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134543",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course involves an in-depth study of technology as it relates to crime and the criminal justice system. Topics discussed include technology associated with criminal investigations, law enforcement practices, offender monitoring and supervision, and homeland security. Legal issues and laws pertaining to the use of technology for investigative purposes, privacy issues, and fourth amendment issues are examined. Various technologies used by police, courts, and corrections are also addressed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3305",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CRJU 1101",
+          "SOCI 1101"
+        ]
+      },
+      "title": "Technology and Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134544",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of American law enforcement including the role and purposes of police in society, the major functions and responsibilities of police, and police subculture. This course also examines legal issues related to policing, police discretion and decision-making, and police behavior including use of force and misconduct. Emphasis is placed on police effectiveness in controlling and preventing crime, police/community relations, and future trends in law enforcement.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "CRJU 3310",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Police in America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134545",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of police administration in the U.S. and examines the social, legal, and political factors that influence police management. Topic areas include the goals of the law enforcement system, recruitment and selection of officers, the roles and responsibilities of police administrators, problem-solving and decision-making, and strategic planning of police operations. Emphasis is placed on police accountability to the public and future trends that influence the management of police organizations.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "CRJU 3311",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Police Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134546",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines various state and federal law enforcement initiatives. Topic areas include the mission and vision of agencies, as well as their operation and administration, jurisdictional authority, use of technology, and the prediction of future crime issues facing the agencies. Emphasis is placed on career trends in state and federal law enforcement agencies. The hiring and application process and the essential skills applicants ought to possess for employment in these agencies are also discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3312",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "State and Federal Law Enforcement Initiatives"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134547",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the requirements and interpretation of constitutional amendments by the U.S. Supreme Court and other federal and state courts during the various stages of a criminal case, including police investigation, search, and arrest; the pretrial phase, including screening of complaints and formal charging of the accused; the trial; the sentencing phase; and appellate review. The constitutional requirements regarding reasonable suspicion, probable cause, custodial interrogation, and the exclusionary rule are featured.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 3315",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Criminal Procedure"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134548",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the historical, theoretical, and technological aspects of the investigation of crime. Topic areas include crime scene examinations, the collection and preservation of evidence, the basic legal principles and procedures governing the use of evidence in court proceedings, forensic and behavioral sciences, interviews and interrogations, and the use of technology by law enforcement agencies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3320",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Criminal Investigation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134549",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes a historical and philosophical overview of the American correctional system. Emphasis is placed on the types, goals, and purposes of community-based and institutional corrections, the roles and responsibilities of correctional agencies and actors, and offender characteristics and legal rights. This course also explores correctional policies and their effectiveness to reduce crime and recidivism such as correctional rehabilitation, habitual offender laws, and the death penalty among others.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 3332",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Corrections"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134550",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course involves students in the process of reasoning objectively and arguing persuasively within a socio-legal framework. Set against a background of formal and informal logic that guides reasoning in general, the course is primarily concerned with the reasoning underlying the construction of legal arguments from judicial, legislative, and scholarly points of view. Theoretical analysis is illustrated by investigating and writing about the law, with an emphasis on topics related to crime.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3340",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Legal Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the juvenile justice system including the processing of juvenile offenders from the delinquent act through disposition and discharge. The nature and extent of juvenile delinquency and theories of delinquency are also addressed. Emphasis is placed on the historical purpose of the juvenile court, the effects of the due process revolution on the juvenile justice system, and current research and trends related to juvenile delinquency and justice.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3352",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CRJU 1101",
+          "SOCI 1101"
+        ]
+      },
+      "title": "Juvenile Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136880",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth examination into racial and ethnic issues related to crime and justice in America. The course explores how racial stratification and inequalities influence crime and victimization and official responses to crime. Topic areas may include disparities in criminal justice enforcement, minority representation in the criminal justice system, and strategies for addressing discrimination across criminal justice policies and practices.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "CRJU 3355",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CRJU 1101",
+          "SOCI 1101"
+        ]
+      },
+      "title": "Race, Crime, and Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134552",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth examination of repeat, violent offenders. Topic areas include offender characteristics, victim traits and characteristics, offender identification and investigative strategies, and criminal justice policies that are focused on serial offending. Emphasis is placed on the examination of theories and research that explain how serial offenders evolve across their life-course from childhood to adulthood.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3365",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CRJU 1101",
+          "SOCI 1101"
+        ]
+      },
+      "title": "Profile of the Serial Offender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134554",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines law enforcement\u2019s response to domestic and international terrorism. Topic areas include the development of modern terrorism and specific terrorist groups, counterterrorism policies and laws, threat analysis, and intelligence processing. Emphasis is placed on proactive measures to prevent terrorism and reactive measures to investigate terrorist acts. This course addresses the roles and responsibilities of local, state, and federal law enforcement agencies in responding to terrorism.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 3400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ideological/Group Violence and Law Enforcement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134555",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of ethical decision-making and behavior within the context of the criminal justice system. Common ethical dilemmas that occur within law enforcement, the court system, and the correctional system are presented. The relationship between occupational discretion and ethical behavior is explored, and appropriate responses to ethical misconduct are presented. The course also explores various occupational subcultures within the criminal justice system and how these subcultures affect ethical behavior in the workplace.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 4100",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Ethics in Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134556",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the origins, histories, and activities of various major organized crime groups in the United States and throughout the world. Special emphasis is placed on emerging organized criminal enterprises in developing countries and regions. In addition, this course explores the methods used by law enforcement to combat organized crime.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 4300",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CRJU 1101",
+          "SOCI 1101"
+        ]
+      },
+      "title": "Organized Crime"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134557",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of cyber crime and computer-related crime issues facing the American criminal justice system, particularly law enforcement. Topic areas include prevalence and types of cyber crime, cyber crime victim and offender characteristics, and methods and types of technologies used to engage in cyber crime. Emphasis is placed on the criminal justice system\u2019s investigation and response to cyber crime. Future trends of cyber crime and computer-related crime are also discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 4305",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Technology and Cyber Crime"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134559",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course centers on the deductive criminal profiling method, the analysis process of forensic evidence, and the development of offender characteristics from behavioral evidence analysis. An overview of the socio-legal aspects involving profiling and analysis of specific profiling issues in different types of serial crime are addressed. Students examine an actual cold homicide and prepare a threshold assessment of the case.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 4410",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Criminal Profiling and Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134560",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of criminal victimization in the U.S. This course includes an examination of theories of victimization, research on the scope and impact of specific types of victimization, and efforts to prevent victimization. Additional topics covered include victims\u2019 interactions with the criminal justice system, victims\u2019 rights, social services for victims, and other efforts to address the needs of crime victims.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 4430",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CRJU 1101",
+          "SOCI 1101"
+        ]
+      },
+      "title": "Victimology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134562",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a capstone course designed for senior-level criminal justice majors to apply learning from previous criminal justice courses. This course addresses current issues and trends in criminal justice to integrate knowledge concerning criminal justice policy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CRJU 4499",
+      "notes": [
+        "Criminal Justice Major",
+        "90 credit hours"
+      ],
+      "prereqs": {
+        "and": [
+          "CRJU 1101",
+          "CRJU 3301"
+        ]
+      },
+      "title": "Senior Seminar in Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135951",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to world regions through the context of human geography. The course focuses on basic geographic concepts to analyze social, economic and political issues at local, regional and global scales. Elements of fundamental physical geography will be discussed to illustrate the spatial relationships between the physical environment and human geography.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "GEOG 1130",
+      "notes": [],
+      "prereqs": null,
+      "title": "World Regional Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134943",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This required course provides students with an overview of helping professions. Topics include: philosophy of human services; characteristics of human service workers; careers in human services; description of public, nonprofit and for-profit agencies; theory; and cultural diversity. Human service majors are required to take this course prior to applying for admission into the HS program. This course is also a prerequisite for other HS courses. Students must complete 20 hours of volunteer service as a requirement of this class.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "HS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Overview of Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135016",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a digital literacy course that explores how computers and the Internet have revolutionized society and become an integral part of every profession. This course provides the foundation for students to become informed and creative problem-solvers capable of using and envisioning the potential of digital technologies. Students will learn to apply fundamental principles of computing, including but not limited to digitization, digital logic, and algorithmic thought, to enhance their skill in the use of digital applications, create digital resources, and assess digital assets. Other topics include digital security and privacy, the implications of digital disruption, and careers in the digital age.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ICT 2101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Information and Communications Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135313",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a general survey of state and local government; recent and current trends.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "POLS 2212",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "State and Local Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-12",
+      "description": "Upper division study abroad course denoting junior, senior level work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SA 4490",
+      "notes": [
+        "Varies with discipline and subject"
+      ],
+      "prereqs": null,
+      "title": "Upper-division Study Abroad"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135766",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an overview of sociology, which emphasizes the social nature of human behavior, including an introduction to culture, social structure, socialization, deviance, stratification, family, gender, religion, demography, and complex organization.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SOCI 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135422",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes an overview of current social problems facing American society with attention to developing insights into the conceptual analysis of meaningful solutions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SOCI 2251",
+      "notes": [],
+      "prereqs": null,
+      "title": "Social Problems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135426",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the social construction of racial and ethnic categories and inequalities between various groups. Topics of study include immigration, prejudice, discrimination, segregation, and racism, as well as ways to address current problems of racial and ethnic conflict.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 3314",
+      "notes": [],
+      "prereqs": null,
+      "title": "Race and Ethnicity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135742",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The primary objective of this course is to understand how race, class, and gender intersect to fundamentally shape social interaction, conditions, and institutions in American society. This course examines the ways in which race, class, and gender are socially constructed and how they interconnect to create and maintain systems of privilege and inequality.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 3350",
+      "notes": [],
+      "prereqs": null,
+      "title": "Intersections of Race, Class, and Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135433",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the root causes and consequences of violent behavior exhibited by individuals in our society. Topics covered include the social and cultural contexts that breed violence, society\u2019s influence on specific crimes, and human social behavior.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SOCI 3360",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of Violence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines drug use and abuse, including alcohol. Specifically, it examines how different drugs affect the body, theories of drug use, the sociological context of drug use, the impact of drug use and abuse on society, drug treatment, drug use policies, drugs and the law, and the extent of drug use in our society and globally.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SOCI 4200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Drugs, Alcohol, and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the nature and extent of crime and the causes and correlates of criminal behavior. This course also examines the major criminological theories, including biological, psychological, sociological, rational choice, and developmental theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 4432",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "SOCI 1101",
+          "CRJU 1101"
+        ]
+      },
+      "title": "Criminology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135442",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a survey of the nature, causes, and consequences of deviant behavior. It provides an analysis of the problems of definition, identification, explanation, and social reaction to violations of institutional expectations and presents techniques of social control.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SOCI 4442",
+      "notes": [],
+      "prereqs": null,
+      "title": "Deviance and Social Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135449",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading and writing in Spanish and to the culture of Spanish-speaking regions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SPAN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Spanish I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135454",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on Spanish language and culture appropriate for working in the fields of Criminal Justice with Hispanics. Not open to native speakers of Spanish.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SPAN 2034",
+      "notes": [
+        "One year of high school Spanish or the equivalent also satisfies this"
+      ],
+      "prereqs": "SPAN 1001",
+      "title": "Spanish for Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134745",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to a foreign language and culture, stressing progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of the culture being studied.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "WLC 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Foreign Language and Culture I"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-criminal-justice",
+    "name": "BS Criminal Justice"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

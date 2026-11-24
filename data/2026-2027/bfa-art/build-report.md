@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **ARH 4990**
-  - unrecognized: senior status
-- **ART 3020**
-  - missing operator before '- may also be taken concurrently', assumed and
-- **ART 3510**
-  - missing operator before 'may also be taken concurrently', assumed and
+None.
 
 ## Left out on purpose
 

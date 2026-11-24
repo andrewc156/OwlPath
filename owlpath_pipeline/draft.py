@@ -126,6 +126,7 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
     conc_labels: list[tuple[str, str]] = []  # (label, group), page order
     conc: tuple[int, str] | None = None  # (heading level, group)
     skipped: int | None = None  # level of the skipped heading whose subtree we are in
+    container: int | None = None  # level of a bare "Concentration" heading whose subheadings are concentrations
     named: list[tuple[int, str]] = []  # (heading level, group) of the recognized headings above this one
 
     def add_left_out(entry: str) -> None:
@@ -145,9 +146,15 @@ def draft_program(page: dict, ident: tuple[str, str], level: str, catalog: dict[
         if _SKIP.search(heading):
             skipped = level_no
             continue
+        if container is not None and level_no <= container:
+            container = None
         ends = _CONC_END.search(heading)
-        if ends and "elective" not in heading:
-            label = raw_heading[:ends.start()].strip()
+        label = raw_heading[:ends.start()].strip() if ends else ""
+        if ends and "elective" not in heading and not _slug(label):
+            # A bare "Concentration (12 Credit Hours)" holds the concentrations: each heading under it is one.
+            container, conc = level_no, None
+        elif (ends and "elective" not in heading) or (container is not None and level_no == container + 1):
+            label = label if ends else raw_heading
             group = f"conc-{_slug(label)}"
             conc = (level_no, group)
             if (label, group) not in conc_labels:

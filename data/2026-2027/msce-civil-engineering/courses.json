@@ -1,0 +1,723 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136072",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the introductory course in identification and analysis of basic structural elements. Topics include the determination of beam deflections, methods for the computational analysis of statically indeterminate trusses, moment distribution, and the analysis of frames.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 3201",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3131",
+      "title": "Structural Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136074",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of different materials used for light and heavy construction projects, such as aggregates, woods, metals, concretes, masonry, and bituminous materials. An overview of materials science will be introduced as well.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 3501",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3131",
+      "title": "Materials for Civil & Construction Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136075",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to fundamental knowledge of soil/foundation engineering for construction projects such as commercial building, highway, bridge, airport, and water/wastewater treatment plant. Course topics will include composition of soils, subsurface investigation, soil classification systems, groundwater flow, permeability, compaction, stress/strain analysis, shear strength, consolidation/settlement, shallow and deep foundations, earth retaining structures, slope stability, and ground modification methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 3701",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 3131",
+          "ENGR 3343"
+        ]
+      },
+      "title": "Geotechnical Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136076",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces environmental engineering issues such as: legal aspects, engineering solutions, and basic approaches to abatement system design including water supply, water treatment, water quality management, wastewater treatment, air pollution control, solid and hazardous waste management, and environmental impacts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 3702",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          "ENGR 3343"
+        ]
+      },
+      "title": "Introduction to Environmental Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136078",
+      "catalogYear": "2026-2027",
+      "coreqs": "CE 3701",
+      "credits": "1",
+      "description": "A study of standard laboratory tests (ASTM and/or AASHTO) on soils. The lab will reinforce the principles of Geotechnical Engineering studied in CE 3701, and developing experimental data into effective laboratory reports will be emphasized.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 3708",
+      "notes": [],
+      "prereqs": "ENGR 3131",
+      "title": "Geotechnical Engineering Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136080",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course deals with design of foundations for buildings and other structures and also for such non-foundation problems as designs of retaining walls, bulkheads, and earth dams; as well as the design of natural slopes and stabilization of soils mechanically and chemically. This course is designed to provide students in civil engineering with methods of analysis and design for various geotechnical systems. Topics to be covered include: subsurface investigations; excavations; shallow foundation; deep foundation; design of sheeting and bracing systems; lateral earth pressures and earth retaining structures, slope stability.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 4105",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "CE 3701",
+          "CE 3708"
+        ]
+      },
+      "title": "Foundation Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136081",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the highway engineering and traffic analysis. Principle topics covered in this course include: introduction to the significance of highway transportation to the social and economic underpinnings of society, road vehicle performance, geometric design of highways, pavement design, traffic flow and queuing theory, highway capacity and level of service analysis, traffic control and analysis at signalized intersections.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CE 4177",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3305",
+      "title": "Transportation Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133283",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to the use of finite element methods in structural analysis; the finite element formulation; 1- and 2-D elements; isoparametric elements; axisymmetric analysis; plate and shell elements; dynamics, buckling, and nonlinear analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6101",
+      "notes": [
+        "equivalent",
+        "approval of instructor"
+      ],
+      "prereqs": "CE 3201",
+      "title": "Finite Element Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133284",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Analysis of the dynamic response of structures and structural components to transient loads and foundation excitation; single-degree-of-freedom and multi-degree-of-freedom systems; response spectrum concepts; structural response to earthquakes, design criteria, and seismic safety.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6102",
+      "notes": [
+        "equivalent",
+        "approval of instructor"
+      ],
+      "prereqs": "CE 3201",
+      "title": "Structural Dynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133285",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "AISC design procedures for steel beams, joints, girders, columns, base plates and connections.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6103",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "CE 3201",
+      "title": "Prestressed Concrete Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133286",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced study of analysis and design of various foundation systems. Subjects include footings, piles, piers, caissons, retaining walls, and anchors. Topics include slope stability of embankments and dams, the applications of geotechnical reports and in-situ tests.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6104",
+      "notes": [
+        "equivalent",
+        "approval by instructor"
+      ],
+      "prereqs": {
+        "and": [
+          "CE 3701",
+          "CE 4105"
+        ]
+      },
+      "title": "Deep Foundations: Driven Piles and Drilled Shafts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133287",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of various soil improvement techniques for construction projects. Subjects include geosynthetics, admixtures, grouting methods, along with engineering properties of materials used in soil stabilizations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6105",
+      "notes": [
+        "equivalent",
+        "approval of instructor"
+      ],
+      "prereqs": "CE 3701",
+      "title": "Ground Improvement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133313",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces the design of wood and masonry structures. The course will cover the topics such as the determination of horizontal and vertical loads, horizontal and vertical load-resisting systems, the design of horizontal diaphragms, and bolted and nailed connections.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6133",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "CE 3201",
+      "title": "Design of Timber and Masonry Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133288",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to urban transportation planning, travel characteristics, demand forecasting techniques, corridor studies, traffic impact studies, and public transit planning and operations. Note: This course may be cross-leveled with CE 8201",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6201",
+      "notes": [
+        "approval of instructor"
+      ],
+      "prereqs": "CE 4177",
+      "title": "Transportation Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133289",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Providing a safe and efficient transportation system for all users is the primary objective of federal, state, and local transportation agencies throughout the nation. Better highway design practices have been proven to be the most efficient approach to \u201csafer roads\u201d. This advanced highway design and traffic safety class is intended to provide the fundamentals of highway design and operation, human factors and vehicle characteristic and how they interact with the roadway, and highway safety analysis and different statistical techniques employed in the analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6202",
+      "notes": [
+        "approval of instructor"
+      ],
+      "prereqs": "CE 4177",
+      "title": "Advanced Highway Design and Traffic Safety"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133290",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced study on properties of aggregates, asphalt binder, Portland cement. Focuses on analysis and designs of hot-mix asphalt, and Portland cement concrete. Subjects include aggregate grading and blending, rheology of bituminous materials, chemical reactions and micro-structure of Portland cement concrete. Mixture designs, characterization, and special types of mixes will be included as well.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6203",
+      "notes": [
+        "approval of instructor"
+      ],
+      "prereqs": "CE 3501",
+      "title": "Advanced Bituminous and Concrete Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133291",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Advanced analysis, behavior, performance, and structural design of highway and airport pavements. This course focuses on mechanistic characterization of pavement structures and on the approaches used to characterize existing structures for the purpose of rehabilitation. Subjects include advanced materials characterization, mechanistic modeling, nondestructive testing, and pavement rehabilitation, Airport pavement design and rehabilitation are also included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6204",
+      "notes": [
+        "equivalent",
+        "approval of advisor"
+      ],
+      "prereqs": "CE 3501",
+      "title": "Bituminous and Concrete Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133292",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Fundamental concepts of air pollution. Emission sources, atmospheric dispersion, ambient concentrations, adverse effects, governmental regulations, emission standards, air-quality standards, processes and equipment for controlling emissions",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6302",
+      "notes": [
+        "Admission to program",
+        "equivalent"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Advanced Air Pollution Management and Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133293",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to water resources engineering and management, with an emphasis on water resources protection and water supply. Course content addresses technical aspects as well as the legal, regulatory and policy aspects of water resources management. Topics include surface water hydrology and watershed protection, development of water supplies, conjunctive use of groundwater and surface water, management of reservoirs and rivers, the role of probability and statistics, systems analysis techniques, and planning of water resources projects.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6303",
+      "notes": [
+        "CE 3343 or approval of instructor"
+      ],
+      "prereqs": null,
+      "title": "Water Resources Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133294",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers applications in pipe and open channel flow and hydraulic structures. Unsteady flow in pipes. Water hammer. Hydraulics of sediment transport. Spillway and design of small dams.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6304",
+      "notes": [
+        "approval of instructor"
+      ],
+      "prereqs": "ENGR 3343",
+      "title": "Advanced Hydraulics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133353",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course outlines the classification of hazardous wastes; Resource Conservation and Recovery Act regulations; characteristics and behavior of toxic organics; superfund; soil and groundwater contamination. This course covers hazardous waste site remedial action; case histories; sampling; and landfill design. Stabilization and processing technologies, including incineration, carbon adsorption, emerging techniques are also discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6333",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Advanced Hazardous Waste Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133377",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course discusses the advanced topics on solid waste treatment, storage, disposal, and control processes. Detailed design and regulatory requirements of solid waste landfills and other solid waste management facilities are also covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6343",
+      "notes": [],
+      "prereqs": null,
+      "title": "Solid Waste Management and Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133355",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course applies principals of fluid mechanics to the design and analysis of hydraulic systems. The course emphasizes open channel flow and addresses topics of interest to the Civil Engineer. Topics include hydraulic grade line calculations, pump design, culvert analysis and design, based flood elevation studies using HEC-RAS, non-uniform flow, gutters and inlets, water distribution, open channel design.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6433",
+      "notes": [],
+      "prereqs": null,
+      "title": "Hydraulic Principles and Applications in Civil Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133314",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "After brief review of drained and undrained shear strength of soils under transitional triaxial compression testing, the advanced topics to be covered in shear strength will include modified Mohr-Coulomb diagrams, including p-q diagrams, stress paths, triaxial extension and triaxial compression tests, and drained and undrained failure at principle stress difference versus principal stress ratio. In consolidation, the components of settlement and the effect of submergence on ultimate consolidation settlement will be covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6533",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "CE 3701",
+      "title": "Computational Geotechnical Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the methods used to determine thickness and composition of the components of both flexible and rigid highway pavements. Class work will also include paving materials, drainage systems, pavement distresses, and maintenance & rehabilitation. Standard techniques and computer software, the Asphalt Institute and AASHTO will be utilized in pavement thickness design.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6633",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": {
+        "and": [
+          "CE 3201",
+          "CE 3701"
+        ]
+      },
+      "title": "Highway Pavement Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133316",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction of theories in applied mechanics that govern the inelastic behavior of pavement materials. The topic areas will include linear and nonlinear viscoelasticity and continuum damage mechanics.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 6683",
+      "notes": [],
+      "prereqs": null,
+      "title": "Inelastic Behavior of Pavement Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136176",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the force vectors, equilibrium of particles, equilibrium of rigid bodies in two and three dimensions; trusses, friction, centroids and moments of inertia.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGR 2214",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2211",
+          "PHYS 2211L"
+        ]
+      },
+      "title": "Engineering Mechanics - Statics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136180",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and mathematical modeling of the mechanical behavior of materials under load. Emphasis will be on the elastic conditions of equilibrium, compatibility and material behavior. Includes study of stress and strain in columns, connectors, beams, eccentrically-loaded members, as well as introduction to statically indeterminate members.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGR 3131",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Strength of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136182",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces probability theory and statistical analysis techniques for engineering applications. Major topics include probability and sampling distributions, conditional probability and Bayes\u2019 theorem, estimation of parameters, hypothesis test and statistical inference, and linear regression techniques. Students will apply basic statistical techniques to analyze various types of real world engineering data. Emphasis will be given to standard engineering practices. Computer software (e.g., spreadsheet programs) will be used.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGR 3305",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": "MATH 2202",
+      "title": "Data Collection and Analysis in Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136184",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamentals of fluid statics and dynamics including hydrostatic forces on submerged plates, continuity of fluid flow and fluid flow principles. The applications of turbulent and laminar flow in conduits are emphasized. The system approach is practiced in analyzing the applications of flow measuring devices, pipings, pumps and turbines.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGR 3343",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 2214",
+      "title": "Fluid Mechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133281",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the research questions and their relevance to engineering theory and design practices. It is intended to develop the techniques and skills necessary to complete an original academic research thesis or project report. The development of critical thinking skills relevant to research is an essential element of this course. Note: This course may be cross-leveled with ENGR 8002.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 6002",
+      "notes": [
+        "Admission to Graduate program in Engineering"
+      ],
+      "prereqs": null,
+      "title": "Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "msce-civil-engineering",
+    "name": "MSCE Civil Engineering"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

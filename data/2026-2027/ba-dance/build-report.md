@@ -2,16 +2,7 @@
 
 ## Warnings needing review
 
-- **DANC 2000**
-  - could not parse (unexpected 'and'): Must be a Dance Major, Dance Minor, or Dance- Interest; and ENGL 1101
-- **DANC 3240**
-  - unrecognized: Dance Minor
-- **DANC 4010**
-  - unrecognized: Minor
-- **DANC 4100**
-  - unrecognized: Minor
-- **DANC 4300**
-  - unrecognized: Minor
+None.
 
 ## Left out on purpose
 
