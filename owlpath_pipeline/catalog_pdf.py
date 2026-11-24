@@ -15,9 +15,12 @@ from . import config
 from .model import RawCourse
 
 HEADER = re.compile(r"^([A-Z]{2,4} \d{4}[A-Z]?): (.+)$")
-CREDITS = re.compile(r"^(\d+(?:-\d+)?) Credit Hours?$")
+# "3", "1-3", "1 - 3", "Variable 1-12", "1-4 Variable", "1-3 (Repeatable)", "1-9 repeatable" Credit Hours.
+CREDITS = re.compile(r"^(?:Variable )?(\d+)(?: ?- ?(\d+))?(?: \(?(?:[Vv]ariable|[Rr]epeatable)\)?)? Credit Hours?$")
 FIELD = re.compile(r"^(Prerequisite|Concurrent|Corequisite):\s*(.*)$")
 FOOTER = re.compile(r"^(\d{1,2}/\d{1,2}/\d{2}, \d{1,2}:\d{2} [AP]M\b|https?://)")
+# A line that looks like a prerequisite field but isn't one of FIELD's exact labels: never description text.
+NEAR_FIELD = re.compile(r"^(Pre-?req|Co-?req|Concurrent)", re.IGNORECASE)
 SECTION_END = re.compile(r"^(Course Learning Outcomes|Notes:)")
 # Page chrome the browser prints; it can land anywhere in the text stream.
 CHROME = re.compile(r"^(Contract All Courses \|?|\d{4}-\d{4} (?:Undergraduate|Graduate) Catalog|Kennesaw State University|Courses)$")
@@ -49,7 +52,9 @@ def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
     labeled = "Description" in body
     for line in body:
         if not credits and (m := CREDITS.match(line)):
-            credits = m.group(1)
+            credits = m.group(1) + (f"-{m.group(2)}" if m.group(2) else "")
+            if not labeled:  # graduate: a course with no field lines starts its description here
+                current = description
         elif m := FIELD.match(line):
             current, skipping = fields.setdefault(m.group(1), []), False
             current.append(m.group(2))
@@ -59,6 +64,8 @@ def _course(cid: str, title: str, body: list[str], url: str) -> RawCourse:
             current, skipping = description, False
         elif SECTION_END.match(line):
             current, skipping = None, True
+        elif NEAR_FIELD.match(line):
+            warnings.append(f"unrecognized line: {line}")
         elif current is not None:
             current.append(line)
         elif not skipping:

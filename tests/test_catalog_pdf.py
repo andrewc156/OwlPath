@@ -184,3 +184,19 @@ def test_footer_above_the_first_course_still_parses_every_course():
             + CHROME_TEXT)
     courses = parse_listing(text, "")
     assert list(courses) == ["XX 1000", "XX 1001"] and courses["XX 1001"].description == "Second."
+
+
+def test_graduate_course_with_no_field_lines_keeps_its_description():
+    text = "XX 7000: Thing\n3 Credit Hours\nA course about things.\nNote: This course may be cross-leveled with XX 4000.\n"
+    c = parse_listing(text, "")["XX 7000"]
+    assert c.description == "A course about things. Note: This course may be cross-leveled with XX 4000."
+    assert c.prereq_text is None and c.warnings == []
+
+
+@pytest.mark.parametrize("line, credits", [
+    ("Variable 1-12 Credit Hours", "1-12"), ("Variable 1-3 Credit Hours", "1-3"),
+    ("1-3 (Repeatable) Credit Hours", "1-3"), ("1-4 Variable Credit Hours", "1-4"),
+    ("1-9 repeatable Credit Hours", "1-9"), ("1 - 3 Credit Hours", "1-3"), ("3 Credit Hours", "3")])
+def test_credit_hour_forms(line, credits):
+    c = parse_listing(f"XX 1000: Thing\n{line}\nDescription\nWords.\n", "")["XX 1000"]
+    assert c.credits == credits and c.warnings == []
