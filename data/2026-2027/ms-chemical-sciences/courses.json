@@ -1,0 +1,118 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132962",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an exploration of the process and practice of research skills and ethics needed by a professional scientist. Students will be exposed to basic safety and ethical issues involved in doing and reporting scientific research. Topics include an introduction to resources and methods for searching the chemical literature, univariate and multivariate techniques for analyzing laboratory data, writing grant proposals and scientific reviews, and the proper use of a laboratory notebook.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 7000",
+      "notes": [
+        "Admission",
+        "enrollment in the Master of Science in Chemical Sciences degree program"
+      ],
+      "prereqs": null,
+      "title": "Research Skills and Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132963",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Students will be exposed to current scientific literature and emerging research through regularly scheduled seminars. Attendance and participation in seminar will prepare students to critically examine scientific literature in order to successfully apply their content knowledge to future research endeavors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 7100",
+      "notes": [
+        "Admission",
+        "enrollment in the Master of Science in Chemical Sciences degree program"
+      ],
+      "prereqs": null,
+      "title": "Graduate Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132964",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide a background in the fundamental methods of synthesis, focusing on applications in the broad fields of organic, inorganic, bioinorganic, and organometallic chemistry. Topics may include: tactics of carbon-carbon bond formation, oxidations, reductions, and other functional group transformations; strategies and tactics for stereochemically asymmetric synthesis; and supporting discussions of synthetic design, molecular structure, and reaction mechanisms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHEM 7300",
+      "notes": [
+        "Admission",
+        "enrollment in the Master of Science in Chemical Sciences degree program",
+        "permission of the program director",
+        "chair"
+      ],
+      "prereqs": null,
+      "title": "Synthetic Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132961",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a foundational experience in chemical biology for students in the MS in Chemical Sciences. Topics covered will include the broad array of the interdisciplinary field of chemical biology, covering areas such as biomacromolecular synthesis, structure and function, molecular biology, molecular recognition and binding, kinetics and catalysis, proteomics and molecular evolution.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHEM 7500",
+      "notes": [
+        "Admission",
+        "enrollment in the Master of Science in Chemical Sciences degree program",
+        "permission of the program director",
+        "chair"
+      ],
+      "prereqs": null,
+      "title": "Chemical Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132965",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a graduate-level review of modern analytical and physical methods with emphasis on spectrochemical methods, separations, qualitative and quantitative determinations, and use of computational tools to obtain and interpret data.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHEM 7600",
+      "notes": [
+        "Admission",
+        "enrollment in the Master of Science in Chemical Sciences degree program",
+        "permission of the program director",
+        "chair"
+      ],
+      "prereqs": null,
+      "title": "Physical and Analytical Methods"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-chemical-sciences",
+    "name": "MS Chemical Sciences"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

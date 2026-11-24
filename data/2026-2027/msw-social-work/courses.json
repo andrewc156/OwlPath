@@ -1,0 +1,262 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132880",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the foundations of the Social Work profession. The course explores the history of social work globally and nationally, the evolution of Social Work roles and values, and the cultural and ethical standards of the profession.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7700",
+      "notes": [
+        "Admission to the MSW program"
+      ],
+      "prereqs": null,
+      "title": "Social Work Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132881",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This generalist practice course focuses on the knowledge, skills, and abilities for direct/micro-level social work practice. This course provides an understanding of the stages and fundamental skill sets within the engagement and assessment components of the therapeutic process and the guiding theoretical frameworks and perspectives for direct/micro-level practice in social work settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7701",
+      "notes": [
+        "Admission to the MSW program"
+      ],
+      "prereqs": null,
+      "title": "Social Work Practice I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132882",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The conceptual framework of this course focuses on social justice and its expression of social work values and ethics. Students gain knowledge of important social welfare policies as they advocate for clients, especially those who are marginalized in society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7702",
+      "notes": [
+        "Admission to the MSW program",
+        "enrolled in a MSW Double Owl pathway"
+      ],
+      "prereqs": null,
+      "title": "Social Welfare Policy and Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132883",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is the second of two foundation practice courses that focus on both the mezzo and macro levels of practice. The course provides a beginning generalist practice perspective reflecting the history, knowledge, values, ethics, and skills utilized in small group settings. Emphasis will also be made to impart a generalist practice perspective on planned change in organizations and communities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7703",
+      "notes": [],
+      "prereqs": "SW 7701",
+      "title": "Social Work Practice II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132884",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This two-sequenced MSW course provides an understanding of the stages of human development and analyses of theoretical perspectives that are influenced by the social environment. This first sequence of the course focuses on the biological, sociological, cultural, spiritual, and psychological development and mastery from the prenatal period through adolescence.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7704",
+      "notes": [
+        "Admission to the MSW program",
+        "enrolled in a MSW Double Owl pathway"
+      ],
+      "prereqs": null,
+      "title": "Human Behavior in a Social Environment I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132885",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the second sequence of the Human Behavior in a Social Environment courses. This second sequence continues to provide an understanding of the stages of human development and analyses of theoretical perspectives that are influenced by the social environment. The course focuses on the biological, sociological, cultural, spiritual, and psychological development and mastery of adulthood.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7705",
+      "notes": [],
+      "prereqs": "SW 7704",
+      "title": "Human Behavior in a Social Environment II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132886",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on understanding, critically analyzing, and interpreting research findings in order to be effective consumers and users of social work research. The course focuses on a broad range of research methods and study designs; problem formulation and conceptualization; ways to assess and improve the validity and reliability of data and measures; data analysis; and the ethics of scientific inquiry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7706",
+      "notes": [
+        "Admission to the MSW program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Social Work Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133883",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This generalist practice course provides the knowledge, skills, and abilities essential for the development and facilitation of groups in diverse clinical practice settings. This course provides an understanding of the distinction between treatment and task groups, the stages of the group process, the theoretical frameworks/perspectives, leadership styles, and fundamental direct practice skill-sets essential for group facilitation in clinical settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7710",
+      "notes": [
+        "Admission to MSW program"
+      ],
+      "prereqs": null,
+      "title": "Social Work Group Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133882",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This comprehensive advanced practice course focuses on the critical analysis, interpretation, and application of the direct practice skills essential in advanced clinical practice. This course will concentrate on: the ethics of scientific inquiry in the conceptualization and formulation of problems; as well as the demonstration of practice skills for conducting a Bio-Psycho-Social-Spiritual assessment and plan within diverse practice settings and interprofessional teams.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7801",
+      "notes": [
+        "Advanced Standing in the MSW Program"
+      ],
+      "prereqs": null,
+      "title": "Applied Social Work Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132890",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced practice course focuses on the critical analysis, interpretation, and application of the direct practice skills and theoretical approaches essential in the treatment and evaluation of the therapeutic process with diverse individual populations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7802",
+      "notes": [
+        "All MSW Foundational-Level courses",
+        "Advanced Standing in MSW program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Clinical Practice I: Working With Individuals"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133884",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced practice course focuses on the critical analysis, interpretation, and application of the direct practice skills and theoretical approaches essential in the treatment and evaluation of therapeutic process with diverse family systems / subsystems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7803",
+      "notes": [
+        "All MSW Foundation-Level courses",
+        "Admission to Advanced Standing MSW program"
+      ],
+      "prereqs": null,
+      "title": "Advance Clinical Practice II - Working with Family Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133881",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an advanced understanding of process and outcome practice research methods. The course focuses on the application of basic research concepts and methods for evaluating programs and practice with an emphasis on conducting single case designs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7807",
+      "notes": [
+        "All MSW Foundation-Level courses",
+        "Advanced Standing in MSW program"
+      ],
+      "prereqs": null,
+      "title": "Practice Focused Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133460",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This two-sequenced course focuses on understanding psychopathology, as represented in the latest edition of the American Psychiatric Association\u2019s Diagnostic and Statistical Manual of Mental Disorders (DSM). This first sequence focuses on an orientation to the brain, psychopathology, and diagnosis; and the etiology, identification, assessment, and treatment of mental disorders found within at least four diagnostic classifications of the DSM.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7830",
+      "notes": [
+        "All MSW Foundational-Level courses",
+        "Advanced Standing in MSW program"
+      ],
+      "prereqs": null,
+      "title": "Psychopathology and Clinical Assessment, Diagnosis, and Service Planning I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133461",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This second sequence of the course expands on the types and correlates of mental disorders, their assessment, treatment, prognosis, and prevention not covered in the first sequence, as represented in the latest edition of the American Psychiatric Association\u2019s Diagnostic and Statistical Manual of Mental Disorders. The major emphasis of this second sequence is on differential diagnostic skills.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7831",
+      "notes": [],
+      "prereqs": "SW 7830",
+      "title": "Psychopathology and Clinical Assessment, Diagnosis, and Service Planning II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132896",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced clinical practice course focuses on crisis theory and techniques. The course examines immediate brief treatment for crisis management with various crises, including suicide; sexual assault/rape; natural and manmade disasters; personal loss; basic needs attainment; terminal illness; and life cycle crises. This course considers special vulnerabilities and ethical concerns for at-risk populations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SW 7929",
+      "notes": [
+        "All MSW Foundational-Level courses",
+        "Advanced Standing in MSW program"
+      ],
+      "prereqs": null,
+      "title": "Crisis Intervention"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "msw-social-work",
+    "name": "MSW Social Work"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

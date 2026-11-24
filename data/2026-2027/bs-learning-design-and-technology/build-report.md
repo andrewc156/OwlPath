@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **IS 2200**
-  - unrecognized: higher
-- **LDT 4600**
-  - unrecognized: Declared Bachelor of Science in Learning, Design
+None.
 
 ## Left out on purpose
 

@@ -171,3 +171,46 @@ def test_parentheses_without_courses_or_operators_are_unwrapped():
 def test_course_requirements_in_words_still_warn():
     assert parse_requirement("Any General Education DN core curriculum course").warnings
     assert parse_requirement("MATH 2202 and two semesters of chemistry").warnings
+
+
+# --- batch 3 ---
+
+def test_course_or_higher_is_a_note_not_a_requirement():
+    r = parse_requirement("ENGL 1101 and (MATH 1001 or higher)")
+    assert r.expr == C("ENGL 1101") and r.notes == ["MATH 1001 or higher"] and r.warnings == []
+
+
+def test_with_minimum_grade_binds_to_its_course():
+    r = parse_requirement('BLAW 2200 with minimum grade of "B" and (Admission to a Coles BBA Program or a Coles Partner Student)')
+    assert r.expr == C("BLAW 2200", "B") and r.warnings == []
+
+
+def test_concurrent_registration_alternative_is_a_note():
+    r = parse_requirement("CE 3702 or concurrent registration")
+    assert r.expr == C("CE 3702") and r.warnings == []
+
+
+def test_mixed_and_or_is_fine_when_both_readings_agree():
+    for text in ["Admission to Computer Science Ph.D. program, Computer Science MS Program, or Interdisciplinary Engineering Ph.D. program",
+                 "60 credit hours with a minimum GPA of 2.0, and Admission to the Coles Program OR student in a Coles Partner Program",
+                 "Admission to the Ed.D. Program and EDRS 8100 or its equivalent"]:
+        assert parse_requirement(text).warnings == [], text
+    assert parse_requirement("Admission to the Ed.D. Program and EDRS 8100 or its equivalent").expr == C("EDRS 8100")
+    # a real difference between the readings still warns
+    assert parse_requirement("MATH 1111 or MATH 1113 and CSE 1321").warnings
+
+
+def test_name_fragments_in_a_group_without_courses_are_fine():
+    r = parse_requirement("A declared major within the College of Science and Mathematics.")
+    assert r.expr is None and r.warnings == []
+    r = parse_requirement("COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major.)")
+    assert r.expr == C("COMM 2240") and r.warnings == []
+    # longer unknown prose still warns, even beside a known phrase
+    assert parse_requirement("Admission to the program and two semesters of chemistry").warnings
+
+
+def test_degree_abbreviations_eligibility_and_varies_are_notes():
+    for text in ["ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only",
+                 "ECE 3000 and Eligibility to take GACE", "Varies by topic"]:
+        assert parse_requirement(text).warnings == [], text
+    assert parse_requirement("Varies by program: ARED 4650, or MUED 4650").warnings  # a per-program list still warns

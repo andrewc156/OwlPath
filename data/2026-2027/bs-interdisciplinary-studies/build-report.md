@@ -5,9 +5,6 @@
 - **ISD 4497**
   - empty description
   - unrecognized: Any B2: Cultural Perspectives course
-- **SA 4490**
-  - unrecognized: Varies with discipline
-  - unrecognized: subject
 
 ## Left out on purpose
 

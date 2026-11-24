@@ -2,10 +2,6 @@
 
 ## Warnings needing review
 
-- **MUAP 2101**
-  - unrecognized: minor
-- **MUAP 2102**
-  - unrecognized: minor
 - **MUAP 3101**
   - unrecognized: have taken
   - unrecognized: passed four semesters of
@@ -15,15 +11,9 @@
 - **MUSI 3390**
   - unrecognized: completion of
   - missing operator before 'MUTC 3200', assumed and
-- **MUTC 2100**
-  - unrecognized: minor
-- **MUTC 2110**
-  - unrecognized: minor
 - **MUTC 3326**
   - unrecognized: "
   - missing operator before '"', assumed and
-- **MUTC 4471**
-  - ambiguous and/or precedence: MUTC 3327 or MUTC 3372 and permission of the instructor
 - **MUTC 4496**
   - unrecognized: Completion of 90 hours of course work
 - **MUTC 4497**

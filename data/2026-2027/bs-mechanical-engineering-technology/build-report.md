@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **EDG 3112**
-  - ambiguous and/or precedence: MET majors or department approval, and EDG 1212
-- **EDG 4111**
-  - ambiguous and/or precedence: MET majors or department approval, and EDG 1211
 - **EDG 4222**
-  - ambiguous and/or precedence: MET majors and or department approval, EDG 1212
   - missing operator before 'EDG 1212', assumed and
   - could not parse (unexpected 'or'): MET majors and or department approval, EDG 1212
 - **ENGT 4901**
@@ -18,8 +13,6 @@
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
 - **MET 2124**
   - ambiguous and/or precedence: (MATH 1190 or (MATH 1179 and MATH 1189)) and (PHYS 1111 and PHYS 1111L) or (PHYS 2211 and PHYS 2211L)
-- **MET 3332**
-  - ambiguous and/or precedence: MET Majors and EDG 1212, or department approval
 
 ## Notes
 

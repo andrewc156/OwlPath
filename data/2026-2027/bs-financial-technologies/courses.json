@@ -1,0 +1,524 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "STAT 1401",
+      "MATH 1113"
+    ],
+    [
+      "ECON 2105",
+      "ECON 2106"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              {
+                "external": "MATH 1001"
+              },
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers a comprehensive introduction to the core functions of business within an organizational context, including accounting, finance, economics, management, entrepreneurship, marketing, information systems, and cybersecurity. Students explore how these disciplines interconnect to support and drive organizational strategy. In addition, the course offers a deep dive into the diverse career opportunities offered by different academic pathways in the Coles College of Business. Emphasis is also placed on building essential career readiness and professional skills to prepare students for success in the business world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is part of a Coles College program to introduce students to the professional skills, knowledge, and attitudes necessary to succeed in business careers. In this course, students focus on their talents, skills, and strengths and improve their self-awareness through personal assessment exercises. In this class, students explore opportunities to develop relevant work experience and complete activities to enable them to secure degree-appropriate employment or advance in their current career.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 4000",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Career Accelerator"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to descriptive and inferential statistics with an emphasis on business applications. Topics covered include data summarization, probability distributions, sampling methods, confidence intervals, hypothesis testing, online data sources, and ethics in research. Small case studies are used to illustrate statistical applications within business settings.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2300",
+      "notes": [
+        "Business majors need MATH 1111; non-business majors need MATH 1101"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1101"
+          }
+        ]
+      },
+      "title": "Business Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138509",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In today\u2019s rapidly evolving world, employers increasingly value creative problem-solving, collaboration, and critical or analytical thinking-skills that now outpace traditional technical expertise (World Economic Forum; NACE). This interdisciplinary course empowers students to develop these high-impact capabilities through hands-on exploration of creativity, innovation, and entrepreneurship. Students learn how creativity-defined as novelty \u00d7 value-drives transformation across professional disciplines, from strategy and product design to social innovation and user experience (UX). Through immersive, team-based projects, students apply human-centered design methods and creative thinking to tackle real-world challenges. The course blends theory and practice, equipping students with tools to generate bold ideas, prototype solutions, and communicate their value to diverse stakeholders.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENTR 2001",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Collaborative, Creative, and Critical Thinking for Innovation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134733",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course designed to develop knowledge of the basic concepts, principles, and functions of managerial finance. Topics include the time value of money, valuation of bonds and stocks, financial analysis, working capital management, capital budgeting, and capital structure strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 3100",
+      "notes": [
+        "Admission to Coles College Professional Program",
+        "Admission as a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              {
+                "course": "ECON 2300",
+                "minGrade": "B"
+              },
+              {
+                "external": "ECON 2400",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on product management lifecycle and process for a product or service. Students are able to define the product management lifecycle and understand the process by which an initial wish (inception) becomes a defined idea, a design, and a monetized product or service. Students gain an understanding of customers\u2019 needs, define the product vision and strategy, coordinate with various teams (design, development, operations), and ultimately ensure the product\u2019s success in the market.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 3820",
+      "notes": [],
+      "prereqs": null,
+      "title": "Product Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138511",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the foundations and future of digital value systems, focusing on tokenized assets, programmable money, and digital currencies. Students examine how blockchain and distributed ledger technologies enable new forms of economic exchange, asset representation, and financial innovation. Topics discussed include token design and economics, central bank digital currencies (CBDCs), stablecoins, cross-border liquidity, and smart contracts that power programmable currencies. Through applied projects and case studies, students analyze how digital tokens reshape financial ecosystems and assess the opportunities and risks of programmable finance in a global economy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 3830",
+      "notes": [],
+      "prereqs": null,
+      "title": "Tokenomics and Programmable Currency"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138512",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the regulatory frameworks and compliance requirements shaping the FinTech industry. Students examine key laws and policies governing financial technologies, including Anti-Money Laundering (AML), Know Your Customer (KYC), data privacy, cybersecurity, payment systems, and digital currencies. Emphasis is placed on understanding how regulation impacts innovation, investment, and risk management. Through case studies and practical analysis, students learn to navigate the complex landscape of FinTech compliance, assess payment system options, and design strategies that align with ethical and legal standards. The course prepares students to balance regulatory demands with technological advancement in a global financial environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 3840",
+      "notes": [],
+      "prereqs": null,
+      "title": "FinTech Regulations and Compliance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136847",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the payment process ecosystem, lifecycle, regulation, security, fraud protection, and payment networks. The student will learn about products and services of the payments, fraud and risk reduction strategies, roles and responsibilities of issuers, acquirers, merchants and banks, and strategies for maximizing payment usage while minimizing loss. The student will also learn about payments negotiations, risk management, customer relationships, principles of authorization, settlement, chargeback, and procedures, strategies, and best practices.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FTA 3810",
+      "notes": [],
+      "prereqs": null,
+      "title": "Payments Processing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136849",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines security issues in the payments vertical. Students explore application security addressing the challenges and weak points of applications, learn the tools and techniques of machine learning as a defensive security strategy overcoming the continuous automatic attack generated by machines, and engage in hands-on practice in penetration testing. Payments framework and standards including NIST cybersecurity framework, ISO 27001 information security management, and Payment Card Industry Data Security Standards (PCI DSS) will be discussed. Administration of the information security function including the strategic planning process, policies, procedures, and staffing functions necessary to organize and administer ongoing security functions will be discussed. In addition, fraud, regulation, security practices, security architecture, competitive intelligence, and operating environments are emphasized throughout the course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FTA 3850",
+      "notes": [],
+      "prereqs": null,
+      "title": "Digital Payments Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136850",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, businesses have critical infrastructure assets that present conversion challenges or incompatible. In this course, students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FTA 3860",
+      "notes": [],
+      "prereqs": null,
+      "title": "Emerging Payments Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136848",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages students in collaboration with industry partners to address real-world FinTech challenges. Students work with industry mentors to identify FinTech needs, formulate client defined problem statements, design, and iteratively validate business solutions through continuous feedback loops, and present professional recommendations. Guided by industry mentors and business decision-makers who share day-to-day operational activities, current challenges, and emerging trends, students gain applied skills that mirror professional practice in today\u2019s digital financial ecosystem. Students gain professional experience, and organizations benefit from innovative, \u201coutside the box,\u201d perspectives generated by students - creating a mutually beneficial, win-win collaboration between academia and industry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FTA 3890",
+      "notes": [],
+      "prereqs": null,
+      "title": "Experiential Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course illustrates how to effectively use, manage, and participate in the development of information technology applications that support common business processes. This course focuses on the interdependence among an organization\u2019s management, business processes, and information systems and provides hands-on experience in developing a business information system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "IS 2200",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Information Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136820",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students master the essential and foundational technologies of blockchain. Students apply blockchain technologies to multiple business use-cases in sectors across several industries such as governance, finance, education, and healthcare. They use permissioned (private) and permissionless (public) blockchain services. The course engages the learner to apply immutable transaction ledger design to achieve triple-ledger accounting. Students engage in hands-on labs building blockchain use-cases. Activities include writing chaincode (Smart Contracts); creating blockchain business network participants, identities, and access control; coding a client application, as well as designing queries and events; building an interactive front end; and exploring the utility of blockchain deployment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 3815",
+      "notes": [],
+      "prereqs": null,
+      "title": "Blockchain for Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137393",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces foundational AI concepts and their application in business, focusing on machine learning, decision-making, and problem-solving from a managerial perspective to achieve business transformation. Students will learn technical and practical AI skills through real-world business examples, case studies, and hands-on practice. The curriculum covers traditional programming and modern AI platforms while exploring the ethical and societal implications of AI in professional environments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 4545",
+      "notes": [],
+      "prereqs": "IS 2200",
+      "title": "Artificial Intelligence for Business Innovation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135058",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a non-calculus based introduction to statistics. Course content includes descriptive statistics, probability theory, confidence intervals, hypothesis testing, and other selected statistical topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 1401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to crafting and editing effective prompts for large language models that support data-informed business writing. Students analyze a rhetorical context and then design and refine AI-focused language to generate accurate insights, regulatory briefs, client-ready documents, and other use cases. Emphasis on spotting hallucinations, documenting human edits to AI outputs, and applying responsible use practices. Hands on projects build confidence using generative AI as a writing partner for workplace finance and entrepreneurship.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "WRIT 2010",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Prompt Engineering for Business Writing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-financial-technologies",
+    "name": "BS Financial Technologies"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

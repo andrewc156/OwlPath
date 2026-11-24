@@ -1,0 +1,551 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "IHS 2100",
+      "HHS 2100"
+    ],
+    [
+      "BIOL 2251",
+      "HPAL 2250"
+    ],
+    [
+      "IHS 3010",
+      "SOCI 3380"
+    ],
+    [
+      "IHS 3230",
+      "ECON 3478"
+    ],
+    [
+      "IHS 3260",
+      "COMM 3320"
+    ],
+    [
+      "HHS 3200",
+      "IT 3503"
+    ],
+    [
+      "IHS 4445",
+      "HS 4900"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the first course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, biological chemistry; cellular structure and function; tissues; and the integumentary, skeletal, muscular, and nervous systems. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions. Cannot be used for credit toward a degree in Biology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 2251",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CHEM 1151",
+              "CHEM 1151L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "CHEM 1211"
+              },
+              {
+                "external": "CHEM 1211L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 1111"
+              },
+              {
+                "external": "PHYS 1111L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1107"
+              },
+              {
+                "external": "BIOL 1107L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1108"
+              },
+              {
+                "external": "BIOL 1108L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Anatomy & Physiology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors. Topics to be covered include elements and compounds, chemical equations, nomenclature, and molecular geometry.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134439",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1151",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1151.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134502",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces theoretical and applied aspects of health communication. Current health issues a examined in varied communication contexts, such as interpersonal, group, organizational, and mediated communication. This course analyzes provider-patient communication, intercultural communication and health beliefs, and health messages in the media. A variety of contemporary public health issues are presented. The course also examines the effectiveness of prevention messages using identified communication strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COMM 3320",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Health Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to provide an introduction into the field of Data Science. Students will develop skills in appropriate technology and basic statistical methods by completing hands-on projects focused on real-world data and addressing the social consequences of data analysis and application.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DATA 1501",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136745",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the structure of health care markets in the United States. Students will learn to understand the economic issues that mold the structure and evolution of the health care industry in the US and globally. Students will evaluate the impact of the health care system in the United States on the competing goals of broad access, high quality, and affordability. Students will also identify how consumers and providers respond to changes in incentives and develop an appreciation for opposing views on health care reform.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 3478",
+      "notes": [
+        "Any 1000 level MATH",
+        "STAT course",
+        "Any 1000, 2000",
+        "3000 ECON course"
+      ],
+      "prereqs": null,
+      "title": "Economics of Healthcare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with an overview of disciplines related to health and human services. Students focus on learning the philosophical basis, key theories, ethics, and history of disciplines in health and human services. Students articulate the characteristics of health and human service workers and describe various career paths. Students are able to describe the interdisciplinary character of health and human services by discussing the contributions of a range of disciplines and professions focused on improving health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Overview of Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137265",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the ever-evolving world of mHealth within the healthcare and technology relationship. Course content and skills are dedicated to the past, present, and future of mHealth development, integration, and expansion. Students experience the many facets of mHealth with careful consideration for low-resource settings, vulnerable populations, health promotion, disease prevention and management, literacy, and solution development.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "mHealth Foundations and Solutions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137231",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces concepts and techniques used in social science research. Students acquire a foundational understanding of research methods to become informed producers and consumers of research products.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 3500",
+      "notes": [
+        "60 credit hours",
+        "a major in the Wellstar College of Health",
+        "Human Services",
+        "Non-majors with permission of department"
+      ],
+      "prereqs": {
+        "or": [
+          "DATA 1501",
+          {
+            "external": "STAT 2332"
+          },
+          {
+            "external": "STAT 1401"
+          },
+          {
+            "external": "MATH 1160"
+          },
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "title": "Research Inquiry in Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137232",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course gives students an understanding of the importance of ethics and values in the Health and Human Services profession. The course exposes students to different ethical decision-making models and diverse value systems to become more ethically competent practitioners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 4800",
+      "notes": [
+        "Completion of 90 credit hours",
+        "a major in the Wellstar College of Health",
+        "Human Services",
+        "Non-majors with permission of the Department"
+      ],
+      "prereqs": null,
+      "title": "Ethical and Legal Approaches to Decision Making in Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135615",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of the structure and function of the major body systems, with emphasis on the muscular, skeletal, and cardio-respiratory systems role in human movement and physical activity.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HPAL 2250",
+      "notes": [
+        "Any General Education D2 core curriculum course"
+      ],
+      "prereqs": null,
+      "title": "Anatomy and Physiology for Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134946",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundation required course in human diversity enhances students\u2019 abilities to understand, evaluate, and provide culturally sensitive and competent human services to members of diverse groups. This course gives students the opportunity to reflect upon their own cultural development and to be more sensitive to others",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 2300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Competence in the Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134971",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the culminating course of the majors as it integrates the students\u2019 entire program of study and experiences. Majors can synthesize and apply knowledge and skills reflectively and comprehensively. This course should be the final course in the student\u2019s degree program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 4900",
+      "notes": [
+        "Human Services Majors only",
+        "Completion of 90 credit hours",
+        "Minimum 2.0 Institutional GPA",
+        "Permission of the Department"
+      ],
+      "prereqs": null,
+      "title": "Advanced Research Inquiry in Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136762",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will introduce students to the current structure of the U.S. healthcare system and the professions supporting it. The description of each healthcare profession will introduce relevant governing bodies for the profession, educational requirements, certification and licensure requirements, work schedules and environment, salary ranges, and job trends/prospects. The course will also introduce students to the importance of interprofessional healthcare practices. Various external healthcare professionals will convey first-hand knowledge and advice concerning their professional experiences and training.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IHS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Health Sciences and Professions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137261",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Determinants of Health (DOH) are a key contributor to disease and ill-health in populations across the world. This course introduces students to the core concepts in the study of DOH. It uses a complex systems perspective to show the relationships between genetics, behavior, environment, physical influences, medical care, and social factors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IHS 3010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Determinants of Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137262",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to foundational concepts and issues in healthcare administration. Topics include an overview of the U.S. healthcare delivery system and common sites of care; health information technologies; ethical and legal considerations for the healthcare administrator; and basic healthcare finance and marketing concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IHS 3230",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fundamentals of Healthcare Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In the rapidly evolving landscape of healthcare and health science, effective communication and advocacy play a pivotal role in shaping policies, influencing behaviors, and ultimately improving public health outcomes. This course delves into the essential concepts, strategies, and ethical considerations involved in communicating health information and advocating for positive change within the realm of health science.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IHS 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HHS 2100",
+          "IHS 2100",
+          {
+            "external": "PH 2100"
+          }
+        ]
+      },
+      "title": "Communication and Advocacy in Health Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to examine the process of developing and implementing innovative solutions to complex healthcare issues. Emphasis is placed on use of design thinking protocols, principles of social innovation, and development of sustainable solutions for health care delivery systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IHS 4445",
+      "notes": [],
+      "prereqs": null,
+      "title": "Healthcare Innovation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136763",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "IHS 3398"
+          },
+          "IHS 4445",
+          "HS 4900"
+        ]
+      },
+      "credits": "3",
+      "description": "This course highlights professional development in preparing graduates for careers in health science. In addition, this course utilizes project management principles to guide students as they complete a final senior project based on their experience in either in an internship, creating a healthcare innovation, or through an undergraduate research project. Students will integrate and synthesize knowledge, skills, attitudes, and values from the array of courses taken in the Integrated Health Science major as they complete the senior project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IHS 4760",
+      "notes": [
+        "90 credit hours"
+      ],
+      "prereqs": {
+        "or": [
+          "HHS 2100",
+          "IHS 2100"
+        ]
+      },
+      "title": "Integrated Health Science Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135909",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of health information technology (HIT). Students will become familiar with the content, use, and structure of the health care data and medical records, health information management, the fundamentals of healthcare workflow and process analysis and redesign as a necessary component of complete practice automation, and health information systems. Students will also become familiar with the health care delivery systems in the U.S. and IT organizations and resources.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 3503",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Foundations of Health Information Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the basic structures and operations of the U.S. health system, including its major characteristics, foundations, components, finance, and future; health policy development process; and the impact of health policy on health systems and population health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 3330",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "PH 2100"
+          },
+          "IHS 2100",
+          "HHS 2100",
+          {
+            "external": "NURS 3209"
+          }
+        ]
+      },
+      "title": "Health Systems & Health Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136428",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of human diseases, including causes/risk factors, signs and symptoms, diagnosis, treatment, and prevention. Emphasis will be placed on the role of public health education specialists in prevention and management of diseases that are the leading causes of premature disability and death domestically and globally.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 3400",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HPAL 2250",
+          "BIOL 2251"
+        ]
+      },
+      "title": "Disease Prevention and Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135570",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the connections between society, communities, and the health of individuals. Topics include sociological approaches to global health inequalities, tensions between medicine and culture and the ethics of public health and biomedical research. Students critically analyze major issues of health and illness confronting selected subpopulations. The course introduces students to selected theoretical frameworks that address social determinants of health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 3380",
+      "notes": [],
+      "prereqs": null,
+      "title": "Society, Community, & Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to examine the scientific and theoretical foundations of health and wellness. Students focus on developing health knowledge and skills necessary to adapt to changing personal, social, and environmental factors related to lifespan development. Topics of exploration include health literacy, goal setting, physical activity, nutrition, stress management, emotional health, substance use, sexual health, self-care, and other health determinants.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WELL 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Health and Wellness"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-integrated-health-science",
+    "name": "BS Integrated Health Science"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

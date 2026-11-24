@@ -1,0 +1,855 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "HS 2100",
+      "HHS 2100"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              {
+                "external": "MATH 1111"
+              },
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to provide an introduction into the field of Data Science. Students will develop skills in appropriate technology and basic statistical methods by completing hands-on projects focused on real-world data and addressing the social consequences of data analysis and application.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DATA 1501",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with an overview of disciplines related to health and human services. Students focus on learning the philosophical basis, key theories, ethics, and history of disciplines in health and human services. Students articulate the characteristics of health and human service workers and describe various career paths. Students are able to describe the interdisciplinary character of health and human services by discussing the contributions of a range of disciplines and professions focused on improving health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Overview of Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137231",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces concepts and techniques used in social science research. Students acquire a foundational understanding of research methods to become informed producers and consumers of research products.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 3500",
+      "notes": [
+        "60 credit hours",
+        "a major in the Wellstar College of Health",
+        "Human Services",
+        "Non-majors with permission of department"
+      ],
+      "prereqs": {
+        "or": [
+          "DATA 1501",
+          {
+            "external": "STAT 2332"
+          },
+          {
+            "external": "STAT 1401"
+          },
+          {
+            "external": "MATH 1160"
+          },
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "title": "Research Inquiry in Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137232",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course gives students an understanding of the importance of ethics and values in the Health and Human Services profession. The course exposes students to different ethical decision-making models and diverse value systems to become more ethically competent practitioners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HHS 4800",
+      "notes": [
+        "Completion of 90 credit hours",
+        "a major in the Wellstar College of Health",
+        "Human Services",
+        "Non-majors with permission of the Department"
+      ],
+      "prereqs": null,
+      "title": "Ethical and Legal Approaches to Decision Making in Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134943",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This required course provides students with an overview of helping professions. Topics include: philosophy of human services; characteristics of human service workers; careers in human services; description of public, nonprofit and for-profit agencies; theory; and cultural diversity. Human service majors are required to take this course prior to applying for admission into the HS program. This course is also a prerequisite for other HS courses. Students must complete 20 hours of volunteer service as a requirement of this class.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Overview of Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134944",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introductory course is designed to provide knowledge, theory, and skills in the administrative/management aspects of nonprofit organizations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 2200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fundamentals of Nonprofits"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134946",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundation required course in human diversity enhances students\u2019 abilities to understand, evaluate, and provide culturally sensitive and competent human services to members of diverse groups. This course gives students the opportunity to reflect upon their own cultural development and to be more sensitive to others",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 2300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Competence in the Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134947",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to interviewing skills in non-crisis settings. Communication skills learned in the course include relation skills building techniques within a problem-solving model. Additionally, students learn skills to identify client strengths and to work with resistant clients. Students are required to role-play, videotape, and critique skills learned in the course. The goal of this course is to expose the student to a variety of perspectives used by all human service workers.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 2400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Interviewing Skills for the Helping Professions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134952",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to basic theory, skills, methods and values necessary to lead support groups. Students will develop, facilitate/co-facilitate issue oriented groups for different ages, genders, etc.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 2900",
+      "notes": [
+        "HS Majors",
+        "Permission of Department"
+      ],
+      "prereqs": {
+        "or": [
+          "HS 2400",
+          {
+            "external": "HS 2420"
+          }
+        ]
+      },
+      "title": "Working with Support Groups"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134945",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students the opportunity to begin to explore the helping professions by completing service learning while applying theoretical knowledge, skills and human services value systems. Specifically, HS majors will be expected to demonstrate knowledge content from prerequisite courses. Students will be expected to demonstrate beginning competencies in micro and macro practice.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "HS 3000",
+      "notes": [
+        "Human Services Majors only",
+        "Permission of Department"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "HHS 2100",
+              "HS 2100"
+            ]
+          },
+          "HS 2200",
+          "HS 2300"
+        ]
+      },
+      "title": "Foundation Internship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134956",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of poverty in the US, its causes, efforts to alleviate it, and its reflection in and by culture. Students examine theories of the causes of poverty, reflect on the experiences of those experiencing poverty, and participate in critical thinking activities designed to provide deeper insight into this social issue.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3100",
+      "notes": [
+        "HS major",
+        "Non-major with permission of department"
+      ],
+      "prereqs": "HS 2300",
+      "title": "Poverty and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137270",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students examine the demand for services and funding of programs that are closely related to identifiable human conditions, including, among others: aging, delinquency, crime, poverty, mental illness, physical illness, chemical dependency, and developmental disabilities and how they create the conditions and focus for the human services profession. By the end of the course, students will identify a general framework for the delivery of human services and offer critiques of current delivery systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 3110",
+      "notes": [
+        "Human Services major"
+      ],
+      "prereqs": {
+        "and": [
+          "HS 2200",
+          "HS 2300"
+        ]
+      },
+      "title": "Human Service Delivery"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134949",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students gain the skills to analyze, interpret, and ultimately change policies and laws that impact service users, nonprofit organizations, and service delivery in the human services/social sector. A highlight of the course features ways in which advocates in the area of social policy have been mobilized to effect real change for diverse communities. Students have the opportunity to experience how activism and advocacy in their roles as human service professionals can lead to change.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 3200",
+      "notes": [
+        "HS major",
+        "Non-majors with permission of the department"
+      ],
+      "prereqs": "HS 2200",
+      "title": "Policy & Advocacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134950",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class gives students an overview of human development within the social environment, a prerequisite to determining appropriate responses to human needs as called upon by the Human Services profession. By the end of the course, students can explain the effect of the environment on personal and social functioning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 3300",
+      "notes": [
+        "HS majors",
+        "Non-majors with permission of the department"
+      ],
+      "prereqs": null,
+      "title": "Human Systems and Socialization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134951",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This required course focuses on macro-human service practice as a complement to preparation in micro-direct services. It is specifically designed to provide students with a working knowledge and basic skills required for helping communities and organizations address their needs and concerns. Students will learn various models of community and organizational intervention that can be used in diverse settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 3400",
+      "notes": [
+        "HS majors",
+        "Non-majors with permission of the department"
+      ],
+      "prereqs": null,
+      "title": "Community Intervention"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134957",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the development and evaluation of human services programs. Students will discuss appropriate program evaluation techniques and design elements, including an evaluation plan.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "HS 3600",
+      "notes": [],
+      "prereqs": "HS 2200",
+      "title": "Program Development and Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the theory and practice of governance, leadership and advocacy within non-profit organizations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3650",
+      "notes": [],
+      "prereqs": "HS 2200",
+      "title": "Governance, Advocacy, and Leadership in Nonprofits"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134953",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to family systems theory and practice in relation to working with older adults and their families. Impact on nursing home placement, Alzheimer\u2019s disease, death and dying, and depression as it relates to family function is stressed. Services and solutions to aging related problems will be included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3700",
+      "notes": [
+        "HS majors",
+        "Non-majors with permission of the department"
+      ],
+      "prereqs": null,
+      "title": "Aging and the Family"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134954",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will examine death, dying, and bereavement from historical, contemporary, and cultural points of view. Students will also study skills necessary for working with dying and bereaved populations",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3750",
+      "notes": [
+        "HS majors",
+        "Non majors with permission of the department"
+      ],
+      "prereqs": null,
+      "title": "Death, Dying and Bereavement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136347",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the theory and practice of social entrepreneurship and innovation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3800",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HS 2200",
+          {
+            "external": "MGT 4001"
+          }
+        ]
+      },
+      "title": "Social Entrepreneurship and Enterprise"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136492",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students critically examine types, challenges, strategies and activities of international nonprofit organizations (i.e., nongovernmental organizations). This course provides a forum for students to analyze NGOs and their relationships to governments, civil societies, donors and other stakeholders. International development serves as the unifying theme of exploration.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3850",
+      "notes": [
+        "Permission of Department"
+      ],
+      "prereqs": "HS 2200",
+      "title": "Introduction to Nongovernmental Organizations and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134964",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with a working knowledge of family violence issues. Students will become familiar with different theories regarding causation and treatment as well as society\u2019s response to family violence.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3900",
+      "notes": [
+        "HS majors",
+        "Non majors with permission of the department"
+      ],
+      "prereqs": null,
+      "title": "Dynamics of Family Violence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134968",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will study the history, comparative perspectives, legal framework and responses to child maltreatment. They will discuss and begin to develop the skills necessary to work in the field and speak about pertinent issues pertaining to child maltreatment and child advocacy.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3950",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HS 3300",
+          {
+            "external": "PSYC 2103"
+          },
+          {
+            "external": "SOCI 3364"
+          },
+          {
+            "external": "ECE 2250"
+          }
+        ]
+      },
+      "title": "Perspectives on Child Maltreatment and Child Advocacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134969",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares students to identify and investigate child maltreatment and apply intervention strategies for children and their families including prosecution where indicated. Students will be able to discuss issues related to child witnesses such as recantation, suggestibility, memory and the impact of multiple interviews on children.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3960",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HS 3300",
+          {
+            "external": "PSYC 2103"
+          },
+          {
+            "external": "SOCI 3364"
+          },
+          {
+            "external": "ECE 2250"
+          }
+        ]
+      },
+      "title": "Professional and System Responses to Maltreatment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136643",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to prepare students to recognize child advocacy issues around the world. The course is designed for students majoring in various disciplines where knowledge of child maltreatment and advocating for children will be necessary. Multidisciplinary approaches to advocacy in different countries throughout the world will be presented and discussed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3970",
+      "notes": [],
+      "prereqs": null,
+      "title": "Global Child Advocacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137271",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the Social Work profession, including its fields of practice, history, values, and ethics; and the social welfare policies that undergird it. Students explore interactions with contexts that shape practice, the promotion of well-being, social and economic justice to advance human rights, and alleviate critical social problems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3980",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Social Work"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137272",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the relationship between addictions and mental health. Students explore the intersection of addiction behaviors and mental health, including alcohol, illegal and illicit drugs, gambling, eating addiction/ disorders, and sexual addictions. Additionally, they discuss treatment modalities and interventions related to these addictions/disorders.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 3990",
+      "notes": [],
+      "prereqs": null,
+      "title": "Addictions and Mental Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134960",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students study fundraising/development, including grant writing, special events, and basic finance in the nonprofit sector. It is appropriate for students working in all areas of Human Services as well as other majors who plan to work with nonprofits or governmental agencies.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "HS 4100",
+      "notes": [],
+      "prereqs": "HS 2200",
+      "title": "Grant Writing and Fundraising"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134961",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will examine theories and management practices necessary to effectively manage human resources for nonprofit organizations, including staff and volunteers.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "HS 4200",
+      "notes": [],
+      "prereqs": "HS 2200",
+      "title": "Human Resources for Nonprofit Organizations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will explore the issues and challenges of planning and will participate in the delivery of human services internationally.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 4300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Education Abroad in Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134966",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the interplay between human service professionals and the court systems. It will also focus on forensic social work practice and theory. Additionally, it illustrates skills for working with diverse populations across the lifespan and across diverse settings, such as community, medical, school, child welfare, mental health and addictions, and juvenile and criminal justice settings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 4430",
+      "notes": [
+        "permission of the department"
+      ],
+      "prereqs": "HS 3300",
+      "title": "Forensic Social Work"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134955",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students an overview of the basic theoretical models used for family interventions. Students will also apply family intervention skills in a variety of practice simulations.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "HS 4500",
+      "notes": [
+        "Permission of Department"
+      ],
+      "prereqs": "HS 3000",
+      "title": "Working with Family Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134965",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on theoretical interventions through the life span phases of childhood and adolescence. Intervention techniques within an ecological frame work are explored and assessed for use in a wide range of problem areas and settings.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "HS 4600",
+      "notes": [
+        "Permission of Department"
+      ],
+      "prereqs": "HS 3000",
+      "title": "Working with Children and Youth"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134967",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn crisis intervention theory, advanced communication skills and knowledge about different crises and crisis settings. Students will be required to role-play crisis intervention techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 4700",
+      "notes": [
+        "Permission of Department"
+      ],
+      "prereqs": "HS 3000",
+      "title": "Crisis Intervention"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134971",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the culminating course of the majors as it integrates the students\u2019 entire program of study and experiences. Majors can synthesize and apply knowledge and skills reflectively and comprehensively. This course should be the final course in the student\u2019s degree program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HS 4900",
+      "notes": [
+        "Human Services Majors only",
+        "Completion of 90 credit hours",
+        "Minimum 2.0 Institutional GPA",
+        "Permission of the Department"
+      ],
+      "prereqs": null,
+      "title": "Advanced Research Inquiry in Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137220",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3-9",
+      "description": "This course is designed to account for a student\u2019s prior learning or work experience (i.e., the knowledge, skills, or competencies acquired through formal or informal education outside the traditional postsecondary academic environment). Students must submit the required artifact for assessment and assigning of credit as outlined by the department.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 4910",
+      "notes": [
+        "HS Major",
+        "Permission of the Department"
+      ],
+      "prereqs": null,
+      "title": "Prior Learning and Work Experience in Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135324",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The methods and procedures of governmental administration and the control of public bureaucracies in democratic societies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 3343",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Principles of Public Administration"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-human-services",
+    "name": "BS Human Services"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

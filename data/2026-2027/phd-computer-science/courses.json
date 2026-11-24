@@ -1,0 +1,330 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133709",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers topics about memory management, multiprocessor systems, process management, synchronization, concurrency, deadlocks, distributed operated systems, grid computing, cloud computing, virtualization, container management and orchestration.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8025",
+      "notes": [
+        "Admission to Computer Science Ph.D. Program Computer Science M.S. Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Operating Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133710",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the principles of networking and architecture with a focus on algorithms and protocols, and also an in-depth study of active research topics in advanced networking services and paradigms. Topics include but are not limited to network protocols, performance, IP routings, mobile IP, ATM, queuing analysis, frame relay, congestion and flow control, network security, vulnerability, and defenses. Those topics are applied to current network paradigms to be studied which will include but not limited to point-to-point and peer-to-peer networks, wireless and sensor networks, satellite, local area and wide area networks, drone networks, unmanned aerial vehicle networks, and software defined network.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8027",
+      "notes": [
+        "Admission to Computer Science Ph.D. Program Admission to Computer Science M.S. Program",
+        "Admission to Analytics and Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Networking and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133711",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamental and advance concepts of the theory of computing. The course covers models of computation, computability theory, both space and time complexity, and complexity classes. In particular, it introduces traditional models of computation, both operational, such as finite automata, pushdown automata, and Turing machines, and descriptive, such as propositional and predictive logic. It considers parallel and hierarchical state machines and more advanced models of computation, together with higher-order logics. Both time and space computational complexity are included together with the most relevant classes of complexity, and modern complexity-theoretic approaches such as algorithmic randomness and quantum complexity theory.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8041",
+      "notes": [
+        "Admission to Computer Science Ph.D. Program Computer Science M.S. Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Theory of Computation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133712",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers topics related to design and analysis of algorithms including divide-and-conquer, greedy method, dynamic programming, recursive algorithms, approximation algorithms, lower- and upper-bound studies, parallel algorithms, time and space complexity of algorithms, and NP-hard and NP-complete problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8045",
+      "notes": [
+        "Admission to Computer Science Ph.D. Program Computer Science M.S. Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Design and Analysis of Algorithms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133713",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the principles of software design with a particular focus on abstraction and models, and programming language pragmatics. This includes a comparative analysis of programming language paradigms with emphasis on design aspects, formal semantics of programming languages, type systems, parsing, scoping, allocation, control of program flow, concurrency, formal tools for characterizing program execution, and abstraction techniques. In terms of programming models, the course covers data abstraction and object orientation, functional languages, logic languages, concurrency, and scripting languages.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8050",
+      "notes": [
+        "Admission to Computer Science Ph.D. Program Computer Science M.S. Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Principles of Software Design and Programming Languages"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133607",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course we will discuss concepts including cloud computing, cloud computing architecture, Infrastructure as a Service (IaaS), Platform-as-a-Service (PaaS), Software as a Service (SaaS), etc. We will study commercial products such as Amazon EC2. We will also discuss advanced topics such as Cloud simulation tools and open sourced software for Cloud environment. The course includes literature search of current advances in cloud computing and their applications, and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8125",
+      "notes": [
+        "Admission to Computer Science Ph.D., Computer Science M.S. Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Cloud Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133608",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8025",
+      "credits": "3",
+      "description": "This course covers various aspects of parallel and distributed processing and algorithm design with an emphasis on programming. Topics include: Taxonomy of parallel architectures; Shared-memory vs. message-passing architectures; Computation models and Performance metrics; Parallel/distributed algorithm design - basic techniques; Parallel/distributed programming techniques and issues: partitioning, load balancing, synchronization, task scheduling, message overheads, etc.; Parallel/distributed algorithms for sorting, matrices, etc.; Debugging, Profiling, and Performance enhancements of parallel and distributed programs. The course includes literature search of current advances in parallel and distribute systems and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8172",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Parallel and Distributed Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133598",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8045",
+      "credits": "3",
+      "description": "This course covers advanced topics and emerging research work in graph algorithms. Topics cover graph embedding, graph clustering, distances in graphs, flows in graphs, graph compression, algorithmic graph-minor theory, and the design and analysis on the time-complexity of graph algorithms for both serial and parallel computing. The course includes a literature search of current advances in graph algorithms and their application in computing, and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8253",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Graph Algorithms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133612",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced topics and techniques in database systems. Topics include advanced concepts in relational databases, non-relational databases, data warehousing and mining, and NoSQL distributed databases for big data analytics. This course includes a literature search of cutting-edge database system technology and their application, and conduct an independent research project with data analytics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8260",
+      "notes": [
+        "Admission to Computer Science Ph.D. Program Computer Science M.S. Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Database Systems and Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133604",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8045",
+      "credits": "3",
+      "description": "The course covers advanced topics and current research trends in information retrieval for knowledge discovery. The course involves system design and implementation of modern information retrieval algorithms; advanced methods for searching, managing, and mining information; and search engines architecture and retrieval models. The course coverage includes a literature search and investigation of current research topics in information retrieval algorithms and technologies, reading of selected research papers, and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8263",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Information Retrieval"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133610",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced topics and emerging research work in big data analytics. Topics cover big data concepts, characteristics, computing architectures for big data, consistency management for big data, stream and real-time big data analytics, machine learning algorithms for big data analytics, big data modeling, management and querying, and graph processing. The course includes literature search of current advances and their applications in big data analytics and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8265",
+      "notes": [
+        "Admission to Computer Science Ph.D. program Computer Science MS Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Big Data Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133609",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the-state-of-the-art machine learning techniques. Topics cover unsupervised learning, supervised learning, evaluation of machine learning algorithms and ensemble methods. Students will learn to apply advanced machine learning techniques to solve challenging problems in various areas. The course includes a literature search of current advances and their applications in machine learning and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8267",
+      "notes": [
+        "Admission to Computer Science Ph.D. program Computer Science MS Program, Analytics",
+        "Data Science Ph.D. Program",
+        "Interdisciplinary Engineering Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Machine Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133599",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8041",
+      "credits": "3",
+      "description": "This course covers advanced topics and emerging technologies in Natural Language Processing (NLP), including techniques for language translation, question answering and conversation agent, and other language-related tasks. The course will consist of a literature search and investigation of current research topics in NLP technologies addressing text parsing, machine translation, entity recognition, and other challenges. The course work includes a literature search, reading of selected research papers, and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8347",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Natural Language Processing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133600",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8045",
+      "credits": "3",
+      "description": "The course covers advanced topics in deep learning technologies and artificial neural networks. The course involves a literature search of emerging technologies and research topics in deep learning and their application in neural networks. The course work consists of a literature search, reading of selected research papers, and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8357",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Neural Networks and Deep Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133611",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8045",
+      "credits": "3",
+      "description": "This course covers advanced research topics in computer vision and aims to give students the background and skills necessary to perform computer vision researches. This class will also prepare graduate students in both the theoretical foundations and practical approaches to build entire computer vision systems. This course investigates current research topics in computer vision, emphasizing object detection, classification, and recognition tasks. Students should understand the strengths and weaknesses of current approaches to research problems and identify interesting open questions and future research directions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8367",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Computer Vision"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133606",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8045",
+      "credits": "3",
+      "description": "This course is about the theory and practice of Artificial Intelligence (AI). We will study modern AI techniques for computers to represent task-relevant information and make intelligent (i.e. satisficing or optimal) decisions towards the achievement of goals. We will investigate questions about AI systems such as how to represent knowledge, how to effectively generate appropriate sequences of actions and how to search among alternatives to find optimal or near-optimal solutions. We expect that by the end of the course students will have a thorough understanding of the algorithmic foundations of AI and how automated agents learn. Other topics will include intelligent agents, natural language processing, computer vision, machine learning including supervised, unsupervised and reinforcement learning, artificial neural networks and nature-inspired algorithms. The course includes literature search of current advances in artificial intelligence and their applications, and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8375",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Artificial Intelligence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133601",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8027",
+      "credits": "3",
+      "description": "This course covers advanced topics in computer systems and networks security, including attacks and defense methods and social engineering network attacks. The topics include network attacks and defenses, web and email security, malware, social engineering attacks, privacy, and digital rights management. The course work includes a literature search of current and emerging technologies in network security and defense techniques, reading related research papers, and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8540",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Network Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133602",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 8045",
+      "credits": "3",
+      "description": "This course covers advanced topics in artificial intelligence for computing security and privacy, with emphasis on the design and implementation of secure computing systems. The course covers recent research and advances in computer security and artificial intelligence for security; and the use of machine learning for security and privacy related decision-making, misuse detection, tracking technologies, and privacy-preserving machine learning algorithms. The course work includes a literature search of current and emerging work in artificial intelligence for computing security and privacy, reading selected research papers, and presentation of research findings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8545",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced AI for Security and Privacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133614",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-12",
+      "description": "This course is offered to students in the Ph.D. in Computer Science or the Ph.D. in Data Science and Analytics. It allows students to conduct research work under the advisor\u2019s supervision. Note: This course may be repeatable for up to 12 credit hours.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 8998",
+      "notes": [
+        "Varies depending on the topic"
+      ],
+      "prereqs": null,
+      "title": "Advanced Research in Computer Science"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "phd-computer-science",
+    "name": "PhD Computer Science"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

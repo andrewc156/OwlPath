@@ -2,10 +2,6 @@
 
 ## Warnings needing review
 
-- **ARCH 1000**
-  - unrecognized: Minors Only
-- **ARCH 1001**
-  - unrecognized: Minors Only
 - **ARCH 3011**
   - unrecognized: Traditional Track:
   - unrecognized: Accelerated Track:

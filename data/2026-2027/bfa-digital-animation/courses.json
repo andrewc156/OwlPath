@@ -1,0 +1,1339 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137311",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introductory course focuses on tools for digital media production, including non-linear video editing and manipulation of both vector and raster images. Emphasis will be placed on file types, compression, organization, and the appropriate presentation of digital media. Students will be required to use industry-standard software for exercises and projects.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ANIM 1550",
+      "notes": [
+        "Admission to the Digital Animation BFA"
+      ],
+      "prereqs": null,
+      "title": "Digital Media Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137313",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to contemporary animation. Course content focuses on frame-to-frame animation as well as 2-dimensional rigged animation techniques. Students will create unique animations using industry standard time-based media computer applications.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANIM 2600",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 1150",
+          {
+            "or": [
+              "ART 2550",
+              "ANIM 1550"
+            ]
+          }
+        ]
+      },
+      "title": "Foundation Animation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137299",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction and broad overview of digital 3D visualization fundamentals. The whole course will take place in the context of real-world applications and opportunities for visualization. The student will experience and gain a beginning understanding of 3D visualization as follows: modeling, lighting, surface rendering, animation, and post-production. Throughout this course, students will explore the various career paths available to the 3D artist.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANIM 2700",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ART 2550",
+          "ANIM 1550"
+        ]
+      },
+      "title": "Digital 3D Fundamentals"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137300",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Working with industrial 3D modeling software, this course introduces 3D model design. Students will learn how to utilize modeling techniques and applications and gain a basic understanding of 3D modeling to design organized virtual models. This course applies beginning modeling principles, design processes, and production techniques. The course\u2019s primary focus is on 3D model design. The student will be expected to be able to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 2750",
+      "notes": [],
+      "prereqs": "ANIM 2700",
+      "title": "Digital 3D Modeling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137301",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Working with industrial 3D software, this course introduces 3D lighting and texturing design. Study beginning rendering techniques using industry-standard renderers. Create custom shaders to work with lighting and develop an understanding of the rendering and lighting process. The student will be expected to be able to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 2760",
+      "notes": [],
+      "prereqs": "ANIM 2700",
+      "title": "Digital 3D Lighting and Texturing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137302",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Working with industrial 3D software, this course introduces 3D Animation. Students will learn to create believable and natural 3D computer animations with a combination of several different techniques. Movements of objects, actors, and cameras with animated effects of attributes will be demonstrated and discussed. Emphasis is placed on the principles of animation and how to recreate these techniques digitally in 3D. The student will be expected to be able to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 2770",
+      "notes": [],
+      "prereqs": "ANIM 2700",
+      "title": "Digital 3D Animation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes conceptualization and creative problem-solving using digital tools and animation production. Key topics include: techniques for conceptualization, problem-solving in digital environments, media theory, animation pipelines and collaborative environments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ANIM 2790",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ART 2550",
+          "ANIM 1550"
+        ]
+      },
+      "title": "Concepts, Techniques, and Practice for Animation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136468",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the use and creation of storyboards for animation. Students will interpret narratives including their own material into functional sequential art. Students will explore both traditional and digital media in the course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANIM 3620",
+      "notes": [
+        "passed the portfolio requirement",
+        "been accepted into the School of Art",
+        "Design with majors in BFA Art Including students in the Art Education concentration",
+        "BFA Digital Animation"
+      ],
+      "prereqs": "ART 1150",
+      "title": "Storyboarding & Composition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136469",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the basic design and creation of 2D environments for animation. Students will explore both traditional and digital media in the course.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 3630",
+      "notes": [],
+      "prereqs": "ART 2150",
+      "title": "Environments for Animation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136470",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on using industry standard digital animation production software. Students will explore the pipeline nature of the software and the many roles involved with a professional animation production.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 3635",
+      "notes": [],
+      "prereqs": "ANIM 2600",
+      "title": "Digital Animation Production I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will apply their drawing skills and knowledge of the figure to create original characters designed for applied 2D animation techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ANIM 3640",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "ART 2550",
+              "ANIM 1550"
+            ]
+          },
+          "ART 3150"
+        ]
+      },
+      "title": "Character Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136471",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced approach on understanding and operating industry standard digital animation production software. Students will focus on particular roles and tasks including 2D animation and compositing. Also, students will work in a team environment to create an animation short.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 3660",
+      "notes": [],
+      "prereqs": "ANIM 3635",
+      "title": "2D Rigging and Performance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137308",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will learn basic 3D rigging techniques for animation and presentation. Students will learn to construct non-destructible rigs for characters and props. The course will focus on developing effective motion systems to assist in the animation of characters and props. The course will focus on rigging hierarchy structures, understanding the importance of grouping and constraint systems, custom attributes and limited scripting, flexible deformation systems, and IK and FK systems. Facial rig systems are taught to provide characters with the ability for lip sync and facial expressions. Students will learn industry terminology and career options in 3D rigging for animation and games. Students are expected to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 3710",
+      "notes": [],
+      "prereqs": "ANIM 2770",
+      "title": "Digital 3D Rigging I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137309",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to industry standard 3D sculpting software. Practical application of the software will include modeling characters and prop-based objects for games and animation.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 3720",
+      "notes": [],
+      "prereqs": "ANIM 2750",
+      "title": "Digital 3D Sculpting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137303",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course will introduce students to advanced 3D topics and digital media trends. Department professors select the course topics to immerse students in a deep dive into industry concepts, techniques, and insights. In addition, students learn strategies in idea generation, experimentation, problem-solving, planning and time management, and critical analysis to help students improve their digital 3D skills. They will learn the importance of completing their projects and receive guidance from faculty as they work on their team projects. The student will be expected to be able to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation"
+      ],
+      "id": "ANIM 3750",
+      "notes": [],
+      "prereqs": "ANIM 2770",
+      "title": "Digital 3D Project I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137304",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is a continuation of ANIM 3750: Digital 3D Project I and will introduce students to advanced 3D topics and digital media trends. Department professors select the course topics to immerse students in a deep dive into industry concepts, techniques, and insights. In addition, students learn strategies in idea generation, experimentation, problem-solving, planning and time management, and critical analysis to help students improve their digital 3D skills. They will learn the importance of completing their projects and receive guidance from faculty as they work on their team projects. The student will be expected to be able to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation"
+      ],
+      "id": "ANIM 3751",
+      "notes": [],
+      "prereqs": "ANIM 3750",
+      "title": "Digital 3D Project II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136472",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will introduce 2D digital animation pipelines and enumerate the different positions within this structure of production. Students will take a project from concept through completion in a studio pipeline. Work in this course will fundamentally be team-based and performed within group settings. This course will incorporate material learned in Storyboarding, Environment design, Character Development, and Animation Production.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 4651",
+      "notes": [],
+      "prereqs": "ANIM 3635",
+      "title": "2D Animation Pipeline"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136881",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will advance in selected topics in animation, which will include independent student research. The course will focus on pre-production and production of an animated short film to include character development, background and prop design, storyboarding, animatic creation, scriptwriting and storytelling.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 4652",
+      "notes": [
+        "Permission of Instructor"
+      ],
+      "prereqs": "ANIM 4651",
+      "title": "Digital Animation Studio I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136882",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will continue to advance in selected topics in professional animation, which will include independent student research. A focus on production and post-production of an animated short film will be explored. Final output of a 2-5 minute animated short for portfolio and film festival entry may be achieved through individual and/or group collaborative work. Polishing individual works for portfolio creation will also be addressed. The course will be tailored to individual final exiting portfolio studies such as the Professional Exit Portfolio.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 4653",
+      "notes": [
+        "Permission of Instructor"
+      ],
+      "prereqs": "ANIM 4652",
+      "title": "Digital Animation Studio II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to industry-standard compositing and editing software. The practical application of the software will include composing and editing digital 2D and 3D content for the final presentation.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 4730",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ANIM 2770",
+          "ANIM 3635"
+        ]
+      },
+      "title": "Digital Animation Compositing and Editing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137307",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will introduce students to effective communication using Digital 3D Motion Graphics, including its application in the areas of film titles, broadcast and commercial design, interactive media, and gaming. The combination of music, visuals, and typography will be explored following the basic kinetic composition and aesthetics theories. Projects will cover basic motion graphics principles, design and composition, timing, storyboarding and planning, sound and music development, and synchronization. Appropriate and current industry-standard computer applications will be introduced and applied. It may be repeated for credit. The student will be expected to be able to effectively apply these techniques to create portfolio-quality, industry-level, student-directed projects.",
+      "groups": [
+        "conc-3d-animation",
+        "conc-2d-animation"
+      ],
+      "id": "ANIM 4740",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ANIM 2770",
+          "ART 4024"
+        ]
+      },
+      "title": "Advance 3D Motion Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137305",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is the first part of a two-course sequence where students learn to create 3D animation projects. The course will cover various topics, including idea generation, experimentation, problem-solving, planning and time management, and critical analysis to help students improve their digital 3D skills. Students can choose their 3D animation technique, content, and form. They will learn the importance of completing their projects and receive guidance from faculty as they work on their independent projects. Students are also encouraged to showcase their work in locations where they can network with professionals in their field.",
+      "groups": [
+        "conc-3d-animation"
+      ],
+      "id": "ANIM 4760",
+      "notes": [],
+      "prereqs": "ANIM 2770",
+      "title": "3D Solo Production I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137306",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is the second part of a two-course sequence where students learn to create 3D animation projects. The course will cover various advanced topics, including idea generation, experimentation, problem-solving, planning and time management, and critical analysis to help students improve their digital 3D skills. Students can choose their 3D animation technique, content, and form. They will learn the importance of completing their projects and receive guidance from faculty as they work on their independent projects. Students are also encouraged to showcase their work in locations where they can network with professionals in their field.",
+      "groups": [
+        "conc-3d-animation"
+      ],
+      "id": "ANIM 4761",
+      "notes": [],
+      "prereqs": "ANIM 4760",
+      "title": "3D Solo Production II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134319",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture/discussion course surveys the art and architecture of the western world from prehistory through the middle ages. It includes an introduction to parallel developments in Asia, Africa, and the Americas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARH 2750",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ancient through Medieval Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134320",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a lecture/discussion course in which students study major developments and trends in world art from the fifteenth through the twentieth centuries CE. It includes an introduction to parallel developments in Asia, Africa, and the Americas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARH 2850",
+      "notes": [],
+      "prereqs": null,
+      "title": "Renaissance through Modern Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134321",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture/discussion course surveys the art of India and Southeast Asia, China, Japan, and Korea from prehistory to the present. Students study the chronological developments of the major styles of painting, sculpture, architecture, and decorative arts from these regions. The course discusses artistic achievements and aesthetics, and it explores how cultural, political, religious, and social climates have shaped the visual arts in Asia from the beginnings of its civilization to the 21st century.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3000",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "ARH 2750",
+              "ARH 2850"
+            ]
+          },
+          "ENGL 1102"
+        ]
+      },
+      "title": "Asian Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134322",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys select tradition-based African arts from the pre-colonial period up until the present day. Emphasis is placed on the study of key monuments and media within a regional and chronological framework, but also on the cultural principles and concepts reflected in canonical African art. The interrelation of art with ritual, religious belief, gender, politics, and history will be continuing themes. Primary media discussed include architecture, sculpture, masquerade, body adornments, and textiles.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3100",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "African Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134323",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of visual culture from the Islamic world, beginning with its origins in the seventh century. It examines a range of media, including ceramics, metalwork, textiles, arts of the book, sculpture, and architecture. It considers artistic production and consumption in a variety of regions and social contexts in the Middle East, Europe, Africa, and Asia. And it explores issues such as the definition of Islamic art, its study in the West, and Orientalism.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3150",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Islamic Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134324",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the arts of select Mesoamerica and Andean cultures up to the colonial period. Monuments are studied in a chronological framework with emphasis on the principles and concepts that underlie the art. Style, technique, and media are considered, as well as the varied contexts of art production and reception and the interrelation of art with religion, statecraft, gender, and nature. Sculpture, architecture, textiles, earthworks, metals, and ceramics are the principal art media under consideration.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3200",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Ancient American Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135569",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys key monuments and cultural principles in the arts of select native North American cultures from the pre-contact period until the present day. Architecture, earthworks, terracotta and stone sculpture, textiles, ceramics, and body arts are studied within a regional and chronological framework. The interrelations of art with ritual, religious belief, myth, nature, gender, politics, and history will be continuing themes.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3240",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Native North American Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134325",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of Latin-American art from the colonial period to the present. Students in this course study art of the Spanish and Portuguese colonial period, art of the nineteenth century following independence, and major developments and trends in modern painting, sculpture, and architecture since 1900.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3250",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Latin American Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134326",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the art and architecture of ancient Egypt and Nubia. Monuments are studied in a chronological framework with emphasis on the principles and concepts that underlie art. Style, technique and media are considered, as well as the varied contexts of art production and reception and the interrelation of art with religion, myth, social life, and history. Architecture, sculpture, and body modification and adornments are the principle media considered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3300",
+      "notes": [],
+      "prereqs": "ARH 2750",
+      "title": "Ancient Egyptian and Nubian Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135565",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the art and archaeology of the ancient Near East (now the Middle East), from the 4th millennium BCE through the 7th century CE. It examines a range of media in their social, political, and intellectual contexts. It also explores issues such as cultural interaction; political art of ancient empires; gender, ethnicity, and identity; the definition of the \u201cNear East\u201d; Biblical archaeology; and heritage management (especially in times of conflict).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3320",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Ancient Near Eastern Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134327",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of ancient Greek visual culture through the Hellenistic period. It examines a range of media in their social, political, and intellectual contexts, exploring such issues as connoisseurship; portraiture; commemorative art; architecture and urban development; cross-cultural exchange; gender, ethnicity, and identity; and ancient art history and criticism. It incorporates new archaeological discoveries as much as possible, and it encourages students to visit museums.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3350",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2750",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Greek Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134328",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the art and architecture of Republican and Imperial Rome, from the first century B.C.E. to the fourth century C.E. It examines a range of media (e.g., coins, pottery, mosaics, sculpture, painting, and architecture) within their social contexts, dealing with such issues as the viewer and viewing; portraiture; gender; ethnicity; social status; domestic space; and urban development. This course incorporates new archaeological discoveries as much as possible, and it encourages students to visit museums.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3370",
+      "notes": [],
+      "prereqs": "ARH 2750",
+      "title": "Roman Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135566",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of medieval art and architecture in Europe and the eastern Mediterranean, from the fourth through fourteenth centuries. It examines a range of media within their social, political, and intellectual contexts, and it discusses such issues as the interaction among the visual cultures of Christianity, Judaism, and Islam; the art of the Crusades; the relationship between word and image; pilgrimage and monasticism; urban development; and gender, ethnicity, and social status.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3400",
+      "notes": [],
+      "prereqs": "ARH 2750",
+      "title": "Medieval Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134330",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of art and architecture in Italy from the early fourteenth century to the mid-sixteenth century. The veneration of classical antiquity and the development of naturalistic representation are examined. Issues of patronage, artists\u2019 training, and technology are also addressed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3500",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Italian Renaissance Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134331",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of major movements, artists and themes in seventeenth- and eighteenth-century art and architecture in Europe and the Americas.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3600",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Baroque Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134332",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of major developments and trends in nineteenth-century painting, sculpture, and architecture. It reviews major aesthetic theories and non-western art forms that shaped nineteenth-century art.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3700",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Nineteenth-Century Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134333",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the styles and movements of art and architecture in the United States from colonial times to present.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3750",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          "ENGL 1102"
+        ]
+      },
+      "title": "History of American Art and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136980",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course will examine the historical development of comics, cartoons, and animation in global culture, tracing their evolution against the background of social, cultural, and technological changes from the 17th to the 21st centuries. Topics may include the subsequent emergence of various related art forms such as animated cartoons and graphic novels.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARH 3830",
+      "notes": [],
+      "prereqs": "ARH 2850",
+      "title": "History of Comics, Cartoons and Animation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134334",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a lecture/discussion course in which students study major developments and trends in visual arts since 1900. Students become familiar with the dominant artistic practices and critical theories that defined \u201cmodernism,\u201d and with the social, political, and cultural changes that initiated the shift in visual art from modernism to post-modernism.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3850",
+      "notes": [
+        "Non-art majors: ENGL 1102 and permission of the instructor"
+      ],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Art Since 1900"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134335",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a lecture/discussion course in which students are introduced to the main methodologies of art historical research and learn to apply them to the analysis of artistic practice. Lectures and discussions focus on how works and styles of art are looked at and studied, rather than the meaning/significance of the works or styles of art themselves. Students become familiar with the contributions of the most important art historians who have shaped the discipline of art history. During the semester we examine traditional as well as postmodern methodologies including formalism, biography, iconology, Marxism and feminist deconstruction, psychoanalytic and semiotic approaches (including structuralism and post-structuralism).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 3990",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1102",
+          "ARH 2750",
+          "ARH 2850"
+        ]
+      },
+      "title": "Research Methods in Art History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134336",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines one of four art historical periods by combining lecture/discussion with practical applications. The first week explores the character of the period as it developed according to historical, social, cultural and artistic trends, while the second week involves the practical application of painting techniques that were developed in the Italian Renaissance and applied by academics of art until the beginning of the twentieth century.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4000",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          {
+            "or": [
+              "ART 1100",
+              "ART 1150"
+            ]
+          }
+        ]
+      },
+      "title": "Historical Studio Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134337",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to African-American art designed to explore the diverse aesthetic expressions of African-American artists from colonial times to the present. Through an examination of aspects of the religious, social, cultural and creative history of Black Americans, students will develop an understanding of the wealth of contributions made by people of African descent to the development of American art and culture.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4150",
+      "notes": [],
+      "prereqs": "ARH 2850",
+      "title": "African-American Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134340",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the history of women in the visual arts, particularly as artists, but also as subjects, focusing on western Europe and the Americas. It also considers the evolution of feminism and its applications in art history.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4500",
+      "notes": [],
+      "prereqs": "ARH 2850",
+      "title": "Women in Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134341",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is in a seminar format. Unlike the straightforward lecture approach of survey courses, a seminar is a forum for open discussion of pertinent topics. The Victorian Period covers the reign of Queen Victoria of England, who sat on the throne from 1837 to 1901. An initial overview will touch on several different topics that define the Victorian era, and subsequent classes will consist of student presentations and in-depth class discussions based on assigned readings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4700",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARH 2850",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Victorian Art and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135657",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the rich and varied art history of prints in relief, intaglio, serigraphy, lithography and other graphic media. From the early Renaissance in Europe, to Edo Japan, to the 21st century, a variety of major artists have engaged in this challenging art form. This course covers the evolution of print processes and meanings through the centuries.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4820",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1102",
+          "ARH 2850"
+        ]
+      },
+      "title": "History of Printmaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134343",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a lecture/discussion course in which students will study the major developments in graphic design from the Industrial Revolution to the present. This course will familiarize students with major trends in European and American design, with a particular focus on graphic design in the context of art history and the history of material culture. Organized as a survey course, the class will focus on key examples of styles and innovations in graphic design, as they developed in relationship to their times and places. Students will recognize similarities and differences between the work of significant designers, and contemporary developments in modernist visual art, and the theoretical underpinnings of major design movements.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4840",
+      "notes": [],
+      "prereqs": null,
+      "title": "History of Graphic Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134344",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A selective survey of nineteenth and twentieth century photography, primarily in Europe and America, emphasizing photography\u2019s development as an artistic medium. Focus is on major practitioners of the medium, and on photography\u2019s relationship to historical events, psychology, sociology and the development of art and architecture.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4870",
+      "notes": [],
+      "prereqs": "ARH 2850",
+      "title": "History of Photography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136883",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the history of textile and fashion to understand past to present usage of certain materials and how those materials influence past, current, and future fashion trends.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4880",
+      "notes": [],
+      "prereqs": null,
+      "title": "History of Textiles and Fashion"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134345",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course begins with a consideration of the general reaction to Western Modernism that began in visual art after the 1950s and has come to be known as the period of \u201cPostmodernism,\u201d and proceeds to examine issues that define art and challenge artists today. Themes include but are not limited to originality, appropriation, deconstruction, identity politics, post-feminism, commodity critique, installation and performance, digital media, activism and globalism. Students become familiar with the key artists and critics whose ideas informed postmodernism and continue to inform artistic practice today, and the class examines art and critical theory associated with major themes that have emerged in recent art locally, nationally, and globally.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ARH 4900",
+      "notes": [],
+      "prereqs": "ARH 2850",
+      "title": "Contemporary Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134346",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Elements of art and the principles of two-dimensional design, with emphasis on line, shape, texture, space, value elements of color theory executed through conventional methods.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ART 1100",
+      "notes": [
+        "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
+      ],
+      "prereqs": null,
+      "title": "Two-Dimensional Design and Color Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Drawing, using a variety of media and techniques, including work from figure, still-life and landscape. Some drawing with digital media.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ART 1150",
+      "notes": [
+        "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
+      ],
+      "prereqs": null,
+      "title": "Drawing I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134349",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course in exploring, evaluating and resolving concepts related to basic three dimensional design problems. Exercises include three-dimensional drawing techniques and model building. Emphasis is placed on the application of elements and design and principles of organization as well as form and space relationships using a variety of media.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ART 1200",
+      "notes": [
+        "This course is for Art, BFA",
+        "Digital Animation, BFA majors only"
+      ],
+      "prereqs": {
+        "and": [
+          "ART 1100",
+          "ART 1150"
+        ]
+      },
+      "title": "Three-Dimensional Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134350",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Pictorial composition with studies in use of line, form, value and texture, including work from nature, the life model and setups.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ART 2150",
+      "notes": [
+        ". This course is for Art, BFA",
+        "Digital Animation, BFA majors only"
+      ],
+      "prereqs": {
+        "and": [
+          "ART 1100",
+          "ART 1150"
+        ]
+      },
+      "title": "Drawing II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134351",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of computer technology employed by professional artists. Digital presentation and documentation techniques covered. Limited work with art production software.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ART 2550",
+      "notes": [
+        ".This course is for Art, BFA",
+        "Digital Animation, BFA majors only"
+      ],
+      "prereqs": {
+        "and": [
+          "ART 1100",
+          "ART 1150"
+        ]
+      },
+      "title": "Computer Applications in Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134352",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a studio art foundation course and is a prerequisite for the BFA majors in all concentrations. It is designed as an introduction to the studio practices and conceptual processes of a creative artist.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ART 2990",
+      "notes": [
+        "This course is for students who have passed the portfolio requirement",
+        "been accepted into the School of Art",
+        "Design with majors in BFA Art Including students in the Art Education concentration",
+        "BFA in Digital Animation"
+      ],
+      "prereqs": null,
+      "title": "Concept, Creativity, and Studio Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134354",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The focus of this course is the execution of quality illustrations. The blending of traditional and electronic images will be influenced and strengthened by the history of illustration. The illustrations will be adapted for print and web using advanced conceptual skills and digital techniques. The strong development of form and color and the elements and principles of design will be stressed.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 3015",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ART 2550",
+          "ANIM 1550"
+        ]
+      },
+      "title": "Electronic Illustration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134358",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Intensive study of the human figure; action, structure, volume, design and expressive potentialities from a variety of models, using a variety of media. Some portraiture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 3150",
+      "notes": [],
+      "prereqs": "ART 2150",
+      "title": "Figure Drawing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134359",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Painting with various media emphasizing organizational structure, technical considerations and abstract relationships.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 3160",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 1100",
+          "ART 1150"
+        ]
+      },
+      "title": "Painting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136594",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the art of comics. The art of making effective, strong and original layouts is emphasized in this course. Students acquire a basic understanding of the history of the medium current trends, orthodox and experimental narrative techniques that are possible.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 3705",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 1100",
+          "ART 1150",
+          "ART 1200",
+          "ART 2550",
+          "ART 2990",
+          "ART 2150"
+        ]
+      },
+      "title": "Sequential Art I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136595",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class explores the formal underpinnings of comics and provides an overview of tools and techniques utilized in the creation of sequential art.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 3715",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 3150",
+          "ART 3705"
+        ]
+      },
+      "title": "Sequential Art II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134377",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with the foundations for interactive media design using current industry software applications. It emphasizes the creation and delivery of basic interactive content for current interactive environments, while exploring the features and capabilities of various software applications. Students are expected to demonstrate a high level of technical and creative mastery in their final projects, along with creating successful user experiences.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4023",
+      "notes": [],
+      "prereqs": "ART 2550",
+      "title": "Interactive Media Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135562",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides the student with foundations for motion graphics and digital video using current industry applications. The emphasis is on learning the history, theory, principles, and elements of motion graphic design and the process of motion graphic creation. A broad range of themes, concepts, digital animation, and current technologies are discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 4024",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ART 2550",
+          "ANIM 1550"
+        ]
+      },
+      "title": "Motion Graphics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136488",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the unique considerations involved in the creation of concept art. Character and environment design will be explored. Traditional and digital mediums will be considered.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4036",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 3150",
+          "ART 3160"
+        ]
+      },
+      "title": "Concept Art I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136894",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course continues the exploration of concept art begun in Concept Art I through painting and drawing, source image collection, or moquette construction. Students will have the option to use traditional painting and drawing mediums as well as contemporary digital painting and drawing software.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4037",
+      "notes": [],
+      "prereqs": "ART 4036",
+      "title": "Concept Art II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134380",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Detailed study of the human figure as a subject in art, including drawing and painting from the live model. Portraiture will be considered in addition to the structure and design potential of the figure.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4256",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 3150",
+          "ART 3160"
+        ]
+      },
+      "title": "Advanced Figure I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136888",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Detailed study of the human figure as a subject in art, including drawing and painting from the live model. Portraiture will be considered in addition to the structure and design potential of the figure. Expectations exceed levels of ART 4256 Advanced Figure I.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4257",
+      "notes": [],
+      "prereqs": "ART 4256",
+      "title": "Advanced Figure II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136889",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, expectations exceed levels of ART 4257 Advanced Figure II. The focus is detailed study of the human figure as a subject in art, including drawing and painting from the live model. Portraiture will be considered in addition to the structure and design potential of the figure. Various drawing mediums will be used including charcoal and pastel. Various painting mediums will include oil, acrylic and watercolor.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4258",
+      "notes": [],
+      "prereqs": "ART 4257",
+      "title": "Advanced Figure III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136884",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class focuses on helping students develop their comic storytelling techniques by illuminating the relationship between text and image on the comic page, ideas of plot versus theme, the use of composition and symbolism in the comic panel, and how all of these correlations work together to serve the goal of the artist in communicating their personal narrative vision in the comic form.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4721",
+      "notes": [],
+      "prereqs": "ART 3150",
+      "title": "Comic Storytelling I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136899",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class focuses on more advanced development of student comic storytelling techniques by illuminating the relationship between text and image on the comic page, ideas of plot versus theme, the use of composition and symbolism in the comic panel, and how all of these correlations work together to serve the goal of the artist in communicating their personal narrative vision in the comic form.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4722",
+      "notes": [],
+      "prereqs": "ART 4721",
+      "title": "Comic Storytelling II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136900",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building on ART 4722, this class furthers the development of student comic storytelling techniques by illuminating the relationship between text and image on the comic page, ideas of plot versus theme, the use of composition and symbolism in the comic panel, and how all of these correlations work together to serve the goal of the artist in communicating their personal narrative vision in the comic form.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4723",
+      "notes": [],
+      "prereqs": "ART 4722",
+      "title": "Comic Storytelling III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136588",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course rigorously combines theory and practice, exploring how different genres (e.g. poem, short story, novel, journalism, film) can be adapted into a sequential art format.",
+      "groups": [
+        "conc-2d-animation"
+      ],
+      "id": "ART 4736",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ART 3150",
+          "ART 3705"
+        ]
+      },
+      "title": "Experimental Comics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-3d-animation"
+        ],
+        "label": "3D Animation"
+      },
+      {
+        "groups": [
+          "conc-2d-animation"
+        ],
+        "label": "2D Animation"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bfa-digital-animation",
+    "name": "BFA Digital Animation"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

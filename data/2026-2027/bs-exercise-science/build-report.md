@@ -2,8 +2,6 @@
 
 ## Warnings needing review
 
-- **ES 2500**
-  - unrecognized: Nutritional Science Minor
 - **ES 3700**
   - unrecognized: Strength
   - unrecognized: Conditioning Laboratory

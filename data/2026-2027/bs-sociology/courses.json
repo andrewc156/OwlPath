@@ -1,0 +1,933 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134261",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a developmental introduction to the interdisciplinary origins and methods of Black Studies (also known as African & African Diaspora, Africana, African American, and Pan-African Studies). Students compare and contrast historical, cultural, economic, and social phenomena in Africa to African-descended people in the Americas, Europe, Oceania and Asia. Students learn about Black Studies as a field of intellectual inquiry and key contributions of pioneers from a variety of disciplinary backgrounds.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BLCK 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Black Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the various genres of mass media such as books, magazines, newspapers, radio, television, film, Internet and others. Examines the development, roles, functions, problems and criticisms of specific media from a global context.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 2230",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Mass Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of law, ethics and diversity in mass media. It examines the basics of freedom of expression and press laws in the United States including freedom of information and access to government records. The course analyzes several approaches to ethics in media, journalism and public relations. It also examines diversity in the mass media, journalism and public relations industries.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 2240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Communication Law, Ethics and Diversity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136555",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores substantive criminal offenses and defenses. Topic areas include the types and elements of felony and misdemeanor criminal offenses, defenses to crimes, and lower and appellate case law interpretations of crimes and defenses. Emphasis is placed on federal and state criminal law, including those pertaining to Georgia. The course also evaluates the historical development of crimes and defenses, public policy implications, and the underlying principles that guide the development of crimes and defenses.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CRJU 2201",
+      "notes": [],
+      "prereqs": null,
+      "title": "Crimes and Defenses"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134543",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course involves an in-depth study of technology as it relates to crime and the criminal justice system. Topics discussed include technology associated with criminal investigations, law enforcement practices, offender monitoring and supervision, and homeland security. Legal issues and laws pertaining to the use of technology for investigative purposes, privacy issues, and fourth amendment issues are examined. Various technologies used by police, courts, and corrections are also addressed.",
+      "groups": [
+        "conc-criminology"
+      ],
+      "id": "CRJU 3305",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CRJU 1101"
+          },
+          "SOCI 1101"
+        ]
+      },
+      "title": "Technology and Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the juvenile justice system including the processing of juvenile offenders from the delinquent act through disposition and discharge. The nature and extent of juvenile delinquency and theories of delinquency are also addressed. Emphasis is placed on the historical purpose of the juvenile court, the effects of the due process revolution on the juvenile justice system, and current research and trends related to juvenile delinquency and justice.",
+      "groups": [
+        "conc-criminology"
+      ],
+      "id": "CRJU 3352",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CRJU 1101"
+          },
+          "SOCI 1101"
+        ]
+      },
+      "title": "Juvenile Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134552",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth examination of repeat, violent offenders. Topic areas include offender characteristics, victim traits and characteristics, offender identification and investigative strategies, and criminal justice policies that are focused on serial offending. Emphasis is placed on the examination of theories and research that explain how serial offenders evolve across their life-course from childhood to adulthood.",
+      "groups": [
+        "conc-criminology"
+      ],
+      "id": "CRJU 3365",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CRJU 1101"
+          },
+          "SOCI 1101"
+        ]
+      },
+      "title": "Profile of the Serial Offender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134560",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of criminal victimization in the U.S. This course includes an examination of theories of victimization, research on the scope and impact of specific types of victimization, and efforts to prevent victimization. Additional topics covered include victims\u2019 interactions with the criminal justice system, victims\u2019 rights, social services for victims, and other efforts to address the needs of crime victims.",
+      "groups": [
+        "conc-criminology"
+      ],
+      "id": "CRJU 4430",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CRJU 1101"
+          },
+          "SOCI 1101"
+        ]
+      },
+      "title": "Victimology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135951",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to world regions through the context of human geography. The course focuses on basic geographic concepts to analyze social, economic and political issues at local, regional and global scales. Elements of fundamental physical geography will be discussed to illustrate the spatial relationships between the physical environment and human geography.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1130",
+      "notes": [],
+      "prereqs": null,
+      "title": "World Regional Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134798",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the foundational figures, themes, and texts in the history of gender and women\u2019s studies in an interdisciplinary and global context. Themes to be addressed include sameness vs. difference feminisms; the sex/gender distinction; internal and external critiques of Western feminisms; transnational and global feminisms; feminism\u2019s relationship to critical race studies, postcolonialism, queer theory; and gender, trans-gender, and masculinity studies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GWST 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Gender and Women\u2019s Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134943",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This required course provides students with an overview of helping professions. Topics include: philosophy of human services; characteristics of human service workers; careers in human services; description of public, nonprofit and for-profit agencies; theory; and cultural diversity. Human service majors are required to take this course prior to applying for admission into the HS program. This course is also a prerequisite for other HS courses. Students must complete 20 hours of volunteer service as a requirement of this class.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Overview of Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134944",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introductory course is designed to provide knowledge, theory, and skills in the administrative/management aspects of nonprofit organizations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 2200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fundamentals of Nonprofits"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134946",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundation required course in human diversity enhances students\u2019 abilities to understand, evaluate, and provide culturally sensitive and competent human services to members of diverse groups. This course gives students the opportunity to reflect upon their own cultural development and to be more sensitive to others",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HS 2300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Competence in the Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135289",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is a philosophical examination of contemporary values and their place within society from a global perspective, focusing on issues of global inequality, cultural relativism, and the question of a global ethic.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PHIL 2100",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Values and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135291",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is an introduction to logic with a focus on the theoretical and practical aspects of reasoning and argumentation. The course will cover topics such as formal and informal fallacies, inductive and deductive methods of reasoning, and how to examine everyday sources of knowledge.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PHIL 2500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Logic and Critical Thinking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135313",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a general survey of state and local government; recent and current trends.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 2212",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "State and Local Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135314",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the comparative approaches for the study of politics, focusing on patterns of development and change in contemporary political systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 2240",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to Comparative Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the study of international relations. Sources of international order, conflict and war, determinants of foreign policy, global actors and the dynamics of political interaction between nation-states are examined.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 2250",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to International Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-12",
+      "description": "Upper division study abroad course denoting junior, senior level work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SA 4490",
+      "notes": [
+        "Varies with discipline and subject"
+      ],
+      "prereqs": null,
+      "title": "Upper-division Study Abroad"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135766",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an overview of sociology, which emphasizes the social nature of human behavior, including an introduction to culture, social structure, socialization, deviance, stratification, family, gender, religion, demography, and complex organization.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135933",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce students to research skills, concepts, and strategies essential for academic success in an undergraduate Sociology program. Included is an introduction to the ethical questions of social science methods and theory. The primary objective of this course is to assist students in being successful student sociologists and their transition to professionally relevant fields and/or graduate school.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 2210",
+      "notes": [],
+      "prereqs": "SOCI 1101",
+      "title": "Professional Development for Sociology Students"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135422",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes an overview of current social problems facing American society with attention to developing insights into the conceptual analysis of meaningful solutions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 2251",
+      "notes": [],
+      "prereqs": null,
+      "title": "Social Problems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the historical development of social theory. It emphasizes the major theories and theoreticians of sociology and their importance for understanding contemporary sociology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 3300",
+      "notes": [],
+      "prereqs": "SOCI 1101",
+      "title": "Foundations of Social Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136607",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces a wide range of statistical concepts and techniques used in sociology. Students learn how to summarize data, generalize from a sample to a population, and determine the relationships between two or more variables. The course emphasizes the application, interpretation, and critique of various statistical techniques, including means tests, cross tabulation, ANOVA, correlation, and regression. Students use computer software to analyze sociological data.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3303",
+      "notes": [],
+      "prereqs": null,
+      "title": "Statistics for Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135424",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to large scale social organizations, with an emphasis on bureaucracy. It examines both the formal and informal aspects of bureaucracy, including topics ranging from power and authority, to centralization and decentralization, red tape, and professionalism.",
+      "groups": [
+        "major-required",
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3304",
+      "notes": [],
+      "prereqs": null,
+      "title": "Social Organization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136024",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to concepts and techniques used in social science research. Students acquire a foundational understanding of research methods in sociology, learn how to link theory and data, and examine the ethical considerations required for social research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 3305",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SOCI 1101",
+          "SOCI 2210"
+        ]
+      },
+      "title": "Research Methods in Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135425",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the multi-disciplinary field of gerontology which provides an overview of the sociology, psychology, and the physiology of aging. Students will consider research and theories of aging as well as participate in field trip experiences in gerontological settings. A key goal is to develop a more realistic perception of the aging process.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3310",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Gerontology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135426",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the social construction of racial and ethnic categories and inequalities between various groups. Topics of study include immigration, prejudice, discrimination, segregation, and racism, as well as ways to address current problems of racial and ethnic conflict.",
+      "groups": [
+        "major-required",
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3314",
+      "notes": [],
+      "prereqs": null,
+      "title": "Race and Ethnicity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135934",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Conventional sociological perspectives address social life and social interaction through the context of the nation-state system. The increasing movement of ideas, capital, and people across national borders challenges the ability of conventional sociological approaches to assess the social transformation occurring within these trans-local and transcontinental contexts. Through a systematic examination of comparative and transnational sociological approaches, the course provides students with the critical skills to understand and address the complexity of the contemporary global world.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3315",
+      "notes": [],
+      "prereqs": null,
+      "title": "Transnational Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class explores the range of services, programs, and employment opportunities related to aging. The goal is to familiarize students with the gerontology field so that they can develop interests, contacts, resources, and knowledge about the aging network to use both personally and professionally. Students further develop and refine academic plans, career paths, and personal and professional goals related to working with older adults.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3320",
+      "notes": [],
+      "prereqs": null,
+      "title": "Exploring the Aging Network"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135428",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines gender as a major organizing principle in society and explores the ways in which gender intersects with other types of social differentiation including race, sexuality, social class, and nationality. The course also explores the implications of changes in family, economic, and political structures related to gender and their impact on equality in contemporary society.",
+      "groups": [
+        "major-required",
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3324",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135429",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the interaction between scientific and technological development and social development, social structure and social issues.",
+      "groups": [
+        "major-required",
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3333",
+      "notes": [],
+      "prereqs": null,
+      "title": "Technology and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135430",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines religion as a social institution in historical, comparative, and contemporary terms. World religions and new religious movements are studied as sociocultural processes involving the need to know, to deal with problems and to adapt to change.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3334",
+      "notes": [],
+      "prereqs": null,
+      "title": "Religion and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135431",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to examine the multiple manifestations of biotechnology and their social change implications. The course locates the biotechnology revolution in the broader socio-historical context within which it is emerging. The course focuses on the examination of the ways in which the development and deployment of biotechnology are transforming the cultural and institutional character of modern societies. This includes an examination of social, ethical/moral and legal/legislative issues and their impact on policy.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3344",
+      "notes": [],
+      "prereqs": null,
+      "title": "Biotechnology and Social Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135742",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The primary objective of this course is to understand how race, class, and gender intersect to fundamentally shape social interaction, conditions, and institutions in American society. This course examines the ways in which race, class, and gender are socially constructed and how they interconnect to create and maintain systems of privilege and inequality.",
+      "groups": [
+        "major-required",
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3350",
+      "notes": [],
+      "prereqs": null,
+      "title": "Intersections of Race, Class, and Gender"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135432",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines social class and hierarchy in America. Issues in empowerment, equality, styles of life, and the nature of poverty and social mobility will be highlighted.",
+      "groups": [
+        "major-required",
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3354",
+      "notes": [],
+      "prereqs": null,
+      "title": "Social Class and Mobility"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135433",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the root causes and consequences of violent behavior exhibited by individuals in our society. Topics covered include the social and cultural contexts that breed violence, society\u2019s influence on specific crimes, and human social behavior.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3360",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of Violence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135434",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the institution of the family in historical and cross-cultural perspective, including an analysis of the American family system, its social structure and alteration, and its relation to other social institutions.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3364",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of the Family"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137069",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course covers theories that explain the origins of conflict, escalation and de-escalation, and the theories and practices of conflict transformation between individuals and groups.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3370",
+      "notes": [],
+      "prereqs": null,
+      "title": "Strategies for Conflict Transformation: Theories and Tools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135435",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the world of work, the changing nature of work, and the implications of these changes for individuals and families. Key themes include theories of work and labor process, intersections of race, ethnicity, and gender, job satisfaction and motivation, labor unions, technological and global challenges, and the structure of professions and occupations.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 3374",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of Work and Occupations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135570",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the connections between society, communities, and the health of individuals. Topics include sociological approaches to global health inequalities, tensions between medicine and culture and the ethics of public health and biomedical research. Students critically analyze major issues of health and illness confronting selected subpopulations. The course introduces students to selected theoretical frameworks that address social determinants of health.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 3380",
+      "notes": [],
+      "prereqs": null,
+      "title": "Society, Community, & Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines drug use and abuse, including alcohol. Specifically, it examines how different drugs affect the body, theories of drug use, the sociological context of drug use, the impact of drug use and abuse on society, drug treatment, drug use policies, drugs and the law, and the extent of drug use in our society and globally.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 4200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Drugs, Alcohol, and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137253",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a substantial experiential learning opportunity that links student interest and sociological principles in an applied workplace setting. Through direct observation, reflection, and evaluation, students gain an understanding of the organizational site, including its structure, mission, interpersonal relationships, power dynamics, conflict, and how these relate to opportunities for possible constructive organizational change. Students produce critical reflection on their experience demonstrating how they have addressed specific learning goals.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 4405",
+      "notes": [
+        "60 hours",
+        "Declared student in WIRC Certificate Program"
+      ],
+      "prereqs": null,
+      "title": "Applied Workplace Interpersonal Skills"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135936",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn the qualitative strategies used in sociology research methods, including ethnographic techniques applied in sociology, participant observation, in-depth interviewing, and content analysis. Students learn ethical implications of social research, and how to design a qualitative research study, develop interview guides, construct content analysis templates, conduct observations on the field, conduct interviews, code data, and analyze qualitative data. Students learn skills using software applications for data management and analysis and write a research proposal.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 4410",
+      "notes": [],
+      "prereqs": "SOCI 3305",
+      "title": "Advanced Qualitative Research Methods in Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135937",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the concepts and techniques used for quantitative research in sociology. Students learn to interpret, calculate, and critique the basic statistics used in quantitative methods in sociology. Students acquire the skills to use Statistical Package for Social Sciences (SPSS) computer program for managing and analyzing numerical data. Students learn the ethical implications of social science research and write a research proposal for a quantitative study.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology",
+        "conc-culture-and-social-change",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 4420",
+      "notes": [],
+      "prereqs": "SOCI 3305",
+      "title": "Advanced Quantitative Research Methods in Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the nature and extent of crime and the causes and correlates of criminal behavior. This course also examines the major criminological theories, including biological, psychological, sociological, rational choice, and developmental theories.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology"
+      ],
+      "id": "SOCI 4432",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "SOCI 1101",
+          {
+            "external": "CRJU 1101"
+          }
+        ]
+      },
+      "title": "Criminology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135441",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines current social, political and economic trends and issues in Africa, including a critical analysis of transformations in contemporary African societies. This course frames Africa\u2019s sociopolitical history around the notion of \u201ccontact\u201d in the eras of pre-European \u201ccontact\u201d, European \u201ccontact and domination\u201d (trade, slavery, colonialism, and imperialism), and post-colonial political formations, including military adventurism. This course also examines social movements and other forms of resistance, including an examination of Pan-Africanism and anti-colonial nationalisms.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 4434",
+      "notes": [],
+      "prereqs": null,
+      "title": "Emerging Social Issues in Africa"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135935",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines social change and development in the South Asian societies through a historically informed analysis of social institutions in the region. Some of the key themes explored include contested histories, identity politics and nationalism, democratization, growth, poverty, and inequality. The course includes case studies from Afghanistan, Bangladesh, Bhutan, Nepal, Pakistan, and Sri Lanka, but its main focus is on India.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 4435",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of South Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135442",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a survey of the nature, causes, and consequences of deviant behavior. It provides an analysis of the problems of definition, identification, explanation, and social reaction to violations of institutional expectations and presents techniques of social control.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-criminology"
+      ],
+      "id": "SOCI 4442",
+      "notes": [],
+      "prereqs": null,
+      "title": "Deviance and Social Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135443",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an analysis of (1) the social processes affecting conditions of health and illness and (2) the cluster of social relationships and organizations that comprise the social institution of health. It emphasizes the sociocultural factors that influence definitions of health and illness, causes, preventions and treatments, cross-cultural and interclass comparisons of stress, delivery of health care, mental illness, death and dying, and health care professionals.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 4443",
+      "notes": [],
+      "prereqs": null,
+      "title": "Medical Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines theories and empirical research on social movements, why, how, and when they emerge, develop, and effect social change, along with technological, economic, organizational, and political forces for social change.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-culture-and-social-change"
+      ],
+      "id": "SOCI 4444",
+      "notes": [],
+      "prereqs": null,
+      "title": "Social Movements and Social Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135445",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the social aspects of mental illness. Topics include the history of mental illness, definitions, diagnoses, treatment institutions, and social factors that influence severity and course. The course will consider the characterization of \u201cmental disorders\u201d as \u201cdiseases,\u201d the applicability of a resocialization model, and ethical issues.",
+      "groups": [
+        "conc-general-sociology",
+        "conc-medical-sociology"
+      ],
+      "id": "SOCI 4445",
+      "notes": [],
+      "prereqs": null,
+      "title": "Sociology of Mental Illness"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135448",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course is designed to complete the major by integrating theory, research, and sociological issues from divergent specialty areas of the sociology curriculum. Students synthesize the material from previous sociology courses, highlighting the central importance of the intersecting impact of race, class, and gender. Students submit and present a final report.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SOCI 4499",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SOCI 3300",
+          "SOCI 3305"
+        ]
+      },
+      "title": "Senior Seminar in Sociology"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-general-sociology"
+        ],
+        "label": "General Sociology"
+      },
+      {
+        "groups": [
+          "conc-criminology"
+        ],
+        "label": "Criminology"
+      },
+      {
+        "groups": [
+          "conc-culture-and-social-change"
+        ],
+        "label": "Culture and Social Change"
+      },
+      {
+        "groups": [
+          "conc-medical-sociology"
+        ],
+        "label": "Medical Sociology"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-sociology",
+    "name": "BS Sociology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

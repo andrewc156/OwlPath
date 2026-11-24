@@ -2,19 +2,11 @@
 
 ## Warnings needing review
 
-- **ECON 2105**
-  - unrecognized: higher
-- **ECON 2106**
-  - unrecognized: higher
-- **HHS 3500**
-  - unrecognized: Human Services
-  - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
-- **HHS 4800**
-  - unrecognized: Human Services
-  - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
+None.
 
 ## Notes
 
+- ACCT 2101: added MATH 1001 so (MATH 1001, MATH 1111, MATH 1113, MATH 1160, MATH 1179, MATH 1190, MATH 2202) has an option on the map
 - HHS 3500: added DATA 1501 so (DATA 1501, STAT 2332, STAT 1401, MATH 1160, MATH 1190, MATH 1179, MATH 2202) has an option on the map
 
 ## Left out on purpose

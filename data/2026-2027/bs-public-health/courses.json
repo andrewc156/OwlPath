@@ -1,0 +1,443 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "PH 2100",
+      "HHS 2100"
+    ],
+    [
+      "HPAL 2250",
+      "BIOL 2251"
+    ],
+    [
+      "PH 3330",
+      "NURS 3330"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the first course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, biological chemistry; cellular structure and function; tissues; and the integumentary, skeletal, muscular, and nervous systems. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions. Cannot be used for credit toward a degree in Biology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2251",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CHEM 1151",
+              "CHEM 1151L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "CHEM 1211"
+              },
+              {
+                "external": "CHEM 1211L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 1111"
+              },
+              {
+                "external": "PHYS 1111L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1107"
+              },
+              {
+                "external": "BIOL 1107L"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "BIOL 1108"
+              },
+              {
+                "external": "BIOL 1108L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Anatomy & Physiology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors. Topics to be covered include elements and compounds, chemical equations, nomenclature, and molecular geometry.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134439",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1151",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1151.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with an overview of disciplines related to health and human services. Students focus on learning the philosophical basis, key theories, ethics, and history of disciplines in health and human services. Students articulate the characteristics of health and human service workers and describe various career paths. Students are able to describe the interdisciplinary character of health and human services by discussing the contributions of a range of disciplines and professions focused on improving health.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "HHS 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Overview of Health and Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135615",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of the structure and function of the major body systems, with emphasis on the muscular, skeletal, and cardio-respiratory systems role in human movement and physical activity.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "HPAL 2250",
+      "notes": [
+        "Any General Education D2 core curriculum course"
+      ],
+      "prereqs": null,
+      "title": "Anatomy and Physiology for Health and Physical Activity Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134946",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundation required course in human diversity enhances students\u2019 abilities to understand, evaluate, and provide culturally sensitive and competent human services to members of diverse groups. This course gives students the opportunity to reflect upon their own cultural development and to be more sensitive to others",
+      "groups": [
+        "core-field"
+      ],
+      "id": "HS 2300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Competence in the Human Services"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136437",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the basic structures and operations of the U.S. health system, including its major characteristics, foundations, components, finance, and future; health policy development process; and the impact of health policy on health systems and population health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3330",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PH 2100",
+          {
+            "external": "IHS 2100"
+          },
+          {
+            "external": "NURS 3209"
+          }
+        ]
+      },
+      "title": "Health Systems and Health Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136770",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to advance students\u2019 critical thinking, reading, and writing skills for the discipline. In this course, students will learn analytical techniques and communication strategies that will help make them successful in the Public Health program and the workforce. The course will build writing skills for health literacy, with emphasis on research methods, identifying reliable sources of health information, clear and accurate presentation of findings, APA formatting, and delivering audience-appropriate health messages.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PH 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Writing and Analysis for Public Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136433",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the Public Health discipline with a focus on historical, current, and future significance of public health education, key principles and terminology, philosophical and research foundations, writing and presentation skills, prominent public health officials and agencies, overview of various public health professions and institutions, ethical issues within the profession, professional roles and responsibilities, the public health education marketplace and core Public Health disciplines.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PH 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Public Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a theoretical foundation for public health practice. Topics include behavior theories, determinants and influences of health behaviors, and the use of behavior theories in guiding public health practice.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PH 2400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Behavior Theory and Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136771",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the applied analytic techniques used in public health and research. Topics include basic concepts of quantitative data analysis, methods of examining and describing central tendency and variability of public health data, techniques of analyzing numerical and categorical data, approaches to comparing differences and changes of public health status and outcome over time among population groups, and interpreting and communicating the results of data analysis. Emphasis is placed on applying relevant quantitative analytical techniques to solving practical problems encountered in public health and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 3150",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PH 2100",
+          {
+            "external": "IHS 2100"
+          },
+          "HHS 2100"
+        ]
+      },
+      "title": "Applied Analytic Techniques in Public Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the basic structures and operations of the U.S. health system, including its major characteristics, foundations, components, finance, and future; health policy development process; and the impact of health policy on health systems and population health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 3330",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PH 2100",
+          {
+            "external": "IHS 2100"
+          },
+          "HHS 2100",
+          {
+            "external": "NURS 3209"
+          }
+        ]
+      },
+      "title": "Health Systems & Health Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136428",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of human diseases, including causes/risk factors, signs and symptoms, diagnosis, treatment, and prevention. Emphasis will be placed on the role of public health education specialists in prevention and management of diseases that are the leading causes of premature disability and death domestically and globally.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 3400",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HPAL 2250",
+          "BIOL 2251"
+        ]
+      },
+      "title": "Disease Prevention and Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134925",
+      "catalogYear": "2026-2027",
+      "coreqs": "PH 2400",
+      "credits": "3",
+      "description": "This course introduces the fundamentals of public health program development in community, work site, and clinical settings. Emphasis is placed on the knowledge and skills necessary to plan a public health program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 3850",
+      "notes": [
+        "Public Health major"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Program Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines various community and worksite health issues. Topics include community organization, health issues of diverse populations and demographics, global and national health issues, minority health, health care and the U.S. health care system, and occupational and community safety and health.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 4200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Community and Worksite Health"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136429",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will examine issues associated with environmental factors and conditions and their impact on the health of individuals and communities. Topics will include environmental epidemiology, toxicology, policy, and regulation as well as environmental agents of disease and the implementation of environmental interventions to improve public health and safety.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 4300",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PH 2100",
+          {
+            "external": "IHS 2100"
+          }
+        ]
+      },
+      "title": "Environmental Health Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136434",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers a comprehensive introduction to the research process including the development and exploration of a single research question using empirical data, elements of the research process within quantitative, qualitative, and mixed methods approaches, and the submission and review process of a research manuscript.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 4350",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "PH 3150",
+              {
+                "external": "STAT 3125"
+              }
+            ]
+          },
+          "PH 3850"
+        ]
+      },
+      "title": "Methods of Public Health Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135610",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the principles, concepts, and methods of epidemiology to examine a full range of disease occurrence, including genetic, environmental and social causes of both infectious and non-infectious diseases. Epidemiological techniques to promote health and wellness and to prevent and control disease will be emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 4500",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "PH 2100",
+          {
+            "external": "IHS 2100"
+          },
+          "HHS 2100"
+        ]
+      },
+      "title": "Epidemiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134937",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds upon the Fundamentals of Program Planning course and guides students in the implementation and evaluation of a health promotion program in a community-based setting. This course is designed to provide the student advanced knowledge and skills in the implementation and evaluation of health promotion programs. The focus of this course is to provide students with practical field-based experience in a variety of program implementation and evaluation activities for diverse priority populations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 4600",
+      "notes": [],
+      "prereqs": "PH 3850",
+      "title": "Program Implementation and Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136435",
+      "catalogYear": "2026-2027",
+      "coreqs": "PH 3400",
+      "credits": "3",
+      "description": "This course integrates health coaching and patient education concepts and principles applicable to the current healthcare system. Topics include behavior change theories, motivational interviewing techniques, individual and group coaching strategies, population based health, survey of medical issues and health information, and patient empowerment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PH 4650",
+      "notes": [],
+      "prereqs": null,
+      "title": "Health Coaching and Patient Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to examine the scientific and theoretical foundations of health and wellness. Students focus on developing health knowledge and skills necessary to adapt to changing personal, social, and environmental factors related to lifespan development. Topics of exploration include health literacy, goal setting, physical activity, nutrition, stress management, emotional health, substance use, sexual health, self-care, and other health determinants.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "WELL 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Health and Wellness"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-public-health",
+    "name": "BS Public Health"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

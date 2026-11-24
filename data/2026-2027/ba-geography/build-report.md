@@ -4,7 +4,6 @@
 
 - **GEOG 4100**
   - unrecognized: Any upper-division geography course
-  - unrecognized: chair
 
 ## Left out on purpose
 

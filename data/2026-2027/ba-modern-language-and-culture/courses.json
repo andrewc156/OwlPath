@@ -1,0 +1,1151 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "WLC 2209",
+      "WLC 2306"
+    ],
+    [
+      "ECON 2105",
+      "ECON 2106"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              "MATH 1111",
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134390",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course takes an interdisciplinary approach to exploring Asia\u2019s dynamic contexts, linking ancient Asian civilizations to the modern nation-states of East and South Asia. Focusing on Greater China, Japan, Korea, India, and Southeast Asia, the course provides theoretical frameworks for analyzing Asia\u2019s complex cultural, political, and economic realities. Students examine the origins and developments of Asian civilizations, considering aspects such as people, culture, history, philosophy, religion, society, and business.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ASIA 3001",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Understanding Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers torts, contracts, government regulation of business and the legal system. Also addresses ethical issues arising in business internal and external relationships.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLAW 2200",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Legal and Ethical Environment of Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134486",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introduction to Chinese language and culture Part I stresses progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Chinese culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHIN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Chinese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses progressive acquisition of effective communication skills in both the spoken and written language and an understanding of the practices and products of Chinese culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHIN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "CHIN 1001",
+      "title": "Elementary Chinese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134488",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to develop proficiency in listening, speaking, reading and writing in Chinese and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHIN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "CHIN 1002",
+      "title": "Intermediate Chinese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134489",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHIN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "CHIN 2001",
+      "title": "Intermediate Chinese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to descriptive and inferential statistics with an emphasis on business applications. Topics covered include data summarization, probability distributions, sampling methods, confidence intervals, hypothesis testing, online data sources, and ethics in research. Small case studies are used to illustrate statistical applications within business settings.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2300",
+      "notes": [
+        "Business majors need MATH 1111; non-business majors need MATH 1101"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1101"
+          }
+        ]
+      },
+      "title": "Business Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134675",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages students in observations, interactions, and analyses of critical and contemporary educational issues. Students will investigate issues influencing the social and political contexts of educational setting in Georgia and the United States. Students will actively examine the teaching profession from multiple vantage points both within and outside the school. Against this backdrop, students will reflect on and interpret the meaning of education and schooling in a diverse culture and examine the moral and ethical responsibilities of teaching in a democracy. This includes the use of current technologies which are directly related to effective teaching and 15 hours of observation in appropriate elementary/early childhood, middle grades, secondary, or P-12 environments.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDUC 2110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Investigating Critical & Contemporary Issues in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134676",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Given the rapidly changing demographics in our state and country, this course is designed to equip future teachers with the fundamental knowledge of understanding culture and teaching children from diverse backgrounds. Specifically, this course is designed to examine 1) the nature and function of culture; 2) the development of individual and group cultural identity; 3) definitions and implications of diversity, and 4) the influences of culture on learning, development, and pedagogy.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDUC 2120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Exploring Socio-Cultural Perspectives in Educational Contexts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134677",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on an in-depth exploration of research-based best practices concerning the thinking behind making good pedagogical decisions about curriculum and teaching strategies to ensure student success in the classroom. Students engage in field experiences in public schools that highlight theories and practices introduced in class, and reflect on their own learning processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 2130",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "EDUC 2110",
+          {
+            "external": "ECE 2270"
+          },
+          {
+            "external": "ENED 2110"
+          },
+          {
+            "external": "HIED 2110"
+          }
+        ]
+      },
+      "title": "Exploring Teaching & Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136536",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 4650"
+          },
+          {
+            "external": "MUED 4650"
+          },
+          "WLED 4650",
+          {
+            "external": "HPE 4430"
+          },
+          {
+            "external": "ENED 4650"
+          },
+          {
+            "external": "HIED 4650"
+          },
+          {
+            "external": "SCED 4650"
+          },
+          {
+            "external": "MAED 4650"
+          },
+          {
+            "external": "ECE 4650"
+          },
+          {
+            "external": "ECE 4660"
+          },
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "0",
+      "description": "This course is the beginning to the co-teaching Yearlong Clinical Experience in education. Candidates will attend the entirety of pre-planning at their assigned school before the start of the academic year (the exact timing of which will depend on the placement school\u2019s schedule). Additionally, candidates will also attend the first week of the academic year in order to familiarize themselves with the policies and routines of their placement school and Collaborating Teacher.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 4610",
+      "notes": [
+        "Admission to teacher education",
+        "An issued pre-service certificate",
+        "The corequisite depends on the program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Yearlong Clinical Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134733",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course designed to develop knowledge of the basic concepts, principles, and functions of managerial finance. Topics include the time value of money, valuation of bonds and stocks, financial analysis, working capital management, capital budgeting, and capital structure strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 3100",
+      "notes": [
+        "Admission to Coles College Professional Program",
+        "Admission as a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              {
+                "course": "ECON 2300",
+                "minGrade": "B"
+              },
+              {
+                "external": "ECON 2400",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134755",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading, and writing in French and to the culture of French-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FREN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary French I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134756",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Continued listening, speaking, reading and writing in French with further study of the culture of French-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FREN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "FREN 1001",
+      "title": "Elementary French II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134757",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FREN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "FREN 1002",
+      "title": "Intermediate French I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134758",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities. Course will serve as a transition between intermediate and upper-level courses in French.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FREN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "FREN 2001",
+      "title": "Intermediate French II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134790",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the German language and the culture of the German-speaking world. Beginning of a survey of basic German grammar and the grammar and the development of the four language skills of listening, speaking, reading, and writing German. Some aspects of everyday life in the German-speaking world will also be introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GRMN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary German I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134791",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The second part of an introduction to the German language and the culture of the German-speaking world. Completion of the survey of basic German grammar and further development of the four language skills of listening, speaking, reading, and writing German. Aspects of everyday life in the German-speaking world will also be introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GRMN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "GRMN 1001",
+      "title": "Elementary German II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134792",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GRMN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "GRMN 1002",
+      "title": "Intermediate German I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134793",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities. Course will serve as a transition between intermediate and upper-level courses in the language.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GRMN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "GRMN 2001",
+      "title": "Intermediate German II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136739",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "SCED 4650"
+          },
+          {
+            "external": "ENED 4650"
+          },
+          "WLED 4650",
+          {
+            "external": "HIED 4650"
+          },
+          {
+            "external": "MAED 4424"
+          },
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course prepares candidates to work collaboratively with families and school personnel to positively impact the academic, social/emotional, and behavioral development of students with exceptionalities. This course requires a ten-hour observational and instructional experience in assigned school placement(s). Verification of professional liability insurance is required prior to placement in the field experience. Candidates must have an issued preservice certificate for this course. This course fulfills Georgia HB 671 requirement. Beginning July 1, 2019, all candidates must earn a \u201cB\u201d or higher in this course for certification as stated in the Georgia PSC 505-2-.24 Special Georgia Requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 3300",
+      "notes": [
+        "Admission to Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "Educating Students with Exceptionalities in Inclusive Settings"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135017",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading and writing in Italian and to the culture of Italian-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITAL 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Italian I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135018",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Continued listening, speaking, reading and writing in Italian with further study of the culture of Italian-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITAL 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "ITAL 1001",
+      "title": "Elementary Italian II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135019",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITAL 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "ITAL 1002",
+      "title": "Intermediate Italian I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135020",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities. Course will serve as a transition between intermediate and upper-level courses in the language.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITAL 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "ITAL 2001",
+      "title": "Intermediate Italian II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135030",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to Japanese language and culture stressing progressive acquisition of effective communications skills in both the written and spoken language and an understanding of the practices and products of Japanese culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JAPN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Japanese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135031",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to Japanese language and culture, part II, stresses continued, progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Japanese culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JAPN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "JAPN 1001",
+      "title": "Elementary Japanese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135032",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JAPN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "JAPN 1002",
+      "title": "Intermediate Japanese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135033",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JAPN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "JAPN 2001",
+      "title": "Intermediate Japanese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135645",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to Korean language and culture, stressing progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Korean culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "KOR 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Korean I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135646",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses continued, progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Korean culture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "KOR 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "KOR 1001",
+      "title": "Elementary Korean II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135647",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "KOR 2001",
+      "notes": [],
+      "prereqs": "KOR 1002",
+      "title": "Intermediate Korean I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135648",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "KOR 2002",
+      "notes": [],
+      "prereqs": "KOR 2001",
+      "title": "Intermediate Korean II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135370",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading and writing Portuguese and to the culture of Portuguese-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PORT 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Portuguese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135371",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Continued listening, speaking, reading and writing in Portuguese with further study of the culture of Portuguese-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PORT 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "PORT 1001",
+      "title": "Elementary Portuguese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135372",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PORT 2001",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "PORT 1002",
+      "title": "Intermediate Portuguese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135373",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PORT 2002",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "PORT 2001",
+      "title": "Intermediate Portuguese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135449",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading and writing in Spanish and to the culture of Spanish-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SPAN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Spanish I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135450",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Continued listening, speaking, reading and writing in Spanish with further study of the culture of Spanish-speaking regions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SPAN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "SPAN 1001",
+      "title": "Elementary Spanish II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135451",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SPAN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "SPAN 1002",
+      "title": "Intermediate Spanish I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135452",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities. Course will serve as a transition between intermediate and upper-level courses in Spanish.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SPAN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "SPAN 2001",
+      "title": "Intermediate Spanish II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An overview of world languages and cultures and their manifestations in our society. Class discussions and readings are reinforced through supervised field experiences in the metro Atlanta area. In addition, students survey academic and professional career opportunities in fields that require linguistic skills and cultural competence.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "WLC 2209",
+      "notes": [],
+      "prereqs": null,
+      "title": "World Languages and Cultures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137057",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course analyzes non-canonical, traditionally marginalized narratives that deal with issues of social injustice and political violence in a transnational context. It also explores how cultural artifacts, such as film, television, music, pop art, and literary texts contribute to constructing memory of the past.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "WLC 2306",
+      "notes": [],
+      "prereqs": null,
+      "title": "Voices of Dissent Around the World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137367",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This Capstone course is designed to synthesize and connect students\u2019 prior academic experiences in the major and related fields of study. Students prepare a Final Portfolio, which includes a career readiness component, as their capstone project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLC 4409",
+      "notes": [
+        "Senior Standing"
+      ],
+      "prereqs": null,
+      "title": "Capstone in World Languages and Cultures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134753",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines theories of second language acquisition (SLA) and their practical application to second language teaching and learning. It addresses the theoretical foundations of working with second language learners. It focuses on the classroom applications of this theoretical base to interactions with language learners, curriculum, instruction, and assessment. Students interpret relevant SLA research that informs language teaching and takes ownership of SLA theories and research as a rationale for pedagogical decisions",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 4408",
+      "notes": [
+        "Admission to Teacher Education Program",
+        "permission of instructor"
+      ],
+      "prereqs": "ASIA 3001",
+      "title": "Second Language Acquisition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134754",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an overview of methods, materials and curriculum in world language instruction grades P-8. The field experience emphasizes principles of classroom and behavior management as well as ways to put theory into practice. Field experience is required. Proof of professional liability insurance and a pre-service teaching certificate is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 4410",
+      "notes": [],
+      "prereqs": null,
+      "title": "Methods, Materials, and Curriculum of World Language Education, P-8"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135950",
+      "catalogYear": "2026-2027",
+      "coreqs": "WLED 4414",
+      "credits": "3",
+      "description": "This course is an overview of methods, materials and curriculum in world language instruction grades 9-12. The field experience emphasizes principles of classroom and behavior management as well as ways to put theory into practice. Field experience is required. Proof of liability insurance is required for field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 4412",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "WLED 4408",
+          "WLED 4410"
+        ]
+      },
+      "title": "Methods, Materials, and Curriculum of World Language Education, 9-12"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135846",
+      "catalogYear": "2026-2027",
+      "coreqs": "WLED 4412",
+      "credits": "3",
+      "description": "This course introduces teacher candidates to the use of instructional technology in world language education. Specifically, teacher candidates learn to evaluate, design, create, and implement a variety of technology-enhanced teaching and learning materials. A particular focus is placed on forming the essential connections between Second Language Acquisition theories, sound pedagogical approaches, and cutting edge technologies to ensure that teacher candidates can integrate technology meaningfully into P-12 curriculum planning and teaching practices.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 4414",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "WLED 4408",
+          "WLED 4410"
+        ]
+      },
+      "title": "Technology for World Language Teaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135841",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "EDUC 4610",
+          "INED 3300"
+        ]
+      },
+      "credits": "6",
+      "description": "This course is the first semester of an intensive and extensive co-teaching yearlong clinical experience in Foreign Language Education. Under the guidance of a collaborating teacher and university supervisor and working in an environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 4650",
+      "notes": [
+        "Admission to Teacher Education",
+        "Issued Pre-Service Certificate",
+        "Admission to Yearlong Clinical Experience"
+      ],
+      "prereqs": {
+        "and": [
+          "WLED 4408",
+          "WLED 4410",
+          "WLED 4412",
+          "WLED 4414"
+        ]
+      },
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135842",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in foreign language education. Under the guidance of a collaborating teacher and university supervisor and working in an environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars and the completion of a content pedagogy assessment. Proof of professional liability insurance, a pre-service teaching certificate, and GACE eligibility are required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 4660",
+      "notes": [],
+      "prereqs": "WLED 4650",
+      "title": "Yearlong Clinical Experience II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ba-modern-language-and-culture",
+    "name": "BA Modern Language and Culture"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

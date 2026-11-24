@@ -1,0 +1,136 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132335",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Early Childhood Educators often work in classrooms of students with various cultural backgrounds and assets. This course will encourage P-5 teachers to analyze and consider the effect of power and privilege, better understand cultural differences, and apply these considerations in developmentally appropriate ways in order to create more culturally inclusive, equitable elementary classrooms.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7513",
+      "notes": [
+        "Admission to the M.Ed. program"
+      ],
+      "prereqs": null,
+      "title": "Educational Equity in Early Childhood and Elementary Settings"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132337",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore the mathematical content and processes, research on learning, and relevant pedagogy of number, operations, and algebraic thinking in Pre-Kindergarten through Fifth Grade. Candidates will implement standards-based curriculum and research-based pedagogy in these content areas and assess the impact on student learning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7525",
+      "notes": [
+        "Admission to the ECE M.Ed. program",
+        "permission of the EECE graduate program coordinator"
+      ],
+      "prereqs": null,
+      "title": "Teaching Number, Operations, and Algebraic Thinking (P-5)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132339",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Utilizing research understandings about current issues in elementary and early childhood education as a way to create a personal professional development plan, candidates focus on developing their action research proposals, integrating elements of educational research design as it applies to the practitioner\u2019s P-5 classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7531",
+      "notes": [
+        "Admission to Elementary",
+        "Early Childhood Education, M.Ed"
+      ],
+      "prereqs": null,
+      "title": "Research Practicum I for Elementary and Early Childhood Educators"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132343",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates implement their action research proposal in their classrooms or placements, and analyze data using appropriate methodologies. Candidates further offer and reflect upon a professional development opportunity at their school regarding best practices for elementary & early childhood education learned during their action research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7543",
+      "notes": [],
+      "prereqs": "ECE 7531",
+      "title": "Research Practicum II for Elementary & Early Childhood Educators"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this graduate level course is to explore major trends and issues in literacy education that are relevant in the P-5 setting. Specifically, this course will provide an overview of such trends as they are conceptualized in contemporary literacy education research literature and realized in practice. Hence, current trends are identified in the research base and analyzed in class readings, projects and discussions. Students will engage in interactive discussions, conduct a review of research, and prepare related learning resources to meet the needs of learners and to demonstrate the reciprocal relationships among national, state, and local trends, issues, and reform in elementary literacy education.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7704",
+      "notes": [
+        "Admission to M.Ed. in Elementary",
+        "Early Childhood Education"
+      ],
+      "prereqs": null,
+      "title": "Trends and Issues in Literacy Education for Elementary & Early Childhood"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132350",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This graduate level course will introduce major trends and issues in science education that are relevant in the P-5 setting. This course will provide an overview of such trends as they are conceptualized in contemporary science education research literature and realized in practice. Students will engage in interactive discussions regarding the reciprocal relationships among national, state, and local trends, issues, and reform in elementary and secondary science education.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7706",
+      "notes": [
+        "Admission to the M.Ed. in Elementary",
+        "Early Childhood Education"
+      ],
+      "prereqs": null,
+      "title": "Trends and Issues in Science for Early Childhood Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132351",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides advanced study of teaching social studies in early childhood and elementary education. Components and theoretical foundations of early childhood and elementary social studies curriculum will be investigated. Concepts, skills, and attitudes associated with elementary school social studies will be discussed in conjunction with various teaching methods, models, and materials considered socially just and developmentally appropriate for children. The course emphasizes design and delivery of social studies curriculum centered on social justice and democratic citizenship and uses inquiry, research, and reflection to improve teaching.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7707",
+      "notes": [
+        "Admission to M.Ed. in Elementary",
+        "Early Childhood Education"
+      ],
+      "prereqs": null,
+      "title": "Trends and Issues in Social Studies for Elementary & Early Childhood Education"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "med-elementary-and-early-childhood-education",
+    "name": "MEd Elementary and Early Childhood Education"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

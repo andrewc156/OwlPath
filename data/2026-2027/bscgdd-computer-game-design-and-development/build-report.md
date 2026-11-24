@@ -2,15 +2,11 @@
 
 ## Warnings needing review
 
-- **ECON 2105**
-  - unrecognized: higher
-- **ECON 2106**
-  - unrecognized: higher
-- **ECON 2300**
-  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
+None.
 
 ## Notes
 
+- ACCT 2101: added MATH 1001 so (MATH 1001, MATH 1111, MATH 1113, MATH 1160, MATH 1179, MATH 1190, MATH 2202) has an option on the map
 - CSE 1322: added MATH 1113 so (MATH 1113, MATH 1190, MATH 1179, MATH 2202) has an option on the map
 - STAT 2332: added MATH 1190 so (MATH 1190, MATH 1179) has an option on the map
 

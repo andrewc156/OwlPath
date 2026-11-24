@@ -37,5 +37,109 @@
     "notes": [
       "Or permission of the instructor"
     ]
+  },
+  "ECON 2300": {
+    "reason": "Per-major prerequisite: 'Business Majors: MATH 1111; Non-business Majors: MATH 1101'. The map can't tell which applies, so either course unlocks it and a note says which one the student's major needs.",
+    "prereqs": {
+      "or": [
+        "MATH 1111",
+        "MATH 1101"
+      ]
+    },
+    "notes": [
+      "Business majors need MATH 1111; non-business majors need MATH 1101"
+    ]
+  },
+  "ECON 4730": {
+    "reason": "Per-major prerequisite: business majors need admission to the Coles College of Business (not a course); non-business majors need ECON 2300 or STAT 1401. It appears only in BBA majors, so no course blocks it and both rules are shown as a note.",
+    "prereqs": null,
+    "notes": [
+      "Business majors: admission to the Coles College of Business",
+      "Non-business majors: ECON 2300 or STAT 1401"
+    ]
+  },
+  "ARH 3850": {
+    "reason": "Per-major prerequisite: 'Art majors: ARH 2850 and ENGL 1102. Non art majors: ENGL 1102 and permission of the instructor.' It appears only in art majors, so the art-major rule is the requirement; the other rule is a note.",
+    "prereqs": {
+      "and": [
+        "ARH 2850",
+        "ENGL 1102"
+      ]
+    },
+    "notes": [
+      "Non-art majors: ENGL 1102 and permission of the instructor"
+    ]
+  },
+  "HPAL 2250": {
+    "reason": "The prerequisite is any General Education D2 course, not a specific course, so it can't be a line on the map.",
+    "prereqs": null,
+    "notes": [
+      "Any General Education D2 core curriculum course"
+    ]
+  },
+  "ISCI 2002": {
+    "reason": "The prerequisite is any four-hour 1000/2000-level lab science, not a specific course, so it can't be a line on the map.",
+    "prereqs": null,
+    "notes": [
+      "Any four-hour laboratory science course at the 1000 or 2000 level"
+    ]
+  },
+  "SA 4490": {
+    "reason": "Study abroad: the catalog says the prerequisite varies with discipline and subject.",
+    "prereqs": null,
+    "notes": [
+      "Varies with discipline and subject"
+    ]
+  },
+  "PR 4605": {
+    "reason": "'PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major ...' The approval and the major rule aren't courses; the course part is one of the three.",
+    "prereqs": {
+      "or": [
+        "PR 3375",
+        "JOUR 3330",
+        "PR 4405"
+      ]
+    },
+    "notes": [
+      "Approval of application by the instructor",
+      "Must be a declared major in the School of Communication & Media; non-majors need permission of the School"
+    ]
+  },
+  "EDUC 4610": {
+    "reason": "Corequisite 'Varies by program:' then one course per teaching field. Each program takes one of them, so the corequisite is the list as an either/or (corequisites never block).",
+    "coreqs": {
+      "or": [
+        "ARED 4650",
+        "MUED 4650",
+        "WLED 4650",
+        "HPE 4430",
+        "ENED 4650",
+        "HIED 4650",
+        "SCED 4650",
+        "MAED 4650",
+        "ECE 4650",
+        "ECE 4660",
+        "EDMG 4650"
+      ]
+    },
+    "notes": [
+      "Admission to teacher education",
+      "An issued pre-service certificate",
+      "The corequisite depends on the program"
+    ]
+  },
+  "ART 1100": {
+    "reason": "No course prerequisite: a passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation, BS Interactive Design).",
+    "prereqs": null,
+    "notes": [
+      "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
+    ]
+  },
+  "ART 1150": {
+    "reason": "Same rule as ART 1100: a passed portfolio review and admission to the School of Art and Design, no course.",
+    "prereqs": null,
+    "notes": [
+      "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
+    ]
   }
 }

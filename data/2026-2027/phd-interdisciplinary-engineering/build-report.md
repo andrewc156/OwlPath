@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **CS 8267**
-  - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
+None.
 
 ## Left out on purpose
 

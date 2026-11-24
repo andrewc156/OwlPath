@@ -4,9 +4,6 @@
 
 - **BIOL 3375K**
   - unrecognized: comparable research methods course
-  - ambiguous and/or precedence: (BIOL 1107 and BIOL 1107L) and (BIOL 1108 and BIOL 1108L) or comparable research methods course
-- **BIOL 4399**
-  - ambiguous and/or precedence: BIOL 3410 and 90 credit hours or permission of the instructor
 - **BIOL 4465**
   - unrecognized: Recommended -
   - missing operator before 'BIOL 3340', assumed and
@@ -17,10 +14,7 @@
   - unrecognized: plus a minimum of 9 additional hours of 3000-4000 level Biology
   - unrecognized: Biochemistry
 - **PSYC 3000**
-  - unrecognized: Any 1000-level MATH course
   - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
-- **SCM 2000**
-  - unrecognized: Mathematics
 
 ## Left out on purpose
 

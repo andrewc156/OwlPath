@@ -2,8 +2,6 @@
 
 ## Warnings needing review
 
-- **CE 3704**
-  - unrecognized: concurrent registration
 - **ENGR 3324**
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
 

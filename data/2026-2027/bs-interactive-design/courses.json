@@ -1,0 +1,317 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134346",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Elements of art and the principles of two-dimensional design, with emphasis on line, shape, texture, space, value elements of color theory executed through conventional methods.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ART 1100",
+      "notes": [
+        "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
+      ],
+      "prereqs": null,
+      "title": "Two-Dimensional Design and Color Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Drawing, using a variety of media and techniques, including work from figure, still-life and landscape. Some drawing with digital media.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ART 1150",
+      "notes": [
+        "Passed portfolio review and admission to the School of Art and Design (BFA Art, BFA Digital Animation or BS Interactive Design majors only)"
+      ],
+      "prereqs": null,
+      "title": "Drawing I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136673",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to all fundamental aspects of prototyping. Additionally, students explore and apply fundamental principles of visual and user interface design knowledge through prototyping projects.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IAD 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Prototyping I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136674",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to a comprehensive interaction design method. Students read about interaction design before using prototyping tools to create their own team-based projects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IAD 3000",
+      "notes": [],
+      "prereqs": "IAD 2100",
+      "title": "Interaction Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136389",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building on knowledge and tools learned previously, students further explore principles and theories of visual design. The class sets expectations concerning the necessary visual design skills of interactive design students.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IAD 3150",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IAD 2100",
+          "TCID 2002"
+        ]
+      },
+      "title": "Visual Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136390",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building on knowledge and tools learned previously, students further explores user interface design. The class sets expectations concerning the principles and theories of screen design that professionals need to know.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IAD 3230",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "IAD 2100",
+          "TCID 2002"
+        ]
+      },
+      "title": "User Interface Design I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class engages in a qualitative analysis of the relationship between digital technologies and end users. In doing so, this course exposes designers-in-training to ethnographic approaches as a way to understand and empathize with end users, a core feature of user experience design. Students read anthropological texts and apply this knowledge to ethnographies related to understanding ends users.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IAD 3300",
+      "notes": [],
+      "prereqs": "IAD 3000",
+      "title": "Ethnography for Designers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136671",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course expands students\u2019 ability in contemporary interaction design theory by incorporating the agile design process. Students read about agile design before understanding how interaction design applies to agile work environments. Students use prototyping tools to create their own projects.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IAD 4000",
+      "notes": [],
+      "prereqs": "IAD 3000",
+      "title": "Interaction Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136393",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this project-based class, students continue to grow their visual design skill sets by working on projects. The focus of this class is to expand students\u2019 knowledge of principles of visual design through experiential learning.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IAD 4150",
+      "notes": [],
+      "prereqs": "IAD 3150",
+      "title": "Visual Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137032",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this project-based class, students continue to grow their prototyping skill set by learning about advanced techniques related to motion design and file hygiene. Students apply this knowledge to creating a comprehensive design system.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IAD 4200",
+      "notes": [],
+      "prereqs": "IAD 2100",
+      "title": "Prototyping II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this project-based class, students continue to grow their user interface design skill sets by working on projects. The focus of this class is to expand students\u2019 knowledge of the principles of user interface design through experiential learning.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IAD 4230",
+      "notes": [],
+      "prereqs": "IAD 3230",
+      "title": "User Interface Design II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136003",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamentals of computer programming. Concepts of counters, accumulators, decision-making, looping, subroutines, arrays, files, and string processing are covered. A programing language is used for assignments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IT 1113",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136412",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to productivity tools and technologies for Technical Communication and Interactive Design students. In this course, students learn the Adobe design tools in addition to examining workflow tools, online workspaces, and project management tools.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TCID 2002",
+      "notes": [],
+      "prereqs": null,
+      "title": "Productivity Tools and Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136374",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the Technical Communication & Interactive Design department by surveying contemporary digital media-aesthetics, technology, politics, economics\u2013and related cultural formations. This approach provides an introduction to key concepts and critical methodologies that are essential to understanding digital media as both technological tool and cultural artifact. Additionally, this course discusses how professional development in technical communication and interactive design relates to digital media and culture.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "TCID 2170",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Digital Media and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136924",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course improves students\u2019 abilities to describe their accomplishments in professional networking situations, company meetings, and interviews. This course also explains how to set up a personal portfolio and prepare a career development roadmap for students in Technical Communication and Interactive Design.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TCID 3100",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "IAD 3000",
+          {
+            "external": "TCOM 3431"
+          }
+        ]
+      },
+      "title": "Professional Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136375",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to front-end web development with an emphasis on learning to code websites without relying on content management systems or templates. This course focuses primarily on HTML and CSS in addition to covering basic user interface design principles.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TCID 3400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Front-End Development I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136376",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course allows students to build upon their knowledge of front-end development for websites and apps to produce complex, creative, and responsive designs. In addition to developing an advanced understanding of CSS and HTML, students are introduced to the concept of APIs and JavaScript, another front-end programming language.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "TCID 3800",
+      "notes": [],
+      "prereqs": "TCID 3400",
+      "title": "Front-End Development II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136377",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this project-based class, students continue their growth as front-end web developers through experiential learning. The focus of this class is to allow advanced students to pair aesthetic skills with an expanded knowledge and engagement with JavaScript.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "TCID 4500",
+      "notes": [],
+      "prereqs": "TCID 3800",
+      "title": "Front-End Development III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136925",
+      "catalogYear": "2026-2027",
+      "coreqs": "TCID 3100",
+      "credits": "3",
+      "description": "This is the final senior course for the Technical Communication and Interactive Design department. Students work on a capstone project for their portfolio. Additionally, students prepare for a portfolio showcase at the end of the semester.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TCID 4700",
+      "notes": [
+        "90+ credit hours"
+      ],
+      "prereqs": null,
+      "title": "Capstone Project and Portfolio Showcase"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-interactive-design",
+    "name": "BS Interactive Design"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

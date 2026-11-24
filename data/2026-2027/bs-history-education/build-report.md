@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **ECON 2106**
-  - unrecognized: higher
-- **EDUC 4610**
-  - unrecognized: Varies by program:
+None.
 
 ## Left out on purpose
 

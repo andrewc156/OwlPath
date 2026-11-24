@@ -5,14 +5,7 @@
 - **CS 6021**
   - unrecognized: Coursework in computer architecture
   - unrecognized: operating systems
-  - ambiguous and/or precedence: Coursework in computer architecture and operating systems, or CS 5020 as per admissions analysis
   - missing operator before 'as per admissions analysis', assumed and
-- **CS 7998**
-  - unrecognized: Varies by topic
-- **STAT 8240**
-  - unrecognized: Data Science
-  - unrecognized: Data Science
-  - ambiguous and/or precedence: Admission to the PhD program in Analytics and Data Science or Passing the assessment test offered by the Program Director of PhD in Analytics and Data Science
 
 ## Left out on purpose
 

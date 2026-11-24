@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **HPAL 2250**
-  - unrecognized: Any General Education D2 core curriculum course
+None.
 
 ## Notes
 

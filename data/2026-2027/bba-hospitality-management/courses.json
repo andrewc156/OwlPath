@@ -1,0 +1,971 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              "MATH 1111",
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers torts, contracts, government regulation of business and the legal system. Also addresses ethical issues arising in business internal and external relationships.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLAW 2200",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Legal and Ethical Environment of Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134432",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of contemporary issues in legal and ethical behavior in organizations. Stresses the application of ethical principles to business.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BLAW 4960",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "BLAW 2200",
+      "title": "Current Issues in Business Ethics and Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers a comprehensive introduction to the core functions of business within an organizational context, including accounting, finance, economics, management, entrepreneurship, marketing, information systems, and cybersecurity. Students explore how these disciplines interconnect to support and drive organizational strategy. In addition, the course offers a deep dive into the diverse career opportunities offered by different academic pathways in the Coles College of Business. Emphasis is also placed on building essential career readiness and professional skills to prepare students for success in the business world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135663",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students research their prospective major, discover appropriate resources, and engage in various career management activities.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 2150",
+      "notes": [],
+      "prereqs": null,
+      "title": "Professionalism I: Clarifying My Major and Career"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135664",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students focus on their talents, skills and strengths and become more self-aware through personal assessment. Students explore opportunities to participate in relevant work experience and complete preparatory activities to attain employment or advance in a current career.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 3150",
+      "notes": [
+        "Admission to Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": {
+        "and": [
+          "BUSA 2150",
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Professionalism II: Relevant Work Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135739",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the cultural challenges of doing business in another country. It will focus on how to communicate, manage and lead individuals, conduct operations, and market products in countries with different languages, characteristics, customs, values and attitudes. Because this course is offered as a part of an education abroad program, special emphasis will also be placed on the culture of the designated country(ies).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BUSA 3500",
+      "notes": [
+        "60 credit hours with a minimum GPA of 2.0",
+        "Admission to the Coles College Undergraduate Professional Program",
+        "student in a Coles College Partner Program that includes this course"
+      ],
+      "prereqs": null,
+      "title": "Culture & International Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is part of a Coles College program to introduce students to the professional skills, knowledge, and attitudes necessary to succeed in business careers. In this course, students focus on their talents, skills, and strengths and improve their self-awareness through personal assessment exercises. In this class, students explore opportunities to develop relevant work experience and complete activities to enable them to secure degree-appropriate employment or advance in their current career.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 4000",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Career Accelerator"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135665",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students will fine-tune the skills required for post-graduation success.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 4150",
+      "notes": [
+        "Admission to the Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": "BUSA 3150",
+      "title": "Professionalism III: Post-Graduate Success"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to descriptive and inferential statistics with an emphasis on business applications. Topics covered include data summarization, probability distributions, sampling methods, confidence intervals, hypothesis testing, online data sources, and ethics in research. Small case studies are used to illustrate statistical applications within business settings.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2300",
+      "notes": [
+        "Business majors need MATH 1111; non-business majors need MATH 1101"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1101"
+          }
+        ]
+      },
+      "title": "Business Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138393",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to linear, quadratic, polynomial, exponential, and logarithmic functions, inequalities, basics of statistics and probability, with the emphasis on business applications. Empirical examples may be used to illustrate statistical applications within business settings. The course is taught from a practice-based perspective. It entails focusing on practical business-centric problems and using them as examples of how the quantitative tool or technique can aid in solving the problem.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2400",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1001",
+          "MATH 1111",
+          {
+            "external": "MATH 1113"
+          },
+          {
+            "external": "MATH 1160"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "title": "Quantitative Problem-Solving Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the study of quantitative models for decision-making within business operations. It provides an introduction to descriptive and inferential statistics with the emphasis on business applications, ANOVA, simple and multiple linear regression, and forecasting. Case studies are used to illustrate modeling applications within business settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 3200",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "BUSA 1000",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2400",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Business Analytics Essentials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135947",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course conveys a working knowledge of several of the most commonly employed quantitative models to support data analysis and improved decision-making within a business environment. Students learn to identify and apply the appropriate modeling techniques as well as how solve the resultant models via spreadsheet tools and applications. In addition, the course promotes and develops problem-solving and critical thinking skills through the evaluation of problem scenarios and short case-studies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 3300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "or": [
+          "ECON 2300",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Applied Statistical and Optimization Models"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135099",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the role of the entrepreneur in creating new international business ventures. This course provides students with both a theoretical and practical understanding of new venture creation in the international marketplace, including extensions of domestic enterprises and new enterprises.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENTR 4125",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "or": [
+          "MGT 3100",
+          "MGT 3600",
+          {
+            "external": "ENTR 3001"
+          }
+        ]
+      },
+      "title": "International Entrepreneurship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134733",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course designed to develop knowledge of the basic concepts, principles, and functions of managerial finance. Topics include the time value of money, valuation of bonds and stocks, financial analysis, working capital management, capital budgeting, and capital structure strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 3100",
+      "notes": [
+        "Admission to Coles College Professional Program",
+        "Admission as a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              {
+                "course": "ECON 2300",
+                "minGrade": "B"
+              },
+              {
+                "course": "ECON 2400",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136751",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey course provides students with an understanding of the hospitality industry and the role it plays in both the U.S. and global economies. This course offers an overview of the industry, its economic impact, its history, its current and future challenges, and its business characteristics. The main goal of the course is to expose students to the hospitality industry and provide an understanding of the unique aspects of managing businesses in this industry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMGT 3300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Hospitality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136757",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "All hospitality majors, upon completion of 400 hours of verifiable work experience in the hospitality, tourism, or related industries must sign up for this course. The work experience may be obtained any time from the freshmen year at KSU to the semester of graduation at KSU and must be completed in its entirety before a degree will be awarded. This course carries no credit hours, and thus no tuition fees. Grading is Satisfactory or Unsatisfactory based on successful completion of the work-hour requirement and a reflection paper, which details work experiences and involves the students\u201d self-critique of their skills and knowledge in preparation for a career in the hospitality industry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMGT 3397",
+      "notes": [
+        "Hospitality management major",
+        "admission to the Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": null,
+      "title": "Work Experience In Hospitality Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136752",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the dimensions of successful service management of hospitality organizations. It also offers an in-depth study of the provision and management of high quality service provided within a hospitality business. It prepares students for enlightened guest service management and suggests creative approaches. The course will use an integrated viewpoint on issues of measurement, continuous service improvement, staff member training from a guest perspective, and the ability to benchmark among hospitality competitors are discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMGT 3500",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "HMGT 3300",
+      "title": "Guest Service Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136753",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students in this course survey common marketing practices and revenue management issues that are unique to the hospitality industry. These practices include sales procedures, revenue management (i.e., setting room rates), the use of technology to maintain a leadership position compared to one\u2019s competitors, building a loyal customer base, a discussion of the relationship of marketing to overall organizational success, and an analysis of a hospitality operation\u2019s annual marketing plan.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMGT 4100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "HMGT 3300",
+      "title": "Hospitality Marketing and Revenue Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136754",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines hotels with students gaining a basic understanding of the various departments within these lodging venues. The relationship between major departments such as rooms division, and food and beverage are illustrated. Managerial and operational functions and decisions are identified and discussed. Students are exposed to key abilities and skill sets necessary to manage such facilities by familiarization with the role of a managerial position.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMGT 4300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "HMGT 3300",
+      "title": "Hotel Management and Operations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136755",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the analysis of data as they apply to operational and financial decision making. Stemming from the operational hospitality manager\u2019s perspective, industry-specific tools are used to conduct predictive and prescriptive analytics, and financial and non-financial performance analysis, including but not limited to, service measurement, expenses and profitability, turnover and human resources information, guest satisfaction, competitor performance data, and other measures of operational performance in hospitality.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMGT 4500",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "HMGT 3300",
+          "HMGT 4100"
+        ]
+      },
+      "title": "Strategic Analytics for Hospitality Managers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course illustrates how to effectively use, manage, and participate in the development of information technology applications that support common business processes. This course focuses on the interdependence among an organization\u2019s management, business processes, and information systems and provides hands-on experience in developing a business information system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "IS 2200",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Information Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135093",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the relationship between business and society and the role of ethics in employee and managerial decision-making and behavior. Using a stakeholder management approach, the course explores uses and potential abuses of business power on internal and external stakeholders. Models for integrating ethical concerns into business decisions are examined.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 3190",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Business, Ethics, and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135094",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Generic modeling techniques are applied to the planning, operation and control of the production of goods and services. Topics include: quality control, facility location and layout, material requirements planning and project scheduling.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3200",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ECON 2300",
+      "title": "Operations Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135095",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the global business environment, this course examines the discrete and interactive effects of the geographic, historical, sociocultural, political/legal, economic and technological forces that shape international commercial activity and its consequences.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 3600",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Introduction to International Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135097",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the unique challenges and opportunities involved in owning and/or managing a family business. By attending the class, students learn to identify and address challenges related to responsible ownership, succession, corporate governance, family governance, professionalization, and family office. Both family and non-family members\u2019 perspectives are explored and addressed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4123",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3100",
+      "title": "Family Business Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135098",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Franchise Management is an introduction to the field of franchising as it concerns the franchiser (the business who grants the business rights to franchisees), and the franchisee (the individual or business who obtains the rights to operate the franchised business in accordance with the chosen method to produce or sell the product or service). It covers the body of knowledge on how to expand an existing business through domestic or international franchising as well as how to analyze and decide how to buy and manage a franchise.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4124",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3100",
+      "title": "Franchise Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135100",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the acquisition, development, operation, and disposition of commercial real estate properties, with a special emphasis on shopping centers. Dimensions of inquiry include: ethical decision making, specific legal requirements associated with real estate ventures, and stakeholder (developers, investors, local communities, and public sector) analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4130",
+      "notes": [],
+      "prereqs": null,
+      "title": "Commercial Real Estate Ventures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135101",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops student understanding of communication processes within organizations, increases ability to diagnose and deal with organizational communication problems, and enhances skills in using communication to improve individual, group, and organization-wide effectiveness.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4161",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3100",
+      "title": "Organizational Communications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135105",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on human resource management functions required to implement international or global strategy. Areas examined include international recruitment and selection, performance management, training and development, compensation, labor relations, management of expatriates and their repatriation, dealing with host country nationals, and career management in the international context. Special topics include human resource law and issues in specific countries outside the U.S. and managing a multicultural labor force in the U.S.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4174",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3100",
+      "title": "International Human Resource Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135106",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course deals with the basic managerial functions in an international enterprise. It explores the theoretical and practical aspects of managing international business operations, and deals with multi-cultural and global issues of managing the business expansion beyond the domestic market. It portrays the difficulties of managing enterprises that cross national borders and have to deal with cultural diversity, and diversity in socio-political and economic systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4190",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3100",
+      "title": "International Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135107",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes an integrative, multifunctional, general management perspective of the organization and its long-term survival in a global economic environment. It builds the knowledge base and analytical skills required for managing a business enterprise. Components include situation analysis, strategy formulation, evaluation, and choice, as well as strategy implementation at different organizational levels, and under different contextual conditions. The course enables the refinement of the student\u2019s communication and presentation skills, as well as the interpersonal abilities necessary for accomplishing group tasks. Integrating multiple business disciplines, it serves as the capstone course in the business curriculum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 4199",
+      "notes": [
+        "Admission to the Coles College Undergraduate Professional Program . This course is taken in the last",
+        "next-to-last semester in the B.B.A. program"
+      ],
+      "prereqs": {
+        "and": [
+          "BUSA 4150",
+          "ECON 3300",
+          "FIN 3100",
+          "MGT 3100",
+          "MGT 3200",
+          "MKTG 3100"
+        ]
+      },
+      "title": "Strategic Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135109",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course deals with current practices in Global Business. It examines the strategies and tactics adopted by Global Companies from both Developed as well as Emerging Markets. Students will obtain insights into how firms in today\u2019s global markets need to be skilled in handling virtual teaming, outsourced and offshored projects, and strategic alliances across national boundaries, in order to maintain competitive advantage.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4476",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "MGT 3100",
+          "MGT 3600"
+        ]
+      },
+      "title": "Contemporary Global Business Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135112",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course will focus on developing a clear understanding of services from multiple perspectives. Students will define, diagnose, design, measure, control, and change services with the objective of improving quality and productivity. The course will address important service design issues, competitive issues unique to services, and the extensive interaction between marketing and operations in service organizations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4880",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3200",
+      "title": "Service Operations Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135135",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines services marketing with a focus on how new innovations and technologies are revolutionizing service delivery and customer experience. This course delves into the needs and challenges of service industries, and highlights the relationships between the marketing, operations, IT, and human resources functions in service firms. Topics may include understanding business objectives of service firms, identifying market trends, service branding, using marketing research skills to audit service firms, and provide insights.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4830",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MKTG 3100",
+      "title": "Services Marketing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135576",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The Hospitality and Tourism industry is the world\u2019s largest and most inherently international sector. This course explores the marketing theories, concepts, and strategies essential for success in the global hospitality and tourism marketplace through an in-depth analysis of environmental factors, industry trends, and ethical considerations. Emphasis is placed on real-world applications, including experiential exercises and projects to help students understand marketing trends and brand management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4880",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MKTG 3100",
+      "title": "Hospitality and Tourism Marketing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bba-hospitality-management",
+    "name": "BBA Hospitality Management"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

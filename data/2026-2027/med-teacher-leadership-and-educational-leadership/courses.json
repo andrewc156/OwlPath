@@ -1,0 +1,267 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is the first of the three courses in the Coaching Endorsement sequence. This course focuses on developing a knowledge base for coaching that is framed within an organization\u2019s mission, vision, beliefs, and goals, and that is focused on performance criteria. Candidates develop skills in personal assessment; feedback techniques; collaboration; written, verbal, and non-verbal communication; and ethical behavior. Learning is supported by field-based practice that provides context for addressing the needs of various groups of learners and educators.",
+      "groups": [
+        "conc-coaching-for-performance"
+      ],
+      "id": "EDCO 7010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132384",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on assessing the effectiveness of coaching on teaching, learning, and cultural context and is based on performance criteria. Candidates develop skills in identifying and implementing assessment tools, utilizing effective listening and questioning techniques, and analyzing and communicating assessment results. Learning is supported by field-based practice that provides context for addressing the needs of various groups of learners and educators.",
+      "groups": [
+        "conc-coaching-for-performance"
+      ],
+      "id": "EDCO 7020",
+      "notes": [],
+      "prereqs": "EDCO 7010",
+      "title": "Using Data for Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132385",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, candidates will apply their knowledge, skills, and dispositions in coaching in real settings. More specifically, they will develop, maintain, and implement an effective coaching plan. Forty percent of this course is a field work practicum in which the coaching candidate will develop goals and a plan to achieve them in collaboration with a coach.",
+      "groups": [
+        "conc-coaching-for-performance"
+      ],
+      "id": "EDCO 7030",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDCO 7010",
+          "EDCO 7020"
+        ]
+      },
+      "title": "Applied Coaching: Developing, Implementing, and Maintaining a Coaching Plan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, educational leaders will learn to facilitate and evaluate instruction, to support and coach teachers in the implementation of a shared vision of teaching and learning, and to use job-embedded professional learning to implement instruction that is standards-based, focused on student and adult learning, and accessible to and inclusive of all students.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 7401",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Instructional Leadership for Learning & Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides skills necessary for school administrators to act professionally and ethically in the area of human resources. Educational leaders will learn how to be ethically and legally compliant in school operations for the academic success of all P-12 students, regardless of ability, language, or cultural background. Leaders will demonstrate awareness and application of the Georgia Code of Ethics for Educators in professional practice and be able to make decisions based on ethical principles.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 7415",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Human Resources, Law, and Ethics for School Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133395",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines fiscal policy, control systems, and effective methods of budget planning related to resource-allocation and improving the quality of teaching and learning. The course is designed to prepare school leaders for fiscal planning, operations, financial decision-making, and problem solving. The course will address state financial structures and policies, legal and ethical issues, financial management systems, and budget building and implementation at the school and district level for Georgia Tier I Leadership Certification.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 7601",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "School Operations and Organizational Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the knowledge, dispositions, and skills needed by school administrators to understand and respond to various community systems and needs, collaborate effectively, mobilize community resources, and interpret the school to the public through a variety of media and modes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 7615",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Communication and Community Relations, for School Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133799",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an initial grounding in school leadership in rural communities. Candidates will explore current trends in rural education, the strengths and challenges of leading schools in rural communities, and the needs of their school and/or district.",
+      "groups": [
+        "conc-leadership-in-rural-schools"
+      ],
+      "id": "EDL 7620",
+      "notes": [
+        "Admission to the Teacher Leadership",
+        "Educational Leadership, MEd"
+      ],
+      "prereqs": null,
+      "title": "School Leadership in Rural Communities I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133800",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course continues the candidate\u2019s exploration of school leadership in rural schools. It is designed to provide the candidate with the knowledge, skills, and dispositions to be successful as a school leader in a rural community. Candidates will deepen their understanding of critical aspects of school leadership, including data-informed instruction, creating a culture of teaching and learning, and developing teacher leaders.",
+      "groups": [
+        "conc-leadership-in-rural-schools"
+      ],
+      "id": "EDL 7625",
+      "notes": [
+        "Admission to the Teacher Leadership",
+        "Educational Leadership, MEd"
+      ],
+      "prereqs": null,
+      "title": "School Leadership in Rural Communities II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course presents critical elements that compose and relate to cultural values, and analyses of programs and procedures designed to address and meet the needs of student populations in urban areas, emphasizing research-based programs of sustained academic success. Students will examine the models to gain competencies in successfully addressing multiple forms and expressions of identity in schools such that social cohesion is promoted within a context of general academic rigor and achievement.",
+      "groups": [
+        "conc-leadership-in-urban-schools"
+      ],
+      "id": "EDL 7700",
+      "notes": [
+        "Admission to the Program"
+      ],
+      "prereqs": null,
+      "title": "Leadership in Urban Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course presents critical elements that compose and relate to cultural values, and analyses of programs and procedures designed to address and meet the needs of student populations in urban areas, emphasizing research-based programs of sustained academic success. Students examine the models to gain competencies in successfully addressing multiple forms and expressions of identity in schools such that social cohesion is promoted within a context of general academic rigor and achievement.",
+      "groups": [
+        "conc-leadership-in-urban-schools"
+      ],
+      "id": "EDL 7701",
+      "notes": [],
+      "prereqs": "EDL 7700",
+      "title": "Dynamics of Leadership in Urban Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students an opportunity to synthesize and evaluate current and historical K-12 educational policy at the national, state, and local levels from a teacher leader perspective. Students will leverage educational policy to build collaborative school cultures, develop advocacy plans that maximize student learning, and meet the educational needs of the institution. The goal of the course is to help teacher leaders think critically about educational policy, theory, and praxis and its influences on their students as learners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TLED 7101",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Critical Analysis of Policy, Theory, & Praxis for Teacher Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133806",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for emerging school leaders to develop practical skills using research and data analysis for school improvement and curricular leadership. Candidates will develop knowledge, skills, and dispositions for leading the development of instructional and assessment practices by bridging theory and practice. The course also covers technological applications as tools to improve student achievement. Candidates will analyze, plan, develop, monitor, and evaluate instructional programs that align vertically and horizontally with state and district curriculum standards and that meet the needs of all students, particularly students with exceptionalities, and students with cultural and linguistic differences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TLED 7215",
+      "notes": [
+        "Admission to the Teacher Leadership",
+        "Educational Leadership, MEd"
+      ],
+      "prereqs": null,
+      "title": "Leading Data-Informed Curriculum and Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133435",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will examine and implement the process of classroom-based action research. Topics covered include an overview of the action research process, planning and developing a research plan, collecting and analyzing data, and developing and sharing action research reports. The curriculum will also focus on how to engage and facilitate colleagues\u2019 use of action research to improve a problem of practice in the teacher leader\u2019s content area.",
+      "groups": [
+        "conc-leadership-in-rural-schools",
+        "conc-leadership-in-urban-schools"
+      ],
+      "id": "TLED 7980",
+      "notes": [],
+      "prereqs": null,
+      "title": "Action Research in Schools"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-coaching-for-performance"
+        ],
+        "label": "Coaching for Performance"
+      },
+      {
+        "groups": [
+          "conc-leadership-in-rural-schools"
+        ],
+        "label": "Leadership in Rural Schools"
+      },
+      {
+        "groups": [
+          "conc-leadership-in-urban-schools"
+        ],
+        "label": "Leadership in Urban Schools"
+      }
+    ],
+    "id": "med-teacher-leadership-and-educational-leadership",
+    "name": "MEd Teacher Leadership and Educational Leadership"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

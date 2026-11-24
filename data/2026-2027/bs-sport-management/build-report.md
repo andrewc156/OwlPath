@@ -2,20 +2,11 @@
 
 ## Warnings needing review
 
-- **ECON 2106**
-  - unrecognized: higher
-- **SM 2200**
-  - unrecognized: Sport Management Interest
-- **SM 3100**
-  - unrecognized: Community Sport Minor
-- **SM 3200**
-  - unrecognized: Community Sport Minor
-- **SM 3500**
-  - unrecognized: Community Sport Minor
-- **SM 4850**
-  - unrecognized: Community Sport Minor
-- **SM 4875**
-  - unrecognized: Community Sport Minor
+None.
+
+## Notes
+
+- ACCT 2101: added MATH 1001 so (MATH 1001, MATH 1111, MATH 1113, MATH 1160, MATH 1179, MATH 1190, MATH 2202) has an option on the map
 
 ## Left out on purpose
 

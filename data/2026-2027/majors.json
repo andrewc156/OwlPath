@@ -2,6 +2,27 @@
   {
     "checked": false,
     "college": "Bagwell College of Education",
+    "id": "edd-educational-leadership",
+    "level": "graduate",
+    "name": "EdD Educational Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "edd-instructional-technology",
+    "level": "graduate",
+    "name": "EdD Instructional Technology"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "edd-teacher-leadership",
+    "level": "graduate",
+    "name": "EdD Teacher Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
     "id": "eds-curriculum-and-instruction",
     "level": "graduate",
     "name": "EdS Curriculum and Instruction"
@@ -79,6 +100,13 @@
   {
     "checked": false,
     "college": "Bagwell College of Education",
+    "id": "med-elementary-and-early-childhood-education",
+    "level": "graduate",
+    "name": "MEd Elementary and Early Childhood Education"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
     "id": "med-instructional-technology",
     "level": "graduate",
     "name": "MEd Instructional Technology"
@@ -100,6 +128,13 @@
   {
     "checked": false,
     "college": "Bagwell College of Education",
+    "id": "med-teacher-leadership-and-educational-leadership",
+    "level": "graduate",
+    "name": "MEd Teacher Leadership and Educational Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
     "id": "med-teaching-of-english-to-speakers-of-other-languages-tesol",
     "level": "graduate",
     "name": "MEd Teaching of English to Speakers of Other Languages (TESOL)"
@@ -110,6 +145,20 @@
     "id": "mpa-public-administration",
     "level": "graduate",
     "name": "MPA Public Administration"
+  },
+  {
+    "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "ms-artificial-intelligence",
+    "level": "graduate",
+    "name": "MS Artificial Intelligence"
+  },
+  {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "ms-chemical-sciences",
+    "level": "graduate",
+    "name": "MS Chemical Sciences"
   },
   {
     "checked": false,
@@ -190,6 +239,13 @@
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "mscm-conflict-management",
+    "level": "graduate",
+    "name": "MSCM Conflict Management"
+  },
+  {
+    "checked": false,
     "college": "Southern Polytechnic College of Engineering and Engineering Technology",
     "id": "msem-engineering-management",
     "level": "graduate",
@@ -232,10 +288,38 @@
   },
   {
     "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "msw-social-work",
+    "level": "graduate",
+    "name": "MSW Social Work"
+  },
+  {
+    "checked": false,
     "college": "Coles College of Business",
     "id": "phd-business-administration",
     "level": "graduate",
     "name": "PhD Business Administration"
+  },
+  {
+    "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "phd-computer-science",
+    "level": "graduate",
+    "name": "PhD Computer Science"
+  },
+  {
+    "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "phd-data-science-and-analytics",
+    "level": "graduate",
+    "name": "PhD Data Science and Analytics"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "phd-interdisciplinary-engineering",
+    "level": "graduate",
+    "name": "PhD Interdisciplinary Engineering"
   },
   {
     "checked": false,
@@ -247,9 +331,23 @@
   {
     "checked": false,
     "college": "Radow College of Humanities and Social Sciences",
+    "id": "ba-asian-studies",
+    "level": "undergraduate",
+    "name": "BA Asian Studies"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
     "id": "ba-history",
     "level": "undergraduate",
     "name": "BA History"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ba-modern-language-and-culture",
+    "level": "undergraduate",
+    "name": "BA Modern Language and Culture"
   },
   {
     "checked": false,
@@ -257,6 +355,69 @@
     "id": "bas-information-technology",
     "level": "undergraduate",
     "name": "BAS Information Technology"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-accounting",
+    "level": "undergraduate",
+    "name": "BBA Accounting"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-economics",
+    "level": "undergraduate",
+    "name": "BBA Economics"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-entrepreneurship",
+    "level": "undergraduate",
+    "name": "BBA Entrepreneurship"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-finance",
+    "level": "undergraduate",
+    "name": "BBA Finance"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-hospitality-management",
+    "level": "undergraduate",
+    "name": "BBA Hospitality Management"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-management",
+    "level": "undergraduate",
+    "name": "BBA Management"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-marketing",
+    "level": "undergraduate",
+    "name": "BBA Marketing"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "bba-professional-sales",
+    "level": "undergraduate",
+    "name": "BBA Professional Sales"
+  },
+  {
+    "checked": false,
+    "college": "Geer College of the Arts",
+    "id": "bfa-digital-animation",
+    "level": "undergraduate",
+    "name": "BFA Digital Animation"
   },
   {
     "checked": false,
@@ -280,6 +441,13 @@
     "name": "BS Artificial Intelligence"
   },
   {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "bs-biochemistry",
+    "level": "undergraduate",
+    "name": "BS Biochemistry"
+  },
+  {
     "checked": true,
     "college": "College of Computing and Software Engineering",
     "id": "bs-cs",
@@ -295,10 +463,101 @@
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
+    "id": "bs-financial-technologies",
+    "level": "undergraduate",
+    "name": "BS Financial Technologies"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-history-education",
+    "level": "undergraduate",
+    "name": "BS History Education"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bs-human-services",
+    "level": "undergraduate",
+    "name": "BS Human Services"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bs-integrated-health-science",
+    "level": "undergraduate",
+    "name": "BS Integrated Health Science"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-interactive-design",
+    "level": "undergraduate",
+    "name": "BS Interactive Design"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "bs-learning-design-and-technology",
+    "level": "undergraduate",
+    "name": "BS Learning, Design, and Technology"
+  },
+  {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "bs-mathematics",
+    "level": "undergraduate",
+    "name": "BS Mathematics"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "bs-mechanical-engineering",
+    "level": "undergraduate",
+    "name": "BS Mechanical Engineering"
+  },
+  {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "bs-physics",
+    "level": "undergraduate",
+    "name": "BS Physics"
+  },
+  {
+    "checked": false,
     "college": "Radow College of Humanities and Social Sciences",
     "id": "bs-political-science",
     "level": "undergraduate",
     "name": "BS Political Science"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bs-public-health",
+    "level": "undergraduate",
+    "name": "BS Public Health"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "bs-sociology",
+    "level": "undergraduate",
+    "name": "BS Sociology"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bs-sport-management",
+    "level": "undergraduate",
+    "name": "BS Sport Management"
+  },
+  {
+    "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "bscgdd-computer-game-design-and-development",
+    "level": "undergraduate",
+    "name": "BSCGDD Computer Game Design and Development"
   },
   {
     "checked": false,

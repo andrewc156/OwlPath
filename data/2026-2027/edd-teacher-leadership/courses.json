@@ -1,0 +1,266 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133905",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to equip school leadership candidates with practical skills and experience through the use of real-world case studies and role-playing scenarios. Students will engage in activities that simulate high-level mentoring, crisis response, curriculum development, team leadership, and other critical aspects of school leadership. This hands-on approach allows candidates to apply theoretical knowledge to practical situations, fostering the development of essential leadership competencies.",
+      "groups": [
+        "conc-teacher-leadership-certification",
+        "conc-advanced-teacher-leadership"
+      ],
+      "id": "EDL 9700",
+      "notes": [
+        "Admission to the EdD in Teacher Leadership",
+        "the EdD in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Professional Seminar: Cases in School Leadership and Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133904",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This doctoral-level course is specifically tailored for aspiring educational leaders, focusing on advanced research methodologies that directly impact school leadership and policy. Students will explore how to design and implement research that addresses critical issues in school leadership, such as educational equality, instructional effectiveness, and organizational improvement. Through a hands-on approach, students will develop, design, and execute a pilot study aligned with their dissertation project, equipping them with the skills to lead evidence-based change and make data-informed decisions in their schools and districts. This course builds on prior knowledge of statistics and qualitative research, providing a comprehensive framework for conducting high-impact research in educational settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 9885",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDRS 8100",
+          "EDRS 8200"
+        ]
+      },
+      "title": "Advanced Research Methods in Teacher Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132999",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will serve as an introduction to qualitative research and methodologies. Methodological origins, theoretical frameworks, literature reviews, and basic methods of data collection and data analysis will be explored in conjunction with an analysis of relevant literature, educational research reports, and ethics in research. Students will apply basic skills of data collection and analysis. Students will differentiate between the types of qualitative research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8100",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Qualitative Research I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132998",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will demonstrate a functional understanding of the nature and design of quantitative research as applied to the educational arena including but not limited to the following topics; the nature and application of descriptive and basic inferential statistics including the concepts of variance, normal distribution, population, sample, power, effect size, hypothesis testing, parametric and nonparametric tests, interaction effects, validity, reliability; the strengths, weaknesses of quantitative research designs; the principles of data collection and analysis using computer software such as SPSS. Candidates will acquire and become proficient in analytical and interpretive skills; and will be prepared to conduct applied quantitative research that will bear positively on schools.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8200",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Quantitative Research I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132455",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced study of qualitative research methodologies including ethnography, case study, and phenomenology. Students will examine a variety of data sources (e.g. interviews, observations) and methods of analysis (e.g. memo writing, coding). Students will conduct research as they formulate their research questions, collect and analyze data, and write a research report.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "EDRS 9100",
+      "notes": [
+        "Admission to the Ed.D. Program",
+        "its equivalent"
+      ],
+      "prereqs": "EDRS 8100",
+      "title": "Advanced Qualitative Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133000",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar will assist the doctoral candidate in conceptualizing, identifying the components of, and articulating the emerging conceptual framework of their dissertation. Under the guidance of the course professor and in consultation with their dissertation chair, the candidate will emerge from the course with a draft his/her conceptual framework which includes the purpose and rationale for his/her research as well as a draft of the theoretical underpinnings of the research described through a review of literature followed by preliminary research questions or hypotheses for his/her dissertation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "EDRS 8100",
+              "EDRS 8200"
+            ]
+          },
+          {
+            "or": [
+              "EDRS 9100",
+              {
+                "external": "EDRS 9200"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Research Seminar: Conceptual Frameworks & Research Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133928",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, teacher leaders will learn to facilitate and evaluate instruction, to support and coach teachers in the implementation of a shared vision of teaching and learning, and to design and use job-embedded professional learning to implement instruction that is standards-based, focused on student and adult learning, and accessible to and inclusive of all students.",
+      "groups": [
+        "conc-teacher-leadership-certification"
+      ],
+      "id": "TLED 8101",
+      "notes": [
+        "Admission to the EdD",
+        "Teacher Leadership in the Post-Master Certificate"
+      ],
+      "prereqs": null,
+      "title": "Critical Analysis of Policy, Theory, & Praxis for Post-Master\u2019s Teacher Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133927",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for emerging school leaders to develop practical skills using research and data analysis for school improvement and curricular leadership. Candidates will develop knowledge, skills, and dispositions for leading the development of instructional and assessment practices by bridging theory and practice. The course also covers technological applications as tools to improve student achievement. Candidates will analyze, plan, develop, monitor, and evaluate instructional programs that align vertically and horizontally with state and district curriculum standards and meet all students\u2019 needs, particularly students with exceptionalities and cultural and linguistic differences.",
+      "groups": [
+        "conc-teacher-leadership-certification"
+      ],
+      "id": "TLED 8215",
+      "notes": [
+        "Admission to the EdD",
+        "Certification Graduate Certificate in Teacher Leadership"
+      ],
+      "prereqs": null,
+      "title": "Leading Data-Informed Curriculum and Assessment Practice for Post-Master\u2019s Teacher Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133929",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course critically analyzes K-12 education policy at the national, state, and local levels. Topics include issues related to American education\u2019s historical, political, cultural, and social contexts. Students examine institutions and processes of public policymaking. The course aims to help leaders think critically about education policy, theory, and praxis and its influences on their students as learners.",
+      "groups": [
+        "conc-teacher-leadership-certification"
+      ],
+      "id": "TLED 8401",
+      "notes": [
+        "Admission to the EdD",
+        "Certification Graduate Certificate in Teacher Leadership"
+      ],
+      "prereqs": null,
+      "title": "Instructional Coaching, Mentoring, and Leading Professional Development for Post-Master\u2019s Teacher Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the knowledge, dispositions, and skills needed by teacher leaders to understand and respond to various community systems and needs, collaborate effectively, mobilize community resources, and interpret the school to the public through a variety of media and modes.",
+      "groups": [
+        "conc-teacher-leadership-certification"
+      ],
+      "id": "TLED 8615",
+      "notes": [
+        "Admission to the EdD",
+        "Certification Graduate Certificate in Teacher Leadership"
+      ],
+      "prereqs": null,
+      "title": "Communication and Community Relations for Post-Master\u2019s Teacher Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132379",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on specific instructional supervision research, models, and strategies that promote and advocate for collegial schools devoted to improving school wide learning through distributed leadership. Instructional supervision is placed within a developmental, contextual, constructive, humanist paradigm; and examined as a process of purposeful adult interactions and cognitions that promote autonomous, reflective, self-directed teacher practitioners committed to student learning and continual school improvement. This course will focus on the development and application of the knowledge base, interpersonal skills, technical skills, and tasks necessary for instructional supervision, mentoring and coaching. Emphasis will be also placed on school and system factors (sociocultural and political) that may affect teacher leadership in instructional supervision.",
+      "groups": [
+        "conc-advanced-teacher-leadership"
+      ],
+      "id": "TLED 9200",
+      "notes": [
+        "Admission to the EdD in Teacher Leadership Advanced Concentration"
+      ],
+      "prereqs": null,
+      "title": "Mentoring, Coaching and Facilitating School Improvement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133437",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide teacher leaders with the knowledge, skills, and dispositions necessary to make critical curriculum and assessment decisions to help improve learning for all student subgroups. Teacher leaders will use acquired knowledge to analyze, identify gaps, and reconcile areas of the curriculum that do not meet the needs of all students.",
+      "groups": [
+        "conc-advanced-teacher-leadership"
+      ],
+      "id": "TLED 9830",
+      "notes": [
+        "Admission to the EdD in Teacher Leadership Advanced Concentration"
+      ],
+      "prereqs": null,
+      "title": "Curriculum, Instruction and Assessment for Teacher Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133932",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to guide students through the process of preparing a comprehensive literature review for their research. The course emphasizes the development of skills necessary to identify, analyze, and synthesize relevant scholarly literature. Students will learn to critically evaluate existing research, identify gaps in the literature, and frame their research questions within the context of current academic discourse. By the end of the course, students will have a well-developed literature review that supports their research proposal.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TLED 9880",
+      "notes": [
+        "Admission to the EdD in Teacher Leadership"
+      ],
+      "prereqs": null,
+      "title": "Conducting Topical and Theoretical Literature Reviews"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-teacher-leadership-certification"
+        ],
+        "label": "Teacher Leadership Certification"
+      },
+      {
+        "groups": [
+          "conc-advanced-teacher-leadership"
+        ],
+        "label": "Advanced Teacher Leadership"
+      }
+    ],
+    "id": "edd-teacher-leadership",
+    "name": "EdD Teacher Leadership"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}
