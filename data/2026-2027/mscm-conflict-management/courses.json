@@ -1,0 +1,459 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "MSCM 7325",
+      "MSCM 7355"
+    ],
+    [
+      "MSCM 7335",
+      "MSCM 7365"
+    ],
+    [
+      "MSCM 7705",
+      "MSCM 7706",
+      "MSCM 7707",
+      "MSCM 7708"
+    ],
+    [
+      "MSCM 7710",
+      "MSCM 7715"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132299",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed to provide students with basic mediation training approved by the Georgia Office of Dispute Resolution for mediators handling court-referred or court-ordered cases.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7205",
+      "notes": [
+        "Admission to the MSCM program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Basic Mediation Training Clinic"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132300",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce students to the foundations and theories of conflict management. The course includes an interdisciplinary introduction to conflict management. The course includes an interdisciplinary introduction to conflict, the history of the field, sources of conflict, and conflict theory. The course introduces students to the various responses to conflict.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7210",
+      "notes": [
+        "Admission to the MSCM program",
+        "permission of the program director in consultation with faculty"
+      ],
+      "prereqs": null,
+      "title": "Foundations and Theories of Conflict Management: Conflict Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132301",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will gain an understanding of the fundamentals of negotiation theory through a format that includes lecture, role-play, focused exercises, and case study. Concepts covered will include an introduction to game theory, distributive and integrative bargaining, principled negotiation, psychological barriers to settlement, and negotiation ethics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7220",
+      "notes": [
+        "Admission to the MSCM program",
+        "permission of the program director in consultation with faculty"
+      ],
+      "prereqs": null,
+      "title": "Foundations and Theories of Conflict Management: Negotiation Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132302",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course helps students develop an understanding of the nomenclature of alternative dispute resolution (ADR) processes commonly used in the United States. The students will examine the history and evolution of ADR, as well as briefly examining a number of individual processes in detail, such as negotiation, mediation, arbitration, early neutral evaluation, ombuds offices, etc.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7230",
+      "notes": [
+        "Admission to the MSCM program",
+        "permission of the program director in consultation with faculty"
+      ],
+      "prereqs": null,
+      "title": "Foundations and Theories of Conflict Management: ADR Continuum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132304",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students examine the dynamics of and interventions in interpersonal and intergroup conflicts, including the role of identity and community dispute resolution in contemporary ADR. Students will sharpen the skills and tools they learned in previous MSCM coursework.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MSCM 7310",
+      "notes": [],
+      "prereqs": null,
+      "title": "Interpersonal, Intergroup, and Community Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133805",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "In this course, students examine the theories, concepts, and dynamics of interpersonal conflict. The skills and tools learned in previous coursework continue to be sharpened through application to problems of negotiation and third-party intervention in interpersonal conflicts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7311",
+      "notes": [],
+      "prereqs": null,
+      "title": "Interpersonal Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133065",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course examines the dynamics of organizational conflict with a special focus on the workplace context. Students sharpen the skills and tools they learned in previous MSCM coursework and apply them to problems of intervention in organizational disputes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7315",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Organizational and Workplace Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132305",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines public policy disputes and intercultural communication. Public policy disputes are unique in that they tend to be multi-party, multi-issue, long-standing, intractable, and they occur under the glare of public scrutiny. Therefore, managing public disputes requires greater ability to facilitate large-group processes and deal with the media. Next, the students will examine intercultural and international conflict resolution. The students will begin by developing an understanding of the ways in which cultures vary in their communication styles. Then students will examine the processes of international conflict resolution through diplomatic negotiation and mediation. Theories analyzing the strategic, structural, and behavioral features of international negotiations and mediations are discussed in lectures and case studies. Simulation exercises will be integrated to this class to provide students with hands-on experiences in applying theories to cases.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7320",
+      "notes": [
+        "Admission to the MSCM program",
+        "permission of the program director in consultation with faculty"
+      ],
+      "prereqs": {
+        "and": [
+          "MSCM 7210",
+          "MSCM 7220",
+          "MSCM 7230",
+          "MSCM 7310"
+        ]
+      },
+      "title": "Critical Knowledge and Skills of Conflict Management: Public Policy Disputes, Cross-Cultural and International Conflict Resolution"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "Through this course, students acquire substantive knowledge and develop practical skills central to the prevention and resolution of conflict stemming from cultural differences including but not limited to differences based on ethic & national culture, linguistic, generational, gender, social class, sexual orientation and other identity-based differences which influence our perceptions, values, and preferred means of communication. Students demonstrate understanding of the ways in which different cultures vary and learn how to successfully interact and collaborate with those from cultures other than their own. This course equips students to work in diverse and intercultural environments both at home and abroad.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "MSCM 7321",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Cultural Aspects of Conflict Resolution"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133066",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Students will enhance their mediation skills and deepen their knowledge through observing mediation role-plays and videos. This course substitutes for 5 mediation observations, a requirement for registration with the Georgia Office of Dispute Resolution (GODR).",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7325",
+      "notes": [],
+      "prereqs": "MSCM 7205",
+      "title": "Advanced Civil Mediation Clinic"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133067",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "The class will focus on the key skills needed for superior organizational leadership. Class will review the literature on leadership and conflict management, dynamic organizational leaders, and analysis of scenarios.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7335",
+      "notes": [],
+      "prereqs": null,
+      "title": "Organizational Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133068",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This clinic will examine the applicability of mediation to a range of international disputes, with emphases on the coordination and timing of mediation efforts, and the complexity of the international arena. Students will review standards of practice from international organizations related to diplomacy and commerce, and apply these to selected cases.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7355",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced International Mediation Clinic"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133069",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is a two-day training course designed to explore a range of dilemmas and scenarios in humanitarian, peacebuilding, conflict and human rights crises. The course is built around using simulations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7365",
+      "notes": [],
+      "prereqs": null,
+      "title": "Humanitarian Crisis Intervention"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132306",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Unlike most courses you will take in graduate school, this course does not revolve around discussing the merits of certain arguments or analyzing specific research findings. This course will teach you how to develop a literature review, design a research project, select and apply the appropriate methods to systematically answer your research questions(s). More specifically, you will learn to break down social science theory into testable hypotheses that lay out relationships whose magnitude and significance can be measured and explained (statistically, substantively, and hermeneutically), particularly within the context of specific problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Conflict Management Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132307",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will prepare students to design a system to address conflict in the environment of an organization.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Conflict Management Systems Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133482",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course will engage the fundamental principles and prevalent practices of effective facilitation of group meetings and public dispute resolution processes. Through presentations, exercises, and discussions, we will examine the dynamics, ethics, and skills of facilitation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7501",
+      "notes": [
+        "Admission to the INCM",
+        "MSCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Facilitation Skills Clinic"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133484",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course introduces students to the theories and practices of restorative justice. Encompassing a broad range of processes including victim-offender dialogue, mediation, peacemaking circles, community conferencing, and more, restorative justice represents an effective response to many types of harm. Students engage with case studies, foundational texts, and role play simulations to understand the practices of restorative justice; through review of published research and evaluations, they assess their effects.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7502",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Restorative Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "Through this course, students acquire substantive knowledge and develop practical skills in diversity, inclusion, and social justice within the conflict management field. This class gives students a firm foundation to understand their bias role as a conflict manager in conflicts with diversity and inclusion concerns and the use of conflict management as a driver of social justice. We discuss the differences in equality, equity, and inclusion, and debate the role of the conflict manager in valuing and achieving these philosophies and goals. Students engage with case studies and role play simulations to understand the myriad ways in which diversity and inclusion can be promoted or undermined by conflict management processes.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7511",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Diversity & Social Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133483",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course explores the theory and practice of nonviolence. It provides an overview of the different approaches to nonviolence found in the literature (pragmatic vs. principled) and the theoretical concepts underlying the strategies and tactics used by scholars and nonviolent activists. In addition to the theoretical component, the course provides some practical nonviolent skills, including sessions on nonviolent communication and other active learning exercises exploring the challenges of practicing nonviolence in conflict situations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7512",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Nonviolence in Theory and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132308",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students choose a setting for application of the knowledge and skills acquired through the academic and clinical components of the program. The project design provides the context for the student\u2019s capstone/thesis experience in the final semester of the MS Conflict Management program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7600",
+      "notes": [],
+      "prereqs": null,
+      "title": "Applied Conflict Management Project Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132309",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn the practical skills and knowledge necessary to mediate divorce, legitimation, and modification of custody cases. This includes the calculation of child support, family law, emotional aspects, ethics, and role play practice for family mediators. Students may choose to seek registration with the Georgia Office of Dispute Resolution.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7705",
+      "notes": [],
+      "prereqs": "MSCM 7205",
+      "title": "Domestic Relations Mediation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133426",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the theories and techniques of evaluation and grant writing across a variety of contexts. Students learn logic models to support program design and development and practice evaluation methods ranging from online surveys to participant observation. Formative and collaborative approaches to evaluation are emphasized.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7706",
+      "notes": [],
+      "prereqs": null,
+      "title": "Grant Writing & Program Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Using examples from the field of peacebuilding and post-conflict reconstruction in classroom discussion, exercises and role play, students develop policy recommendations, design, and plan strategies for conflict prevention and/or intervention. Students are introduced to the case study methodology, learn how to develop and use case studies effectively in their professional environments, and develop an outline for a case study with particular relevance to their current or desired field of employment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7707",
+      "notes": [],
+      "prereqs": null,
+      "title": "International Conflict and Peacebuilding Case Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133486",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an opportunity to examine the theory and practice of peacebuilding and state building for communities emerging from violent conflict. Of particular interest is the intersection of different actors-including the military, locals, and donors-and sectors-including political, economic, and legal-involved in the process of sustaining a ceasefire and building peace. The course examines external and internal influences, such as donor fatigue, media attention, and the reintegration of participants of the conflict into civil society. Students also explore the concept of \u201cconflict sensitivity\u201d as it relates to peacebuilding and development planning and evaluation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7708",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Peacebuilding and Post-Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course includes a fieldwork, study, and travel to a specific domestic conflict environment chosen by the student with the guidance of the faculty. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7710",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Practice of Conflict Management: Field Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132311",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course includes a fieldwork, study, and travel to a specific international conflict environment. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MSCM 7715",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Practice of Conflict Management: Field Experience"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "mscm-conflict-management",
+    "name": "MSCM Conflict Management"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

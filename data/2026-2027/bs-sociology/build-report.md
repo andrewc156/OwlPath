@@ -2,11 +2,7 @@
 
 ## Warnings needing review
 
-- **SA 4490**
-  - unrecognized: Varies with discipline
-  - unrecognized: subject
-- **SOCI 4405**
-  - unrecognized: 60 hours
+None.
 
 ## Left out on purpose
 

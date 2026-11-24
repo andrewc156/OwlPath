@@ -4,7 +4,6 @@
 
 - **POLS 4100**
   - unrecognized: department chair
-  - ambiguous and/or precedence: Consent of the instructor and department chair, and POLS 2280 or ACCT 2101 or ECON 2300
 
 ## Left out on purpose
 

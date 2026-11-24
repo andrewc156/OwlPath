@@ -2,23 +2,12 @@
 
 ## Warnings needing review
 
-- **EDUC 4610**
-  - unrecognized: Varies by program:
-- **MUAP 2101**
-  - unrecognized: minor
 - **MUAP 3101**
   - unrecognized: have taken
   - unrecognized: passed four semesters of
   - missing operator before 'MUAP 2101', assumed and
-- **MUED 4660**
-  - unrecognized: Educator Ethics Assessment 360 Eligibility
-  - unrecognized: GACE Eligibility
 - **MUSI 3333**
   - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
-- **MUTC 2100**
-  - unrecognized: minor
-- **MUTC 2110**
-  - unrecognized: minor
 
 ## Left out on purpose
 

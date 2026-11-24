@@ -1,0 +1,283 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134494",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "COMM 2033 is an introduction to visual communication using perceptual, physiological, psychological, cultural, and semiotic concepts. The course focuses on visual awareness and processing as key elements in effective communication.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "COMM 2033",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Visual Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136670",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory computing principles course. Instruction centers on an overview of the history, scope, and impact of computing as well as critical, algorithmic and computational thinking on problem decomposition and fundamental programming concepts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CSE 1300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Computing Principles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students are introduced to the role that intrinsic motivation plays in making learning fun. Framed in the context of games/play, entertainment, and hobbies, this course uncovers how individual motivators such as challenge, curiosity, and self-determination work alongside interpersonal motivators such as cooperation, competition, and social recognition. Students keep a weekly play journal, practice a new hobby, and create an educational microvideo.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 1100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Making Learning Fun"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136983",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn to use tools and technologies for learning. Through hands-on activities to practice how to effectively use tools and technologies for learning, students apply the skills they learn into creating authentic technology-facilitated projects. Topics include using technology to promote their learning and to improve their productivity. Students also learn digital citizenship topics to manage their digital activities in ways appropriate for a 21st-century citizen.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Tools & Technologies for Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136984",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides the knowledge of the foundational theories, models, ethical principles, and career options in Learning, Design and Technology (LDT). Students engage in instructional design situations in which they apply the appropriate LDT models, theories, and ethical principles. Students select an LDT career option they are interested in and research the essential competencies of it to develop career goals within the LDT field.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 3100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Instructional Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136995",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course enables students to develop foundational visual communication design skills related to instructional design. With a focus on visual design, typography, grid structures, and the application of these skills to achieve specific instructional and learner goals, students use industry-standard technologies to demonstrate visual design proficiencies. Students create effective instructional and learner artifacts through sketching, digital rendering, and apply instructional design practices and processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 3200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Visual Design for Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136985",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the emerging field of human performance technology (HPT). Performance issues can be found in any setting where individuals work toward a common goal in an organization such as corporate, military, and educational settings. Students complete a semester-long collaborative HPT project in which they conduct a needs assessment, identifying gaps between ideal and actual performance status. Students also analyze the causes of performance gaps, environmental issues, and causal influences to determine appropriate interventions. They recommend appropriate interventions to address identified gaps.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 3300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Performance Improvement & Needs Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136986",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students create a complete instructional package by applying instructional design models, principles, and theories. Students engage in a semester-long collaborative project where they determine instructional objectives, design an instructional system to achieve the instructional objectives by applying relevant instructional design principles and theories, and develop an instructional package including instructional materials, supporting materials, assessments, and instructor guides.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 3400",
+      "notes": [],
+      "prereqs": "LDT 3300",
+      "title": "Instructional Design & Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136987",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students take a multimodal approach to uncovering the fundamental theories and practices of designing and developing for multimedia-rich learning environments. This course provides a practical introduction to current industry software suites and technology, including Adobe Creative Cloud and Articulate 360. Students can apply these multimedia and instructional design skills to multiple contexts (e.g., corporate training, online courses, and streaming video) to support diverse learners regardless of their background or experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 3500",
+      "notes": [],
+      "prereqs": null,
+      "title": "Multimedia Design & Development for Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136992",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines models and methods of formative and summative evaluation of instructional design products and programs. The effective and efficient evaluation of instructional and training programs is a key task for instructional designers, particularly in the face of demands for greater accountability. As a result, instructional designers are under increased pressure to show how designed instruction works and identify possible improvements. In this course, students learn the theories, processes, and procedures of program evaluation via diverse instructional tasks, including case study analyses and role play.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 4100",
+      "notes": [],
+      "prereqs": "LDT 3400",
+      "title": "Evaluation of Educational Programs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136988",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the tools and technologies used to design interactive learning environments. apply their instructional design knowledge and technological skills to ILE design projects. Topics include understanding Quality Matters Rubrics, using various Learning Management Systems, designing interactive learning environments using tools like Adobe Captivate, Articulate Storyline, and SCORM, and integrating accessible tools to ensure the accessibility of the interactive learning environments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 4200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Interactive Learning Environments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136989",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students examine recent trends and issues associated with the field of instructional design. Topics may include personalized learning, adaptive learning, social learning, mobile learning (mLearning), content curation, interactive video, universal design for learning (UDL), eXtended reality, gamification, rapid development, microlearning, artificial intelligence, and other topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 4300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Trends & Issues in Instructional Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136994",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Project management in instructional design requires the examination and application of core principles of planning, scheduling, resource allocation, budgeting, proposal preparation, cost control, risk assessment, and personnel management. In this course, students design an effective instructional design project management plan focusing on these core principles. Additionally, students develop an active understanding of project management vocabulary and software, stakeholder interactions, and other foundational concepts related to project management for instructional design.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 4500",
+      "notes": [],
+      "prereqs": "LDT 4100",
+      "title": "Project Management of Instructional Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136996",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course represents the capstone and portfolio experience for the BS in LDT. The portfolio documents mastery of instructional design competencies that are grounded in the standards of leading professional organizations within the field (e.g., AECT, ATD, ISPI). The portfolio demonstrates that the candidate is prepared to serve in a professional instructional design role. The capstone project highlights the candidate\u2019s ability to develop effective, engaging, efficient, and equitable learning design interventions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "LDT 4600",
+      "notes": [
+        "Declared Bachelor of Science in Learning, Design",
+        "Technology major. Permission of the LDT program coordinator is required"
+      ],
+      "prereqs": null,
+      "title": "Capstone and Portfolio in Learning, Design, and Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136658",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class focuses on disability issues relevant to both the development and use of web and other technologies, mandatory compliance (Section 508) and the ways in which technologies can be made compliant through captioning, proper deployment of HTML code, and more. Students gain an overview of the technological needs and the laws for accommodating persons with disabilities including the assistive technologies available for persons with disabilities (blindness/visual impairments, audiological disabilities, physical disabilities, and cognitive disabilities).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TCOM 2050",
+      "notes": [],
+      "prereqs": null,
+      "title": "Issues in Digital Accessibility"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-learning-design-and-technology",
+    "name": "BS Learning, Design, and Technology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

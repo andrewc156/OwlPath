@@ -2,10 +2,6 @@
 
 ## Warnings needing review
 
-- **EDRS 9100**
-  - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
-- **EDRS 9200**
-  - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8200 or its equivalent
 - **ENED 9400**
   - unrecognized: 6 hours graduate research courses
 

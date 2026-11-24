@@ -2,10 +2,6 @@
 
 ## Warnings needing review
 
-- **EDUC 4610**
-  - unrecognized: Varies by program:
-- **HPAL 2250**
-  - unrecognized: Any General Education D2 core curriculum course
 - **HPAL 3252**
   - unrecognized: Any General Education D1 core curriculum course
 - **HPAL 4900**

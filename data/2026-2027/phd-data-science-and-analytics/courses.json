@@ -1,0 +1,210 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133610",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced topics and emerging research work in big data analytics. Topics cover big data concepts, characteristics, computing architectures for big data, consistency management for big data, stream and real-time big data analytics, machine learning algorithms for big data analytics, big data modeling, management and querying, and graph processing. The course includes literature search of current advances and their applications in big data analytics and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8265",
+      "notes": [
+        "Admission to Computer Science Ph.D. program Computer Science MS Program",
+        "Analytics",
+        "Data Science Ph.D. Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Big Data Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133609",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the-state-of-the-art machine learning techniques. Topics cover unsupervised learning, supervised learning, evaluation of machine learning algorithms and ensemble methods. Students will learn to apply advanced machine learning techniques to solve challenging problems in various areas. The course includes a literature search of current advances and their applications in machine learning and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8267",
+      "notes": [
+        "Admission to Computer Science Ph.D. program Computer Science MS Program, Analytics",
+        "Data Science Ph.D. Program",
+        "Interdisciplinary Engineering Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Machine Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133823",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the rapidly evolving field of mHealth and the application of mobile technologies in community research and healthcare settings. The purpose of this course is to provide an overview of the development of mHealth research projects and interventions aligned with health behavior theory and evidence-based practices to address barriers to adoption, implementation, and evaluation.",
+      "groups": [
+        "conc-mhealth"
+      ],
+      "id": "HHS 8000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to mHealth"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133822",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines key ethical issues that arise in mHealth and related healthcare research and practice. Students analyze the historical context, how ethics have developed with advancements in technology, and the current state of mHealth ethics, as well as key regulations and governing bodies in the health sciences that have relevance in this space. Important considerations for conducting human subjects research using mHealth technologies are reviewed. Note: This course may be cross-leveled with HHS 6010.",
+      "groups": [
+        "conc-mhealth"
+      ],
+      "id": "HHS 8010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ethical Issues in mHealth, Healthcare, and Human Subjects Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133824",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of research and current applications of mHealth technologies to reduce health disparities and improve health outcomes. The course examines how mHealth technologies can be used to recruit, assess, monitor, manage, and evaluate health behavior in a variety of disciplines and settings. Note: This course may be cross-leveled with HHS 6020.",
+      "groups": [
+        "conc-mhealth"
+      ],
+      "id": "HHS 8020",
+      "notes": [
+        "Admission to the Ph.D. in Data Science and Analytics program"
+      ],
+      "prereqs": null,
+      "title": "mHealth Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133825",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar course provides an opportunity for students to apply the knowledge and skills needed to develop an original and feasible mHealth research project or intervention in the form of an external grant proposal. Students gain experience designing a research proposal that addresses a critical individual or public health priority. Note: This course may be cross-leveled with HHS 6050.",
+      "groups": [
+        "conc-mhealth"
+      ],
+      "id": "HHS 8050",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "HHS 8020",
+          {
+            "external": "HHS 8030"
+          }
+        ]
+      },
+      "title": "Advanced Research in mHealth"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133027",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces standard graph theoretic terminology, theorems and algorithms necessary to the study of large data networks. Topics include graphs, trees, paths, cycles, isomorphisms, routing problems, independence, domination, centrality, and coloring problems. Data structures for representing large graphs and corresponding algorithms for searching and optimization purposes accompany these topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 8020",
+      "notes": [
+        "Admission to the Analytics and Data Science, PHD program",
+        "permission by the department"
+      ],
+      "prereqs": null,
+      "title": "Graph Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133028",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers applied discrete mathematics and combinatorial tools for data analyst. Topics covered include principles of counting, set theory, mathematical induction, functions. Examples using applied data analysis and associated computing are used throughout.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 8030",
+      "notes": [
+        "Admission to the Analytics and Data Science, PhD program",
+        "permission by the department"
+      ],
+      "prereqs": null,
+      "title": "Applied Discrete & Combinatorial Mathematics for Data Analysts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133851",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on classical and modern approaches to analyze continuous and discrete longitudinal data. Topics include: exploratory analysis of correlated data, multilevel models, likelihood derivations for random effects models, algorithms of multi-level model fitting and estimation with missing data. The class is intended for doctoral students who have completed some statistical courses covering topics including linear regression, and generalized linear models. Students learn to build the models with software, derive the likelihood for the mixed effects model, estimate the model parameters. They apply longitudinal analysis approach to develop a final project report with a real-world example data. Note: This course may be cross-leveled with STAT 7235",
+      "groups": [
+        "conc-mhealth"
+      ],
+      "id": "STAT 8235",
+      "notes": [
+        "Permission of Program Director"
+      ],
+      "prereqs": "STAT 8250",
+      "title": "Advanced Longitudinal Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132871",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Data Mining is an information extraction activity whose goal is to discover hidden facts contained in databases and perform prediction and forecasting through interaction with the data. The process includes data selection, cleaning and coding, using statistical pattern recognition and machine learning techniques, and reporting and visualizing the generated structures. The course will cover all these issues and will illustrate the whole process by examples of practical applications. In addition to method applications, this course will also heavily focus on the theoretical understanding of statistical analysis and methods. Students are encouraged to use recent Data Mining software.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 8240",
+      "notes": [
+        "Admission to the PhD program in Analytics",
+        "Data Science",
+        "Passing the assessment test offered by the Program Director of PhD in Analytics"
+      ],
+      "prereqs": null,
+      "title": "Data Mining I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133030",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a continuation of STAT 8240: Data Mining. Data Mining is an information extraction activity whose goal is to discover hidden facts contained in databases, perform prediction and forecasting, and generally improve their performance through interaction with data. The process includes data selection, cleaning, coding, using different statistical, pattern recognition and machine learning techniques, and reporting and visualization of the generated structures. The course will introduce additional modeling tools for pattern recognition and prediction, including Sequential Pattern Analysis, Neural Networks, Support Vector Machine, Nearest-neighbor classifiers, and many others. These tools will be taught through examples of practical applications. Students will be encouraged to try different Data Mining software.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 8250",
+      "notes": [],
+      "prereqs": "STAT 8240",
+      "title": "Data Mining II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-mhealth"
+        ],
+        "label": "mHealth"
+      }
+    ],
+    "id": "phd-data-science-and-analytics",
+    "name": "PhD Data Science and Analytics"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

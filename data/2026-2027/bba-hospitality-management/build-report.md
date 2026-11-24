@@ -2,18 +2,12 @@
 
 ## Warnings needing review
 
-- **BUSA 3500**
-  - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
-- **ECON 2105**
-  - unrecognized: higher
-- **ECON 2106**
-  - unrecognized: higher
-- **ECON 2300**
-  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
-- **IS 2200**
-  - unrecognized: higher
-- **MGT 4199**
-  - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
+None.
+
+## Notes
+
+- ACCT 2101: added MATH 1001 so (MATH 1001, MATH 1111, MATH 1113, MATH 1160, MATH 1179, MATH 1190, MATH 2202) has an option on the map
+- ECON 2300: added MATH 1111 so (MATH 1111, MATH 1101) has an option on the map
 
 ## Left out on purpose
 

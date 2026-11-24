@@ -1,0 +1,494 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "EDRS 9100",
+      "EDRS 9200"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is the first of the three courses in the Coaching Endorsement sequence. This course focuses on developing a knowledge base for coaching that is framed within an organization\u2019s mission, vision, beliefs, and goals, and that is focused on performance criteria. Candidates develop skills in personal assessment; feedback techniques; collaboration; written, verbal, and non-verbal communication; and ethical behavior. Learning is supported by field-based practice that provides context for addressing the needs of various groups of learners and educators.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDCO 7010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132384",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on assessing the effectiveness of coaching on teaching, learning, and cultural context and is based on performance criteria. Candidates develop skills in identifying and implementing assessment tools, utilizing effective listening and questioning techniques, and analyzing and communicating assessment results. Learning is supported by field-based practice that provides context for addressing the needs of various groups of learners and educators.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDCO 7020",
+      "notes": [],
+      "prereqs": "EDCO 7010",
+      "title": "Using Data for Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132385",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, candidates will apply their knowledge, skills, and dispositions in coaching in real settings. More specifically, they will develop, maintain, and implement an effective coaching plan. Forty percent of this course is a field work practicum in which the coaching candidate will develop goals and a plan to achieve them in collaboration with a coach.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDCO 7030",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDCO 7010",
+          "EDCO 7020"
+        ]
+      },
+      "title": "Applied Coaching: Developing, Implementing, and Maintaining a Coaching Plan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course presents critical elements that compose and relate to cultural values, and analyses of programs and procedures designed to address and meet the needs of student populations in urban areas, emphasizing research-based programs of sustained academic success. Students will examine the models to gain competencies in successfully addressing multiple forms and expressions of identity in schools such that social cohesion is promoted within a context of general academic rigor and achievement.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 7700",
+      "notes": [
+        "Admission to the Program"
+      ],
+      "prereqs": null,
+      "title": "Leadership in Urban Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course presents critical elements that compose and relate to cultural values, and analyses of programs and procedures designed to address and meet the needs of student populations in urban areas, emphasizing research-based programs of sustained academic success. Students examine the models to gain competencies in successfully addressing multiple forms and expressions of identity in schools such that social cohesion is promoted within a context of general academic rigor and achievement.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 7701",
+      "notes": [],
+      "prereqs": "EDL 7700",
+      "title": "Dynamics of Leadership in Urban Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132414",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-6",
+      "description": "This course is a practicum course in which students complete a capstone project in experiential learning activities related to educational leadership. Students design, plan, and implement their project under the guidance of an instructor. Students apply their knowledge, skills, and dispositions of effective educational leaders in school settings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 7780",
+      "notes": [
+        "Admission to EDL program for which the course is being requested",
+        "permission of Program Coordinator"
+      ],
+      "prereqs": null,
+      "title": "Practicum in Educational Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133399",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the school leader\u2019s role and responsibilities related to financial management and leadership in independent and charter schools. The course will provide the candidate with basic principles of school management that include leadership, strategic planning, financial accounting, budgeting, nonprofit organizations, and financial analysis. Attention to the ethical and legal aspects of financial management will also be discussed. This course includes a performance-based experience.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 7800",
+      "notes": [
+        "Admission to the Program"
+      ],
+      "prereqs": null,
+      "title": "Financial Management and Leadership in Independent and Charter Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133400",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course provides a study of independent and charter school business management, and finance. It is designed to provide the school leader with basic principles of advancement, governance, communications, marketing, branding, school funding, and admissions all necessary components for school sustainability. A focus on current trends, issues, ethical, and legal aspects relating to advancement and governance for independent and charter schools are also a focus of this course.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 7801",
+      "notes": [
+        "Admission to the Program"
+      ],
+      "prereqs": null,
+      "title": "Institutional Advancement in Independent and Charter Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133618",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to support doctoral students in learning the foundations of academic writing and to prepare them to write academically and professionally in the field of education. The goal of this course is to help students to develop and improve their academic writing skills to a level where they will be able to successfully write across a range of writing assignments, from reports to the dissertation. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 9000",
+      "notes": [
+        "Admission to the Ed.D. in Educational Leadership Program"
+      ],
+      "prereqs": null,
+      "title": "Academic Discourse in Educational Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132432",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A doctoral seminar focused on analysis and problem solving of a current topic of vital concern relevant to teaching, leading and student learning in educational leadership. Note: This course is repeatable.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9300",
+      "notes": [
+        "Admission to the Ed.S. or Ed.D. program",
+        "permission of the advisor"
+      ],
+      "prereqs": null,
+      "title": "Critical Issues for Student Learning: (Topic)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132433",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the concepts, procedures and importance of facilities planning in the educational process. Candidates will learn all the practical skills of facility inventory, need assessment and evaluation. The course is intended to cover major aspects of school facilities planning at elementary, secondary and post-secondary levels.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9310",
+      "notes": [
+        "Admission to the Doctoral program in Leadership for Learning"
+      ],
+      "prereqs": null,
+      "title": "Educational Facilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132435",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of frameworks, major concepts, and current trends in comparative education. It examines how different countries address issues common to all education systems and enables candidates to read, discuss, analyze, and interpret relevant studies and scholarship in this area. Special attention is devoted to similarities and differences in educational policy and practice related primarily to elementary and secondary levels of education in different countries.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9330",
+      "notes": [
+        "Admission to the Doctoral program in Leadership for Learning"
+      ],
+      "prereqs": null,
+      "title": "Comparative Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide educational leaders with a research-based paradigm for ethical decision making. Various codes of ethics and case studies will be analyzed and applied to general and specific situations. Doctoral candidates will engage in dialogue, research and reflection to develop a personal code of ethics which will be applied in a school-based activity. Research and anecdotal information from journals and texts will be utilized to inform ethical decision making on local issues.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9340",
+      "notes": [
+        "Admission to the Doctoral program in Leadership for Learning"
+      ],
+      "prereqs": null,
+      "title": "Ethics for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133619",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide future and practicing educational leaders in P-12 with a mindful and informed paradigm for ethical and legal decision making. Various codes of ethics and case studies will be analyzed and applied to general and specific situations. Candidates will engage in dialogue, research, and reflection to develop a personal code of ethics that will be applied in a school-based activity. Research and anecdotal information from journals and texts will be utilized to inform ethical decision making on local issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 9345",
+      "notes": [
+        "Admission to Ed.D. Program in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Legal Issues and Ethics for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Exploration and investigation of emerging research on learning, leading, and change which when considered in combination provide a framework for understanding and leading schools as continuously evolving, living systems. Using a learner-centered leadership paradigm, students critically analyze the industrial, corporate, and business models of education which historically focus on standards, narrowing of curriculum, and high stakes tests as sole measures of achievement and develop a vision for and/or create learner-centered educational systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9360",
+      "notes": [
+        "Admission to the Doctoral program in Leadership for Learning"
+      ],
+      "prereqs": null,
+      "title": "Beyond Policy: Reforming Schools Through Learner-Centered Education and Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132439",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a doctoral seminar focused on analysis and problem solving of a current topic of vital concern relevant to teaching, leading, and student learning in P-12 schools. Candidates explore the literature to identify, analyze, and synthesize contemporary and classic literature on critical school issues. The ultimate goal is to identify gaps in the literature, explore possible topics for independent future research, and develop long term skills in literature review.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9370",
+      "notes": [
+        "Admission to the Ed.S. and/or Ed.D. program in Leadership for Learning"
+      ],
+      "prereqs": null,
+      "title": "Critical Issues for Student Learning: Exploring the Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Adequacy and equity in the provision of school services and support are crucial concerns of the public school administrator. The course addresses the financial management of education through the lens of basic economic theory and how the American economy provides funding for public education. The focus is on how funds are administered and the trends toward more efficient utilization of resources, including an introductory view from a global perspective. The approach is a business management appreciation of the complexity and magnitude of education as an important resource in the public sector.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9380",
+      "notes": [
+        "Admission to the Doctoral program in Education"
+      ],
+      "prereqs": null,
+      "title": "Economics of Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133625",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to enable students to (1) build comprehensive perspectives on leadership theory that inform their practice in educational institutions, and (2) develop and interrogate personal leadership philosophies for more informed practice as educational leaders. Students will interpret individual and organizational leadership dynamics and respond with responsible, effective, and innovative leadership strategies utilizing their skills as well as the talents of each member of their organization.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9390",
+      "notes": [
+        "Admission to Ed.D. Program in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Innovative Organizational Leadership in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133621",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class will provide a theoretical perspective and advanced knowledge of human resources methods and practices from the focal position of school human resources practitioners. The course is designed to offer authentic examples through case study discussions focusing on the human resources function (e.g., recruitment, selection, & induction; personnel administration; training, developing, & evaluating talent; succession & career planning; employee relations). In addition, this course will assist in developing critical analysis skills by deconstructing HR practices, local, state, and national HR policies, as well as reviewing and critiquing the methodologies of empirical human resources literature.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9520",
+      "notes": [
+        "Admission to the Ed.D. in Educational Leadership Program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Human Resources Management in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133626",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides knowledge, skills, and competencies essential for school leaders to fully engage with schools, districts, communities, and beyond in the promotion of ongoing communication between and among all stakeholders. In this course, students will develop and enhance communication skills to promote and market a school\u2019s vision and mission, manage mass media interactions, engage in crisis management, build community partnerships, and ensure the positive perception of the educational outputs of a school and its district.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9820",
+      "notes": [
+        "Admission to The Ed.D. program in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Marketing and Public Relations in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133623",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with opportunities to collaborate with various educational partners and to explore equitable solutions to current educational challenges. Students will integrate theory and practice as they relate to educational issues of equality, access, and diversity by exploring the various needs for diverse populations and actively engaging in research through case studies of traditionally marginalized populations. Further, this course is grounded in and develops a professional knowledge base that integrates both practical and research knowledge. It also links theory with systemic and systematic inquiry and emphasizes the generation, transformation, and transfer of professional knowledge to practice.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "EDL 9850",
+      "notes": [
+        "Admission to Ed.D. program in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Serving Diverse Populations in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133622",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the conceptual framework, theories, and research methods used to study educational policy, political culture, critical theory, and current policy trends at the state and national levels. Students will gain skills in understanding and identifying the roles, purposes, and decision-making authority of educational stakeholders, including governmental agencies, policy issue networks, and interest groups that affect educational policymaking. Additionally, students will focus on the process of policy development and the impact of outside forces on the operation of schools and school districts with the goal of becoming informed practitioners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 9860",
+      "notes": [
+        "Admission to Ed.D. program in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Politics, Power, and Practice for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133624",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores different strategies for strategic planning and institutional improvement regarding curriculum, evaluation, and reform. The focus is on guiding doctoral students toward understanding how planning and effective assessment impact various aspects of the organization. Students will engage in research that identifies political, ethical, and societal changes to impact curriculum, instruction, and assessment. Special attention is given to the educational leader\u2019s role in building a strong collaborative culture of culturally responsive practice and increasing systems\u2019 capacity to change.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 9890",
+      "notes": [
+        "Admission to the EdD. program in Educational Leadership"
+      ],
+      "prereqs": null,
+      "title": "Strategic Planning, Curriculum, and Assessment in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132999",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will serve as an introduction to qualitative research and methodologies. Methodological origins, theoretical frameworks, literature reviews, and basic methods of data collection and data analysis will be explored in conjunction with an analysis of relevant literature, educational research reports, and ethics in research. Students will apply basic skills of data collection and analysis. Students will differentiate between the types of qualitative research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8100",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Qualitative Research I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132998",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will demonstrate a functional understanding of the nature and design of quantitative research as applied to the educational arena including but not limited to the following topics; the nature and application of descriptive and basic inferential statistics including the concepts of variance, normal distribution, population, sample, power, effect size, hypothesis testing, parametric and nonparametric tests, interaction effects, validity, reliability; the strengths, weaknesses of quantitative research designs; the principles of data collection and analysis using computer software such as SPSS. Candidates will acquire and become proficient in analytical and interpretive skills; and will be prepared to conduct applied quantitative research that will bear positively on schools.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8200",
+      "notes": [
+        "Admission to graduate study in Education"
+      ],
+      "prereqs": null,
+      "title": "Quantitative Research I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132455",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an advanced study of qualitative research methodologies including ethnography, case study, and phenomenology. Students will examine a variety of data sources (e.g. interviews, observations) and methods of analysis (e.g. memo writing, coding). Students will conduct research as they formulate their research questions, collect and analyze data, and write a research report.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9100",
+      "notes": [
+        "Admission to the Ed.D. Program",
+        "its equivalent"
+      ],
+      "prereqs": "EDRS 8100",
+      "title": "Advanced Qualitative Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132456",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth study of and application of selected quantitative research designs. The course also involves advanced study of descriptive statistics, inferential statistics, and non-parametric tests traditionally utilized in social and behavioral research. Emphasis will be placed on understanding the process of social and educational research in applied settings. Candidates will deepen their expertise in designing and conducting research and analyzing quantitative data. Candidates will conduct these analyses using quantitative statistical software, interpret their findings, and communicate their results ethically, clearly and effectively.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9200",
+      "notes": [
+        "Admission to the Ed.D. Program",
+        "its equivalent"
+      ],
+      "prereqs": "EDRS 8200",
+      "title": "Advanced Quantitative Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133000",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar will assist the doctoral candidate in conceptualizing, identifying the components of, and articulating the emerging conceptual framework of their dissertation. Under the guidance of the course professor and in consultation with their dissertation chair, the candidate will emerge from the course with a draft his/her conceptual framework which includes the purpose and rationale for his/her research as well as a draft of the theoretical underpinnings of the research described through a review of literature followed by preliminary research questions or hypotheses for his/her dissertation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 9300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "EDRS 8100",
+              "EDRS 8200"
+            ]
+          },
+          {
+            "or": [
+              "EDRS 9100",
+              "EDRS 9200"
+            ]
+          }
+        ]
+      },
+      "title": "Research Seminar: Conceptual Frameworks & Research Design"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "edd-educational-leadership",
+    "name": "EdD Educational Leadership"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

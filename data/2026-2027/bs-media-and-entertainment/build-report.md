@@ -2,40 +2,14 @@
 
 ## Warnings needing review
 
-- **COMM 2340**
-  - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
 - **COMM 4200**
   - unrecognized: School Director
-  - unrecognized: Media
 - **JOUR 4100**
   - could not parse (per-major clauses): JOUR 3330&nbsp;and must be a declared major in the School of Communication & Media. Non-majors: permission of the School required
 - **JOUR 4445**
   - could not parse (per-major clauses): JOUR 3330 and COMM 2340, 90+ credit hours; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
 - **JOUR 4450**
   - could not parse (per-major clauses): JOUR 3330 and COMM 2340; must be a declared major in the School of Communication & Media. Non-Majors: Permission of the School required
-- **MEBU 2270**
-  - unrecognized: class instructor
-- **MENT 3200**
-  - unrecognized: Journalism
-  - ambiguous and/or precedence: COMM 2135 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
-- **MENT 3326**
-  - unrecognized: Media
-- **MENT 4424**
-  - unrecognized: Media
-- **MENT 4425**
-  - unrecognized: Journalism
-  - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
-- **MENT 4435**
-  - unrecognized: Journalism
-  - ambiguous and/or precedence: COMM 2020 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
-- **MENT 4454**
-  - unrecognized: Media
-- **MENT 4464**
-  - unrecognized: Media
-- **MENT 4485**
-  - unrecognized: Media
-- **PR 4605**
-  - could not parse (per-major clauses): PR 3375 or JOUR 3330 or PR 4405 and Approval of Application by Instructor; must be a declared major in the School of Communication & Media. Non-majors: Permission of the School required
 
 ## Left out on purpose
 

@@ -1,0 +1,1555 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              {
+                "external": "MATH 1001"
+              },
+              "MATH 1111",
+              {
+                "external": "MATH 1113"
+              },
+              "MATH 1160",
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134265",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the collection, analysis, and reporting of financial accounting information. The course includes theory and application of financial accounting concepts within the framework of accounting as an information system. The course also covers several technical accounting topics from a preparer\u2019s perspective.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 3100",
+      "notes": [],
+      "prereqs": {
+        "course": "ACCT 2101",
+        "minGrade": "B"
+      },
+      "title": "Intermediate Financial Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134266",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focuses on the fundamental principles and concepts applicable to tax liability determination and tax planning, including an introduction to tax research methodology.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 3200",
+      "notes": [
+        "a minimum GPA of 2.0"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Concepts in Federal Taxation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134267",
+      "catalogYear": "2026-2027",
+      "coreqs": "ACCT 3100",
+      "credits": "3",
+      "description": "A continuation of accounting transaction processing concepts; internal controls and systems analysis and design.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 3300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Accounting Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134268",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A continuation of intermediate financial accounting theory and applications, with a focus on detailed technical topics and specialized problems.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 4050",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ACCT 3100",
+      "title": "Intermediate Financial Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134270",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course teaches audit theory, attestation, and assurance services. It focuses on the concepts of risk, control, evidence, and ethics for financial reporting and internal control purposes.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 4150",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ACCT 3100",
+          "ACCT 3300"
+        ]
+      },
+      "title": "Auditing and Assurance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134273",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to accounting-related skills, tools, and knowledge sets useful in the context of investment in and management of international enterprises. Covers translation of foreign currency financial statements, accounting for foreign-currency transactions and hedges, comparative accounting and disclosure, ethics and other relevant topics.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 4300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ACCT 3100",
+          "ACCT 4050"
+        ]
+      },
+      "title": "International Accounting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135799",
+      "catalogYear": "2026-2027",
+      "coreqs": "ACCT 4150",
+      "credits": "3",
+      "description": "Knowledge of and competencies in data analytics has been identified as one of the growing needs for future accountants in all practice fields. This course will introduce students to this topic and have students use hands-on analytic tools such as Microsoft Access and other data analysis software.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 4550",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ACCT 3100",
+          "ACCT 3300",
+          "ACCT 4050"
+        ]
+      },
+      "title": "Accounting Data Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134278",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of fundamental concepts and valuation methods used to value a closely held business when there is no established market price. When determining the future benefit stream of a business entity and the associated risk, concepts from finance, economics, accounting and taxation will be incorporated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ACCT 4700",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ACCT 3100",
+          "ACCT 3200",
+          "FIN 3100"
+        ]
+      },
+      "title": "Valuation of Closely Held Businesses"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers torts, contracts, government regulation of business and the legal system. Also addresses ethical issues arising in business internal and external relationships.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLAW 2200",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Legal and Ethical Environment of Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134424",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the theory and practice of negotiation. In addition to reviewing readings, students will participate in simulations and discuss negotiation cases to broaden their negotiating techniques.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BLAW 3400",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "BLAW 2200",
+      "title": "Negotiation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Designed to provide the business student with an understanding of the nature, sources and principles of real estate law, and its importance in the business environment. Topics include: real property; contracts involving real estate, deeds and titles; transfer of real estate, mortgages, liens, zoning and land use controls, condemnation, real estate agents and landlord-tenant law.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "BLAW 4300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "BLAW 2200",
+      "title": "Real Estate Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers a comprehensive introduction to the core functions of business within an organizational context, including accounting, finance, economics, management, entrepreneurship, marketing, information systems, and cybersecurity. Students explore how these disciplines interconnect to support and drive organizational strategy. In addition, the course offers a deep dive into the diverse career opportunities offered by different academic pathways in the Coles College of Business. Emphasis is also placed on building essential career readiness and professional skills to prepare students for success in the business world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135663",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students research their prospective major, discover appropriate resources, and engage in various career management activities.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 2150",
+      "notes": [],
+      "prereqs": null,
+      "title": "Professionalism I: Clarifying My Major and Career"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135664",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students focus on their talents, skills and strengths and become more self-aware through personal assessment. Students explore opportunities to participate in relevant work experience and complete preparatory activities to attain employment or advance in a current career.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 3150",
+      "notes": [
+        "Admission to Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": {
+        "and": [
+          "BUSA 2150",
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Professionalism II: Relevant Work Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is part of a Coles College program to introduce students to the professional skills, knowledge, and attitudes necessary to succeed in business careers. In this course, students focus on their talents, skills, and strengths and improve their self-awareness through personal assessment exercises. In this class, students explore opportunities to develop relevant work experience and complete activities to enable them to secure degree-appropriate employment or advance in their current career.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 4000",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Career Accelerator"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135665",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students will fine-tune the skills required for post-graduation success.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 4150",
+      "notes": [
+        "Admission to the Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": "BUSA 3150",
+      "title": "Professionalism III: Post-Graduate Success"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136430",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course provides students with the knowledge and tools necessary to critically examine social and policy issues from an economic perspective. Fundamental economic questions as they relate to individuals, firms, and society in the modern global world are addressed. Students learn about different economic systems, how markets function, the role of government in the economy, the basis for international trade, measurement of macroeconomic performance, and the impact of globalization on living standards and economic growth.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Contemporary Economic Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to descriptive and inferential statistics with an emphasis on business applications. Topics covered include data summarization, probability distributions, sampling methods, confidence intervals, hypothesis testing, online data sources, and ethics in research. Small case studies are used to illustrate statistical applications within business settings.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2300",
+      "notes": [
+        "Business majors need MATH 1111; non-business majors need MATH 1101"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1101"
+          }
+        ]
+      },
+      "title": "Business Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138393",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to linear, quadratic, polynomial, exponential, and logarithmic functions, inequalities, basics of statistics and probability, with the emphasis on business applications. Empirical examples may be used to illustrate statistical applications within business settings. The course is taught from a practice-based perspective. It entails focusing on practical business-centric problems and using them as examples of how the quantitative tool or technique can aid in solving the problem.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2400",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "MATH 1001"
+          },
+          "MATH 1111",
+          {
+            "external": "MATH 1113"
+          },
+          "MATH 1160",
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "title": "Quantitative Problem-Solving Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the study of quantitative models for decision-making within business operations. It provides an introduction to descriptive and inferential statistics with the emphasis on business applications, ANOVA, simple and multiple linear regression, and forecasting. Case studies are used to illustrate modeling applications within business settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 3200",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "BUSA 1000",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2400",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Business Analytics Essentials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135947",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course conveys a working knowledge of several of the most commonly employed quantitative models to support data analysis and improved decision-making within a business environment. Students learn to identify and apply the appropriate modeling techniques as well as how solve the resultant models via spreadsheet tools and applications. In addition, the course promotes and develops problem-solving and critical thinking skills through the evaluation of problem scenarios and short case-studies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 3300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "or": [
+          "ECON 2300",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Applied Statistical and Optimization Models"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134640",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Analyzes the operation, structure, regulation, and control of financial markets emphasizing the effects on the level and term structure of interest rates, economic activity, and business decisions. Focuses on monetary theory, monetary and fiscal policies, the Federal Reserve System, and financial institutions, markets, and instruments.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4210",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          "FIN 3100"
+        ]
+      },
+      "title": "Money and Financial Markets"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134645",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Theory of the determination of price and output in both partial and general equilibrium. Topics include the theory of the firm, consumer behavior, analysis of market structures, welfare economics, social choice, the theory of games, and asymmetric information.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4510",
+      "notes": [
+        "BBA major",
+        "Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2106",
+          "ECON 2105",
+          {
+            "or": [
+              "MATH 1160",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Intermediate Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134646",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course considers the application of economic models to analyze the role of government in correcting market failures, the effects of taxation and expenditure policies on the allocation of resources, and the distribution of income. There is an emphasis on the optimal provision of public goods, the incidence and behavioral effects of taxes, regulation of externalities, public choice and the spatial organization of the economy.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4530",
+      "notes": [
+        "BBA major",
+        "Coles Partner Student"
+      ],
+      "prereqs": "ECON 4510",
+      "title": "Public Economics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134647",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An economic analysis of the fundamental issues that underpin the firm\u2019s strategic pricing, production, and resource allocation decisions in alternative competitive environments. Topics include the horizontal, vertical and corporate boundaries of the firm, the nature of competitive markets and competitive interactions among firms, how the firm positions itself to compete, and how the firm designs its organizational architecture to support its competitive goals.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4550",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          "ECON 2300"
+        ]
+      },
+      "title": "The Economics of Strategy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136844",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the practical applications of economic and quantitative analysis to determine the intrinsic value of a publicly-traded firm. Students apply contemporary valuation techniques to value an actual firm and prepare a comprehensive investment report based on an evaluation of industry-level economic and competitive conditions, and firm-specific operating risk and financial projections.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4590",
+      "notes": [
+        "Permission of the Department Chair",
+        "60 credit hours with a minimum GPA of 2.0",
+        "Admission to the Coles College. Membership in Student Managed Investment Fund"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Applied Equity Valuation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134648",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Analysis of the determination of output, employment, interest rates, and income with emphasis on the influence of fiscal and monetary policy.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4610",
+      "notes": [
+        "BBA major",
+        "Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      },
+      "title": "Intermediate Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134649",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Study of the tools used for estimating and forecasting demand, revenue and cost, as well as demographic characteristics of importance to an individual in a business decision-making position.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4710",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          {
+            "or": [
+              "ECON 2300",
+              {
+                "external": "STAT 1401"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Econometrics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137081",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces R programming basics and related multivariate and econometric modeling methods for various business and economic data. Specific topics include basic features of R programming; data input and output; various graphic methods for data presentation; flow control and the use of functions; general principles for programming; simulation methods for econometric modeling; computational linear algebra; regression methods; numerical optimization; matrix algebra theory for multivariate data analysis; case studies in business and economics.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4730",
+      "notes": [
+        "Business majors: admission to the Coles College of Business",
+        "Non-business majors: ECON 2300 or STAT 1401"
+      ],
+      "prereqs": null,
+      "title": "R Programming for Economists"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134650",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The theory and application of quantitative methods of data analysis. Emphasis is on the application of statistical principles to empirical model building in business and economics. Topics include regression analysis, analysis of variance, factor analysis, discriminant analysis, parametric and nonparametric tests, sampling techniques, and experimental design.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4750",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          {
+            "or": [
+              "ECON 2300",
+              {
+                "external": "STAT 1401"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Multivariate Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135800",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Econometric and time series methods for forecasting business and economic data are introduced. Specific topics include: basic graphic methods for analyzing data; modeling forecasting trend and seasonality; ARMA modeling of time series; unit root and ARIMA process; forecasting volatility; evaluation and comparison of forecasting models.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4760",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "or": [
+          "ECON 4710",
+          {
+            "external": "STAT 3130"
+          }
+        ]
+      },
+      "title": "Business Forecasting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134651",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on both the theory and application of quantitative models to support decision-making under uncertainty. General topics include basic spreadsheet modeling, general probability distributions and decision making under uncertainty, and risk analysis. Specific topics to be covered include Monte Carlo Simulation, Decision Trees, and Real Options Analysis. A mixture of cases and in-class demonstrations will be used to develop your skill in applying management science approaches to decision making within a business environment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4810",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          "ECON 3300"
+        ]
+      },
+      "title": "Quantitative Decision Models"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134652",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Simulation is the process of designing and creating computer models of existing or proposed real-world systems to conduct numerical experiments to better understand the behavior of that system for a given set of conditions. It enables the creation of models that can represent the variability that exists in many real business systems. A variety of topics in simulation including event-oriented simulation, continuous simulation, and advanced topics such as experimental design and optimization, object-oriented simulation, response surface methodology, will be covered, using a major commercial simulation package. Software such as ARENA will be used to model complex systems in the manufacturing, service, and transportation industries. Emphasis will be on the use of simulation as a tool to support business decision-making. Because this course requires the use of spreadsheet software such as MSExcel modules, some experience with spreadsheets is required.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4850",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2105",
+          {
+            "or": [
+              "ECON 2300",
+              {
+                "external": "STAT 1401"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Decision Analysis and Simulation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137040",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the application of operations research techniques to decision making in business problems from a managerial perspective. A variety of advanced analytical methods is be covered, such as network optimization, nonlinear programming, goal programming, queueing analysis, and simulation. Applications in different business areas are be presented, such as production, planning, finance, scheduling, transportation, resource allocation, and distribution. Excel and Excel add-ins are used extensively to accomplish formulating and solving mathematical models and apply other quantitative techniques.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ECON 4870",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ECON 2300",
+      "title": "Advanced Operations Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137011",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction on how to think and act entrepreneurially. The course examines how creative and innovative thinking along with initiative allow the student to see and seize opportunities. This course will give students an introduction to what it means to have an entrepreneurial mindset, explore different skill sets needed in entrepreneurship, and expose them to how entrepreneurship can be utilized in all types of careers. This course takes the approach that everyone (not just those who want to start businesses) can benefit from understanding and applying an entrepreneurial mindset to any situation that demands change in their lives. This course will be filled with experiences to have students understand what it feels like to act entrepreneurially.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENTR 3001",
+      "notes": [
+        "completion of 30 credit hours",
+        "a minimum cumulative GPA of 2.00"
+      ],
+      "prereqs": "ECON 1000",
+      "title": "Entrepreneurial Thinking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136379",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "As an introduction to creating value for an entrepreneurial venture, this course provides information to increase students\u2019 awareness of the importance of being both externally-centric (focusing on definitions of value from the customer perspective) and internally-directed. This is achieved by developing and implementing strategies that meet customer expectations and satisfy the objectives of the new venture.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENTR 4002",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ENTR 3001",
+      "title": "Venture Creation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136380",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students identify and examine different types of financing, differentiate between venture capital and angel investor funding, and locate alternative financing (such as crowd-funding, peer-to-peer lending, micro-loans, and SBA loans). Additionally, students learn how to determine the value of a new venture. The course explores sourcing and acquiring financial resources that are required in new venture start-ups. Exit strategies including mergers, acquisitions, firm sales, and initial public offerings (IPOs) are examined.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENTR 4003",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ENTR 3001",
+      "title": "Venture Funding"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134733",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course designed to develop knowledge of the basic concepts, principles, and functions of managerial finance. Topics include the time value of money, valuation of bonds and stocks, financial analysis, working capital management, capital budgeting, and capital structure strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 3100",
+      "notes": [
+        "Admission to Coles College Professional Program",
+        "Admission as a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              {
+                "course": "ECON 2300",
+                "minGrade": "B"
+              },
+              {
+                "course": "ECON 2400",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138399",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course enables students to synthesize prior learning and develop an advanced understanding of key financial concepts and theories, and the firm as a mechanism to build shareholder wealth. Course content focuses on real-world applications including forecasting of cash flows using financial statements and other relevant data, assessing a firm\u2019s risk and determining a firm\u2019s cost of capital, and applying valuation tools to determine the firm\u2019s financial securities\u2019 value and estimate the overall value of a firm, considering whenever possible, the effects of financial leverage.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 4199",
+      "notes": [
+        "Finance, BBA major",
+        "90 credit hours completed"
+      ],
+      "prereqs": null,
+      "title": "Finance Capstone"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134734",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Application of the principles and concepts of finance to the acquisition and management of corporate assets and financial resources, the management of the firm\u2019s capital structure, and development of dividend policy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 4220",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Corporate Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134735",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focuses on the structure and functioning of payment systems, the management of short-term assets and short-term liabilities of the business firm, and the impact of computer and communications technologies on financial management systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4260",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Short Term Financial Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134736",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with knowledge of the fixed-income markets. The course will cover the pricing and risk management of fixed-income securities, and an introduction to fixed-income derivatives. It covers interest rate management, product fundamentals, and portfolio strategies. This course is a valuable preparation for students interested in taking the Chartered Financial Analysts (CFA) examination.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4320",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Fixed Income Securities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134737",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with working knowledge of equity securities and portfolio management with an emphasis on the fundamental trade-off between risk and return. The course covers securities markets, efficient diversification, asset pricing models, and investment strategies of individual and institutional investors. It also introduces students to bonds and financial derivative products.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 4360",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Investments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A course designed to develop knowledge of financial data analysis using programming languages commonly used in finance. Students will learn how to apply widely used econometric modeling techniques such as linear regression and time series analysis for analyzing financial data. Topics include financial portfolio analysis, credit risk management, and cash flow valuation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4380",
+      "notes": [],
+      "prereqs": "FIN 3100",
+      "title": "Computational Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134739",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Investigates the implications for financial decision making rules and policies that result from consideration of an international financial perspective.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4420",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "International Financial Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134740",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on financial statement users, their information needs, and how effective financial statement analysis addresses those needs. Students will be instructed in methods to assess the financial health and performance of a firm to make realistic valuations and sound financial decisions (e.g., as to investing, lending, liquidity, and risk) in light of industry and economic conditions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4460",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Financial Statement Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134742",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help students gain a thorough understanding of the roles of futures, options, and other financial derivatives in allocating risk; the design of financial derivatives; the valuation of financial derivatives; and their applications to financial risk management problems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4520",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Financial Derivatives and Financial Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134743",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The tools and applications of behavioral finance are presented. Topics include expected utility, prospect theory and mental accounting; conventional finance and challenges to market efficiency; heuristics and biases, overconfidence and emotion; financial decision-making stemming from psychology; behavioral explanations of observed behavioral anomalies; aggregate stock market puzzles; and retirement and pensions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4560",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Behavioral Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136810",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents the practical applications of economic and quantitative analysis to determine the intrinsic value of a publicly-traded firm. Students apply contemporary valuation techniques to value an actual firm and prepare a comprehensive investment report based on an evaluation of industry-level economic and competitive conditions, and firm-specific operating risk and financial projections.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4590",
+      "notes": [
+        "Permission of the Department Chair",
+        "60 credit hours with a minimum GPA of 2.0",
+        "Admission to the Coles College. Membership in Student Managed Investment Fund"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Applied Equity Valuation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134744",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Financial decision making concepts are applied to the particular financial management issues of financial institutions, including funds acquisition and management of operations and capital investments.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIN 4620",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Financial Management of Financial Institutions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134976",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class introduces the analysis of economic decisions under uncertainty and informational asymmetries, with a focus on insurance markets. Foundational probability tools such as the law of large numbers and Bayesian updating are developed. Topics such as expected utility, risk aversion, stochastic dominance, adverse selection, and moral hazard are covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "INS 4500",
+      "notes": [
+        "BBA major",
+        "Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "ECON 2106",
+          {
+            "or": [
+              "MATH 1160",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Risk Management and Insurance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course illustrates how to effectively use, manage, and participate in the development of information technology applications that support common business processes. This course focuses on the interdependence among an organization\u2019s management, business processes, and information systems and provides hands-on experience in developing a business information system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "IS 2200",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Information Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134985",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to the properties, logic, design, implementation, and access to business databases. Particular emphasis is placed on the relational approach to database management and processing, which focuses more on the logical nature of a database than its physical characteristics. Relational database programming assignments are drawn from the fields of business and government.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 3280",
+      "notes": [],
+      "prereqs": null,
+      "title": "Data Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134993",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Data Mining is the process of extracting useful information from data sets. It involves exploring and analyzing data sets to discover meaningful and valuable information. This course covers major data mining techniques including but not limited to data visualization, association analysis, classification, clustering, trend analysis, prediction, neural networks, text and web mining, and their applications in business. Various data analysis and data mining tools will be used to create analytical applications and achieve data mining goals.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 4540",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "IS 3100",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Data Mining"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135057",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Uses techniques of college algebra and elementary calculus to analyze and model real world phenomena. The emphasis will be on applications using an intuitive approach to the mathematics rather than formal development. Topics include graphs, derivatives, and integrals of functions. The course incorporates collaborative learning, oral and written reports, and technology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 1160",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1113"
+          }
+        ]
+      },
+      "title": "Elementary Applied Calculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135094",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Generic modeling techniques are applied to the planning, operation and control of the production of goods and services. Topics include: quality control, facility location and layout, material requirements planning and project scheduling.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3200",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ECON 2300",
+      "title": "Operations Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135526",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students learn to complete organizational projects on time and on budget. This course introduces students to project management (PM) from both a process and project tool standpoint. Students focus on understanding project definition and scope, resource allocation, task dependencies and risk management. Students also learn how to use PM software in the context of managing a team project.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4003",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MGT 3200",
+      "title": "Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135100",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the acquisition, development, operation, and disposition of commercial real estate properties, with a special emphasis on shopping centers. Dimensions of inquiry include: ethical decision making, specific legal requirements associated with real estate ventures, and stakeholder (developers, investors, local communities, and public sector) analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 4130",
+      "notes": [],
+      "prereqs": null,
+      "title": "Commercial Real Estate Ventures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135107",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes an integrative, multifunctional, general management perspective of the organization and its long-term survival in a global economic environment. It builds the knowledge base and analytical skills required for managing a business enterprise. Components include situation analysis, strategy formulation, evaluation, and choice, as well as strategy implementation at different organizational levels, and under different contextual conditions. The course enables the refinement of the student\u2019s communication and presentation skills, as well as the interpersonal abilities necessary for accomplishing group tasks. Integrating multiple business disciplines, it serves as the capstone course in the business curriculum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 4199",
+      "notes": [
+        "Admission to the Coles College Undergraduate Professional Program . This course is taken in the last",
+        "next-to-last semester in the B.B.A. program"
+      ],
+      "prereqs": {
+        "and": [
+          "BUSA 4150",
+          "ECON 3300",
+          "FIN 3100",
+          "MGT 3100",
+          "MGT 3200",
+          "MKTG 3100"
+        ]
+      },
+      "title": "Strategic Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135126",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the marketing research process as a facilitator of data-driven decision-making. The course covers the definition of the research problem, selecting and planning of a research design, measurement and scaling, questionnaire construction, and data analysis and interpretation. Statistical software is utilized for data management and analysis in the course. Emphasis is placed on understanding Key Performance Indicators (KPIs) and interpreting statistical analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "MKTG 3100",
+          "ECON 2300"
+        ]
+      },
+      "title": "Marketing Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135130",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course offers a practitioner-oriented introduction to essential marketing analytics methods focusing on real-world applications. Through hands-on case exercises using relevant software such as Tableau, Python and SQL, students will develop the skills to select appropriate analytical techniques, interpret results, and apply them effectively in marketing management. Additional topics may include product development, key performance indicators, and customer acquisition management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4430",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "MKTG 3100",
+          "ECON 2300"
+        ]
+      },
+      "title": "Marketing Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135401",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students are introduced to the principles of real estate analysis and utilization. Subjects include the nature of real property; the legal instruments involved in real property transactions; market analysis and the determinants of real estate values; the appraisal process; investment and financial analysis; and the public policy aspects of real estate planning and utilization.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "RE 3400",
+      "notes": [
+        "60 credit hours with a minimum GPA of 2.0",
+        "Admission to the Coles College Undergraduate Professional Program",
+        "student in a Coles College Partner Program that includes this course"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Principles of Real Estate"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135402",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the principles and procedures of real estate appraisal, the transfer process for property, and financing methods for residential and commercial real estate. Studies the income and cost of developing and managing real property and analyzes real estate as an investment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "RE 4500",
+      "notes": [
+        "60 credit hours with a minimum GPA of 2.0",
+        "Admission to the Coles College Undergraduate Professional Program",
+        "student in a Coles College Partner Program that includes this course"
+      ],
+      "prereqs": "FIN 3100",
+      "title": "Real Estate Finance"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bba-finance",
+    "name": "BBA Finance"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

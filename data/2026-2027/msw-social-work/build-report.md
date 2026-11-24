@@ -2,16 +2,7 @@
 
 ## Warnings needing review
 
-- **SW 7802**
-  - unrecognized: All MSW Foundational-Level courses
-- **SW 7803**
-  - unrecognized: All MSW Foundation-Level courses
-- **SW 7807**
-  - unrecognized: All MSW Foundation-Level courses
-- **SW 7830**
-  - unrecognized: All MSW Foundational-Level courses
-- **SW 7929**
-  - unrecognized: All MSW Foundational-Level courses
+None.
 
 ## Left out on purpose
 

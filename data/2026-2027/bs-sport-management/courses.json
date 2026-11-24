@@ -1,0 +1,333 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              {
+                "external": "MATH 1111"
+              },
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134495",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The organization of materials and the vocal and physical aspects of delivery in various speaking situations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 1110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Public Speaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134901",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to sport management. Topics include historical development of the discipline, overview of the profession, professional organizations, current issues, future trends, and career opportunities.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SM 2100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Sport Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the evolution of sport within the United States and how it compares and contrasts with the development of sport around the world. Topics include youth sport, collegiate athletics, professional sports leagues, international competition, culture, race, and gender.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SM 2200",
+      "notes": [
+        "Sport Management Interest",
+        "Sport Management Major"
+      ],
+      "prereqs": null,
+      "title": "History and Contemporary Aspects of Sport"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134903",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class is designed to familiarize students with the field of sport information including mass communication, print media, broadcast media, sports news releases, interviewing, and public relations. Emphasis is placed upon the gathering, managing, and delivering of information about sport organizations, teams, players, and coaches to the public.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SM 2400",
+      "notes": [
+        "Sport Management, B.S. major"
+      ],
+      "prereqs": null,
+      "title": "Sports Information and Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137128",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "The course is designed to provide the student with practical experience in a sport-related business, industry, or organization. Practicum students participate in various components and functions of the management and operation of a sport or fitness facility or sport organization or business. Students must complete a minimum of 60 hours in the field.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 3000",
+      "notes": [
+        "Sport Management, B.S. major"
+      ],
+      "prereqs": null,
+      "title": "Practicum in Sport Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137090",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the application of legal principles to the sport, recreation, and fitness industries. Topics covered include agency law, tort liability, contract law, antitrust law, Constitutional law, labor law, and criminal law.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 3050",
+      "notes": [
+        "Sport Management, B.S. major"
+      ],
+      "prereqs": null,
+      "title": "Legal Aspects of Sports"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135635",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a study of sociological theories and principles applied to understanding sport management. This class analyzes sport from a sociological perspective through the study of values, norms, and behavior of sport in society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 3100",
+      "notes": [
+        "Sport Management, B.S. major",
+        "Community Sport Minor"
+      ],
+      "prereqs": null,
+      "title": "Sport Sociology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135634",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students explore the theoretical frameworks of the body of knowledge of Sport Management, the practical applications of those frameworks, and the ethical issues confronting today\u2019s sport managers. This course also provides application for the development of skills necessary to be an effective and efficient leader regarding communication, motivation, and decision-making. The role of human resources and leadership theory in an atmosphere of complexity and diversity is also explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 3200",
+      "notes": [
+        "Sport Management, B.S. major",
+        "Community Sport Minor"
+      ],
+      "prereqs": null,
+      "title": "Leadership and Management of Sport Organizations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135640",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the role of sponsorship and fundraising in sport. Students are exposed to sport-specific fundraising challenges and goals for events, facilities, and organizations in the sports industry. The roles of media and public relations are also addressed. This course stresses practical applications in unique situations faced by sport management practitioners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 3500",
+      "notes": [
+        "Sport Management, B.S. major",
+        "Community Sport Minor"
+      ],
+      "prereqs": null,
+      "title": "Sponsorship and Fundraising in Sport"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137130",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class is designed to familiarize students with innovations and technological advances in the world of sport. The class will emphasize that innovation is not just a technology or set of technologies but also a way of thinking. The aim of the course is to use examples of innovations and technologies past and present to prepare students to think innovatively and identify opportunities for innovations yet to come that will drive the future of sport.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 3850",
+      "notes": [
+        "Sport Management, B.S. major"
+      ],
+      "prereqs": null,
+      "title": "Technology and Innovation in Sport"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134926",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers basic principles of finance as they relate to sports. Emphasis is placed current practices and issues relating to funding, budgeting, and revenue acquisition in sports through private and public means. Topics include taxing and borrowing, ticket sales, concessions, broadcast sales, and sponsorship. The course includes an introduction to collection and analysis of sports business data.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 4800",
+      "notes": [
+        "Sport Management, B.S. major"
+      ],
+      "prereqs": null,
+      "title": "Sports Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137091",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses upon how to successfully plan and execute sport events. Topics addressed include the determination of objectives, developing a budget, marketing, recruiting attendees, and safety topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 4850",
+      "notes": [
+        "Sport Management, B.S. major",
+        "Community Sport Minor"
+      ],
+      "prereqs": null,
+      "title": "Sport Event Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses upon the principles and theories involving the overall design and management of events in indoor and outdoor facilities for sport and physical activity. Topics covered include facility design, planning, management, operations, and maintenance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 4875",
+      "notes": [
+        "Sport Management, B.S. major",
+        "Community Sport Minor"
+      ],
+      "prereqs": null,
+      "title": "Sport Facility Design and Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137132",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This capstone course for the Sport Management major integrates professional preparation along with strategies for seeking internship and entry-level employment, long-term career planning, and post graduate study options.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SM 4925",
+      "notes": [
+        "90 credit hours completed"
+      ],
+      "prereqs": "SM 3000",
+      "title": "Senior Seminar"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bs-sport-management",
+    "name": "BS Sport Management"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

@@ -2,14 +2,7 @@
 
 ## Warnings needing review
 
-- **ECON 2105**
-  - unrecognized: higher
-- **ECON 2106**
-  - unrecognized: higher
-- **ECON 2300**
-  - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
-- **IS 2200**
-  - unrecognized: higher
+None.
 
 ## Notes
 

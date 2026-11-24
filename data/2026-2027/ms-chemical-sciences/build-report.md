@@ -2,15 +2,7 @@
 
 ## Warnings needing review
 
-- **CHEM 7300**
-  - unrecognized: chair
-  - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
-- **CHEM 7500**
-  - unrecognized: chair
-  - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
-- **CHEM 7600**
-  - unrecognized: chair
-  - ambiguous and/or precedence: Admission and enrollment in the Master of Science in Chemical Sciences degree program or permission of the program director or chair
+None.
 
 ## Left out on purpose
 

@@ -2,8 +2,6 @@
 
 ## Warnings needing review
 
-- **ECE 7704**
-  - unrecognized: Early Childhood Education
 - **EDRD 7717**
   - unrecognized: Evidence of passing a background check
 - **EDRD 7718**

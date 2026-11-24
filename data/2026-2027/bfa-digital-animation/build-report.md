@@ -2,28 +2,7 @@
 
 ## Warnings needing review
 
-- **ANIM 3620**
-  - unrecognized: BFA Digital Animation
-- **ARH 3850**
-  - unrecognized: Art majors:
-  - unrecognized: . Non art majors:
-- **ART 1100**
-  - unrecognized: BFA Digital Animation
-  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art Including students in the Art Education concentration ; BFA Digital Animation; and BS Interactive Design majors, only
-- **ART 1150**
-  - unrecognized: BFA Digital Animation
-  - could not parse (unexpected 'and'): This course is for students who have passed the portfolio requirement and been accepted into the School of Art and Design with majors in BFA Art Including students in the Art Education concentration ; BFA Digital Animation; and BS Interactive Design majors, only
-- **ART 1200**
-  - unrecognized: This course is for Art, BFA
-  - ambiguous and/or precedence: ART 1100 and ART 1150 This course is for Art, BFA or Digital Animation, BFA majors only
-- **ART 2150**
-  - unrecognized: . This course is for Art, BFA
-  - ambiguous and/or precedence: ART 1100 and ART 1150. This course is for Art, BFA or Digital Animation, BFA majors only
-- **ART 2550**
-  - unrecognized: .This course is for Art, BFA
-  - ambiguous and/or precedence: ART 1100, and ART 1150.This course is for Art, BFA or Digital Animation, BFA majors only
-- **ART 2990**
-  - unrecognized: BFA in Digital Animation
+None.
 
 ## Left out on purpose
 

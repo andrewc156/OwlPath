@@ -1,0 +1,1321 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "MATH 3261",
+      "MATH 3262"
+    ],
+    [
+      "MATH 3322",
+      "MATH 3324"
+    ],
+    [
+      "MATH 3272",
+      "ISYE 3400"
+    ],
+    [
+      "ISYE 3600",
+      "MATH 4260"
+    ],
+    [
+      "MATH 4362",
+      "MATH 4382"
+    ],
+    [
+      "MATH 4596",
+      "MATH 3496"
+    ],
+    [
+      "STAT 3120",
+      "STAT 3125"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              {
+                "external": "MATH 1001"
+              },
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 1190",
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134540",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the American criminal justice system including law enforcement, the court system, and the correctional system. Emphasis is placed on crime in the U.S., the criminal justice process from arrest through sentencing, and the roles and responsibilities of criminal justice actors. Current topics in the criminal justice system are addressed such as the death penalty, offender treatment, and criminal justice reform among others.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CRJU 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134542",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the scientific method and the concepts and techniques of social science research. Topic areas include levels of measurement, sampling techniques, research design, survey methodology, and various research techniques. Emphasis is placed on the application of these techniques to the study of specific research questions in criminal justice. This course also examines how to interpret basic statistics and analyze data in a statistical software program.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "CRJU 3301",
+      "notes": [],
+      "prereqs": "CRJU 1101",
+      "title": "Research Methods in Criminal Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135898",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces data structures, specification, application, and implementation. The case studies will illustrate how data structures are used in computing applications. The emphasis of the course is on linear and some nonlinear data structures and object oriented principles. Topics include: abstract data types, stacks, queues, lists, binary search trees, priority queues, recursion, algorithm efficiency, trees, heaps, hash tables, and analysis of search and sort algorithms and their performance for implementation and manipulation. The programming language to be used in this course is any standard high-level object-oriented programming language such as C++, Java, and Ada.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 3305",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 2345",
+              {
+                "external": "CSE 2300"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "CSE 1322",
+                  "CSE 1322L"
+                ]
+              },
+              {
+                "external": "MTRE 2710",
+                "minGrade": "B"
+              },
+              {
+                "external": "CPE 3000",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Data Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135894",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Algorithm analysis using formal and mathematical techniques and fundamental algorithm design strategies are studied. Topics include asymptotic analyses of complexity bounds using big-O, little-o, omega, and theta notations. The algorithmic strategies (brute-force, greedy, divide-and-conquer, recursive backtracking, dynamic programming, branch-and-bound, heuristics, and reduction) are covered. Also included are standard graph and tree algorithms. Additional topics include standard complexity classes, time-and-space tradeoffs in algorithms, and analyzing both recursive algorithms and non-recursive (iterative) algorithms.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "CS 4306",
+      "notes": [],
+      "prereqs": "CS 3305",
+      "title": "Algorithm Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321L",
+      "credits": "3",
+      "description": "This course provides an introduction to computing with a focus on programming. Instruction centers on an overview of programming, problem-solving, and algorithm development. Particular topics include object-oriented design/programming, primitive data types, arithmetic and logical operators, selection and repetition structures, interactive user input, exception handling, using and designing basic classes, single-dimensional data structures with searching and sorting, and arrays. Programming assignments focus on techniques of good programming style including proper documentation. The student is taught to efficiently design, code, and debug problem solutions and the relationship between correct code and security.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1321",
+      "credits": "1",
+      "description": "Lab activities with programming to accompany CSE 1321.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CSE 1321L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Programming and Problem Solving I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136676",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CSE 1322L",
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event-driven programming are also introduced. Students will use good programming style including proper documentation.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CSE 1322",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136669",
+      "catalogYear": "2026-2027",
+      "coreqs": "CSE 1322",
+      "credits": "1",
+      "description": "This course is the required and supervised lab course to accompany CSE 1322.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CSE 1322L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Programming and Problem Solving II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135464",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an intermediate survey course of computer-based statistical software applications in the analysis and interpretation of data. Topics include developing a proficiency in coding in multiple languages through quantitative applications. Software packages include the most in-demand statistical languages and packages in the marketplace. (e.g. Python, SAS, R)",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "DATA 3010",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "STAT 1401"
+          },
+          "ECON 2300",
+          "STAT 3125",
+          {
+            "external": "STAT 2332"
+          },
+          "MATH 3332"
+        ]
+      },
+      "title": "Computer Applications of Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135736",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will learn R programming to effectively manage, explore, visualize, and present data. The course covers practical statistical-computing issues, including reading, manipulating, and analyzing data, using control statements, existing functions, and user-created functions. Reporting results using R packages, such as R Markdown, may also be covered.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "DATA 4030",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "DATA 3010",
+          "STAT 3125"
+        ]
+      },
+      "title": "Programming in R"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135470",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Data Mining is an information extraction activity whose goal is to discover hidden facts contained in databases, perform prediction and forecasting, and generally improve their performance through interaction with data. The process includes data selection, cleaning, coding, using different statistical, pattern recognition and machine learning techniques, and reporting and visualization of the generated structures. The course will cover all these issues and will illustrate the whole process by examples of practical applications. The students will use recent SAS Enterprise Miner software.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "DATA 4310",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "STAT 3130",
+      "title": "Statistical Data Mining"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135471",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Common applications of binary classification include credit worthiness and the associated development of a credit risk score, fraud detection, and the presence of a disease. Students will learn to use logistic regression, odds, ROC curves, and maximization functions to apply binary classification concepts to real-world datasets. This course utilizes statistical coding software and students are expected to have an advanced knowledge of this software.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "DATA 4330",
+      "notes": [],
+      "prereqs": "STAT 4210",
+      "title": "Applied Binary Classification"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to descriptive and inferential statistics with an emphasis on business applications. Topics covered include data summarization, probability distributions, sampling methods, confidence intervals, hypothesis testing, online data sources, and ethics in research. Small case studies are used to illustrate statistical applications within business settings.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2300",
+      "notes": [
+        "Business majors need MATH 1111; non-business majors need MATH 1101"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1101"
+          }
+        ]
+      },
+      "title": "Business Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134733",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course designed to develop knowledge of the basic concepts, principles, and functions of managerial finance. Topics include the time value of money, valuation of bonds and stocks, financial analysis, working capital management, capital budgeting, and capital structure strategies.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "FIN 3100",
+      "notes": [
+        "Admission to Coles College Professional Program",
+        "Admission as a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              {
+                "course": "ECON 2300",
+                "minGrade": "B"
+              },
+              {
+                "external": "ECON 2400",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course illustrates how to effectively use, manage, and participate in the development of information technology applications that support common business processes. This course focuses on the interdependence among an organization\u2019s management, business processes, and information systems and provides hands-on experience in developing a business information system.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "IS 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "IS 2200",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Information Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134993",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Data Mining is the process of extracting useful information from data sets. It involves exploring and analyzing data sets to discover meaningful and valuable information. This course covers major data mining techniques including but not limited to data visualization, association analysis, classification, clustering, trend analysis, prediction, neural networks, text and web mining, and their applications in business. Various data analysis and data mining tools will be used to create analytical applications and achieve data mining goals.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "IS 4540",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "IS 3100",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Data Mining"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136239",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers descriptive statistics, probability, sampling distributions and the central limit theorem, continuous and discrete distributions used in engineering, and inferences about single samples, including point and interval estimates for means, proportions and variances.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ISYE 2600",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Probability and Statistics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136243",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers formulation and solution of deterministic models of operations research linear, integer, and dynamic programming. Transportation, assignment, shortest path, and minimum spanning tree problems will be introduced to address various applications in the areas of engineering design, production planning and scheduling, inventory control, transportation and logistics.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "ISYE 3400",
+      "notes": [],
+      "prereqs": "MATH 3260",
+      "title": "Deterministic Operations Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136246",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers hypothesis testing for means, proportions and variances (one and two samples), categorical data analysis (chi-square), analysis of variance, and introduction to regression analysis, with applications to engineering problems.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "ISYE 3600",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "ISYE 2600",
+              {
+                "external": "STAT 2332"
+              },
+              "MATH 3332"
+            ]
+          },
+          "MATH 2202"
+        ]
+      },
+      "title": "Probability and Statistics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136319",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Modeling and solution of decision problems under uncertainty. Topics include Markov Chains, stochastic programming, stochastic dynamic programming, theory, utility theory and simulation. Computer solution techniques are emphasized.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "ISYE 4200",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "ISYE 3400",
+              "MATH 3272"
+            ]
+          },
+          {
+            "or": [
+              "ISYE 2600",
+              {
+                "external": "STAT 2332"
+              },
+              "MATH 3332"
+            ]
+          },
+          "MATH 2202"
+        ]
+      },
+      "title": "Engineering Optimization: Stochastic Decision Models"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136250",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers modeling and simulation of systems. Topics include basic simulation and system modeling techniques, random sampling procedures, input analysis, output analysis and system evaluation. Practical implementations using common modeling languages and simulation software are emphasized.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "ISYE 4500",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "ISYE 2600",
+          {
+            "external": "STAT 2332"
+          }
+        ]
+      },
+      "title": "System Modeling & Simulation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the third in the calculus curriculum and is concerned with functions defined on regions in two or three dimensional space and that have values in one, two, or three dimensional space. Topics include partial derivatives, vector fields, multiple integrals, and applications of these topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2203",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Calculus III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the theory of ordinary differential equations (ODEs), methods of solving first and higher order linear differential equations and linear systems, some applications in the sciences and engineering, the Laplace transform and its application in solving differential equations and linear systems, and Euler\u2019s numerical algorithm.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2306",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Ordinary Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135840",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the fundamentals of discrete mathematics. Topics include sets, formal logic, methods of proof, counting relations, functions, graphs and trees, and finite state automata.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2345",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Discrete Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135630",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces to students the foundations of logic, set theory, and basic proof techniques. The course serves as a bridge from the procedural and computational understanding of mathematics to a broad understanding encompassing logical reasoning, generalization, abstraction, axiomatic approach, and formal proof.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MATH 2390",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Introduction to Logic, Set Theory, and Proofs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135855",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the fourth in the calculus curriculum and is concerned with the change of variables for integrals on two and three dimensional regions, line integrals, surface integrals, Green\u2019s theorem, and Stokes theorem. The analogue of Stokes\u2019 theorem (the theorem of Gauss) for integrals of functions on three-dimensional parametric regions will also be studied.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 3204",
+      "notes": [],
+      "prereqs": "MATH 2203",
+      "title": "Calculus IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to linear algebra and some of its classical and modern applications. Among topics to be included will be systems of linear equations, matrices, determinants of matrices and applications, vector spaces, and inner product spaces. Significant use of technology will be employed in performing matrix computations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Linear Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135066",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces fundamental numerical methods for solving nonlinear equations, systems of linear equations, and eigenvalue-eigenvector problems. Interpolation and approximation of functions will be considered. Computing and programming techniques will be used extensively.",
+      "groups": [
+        "major-required",
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 3261",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 3260",
+          "CSE 1321",
+          "CSE 1321L"
+        ]
+      },
+      "title": "Numerical Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136926",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce students to fundamental concepts and methods of mathematical modeling, through a project-oriented approach. This course will involve applications of mathematical techniques to solve problems in areas such as ecology, biology, finance, social sciences, life sciences, physical sciences and engineering. The emphasis will be on the building of mathematical models and on interpreting the solutions of these models in terms of real-life applications. The course will emphasize skills in constructing and analyzing models.",
+      "groups": [
+        "major-required",
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 3262",
+      "notes": [],
+      "prereqs": "MATH 2306",
+      "title": "Mathematical Modeling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135067",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The simplex method, dual simplex method, dual-primal two phase method, and several interior-point methods for linear programming problems will be introduced.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research"
+      ],
+      "id": "MATH 3272",
+      "notes": [],
+      "prereqs": "MATH 3260",
+      "title": "Introduction to Linear Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135071",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course serves as an introduction to the basic principles of graph theory. Topics include but are not limited to graph representations, isomorphisms, paths, cycles, colorings, trees, matchings, planarity, graph algorithms, and optimization.",
+      "groups": [
+        "major-required",
+        "conc-discrete-mathematics-and-operations-research"
+      ],
+      "id": "MATH 3322",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 2345",
+          "MATH 2390"
+        ]
+      },
+      "title": "Graph Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135952",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to classical combinatorics and the theory of counting. Topics include the twelvefold way, combinatorial proof, the principle of inclusion/exclusion, and generating functions.",
+      "groups": [
+        "major-required",
+        "conc-discrete-mathematics-and-operations-research"
+      ],
+      "id": "MATH 3324",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 2345",
+          "MATH 2390"
+        ]
+      },
+      "title": "Enumerative Combinatorics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135072",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to probability theory. Topics include counting techniques, discrete and continuous univariate and multivariate random variables, expectation, moment generating functions, and the Central Limit Theorem.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 3332",
+      "notes": [],
+      "prereqs": "MATH 2203",
+      "title": "Probability Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135763",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is an introduction to the basic principles of number theory. Topics include properties of integers, congruences, divisibility, the Euclidean algorithm, prime number theorems, multiplicative functions, Diophantine equations, and applications in cryptology.",
+      "groups": [
+        "conc-pure-mathematics"
+      ],
+      "id": "MATH 3496",
+      "notes": [],
+      "prereqs": "MATH 2390",
+      "title": "Elementary Number Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135077",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Topics in this course include real vector spaces and their subspaces; inner product spaces, orthogonal subspaces, Gram - Schmidt process; best approximation; eigenvalues and eigenvectors; special matrices; matrices of general transformations, and various applications including matrix functions.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 4260",
+      "notes": [],
+      "prereqs": "MATH 3260",
+      "title": "Linear Algebra II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135622",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to partial differential equations (PDEs), their applications in the sciences and the techniques that have proved useful in analyzing them. The techniques include separation of variables, Fourier series and Fourier transforms, orthogonal functions and eigenfunction expansions, Bessel functions, and Legendre polynomials. The student will see how the sciences motivate the formulation of partial differential equations as well as the formulation of boundary conditions and initial conditions. Parabolic, hyperbolic, and elliptic PDEs will be studied.",
+      "groups": [
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 4310",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2203",
+          "MATH 2306"
+        ]
+      },
+      "title": "Partial Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135948",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the fundamental structures of abstract algebra (groups, rings, and fields), the connections of these structures with the algebra studied at the elementary level, and the historical development of modern algebra. The emphasis in this course is on groups.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 4361",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2390",
+          "MATH 3260"
+        ]
+      },
+      "title": "Modern Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135079",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A continuation of Modern Algebra I with an emphasis on rings and fields.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 4362",
+      "notes": [],
+      "prereqs": "MATH 4361",
+      "title": "Modern Algebra II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135080",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a rigorous introduction to the calculus of a single real variable and a deeper awareness of the theory of calculus than can be achieved in the elementary calculus courses. Among the topics covered in the course are completeness of the number system, elementary topology of the real line, limits of sequences, and limits and continuity of functions. The aim of this course is two-fold, to provide an understanding of the nature of the real number system and its role in the theory of calculus, and to provide a training in the discovery and writing of rigorous mathematical proofs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 4381",
+      "notes": [],
+      "prereqs": "MATH 2390",
+      "title": "Real Analysis I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135081",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a continuation of the study of functions of a real variable (Real Analysis I). Topics include the Riemann/Darboux integral, differentiability, sequences and series of functions. The aim of the course is to provide the students with a deeper understanding of the notions of sequences/series, integrability, and differentiability of functions of a real variable, as well as their properties and interconnections. While developing these concepts, we will focus on understanding and writing formal proofs, as well as emphasize their applications.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 4382",
+      "notes": [],
+      "prereqs": "MATH 4381",
+      "title": "Real Analysis II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135082",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the basic concepts of complex analysis, its beautiful theory and powerful applications. Topics covered will include: the algebra and geometry of the complex plane, properties of elementary functions of a complex variable, analytic and harmonic functions, conformal mappings, continuity, differentiation, integration (Cauchy integral theory), singularities, Taylor and Laurent series, residues and, time permitting, their applications.",
+      "groups": [
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics"
+      ],
+      "id": "MATH 4391",
+      "notes": [],
+      "prereqs": "MATH 2203",
+      "title": "Complex Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135852",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the study of topology. Topics include topological spaces, subspaces, basis, continuity, separation and countability axioms, connectedness, and compactness.",
+      "groups": [
+        "conc-pure-mathematics"
+      ],
+      "id": "MATH 4596",
+      "notes": [],
+      "prereqs": "MATH 2390",
+      "title": "Topology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136837",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will develop the skills and mindset of a scientist or mathematician through metacognitive exploration, reflection, and guided inquiry. In addition, students will apply appropriate social methods to build scientific and mathematical collaborations, emulating the modern STEM enterprise. Finally, students will learn to value an inclusive STEM environment and support measures that expand access for all students to STEM.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCM 2000",
+      "notes": [
+        "A declared major within the College of Science",
+        "Mathematics"
+      ],
+      "prereqs": null,
+      "title": "Culture and Success in Science and Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the nature and extent of crime and the causes and correlates of criminal behavior. This course also examines the major criminological theories, including biological, psychological, sociological, rational choice, and developmental theories.",
+      "groups": [
+        "conc-discrete-mathematics-and-operations-research",
+        "conc-pure-mathematics",
+        "conc-computational-and-applied-mathematics",
+        "conc-statistics"
+      ],
+      "id": "SOCI 4432",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "SOCI 1101"
+          },
+          "CRJU 1101"
+        ]
+      },
+      "title": "Criminology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135465",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with a foundation in statistical methods, including confidence intervals for population parameters, correlation, simple linear regression and hypothesis testing (F and T-tests for regression, chi-square for independence, 2 group and paired sample T-tests). These concepts are taught with heavy emphasis on statistical coding software and real-world datasets from a variety of disciplines.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 3120",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "STAT 1401"
+          },
+          {
+            "external": "DATA 1501"
+          },
+          {
+            "external": "STAT 2332"
+          },
+          "MATH 3332"
+        ]
+      },
+      "title": "Statistical Methods I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135466",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students use descriptive statistics and visual displays to describe biological and medical data. They perform and analyze results of statistical analyses which may include confidence intervals, correlation, linear regression, odds/risk ratios, and hypothesis testing (Chi-square for independence, 2 group and paired sample t-tests). Analyses are performed using the statistical software R.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 3125",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "BIOL 1107",
+          {
+            "external": "BIOL 1108"
+          },
+          {
+            "external": "CHEM 1212"
+          }
+        ]
+      },
+      "title": "Biostatistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to build their foundation in statistical methods in this course. They will conduct non-parametric methods (Wilcoxon Signed Rank, Rank Sum, and Kruskal Wallis tests), ANOVA and multiple regression. These concepts are taught with heavy emphasis on statistical coding software and real-world datasets.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 3130",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DATA 3010",
+          {
+            "or": [
+              "STAT 3120",
+              "STAT 3125",
+              {
+                "external": "STAT 2332"
+              },
+              {
+                "external": "PSYC 3000"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Statistical Methods II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135549",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces students to statistical concepts used to design clinical trials, or randomized studies of humans. Students will be able to design, conduct, and analyze clinical trials in the format required by the Food and Drug Administration. The topics include endpoint definition, sources of bias, randomization schemes, types of blindness, phases of clinical studies (I-IV), hypothesis formation, sample size determination, patient recruitment, adverse events, and protocol development.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 4025",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 3125",
+          "STAT 3120"
+        ]
+      },
+      "title": "Clinical Trial Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135468",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Methods for constructing and analyzing designed experiments are the focus of this course. The concepts of experimental unit, randomization, blocking, replication, error reduction, and treatment structure are introduced. The design and analysis of completely randomized, randomized complete block, incomplete block, Latin square, split-plot, repeated measures, factorial, and fractional factorial designs will be covered. Statistical software will be utilized.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 4120",
+      "notes": [],
+      "prereqs": "STAT 3130",
+      "title": "Applied Experimental Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135529",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Real-world human-subject data will be used as students conduct official clinical research in a secure computer lab. Students will complete required institutionally approved training for research on human subjects and information privacy and security. Using statistical software, students will apply statistical analysis and modeling techniques to answer questions posed by clinicians. Students will document research for reproducibility and potential publication, as well as present results in various forms.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 4125",
+      "notes": [],
+      "prereqs": "STAT 3130",
+      "title": "Analysis of Human Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135469",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide students with various regression procedural methods, including simple linear and multiple regression models. Students will diagnose multicollinearity, identify outliers and influential observations, and assess assumptions to create and validate models. Other topics will include parameters inferences, variable transformations, and qualitative predictors.",
+      "groups": [
+        "conc-statistics"
+      ],
+      "id": "STAT 4210",
+      "notes": [],
+      "prereqs": "STAT 3130",
+      "title": "Applied Regression Analysis"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-discrete-mathematics-and-operations-research"
+        ],
+        "label": "Discrete Mathematics and Operations Research"
+      },
+      {
+        "groups": [
+          "conc-pure-mathematics"
+        ],
+        "label": "Pure Mathematics"
+      },
+      {
+        "groups": [
+          "conc-computational-and-applied-mathematics"
+        ],
+        "label": "Computational and Applied Mathematics"
+      },
+      {
+        "groups": [
+          "conc-statistics"
+        ],
+        "label": "Statistics"
+      }
+    ],
+    "id": "bs-mathematics",
+    "name": "BS Mathematics"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

@@ -1,0 +1,738 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              "MATH 1111",
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers torts, contracts, government regulation of business and the legal system. Also addresses ethical issues arising in business internal and external relationships.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BLAW 2200",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Legal and Ethical Environment of Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers a comprehensive introduction to the core functions of business within an organizational context, including accounting, finance, economics, management, entrepreneurship, marketing, information systems, and cybersecurity. Students explore how these disciplines interconnect to support and drive organizational strategy. In addition, the course offers a deep dive into the diverse career opportunities offered by different academic pathways in the Coles College of Business. Emphasis is also placed on building essential career readiness and professional skills to prepare students for success in the business world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135663",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students research their prospective major, discover appropriate resources, and engage in various career management activities.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 2150",
+      "notes": [],
+      "prereqs": null,
+      "title": "Professionalism I: Clarifying My Major and Career"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135664",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students focus on their talents, skills and strengths and become more self-aware through personal assessment. Students explore opportunities to participate in relevant work experience and complete preparatory activities to attain employment or advance in a current career.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 3150",
+      "notes": [
+        "Admission to Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": {
+        "and": [
+          "BUSA 2150",
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Professionalism II: Relevant Work Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138383",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is part of a Coles College program to introduce students to the professional skills, knowledge, and attitudes necessary to succeed in business careers. In this course, students focus on their talents, skills, and strengths and improve their self-awareness through personal assessment exercises. In this class, students explore opportunities to develop relevant work experience and complete activities to enable them to secure degree-appropriate employment or advance in their current career.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BUSA 4000",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": null,
+      "title": "Career Accelerator"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135665",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0",
+      "description": "This course is part of a program in Coles College, designed to introduce students to professionalism skills, knowledge, and attitudes necessary to succeed in the current business environment. In this course, students will fine-tune the skills required for post-graduation success.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BUSA 4150",
+      "notes": [
+        "Admission to the Coles College Undergraduate Professional Program"
+      ],
+      "prereqs": "BUSA 3150",
+      "title": "Professionalism III: Post-Graduate Success"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to descriptive and inferential statistics with an emphasis on business applications. Topics covered include data summarization, probability distributions, sampling methods, confidence intervals, hypothesis testing, online data sources, and ethics in research. Small case studies are used to illustrate statistical applications within business settings.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2300",
+      "notes": [
+        "Business majors need MATH 1111; non-business majors need MATH 1101"
+      ],
+      "prereqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1101"
+          }
+        ]
+      },
+      "title": "Business Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138393",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to linear, quadratic, polynomial, exponential, and logarithmic functions, inequalities, basics of statistics and probability, with the emphasis on business applications. Empirical examples may be used to illustrate statistical applications within business settings. The course is taught from a practice-based perspective. It entails focusing on practical business-centric problems and using them as examples of how the quantitative tool or technique can aid in solving the problem.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ECON 2400",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1001",
+          "MATH 1111",
+          {
+            "external": "MATH 1113"
+          },
+          {
+            "external": "MATH 1160"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "title": "Quantitative Problem-Solving Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the study of quantitative models for decision-making within business operations. It provides an introduction to descriptive and inferential statistics with the emphasis on business applications, ANOVA, simple and multiple linear regression, and forecasting. Case studies are used to illustrate modeling applications within business settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 3200",
+      "notes": [
+        "BBA Major",
+        "Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "BUSA 1000",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2400",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Business Analytics Essentials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135947",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course conveys a working knowledge of several of the most commonly employed quantitative models to support data analysis and improved decision-making within a business environment. Students learn to identify and apply the appropriate modeling techniques as well as how solve the resultant models via spreadsheet tools and applications. In addition, the course promotes and develops problem-solving and critical thinking skills through the evaluation of problem scenarios and short case-studies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 3300",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "or": [
+          "ECON 2300",
+          {
+            "external": "STAT 1401"
+          }
+        ]
+      },
+      "title": "Applied Statistical and Optimization Models"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134733",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introductory course designed to develop knowledge of the basic concepts, principles, and functions of managerial finance. Topics include the time value of money, valuation of bonds and stocks, financial analysis, working capital management, capital budgeting, and capital structure strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 3100",
+      "notes": [
+        "Admission to Coles College Professional Program",
+        "Admission as a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "or": [
+              {
+                "course": "ECON 2300",
+                "minGrade": "B"
+              },
+              {
+                "course": "ECON 2400",
+                "minGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134982",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course illustrates how to effectively use, manage, and participate in the development of information technology applications that support common business processes. This course focuses on the interdependence among an organization\u2019s management, business processes, and information systems and provides hands-on experience in developing a business information system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          },
+          {
+            "course": "IS 2200",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Information Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135094",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Generic modeling techniques are applied to the planning, operation and control of the production of goods and services. Topics include: quality control, facility location and layout, material requirements planning and project scheduling.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3200",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "ECON 2300",
+      "title": "Operations Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135107",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes an integrative, multifunctional, general management perspective of the organization and its long-term survival in a global economic environment. It builds the knowledge base and analytical skills required for managing a business enterprise. Components include situation analysis, strategy formulation, evaluation, and choice, as well as strategy implementation at different organizational levels, and under different contextual conditions. The course enables the refinement of the student\u2019s communication and presentation skills, as well as the interpersonal abilities necessary for accomplishing group tasks. Integrating multiple business disciplines, it serves as the capstone course in the business curriculum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 4199",
+      "notes": [
+        "Admission to the Coles College Undergraduate Professional Program . This course is taken in the last",
+        "next-to-last semester in the B.B.A. program"
+      ],
+      "prereqs": {
+        "and": [
+          "BUSA 4150",
+          "ECON 3300",
+          "FIN 3100",
+          "MGT 3100",
+          "MGT 3200",
+          "MKTG 3100"
+        ]
+      },
+      "title": "Strategic Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135781",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the role of personal selling in the firm\u2019s marketing strategy, model of communication and specific methods of selling. All students are required to develop and deliver effective sales presentations. The course emphasizes communication skills, developing product knowledge, understanding the sales process, and selling techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 3410",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MKTG 3100",
+      "title": "Professional Selling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135141",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course explores the cultural, legal, political, and economic factors affecting the international marketing of products and services. Emphasis will be on differences in lifestyles, beliefs, attitudes, etc., and their influences on firms\u2019 and consumers\u2019 marketing and consumption decisions. Students will learn about marketing communications in various cultural environments, international market trends and choosing global or local target audiences.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4220",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MKTG 3100",
+      "title": "International Marketing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135130",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course offers a practitioner-oriented introduction to essential marketing analytics methods focusing on real-world applications. Through hands-on case exercises using relevant software such as Tableau, Python and SQL, students will develop the skills to select appropriate analytical techniques, interpret results, and apply them effectively in marketing management. Additional topics may include product development, key performance indicators, and customer acquisition management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4430",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "MKTG 3100",
+          "ECON 2300"
+        ]
+      },
+      "title": "Marketing Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135131",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of planning, organizing, staffing, directing and controlling of the sales force in developing an effective marketing organization. The course focuses on developing leadership skills, the sales process, recruiting techniques, and salesforce motivation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 4450",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MKTG 3410",
+      "title": "Sales Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136830",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course will focus on applying sales technology tools and sales analytics to sales and sales management processes in order to improve salesperson and sales manager performance. The course will introduce students to a variety of software applications, including those for CRM, Web Conferencing, Form Builders, Collaboration and Communication, Gamification, Presentation, and Analysis. In addition, the course will cover sales analytics, including how to use spreadsheets to generate key performance indicators and other analyses to improve salesperson performance.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 4460",
+      "notes": [],
+      "prereqs": "MKTG 3100",
+      "title": "Sales Technology and Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135142",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of special problems and requirements of marketing products to organizational buyers. The course examines organizational buyer behavior, business-to-business promotion, business-to-business sales and the development of industrial products.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4470",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": "MKTG 3100",
+      "title": "Business-to-Business Marketing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137276",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students enhance their sales skills by learning to navigate challenging conversations, master sales negotiation, perfect sales presentations, and b2b buying behaviors. Through engaging lectures and experiential exercises, students develop essential communication skills, business acumen, and ethical principles. Students also hone their questioning, listening, and nonverbal communication skills. By the course\u2019s end, students will demonstrate proficiency in sales negotiation, managing challenging conversations, and delivering impactful presentations essential for a highly successful sales career.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 4480",
+      "notes": [],
+      "prereqs": "MKTG 3410",
+      "title": "Applied Professional Selling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135140",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An in-depth examination of current business trends as they impact the professional salesperson. Particular emphasis is placed on relationship development skills and customer relationship management (CRM), as well as general sales related topics including sales automation and time/territory management. Students will be required to spend time in the field with professional salespeople and to prepare and deliver effective informational and persuasive sales presentations. The course emphasizes sales strategy, customer relationship management, and navigating the sales process.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MKTG 4980",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          "MKTG 3100",
+          "MKTG 3410"
+        ]
+      },
+      "title": "Advanced Selling"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bba-professional-sales",
+    "name": "BBA Professional Sales"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

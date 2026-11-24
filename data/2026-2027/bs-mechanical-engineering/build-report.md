@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **ME 4501**
-  - unrecognized: can be taken concurrently
+None.
 
 ## Left out on purpose
 

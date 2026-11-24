@@ -2,16 +2,10 @@
 
 ## Warnings needing review
 
-- **ECON 2105**
-  - unrecognized: higher
-- **ECON 2106**
-  - unrecognized: higher
 - **GEOG 2391**
   - could not parse (unexpected 'or'): GEOG 1101 or or GEOG 1112K or GEOG 1113K or GEOG 1125 or GEOG 1130
 - **GIS 4100**
   - unrecognized: Department Chair
-- **IS 2200**
-  - unrecognized: higher
 
 ## Notes
 

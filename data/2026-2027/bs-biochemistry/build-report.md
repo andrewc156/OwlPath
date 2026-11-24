@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **SCM 2000**
-  - unrecognized: Mathematics
+None.
 
 ## Notes
 

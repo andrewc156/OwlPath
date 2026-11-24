@@ -1,0 +1,1105 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "CHIN 2002",
+      "JAPN 1002"
+    ],
+    [
+      "JAPN 2002",
+      "KOR 1002"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              "MATH 1001",
+              {
+                "external": "MATH 1111"
+              },
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135925",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to anthropology\u2019s four major subfields: biological anthropology, archeology, cultural anthropology, and linguistics.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ANTH 1102",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Anthropology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135660",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of key concepts, themes, strategies, and methods in Asian Studies. This course focuses on traditional and contemporary cultures of East and South Asia, especially those of Greater China, Japan, Korea and India. The cultural investigation of Asia is infused with the historical, geographical, economical, political, and religious study of this region. This course also explores the identities of people in Asia and Asian Americans.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ASIA 1102",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Asian Cultures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137321",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course guides students on a journey along the historic Silk Road, exploring cultures from Asia to Europe. Students examine how art, artifacts, and cultural products reflect values, practices, and perspectives of various societies. Engaging with these cultural intersections, they develop a deeper understanding of cross-cultural interactions and enhance their cultural competency.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 2209",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultures Along the Silk Road"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134390",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course takes an interdisciplinary approach to exploring Asia\u2019s dynamic contexts, linking ancient Asian civilizations to the modern nation-states of East and South Asia. Focusing on Greater China, Japan, Korea, India, and Southeast Asia, the course provides theoretical frameworks for analyzing Asia\u2019s complex cultural, political, and economic realities. Students examine the origins and developments of Asian civilizations, considering aspects such as people, culture, history, philosophy, religion, society, and business.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ASIA 3001",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Understanding Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137097",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an intensive survey of South Korean popular culture in the midst of Hallyu, the Korean Wave. It focuses on performances that have shaped phenomena such as K-pop, musical theatre, film, TV drama, reality shows, and food culture as analyzing sources. Through close reading, students investigate various forms of race, gender and sexuality, and Koreanness paying close attention to specific historical contexts in which performances were produced and circulated in relation to globalization.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3030",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "K-pop and the Korean Wave"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136940",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an exploration of China\u2019s culture, history, and society through screening and analyzing prominent Chinese films. Placed in different historical contexts, the selected films address the fundamental question of the continuity between the cultural tradition and socio-economic organization of the past and the elements of change and \u201cmodernity\u201d in the present. Course topics include China in tradition; social transformation; identity, gender, and love; intercultural communication; and opportunities in the era of globalization. Readings and discussions are in English.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3306",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Understanding China through Films"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137322",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores Chinese culture and society primarily through the study of Chinese cuisine. Students discover the uniqueness of Chinese cuisine through various class activities and assignments that focus on food practices, views about food, and the role of cuisine in daily life. Through the lens of food, students learn about Chinese language, geography, history, philosophy, and the fabrics of Chinese society.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3308",
+      "notes": [
+        "Completion of 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Chinese Culture and Society through Cuisine"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137100",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the changing meanings of \u201cnormal\u201d and \u201cqueer\u201d genders and sexualities in Asia and its diasporas. Working through the leading scholarship in Asian queer theories, students identify major issues about bodies, genders, and sexualities in Asian context, learn sex theories and norms, examine their representations in visual culture, and critically evaluate the knowledge production around queerness and sexuality in the encounters of Asia and the West.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3333",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Queer Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135625",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores South Asian experiences by examining diverse aesthetic and cultural perspectives from 20th and 21st century diasporic South Asian literature. In order to familiarize students with the diverse South Asian population, this course introduces students to a variety of South Asian experiences through literary works from diasporic writers in this demographic. Through critical reading and analysis, reflection, discussion, and research, students discover how similar the South Asian experience is to other familiar communities.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3340",
+      "notes": [],
+      "prereqs": null,
+      "title": "Contemporary South Asian Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135627",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course compares and contrasts various forms of capitalisms and cultures in Asia to understand the dynamics of society and political life. This course enables students to develop a global perspective on critical issues that concern policymakers, business-strategists, development-workers, and academics from an anthropological perspective. Students compare and contrast various forms of capitalism in Asia from an anthropological vantage point for understanding dynamics of society and political life in Asia.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3355",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ANTH 1102",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Cultures and Capitalisms in Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136796",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Drawing on interdisciplinary texts (including ethnographic, historical, legal, and literary), this course provides students with an introductory overview of modern Japan, from the postwar to the present. Topics of the course include family, community, youth culture, minority cultures, gender, and sex.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3500",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Culture & Society of Postwar Japan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137323",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces a variety of politeness strategies found in East Asian cultures. Students learn basic politeness theories and explore examples of politeness-related phenomena. The topics cover not only verbal politeness such as honorifics, but also nonverbal aspects including phonetical manipulation and body language. Beyond understanding cultural differences, students analyze and discuss the social norms behind politeness strategies and make comparisons with their own cultures.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3535",
+      "notes": [],
+      "prereqs": null,
+      "title": "Politeness in East Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134391",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a lecture/discussion course to survey the art of India and Southeast Asia, China, Japan, and Korea from prehistory to the present. Students in this course study the chronological developments of the major styles of painting, sculpture, architecture, and decorative arts from these regions. This course highlights important examples of works of art to discuss the artistic achievements and the aesthetics of these regions, and to explore how cultural, political, religious, and social climates have shaped the visual arts in Asia from the beginnings of its civilization to the 21st century.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3670",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Survey of Asian Art"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136460",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This interdisciplinary course provides students opportunities to examine cultural identity issues of Asian Americans, the fastest growing ethnic minority group in the US. Through a variety of interdisciplinary learning materials and activities, students will gain understanding and appreciation of the complex concept \u201cAsian Americans.\u201d",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3760",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Asian American Cultural Identities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136461",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on current issues and trends in the field of Asian Studies. Some topics include Popular Culture in Asia, Pan-Asian Cinema, Gender in Asia, and Environmental Issues in Asia. This course is interdisciplinary and includes Asian content in English. Course may be repeated with a change in content.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 3780",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Trends in Asian Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136459",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with knowledge of the socio-cultural issues related to the classroom in Asia. The focus of the course spans both cultural and social issues associated with classroom management in an Asian setting.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 4001",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Teaching English in Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137324",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This capstone course is designed to synthesize and connect students\u2019 prior academic experiences in the major and related fields of study. Students prepare a final portfolio, which includes a career readiness component, as their capstone project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ASIA 4409",
+      "notes": [
+        "Senior Standing"
+      ],
+      "prereqs": null,
+      "title": "Capstone in Asian Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135626",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines cultural and historical developments in Asia from approximately 10,000 BCE through 1600 CE. Students learn about the rise of complex societies, cities, and states; early economies; empires; and the role of archaeology in modern Asia. Along the way, students engage in major debates that have arisen from competing interpretations of the archaeological record.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 4422",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "ANTH 1102",
+          "ASIA 3001"
+        ]
+      },
+      "title": "Archaeology of Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137099",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of women\u2019s role and its manifestations in literature in major countries of East and Southeast Asia: China, Japan, Korea, and Vietnam. Students examine women\u2019s imagery in masterpieces of literature and appraise important literary works by female authors to explore how women are portrayed in literature and how they view themselves and perceive the world in which they live.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 4425",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Asian Women and Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136463",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course explores the significance of tea to Asians, and demonstrates how and why tea becomes such an important social beverage in Asia. Students have the opportunity to gain a deeper understanding and appreciation of Asian cultures and customs.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ASIA 4517",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Tea Cultures in Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134486",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introduction to Chinese language and culture Part I stresses progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Chinese culture.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHIN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Chinese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses progressive acquisition of effective communication skills in both the spoken and written language and an understanding of the practices and products of Chinese culture.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHIN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "CHIN 1001",
+      "title": "Elementary Chinese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134488",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to develop proficiency in listening, speaking, reading and writing in Chinese and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHIN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "CHIN 1002",
+      "title": "Intermediate Chinese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134489",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHIN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "CHIN 2001",
+      "title": "Intermediate Chinese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134490",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of selected readings of signs, news, and literary and cultural works to increase vocabulary, enhance grammar skills, and develop reading skills. It is designed to give students extensive experience in reading Chinese.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHIN 3200",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "CHIN 2002",
+      "title": "Critical Reading and Applied Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134491",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses expansion of effective listening comprehension and speaking skills through culturally and linguistically appropriate activities.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHIN 3302",
+      "notes": [
+        "equivalent"
+      ],
+      "prereqs": "CHIN 2002",
+      "title": "Practical Conversation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134492",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a general review of grammar and composition and other writing activities, such as summaries, correspondence, descriptions, narration, literary analysis, and other rhetorical and culturally appropriate forms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHIN 3303",
+      "notes": [],
+      "prereqs": "CHIN 2002",
+      "title": "Practical Grammar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135583",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to selected readings in Chinese culture, through which they expand their vocabulary and learn new grammar. Students also learn about cultural issues within the Chinese context and develop their competence in critical analysis of the issues from a global perspective.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CHIN 3304",
+      "notes": [],
+      "prereqs": "CHIN 2002",
+      "title": "Readings in Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134840",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the main themes in Chinese history from the Neolithic to 1600; discusses how traditional cultures and outside influences have interacted to produce traditional China; explores the great diversity and impressive continuities of traditional Chinese civilization; and assesses the significance of the institutions of state, family, and women in Chinese history.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3372",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Ancient to Pre-Modern China"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134841",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes how Hindu, Buddhist, Islamic, and other traditional cultures combined with British colonial rule and other modernizing influences to produce the India of today. Some attention is also given to peripheral areas, particularly Pakistan and Bangladesh.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3373",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern India and South Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134842",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a basic survey of the major political, economic, social, cultural and intellectual developments of China since 1600. The course emphasizes how traditional cultures, outside influences, and modernizing forces have interacted to produce the China of today.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3374",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern China"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135557",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The Silk Road was the world\u2019s first great superhighway, linking China and Japan to the Mediterranean World across Central Asia from ancient times. The peoples along the way traded luxury goods as well as ideas, religions, art, culinary and musical traditions. Through lectures, reading, and films, we explore the cultural interactions between East and West. Primary sources help us understand the great ideas in Buddhism, Islam, the Indian royal epics, Christian crusading and Mongol expansion.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3375",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Silk Road"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136499",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a basic survey of the major political, economic, social, cultural and intellectual developments of the Japanese archipelago from the earliest times to 1600. The course emphasizes Japan\u2019s interactions with outside world and how the indigenous and foreign elements were combined to create the basis of Japanese society.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3380",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Premodern Japan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136500",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a basic survey of the major political, economic, social, cultural and intellectual developments of the Japanese archipelago from 1500 to the present. The course emphasizes Japan\u2019s interactions with the outside world and how indigenous and foreign elements were combined to create the basis of modern Japanese society.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3381",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern Japan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135030",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to Japanese language and culture stressing progressive acquisition of effective communications skills in both the written and spoken language and an understanding of the practices and products of Japanese culture.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "JAPN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Japanese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135031",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to Japanese language and culture, part II, stresses continued, progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Japanese culture.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "JAPN 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "JAPN 1001",
+      "title": "Elementary Japanese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135032",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "JAPN 2001",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "JAPN 1002",
+      "title": "Intermediate Japanese I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135033",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "JAPN 2002",
+      "notes": [
+        "by placement"
+      ],
+      "prereqs": "JAPN 2001",
+      "title": "Intermediate Japanese II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135654",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of selected readings of signs, news, and literary and cultural works to increase vocabulary, enhance grammar skills, and develop reading skills. This course is designed to give students extensive experience in reading Japanese.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JAPN 3200",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "JAPN 2002",
+      "title": "Critical Reading and Applied Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135653",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes expansion of effective listening comprehension and speaking skills in Japanese through culturally and linguistically appropriate activities. Communicative tasks are limited to those in uncomplicated and straightforward social situations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JAPN 3302",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "JAPN 2002",
+      "title": "Practical Conversation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135655",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a general review of grammar and introduction to frequently used intermediate level sentence patterns. It offers rigorous grammatical instruction that includes readings of summaries, correspondences, descriptions, narrations, literary analyses, and other rhetorical and culturally appropriate forms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JAPN 3303",
+      "notes": [],
+      "prereqs": "JAPN 2002",
+      "title": "Practical Grammar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to selected readings in Japanese culture, through which they expand their vocabulary and learn new grammar. Students also learn about cultural issues within the Japanese context and develop their competence in critical analysis of the issues from a global perspective. Readings are in Japanese and discussions are in Japanese and English.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JAPN 3304",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "JAPN 3200",
+      "title": "Readings in Culture I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135645",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to Korean language and culture, stressing progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Korean culture.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "KOR 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Korean I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135646",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses continued, progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of Korean culture.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "KOR 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "KOR 1001",
+      "title": "Elementary Korean II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135647",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "KOR 2001",
+      "notes": [],
+      "prereqs": "KOR 1002",
+      "title": "Intermediate Korean I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135648",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "KOR 2002",
+      "notes": [],
+      "prereqs": "KOR 2001",
+      "title": "Intermediate Korean II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135649",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes skill development and refinement in the areas of critical reading and writing in Korean. This course is designed to give students extensive experience in reading and wring in Korean.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "KOR 3200",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "KOR 2002",
+      "title": "Critical Reading and Applied Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135650",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes expansion of effective listening comprehension and speaking skills in Korean through culturally and linguistically appropriate activities. Communicative tasks are limited to those in uncomplicated and straightforward social situations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "KOR 3302",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "KOR 2002",
+      "title": "Practical Conversation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135651",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a general review of grammar through composition and other writing activities, such as summaries, correspondence, descriptions, narration, literary analysis, and other rhetorical and culturally appropriate forms.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "KOR 3303",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "KOR 2002",
+      "title": "Grammar and Composition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135652",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to selected readings in Korean culture, through which they expand their vocabulary and learn new grammar. Students also learn about cultural issues within the Korean context and develop their competence in critical analysis of the issues from a global perspective. Readings are in Korean and discussions are in Korean and English.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "KOR 3304",
+      "notes": [
+        "the equivalent"
+      ],
+      "prereqs": "KOR 3200",
+      "title": "Readings in Culture I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes quantitative reasoning skills needed for informed citizens to understand the world around them. Topics include logic, basic probability, data analysis and modeling from data.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quantitative Reasoning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134503",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of cultural and communication variables that impact the interaction process between peoples. Intercultural communication is examined during the time communication participants share ideas, information, persuasion and emotions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ORGC 3325",
+      "notes": [
+        "60+ credit hours"
+      ],
+      "prereqs": null,
+      "title": "Intercultural Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135290",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is a study of selected world religions with concentration on the origin and major periods of the conceptual, scriptural, and doctrinal development of these religions. Some topics include the nature and identity of religious experience, hermeneutics, mysticism, religious practice, and the place of religion in contemporary society.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PHIL 2110",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Religions of the World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135315",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to the study of international relations. Sources of international order, conflict and war, determinants of foreign policy, global actors and the dynamics of political interaction between nation-states are examined.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "POLS 2250",
+      "notes": [],
+      "prereqs": "POLS 1101",
+      "title": "Introduction to International Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-12",
+      "description": "Upper division study abroad course denoting junior, senior level work.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SA 4490",
+      "notes": [
+        "Varies with discipline and subject"
+      ],
+      "prereqs": null,
+      "title": "Upper-division Study Abroad"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An overview of world languages and cultures and their manifestations in our society. Class discussions and readings are reinforced through supervised field experiences in the metro Atlanta area. In addition, students survey academic and professional career opportunities in fields that require linguistic skills and cultural competence.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "WLC 2209",
+      "notes": [],
+      "prereqs": null,
+      "title": "World Languages and Cultures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134750",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course, is a survey of Chinese literature and culture, examining major works and literary and artistic movements as well as cultural issues. Readings and discussions are in English; some readings are in the original for Chinese language students.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "WLC 3309",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Survey of Chinese Literature and Culture"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ba-asian-studies",
+    "name": "BA Asian Studies"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

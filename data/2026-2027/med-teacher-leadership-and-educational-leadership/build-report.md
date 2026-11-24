@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **EDL 7620**
-  - unrecognized: Educational Leadership, MEd
-- **EDL 7625**
-  - unrecognized: Educational Leadership, MEd
-- **TLED 7215**
-  - unrecognized: Educational Leadership, MEd
+None.
 
 ## Left out on purpose
 

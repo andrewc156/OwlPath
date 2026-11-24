@@ -4,9 +4,6 @@
 
 - **CHEM 4100**
   - unrecognized: Junior level status
-  - unrecognized: chair
-- **SCM 2000**
-  - unrecognized: Mathematics
 
 ## Notes
 

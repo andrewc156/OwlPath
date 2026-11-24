@@ -1,0 +1,338 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133597",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on urban travel characteristics and activity analysis, travel demand and supply analysis, transportation system and project evaluation, and program and project implementation strategies. Principle topics covered in this course may include: Decision Oriented Transportation Planning (DOTP), Travel-Demand Forecasting, and Benefit Cost Analysis. Note: Students who receive credit for CE 8201 cannot then enroll in CE 6201 for credit. Note: This course may be cross-leveled with CE 6201.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 8201",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D"
+      ],
+      "prereqs": null,
+      "title": "Advanced Transportation Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133609",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the-state-of-the-art machine learning techniques. Topics cover unsupervised learning, supervised learning, evaluation of machine learning algorithms and ensemble methods. Students will learn to apply advanced machine learning techniques to solve challenging problems in various areas. The course includes a literature search of current advances and their applications in machine learning and reading of research papers and presentation of research findings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 8267",
+      "notes": [
+        "Admission to Computer Science Ph.D. program Computer Science MS Program, Analytics",
+        "Data Science Ph.D. Program",
+        "Interdisciplinary Engineering Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Machine Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133667",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the dissemination and communication of engineering research. It provides students with guidelines and hands-on practice related to the written and oral presentation of technical engineering content. Students also attend seminars to reflect on current research and investigations in interdisciplinary engineering areas. Promotes technical communication and critical thinking skills in a variety of engineering research fields.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8001",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D"
+      ],
+      "prereqs": null,
+      "title": "Engineering Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133674",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses interdisciplinary research questions and their relevance to engineering theory and design practices. It is intended to develop the techniques and skills necessary to complete an original academic research thesis or project report. The development of critical thinking skills relevant to interdisciplinary research is an essential element of this course. Note: Students who receive credit for ENGR 8002 cannot then enroll in ENGR 6002 for credit. This course may be cross-leveled with ENGR 6002.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8002",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133669",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students are introduced to the preparation and writing of the proposal documents. Students will learn the issues of research design such as data collection and appropriate methodological choices for analysis. Each topic is introduced through selected papers, and students must come prepared to discuss their own research ideas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8004",
+      "notes": [],
+      "prereqs": "ENGR 8002",
+      "title": "Proposal Development Workshop"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133668",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In today\u2019s competitive job market, earning a PhD degree alone is not enough to be successful. This course equips doctoral students with the personal and professional skills needed to launch a successful career, while focusing on the three main career paths of PhD graduates: academia, industry, and entrepreneurship. The course topics include engineering education, patents, intellectual property, self-awareness and personal SWOT, and entrepreneurship. The experiential part of the course includes attendance at research seminars and submission of seminar reflections.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8006",
+      "notes": [],
+      "prereqs": "ENGR 8004",
+      "title": "Professional Practice Workshop"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133673",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers analytical and numerical analysis methods that can be used to solve engineering problems. Topics may include linear algebra, systems of ordinary differential equations, complex analysis, Laplace transforms, numerical methods, partial differential equations, and probability and statistics. Note: Students who receive credit for ENGR 8120 cannot then enroll in ENGR 6120 for credit. Note: This course may be cross-leveled with ENGR 6120.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8120",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Engineering Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133670",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the concepts of dynamical modeling of particles, rigid bodies and continuous systems. The course focuses on formulating and simulating the equations of motion of rigid and flexible body mechanical systems using Lagrange Equations, Hamilton\u2019s principle, Lagrange multipliers method, and variational methods for systems of continuous bodies. In addition, the course integrates the classical fundamentals of Dynamics and state-of-the-art engineering applications.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8130",
+      "notes": [],
+      "prereqs": "ENGR 8120",
+      "title": "Dynamics of Discrete and Continuous Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133672",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course objectives are for students to understand mathematical network models and optimization techniques. Upon completing the course, students should be familiar with the concepts of user equilibrium, system optimum, and heuristic algorithms. Students should be able to develop demand generation, distribution, split, and assignment models for networks. The student will leave the class with mathematical programming skills that have wide applications in the network modeling field.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8210",
+      "notes": [],
+      "prereqs": "ENGR 8120",
+      "title": "Network Modeling and Optimization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133671",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the current research behind the modulation schemes, protocols, and advanced networking topics. The course has a research focus that prepares the student for the latest wireless communications and software defined networking techniques and regimens. Of particular focus will be on Internet of Things that have high mobility such as vehicles and unmanned aerial vehicles. At the completion of the course students are able to design end-to-end smart infrastructure and their functional roles. Note: This course may be cross-leveled with EE 6220.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8220",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Software Defined Radio and Networking for the Internet of Things"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133789",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of methods and applications in biomedical and health systems engineering. Samples from a wide variety of topics will provide exposure to engineering problems of living mechanisms and healthcare systems delivery. The course also covers emerging trends in biomedical and health systems engineering.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8300",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Biomedical and Health Sciences Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133790",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces the student to a representative set of models used to study biological, medical, and health systems phenomena. Topics covered may include computational fluid dynamics (CFD), finite element analysis (FEA), fluid-structure interaction (FSI) modeling, statistical regression, and Monte Carlo simulation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8310",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Biomedical and Health Systems Modeling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133791",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course provides an overview of the physiology and pathophysiology of various systems in the human body and describes the implementation of quantitative engineering approaches and techniques to understand the function of those systems. It covers the basic terminology of the disease process and disease etiology and provides basic descriptions of diagnostic methods and treatment modalities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8320",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, PhD program"
+      ],
+      "prereqs": null,
+      "title": "Systems Physiology and Pathophysiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133792",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Biomedical product design and development is a complex process that involves the interplay of science, design principles, and FDA design regulation from conceptualization to design to manufacturing to regulatory approval and commercialization. This course focuses on problem-solving and decision-making among people with different disciplinary perspectives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8330",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Biomedical Device Design & Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133801",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course provides an advanced study of the physics of optoelectronic devices. It starts with a review of the fundamental physics that underlie the electronic and optical properties of materials and the optoelectronic devices, including practical and relevant topics from quantum mechanics, solid-state physics, and electromagnetics. The course then describes the application of those fundamental physics in the design and operation of optoelectronic devices, including semiconductor lasers, modulators, and photodetectors. Note: This course may be cross-leveled with EE 6400.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8400",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, PhD program"
+      ],
+      "prereqs": null,
+      "title": "Electronic and Optical Properties of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133802",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with a comprehensive understanding of the mechanical behavior of a broad range of engineering materials, with a specific focus on the modern materials used in infrastructures. Through a combination of theory and real-world case studies, students gain a fundamental understanding of materials and property relationships. The course integrates the concepts of basic mechanical behavior in solid materials and mechanical and thermal properties of a wide range of engineering materials, from both microscopic and macroscopic points of view.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8410",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, PhD program"
+      ],
+      "prereqs": null,
+      "title": "Mechanical Properties of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133803",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the students to the field of nanoscience and nanotechnology. In this course, the fundamentals of materials synthesis, characterization, and applications of materials and devices with a size in the range of micrometer (\u03bcm) to nanometer (nm) scale are discussed. Topics such as fabrication methods that include \u201cbottom-up\u201d and \u201ctop-down\u201d to achieve nanometer length scale, nanomaterials, characterization methods, applications, and ethical issues are covered. The underlying principles and applications of the emerging field of nanotechnology are also introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8420",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, PhD program"
+      ],
+      "prereqs": null,
+      "title": "Materials Fabrication and Characterization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133804",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the students to the field of advanced materials. This course introduces the field of advanced materials and covers the fundamental knowledge of materials science, with an emphasis on the most cutting-edge knowledge of contemporary materials. Some topics may include: advanced electronic materials, advanced energy materials, advanced healthcare materials, advanced sensor materials, advanced optical materials, and advanced structural materials. The underlying principles are also discussed and summarized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 8430",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 8400",
+          "ENGR 8410"
+        ]
+      },
+      "title": "Advanced Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133683",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The key aim of the course is to provide students with a multidisciplinary, creative approach to program the control and development of new robotic components and technologies. This covers activities from both the hard (mechanical/ electrical design and fabrication, sensor systems, actuation development etc.) and soft (control, computer software, human factors etc.) systems areas of robotics. The explicit emphasis will be the use of sensors, such as touch, ultrasonic, or light sensors that allow a robot to interact with the real world around it to how to design and develop complex software for intelligent robotic systems. The course will further provide a rationale for considering emerging cutting-edge approaches and software development systems (i.e: ROS, will be considered). Note: This course may be cross-leveled with MTRE 6100. Students who receive credit for MTRE 8100 cannot then enroll in MTRE 6100 for credit.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 8100",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Robot Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133662",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Note: This course may be cross-leveled with SYE 6005. Students who receive credit for SYE 8005 cannot then enroll in SYE 6005 for credit.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SYE 8005",
+      "notes": [
+        "Admission to the Interdisciplinary Engineering, Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Systems Engineering"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "phd-interdisciplinary-engineering",
+    "name": "PhD Interdisciplinary Engineering"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **CS 7998**
-  - unrecognized: Varies by topic
+None.
 
 ## Left out on purpose
 
