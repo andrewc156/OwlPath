@@ -38,7 +38,7 @@ def program_identity(name: str, poid: int, catoid: int) -> tuple[str, str]:
     label = f"{degree} {field}".strip()
     if known:
         return known, label
-    return (f"{degree.lower()}-{_slug(field)}" if degree else _slug(field)), label
+    return (f"{_slug(degree)}-{_slug(field)}" if degree else _slug(field)), label
 
 
 def assign_ids(pages: list[dict], catoid: int) -> dict[int, tuple[str, str]]:

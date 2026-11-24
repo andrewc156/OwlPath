@@ -238,3 +238,31 @@ def test_unreadable_program_json_never_touches_courses_json_and_blocks(tmp_path,
     held = (tmp_path / "STATUS.md").read_text().split("## Held majors")[1].split("\n## ")[0]
     assert "bs-bad" in held and "program.json unreadable" in held and "BLOCKS PUBLISH" in held
     assert json.loads((tmp_path / "majors.json").read_text()) == []
+
+
+def _page_change_section(tmp_path):
+    return (tmp_path / "STATUS.md").read_text().split("## Checked majors whose catalog page changed")[1] \
+        .split("\n## ")[0]
+
+
+def test_checked_page_diff_ignores_courses_listed_only_as_gen_ed_math(tmp_path):
+    write_major(tmp_path, "bs-cs", ["AA 1000"], checked=True)
+    path = tmp_path / "bs-cs" / "program.json"
+    spec = json.loads(path.read_text())
+    spec["courses"]["BB 2000"] = ["gen-ed-math"]
+    path.write_text(json.dumps(spec))
+    write_snapshot(tmp_path, [page(11680, "Computer Science, B.S.", [sec("Major Requirements", "AA 1000")])])
+    snap_publish(tmp_path)
+    assert "bs-cs" not in _page_change_section(tmp_path)
+
+
+def test_checked_page_diff_still_reports_real_removals_and_shared_gen_ed_courses(tmp_path):
+    write_major(tmp_path, "bs-cs", ["AA 1000", "CC 3000"], checked=True)
+    path = tmp_path / "bs-cs" / "program.json"
+    spec = json.loads(path.read_text())
+    spec["courses"]["BB 2000"] = ["gen-ed-math", "major-required"]
+    path.write_text(json.dumps(spec))
+    write_snapshot(tmp_path, [page(11680, "Computer Science, B.S.", [sec("Major Requirements", "AA 1000")])])
+    snap_publish(tmp_path)
+    section = _page_change_section(tmp_path)
+    assert "bs-cs" in section and "CC 3000" in section and "BB 2000" in section

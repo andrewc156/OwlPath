@@ -182,3 +182,8 @@ def test_hand_edited_or_checked_program_is_not_overwritten(tmp_path):
 def test_draft_diff():
     assert draft_diff({"courses": {"A 1": [], "B 1": []}}, {"courses": {"B 1": [], "C 1": []}}) == {
         "added": ["C 1"], "removed": ["A 1"]}
+
+
+def test_identity_slugs_the_degree_part_too():
+    assert program_identity("Business Administration, MBA (Evening)", 1, 83) == (
+        "mba-evening-business-administration", "MBA (Evening) Business Administration")

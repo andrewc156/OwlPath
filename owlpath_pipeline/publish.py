@@ -62,7 +62,11 @@ def _draft_levels(data_dir: Path) -> tuple[dict[str, list[str]], dict[str, dict]
             path = data_dir / draft.program_json["program"]["id"] / "program.json"
             old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
             if write_draft(draft, data_dir) == "kept-checked" and old:
-                diff = draft_diff(old, draft.program_json)
+                # The drafter skips general education by design, so a course the checked program lists
+                # only as gen-ed-math is not a page change.
+                gen_ed = {c for c, groups in old.get("courses", {}).items() if set(groups) == {"gen-ed-math"}}
+                diff = draft_diff({**old, "courses": {c: g for c, g in old.get("courses", {}).items()
+                                                      if c not in gen_ed}}, draft.program_json)
                 if diff["added"] or diff["removed"]:
                     page_changes[draft.program_json["program"]["id"]] = diff
         out_of_scope[level] = [p["name"] for p in
