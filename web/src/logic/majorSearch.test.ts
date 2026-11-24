@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
 import type { MajorEntry } from '../data/dataset'
-import { collegeKey, groupMajors, pickerRows } from './majorSearch'
+import { collegeKey, groupMajors, levelKey, pickerRows } from './majorSearch'
 
 const CCSE = 'College of Computing and Software Engineering'
 const COLES = 'Coles College of Business'
@@ -28,13 +28,19 @@ test('matches name, id or college case-insensitively and drops empty groups', ()
   expect(groupMajors(entries, 'zzz')).toEqual([])
 })
 
-test('only expanded colleges show their majors, unless searching', () => {
+test('levels and colleges open only when expanded, unless searching', () => {
   const groups = groupMajors(entries, '')
-  const closed = pickerRows(groups, new Set(), false)
-  expect(closed.map((l) => l.rows.map((r) => r.kind))).toEqual([['college', 'college'], ['college']])
-  const one = pickerRows(groups, new Set([collegeKey('undergraduate', CCSE)]), false)
-  expect(one[0].rows.map((r) => r.key)).toEqual([collegeKey('undergraduate', COLES), collegeKey('undergraduate', CCSE), 'bs-cs', 'bsswe'])
-  expect(one[1].rows.map((r) => r.kind)).toEqual(['college']) // the graduate CCSE group is a different group
+  const kinds = (rows: { kind: string }[]) => rows.map((r) => r.kind)
+  expect(kinds(pickerRows(groups, new Set(), false))).toEqual(['level', 'level'])
+  const ug = levelKey('undergraduate')
+  expect(pickerRows(groups, new Set([ug]), false).map((r) => r.key))
+    .toEqual([ug, collegeKey('undergraduate', COLES), collegeKey('undergraduate', CCSE), levelKey('graduate')])
+  const both = pickerRows(groups, new Set([ug, collegeKey('undergraduate', CCSE)]), false)
+  expect(both.map((r) => r.key)).toEqual([ug, collegeKey('undergraduate', COLES), collegeKey('undergraduate', CCSE),
+    'bs-cs', 'bsswe', levelKey('graduate')])
+  // a college key alone shows nothing while its level is closed
+  expect(kinds(pickerRows(groups, new Set([collegeKey('graduate', CCSE)]), false))).toEqual(['level', 'level'])
   const searching = pickerRows(groupMajors(entries, 'b'), new Set(), true)
-  expect(searching[0].rows.filter((r) => r.kind === 'major').length).toBe(3)
+  expect(searching.filter((r) => r.kind === 'major').length).toBe(3)
+  expect(searching[0]).toMatchObject({ kind: 'level', name: 'Undergraduate', count: 3, open: true })
 })

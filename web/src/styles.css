@@ -127,12 +127,13 @@ body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -app
   position: absolute; z-index: 20; top: 100%; left: 0; width: 360px; max-width: 90vw; max-height: 60vh; overflow-y: auto; margin-top: 4px; padding: 4px;
   background: var(--surface); border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 4px 16px rgb(0 0 0 / .15);
 }
-.major-group { padding: 6px 8px 2px; font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--muted); }
-.major-college { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border-radius: 4px; cursor: pointer; font-weight: 500; }
+.major-level { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--muted); }
+.major-level.active { background: var(--bg); }
+.major-college { display: flex; align-items: center; gap: 6px; padding: 6px 8px 6px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; }
 .major-college.active { background: var(--bg); }
 .major-caret { flex: none; width: 1em; color: var(--muted); }
 .major-count { margin-left: auto; flex: none; font-size: 12px; color: var(--muted); }
-.major-option { display: flex; justify-content: space-between; gap: 8px; padding: 6px 8px 6px 28px; border-radius: 4px; cursor: pointer; }
+.major-option { display: flex; justify-content: space-between; gap: 8px; padding: 6px 8px 6px 40px; border-radius: 4px; cursor: pointer; }
 .major-option.active { background: var(--bg); }
 .major-option[aria-selected="true"] { font-weight: 600; }
 .major-tag { flex: none; font-size: 12px; color: var(--muted); }
