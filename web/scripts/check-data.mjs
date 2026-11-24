@@ -106,7 +106,9 @@ export function checkPrograms(dataRoot) {
     if (listed) {
       const byId = (a, b) => (a.id < b.id ? -1 : 1)
       const want = [...shipped].sort(byId)
-      const got = Array.isArray(listed) ? [...listed].sort(byId) : null
+      // Each entry also names the picker's college group, which comes from the catalog snapshot.
+      const named = Array.isArray(listed) && listed.every((m) => typeof m?.college === 'string' && m.college.trim() !== '')
+      const got = named ? listed.map(({ college, ...rest }) => rest).sort(byId) : null
       if (!got || !isDeepStrictEqual(got, want)) refuse('majors.json is out of date; rebuild with the pipeline')
     }
   }

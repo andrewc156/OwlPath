@@ -45,7 +45,12 @@ def test_coids_from_listing_and_program():
 
 def test_program_index():
     refs = set(parse_program_index(fx("ug-programs-index.html")))
-    assert {ProgramRef("Computer Science, B.S.", 11680), ProgramRef("Data Science and Analytics, B.S.", 11867)} <= refs
+    assert {ProgramRef("Computer Science, B.S.", 11680, "College of Computing and Software Engineering"),
+            ProgramRef("Data Science and Analytics, B.S.", 11867, "College of Computing and Software Engineering")} <= refs
+    elementary = next(r for r in refs if r.name == "Elementary Education, B.S.")
+    assert elementary.college == "Clarice C. and Leland Bagwell College of Education"
+    grad = {r.name: r.college for r in parse_program_index(fx("grad-programs-index.html"))}
+    assert grad["Data Science and Analytics, M.S."] == "College of Computing and Software Engineering"
 
 
 @pytest.mark.parametrize(
