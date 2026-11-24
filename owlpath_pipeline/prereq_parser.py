@@ -16,8 +16,9 @@ _TOKEN = re.compile(
     (?P<GRADE_PREFIX>(?:an?\ )?(?:minimum\ )?(?:earned\ )?grades?\ of\ ["']?(?P<pg>[A-F])["']?\ or\ (?:higher|better)\ in\b)
   | (?P<GRADE_SUFFIX>(?P<each>(?:each|both|all)\ )?with\ (?:an?\ (?:(?:minimum\ )?grade\ of\ )?)?["'](?P<sg>[A-F])["']
       \ or\ (?:higher|better))
-  | (?P<GRADE_MIN>(?:a\ )?minimum\ grade\ of\ ["'](?P<mg>[A-F])["'](?:\ or\ (?:higher|better))?)
-  | (?P<NOTE>(?:by\ )?placement(?:\ (?:in)?to\ (?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)(?:\ or\ higher)?)?
+  | (?P<GRADE_MIN>(?P<mw>with\ )?(?:an?\ )?minimum\ grade\ of\ ["'](?P<mg>[A-F])["'](?:\ or\ (?:higher|better))?)
+  | (?P<NOTE>(?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)\ or\ higher(?:[-\ ]level)?(?:\ courses?)?\b
+      |(?:by\ )?placement(?:\ (?:in)?to\ (?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)(?:\ or\ higher)?)?
       | (?:admission\ to|acceptance\ into)\ .*?\ program\b
       | (?:freshman|sophomore|junior|senior|graduate)\ standing
       | (?:by\ )?(?:instructor's|department's)(?:\ or\ department's)?\ permission
@@ -41,7 +42,8 @@ _TOKEN = re.compile(
 _REQUIREMENT_WORDS = re.compile(
     r"\b(?:admission|admitted|acceptance|accepted|standing|majors?|program|student|permission|consent|approval|approved"
     r"|credit\ hours|gpa|certificate|certification|endorsement|clinical|candidacy|enrolled|enrollment|placement"
-    r"|equivalent|audition|portfolio|insurance|school\ of|degree|mba|ph\.?d|ed\.?\ ?[ds]|[bm]\.\ ?(?:ed|s|a|f\.?a)\b\.?)",
+    r"|equivalent|concurrent|concurrently|registration|declared|eligible|eligibility|varies|audition|portfolio|insurance|school\ of|degree|mba|ph\.?d|ed\.?\ ?[ds]|[bm]\.\ ?(?:ed|s|a|f\.?a)\b\.?"
+    r"|(?-i:(?:B|M)(?:S|A|Ed|FA|BA|SN|AT|PA)))",
     re.IGNORECASE | re.VERBOSE)
 
 _OPERAND_END = {"COURSE", "NOTE", "RP", "GRADE_SUFFIX"}
@@ -112,8 +114,8 @@ def _tokenize(text: str, warnings: list[str]) -> list[_Tok]:
                 toks.append(_Tok(kind, m.group(0), grade=m.group("pg").upper()))
             elif kind == "GRADE_SUFFIX":
                 toks.append(_Tok(kind, m.group(0), grade=m.group("sg").upper(), each=bool(m.group("each"))))
-            elif kind == "GRADE_MIN":  # "A and B, minimum grade of 'C'" covers the whole group
-                toks.append(_Tok("GRADE_SUFFIX", m.group(0), grade=m.group("mg").upper(), each=True))
+            elif kind == "GRADE_MIN":  # "A and B, minimum grade of 'C'" covers the group; "A with minimum grade of" A
+                toks.append(_Tok("GRADE_SUFFIX", m.group(0), grade=m.group("mg").upper(), each=m.group("mw") is None))
             elif kind == "NOTE":
                 note(m.group(0), True)
             elif kind not in ("WS", "COMMA"):
@@ -122,10 +124,45 @@ def _tokenize(text: str, warnings: list[str]) -> list[_Tok]:
     flush()
     # A phrase is fine as a note when the parser knows its kind, or it names a known requirement kind. Anything
     # else, and any phrase ending in ":" (a per-major or per-program condition), needs a person.
-    for t in toks:
+    for i, t in enumerate(toks):
         if t.kind == "NOTE" and not t.known and (t.text.endswith(":") or not _REQUIREMENT_WORDS.search(t.text)):
+            if not t.text.endswith(":") and _name_fragment(toks, i):
+                continue
             warnings.append(f"unrecognized: {t.text}")
     return toks
+
+
+def _group(toks: list[_Tok], i: int) -> range:
+    """The token indexes of the innermost bracket group around toks[i] (the whole clause at the top)."""
+    depth, start = 0, 0
+    for j in range(i - 1, -1, -1):
+        if toks[j].kind == "RP":
+            depth += 1
+        elif toks[j].kind == "LP":
+            if depth == 0:
+                start = j + 1
+                break
+            depth -= 1
+    depth, end = 0, len(toks)
+    for j in range(i + 1, len(toks)):
+        if toks[j].kind == "LP":
+            depth += 1
+        elif toks[j].kind == "RP":
+            if depth == 0:
+                end = j
+                break
+            depth -= 1
+    return range(start, end)
+
+
+def _name_fragment(toks: list[_Tok], i: int) -> bool:
+    """A few words split off a name by its "and" ("College of Science and | Mathematics"), in a bracket group that
+    names no course and does hold a known requirement: harmless, since the whole group is notes."""
+    if len(toks[i].text.split()) > 3:
+        return False
+    group = [toks[j] for j in _group(toks, i)]
+    return (not any(t.kind == "COURSE" for t in group)
+            and any(t.kind == "NOTE" and (t.known or _REQUIREMENT_WORDS.search(t.text)) for t in group))
 
 
 def _check_ambiguity(toks: list[_Tok], text: str, warnings: list[str]) -> None:
@@ -174,8 +211,11 @@ def _apply_grade(expr: Expr, grade: str) -> None:
 
 
 class _Parser:
-    def __init__(self, toks: list[_Tok]):
+    """Recursive descent; `and` binds tighter than `or` unless and_first is False (used to test the other reading)."""
+
+    def __init__(self, toks: list[_Tok], and_first: bool = True):
         self.toks, self.i = toks, 0
+        self.low, self.high = ("OR", "AND") if and_first else ("AND", "OR")
 
     def peek(self, kind: str) -> bool:
         return self.i < len(self.toks) and self.toks[self.i].kind == kind
@@ -196,25 +236,25 @@ class _Parser:
             raise _ParseError(f"unexpected '{self.toks[self.i].text}'")
         return expr
 
-    def or_expr(self) -> Expr:
+    def or_expr(self) -> Expr:  # the loosest level (named for the usual reading)
         items = [self.and_expr()]
-        while self.peek("OR"):
+        while self.peek(self.low):
             self.take()
             items.append(self.and_expr())
         if (s := self.each_suffix()) is not None:
             for it in items:
                 _apply_grade(it, s.grade)
-        return items[0] if len(items) == 1 else {"or": items}
+        return items[0] if len(items) == 1 else {self.low.lower(): items}
 
-    def and_expr(self) -> Expr:
+    def and_expr(self) -> Expr:  # the tighter level
         items = [self.unary()]
-        while self.peek("AND"):
+        while self.peek(self.high):
             self.take()
             items.append(self.unary())
         if len(items) > 1 and (s := self.each_suffix()) is not None:
             for it in items:
                 _apply_grade(it, s.grade)
-        return items[0] if len(items) == 1 else {"and": items}
+        return items[0] if len(items) == 1 else {self.high.lower(): items}
 
     def unary(self) -> Expr:
         if self.peek("GRADE_PREFIX"):
@@ -265,6 +305,17 @@ def _finish(expr: Expr, notes: list[str]) -> Expr | None:
     return children[0] if len(children) == 1 else {op: children}
 
 
+def _same_either_way(toks: list[_Tok], expr: Expr) -> bool:
+    """Mixed and/or without brackets is harmless when reading `or` as the tighter operator gives the same
+    requirement once notes drop out (e.g. a list of programs: every option is a note)."""
+    import copy
+    try:
+        other = _Parser(toks, and_first=False).parse()
+    except _ParseError:
+        return False
+    return _finish(copy.deepcopy(expr), []) == _finish(other, [])
+
+
 def _clauses(text: str) -> list[str]:
     """Split on ";" outside brackets: KSU separates whole clauses that way, each one required."""
     parts, depth, start = [], 0, 0
@@ -292,12 +343,16 @@ def parse_requirement(text: str) -> ParseResult:
         toks = _tokenize(clause, warnings)
         if not toks:
             continue
-        _check_ambiguity(toks, clause, warnings)
+        ambiguity: list[str] = []
+        _check_ambiguity(toks, clause, ambiguity)
         toks = _insert_implicit_ops(toks, warnings)
         try:
-            exprs.append(_Parser(toks).parse())
+            expr = _Parser(toks).parse()
         except _ParseError as e:
             return ParseResult(None, [clean], warnings + [f"could not parse ({e}): {clean}"])
+        if ambiguity and not _same_either_way(toks, expr):
+            warnings.extend(ambiguity)
+        exprs.append(expr)
     if not exprs:
         return ParseResult(None, [], warnings)
     notes: list[str] = []
