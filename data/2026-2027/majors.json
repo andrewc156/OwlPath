@@ -1,5 +1,11 @@
 [
   {
+    "checked": false,
+    "id": "ms-construction-management",
+    "level": "graduate",
+    "name": "MS Construction Management"
+  },
+  {
     "checked": true,
     "id": "ms-dsa",
     "level": "graduate",

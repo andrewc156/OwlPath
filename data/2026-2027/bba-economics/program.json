@@ -1,0 +1,91 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bba-economics",
+    "name": "BBA Economics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "ECON 4510": [
+      "major-required"
+    ],
+    "ECON 4610": [
+      "major-required"
+    ],
+    "ECON 4710": [
+      "major-required"
+    ],
+    "ECON 4990": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MATH 1160": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Group A (9-12 Credit Hours)'",
+    "unrecognized section 'Group B (0-3 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
+  ],
+  "draftHash": "83b5f020416939e435aaab2011bcfb19026abecbb7d0e7c3c9855acf19e58247"
+}

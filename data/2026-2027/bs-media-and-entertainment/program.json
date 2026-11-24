@@ -1,0 +1,49 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-media-and-entertainment",
+    "name": "BS Media and Entertainment",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "COMM 1110": [
+      "core-field"
+    ],
+    "COMM 2033": [
+      "core-field"
+    ],
+    "COMM 2135": [
+      "core-field"
+    ],
+    "COMM 2230": [
+      "core-field"
+    ],
+    "COMM 2240": [
+      "core-field"
+    ],
+    "COMM 2340": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Context (6 Credit Hours)'",
+    "unrecognized section 'Methods (6 Credit Hours)'",
+    "unrecognized section 'Storytelling (6 Credit Hours)'",
+    "unrecognized section 'Culminating (3 Credit Hours)'",
+    "unrecognized section 'Professional Development (3 Credit Hours)'",
+    "unrecognized section 'Photography & Design Production (6 Credit Hours)'",
+    "unrecognized section 'Film & Video Production (6 Credit Hours)'",
+    "unrecognized section 'Audio Production (6 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "e9c067eccb8a8dde71c11adb55a05ba3da423313a53508cd306b175857ca348b"
+}

@@ -1,0 +1,76 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "edd-teacher-leadership",
+    "name": "EdD Teacher Leadership",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Teacher Leadership Certification",
+        "groups": [
+          "conc-teacher-leadership-certification"
+        ]
+      },
+      {
+        "label": "Advanced Teacher Leadership",
+        "groups": [
+          "conc-advanced-teacher-leadership"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDL 9700": [
+      "conc-teacher-leadership-certification",
+      "conc-advanced-teacher-leadership"
+    ],
+    "EDL 9885": [
+      "major-required"
+    ],
+    "EDRS 8100": [
+      "major-required"
+    ],
+    "EDRS 8200": [
+      "major-required"
+    ],
+    "EDRS 9300": [
+      "major-required"
+    ],
+    "TLED 8101": [
+      "conc-teacher-leadership-certification"
+    ],
+    "TLED 8215": [
+      "conc-teacher-leadership-certification"
+    ],
+    "TLED 8401": [
+      "conc-teacher-leadership-certification"
+    ],
+    "TLED 8615": [
+      "conc-teacher-leadership-certification"
+    ],
+    "TLED 9200": [
+      "conc-advanced-teacher-leadership"
+    ],
+    "TLED 9830": [
+      "conc-advanced-teacher-leadership"
+    ],
+    "TLED 9880": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Dissertation (12 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Advisor Approved Elective - I\n\nAdvisor Approved Elective - II",
+    "EDL 9600"
+  ],
+  "draftHash": "cfce3887b5525fddb13c7617b34df7765105238eed4b3e53d4ea4f8582146a73"
+}

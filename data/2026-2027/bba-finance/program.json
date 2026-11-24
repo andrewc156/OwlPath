@@ -1,0 +1,127 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bba-finance",
+    "name": "BBA Finance",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "FIN 4199": [
+      "major-required"
+    ],
+    "FIN 4220": [
+      "major-required"
+    ],
+    "FIN 4260": [
+      "major-elective"
+    ],
+    "FIN 4320": [
+      "major-elective"
+    ],
+    "FIN 4360": [
+      "major-required"
+    ],
+    "FIN 4380": [
+      "major-elective"
+    ],
+    "FIN 4420": [
+      "major-elective"
+    ],
+    "FIN 4460": [
+      "major-elective"
+    ],
+    "FIN 4520": [
+      "major-elective"
+    ],
+    "FIN 4560": [
+      "major-elective"
+    ],
+    "FIN 4590": [
+      "major-elective"
+    ],
+    "FIN 4620": [
+      "major-elective"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MATH 1160": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ],
+    "RE 4500": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Related Studies (6 Credit Hours)'",
+    "unrecognized section 'I. Capital Markets'",
+    "unrecognized section 'II. Corporate Finance'"
+  ],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "FIN 4490",
+    "text: Any 300/400 level FIN course not already taken to satisfy degree requirements"
+  ],
+  "draftHash": "e143e347cd971753932d08b9b0a6b4952c56c1104d36a86a90703abd7a2adff0"
+}

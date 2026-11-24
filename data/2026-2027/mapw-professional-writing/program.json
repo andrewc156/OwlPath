@@ -1,0 +1,22 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "mapw-professional-writing",
+    "name": "MAPW Professional Writing",
+    "filters": []
+  },
+  "choices": [],
+  "courses": {},
+  "draftWarnings": [
+    "unrecognized section 'Applied Writing'",
+    "unrecognized section 'Composition and Rhetoric'",
+    "unrecognized section 'Creative Writing'",
+    "no courses found"
+  ],
+  "leftOut": [
+    "PRWR 6000",
+    "PRWR 7960"
+  ],
+  "draftHash": "34870d17ce3e4d8bada6e320be8f2aa708fe4ed95ddcb63b76eb432b93b4cd90"
+}

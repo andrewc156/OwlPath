@@ -1,0 +1,98 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-history-education",
+    "name": "BS History Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "HIED 2110",
+      "HUED 2110"
+    ],
+    [
+      "GEOG 1101",
+      "GEOG 1130"
+    ]
+  ],
+  "courses": {
+    "ECON 2106": [
+      "major-required"
+    ],
+    "EDUC 2120": [
+      "core-field"
+    ],
+    "EDUC 2130": [
+      "major-required"
+    ],
+    "EDUC 4610": [
+      "major-required"
+    ],
+    "GEOG 1101": [
+      "core-field"
+    ],
+    "GEOG 1130": [
+      "core-field"
+    ],
+    "HIED 2110": [
+      "core-field"
+    ],
+    "HIED 4650": [
+      "major-required"
+    ],
+    "HIED 4660": [
+      "major-required"
+    ],
+    "HIST 1112": [
+      "core-field"
+    ],
+    "HIST 2111": [
+      "core-field"
+    ],
+    "HIST 2206": [
+      "core-field"
+    ],
+    "HIST 3100": [
+      "major-required"
+    ],
+    "HIST 3271": [
+      "major-required"
+    ],
+    "HIST 3304": [
+      "major-required"
+    ],
+    "HIST 4488": [
+      "major-required"
+    ],
+    "HUED 2110": [
+      "core-field"
+    ],
+    "INED 3300": [
+      "major-required"
+    ],
+    "INED 4431": [
+      "major-required"
+    ],
+    "POLS 3300": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'American History (6 Credit Hours)'",
+    "unrecognized section 'European History (3 Credit Hours)'",
+    "unrecognized section 'Non-Western World Studies (6 Credit Hours)'"
+  ],
+  "leftOut": [
+    "HIED 4550"
+  ],
+  "draftHash": "d46f70772e0719eefc5aa824e8728feddb524c023892551b2131ae5a57bd1abf"
+}

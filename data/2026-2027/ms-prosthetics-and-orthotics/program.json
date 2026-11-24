@@ -1,0 +1,94 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-prosthetics-and-orthotics",
+    "name": "MS Prosthetics and Orthotics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "OP 6000L": [
+      "major-required"
+    ],
+    "OP 6100": [
+      "major-required"
+    ],
+    "OP 6200": [
+      "major-required"
+    ],
+    "OP 6300": [
+      "major-required"
+    ],
+    "OP 6300L": [
+      "major-required"
+    ],
+    "OP 6400L": [
+      "major-required"
+    ],
+    "OP 6600L": [
+      "major-required"
+    ],
+    "OP 6700": [
+      "major-required"
+    ],
+    "OP 6700L": [
+      "major-required"
+    ],
+    "OP 6800": [
+      "major-required"
+    ],
+    "OP 6800L": [
+      "major-required"
+    ],
+    "OP 7100L": [
+      "major-required"
+    ],
+    "OP 7200": [
+      "major-required"
+    ],
+    "OP 7200L": [
+      "major-required"
+    ],
+    "OP 7300": [
+      "major-required"
+    ],
+    "OP 7300L": [
+      "major-required"
+    ],
+    "OP 7600": [
+      "major-required"
+    ],
+    "OP 7600L": [
+      "major-required"
+    ],
+    "OP 7700": [
+      "major-required"
+    ],
+    "OP 7700L": [
+      "major-required"
+    ],
+    "OP 7900": [
+      "major-project"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Clinical Practicum (7 Credit Hours)'",
+    "unrecognized section 'Research Seminars (3 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "f7c41bfb143d59017abef37d3e826f8b6a410ff6f99d81cecc01b42e09d0e548"
+}

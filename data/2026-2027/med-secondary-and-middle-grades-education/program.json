@@ -1,0 +1,59 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "med-secondary-and-middle-grades-education",
+    "name": "MEd Secondary and Middle Grades Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDSM 7500": [
+      "major-required"
+    ],
+    "EDUC 7100": [
+      "major-required"
+    ],
+    "EDUC 7700": [
+      "major-required"
+    ],
+    "EDUC 7705": [
+      "major-required"
+    ],
+    "EDUC 7750": [
+      "major-required"
+    ],
+    "EDUC 7752": [
+      "major-required"
+    ],
+    "EDUC 7797": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Secondary English or Middle Grades Language Arts'",
+    "unrecognized section 'Secondary Mathematics or Middle Grades Mathematics'",
+    "unrecognized section 'Secondary History or Middle Grades Social Studies'",
+    "unrecognized section 'Secondary Chemistry'",
+    "unrecognized section 'Secondary Biology or Middle Grades Science'"
+  ],
+  "leftOut": [
+    "text: Choose One of the Following Course Options:",
+    "text: Select 9 credit hours of any 5000 level or higher courses with the following prefixes: ENGL, PRWR, ENED, or EDRD.",
+    "text: Select 9 credit hours of any 5000 level or higher courses with the following prefixes: MATH, MAED, or STAT.",
+    "text: Select 9 credit hours of any 5000 level or higher courses with the following prefixes: SSED, HIST, AMST, GEOG, or POLS.",
+    "text: Select 9 credit hours of any 5000 level or higher courses with the following prefixes: SCED, SCI, BIOL, PHYS, or CHEM.",
+    "text: Select 9 credit hours of any 5000 level or higher courses with the following prefixes: SCED, SCI, BIOL, PHYS, or CHEM.",
+    "text: Endorsement courses at the graduate level with prior approval from graduate program coordinator.",
+    "text: Additional education courses at the graduate level with prior approval from graduate program coordinator.",
+    "text: Additional teaching field courses at graduate level with prior approval from graduate program coordinator."
+  ],
+  "draftHash": "81103370f6bc7acb3cfa3753bd8c8ccdd3db83696c07c76344025aa6ff248027"
+}

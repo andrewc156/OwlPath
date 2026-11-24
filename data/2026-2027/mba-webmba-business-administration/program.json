@@ -1,0 +1,57 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "mba-webmba-business-administration",
+    "name": "MBA (WebMBA) Business Administration",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "WMBA 6000": [
+      "major-required"
+    ],
+    "WMBA 6010": [
+      "major-required"
+    ],
+    "WMBA 6030": [
+      "major-required"
+    ],
+    "WMBA 6040": [
+      "major-required"
+    ],
+    "WMBA 6050": [
+      "major-required"
+    ],
+    "WMBA 6060": [
+      "major-required"
+    ],
+    "WMBA 6070": [
+      "major-required"
+    ],
+    "WMBA 6080": [
+      "major-required"
+    ],
+    "WMBA 6100": [
+      "major-required"
+    ],
+    "WMBA 6110": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Orientation Residency'"
+  ],
+  "leftOut": [
+    "text: Only 2 courses (6 credit hours) may be transferred into this program from another institution, and their approval is subject to the program director and the policies of the Kennesaw State University Graduate College (e.g., an AACSB-International accredited program, completed within 6 years of MBA graduation at KSU).",
+    "text: Refer to the KSU Graduate College for Grade, GPA and program length requirements."
+  ],
+  "draftHash": "c93493b5947e2da95eb92ff2416e2b97f57cdda0a645419322a18369a9c2e9db"
+}

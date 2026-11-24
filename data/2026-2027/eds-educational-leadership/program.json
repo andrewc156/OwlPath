@@ -1,0 +1,33 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "eds-educational-leadership",
+    "name": "EdS Educational Leadership",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDL 8005": [
+      "major-required"
+    ],
+    "EDL 8200": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Educational Leadership Residency Courses (18 Credit Hours)'"
+  ],
+  "leftOut": [
+    "EDRS 8000",
+    "EDL 8100"
+  ],
+  "draftHash": "ca45bc57a7b47885cd347344675253f478e5f43cca0c7981dc0f5646bce14063"
+}

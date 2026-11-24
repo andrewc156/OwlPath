@@ -1,0 +1,31 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "msw-social-work",
+    "name": "MSW Social Work",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "SW 7801": [
+      "major-required"
+    ],
+    "SW 7929": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Foundational MSW Course Sequence (30 Credit Hours)'",
+    "unrecognized section 'Advanced Clinical Courses (21 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "893f1d82209e09fe3ff1e8762fa63145ee8e4ce9a26e51754855123d3094f253"
+}

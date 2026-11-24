@@ -1,0 +1,220 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-industrial-engineering-technology",
+    "name": "BS Industrial Engineering Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Quality Principles",
+        "groups": [
+          "conc-quality-principles"
+        ]
+      },
+      {
+        "label": "Logistics",
+        "groups": [
+          "conc-logistics"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "PHYS 1111L",
+      "PHYS 1112"
+    ],
+    [
+      "PHYS 1112L",
+      "PHYS 2211"
+    ],
+    [
+      "PHYS 2211L",
+      "PHYS 2212"
+    ],
+    [
+      "PHYS 2212L",
+      "CHEM 1152"
+    ],
+    [
+      "CHEM 1152L",
+      "CHEM 1211"
+    ],
+    [
+      "CHEM 1211L",
+      "CHEM 1212"
+    ],
+    [
+      "CHEM 1212L",
+      "BIOL 1107"
+    ],
+    [
+      "BIOL 1107L",
+      "BIOL 1108"
+    ],
+    [
+      "BIOL 1108L",
+      "SCI 1101K"
+    ],
+    [
+      "ACCT 2101",
+      "IET 2432"
+    ]
+  ],
+  "courses": {
+    "ACCT 2101": [
+      "major-required"
+    ],
+    "BIOL 1107": [
+      "core-field"
+    ],
+    "BIOL 1107L": [
+      "core-field"
+    ],
+    "BIOL 1108": [
+      "core-field"
+    ],
+    "BIOL 1108L": [
+      "core-field"
+    ],
+    "CHEM 1152": [
+      "core-field"
+    ],
+    "CHEM 1152L": [
+      "core-field"
+    ],
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "core-field"
+    ],
+    "CHEM 1212L": [
+      "core-field"
+    ],
+    "EDG 1210": [
+      "core-field"
+    ],
+    "ENGR 1000": [
+      "core-field"
+    ],
+    "ENGR 3407": [
+      "conc-quality-principles"
+    ],
+    "IET 1001L": [
+      "major-required"
+    ],
+    "IET 2000": [
+      "core-field"
+    ],
+    "IET 2227": [
+      "major-required"
+    ],
+    "IET 2432": [
+      "major-required"
+    ],
+    "IET 2449": [
+      "major-required"
+    ],
+    "IET 3320": [
+      "conc-logistics"
+    ],
+    "IET 3322": [
+      "major-required"
+    ],
+    "IET 3339": [
+      "major-required"
+    ],
+    "IET 3356": [
+      "major-required"
+    ],
+    "IET 3403": [
+      "major-required"
+    ],
+    "IET 3410": [
+      "conc-quality-principles"
+    ],
+    "IET 3424": [
+      "major-required"
+    ],
+    "IET 3433": [
+      "major-required"
+    ],
+    "IET 3511": [
+      "conc-logistics"
+    ],
+    "IET 3620": [
+      "conc-logistics"
+    ],
+    "IET 4115": [
+      "major-required"
+    ],
+    "IET 4135": [
+      "major-required"
+    ],
+    "IET 4151": [
+      "major-required"
+    ],
+    "IET 4405": [
+      "major-required"
+    ],
+    "IET 4422": [
+      "major-required"
+    ],
+    "IET 4451": [
+      "major-required"
+    ],
+    "IET 4475": [
+      "major-required"
+    ],
+    "IT 1113": [
+      "core-field"
+    ],
+    "PHYS 1111": [
+      "core-field"
+    ],
+    "PHYS 1111L": [
+      "core-field"
+    ],
+    "PHYS 1112": [
+      "core-field"
+    ],
+    "PHYS 1112L": [
+      "core-field"
+    ],
+    "PHYS 2211": [
+      "core-field"
+    ],
+    "PHYS 2211L": [
+      "core-field"
+    ],
+    "PHYS 2212": [
+      "core-field"
+    ],
+    "PHYS 2212L": [
+      "core-field"
+    ],
+    "SCI 1101K": [
+      "core-field"
+    ],
+    "TCOM 2010": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Science.",
+    "text: Select 3 credits of 3000-4000 level IET coursework"
+  ],
+  "draftHash": "6ee8e5d1df10b517ada1ea12303934c64995a338fc1d10da0c87307b6dbb219c"
+}

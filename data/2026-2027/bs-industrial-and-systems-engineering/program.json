@@ -1,0 +1,149 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-industrial-and-systems-engineering",
+    "name": "BS Industrial and Systems Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Industrial Engineering",
+        "groups": [
+          "conc-industrial-engineering"
+        ]
+      },
+      {
+        "label": "Systems Engineering",
+        "groups": [
+          "conc-systems-engineering"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "BIOL 1107L",
+      "CHEM 1212"
+    ],
+    [
+      "CHEM 1212L",
+      "PHYS 2212"
+    ]
+  ],
+  "courses": {
+    "BIOL 1107": [
+      "core-field"
+    ],
+    "BIOL 1107L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "core-field"
+    ],
+    "CHEM 1212L": [
+      "core-field"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "EDG 1210": [
+      "core-field"
+    ],
+    "EE 2305": [
+      "conc-systems-engineering"
+    ],
+    "ENGR 1000": [
+      "core-field"
+    ],
+    "ENGR 1100": [
+      "core-field"
+    ],
+    "ENGR 3250": [
+      "major-required"
+    ],
+    "ENGR 3325": [
+      "major-required"
+    ],
+    "ENGR 4402": [
+      "major-required"
+    ],
+    "ISYE 1001L": [
+      "major-required"
+    ],
+    "ISYE 2600": [
+      "major-required"
+    ],
+    "ISYE 3100": [
+      "conc-systems-engineering"
+    ],
+    "ISYE 3125": [
+      "conc-industrial-engineering"
+    ],
+    "ISYE 3150": [
+      "major-required"
+    ],
+    "ISYE 3200": [
+      "conc-systems-engineering"
+    ],
+    "ISYE 3300": [
+      "conc-systems-engineering"
+    ],
+    "ISYE 3350": [
+      "conc-industrial-engineering"
+    ],
+    "ISYE 3400": [
+      "major-required"
+    ],
+    "ISYE 3450": [
+      "conc-industrial-engineering"
+    ],
+    "ISYE 3600": [
+      "major-required"
+    ],
+    "ISYE 4200": [
+      "major-required"
+    ],
+    "ISYE 4250": [
+      "conc-industrial-engineering"
+    ],
+    "ISYE 4425": [
+      "conc-industrial-engineering"
+    ],
+    "ISYE 4500": [
+      "major-required"
+    ],
+    "ISYE 4901": [
+      "major-required"
+    ],
+    "ISYE 4902": [
+      "major-required"
+    ],
+    "MATH 3260": [
+      "major-required"
+    ],
+    "PHYS 2212": [
+      "core-field"
+    ],
+    "PHYS 2212L": [
+      "core-field"
+    ],
+    "TCOM 2010": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics and Sciences."
+  ],
+  "draftHash": "fd84a0b39f9a1006072a2c5f5cccd7ca0845a994903aebd61534283960bcacc8"
+}

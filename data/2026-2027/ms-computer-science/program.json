@@ -1,0 +1,150 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-computer-science",
+    "name": "MS Computer Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Artificial Intelligence",
+        "groups": [
+          "conc-artificial-intelligence"
+        ]
+      },
+      {
+        "label": "Data Science",
+        "groups": [
+          "conc-data-science"
+        ]
+      },
+      {
+        "label": "Cyber and Network Security",
+        "groups": [
+          "conc-cyber-and-network-security"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CS 6025": [
+      "conc-data-science",
+      "conc-cyber-and-network-security"
+    ],
+    "CS 6027": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 6041": [
+      "major-required"
+    ],
+    "CS 6045": [
+      "major-required"
+    ],
+    "CS 6070": [
+      "conc-data-science"
+    ],
+    "CS 7050": [
+      "conc-data-science"
+    ],
+    "CS 7075": [
+      "conc-artificial-intelligence"
+    ],
+    "CS 7125": [
+      "conc-data-science"
+    ],
+    "CS 7253": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7260": [
+      "conc-data-science"
+    ],
+    "CS 7263": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7265": [
+      "conc-data-science"
+    ],
+    "CS 7267": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7347": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7357": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7367": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7375": [
+      "conc-artificial-intelligence",
+      "conc-data-science"
+    ],
+    "CS 7530": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 7535": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 7537": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 7540": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 7545": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 7550": [
+      "conc-cyber-and-network-security"
+    ],
+    "CS 7998": [
+      "major-required"
+    ],
+    "DS 7900": [
+      "major-elective",
+      "conc-artificial-intelligence",
+      "conc-data-science",
+      "conc-cyber-and-network-security"
+    ],
+    "STAT 7210": [
+      "conc-data-science"
+    ],
+    "STAT 8240": [
+      "conc-data-science"
+    ],
+    "STAT 8250": [
+      "conc-data-science"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: * Repeat for a total of 6 credits",
+    "CS 7999",
+    "text: Any CS 6000-, 7000-, or 8000-level course",
+    "CSE 7983",
+    "CS 7990",
+    "CS 7992",
+    "MATH 8020",
+    "MATH 8030"
+  ],
+  "draftHash": "1dc995a5e8057c4aab970f2397b5c0e0d14171ee99711b15baf6e13b8c264214"
+}

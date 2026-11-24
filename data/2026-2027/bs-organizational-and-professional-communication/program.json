@@ -1,0 +1,58 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-organizational-and-professional-communication",
+    "name": "BS Organizational and Professional Communication",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "COMM 1100": [
+      "core-field"
+    ],
+    "COMM 1110": [
+      "core-field"
+    ],
+    "COMM 2020": [
+      "core-field"
+    ],
+    "COMM 2240": [
+      "core-field"
+    ],
+    "COMM 3435": [
+      "major-required"
+    ],
+    "ORGC 2245": [
+      "core-field"
+    ],
+    "ORGC 2276": [
+      "core-field"
+    ],
+    "ORGC 3325": [
+      "core-field"
+    ],
+    "ORGC 4455": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Organizational and Team Communication'",
+    "unrecognized section 'Political and Civic Communication'",
+    "unrecognized section 'Technology and Communication'",
+    "unrecognized section 'Health Communication'"
+  ],
+  "leftOut": [
+    "text: Select 6 credit hours from the following list of courses:",
+    "ORGC 2025"
+  ],
+  "draftHash": "dc90842d30c4dbfd863f866537e3d00f9fda4f4a707dc6a319fde7cc70dd88e6"
+}

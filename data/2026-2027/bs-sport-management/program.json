@@ -1,0 +1,73 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-sport-management",
+    "name": "BS Sport Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "COMM 1110": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "SM 2100": [
+      "core-field"
+    ],
+    "SM 2200": [
+      "core-field"
+    ],
+    "SM 2400": [
+      "core-field"
+    ],
+    "SM 3000": [
+      "major-required"
+    ],
+    "SM 3050": [
+      "major-required"
+    ],
+    "SM 3100": [
+      "major-required"
+    ],
+    "SM 3200": [
+      "major-required"
+    ],
+    "SM 3500": [
+      "major-required"
+    ],
+    "SM 3850": [
+      "major-required"
+    ],
+    "SM 4800": [
+      "major-required"
+    ],
+    "SM 4850": [
+      "major-required"
+    ],
+    "SM 4875": [
+      "major-required"
+    ],
+    "SM 4925": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Sport Management Senior Experience (6 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "408a8502d4f97e17f2fe2f240a1df1ee812300096fc27bfe595bb243a87d0a74"
+}

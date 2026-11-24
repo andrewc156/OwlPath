@@ -1,0 +1,85 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "med-teacher-leadership-and-educational-leadership",
+    "name": "MEd Teacher Leadership and Educational Leadership",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Coaching for Performance",
+        "groups": [
+          "conc-coaching-for-performance"
+        ]
+      },
+      {
+        "label": "Leadership in Rural Schools",
+        "groups": [
+          "conc-leadership-in-rural-schools"
+        ]
+      },
+      {
+        "label": "Leadership in Urban Schools",
+        "groups": [
+          "conc-leadership-in-urban-schools"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDCO 7010": [
+      "conc-coaching-for-performance"
+    ],
+    "EDCO 7020": [
+      "conc-coaching-for-performance"
+    ],
+    "EDCO 7030": [
+      "conc-coaching-for-performance"
+    ],
+    "EDL 7401": [
+      "major-required"
+    ],
+    "EDL 7415": [
+      "major-required"
+    ],
+    "EDL 7601": [
+      "major-required"
+    ],
+    "EDL 7615": [
+      "major-required"
+    ],
+    "EDL 7620": [
+      "conc-leadership-in-rural-schools"
+    ],
+    "EDL 7625": [
+      "conc-leadership-in-rural-schools"
+    ],
+    "EDL 7700": [
+      "conc-leadership-in-urban-schools"
+    ],
+    "EDL 7701": [
+      "conc-leadership-in-urban-schools"
+    ],
+    "TLED 7101": [
+      "major-required"
+    ],
+    "TLED 7215": [
+      "major-required"
+    ],
+    "TLED 7980": [
+      "conc-leadership-in-rural-schools",
+      "conc-leadership-in-urban-schools"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "TLED 7990"
+  ],
+  "draftHash": "4df06af412772e6cf723fc10db56c0d69ea4cdb04a410ac34d65db0764953f51"
+}

@@ -1,0 +1,86 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-biochemistry",
+    "name": "BS Biochemistry",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "core-field"
+    ],
+    "CHEM 1212L": [
+      "core-field"
+    ],
+    "CHEM 2800": [
+      "core-field"
+    ],
+    "CHEM 2800L": [
+      "core-field"
+    ],
+    "CHEM 3105": [
+      "major-required"
+    ],
+    "CHEM 3105L": [
+      "major-required"
+    ],
+    "CHEM 3361": [
+      "major-required"
+    ],
+    "CHEM 3361L": [
+      "major-required"
+    ],
+    "CHEM 3362": [
+      "major-required"
+    ],
+    "CHEM 3362L": [
+      "major-required"
+    ],
+    "CHEM 3501": [
+      "major-required"
+    ],
+    "CHEM 3501L": [
+      "major-required"
+    ],
+    "CHEM 3502": [
+      "major-required"
+    ],
+    "CHEM 3512L": [
+      "major-required"
+    ],
+    "CHEM 3601": [
+      "major-required"
+    ],
+    "CHEM 4500K": [
+      "major-required"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Supporting Discipline Courses (23 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Applied Math.",
+    "text: One (1) credit hour carried over from Natural Sciences",
+    "text: If taken in Natural Sciences, please consult an advisor on how to fulfill this requirement."
+  ],
+  "draftHash": "61c6d7f6c13c5abf67cb046f61c7cbe6b4c74e3830f1b5f53882806114b41cd3"
+}

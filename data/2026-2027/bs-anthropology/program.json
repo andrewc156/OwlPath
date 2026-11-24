@@ -1,0 +1,34 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-anthropology",
+    "name": "BS Anthropology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ANTH 1102": [
+      "major-required"
+    ],
+    "ANTH 1105": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Foundations in Anthropology (9 Credit Hours)'",
+    "unrecognized section 'Anthropological Applications (6 Credit Hours)'",
+    "unrecognized section 'Cultural Anthropology'",
+    "unrecognized section 'Biological Anthropology'",
+    "unrecognized section 'Archaeology'"
+  ],
+  "leftOut": [],
+  "draftHash": "172d82ed0296696a3cff2fa05b42e2c19032c541576a48dde59b5839edf01f00"
+}

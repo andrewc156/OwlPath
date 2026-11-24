@@ -1,0 +1,98 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-public-health",
+    "name": "BS Public Health",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "PH 2100",
+      "HHS 2100"
+    ],
+    [
+      "HPAL 2250",
+      "BIOL 2251"
+    ],
+    [
+      "PH 3330",
+      "NURS 3330"
+    ]
+  ],
+  "courses": {
+    "BIOL 2251": [
+      "core-field"
+    ],
+    "HHS 2100": [
+      "core-field"
+    ],
+    "HPAL 2250": [
+      "core-field"
+    ],
+    "HS 2300": [
+      "core-field"
+    ],
+    "NURS 3330": [
+      "major-required"
+    ],
+    "PH 2000": [
+      "core-field"
+    ],
+    "PH 2100": [
+      "core-field"
+    ],
+    "PH 2400": [
+      "core-field"
+    ],
+    "PH 3150": [
+      "major-required"
+    ],
+    "PH 3330": [
+      "major-required"
+    ],
+    "PH 3400": [
+      "major-required"
+    ],
+    "PH 3850": [
+      "major-required"
+    ],
+    "PH 4200": [
+      "major-required"
+    ],
+    "PH 4300": [
+      "major-required"
+    ],
+    "PH 4350": [
+      "major-required"
+    ],
+    "PH 4500": [
+      "major-required"
+    ],
+    "PH 4600": [
+      "major-required"
+    ],
+    "PH 4650": [
+      "major-required"
+    ],
+    "WELL 2000": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Public Health Internship (6 or 9 Credit Hours)'"
+  ],
+  "leftOut": [
+    "PH 4720",
+    "text: Note: Students who complete 9 credit hours of internship will need to complete 18 credit hours of Free Electives. Those who complete 6 credit hours of internship will need to complete 21 credit hours of Free Electives."
+  ],
+  "draftHash": "d384c47fc86f655e7b251e6338f99f0721d2dfccdc3c478168c918384f753150"
+}

@@ -1,0 +1,98 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-elementary-education",
+    "name": "BS Elementary Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ECE 2270": [
+      "core-field"
+    ],
+    "ECE 3305": [
+      "major-required"
+    ],
+    "ECE 3313": [
+      "major-required"
+    ],
+    "ECE 3320": [
+      "major-required"
+    ],
+    "ECE 3330": [
+      "major-required"
+    ],
+    "ECE 3360": [
+      "major-required"
+    ],
+    "ECE 4402": [
+      "major-required"
+    ],
+    "ECE 4403": [
+      "major-required"
+    ],
+    "ECE 4408": [
+      "major-required"
+    ],
+    "ECE 4409": [
+      "major-required"
+    ],
+    "ECE 4410": [
+      "major-required"
+    ],
+    "ECE 4465": [
+      "major-required"
+    ],
+    "ECE 4650": [
+      "major-required"
+    ],
+    "ECE 4660": [
+      "major-required"
+    ],
+    "EDUC 2120": [
+      "core-field"
+    ],
+    "EDUC 2130": [
+      "core-field"
+    ],
+    "EDUC 4610": [
+      "major-required"
+    ],
+    "HPE 3670": [
+      "major-required"
+    ],
+    "INED 3304": [
+      "major-required"
+    ],
+    "ISCI 2001": [
+      "core-field"
+    ],
+    "ISCI 2002": [
+      "core-field"
+    ],
+    "ITEC 3100": [
+      "major-required"
+    ],
+    "MAED 3316": [
+      "major-required"
+    ],
+    "MAED 3317": [
+      "major-required"
+    ],
+    "MATH 2008": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "c22e797a7e41c837dfd994d03a1fbb6ed24488ec205413f847b52a4004d38dc5"
+}

@@ -1,0 +1,414 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bm-music",
+    "name": "BM Music",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Composition",
+        "groups": [
+          "conc-composition"
+        ]
+      },
+      {
+        "label": "Instrumental Performance",
+        "groups": [
+          "conc-instrumental-performance"
+        ]
+      },
+      {
+        "label": "Jazz Performance",
+        "groups": [
+          "conc-jazz-performance"
+        ]
+      },
+      {
+        "label": "Music Theory",
+        "groups": [
+          "conc-music-theory"
+        ]
+      },
+      {
+        "label": "Music Therapy",
+        "groups": [
+          "conc-music-therapy"
+        ]
+      },
+      {
+        "label": "Piano Performance",
+        "groups": [
+          "conc-piano-performance"
+        ]
+      },
+      {
+        "label": "Voice Performance",
+        "groups": [
+          "conc-voice-performance"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "MUTC 3320",
+      "MUTC 3325"
+    ],
+    [
+      "MUTC 3326",
+      "MUTC 3371"
+    ],
+    [
+      "MUTC 3327",
+      "MUTC 3372"
+    ],
+    [
+      "MUEN 3344",
+      "MUEN 3345",
+      "MUEN 3346",
+      "MUEN 3347",
+      "MUEN 3348",
+      "MUEN 3349"
+    ],
+    [
+      "MUSI 3331",
+      "MUSI 3332"
+    ],
+    [
+      "MUEN 3224",
+      "MUEN 3225"
+    ],
+    [
+      "GRMN 1001",
+      "FREN 1001"
+    ]
+  ],
+  "courses": {
+    "FREN 1001": [
+      "conc-voice-performance"
+    ],
+    "GRMN 1001": [
+      "conc-voice-performance"
+    ],
+    "ITAL 1001": [
+      "conc-voice-performance"
+    ],
+    "MHIS 2311": [
+      "core-field"
+    ],
+    "MHIS 2312": [
+      "core-field"
+    ],
+    "MHIS 3319": [
+      "conc-jazz-performance"
+    ],
+    "MUAP 2102": [
+      "core-field"
+    ],
+    "MUAP 3096": [
+      "conc-instrumental-performance",
+      "conc-jazz-performance",
+      "conc-piano-performance",
+      "conc-voice-performance"
+    ],
+    "MUAP 3101": [
+      "conc-music-theory"
+    ],
+    "MUAP 3102": [
+      "conc-instrumental-performance",
+      "conc-jazz-performance",
+      "conc-piano-performance",
+      "conc-voice-performance"
+    ],
+    "MUAP 4096": [
+      "conc-instrumental-performance",
+      "conc-jazz-performance",
+      "conc-piano-performance",
+      "conc-voice-performance"
+    ],
+    "MUED 3353": [
+      "conc-music-therapy"
+    ],
+    "MUEN 3210": [
+      "conc-instrumental-performance"
+    ],
+    "MUEN 3211": [
+      "conc-instrumental-performance",
+      "conc-jazz-performance"
+    ],
+    "MUEN 3212": [
+      "conc-instrumental-performance",
+      "conc-jazz-performance"
+    ],
+    "MUEN 3220": [
+      "conc-instrumental-performance"
+    ],
+    "MUEN 3221": [
+      "conc-instrumental-performance"
+    ],
+    "MUEN 3222": [
+      "conc-instrumental-performance"
+    ],
+    "MUEN 3223": [
+      "conc-instrumental-performance"
+    ],
+    "MUEN 3224": [
+      "conc-piano-performance"
+    ],
+    "MUEN 3225": [
+      "conc-instrumental-performance",
+      "conc-piano-performance"
+    ],
+    "MUEN 3344": [
+      "conc-composition",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance"
+    ],
+    "MUEN 3345": [
+      "conc-composition",
+      "conc-instrumental-performance",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance"
+    ],
+    "MUEN 3346": [
+      "conc-composition",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance",
+      "conc-voice-performance"
+    ],
+    "MUEN 3347": [
+      "conc-composition",
+      "conc-instrumental-performance",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance"
+    ],
+    "MUEN 3348": [
+      "conc-composition",
+      "conc-instrumental-performance",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance"
+    ],
+    "MUEN 3349": [
+      "conc-composition",
+      "conc-music-theory",
+      "conc-music-therapy",
+      "conc-piano-performance",
+      "conc-voice-performance"
+    ],
+    "MUEN 3352": [
+      "conc-voice-performance"
+    ],
+    "MUSI 3000": [
+      "major-required"
+    ],
+    "MUSI 3315": [
+      "conc-voice-performance"
+    ],
+    "MUSI 3331": [
+      "conc-piano-performance",
+      "conc-voice-performance"
+    ],
+    "MUSI 3332": [
+      "conc-instrumental-performance",
+      "conc-piano-performance"
+    ],
+    "MUSI 3334": [
+      "conc-voice-performance"
+    ],
+    "MUSI 3335": [
+      "conc-voice-performance"
+    ],
+    "MUSI 3353": [
+      "conc-jazz-performance"
+    ],
+    "MUSI 3354": [
+      "conc-jazz-performance"
+    ],
+    "MUSI 3355": [
+      "conc-jazz-performance"
+    ],
+    "MUSI 3390": [
+      "major-required"
+    ],
+    "MUSI 4413": [
+      "conc-piano-performance"
+    ],
+    "MUSI 4414": [
+      "conc-piano-performance"
+    ],
+    "MUSI 4430": [
+      "conc-piano-performance"
+    ],
+    "MUSI 4431": [
+      "conc-piano-performance"
+    ],
+    "MUSI 4433": [
+      "conc-voice-performance"
+    ],
+    "MUSI 4435": [
+      "conc-instrumental-performance"
+    ],
+    "MUSI 4436": [
+      "conc-jazz-performance"
+    ],
+    "MUTC 2100": [
+      "core-field"
+    ],
+    "MUTC 2110": [
+      "core-field"
+    ],
+    "MUTC 2200": [
+      "core-field"
+    ],
+    "MUTC 2210": [
+      "core-field"
+    ],
+    "MUTC 3007": [
+      "conc-composition"
+    ],
+    "MUTC 3168": [
+      "conc-music-theory"
+    ],
+    "MUTC 3320": [
+      "major-required"
+    ],
+    "MUTC 3321": [
+      "conc-music-theory"
+    ],
+    "MUTC 3323": [
+      "conc-jazz-performance"
+    ],
+    "MUTC 3324": [
+      "conc-composition"
+    ],
+    "MUTC 3325": [
+      "major-required"
+    ],
+    "MUTC 3326": [
+      "conc-composition",
+      "conc-music-theory"
+    ],
+    "MUTC 3327": [
+      "conc-composition"
+    ],
+    "MUTC 3371": [
+      "conc-composition",
+      "conc-music-theory"
+    ],
+    "MUTC 3372": [
+      "conc-composition"
+    ],
+    "MUTC 4419": [
+      "conc-music-theory"
+    ],
+    "MUTC 4420": [
+      "conc-composition",
+      "conc-music-theory"
+    ],
+    "MUTC 4421": [
+      "conc-composition",
+      "conc-music-theory"
+    ],
+    "MUTC 4422": [
+      "conc-music-theory"
+    ],
+    "MUTC 4471": [
+      "conc-composition"
+    ],
+    "MUTC 4472": [
+      "conc-composition"
+    ],
+    "MUTC 4473": [
+      "conc-composition"
+    ],
+    "MUTC 4496": [
+      "conc-music-theory"
+    ],
+    "MUTC 4497": [
+      "conc-composition"
+    ],
+    "MUTH 1000": [
+      "conc-music-therapy"
+    ],
+    "MUTH 2000": [
+      "major-required"
+    ],
+    "MUTH 2100": [
+      "major-elective"
+    ],
+    "MUTH 2500": [
+      "major-elective"
+    ],
+    "MUTH 3150": [
+      "conc-music-therapy"
+    ],
+    "MUTH 3250": [
+      "major-elective"
+    ],
+    "MUTH 3300": [
+      "conc-music-therapy"
+    ],
+    "MUTH 3350": [
+      "conc-music-therapy"
+    ],
+    "MUTH 3400": [
+      "conc-music-therapy"
+    ],
+    "MUTH 3450": [
+      "conc-music-therapy"
+    ],
+    "MUTH 3500": [
+      "conc-music-therapy"
+    ],
+    "MUTH 4150": [
+      "conc-music-therapy"
+    ],
+    "PSYC 1101": [
+      "conc-music-therapy"
+    ],
+    "PSYC 2103": [
+      "conc-music-therapy"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Applied Lessons (2 Credit Hours)'",
+    "unrecognized section 'Theory/Aural Skills Sequence (6 Credit Hours)'",
+    "unrecognized section 'Group 1'",
+    "unrecognized section 'Group 2'"
+  ],
+  "leftOut": [
+    "text: Repeat the following course for 6 credit hours:",
+    "text: or Music Therapy Concentration students must take:",
+    "text: Select 4 credit hours of 3000-4000 level coursework from the following prefixes: MUAP, MUEN, MHIS, MUSI, or MUTC.",
+    "text: and",
+    "MUEN 3343",
+    "text: Repeat the following course for 8 credit hours:",
+    "text: Select one (1) of the following courses:",
+    "text: Repeat the following course for 4 credit hours:",
+    "text: *If PSYC 1101 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "text: Student must complete a total of 12 credit hours of the following course:",
+    "MUTH 4500",
+    "text: Select one of the following courses:",
+    "text: Repeat the following course for 2 credit hours:",
+    "MUSI 3333"
+  ],
+  "draftHash": "35b2d7d8a14cc0d82e75c037b8f3ad986ba16dae433e61b3474a844f296b6903"
+}

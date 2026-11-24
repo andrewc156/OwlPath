@@ -1,0 +1,45 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ma-american-studies",
+    "name": "MA American Studies",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "AMST 6201": [
+      "major-required"
+    ],
+    "AMST 6401": [
+      "major-required"
+    ],
+    "AMST 7000": [
+      "major-required"
+    ],
+    "AMST 7100": [
+      "major-required"
+    ],
+    "AMST 7902": [
+      "major-project"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "AMST 7901"
+  ],
+  "draftHash": "ee31878ea70366310ef68623b13dc9b8ad855ce4f6bde534eb95eb23b61fef83"
+}

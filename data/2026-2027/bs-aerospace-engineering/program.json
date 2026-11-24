@@ -1,0 +1,178 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-aerospace-engineering",
+    "name": "BS Aerospace Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Aeronautics",
+        "groups": [
+          "conc-aeronautics"
+        ]
+      },
+      {
+        "label": "Astronautics",
+        "groups": [
+          "conc-astronautics"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "AAE 1001L": [
+      "major-required"
+    ],
+    "AAE 3000": [
+      "major-required"
+    ],
+    "AAE 3125": [
+      "major-required"
+    ],
+    "AAE 3801L": [
+      "major-required"
+    ],
+    "AAE 4201": [
+      "conc-aeronautics"
+    ],
+    "AAE 4202": [
+      "conc-aeronautics"
+    ],
+    "AAE 4203": [
+      "conc-astronautics"
+    ],
+    "AAE 4204": [
+      "conc-astronautics"
+    ],
+    "AAE 4250": [
+      "major-required"
+    ],
+    "AAE 4501": [
+      "conc-aeronautics"
+    ],
+    "AAE 4502": [
+      "conc-aeronautics"
+    ],
+    "AAE 4503": [
+      "conc-astronautics"
+    ],
+    "AAE 4504": [
+      "conc-astronautics"
+    ],
+    "AAE 4802": [
+      "conc-astronautics"
+    ],
+    "BIOL 1107": [
+      "major-elective"
+    ],
+    "BIOL 2251": [
+      "major-elective"
+    ],
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "major-elective"
+    ],
+    "EDG 1211": [
+      "core-field"
+    ],
+    "EE 2305": [
+      "core-field"
+    ],
+    "ENGR 1000": [
+      "core-field"
+    ],
+    "ENGR 2214": [
+      "major-required"
+    ],
+    "ENGR 3122": [
+      "major-required"
+    ],
+    "ENGR 3131": [
+      "major-required"
+    ],
+    "ENGR 3132": [
+      "major-required"
+    ],
+    "ENGR 3325": [
+      "major-elective"
+    ],
+    "ENGR 3801": [
+      "major-required"
+    ],
+    "ENGR 3803": [
+      "major-elective"
+    ],
+    "ENGR 3804": [
+      "major-required"
+    ],
+    "ENGR 4801": [
+      "conc-aeronautics"
+    ],
+    "ENGR 4802": [
+      "major-elective"
+    ],
+    "MATH 2203": [
+      "major-required"
+    ],
+    "MATH 2306": [
+      "major-required"
+    ],
+    "MATH 2335": [
+      "major-elective"
+    ],
+    "MATH 3260": [
+      "major-elective"
+    ],
+    "MATH 3261": [
+      "major-elective"
+    ],
+    "ME 1311": [
+      "core-field"
+    ],
+    "ME 3101": [
+      "major-required"
+    ],
+    "ME 3133": [
+      "major-elective"
+    ],
+    "ME 3410": [
+      "major-required"
+    ],
+    "ME 3705": [
+      "major-elective"
+    ],
+    "ME 4304": [
+      "major-elective"
+    ],
+    "ME 4520": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
+    "ME 3398",
+    "ME 4400"
+  ],
+  "draftHash": "baa0308e2c18047a0123ec078cf821d476c3dfa19cb81100c4b0889ffcbbe415"
+}

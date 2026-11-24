@@ -1,0 +1,265 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-sociology",
+    "name": "BS Sociology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "General Sociology",
+        "groups": [
+          "conc-general-sociology"
+        ]
+      },
+      {
+        "label": "Criminology",
+        "groups": [
+          "conc-criminology"
+        ]
+      },
+      {
+        "label": "Culture and Social Change",
+        "groups": [
+          "conc-culture-and-social-change"
+        ]
+      },
+      {
+        "label": "Medical Sociology",
+        "groups": [
+          "conc-medical-sociology"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "BLCK 1101": [
+      "major-elective"
+    ],
+    "COMM 2230": [
+      "major-elective"
+    ],
+    "COMM 2240": [
+      "major-elective"
+    ],
+    "CRJU 2201": [
+      "major-elective"
+    ],
+    "CRJU 3305": [
+      "conc-criminology"
+    ],
+    "CRJU 3352": [
+      "conc-criminology"
+    ],
+    "CRJU 3365": [
+      "conc-criminology"
+    ],
+    "CRJU 4430": [
+      "conc-criminology"
+    ],
+    "GEOG 1130": [
+      "major-elective"
+    ],
+    "GWST 2000": [
+      "major-elective"
+    ],
+    "HS 2100": [
+      "major-elective"
+    ],
+    "HS 2200": [
+      "major-elective"
+    ],
+    "HS 2300": [
+      "major-elective"
+    ],
+    "PHIL 2100": [
+      "major-elective"
+    ],
+    "PHIL 2500": [
+      "major-elective"
+    ],
+    "POLS 2212": [
+      "major-elective"
+    ],
+    "POLS 2240": [
+      "major-elective"
+    ],
+    "POLS 2250": [
+      "major-elective"
+    ],
+    "SA 4490": [
+      "major-required"
+    ],
+    "SOCI 1101": [
+      "major-required"
+    ],
+    "SOCI 2210": [
+      "major-required"
+    ],
+    "SOCI 2251": [
+      "major-required"
+    ],
+    "SOCI 3300": [
+      "major-required"
+    ],
+    "SOCI 3303": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 3304": [
+      "major-required",
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3305": [
+      "major-required"
+    ],
+    "SOCI 3310": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 3314": [
+      "major-required",
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3315": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3320": [
+      "conc-general-sociology",
+      "conc-medical-sociology"
+    ],
+    "SOCI 3324": [
+      "major-required",
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3333": [
+      "major-required",
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3334": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3344": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 3350": [
+      "major-required",
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3354": [
+      "major-required",
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3360": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-medical-sociology"
+    ],
+    "SOCI 3364": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3370": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 3374": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 3380": [
+      "conc-general-sociology",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4200": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4405": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4410": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4420": [
+      "conc-general-sociology",
+      "conc-criminology",
+      "conc-culture-and-social-change",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4432": [
+      "conc-general-sociology",
+      "conc-criminology"
+    ],
+    "SOCI 4434": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 4435": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 4442": [
+      "conc-general-sociology",
+      "conc-criminology"
+    ],
+    "SOCI 4443": [
+      "conc-general-sociology",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4444": [
+      "conc-general-sociology",
+      "conc-culture-and-social-change"
+    ],
+    "SOCI 4445": [
+      "conc-general-sociology",
+      "conc-medical-sociology"
+    ],
+    "SOCI 4499": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select two of the following:",
+    "text: Select one of the following:",
+    "text: Select one from the following options:",
+    "SOCI 3396",
+    "SOCI 3398"
+  ],
+  "draftHash": "e24b3d5ad167b472a8f041be3820b5d8a16d7dee8ef9ffb8adb75c6c57360383"
+}

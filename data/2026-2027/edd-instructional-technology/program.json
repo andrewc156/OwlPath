@@ -1,0 +1,90 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "edd-instructional-technology",
+    "name": "EdD Instructional Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Initial Certification",
+        "groups": [
+          "conc-initial-certification"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "EDRS 9100",
+      "EDRS 9200"
+    ]
+  ],
+  "courses": {
+    "EDRS 8100": [
+      "major-required"
+    ],
+    "EDRS 8200": [
+      "major-required"
+    ],
+    "EDRS 9100": [
+      "major-required"
+    ],
+    "EDRS 9200": [
+      "major-required"
+    ],
+    "EDRS 9300": [
+      "major-required"
+    ],
+    "EDUC 8100": [
+      "major-required"
+    ],
+    "ITEC 7305": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7400": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7430": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7455": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7460": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7480": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7485": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7500": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7600": [
+      "conc-initial-certification"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Advanced ITEC Courses (6 Credit Hours)'",
+    "unrecognized section 'Dissertation (9 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor.",
+    "ITEC 8510",
+    "ITEC 8520",
+    "ITEC 8530",
+    "ITEC 8540",
+    "ITEC 8550",
+    "ITEC 8560",
+    "ITEC 8570"
+  ],
+  "draftHash": "2e82942f623fdb63086fad94bc27de25b198834bcdd1ed9b974abd6d0643b176"
+}

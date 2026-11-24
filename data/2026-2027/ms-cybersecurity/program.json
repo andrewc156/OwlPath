@@ -1,0 +1,98 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-cybersecurity",
+    "name": "MS Cybersecurity",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Cybersecurity Management",
+        "groups": [
+          "conc-cybersecurity-management"
+        ]
+      },
+      {
+        "label": "Technical Cybersecurity",
+        "groups": [
+          "conc-technical-cybersecurity"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CYBR 7910",
+      "CYBR 7930"
+    ]
+  ],
+  "courses": {
+    "CYBR 7000": [
+      "major-required"
+    ],
+    "CYBR 7050": [
+      "conc-cybersecurity-management"
+    ],
+    "CYBR 7100": [
+      "conc-technical-cybersecurity"
+    ],
+    "CYBR 7200": [
+      "conc-technical-cybersecurity"
+    ],
+    "CYBR 7220": [
+      "major-elective"
+    ],
+    "CYBR 7240": [
+      "major-elective"
+    ],
+    "CYBR 7300": [
+      "major-required"
+    ],
+    "CYBR 7350": [
+      "conc-cybersecurity-management"
+    ],
+    "CYBR 7400": [
+      "major-required"
+    ],
+    "CYBR 7700": [
+      "conc-technical-cybersecurity",
+      "major-elective"
+    ],
+    "CYBR 7910": [
+      "major-required"
+    ],
+    "CYBR 7913": [
+      "major-elective"
+    ],
+    "CYBR 7930": [
+      "major-required"
+    ],
+    "IT 6823": [
+      "major-required"
+    ],
+    "IT 7533": [
+      "conc-cybersecurity-management"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select 3 credit hours from the following list of courses:",
+    "CYBR 7999",
+    "text: A maximum of 3 credit hours of 6000-level coursework from the following prefixes: CS, SWE, DS, IT, ISS, CJ or MGT.",
+    "CYBR 7900",
+    "CYBR 7980",
+    "CSE 7983"
+  ],
+  "draftHash": "05aa15bab716f72e5865d1cd9389bbd6475078b1ae0f491a1be68644bfdf3929"
+}

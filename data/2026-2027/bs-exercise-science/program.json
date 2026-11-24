@@ -1,0 +1,118 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-exercise-science",
+    "name": "BS Exercise Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "BIOL 1107L": [
+      "major-required"
+    ],
+    "BIOL 1108L": [
+      "major-required"
+    ],
+    "BIOL 2251": [
+      "core-field"
+    ],
+    "BIOL 2251L": [
+      "core-field"
+    ],
+    "BIOL 2252": [
+      "core-field"
+    ],
+    "BIOL 2252L": [
+      "core-field"
+    ],
+    "CHEM 1151L": [
+      "major-required"
+    ],
+    "CHEM 1152L": [
+      "major-required"
+    ],
+    "CHEM 1211L": [
+      "major-required"
+    ],
+    "CHEM 1212L": [
+      "major-required"
+    ],
+    "ES 2100": [
+      "core-field"
+    ],
+    "ES 2200": [
+      "core-field"
+    ],
+    "ES 2300": [
+      "core-field"
+    ],
+    "ES 2500": [
+      "core-field"
+    ],
+    "ES 3600": [
+      "major-required"
+    ],
+    "ES 3700": [
+      "major-required"
+    ],
+    "ES 3750": [
+      "major-required"
+    ],
+    "ES 3800": [
+      "major-required"
+    ],
+    "ES 3900": [
+      "major-required"
+    ],
+    "ES 4200": [
+      "major-required"
+    ],
+    "ES 4300": [
+      "major-required"
+    ],
+    "ES 4500": [
+      "major-required"
+    ],
+    "ES 4550": [
+      "major-required"
+    ],
+    "ES 4600": [
+      "major-required"
+    ],
+    "ES 4650": [
+      "major-required"
+    ],
+    "ES 4700": [
+      "major-required"
+    ],
+    "ES 4900": [
+      "major-project"
+    ],
+    "PHYS 1111L": [
+      "major-required"
+    ],
+    "PHYS 1112L": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from General Education Core IMPACTS: Technology & Science from the following:"
+  ],
+  "draftHash": "e6ec0d746f3e93e676d32af6a60c69aa9a024377a7088f9082a038917cdb2082"
+}

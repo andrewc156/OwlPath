@@ -1,0 +1,43 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-technology-management-and-leadership",
+    "name": "MS Technology Management and Leadership",
+    "filters": [
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "FIS 6860": [
+      "major-elective"
+    ],
+    "IS 7910": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "IS 7060",
+    "IS 7080",
+    "IS 7100",
+    "IS 7310",
+    "IS 7500",
+    "IS 7700",
+    "IS 7800",
+    "IS 7005",
+    "IS 7200",
+    "IS 7320",
+    "IS 7330",
+    "IS 7920",
+    "IS 7935",
+    "IS 7918"
+  ],
+  "draftHash": "d9960ba56e0d9bea1c79f54e434ca7e26c9a4ad026c025420152939ac1702482"
+}

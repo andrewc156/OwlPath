@@ -1,0 +1,204 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "mat-teaching",
+    "name": "MAT Teaching",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Pedagogy-Only",
+        "groups": [
+          "conc-pedagogy-only"
+        ]
+      },
+      {
+        "label": "Elementary Education",
+        "groups": [
+          "conc-elementary-education"
+        ]
+      },
+      {
+        "label": "English",
+        "groups": [
+          "conc-english"
+        ]
+      },
+      {
+        "label": "Secondary Mathematics",
+        "groups": [
+          "conc-secondary-mathematics"
+        ]
+      },
+      {
+        "label": "Secondary Science- Chemistry or Physics or Biology",
+        "groups": [
+          "conc-secondary-science-chemistry-or-physics-or-biology"
+        ]
+      },
+      {
+        "label": "Special Education",
+        "groups": [
+          "conc-special-education"
+        ]
+      },
+      {
+        "label": "Teaching English to Speakers of Other Languages (TESOL)",
+        "groups": [
+          "conc-teaching-english-to-speakers-of-other-languages-tesol"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ECE 6620": [
+      "major-required"
+    ],
+    "ECE 6630": [
+      "conc-elementary-education"
+    ],
+    "ECE 6640": [
+      "conc-elementary-education"
+    ],
+    "ECE 6641": [
+      "conc-elementary-education"
+    ],
+    "ECE 6670": [
+      "conc-elementary-education"
+    ],
+    "ECE 6680": [
+      "conc-elementary-education"
+    ],
+    "ECE 6690": [
+      "conc-elementary-education"
+    ],
+    "ECE 6700": [
+      "conc-elementary-education"
+    ],
+    "ECE 7514": [
+      "conc-elementary-education"
+    ],
+    "EDRD 6714": [
+      "conc-pedagogy-only"
+    ],
+    "EDRD 6718": [
+      "conc-special-education"
+    ],
+    "EDUC 6240": [
+      "major-required"
+    ],
+    "EDUC 6610": [
+      "major-required"
+    ],
+    "ENED 6414": [
+      "conc-english"
+    ],
+    "ENED 6416": [
+      "conc-english"
+    ],
+    "ENGL 7701": [
+      "conc-english"
+    ],
+    "ENGL 7721": [
+      "conc-english"
+    ],
+    "ENGL 7731": [
+      "conc-english"
+    ],
+    "ENGL 7735": [
+      "conc-english"
+    ],
+    "INED 6431": [
+      "conc-pedagogy-only",
+      "conc-english",
+      "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "INED 7611": [
+      "conc-special-education"
+    ],
+    "INED 7620": [
+      "conc-special-education"
+    ],
+    "INED 7621": [
+      "conc-special-education"
+    ],
+    "INED 7631": [
+      "conc-special-education"
+    ],
+    "INED 7710": [
+      "major-required"
+    ],
+    "INED 7750": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "INED 7763": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "INED 7779": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "INED 7780": [
+      "conc-special-education"
+    ],
+    "INED 7781": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "INED 7782": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "INED 7783": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "INED 7787": [
+      "conc-teaching-english-to-speakers-of-other-languages-tesol"
+    ],
+    "ITEC 6200": [
+      "conc-pedagogy-only",
+      "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "ITEC 7400": [
+      "conc-special-education"
+    ],
+    "MAED 6414": [
+      "conc-secondary-mathematics"
+    ],
+    "MAED 6416": [
+      "conc-secondary-mathematics"
+    ],
+    "MAED 6418": [
+      "conc-secondary-mathematics"
+    ],
+    "MAED 6495": [
+      "conc-secondary-mathematics"
+    ],
+    "MAED 7495": [
+      "conc-secondary-mathematics"
+    ],
+    "SCED 6412": [
+      "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "SCED 6414": [
+      "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "SCED 6416": [
+      "conc-secondary-science-chemistry-or-physics-or-biology"
+    ],
+    "SCED 6418": [
+      "conc-secondary-science-chemistry-or-physics-or-biology"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Students with Exceptionalities (3 Credit Hours)'",
+    "unrecognized section 'Clinical Experience (9 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Select 6 credit hours of advisor approved electives."
+  ],
+  "draftHash": "18021c2e8721fa253fd35db626ca2a885a2acc0e1099a5ab2c6c300e356a109f"
+}

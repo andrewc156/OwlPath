@@ -1,0 +1,144 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bba-hospitality-management",
+    "name": "BBA Hospitality Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BLAW 4960": [
+      "major-elective"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 3500": [
+      "major-elective"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "ENTR 4125": [
+      "major-elective"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "HMGT 3300": [
+      "major-required"
+    ],
+    "HMGT 3397": [
+      "major-required"
+    ],
+    "HMGT 3500": [
+      "major-required"
+    ],
+    "HMGT 4100": [
+      "major-required"
+    ],
+    "HMGT 4300": [
+      "major-required"
+    ],
+    "HMGT 4500": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3190": [
+      "major-elective"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 3600": [
+      "major-elective"
+    ],
+    "MGT 4123": [
+      "major-elective"
+    ],
+    "MGT 4124": [
+      "major-elective"
+    ],
+    "MGT 4130": [
+      "major-elective"
+    ],
+    "MGT 4161": [
+      "major-elective"
+    ],
+    "MGT 4174": [
+      "major-elective"
+    ],
+    "MGT 4190": [
+      "major-elective"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MGT 4476": [
+      "major-elective"
+    ],
+    "MGT 4880": [
+      "major-elective"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ],
+    "MKTG 4830": [
+      "major-elective"
+    ],
+    "MKTG 4880": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "text: Select 3 credit hours of 4000-level HMGT coursework",
+    "HMGT 4490"
+  ],
+  "draftHash": "761c9e7f490f8fad6aaa8572fd244c97150bf6b0cb89a25ac0ca8702c8d05fa7"
+}

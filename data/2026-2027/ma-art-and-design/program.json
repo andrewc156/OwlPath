@@ -1,0 +1,110 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ma-art-and-design",
+    "name": "MA Art and Design",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Digital Animation",
+        "groups": [
+          "conc-digital-animation"
+        ]
+      },
+      {
+        "label": "Art Education",
+        "groups": [
+          "conc-art-education"
+        ]
+      },
+      {
+        "label": "Museum Studies",
+        "groups": [
+          "conc-museum-studies"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ANIM 6100": [
+      "conc-digital-animation"
+    ],
+    "ANIM 6105": [
+      "conc-digital-animation"
+    ],
+    "ANIM 6110": [
+      "conc-digital-animation"
+    ],
+    "ANIM 6115": [
+      "conc-digital-animation"
+    ],
+    "ANIM 6117": [
+      "conc-digital-animation"
+    ],
+    "ANIM 6120": [
+      "conc-digital-animation"
+    ],
+    "ARED 6100": [
+      "conc-art-education"
+    ],
+    "ARED 6105": [
+      "conc-art-education"
+    ],
+    "ARED 6110": [
+      "conc-art-education"
+    ],
+    "ARED 6115": [
+      "conc-art-education"
+    ],
+    "ARED 6120": [
+      "conc-art-education"
+    ],
+    "ART 6010": [
+      "major-required"
+    ],
+    "ART 6020": [
+      "major-required"
+    ],
+    "ART 6030": [
+      "major-required"
+    ],
+    "ART 7050": [
+      "major-required"
+    ],
+    "ART 7150": [
+      "major-required"
+    ],
+    "MUSE 6100": [
+      "conc-museum-studies"
+    ],
+    "MUSE 6110": [
+      "conc-museum-studies"
+    ],
+    "MUSE 6115": [
+      "conc-museum-studies"
+    ],
+    "MUSE 6120": [
+      "conc-museum-studies"
+    ],
+    "MUSE 6125": [
+      "conc-museum-studies"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "ART 7000",
+    "ART 7100",
+    "text: Select 3 credit hours from the following list of courses:",
+    "text: Select two courses (6 credit hours) from the following:",
+    "MUSE 6105",
+    "MUSE 6130"
+  ],
+  "draftHash": "bf62d1f5c3519b010cd5eab45864256f8b0d8a77931c092373db1f224e71daeb"
+}

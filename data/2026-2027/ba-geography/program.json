@@ -1,0 +1,97 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "ba-geography",
+    "name": "BA Geography",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "GEOG 1101",
+      "GEOG 1125",
+      "GEOG 1130"
+    ],
+    [
+      "GEOG 1112K",
+      "GEOG 1113K"
+    ]
+  ],
+  "courses": {
+    "ANTH 3301": [
+      "major-elective"
+    ],
+    "ANTH 3307": [
+      "major-elective"
+    ],
+    "BLCK 2200": [
+      "major-elective"
+    ],
+    "GEOG 1101": [
+      "major-required"
+    ],
+    "GEOG 1110": [
+      "major-required"
+    ],
+    "GEOG 1112K": [
+      "major-required"
+    ],
+    "GEOG 1113K": [
+      "major-required"
+    ],
+    "GEOG 1125": [
+      "major-required"
+    ],
+    "GEOG 1130": [
+      "major-required"
+    ],
+    "GEOG 2200": [
+      "major-required"
+    ],
+    "GEOG 4499": [
+      "major-required"
+    ],
+    "GWST 2000": [
+      "major-elective"
+    ],
+    "ISD 3004": [
+      "major-elective"
+    ],
+    "PHIL 2500": [
+      "major-elective"
+    ],
+    "POLS 2240": [
+      "major-elective"
+    ],
+    "SOCI 2251": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Group A: Human/Regional Geography'",
+    "unrecognized section 'Group B: Physical/Environmental Geography'",
+    "unrecognized section 'Group C: Geographic Techniques'",
+    "unrecognized section 'Group D: Miscellaneous Courses'"
+  ],
+  "leftOut": [
+    "text: Select 6 credit hours of 1000-2000 level coursework from the following prefixes: ARAB, ASL, CHIN, FREN, GRMN, HEBR, ITAL, JAPN, KOR, LATN, PORT, RUSS, SPAN, or WLC. *If taken in General Education Core IMPACTS: Arts and Humanities students may select 3 credit hours of free electives.",
+    "text: Select 3 credit hours from the following list of courses:",
+    "GEOG 3398",
+    "GEOG 4100",
+    "text: Study Abroad 3000-4000 level (any subject)"
+  ],
+  "draftHash": "e457fcddfb8511190fcd7facc90b37234c1274ebccef6dc56516f9396de8566e"
+}

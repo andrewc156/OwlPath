@@ -1,0 +1,45 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "eds-curriculum-and-instruction",
+    "name": "EdS Curriculum and Instruction",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDCI 7800": [
+      "major-required"
+    ],
+    "EDCI 7810": [
+      "major-required"
+    ],
+    "EDCI 7820": [
+      "major-required"
+    ],
+    "EDCI 7830": [
+      "major-required"
+    ],
+    "EDCI 7840": [
+      "major-required"
+    ],
+    "EDCI 7870": [
+      "major-required"
+    ],
+    "EDCI 7880": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "EDRS 8000"
+  ],
+  "draftHash": "d99a8761bd5b040b67176282988ca39b1d6415959d5a8e2de8b3754545b3d65f"
+}

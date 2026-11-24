@@ -1,0 +1,101 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-computer-engineering",
+    "name": "BS Computer Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CPE 1001L": [
+      "core-field"
+    ],
+    "CPE 2200": [
+      "core-field"
+    ],
+    "CPE 3000": [
+      "major-required"
+    ],
+    "CPE 3020": [
+      "major-required"
+    ],
+    "CPE 3030": [
+      "major-required"
+    ],
+    "CPE 3500": [
+      "major-required"
+    ],
+    "CPE 4010": [
+      "major-required"
+    ],
+    "CPE 4020": [
+      "major-required"
+    ],
+    "CPE 4810": [
+      "major-required"
+    ],
+    "CPE 4820": [
+      "major-required"
+    ],
+    "CPE 4903": [
+      "major-required"
+    ],
+    "CSE 1321": [
+      "major-required"
+    ],
+    "CSE 1321L": [
+      "major-required"
+    ],
+    "EE 2301": [
+      "major-required"
+    ],
+    "EE 2501": [
+      "major-required"
+    ],
+    "EE 3401": [
+      "major-required"
+    ],
+    "EE 4201": [
+      "major-required"
+    ],
+    "ENGR 1000": [
+      "core-field"
+    ],
+    "ENGR 3325": [
+      "major-required"
+    ],
+    "ENGR 4402": [
+      "major-required"
+    ],
+    "MATH 2306": [
+      "core-field"
+    ],
+    "MATH 2345": [
+      "major-required"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics, & Sciences."
+  ],
+  "draftHash": "48b5a5e364825f9bc2df8d6d1ad060ac2ac6581340ffc1dcefadf2ff83a239d5"
+}

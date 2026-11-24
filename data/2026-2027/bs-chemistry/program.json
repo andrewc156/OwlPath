@@ -1,0 +1,183 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-chemistry",
+    "name": "BS Chemistry",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "ACS Certified Chemistry",
+        "groups": [
+          "conc-acs-certified-chemistry"
+        ]
+      },
+      {
+        "label": "Integrative Chemistry",
+        "groups": [
+          "conc-integrative-chemistry"
+        ]
+      },
+      {
+        "label": "Forensic Chemistry",
+        "groups": [
+          "conc-forensic-chemistry"
+        ]
+      },
+      {
+        "label": "Pharmaceutical Chemistry",
+        "groups": [
+          "conc-pharmaceutical-chemistry"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CRJU 3301",
+      "CRJU 3320"
+    ]
+  ],
+  "courses": {
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "core-field"
+    ],
+    "CHEM 1212L": [
+      "core-field"
+    ],
+    "CHEM 2800": [
+      "core-field"
+    ],
+    "CHEM 2800L": [
+      "core-field"
+    ],
+    "CHEM 3000": [
+      "major-required"
+    ],
+    "CHEM 3010": [
+      "conc-pharmaceutical-chemistry"
+    ],
+    "CHEM 3030": [
+      "conc-acs-certified-chemistry",
+      "conc-integrative-chemistry",
+      "conc-forensic-chemistry",
+      "conc-pharmaceutical-chemistry"
+    ],
+    "CHEM 3105": [
+      "major-required"
+    ],
+    "CHEM 3105L": [
+      "major-required"
+    ],
+    "CHEM 3361": [
+      "major-required"
+    ],
+    "CHEM 3361L": [
+      "major-required"
+    ],
+    "CHEM 3362": [
+      "major-required"
+    ],
+    "CHEM 3362L": [
+      "major-required"
+    ],
+    "CHEM 3500": [
+      "major-required"
+    ],
+    "CHEM 3501L": [
+      "conc-acs-certified-chemistry",
+      "conc-forensic-chemistry",
+      "conc-pharmaceutical-chemistry"
+    ],
+    "CHEM 3601": [
+      "major-required"
+    ],
+    "CHEM 3601L": [
+      "conc-acs-certified-chemistry"
+    ],
+    "CHEM 3602": [
+      "conc-acs-certified-chemistry"
+    ],
+    "CHEM 3602L": [
+      "conc-acs-certified-chemistry"
+    ],
+    "CHEM 3800": [
+      "conc-acs-certified-chemistry",
+      "conc-integrative-chemistry",
+      "conc-forensic-chemistry",
+      "conc-pharmaceutical-chemistry"
+    ],
+    "CHEM 4120L": [
+      "conc-acs-certified-chemistry",
+      "conc-forensic-chemistry"
+    ],
+    "CHEM 4300": [
+      "conc-acs-certified-chemistry",
+      "conc-integrative-chemistry",
+      "conc-forensic-chemistry",
+      "conc-pharmaceutical-chemistry"
+    ],
+    "CHEM 4310L": [
+      "major-required"
+    ],
+    "CRJU 1101": [
+      "conc-forensic-chemistry"
+    ],
+    "CRJU 3301": [
+      "conc-forensic-chemistry"
+    ],
+    "CRJU 3320": [
+      "conc-forensic-chemistry"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ],
+    "MATH 2203": [
+      "conc-acs-certified-chemistry"
+    ],
+    "PHYS 2211": [
+      "major-required"
+    ],
+    "PHYS 2211L": [
+      "major-required"
+    ],
+    "PHYS 2212": [
+      "major-required"
+    ],
+    "PHYS 2212L": [
+      "major-required"
+    ],
+    "SCM 2000": [
+      "major-required"
+    ],
+    "SOCI 4432": [
+      "conc-forensic-chemistry"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Applied Math.",
+    "text: One (1) credit hour carried over from Natural Sciences.",
+    "text: If taken in Natural Sciences, please consult an advisor on how to fulfill this requirement.",
+    "text: Select 6 credit hours from the following list of courses. Students interested in graduate school should consider CHEM 3602 .",
+    "text: and",
+    "text: Select 3 credit hours of 3000-4000 level CHEM coursework not already used as a requirement in the major or concentration.",
+    "CHEM 3398",
+    "CHEM 4100",
+    "text: Select 3 credit hours from the following list of courses:",
+    "text: Select 3 credit hours of 3000-4000 level STAT coursework"
+  ],
+  "draftHash": "9235000ec47f0cad5f2016d90ffa25cc8237e3e3ad5432388c91decd26877090"
+}

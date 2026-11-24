@@ -1,0 +1,87 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bas-information-technology",
+    "name": "BAS Information Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ]
+  ],
+  "courses": {
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 2300": [
+      "core-field"
+    ],
+    "CSE 3153": [
+      "major-required"
+    ],
+    "CSE 3801": [
+      "major-required"
+    ],
+    "IT 1114": [
+      "core-field"
+    ],
+    "IT 1114L": [
+      "core-field"
+    ],
+    "IT 3123": [
+      "major-required"
+    ],
+    "IT 3203": [
+      "major-required"
+    ],
+    "IT 3223": [
+      "major-required"
+    ],
+    "IT 3423": [
+      "major-required"
+    ],
+    "IT 3703": [
+      "major-required"
+    ],
+    "IT 3883": [
+      "major-required"
+    ],
+    "IT 4323": [
+      "major-required"
+    ],
+    "IT 4423": [
+      "major-required"
+    ],
+    "IT 4823": [
+      "major-required"
+    ],
+    "IT 4983": [
+      "major-required"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Six (6) credit hour Technical Block transferred from A.A.S. or A.A.T. degree",
+    "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences or one (1) credit hour of university electives (1000-4000 level coursework from the University Catalog).",
+    "text: Select 3 credit hours of 3000-4000 level IT course work not previously used in the major.",
+    "CSE 4983"
+  ],
+  "draftHash": "e76655c3d4985b9ec4a77cd407c612a83a90748d3e39c54ad685b5b590faede0"
+}

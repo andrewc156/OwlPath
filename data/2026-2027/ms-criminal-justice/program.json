@@ -1,0 +1,62 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-criminal-justice",
+    "name": "MS Criminal Justice",
+    "filters": [
+      {
+        "label": "Non-Thesis",
+        "groups": [
+          "conc-non-thesis"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 7000": [
+      "major-elective"
+    ],
+    "CRJU 7998": [
+      "conc-non-thesis"
+    ],
+    "PAD 6200": [
+      "major-elective"
+    ],
+    "PAD 6600": [
+      "major-elective"
+    ],
+    "PAD 7455": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "CRJU 7702",
+    "CRJU 7703",
+    "CRJU 7704",
+    "CRJU 7705",
+    "CRJU 7706",
+    "CRJU 7712",
+    "CRJU 7707",
+    "CRJU 7708",
+    "CRJU 7709",
+    "CRJU 7710",
+    "CRJU 7713",
+    "CRJU 7714",
+    "CRJU 7715",
+    "CRJU 7722",
+    "CRJU 7900",
+    "CRJU 7950",
+    "IS 7310",
+    "CRJU 7990"
+  ],
+  "draftHash": "c1dbc4246ba731c8b8b51e2ed3531795c3ab6b12c891abc633a10060a9bbf6e4"
+}

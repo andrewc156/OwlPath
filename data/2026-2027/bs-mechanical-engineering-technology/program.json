@@ -1,0 +1,175 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-mechanical-engineering-technology",
+    "name": "BS Mechanical Engineering Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "General",
+        "groups": [
+          "conc-general"
+        ]
+      },
+      {
+        "label": "Engineering Design Graphics",
+        "groups": [
+          "conc-engineering-design-graphics"
+        ]
+      },
+      {
+        "label": "Manufacturing",
+        "groups": [
+          "conc-manufacturing"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "IET 3424",
+      "ENGR 3325"
+    ]
+  ],
+  "courses": {
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "ECET 3000": [
+      "major-required"
+    ],
+    "ECET 4530": [
+      "major-required"
+    ],
+    "EDG 1211": [
+      "core-field"
+    ],
+    "EDG 1212": [
+      "major-required"
+    ],
+    "EDG 3112": [
+      "conc-engineering-design-graphics"
+    ],
+    "EDG 4111": [
+      "conc-engineering-design-graphics"
+    ],
+    "EDG 4222": [
+      "conc-engineering-design-graphics"
+    ],
+    "EDG 4224": [
+      "conc-engineering-design-graphics",
+      "conc-manufacturing"
+    ],
+    "ENGR 1000": [
+      "major-required"
+    ],
+    "ENGR 3325": [
+      "conc-general",
+      "conc-manufacturing"
+    ],
+    "ENGR 3407": [
+      "conc-general",
+      "conc-manufacturing"
+    ],
+    "ENGT 2000": [
+      "core-field"
+    ],
+    "ENGT 4901": [
+      "major-required"
+    ],
+    "ENGT 4902": [
+      "major-required"
+    ],
+    "IET 3339": [
+      "conc-general",
+      "conc-manufacturing"
+    ],
+    "IET 3356": [
+      "conc-general",
+      "conc-manufacturing"
+    ],
+    "IET 3424": [
+      "conc-general",
+      "conc-manufacturing"
+    ],
+    "IET 4115": [
+      "conc-general"
+    ],
+    "IET 4135": [
+      "conc-general",
+      "conc-manufacturing"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ],
+    "MET 1001L": [
+      "major-required"
+    ],
+    "MET 1400": [
+      "core-field"
+    ],
+    "MET 1800": [
+      "major-required"
+    ],
+    "MET 2124": [
+      "major-required"
+    ],
+    "MET 2501": [
+      "major-required"
+    ],
+    "MET 2800": [
+      "major-required"
+    ],
+    "MET 3101": [
+      "major-required"
+    ],
+    "MET 3124": [
+      "major-required"
+    ],
+    "MET 3124L": [
+      "major-required"
+    ],
+    "MET 3126": [
+      "major-required"
+    ],
+    "MET 3132": [
+      "major-required"
+    ],
+    "MET 3132L": [
+      "major-required"
+    ],
+    "MET 3331": [
+      "conc-manufacturing"
+    ],
+    "MET 3332": [
+      "conc-engineering-design-graphics",
+      "conc-manufacturing"
+    ],
+    "MET 3401": [
+      "major-required"
+    ],
+    "MET 4112": [
+      "major-required"
+    ],
+    "MET 4501": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
+    "text: Any 3000/4000 MET course except: MET 3126, MET 3124, MET 3124L, MET 2501, MET 3101, MET 3132, MET 3132L, MET 3401, MET 4112, and MET 4501.",
+    "text: Any 3000/4000 EDG courses"
+  ],
+  "draftHash": "898c20a5d4d473b0cc0c7341f0079d181ec16cbe0d110688e28588d003e94f48"
+}

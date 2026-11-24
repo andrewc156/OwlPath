@@ -1,0 +1,88 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bba-marketing",
+    "name": "BBA Marketing",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ],
+    "MKTG 3150": [
+      "major-required"
+    ],
+    "MKTG 3410": [
+      "major-required"
+    ],
+    "MKTG 4100": [
+      "major-required"
+    ],
+    "MKTG 4500": [
+      "major-required"
+    ],
+    "MKTG 4990": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
+  ],
+  "draftHash": "f5b287bdcff098bf0d5bb1e963d83406be8ab18f2dce0c84ab9edc148adf96dc"
+}

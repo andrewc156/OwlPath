@@ -1,0 +1,175 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-cybersecurity",
+    "name": "BS Cybersecurity",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Systems Security",
+        "groups": [
+          "conc-systems-security"
+        ]
+      },
+      {
+        "label": "Network Security",
+        "groups": [
+          "conc-network-security"
+        ]
+      },
+      {
+        "label": "Cyber Crime",
+        "groups": [
+          "conc-cyber-crime"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "ECON 2300",
+      "STAT 2332"
+    ],
+    [
+      "CYBR 4843",
+      "CYBR 4883"
+    ],
+    [
+      "CYBR 4350",
+      "CYBR 4853"
+    ]
+  ],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "CRJU 1101": [
+      "conc-cyber-crime"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CYBR 2310": [
+      "core-field"
+    ],
+    "CYBR 3100": [
+      "major-required"
+    ],
+    "CYBR 3123": [
+      "major-required"
+    ],
+    "CYBR 3153": [
+      "conc-systems-security"
+    ],
+    "CYBR 3200": [
+      "major-required"
+    ],
+    "CYBR 3210": [
+      "major-required"
+    ],
+    "CYBR 3220": [
+      "major-elective"
+    ],
+    "CYBR 3223": [
+      "major-elective"
+    ],
+    "CYBR 3300": [
+      "major-required"
+    ],
+    "CYBR 3305": [
+      "conc-cyber-crime"
+    ],
+    "CYBR 3397": [
+      "major-elective"
+    ],
+    "CYBR 3423": [
+      "major-required"
+    ],
+    "CYBR 4200": [
+      "major-required"
+    ],
+    "CYBR 4220": [
+      "major-required"
+    ],
+    "CYBR 4305": [
+      "conc-cyber-crime"
+    ],
+    "CYBR 4323": [
+      "major-required"
+    ],
+    "CYBR 4330": [
+      "major-required"
+    ],
+    "CYBR 4333": [
+      "conc-network-security"
+    ],
+    "CYBR 4350": [
+      "conc-systems-security"
+    ],
+    "CYBR 4423": [
+      "major-required"
+    ],
+    "CYBR 4810": [
+      "major-project"
+    ],
+    "CYBR 4833": [
+      "conc-network-security"
+    ],
+    "CYBR 4843": [
+      "conc-systems-security"
+    ],
+    "CYBR 4853": [
+      "conc-systems-security"
+    ],
+    "CYBR 4883": [
+      "conc-systems-security"
+    ],
+    "CYBR 4893": [
+      "conc-network-security"
+    ],
+    "ECON 2300": [
+      "core-field"
+    ],
+    "IT 1114": [
+      "core-field"
+    ],
+    "IT 1114L": [
+      "core-field"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried from Technology, Mathematics, & Sciences.",
+    "text: One (1) credit hour carried over from Technology, Mathematics, & Sciences.",
+    "text: Select CYBR coursework not already used as a requirement in the program of study.",
+    "text: Select 3000-4000 level coursework from the following prefixes: IS, ISA, IT, CS, CSE, CRJU. Note: Except restricted ISA or IT Security coursework (see an advisor for complete listing).",
+    "CYBR 4400",
+    "CYBR 4490"
+  ],
+  "draftHash": "043f7bf38cfb66272dafd52c571c883e425fee753288be633dfb111c5e7238d3"
+}

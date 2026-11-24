@@ -1,0 +1,62 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "msme-mechanical-engineering",
+    "name": "MSME Mechanical Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Thesis",
+        "groups": [
+          "conc-thesis"
+        ]
+      },
+      {
+        "label": "Non-Thesis",
+        "groups": [
+          "conc-non-thesis"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EM 6602": [
+      "conc-thesis",
+      "conc-non-thesis"
+    ],
+    "ENGR 6120": [
+      "major-required"
+    ],
+    "ME 6220": [
+      "major-required"
+    ],
+    "ME 6230": [
+      "major-required"
+    ],
+    "ME 6250": [
+      "major-required"
+    ],
+    "SYE 6005": [
+      "conc-thesis",
+      "conc-non-thesis"
+    ],
+    "SYE 6010": [
+      "conc-thesis",
+      "conc-non-thesis"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "ME 6900",
+    "text: 6000-level or higher ME coursework",
+    "ME 6398"
+  ],
+  "draftHash": "e6b9b90f614b5c7975a9b0245338cb60bee50f39f42d6bc5b50550d335814a12"
+}

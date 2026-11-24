@@ -1,0 +1,52 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "med-instructional-technology",
+    "name": "MEd Instructional Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ITEC 7305": [
+      "major-required"
+    ],
+    "ITEC 7400": [
+      "major-required"
+    ],
+    "ITEC 7430": [
+      "major-required"
+    ],
+    "ITEC 7455": [
+      "major-required"
+    ],
+    "ITEC 7460": [
+      "major-required"
+    ],
+    "ITEC 7470": [
+      "major-required"
+    ],
+    "ITEC 7480": [
+      "major-required"
+    ],
+    "ITEC 7485": [
+      "major-required"
+    ],
+    "ITEC 7500": [
+      "major-required"
+    ],
+    "ITEC 7600": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "a6925f5d153ba1dfd7bcfc10c7ecb02933dba997391a6b7f6a184fa7043794b0"
+}

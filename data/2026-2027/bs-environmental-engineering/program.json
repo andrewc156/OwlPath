@@ -1,0 +1,137 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-environmental-engineering",
+    "name": "BS Environmental Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CE 1001L": [
+      "major-required"
+    ],
+    "CE 3501": [
+      "major-required"
+    ],
+    "CE 3502": [
+      "major-required"
+    ],
+    "CE 3701": [
+      "major-required"
+    ],
+    "CE 3702": [
+      "major-required"
+    ],
+    "CE 3703": [
+      "major-required"
+    ],
+    "CE 3704": [
+      "major-required"
+    ],
+    "CE 3708": [
+      "major-required"
+    ],
+    "CE 4343": [
+      "major-required"
+    ],
+    "CE 4353": [
+      "major-required"
+    ],
+    "CE 4363": [
+      "major-elective"
+    ],
+    "CE 4371": [
+      "major-required"
+    ],
+    "CE 4373": [
+      "major-elective"
+    ],
+    "CE 4383": [
+      "major-elective"
+    ],
+    "CE 4703": [
+      "major-required"
+    ],
+    "CE 4704": [
+      "major-elective"
+    ],
+    "CE 4708": [
+      "major-required"
+    ],
+    "CE 4800": [
+      "major-required"
+    ],
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "core-field"
+    ],
+    "EDG 2160": [
+      "major-required"
+    ],
+    "ENGR 1000": [
+      "core-field"
+    ],
+    "ENGR 2214": [
+      "core-field"
+    ],
+    "ENGR 3131": [
+      "major-required"
+    ],
+    "ENGR 3305": [
+      "major-required"
+    ],
+    "ENGR 3324": [
+      "major-required"
+    ],
+    "ENGR 3343": [
+      "major-required"
+    ],
+    "ENGR 3345": [
+      "major-required"
+    ],
+    "ENVS 2202": [
+      "major-required"
+    ],
+    "GEOG 3315": [
+      "major-elective"
+    ],
+    "MATH 2306": [
+      "major-required"
+    ],
+    "SURV 2221": [
+      "core-field"
+    ],
+    "SURV 2221L": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
+    "CE 3398",
+    "CE 4400",
+    "CE 4490"
+  ],
+  "draftHash": "f43a1386810fcee7be8f03e62fdf1a3b06952f50d8bcba95c1ea4c6ff3c81128"
+}

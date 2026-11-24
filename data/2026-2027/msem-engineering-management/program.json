@@ -1,0 +1,80 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "msem-engineering-management",
+    "name": "MSEM Engineering Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Quality Management",
+        "groups": [
+          "conc-quality-management"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EM 6005": [
+      "major-required"
+    ],
+    "EM 6510": [
+      "major-required"
+    ],
+    "EM 6602": [
+      "major-elective",
+      "conc-quality-management"
+    ],
+    "EM 6611": [
+      "major-elective",
+      "conc-quality-management"
+    ],
+    "EM 6613": [
+      "major-elective",
+      "conc-quality-management"
+    ],
+    "EM 6650": [
+      "major-required"
+    ],
+    "EM 6722": [
+      "major-elective",
+      "conc-quality-management"
+    ],
+    "FIN 7020": [
+      "major-required"
+    ],
+    "MGT 7050": [
+      "major-required"
+    ],
+    "SYE 6005": [
+      "major-elective"
+    ],
+    "SYE 6010": [
+      "major-required"
+    ],
+    "SYE 6070": [
+      "major-elective"
+    ],
+    "SYE 6075": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "EM 6800",
+    "IS 7090"
+  ],
+  "draftHash": "431c6b01b16e9bfd5ec1d9e7ece71c6570eaed68e3f92a1c8e4dfbbb3618b663"
+}

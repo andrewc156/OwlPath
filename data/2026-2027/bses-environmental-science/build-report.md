@@ -1,0 +1,44 @@
+# Build report — 2026-2027
+
+## Warnings needing review
+
+- **BIOL 3372K**
+  - ambiguous and/or precedence: BIOL 3370 and BIOL 3370L or permission of the instructor
+- **BIOL 4322**
+  - could not parse (unexpected ')'): BIOL 1108 and BIOL 1108L)
+- **CHEM 1211**
+  - unrecognized: to
+  - unrecognized: higher
+- **CHEM 1211L**
+  - unrecognized: to
+  - unrecognized: higher
+- **CHEM 1212**
+  - unrecognized: to
+  - unrecognized: higher
+- **ENVS 4399**
+  - unrecognized: Environmental Science Major
+  - unrecognized: 90+ Credit Hours
+- **GEOL 1121K**
+  - unrecognized: A grade of 'C'
+  - unrecognized: better in any two 1000-level
+  - unrecognized: 2000-level science courses
+- **GIS 4415**
+  - unrecognized: permission of the Geospatial Sciences
+  - unrecognized: GSS
+  - unrecognized: Internship Coordinator
+  - missing operator before '(', assumed and
+  - missing operator before 'Internship Coordinator', assumed and
+- **SCM 2000**
+  - unrecognized: A declared major within the College of Science
+  - unrecognized: Mathematics
+
+## Left out on purpose
+
+- text: *If STAT 1401 is taken in Mathematics & Quantitative Skills or as the Applied Math credit in Technology, Mathematics, and Sciences then students may select 3 credit hours of additional Environmental Sciences Electives which may include BIOL 1107 , BIOL 1107L , CHEM 2800 , CHEM 2800L . Students should consult with an advisor to discuss elective options.
+- text: If CHEM 1211, CHEM 1211L and/or CHEM 1212 are used to fulfill General Education Core IMPACTS students can take up to 7 credit hours of additional Environmental Science Electives which may include BIOL 1107 , BIOL 1107L , CHEM 2800 , CHEM 2800L . Students should consult with an advisor to discuss elective options.
+- BIOL 4400
+- BIOL 4490
+- ENVS 3398
+- ENVS 4400
+- ENVS 4490
+- GEOG 4500

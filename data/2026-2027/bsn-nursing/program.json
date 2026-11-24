@@ -1,0 +1,119 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bsn-nursing",
+    "name": "BSN Nursing",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "BIOL 1107L": [
+      "major-required"
+    ],
+    "BIOL 1108L": [
+      "major-required"
+    ],
+    "BIOL 2251": [
+      "core-field"
+    ],
+    "BIOL 2251L": [
+      "core-field"
+    ],
+    "BIOL 2252": [
+      "core-field"
+    ],
+    "BIOL 2252L": [
+      "core-field"
+    ],
+    "BIOL 2260": [
+      "core-field"
+    ],
+    "BIOL 2260L": [
+      "core-field"
+    ],
+    "CHEM 1151L": [
+      "major-required"
+    ],
+    "CHEM 1152L": [
+      "major-required"
+    ],
+    "CHEM 1211L": [
+      "major-required"
+    ],
+    "CHEM 1212L": [
+      "major-required"
+    ],
+    "NURS 3101": [
+      "major-required"
+    ],
+    "NURS 3102": [
+      "major-required"
+    ],
+    "NURS 3103": [
+      "major-required"
+    ],
+    "NURS 3104": [
+      "major-required"
+    ],
+    "NURS 3105": [
+      "major-required"
+    ],
+    "NURS 3106": [
+      "major-required"
+    ],
+    "NURS 3201": [
+      "major-required"
+    ],
+    "NURS 3202": [
+      "major-required"
+    ],
+    "NURS 3203": [
+      "major-required"
+    ],
+    "NURS 3205": [
+      "major-required"
+    ],
+    "NURS 3206": [
+      "major-required"
+    ],
+    "NURS 4101": [
+      "major-required"
+    ],
+    "NURS 4102": [
+      "major-required"
+    ],
+    "NURS 4106": [
+      "major-required"
+    ],
+    "NURS 4201": [
+      "major-required"
+    ],
+    "NURS 4202": [
+      "major-required"
+    ],
+    "NURS 4206": [
+      "major-required"
+    ],
+    "PSYC 1101": [
+      "core-field"
+    ],
+    "STAT 1401": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If PSYC 1101 and/or STAT 1401 are taken to satisfy General Education Core IMPACTS, students may take up to 6 credit hours of free electives or the recommended guided electives: PSYC 2103 , SOCI 1101",
+    "text: One (1) credit hour carried over from General Education Core IMPACTS: Technology & Science from the following:"
+  ],
+  "draftHash": "2e14d35aa1abcd78d5f4c75595310ad83e09530de8697493800c23d0b3871ba8"
+}

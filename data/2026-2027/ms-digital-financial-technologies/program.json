@@ -1,0 +1,60 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-digital-financial-technologies",
+    "name": "MS Digital Financial Technologies",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "FIS 6810": [
+      "major-required"
+    ],
+    "FIS 6815": [
+      "major-elective"
+    ],
+    "FIS 6850": [
+      "major-required"
+    ],
+    "FIS 6860": [
+      "major-required"
+    ],
+    "FIS 6870": [
+      "major-required"
+    ],
+    "FIS 6880": [
+      "major-elective"
+    ],
+    "FIS 6890": [
+      "major-required"
+    ],
+    "IT 6923": [
+      "major-required"
+    ],
+    "IT 6933": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "IS 7935",
+    "text: Any 6000, 7000, or 8000 level FIS course",
+    "IS 7060",
+    "IS 7100"
+  ],
+  "draftHash": "53a5e6797b92d031940b1bcdd6bbda115189a238cfadbb22b46078c15ab34be8"
+}

@@ -1,0 +1,63 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-psychology",
+    "name": "BS Psychology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "PSYC 1101": [
+      "major-required"
+    ],
+    "PSYC 2103": [
+      "major-required"
+    ],
+    "PSYC 2210": [
+      "major-required"
+    ],
+    "PSYC 2500": [
+      "major-required"
+    ],
+    "PSYC 3000": [
+      "major-required"
+    ],
+    "PSYC 4100": [
+      "major-required"
+    ],
+    "PSYC 4499": [
+      "major-project"
+    ],
+    "PSYC 4500": [
+      "major-project"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Diversity and Multicultural Area (3 Credit Hours)'",
+    "unrecognized section 'Personality and Social Area (3 Credit Hours)'",
+    "unrecognized section 'Biological Bases Area (3 Credit Hours)'",
+    "unrecognized section 'Learning and Cognition Area (3 Credit Hours)'",
+    "unrecognized section 'Mental Health and Well-Being (3 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: One, 1000-2000 level 3-hr STEM class: MATH, STAT, DATA, BIOL, CHEM, PHYS, TCOM, CSE, CS, or ECON 2300 .",
+    "text: One, 1000-2000 level 3-hr STEM or Social Sciences class: MATH, STAT, DATA, BIOL, CHEM, PHYS, TCOM, CSE, CS, WLC, SOCI, ANTH, CRJU, ISD, GWST, BLCK, AADS, or ECON 2300 .",
+    "PSYC 4404",
+    "PSYC 4498"
+  ],
+  "draftHash": "1e96d74c98e52b5cbe9dbe64642bdb35bc47eadd76692164e43e1f081ddae09d"
+}

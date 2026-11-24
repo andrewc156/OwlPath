@@ -1,0 +1,52 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "med-literacy-education",
+    "name": "MEd Literacy Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ECE 7704": [
+      "major-required"
+    ],
+    "EDRD 6714": [
+      "major-required"
+    ],
+    "EDRD 7000": [
+      "major-required"
+    ],
+    "EDRD 7720": [
+      "major-required"
+    ],
+    "EDRD 7730": [
+      "major-required"
+    ],
+    "EDRD 7735": [
+      "major-required"
+    ],
+    "INED 7611": [
+      "major-required"
+    ],
+    "INED 7621": [
+      "major-required"
+    ],
+    "INED 7631": [
+      "major-required"
+    ],
+    "ITEC 7400": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "592c1926d0e67b9af8177a80717405e40024fd364e23498e3b49aa4f90dc7010"
+}

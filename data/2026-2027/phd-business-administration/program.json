@@ -1,0 +1,155 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "phd-business-administration",
+    "name": "PhD Business Administration",
+    "filters": [
+      {
+        "label": "Accounting",
+        "groups": [
+          "conc-accounting"
+        ]
+      },
+      {
+        "label": "Information Systems & Security",
+        "groups": [
+          "conc-information-systems-and-security"
+        ]
+      },
+      {
+        "label": "Management",
+        "groups": [
+          "conc-management"
+        ]
+      },
+      {
+        "label": "Marketing & Sales Leadership",
+        "groups": [
+          "conc-marketing-and-sales-leadership"
+        ]
+      },
+      {
+        "label": "Risk & Decision Analytics",
+        "groups": [
+          "conc-risk-and-decision-analytics"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 9001": [
+      "conc-accounting"
+    ],
+    "ACCT 9005": [
+      "conc-accounting"
+    ],
+    "ACCT 9006": [
+      "conc-accounting"
+    ],
+    "ACCT 9007": [
+      "conc-accounting"
+    ],
+    "ACCT 9008": [
+      "conc-accounting"
+    ],
+    "ACCT 9100": [
+      "conc-accounting"
+    ],
+    "ECON 9001": [
+      "conc-risk-and-decision-analytics"
+    ],
+    "ECON 9011": [
+      "conc-risk-and-decision-analytics"
+    ],
+    "ECON 9012": [
+      "conc-risk-and-decision-analytics"
+    ],
+    "ECON 9013": [
+      "conc-risk-and-decision-analytics"
+    ],
+    "ECON 9015": [
+      "conc-risk-and-decision-analytics"
+    ],
+    "ECON 9100": [
+      "conc-risk-and-decision-analytics"
+    ],
+    "IS 9001": [
+      "conc-information-systems-and-security"
+    ],
+    "IS 9005": [
+      "conc-information-systems-and-security"
+    ],
+    "IS 9006": [
+      "conc-information-systems-and-security"
+    ],
+    "IS 9007": [
+      "conc-information-systems-and-security"
+    ],
+    "IS 9008": [
+      "conc-information-systems-and-security"
+    ],
+    "IS 9100": [
+      "conc-information-systems-and-security"
+    ],
+    "MGT 9001": [
+      "conc-management"
+    ],
+    "MGT 9005": [
+      "conc-management"
+    ],
+    "MGT 9006": [
+      "conc-management"
+    ],
+    "MGT 9007": [
+      "conc-management"
+    ],
+    "MGT 9008": [
+      "conc-management"
+    ],
+    "MGT 9100": [
+      "conc-management"
+    ],
+    "MKTG 9001": [
+      "conc-marketing-and-sales-leadership"
+    ],
+    "MKTG 9005": [
+      "conc-marketing-and-sales-leadership"
+    ],
+    "MKTG 9006": [
+      "conc-marketing-and-sales-leadership"
+    ],
+    "MKTG 9007": [
+      "conc-marketing-and-sales-leadership"
+    ],
+    "MKTG 9008": [
+      "conc-marketing-and-sales-leadership"
+    ],
+    "MKTG 9100": [
+      "conc-marketing-and-sales-leadership"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Business Research Methods Courses (15 Credit Hours)'"
+  ],
+  "leftOut": [
+    "ACCT 9900",
+    "text: Students must take a minimum of 12 credit hours of the following course:",
+    "ACCT 9903",
+    "ACCT 9904",
+    "IS 9900",
+    "IS 9903",
+    "IS 9904",
+    "MGT 9900",
+    "MGT 9903",
+    "MGT 9904",
+    "MKTG 9900",
+    "MKTG 9903",
+    "MKTG 9904",
+    "ECON 9900",
+    "ECON 9903",
+    "ECON 9904"
+  ],
+  "draftHash": "6141eb54dd70f38ef323988bc6c8734913902a603fdf043f1a59b7adada6116f"
+}

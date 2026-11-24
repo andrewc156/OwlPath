@@ -1,0 +1,300 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bm-music-education",
+    "name": "BM Music Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Orchestra",
+        "groups": [
+          "conc-orchestra"
+        ]
+      },
+      {
+        "label": "Band",
+        "groups": [
+          "conc-band"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "MUED 3402",
+      "MUED 3403",
+      "MUED 3404"
+    ],
+    [
+      "MUED 4302",
+      "MUED 4303",
+      "MUED 4304"
+    ],
+    [
+      "MUED 4305",
+      "MUED 4306"
+    ],
+    [
+      "MUSI 3331",
+      "MUSI 3332"
+    ],
+    [
+      "MUEN 3201",
+      "MUEN 3202"
+    ]
+  ],
+  "courses": {
+    "EDUC 2110": [
+      "major-required"
+    ],
+    "EDUC 2120": [
+      "major-required"
+    ],
+    "EDUC 2130": [
+      "major-required"
+    ],
+    "EDUC 4610": [
+      "major-required"
+    ],
+    "MHIS 2311": [
+      "major-required"
+    ],
+    "MHIS 2312": [
+      "major-required"
+    ],
+    "MUAP 2101": [
+      "major-required"
+    ],
+    "MUAP 3100": [
+      "major-required"
+    ],
+    "MUAP 3101": [
+      "major-required",
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUAP 4095": [
+      "major-required",
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3005": [
+      "major-required"
+    ],
+    "MUED 3308": [
+      "major-required"
+    ],
+    "MUED 3351": [
+      "major-required",
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3353": [
+      "major-required",
+      "conc-orchestra"
+    ],
+    "MUED 3355": [
+      "major-required",
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3357": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3361": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3365": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3366": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 3370": [
+      "conc-band"
+    ],
+    "MUED 3371": [
+      "major-required"
+    ],
+    "MUED 3402": [
+      "major-required"
+    ],
+    "MUED 3403": [
+      "major-required"
+    ],
+    "MUED 3404": [
+      "major-required"
+    ],
+    "MUED 4000": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUED 4301": [
+      "major-required"
+    ],
+    "MUED 4302": [
+      "major-required"
+    ],
+    "MUED 4303": [
+      "major-required"
+    ],
+    "MUED 4304": [
+      "major-required"
+    ],
+    "MUED 4305": [
+      "major-required"
+    ],
+    "MUED 4306": [
+      "major-required"
+    ],
+    "MUED 4650": [
+      "major-required"
+    ],
+    "MUED 4660": [
+      "major-required"
+    ],
+    "MUED 4990": [
+      "major-required"
+    ],
+    "MUEN 3201": [
+      "major-required"
+    ],
+    "MUEN 3202": [
+      "major-required"
+    ],
+    "MUEN 3210": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3211": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3212": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3220": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3221": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3222": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3223": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3224": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3225": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUEN 3344": [
+      "conc-orchestra"
+    ],
+    "MUEN 3345": [
+      "conc-band"
+    ],
+    "MUEN 3347": [
+      "conc-band"
+    ],
+    "MUEN 3348": [
+      "conc-orchestra"
+    ],
+    "MUSI 3165": [
+      "major-required"
+    ],
+    "MUSI 3166": [
+      "major-required"
+    ],
+    "MUSI 3167": [
+      "major-required"
+    ],
+    "MUSI 3331": [
+      "major-required"
+    ],
+    "MUSI 3332": [
+      "major-required",
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUSI 3336": [
+      "major-required"
+    ],
+    "MUSI 3350": [
+      "major-required"
+    ],
+    "MUSI 3351": [
+      "conc-orchestra",
+      "conc-band"
+    ],
+    "MUSI 4433": [
+      "major-required"
+    ],
+    "MUTC 2100": [
+      "major-required"
+    ],
+    "MUTC 2110": [
+      "major-required"
+    ],
+    "MUTC 2200": [
+      "major-required"
+    ],
+    "MUTC 2210": [
+      "major-required"
+    ],
+    "MUTC 3100": [
+      "major-required"
+    ],
+    "MUTC 3110": [
+      "major-required"
+    ],
+    "MUTC 3200": [
+      "major-required"
+    ],
+    "MUTC 3210": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Group 1'",
+    "unrecognized section 'Group 2'",
+    "unrecognized section 'Large Ensemble (7 Credit Hours)'",
+    "unrecognized section 'Large Ensemble (7 Credit Hours)'",
+    "unrecognized section 'Large Ensemble (7 Credit Hours)'",
+    "unrecognized section 'Large Ensemble (7 Credit Hours)'",
+    "unrecognized section 'Large Ensemble (7 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Repeat the following course for 4 total credit hours:",
+    "text: 3 Credit Each; Choose One Course",
+    "text: 2 Credits Each; Choose One Course",
+    "text: 1 Credit Each; Choose One Course",
+    "text: Repeat the following course for 3 credit hours:",
+    "text: Select one of the following courses and repeat for 3 credit hours:",
+    "text: Repeat the following course with 3 credit hours:",
+    "text: Select one of the following courses and repeat for a total of 3 credit hours:",
+    "text: Repeat the following course for 2 credit hours:",
+    "text: Select one of the following courses and repeat for 2 credit hours:"
+  ],
+  "draftHash": "011d159d6984ea63713c364d85dfca44230eed74a42927b350b59069c7ea9f29"
+}

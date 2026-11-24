@@ -1,0 +1,204 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "ba-theatre-and-performance-studies",
+    "name": "BA Theatre and Performance Studies",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Acting",
+        "groups": [
+          "conc-acting"
+        ]
+      },
+      {
+        "label": "Performance Studies",
+        "groups": [
+          "conc-performance-studies"
+        ]
+      },
+      {
+        "label": "Design/Technology",
+        "groups": [
+          "conc-design-technology"
+        ]
+      },
+      {
+        "label": "Musical Theatre",
+        "groups": [
+          "conc-musical-theatre"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "DANC 3000": [
+      "conc-musical-theatre"
+    ],
+    "TPS 1500": [
+      "core-field"
+    ],
+    "TPS 1510": [
+      "core-field"
+    ],
+    "TPS 1600": [
+      "core-field"
+    ],
+    "TPS 1713": [
+      "core-field"
+    ],
+    "TPS 2203": [
+      "core-field"
+    ],
+    "TPS 2713": [
+      "core-field"
+    ],
+    "TPS 2714": [
+      "core-field"
+    ],
+    "TPS 2715": [
+      "core-field"
+    ],
+    "TPS 2813": [
+      "core-field"
+    ],
+    "TPS 3000": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3015": [
+      "conc-musical-theatre"
+    ],
+    "TPS 3193": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3194": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3200": [
+      "conc-acting"
+    ],
+    "TPS 3201": [
+      "conc-acting"
+    ],
+    "TPS 3210": [
+      "conc-acting"
+    ],
+    "TPS 3213": [
+      "conc-acting"
+    ],
+    "TPS 3223": [
+      "conc-acting"
+    ],
+    "TPS 3243": [
+      "conc-acting"
+    ],
+    "TPS 3400": [
+      "conc-performance-studies"
+    ],
+    "TPS 3403": [
+      "major-required"
+    ],
+    "TPS 3493": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3500": [
+      "conc-performance-studies"
+    ],
+    "TPS 3510": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3600": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3601": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3602": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3603": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 3700": [
+      "conc-musical-theatre"
+    ],
+    "TPS 3703": [
+      "conc-musical-theatre"
+    ],
+    "TPS 3713": [
+      "conc-musical-theatre"
+    ],
+    "TPS 3740": [
+      "conc-musical-theatre"
+    ],
+    "TPS 3823": [
+      "conc-design-technology"
+    ],
+    "TPS 3853": [
+      "conc-design-technology"
+    ],
+    "TPS 4243": [
+      "conc-acting"
+    ],
+    "TPS 4313": [
+      "conc-performance-studies"
+    ],
+    "TPS 4323": [
+      "conc-performance-studies"
+    ],
+    "TPS 4333": [
+      "major-required",
+      "conc-performance-studies"
+    ],
+    "TPS 4513": [
+      "major-required"
+    ],
+    "TPS 4523": [
+      "major-required"
+    ],
+    "TPS 4533": [
+      "major-required"
+    ],
+    "TPS 4543": [
+      "major-required"
+    ],
+    "TPS 4813": [
+      "conc-design-technology"
+    ],
+    "TPS 4823": [
+      "conc-design-technology"
+    ],
+    "TPS 4833": [
+      "conc-design-technology"
+    ],
+    "TPS 4999": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Applied Professional Sequence (6 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Select 6 credit hours from the following list of courses:",
+    "text: Select 3 credit hours from the following list of courses:",
+    "TPS 4030"
+  ],
+  "draftHash": "ea0ee094e33ff25ad3f82025c1942bd3afbf7bac30b56975614502d6b93a6316"
+}

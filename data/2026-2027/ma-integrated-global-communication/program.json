@@ -1,0 +1,94 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ma-integrated-global-communication",
+    "name": "MA Integrated Global Communication",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Digital and Social Media",
+        "groups": [
+          "conc-digital-and-social-media"
+        ]
+      },
+      {
+        "label": "Strategic Communication",
+        "groups": [
+          "conc-strategic-communication"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "COM 6670": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 6690": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 7100": [
+      "major-required"
+    ],
+    "COM 7200": [
+      "major-elective"
+    ],
+    "COM 7205": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 7300": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 7350": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 7400": [
+      "major-required"
+    ],
+    "COM 7500": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 7600": [
+      "conc-digital-and-social-media",
+      "major-elective"
+    ],
+    "COM 7650": [
+      "conc-strategic-communication",
+      "major-elective"
+    ],
+    "COM 7900": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Global Experience Course (3 Credit Hours)'"
+  ],
+  "leftOut": [
+    "COM 6100",
+    "COM 6200",
+    "COM 6410",
+    "COM 6420",
+    "COM 6490",
+    "COM 6900",
+    "text: Students may select up to 6 credit hours of 6000-7000 level COM coursework not already taken or 6000-7000 level coursework from the following prefixes: AMST, MSCM, IPM, PRWR, or PAD. Students may take COM 6690 again for credit in this area."
+  ],
+  "draftHash": "0a354bda337cec84e0764faffa1f895b335f8a17e6b6bc5f0db8cba13f19917d"
+}

@@ -1,0 +1,87 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-financial-technologies",
+    "name": "BS Financial Technologies",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "STAT 1401",
+      "MATH 1113"
+    ],
+    [
+      "ECON 2105",
+      "ECON 2106"
+    ]
+  ],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ENTR 2001": [
+      "core-field"
+    ],
+    "FIS 3820": [
+      "major-required"
+    ],
+    "FIS 3830": [
+      "major-required"
+    ],
+    "FIS 3840": [
+      "major-required"
+    ],
+    "FTA 3810": [
+      "major-required"
+    ],
+    "FTA 3850": [
+      "major-required"
+    ],
+    "FTA 3860": [
+      "major-required"
+    ],
+    "FTA 3890": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3815": [
+      "major-required"
+    ],
+    "IS 4545": [
+      "major-required"
+    ],
+    "MATH 1113": [
+      "core-field"
+    ],
+    "STAT 1401": [
+      "core-field"
+    ],
+    "WRIT 2010": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Business Foundations (12 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: *If taken to satisfy General Education Core IMPACTS, students may select up to 6 credit hours of free electives."
+  ],
+  "draftHash": "3c994551e67e11c3774706a26d4190d79e3b53ee3feb86114fd4b1ffd0381e5f"
+}

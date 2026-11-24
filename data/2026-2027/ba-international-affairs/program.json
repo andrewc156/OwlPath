@@ -1,0 +1,125 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "ba-international-affairs",
+    "name": "BA International Affairs",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "WLC 2001",
+      "DATA 1501"
+    ],
+    [
+      "WLC 2002",
+      "POLS 2280"
+    ]
+  ],
+  "courses": {
+    "DATA 1501": [
+      "core-field"
+    ],
+    "POLS 2238": [
+      "core-field"
+    ],
+    "POLS 2240": [
+      "core-field"
+    ],
+    "POLS 2250": [
+      "core-field"
+    ],
+    "POLS 2280": [
+      "core-field"
+    ],
+    "POLS 2285": [
+      "core-field"
+    ],
+    "POLS 3350": [
+      "major-required"
+    ],
+    "POLS 3850": [
+      "major-required"
+    ],
+    "POLS 4100": [
+      "major-required"
+    ],
+    "POLS 4202": [
+      "major-required"
+    ],
+    "POLS 4430": [
+      "major-required"
+    ],
+    "POLS 4431": [
+      "major-required"
+    ],
+    "POLS 4433": [
+      "major-required"
+    ],
+    "POLS 4436": [
+      "major-required"
+    ],
+    "POLS 4437": [
+      "major-required"
+    ],
+    "POLS 4439": [
+      "major-required"
+    ],
+    "POLS 4440": [
+      "major-required"
+    ],
+    "POLS 4447": [
+      "major-required"
+    ],
+    "POLS 4448": [
+      "major-required"
+    ],
+    "POLS 4449": [
+      "major-required"
+    ],
+    "POLS 4452": [
+      "major-required"
+    ],
+    "POLS 4453": [
+      "major-required"
+    ],
+    "POLS 4454": [
+      "major-required"
+    ],
+    "POLS 4455": [
+      "major-required"
+    ],
+    "POLS 4456": [
+      "major-required"
+    ],
+    "POLS 4457": [
+      "major-required"
+    ],
+    "POLS 4460": [
+      "major-required"
+    ],
+    "WLC 2001": [
+      "core-field"
+    ],
+    "WLC 2002": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Lower-Division Career Program (6 Credit Hours)'"
+  ],
+  "leftOut": [
+    "POLS 4490",
+    "text: Students may substitute upper-division courses from other disciplines with adviser approval,",
+    "text: Students may also complete an “Applied Global Experience” of ten weeks or more in order to receive 15 credit hours in this category. Full-time status will be based upon the criteria set by the host institution. Courses must be pre-approved by your International Affairs adviser and by the SGIA school director prior to departure."
+  ],
+  "draftHash": "6982ab638429921868bea8a0d34051be10ee2b88ef68cff2e3c455610781c38b"
+}

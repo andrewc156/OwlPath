@@ -1,0 +1,49 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "med-special-education",
+    "name": "MEd Special Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "INED 7631": [
+      "major-required"
+    ],
+    "INED 7710": [
+      "major-required"
+    ],
+    "INED 7720": [
+      "major-required"
+    ],
+    "INED 7730": [
+      "major-required"
+    ],
+    "INED 7742": [
+      "major-required"
+    ],
+    "INED 7762": [
+      "major-required"
+    ],
+    "INED 7775": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "INED 7955",
+    "text: Autism Spectrum Disorder Certificate",
+    "text: English to Speakers of Other Languages Endorsement Certificate",
+    "text: Gifted Education Certificate",
+    "text: Dyslexia Certificate"
+  ],
+  "draftHash": "b2e043aa0b701fac7632cf7ac9b77fd1d83297700e2a5e0ed5db67998e83edc1"
+}

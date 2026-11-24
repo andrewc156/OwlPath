@@ -1,0 +1,31 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-electrical-and-computer-engineering",
+    "name": "MS Electrical and Computer Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EE 6770": [
+      "major-required"
+    ],
+    "ENGR 6002": [
+      "major-required"
+    ],
+    "ENGR 6120": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "45fce5277d06240df475fb9da07fe49f1027955c871b952434df04350f52c423"
+}

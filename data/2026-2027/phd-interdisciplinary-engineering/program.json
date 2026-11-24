@@ -1,0 +1,43 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "phd-interdisciplinary-engineering",
+    "name": "PhD Interdisciplinary Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ENGR 8001": [
+      "major-required"
+    ],
+    "ENGR 8002": [
+      "major-required"
+    ],
+    "ENGR 8004": [
+      "major-required"
+    ],
+    "ENGR 8006": [
+      "major-required"
+    ],
+    "ENGR 8120": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Intelligent Robotic Systems'",
+    "unrecognized section 'Smart infrastructure'",
+    "unrecognized section 'Biomedical and Health Systems'",
+    "unrecognized section 'Innovative Materials'",
+    "unrecognized section 'Research (36 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "6b6b23bfd161d3ca06545422993e70b730ccda610eac4b254e5d4f149fe3c43c"
+}

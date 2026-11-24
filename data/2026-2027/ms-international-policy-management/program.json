@@ -1,0 +1,35 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "ms-international-policy-management",
+    "name": "MS International Policy Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "IPM 7720": [
+      "major-required"
+    ],
+    "IPM 7725": [
+      "major-required"
+    ],
+    "IPM 7760": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Additional Courses (15 Credit Hours)'"
+  ],
+  "leftOut": [
+    "IPM 7765"
+  ],
+  "draftHash": "1a2ce0a3bce481c710d500ca6126c989e75b02c63bac15262084d5b659537067"
+}

@@ -1,0 +1,214 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "mba-evening-business-administration",
+    "name": "MBA (Evening) Business Administration",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Accounting",
+        "groups": [
+          "conc-accounting"
+        ]
+      },
+      {
+        "label": "Business Intelligence",
+        "groups": [
+          "conc-business-intelligence"
+        ]
+      },
+      {
+        "label": "Digital Marketing",
+        "groups": [
+          "conc-digital-marketing"
+        ]
+      },
+      {
+        "label": "Finance",
+        "groups": [
+          "conc-finance"
+        ]
+      },
+      {
+        "label": "FinTech",
+        "groups": [
+          "conc-fintech"
+        ]
+      },
+      {
+        "label": "General Management",
+        "groups": [
+          "conc-general-management"
+        ]
+      },
+      {
+        "label": "Information Security & Assurance",
+        "groups": [
+          "conc-information-security-and-assurance"
+        ]
+      },
+      {
+        "label": "Organizational Entrepreneurship and Innovation",
+        "groups": [
+          "conc-organizational-entrepreneurship-and-innovation"
+        ]
+      },
+      {
+        "label": "Rural Management",
+        "groups": [
+          "conc-rural-management"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 7000": [
+      "conc-business-intelligence",
+      "conc-digital-marketing",
+      "conc-finance",
+      "conc-fintech",
+      "conc-general-management",
+      "conc-information-security-and-assurance",
+      "conc-organizational-entrepreneurship-and-innovation",
+      "conc-rural-management"
+    ],
+    "ACCT 7415": [
+      "conc-accounting"
+    ],
+    "ACCT 7430": [
+      "conc-accounting"
+    ],
+    "ACCT 7450": [
+      "conc-accounting"
+    ],
+    "ACCT 7460": [
+      "conc-accounting"
+    ],
+    "ACCT 7470": [
+      "conc-accounting"
+    ],
+    "ACCT 7480": [
+      "conc-accounting"
+    ],
+    "BLAW 7350": [
+      "conc-accounting"
+    ],
+    "ECON 7010": [
+      "major-required"
+    ],
+    "ECON 7101": [
+      "conc-rural-management"
+    ],
+    "ECON 7610": [
+      "conc-finance",
+      "conc-general-management"
+    ],
+    "ECON 7710": [
+      "conc-business-intelligence"
+    ],
+    "ECON 7730": [
+      "conc-business-intelligence"
+    ],
+    "ECON 7750": [
+      "conc-business-intelligence"
+    ],
+    "ECON 7770": [
+      "conc-business-intelligence"
+    ],
+    "FIN 7020": [
+      "major-required"
+    ],
+    "FIN 7320": [
+      "conc-finance"
+    ],
+    "FIN 7330": [
+      "conc-finance"
+    ],
+    "FIN 7360": [
+      "conc-finance"
+    ],
+    "FIN 7370": [
+      "conc-finance",
+      "conc-general-management"
+    ],
+    "FIN 7380": [
+      "conc-finance",
+      "conc-rural-management"
+    ],
+    "FIS 6810": [
+      "conc-fintech"
+    ],
+    "FIS 6850": [
+      "conc-fintech"
+    ],
+    "FIS 6860": [
+      "conc-fintech"
+    ],
+    "FIS 6890": [
+      "conc-fintech"
+    ],
+    "MGT 7040": [
+      "major-required"
+    ],
+    "MGT 7050": [
+      "major-required"
+    ],
+    "MGT 7101": [
+      "conc-rural-management"
+    ],
+    "MGT 7200": [
+      "conc-finance",
+      "conc-general-management"
+    ],
+    "MGT 7520": [
+      "conc-organizational-entrepreneurship-and-innovation",
+      "conc-rural-management"
+    ],
+    "MGT 7525": [
+      "conc-organizational-entrepreneurship-and-innovation"
+    ],
+    "MGT 7545": [
+      "conc-organizational-entrepreneurship-and-innovation"
+    ],
+    "MGT 7910": [
+      "conc-finance",
+      "conc-general-management"
+    ],
+    "MKTG 7030": [
+      "major-required"
+    ],
+    "MKTG 7670": [
+      "conc-digital-marketing"
+    ],
+    "MKTG 7710": [
+      "conc-digital-marketing"
+    ],
+    "MKTG 7730": [
+      "conc-digital-marketing",
+      "conc-finance",
+      "conc-general-management"
+    ],
+    "MKTG 7760": [
+      "conc-digital-marketing"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "IS 7090",
+    "MGT 7999",
+    "IS 7935",
+    "IS 7200",
+    "IS 7310",
+    "IS 7320",
+    "IS 7330",
+    "MGT 7530"
+  ],
+  "draftHash": "7e60ced97d7d3771e3321679c1ea72ec3df407aa682d150ad7e4c8426dd5b4c3"
+}

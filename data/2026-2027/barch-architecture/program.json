@@ -1,0 +1,98 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "barch-architecture",
+    "name": "BArch Architecture",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "PHYS 1111L",
+      "PHYS 2211"
+    ]
+  ],
+  "courses": {
+    "ARCH 1000": [
+      "core-field"
+    ],
+    "ARCH 1241": [
+      "core-field"
+    ],
+    "ARCH 2111": [
+      "core-field"
+    ],
+    "ARCH 2211": [
+      "core-field"
+    ],
+    "ARCH 2242": [
+      "core-field"
+    ],
+    "ARCH 2311": [
+      "core-field"
+    ],
+    "ARCH 3112": [
+      "major-required"
+    ],
+    "ARCH 3113": [
+      "major-required"
+    ],
+    "ARCH 3211": [
+      "major-required"
+    ],
+    "ARCH 3212": [
+      "major-required"
+    ],
+    "ARCH 3313": [
+      "major-required"
+    ],
+    "ARCH 3314": [
+      "major-required"
+    ],
+    "ARCH 4114": [
+      "major-required"
+    ],
+    "ARCH 4116": [
+      "major-required"
+    ],
+    "ARCH 4224": [
+      "major-required"
+    ],
+    "ARCH 4225": [
+      "major-required"
+    ],
+    "ARCH 4226": [
+      "major-required"
+    ],
+    "PHYS 1111": [
+      "major-required"
+    ],
+    "PHYS 1111L": [
+      "major-required"
+    ],
+    "PHYS 2211": [
+      "major-required"
+    ],
+    "PHYS 2211L": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Lower-Division Studio (16 Credit Hours)'",
+    "unrecognized section 'Upper-Division Studio (24 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences or two (2) credit thours of university electives (1000-4000 level coursework from the University Catalog).",
+    "text: If PHYS 1111/1111L or PHYS 2211/2211L were taken in Technology, Mathematics, and Sciences, choose any course from these prefixes: ARCH, CM or other course approved by the department chair.",
+    "ARCH 5006"
+  ],
+  "draftHash": "183149adab08bf59fcd566249bfba27e7059e0b8946acc0cc2e9ac88489f4f30"
+}

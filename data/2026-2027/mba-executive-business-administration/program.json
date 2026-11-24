@@ -1,0 +1,52 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "mba-executive-business-administration",
+    "name": "MBA (Executive) Business Administration",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "GBA 7211": [
+      "major-required"
+    ],
+    "GBA 7212": [
+      "major-required"
+    ],
+    "GBA 7221": [
+      "major-required"
+    ],
+    "GBA 7222": [
+      "major-required"
+    ],
+    "GBA 7231": [
+      "major-required"
+    ],
+    "GBA 7232": [
+      "major-required"
+    ],
+    "GBA 7241": [
+      "major-required"
+    ],
+    "GBA 7242": [
+      "major-required"
+    ],
+    "GBA 7251": [
+      "major-required"
+    ],
+    "GBA 7253": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "daa67035ca6663f8367781cd4051e4ce017c6c6e8f4d0dd8a77647db645838b1"
+}

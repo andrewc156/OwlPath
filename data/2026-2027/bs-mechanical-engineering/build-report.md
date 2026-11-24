@@ -1,0 +1,93 @@
+# Build report — 2026-2027
+
+## Warnings needing review
+
+- **CHEM 1211**
+  - unrecognized: to
+  - unrecognized: higher
+- **CHEM 1211L**
+  - unrecognized: to
+  - unrecognized: higher
+- **CHEM 1212**
+  - unrecognized: to
+  - unrecognized: higher
+- **ENGR 3125**
+  - unrecognized: Engineering Standing
+- **ENGR 3325**
+  - unrecognized: Engineering Standing
+- **ENGR 3345**
+  - unrecognized: Engineering Standing
+- **ENGR 3501**
+  - unrecognized: Engineering Standing
+- **ENGR 3502**
+  - unrecognized: Engineering Standing
+- **ENGR 3801**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 3802**
+  - unrecognized: Engineering Standing
+- **ENGR 3803**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 4402**
+  - unrecognized: Engineering Standing
+- **ENGR 4501**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 4502**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 4503**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 4504**
+  - unrecognized: Engineering Standing
+- **ENGR 4801**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 4802**
+  - unrecognized: & Engineering Standing
+  - missing operator before '& Engineering Standing', assumed and
+- **ENGR 4803**
+  - unrecognized: Engineering Standing
+- **MATH 2335**
+  - unrecognized: A grade of 'C'
+  - unrecognized: higher in
+  - ambiguous and/or precedence: A grade of 'C' or higher in MATH 2202, and ((CSE 1321 and CSE 1321L), or ECET 3710 or ME 1311)
+- **ME 3343**
+  - unrecognized: Engineering Standing
+- **ME 3410**
+  - unrecognized: Engineering Standing
+- **ME 3440**
+  - unrecognized: Engineering Standing
+- **ME 3501**
+  - unrecognized: Engineering Standing
+- **ME 3701**
+  - unrecognized: Engineering Standing
+- **ME 3705**
+  - unrecognized: Engineering Standing
+- **ME 4141**
+  - unrecognized: Engineering Standing
+- **ME 4201**
+  - unrecognized: Engineering Standing
+- **ME 4202**
+  - unrecognized: Engineering Standing
+- **ME 4250**
+  - unrecognized: Engineering Standing
+- **ME 4403**
+  - unrecognized: Engineering Standing
+- **ME 4501**
+  - unrecognized: can be taken concurrently
+  - unrecognized: Engineering Standing
+- **ME 4520**
+  - unrecognized: Engineering Standing
+
+## Left out on purpose
+
+- text: One (1) credit hour carried over from Mathematics & Quantitative Skills.
+- text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.
+- text: Some MATH or PHYS classes may be approved for math or science electives by the department chair.
+- text: Some ENGR, EE, MTRE, or ISYE courses may be approved for technical electives by the department chair.
+- ME 3398
+- ME 4400
+- ME 4490

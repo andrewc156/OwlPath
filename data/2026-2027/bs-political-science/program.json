@@ -1,0 +1,49 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "program": {
+    "id": "bs-political-science",
+    "name": "BS Political Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "DATA 1501": [
+      "core-field"
+    ],
+    "POLS 2101": [
+      "core-field"
+    ],
+    "POLS 2240": [
+      "core-field"
+    ],
+    "POLS 2250": [
+      "core-field"
+    ],
+    "POLS 2270": [
+      "core-field"
+    ],
+    "POLS 2280": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Senior Seminar (3 Credit Hours)'",
+    "unrecognized section 'Subfield 1: American Government and Politics'",
+    "unrecognized section 'Subfield 2: Political Behavior'",
+    "unrecognized section 'Subfield 3: International Relations'",
+    "unrecognized section 'Subfield 4: Comparative Politics'",
+    "unrecognized section 'Subfield 5: Political Theory'",
+    "unrecognized section 'Subfield 6: Public Law and Administration'",
+    "unrecognized section 'Subfield 7: Research Methods'"
+  ],
+  "leftOut": [],
+  "draftHash": "7e3a169f7064744e65ac0b46079dd20bc6ef8f9814adcc151fb1211f7799d532"
+}

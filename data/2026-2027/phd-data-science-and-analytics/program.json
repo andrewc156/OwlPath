@@ -1,0 +1,62 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "phd-data-science-and-analytics",
+    "name": "PhD Data Science and Analytics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "mHealth",
+        "groups": [
+          "conc-mhealth"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CS 8265": [
+      "major-required"
+    ],
+    "CS 8267": [
+      "major-required"
+    ],
+    "HHS 8000": [
+      "conc-mhealth"
+    ],
+    "HHS 8010": [
+      "conc-mhealth"
+    ],
+    "HHS 8020": [
+      "conc-mhealth"
+    ],
+    "HHS 8050": [
+      "conc-mhealth"
+    ],
+    "STAT 8235": [
+      "conc-mhealth"
+    ],
+    "STAT 8240": [
+      "major-required"
+    ],
+    "STAT 8250": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Research (33 Credit Hours)'"
+  ],
+  "leftOut": [
+    "MATH 8020",
+    "MATH 8030",
+    "text: Choose 3 credit hours from the following list of courses:",
+    "HHS 8030"
+  ],
+  "draftHash": "4516f240518a83e4faf3bad2e53a1f3e1fd1e25b669b254be5dd65842f9b18d1"
+}

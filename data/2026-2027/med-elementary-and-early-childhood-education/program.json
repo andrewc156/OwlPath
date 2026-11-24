@@ -1,0 +1,42 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "med-elementary-and-early-childhood-education",
+    "name": "MEd Elementary and Early Childhood Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ECE 7513": [
+      "major-required"
+    ],
+    "ECE 7531": [
+      "major-required"
+    ],
+    "ECE 7543": [
+      "major-required"
+    ],
+    "ECE 7704": [
+      "major-required"
+    ],
+    "ECE 7706": [
+      "major-required"
+    ],
+    "ECE 7707": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "ECE 7525"
+  ],
+  "draftHash": "12b06c1ff9382e0b0ce7a84c471fc93d28322c0d49abd119caae615b546bc4db"
+}

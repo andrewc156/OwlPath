@@ -1,0 +1,68 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "program": {
+    "id": "msseng-systems-engineering",
+    "name": "MSSENG Systems Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "SYE 6005": [
+      "major-elective"
+    ],
+    "SYE 6010": [
+      "major-required"
+    ],
+    "SYE 6015": [
+      "major-elective"
+    ],
+    "SYE 6025": [
+      "major-required"
+    ],
+    "SYE 6031": [
+      "major-required"
+    ],
+    "SYE 6035": [
+      "major-elective"
+    ],
+    "SYE 6050": [
+      "major-elective"
+    ],
+    "SYE 6065": [
+      "major-elective"
+    ],
+    "SYE 6070": [
+      "major-elective"
+    ],
+    "SYE 6075": [
+      "major-elective"
+    ],
+    "SYE 6610": [
+      "major-required"
+    ],
+    "SYE 6611": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "SYE 6055",
+    "SYE 6800",
+    "SYE 7900"
+  ],
+  "draftHash": "4aaaf45b08410dd4d099305fdfa6211abbf2fc525922b66b7cebc27ca8445dad"
+}
