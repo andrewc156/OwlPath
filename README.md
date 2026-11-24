@@ -1,6 +1,6 @@
 # OwlPath
 
-An interactive prerequisite map for Kennesaw State University's College of Computing and Software Engineering.
+An interactive prerequisite map for every degree program at Kennesaw State University.
 
 Pick a course to see what it requires and what it unlocks. Mark courses as complete or in progress, and OwlPath shows what you can take now and what opens up next term.
 

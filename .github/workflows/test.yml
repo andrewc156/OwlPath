@@ -38,5 +38,6 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci
       - run: npm test
-      # Fails unless data/2026-2027/courses.json exists and isn't the sample.
+      # The build guard (scripts/check-data.mjs) refuses unless every shipped courses.json is valid, current and
+      # checked or auto-built clean, no checked major lacks one, and majors.json lists exactly what ships.
       - run: npm run build

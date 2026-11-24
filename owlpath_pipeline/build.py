@@ -1,11 +1,14 @@
-"""Build data/<year>/<major>/courses.json from the saved catalog listing PDFs in catalog/<level>/.
+"""Build data/<year>/<major>/courses.json from the committed catalog snapshot (catalog/<level>/catalog-courses.json),
+or with --from-pdfs from listing PDFs saved by hand in catalog/<level>/.
 
 Pass 1 collects every course the program needs (required leaves pull new courses in). Shared per-level
 overrides (catalog/<level>/overrides.json) replace a course's parsed prerequisites there, so they steer the closure.
+Auto-built (unchecked) majors also pull in the first option the catalog fully has of an OR with no option on the
+map, then warn on any course whose prerequisites can't be met by courses on the map.
 Pass 2 marks each leaf as an in-graph course or an external alternative, then the
 trees are converted to the short output form.
 
-CLI: .venv/bin/python -m owlpath_pipeline.build <program> [--draft]   (reads/writes data/<year>/<program>/)
+CLI: .venv/bin/python -m owlpath_pipeline.build <program> [--draft] [--from-pdfs]   (reads/writes data/<year>/<program>/)
 """
 import argparse
 import json
