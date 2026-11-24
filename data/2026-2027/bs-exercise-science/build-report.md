@@ -2,10 +2,6 @@
 
 ## Warnings needing review
 
-- **ES 2300**
-  - unrecognized: Exercise Science Interest
-  - unrecognized: Public Health Education Interest
-  - unrecognized: Biomedical Engineering Minor
 - **ES 2500**
   - unrecognized: Nutritional Science Minor
 - **ES 3700**

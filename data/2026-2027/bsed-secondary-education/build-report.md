@@ -2,8 +2,6 @@
 
 ## Warnings needing review
 
-- **EDSM 4414**
-  - missing operator before ': Obtain Pre-Service Certificate', assumed and
 - **EDUC 4610**
   - unrecognized: Varies by program:
 - **MAED 3475**

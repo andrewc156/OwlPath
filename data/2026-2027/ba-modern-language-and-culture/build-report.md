@@ -2,8 +2,6 @@
 
 ## Warnings needing review
 
-- **CHIN 1002**
-  - unrecognized: the equivalent
 - **ECON 2105**
   - unrecognized: higher
 - **ECON 2106**
@@ -12,26 +10,8 @@
   - could not parse (per-major clauses): Business Majors: MATH 1111; Non-business Majors: MATH 1101
 - **EDUC 4610**
   - unrecognized: Varies by program:
-- **FREN 1002**
-  - unrecognized: the equivalent
-- **GRMN 1002**
-  - unrecognized: the equivalent
 - **IS 2200**
   - unrecognized: higher
-- **ITAL 1002**
-  - unrecognized: the equivalent
-- **JAPN 1002**
-  - unrecognized: the equivalent
-- **KOR 1002**
-  - unrecognized: the equivalent
-- **PORT 1002**
-  - unrecognized: the equivalent
-- **PORT 2001**
-  - unrecognized: equivalent
-- **PORT 2002**
-  - unrecognized: equivalent
-- **SPAN 1002**
-  - unrecognized: the equivalent
 
 ## Notes
 

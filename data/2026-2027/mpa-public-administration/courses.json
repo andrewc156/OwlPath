@@ -1,0 +1,689 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "PAD 6500",
+      "PAD 6600"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132635",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide students with a study of the application of computer and statistical techniques to the management of information, and the science and art of turning data into information. This course requires the student to further refine technical research and authoring skills, report writing and presentations, computer-based statistical analyses and information organization and presentation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7005",
+      "notes": [
+        "Full admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Informatics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132636",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the Systems Development Life Cycle and the technologies used to implement high-quality information systems. A variety of modeling techniques will be used by students to articulate client requirements and convert them into implementable specifications. Prototyping and methodology engineering will be covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7060",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Information Systems Development Methods and Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines contemporary strategies for the design and implementation of applications supported by back-end database systems. Topics include data administration, data mining, user-interface design, reporting, data integrity issues, and distributed databases. Relational and object-oriented technologies are covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7080",
+      "notes": [
+        "Full admission to the MSIS program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Database Application Design and Implementation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132991",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this introduction course, students learn the principles, applications and management of computer information systems. Criteria to assess the value, risks, and costs associated with computer information systems and how these technologies bring measurable strategic and tactical advantages are analyzed. Issues relating to successful organizational adoption as well as ethical, moral, social, and legal aspects of computer information systems in business processes are discussed. Business cases bolster the theories from text and provide real-world contexts for exploration, understanding and analysis of strategic objectives including those relating to successful implementation of computer information systems in ERP, Supply Chain, CRM, and E-business.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7090",
+      "notes": [
+        "Full admission to the MBA program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Leveraging Information Systems in Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Implementation and reflection of project management principles for Information Systems projects. Students will analyze case studies and readings that address project risk management, project portfolio management, project management for global teams, integrated project teams, and virtual project teams. Project management software will be used to facilitate team projects and project reporting.",
+      "groups": [
+        "major-elective",
+        "major-required"
+      ],
+      "id": "IS 7100",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced IT Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132641",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a case based survey of contemporary legal and ethical issues faced by IS professionals. Topics include a review of applicable statutes and regulations that impact the IS organization. Students will conduct on-line research and explore ethical issues at the leading edge of the organization\u2019s technology frontiers.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7200",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Legal and Ethical Issues in Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132639",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examination of current Standards of Due Care and Best Business Practices in Information Security. Includes examination of security technologies, methodologies, and practices. Focus is on evaluation and selection of optimal security posture. Topics include evaluation of security models, risk assessment, threat analysis, organizational technology evaluation, security implementation, disaster recovery planning and security policy formulation and implementation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7305",
+      "notes": [
+        "Full admission to the MSIS program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Foundations of Information Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132986",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes detailed examinations of critical information security and information systems requirements for governance, risk management, and compliance planning. It includes an examination of policies, procedures, and staffing functions necessary to organize and administrate ongoing security functions in the organization to support secure business and information system operations. Subjects to be covered include IT/InfoSec Governance, security planning and practices, legal and regulatory compliance, continuity planning, and disaster recovery planning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7310",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Governance, Risk Management, and Compliance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132640",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Detailed examinations of the application of technical controls to protect the confidentiality, integrity and availability of information and information assets. Includes tools, techniques and technologies in the protection of information from internal and external threats. Topics covered include: firewall configurations, hardening operating systems, intrusion detection systems and virtual private networks.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7320",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Information Security Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132642",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A detailed study of strategic and tactical planning for non-standard operations resulting from events beyond the organization\u2019s control. Disaster Recovery and Business Continuity Planning prepares the student to develop and execute plans to enable the organization to recover operations and continue critical business functions in the event of a disaster. This course includes an overview of incident response planning as a possible precursor to Disaster Recovery and Business Continuity and also examines Crisis Management planning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7330",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Disaster Recovery/Business Continuity Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132643",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Modern information systems contain many vendor-supplied components that must be selected, integrated, tested, and installed. This course analyzed current practices in systems integration, including enterprise resource planning (ERP), supply chain management (SCM), customer relationship management (CRM), and data integration. Further, this course explores the impact of enterprise models on work practices and the role of systems in transforming global organizations and markets.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7400",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Enterprise Process Models"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132644",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses emerging technologies, how they evolve, how to identify them, and the effect of international, political, social, economic, and cultural factors on them. This course describes the business impacts of disruptive technologies, international perspectives on emerging technologies, and forecasting methodologies, such as monitoring, expert opinion, trend analysis, and scenario construction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7500",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Emerging Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132645",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the concepts and issues inherent in global/international IT. The global IS economy is characterized by an environment where customer and supplier organizations can buy or sell IS products and services from/to anywhere on the globe. This new environment is largely fostered by the spread of the Internet, global software development standards, global software packages, and fewer trade restrictions, U.S. organizations now regularly source software development, software maintenance, systems upgrades, platform transitions, help desks, and other IS-related work globally. In this course, students will use case studies and readings to analyze, interpret, and discuss companies that compete in the global IT environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7600",
+      "notes": [
+        "permission of the program director"
+      ],
+      "prereqs": "IS 7005",
+      "title": "Global IS Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132646",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A capstone course, which integrates the program\u2019s coursework into comprehensive, IS policies and procedures, which support the organization\u2019s mission. Students will review and evaluate actual corporate IS strategies in a case-study format.",
+      "groups": [
+        "major-elective",
+        "major-required"
+      ],
+      "id": "IS 7700",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Information Systems Policy and Strategy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132650",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the IT leadership of an overall organizational system consisting of the enterprise itself, the IS function and its role in using IT and information assets to support the organization, and the information technology architecture. Basic concepts of the leader, follower, and situation that influence IT decision-making are discussed. The role of the CIO within the organization is also discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7800",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "IT Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132298",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents an overview of the emerging movement toward alternative forms of conflict resolution and of conflict management as an interdisciplinary field. Readings are drawn from a broad range of academic disciplines, including law, economics, social psychology, sociology, anthropology, political science, as well as dispute resolution. Students are introduced to conflict resolution theories, dispute resolution processes, conflict management system design, and application of conflict management to the public policy environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7100",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Conflict Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132782",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers the public policymaking process, civil service and administrative agencies, and policy implementation, with brief introductory foray into motivation, leadership, decision making, finance and budgeting, and personnel. Contrasts between public and business administration will be included.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6200",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Public Administration and Public Service"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132783",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops familiarity with methods of research and analysis useful to public service practitioners. It details practical tools for future administrators. Such tools can include, but are not limited to, the use of surveys, qualitative analysis, quantitative analysis, descriptive statistics and inferential statistics. The course explores the uses of research and application of those uses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6250",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Research Methods and Computer Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132784",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Offers conceptual and practical perspectives for understanding and managing organizations. A spectrum of theories of organization will be examined. The concepts and issues to be discussed include mechanical and organismic aspects of organizations, organizational culture and politics, organizational psychodynamics, and recent theories of organizing. The implications of the theories for a reflective practice will be the focus of class discussions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6300",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Public Organization Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132785",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Techniques of financial management, chiefly in local agencies, covering the origins and types of modern budgeting, from line-item, program and performance, to zero-based budgeting. Attention will be paid to both the politics of the budgetary process and the financial and accounting principles involved, with a strong emphasis on hands-on exercises.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6350",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Public Service Budgeting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132786",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the interaction between the federal, state, and local levels of government in the United States and their interaction with nonprofit and other private sector organizations. Special attention is given to the constitutional and fiscal relationships between these levels of government.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6450",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Governmental Relations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132787",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Deals with the theoretical issues and practical techniques of policy analysis. Focus will be on problem definition, alternative and criteria formulation, and decision making phases of prospective policy analysis. Students will learn to conduct simple analyses for policy decisions. Policy-analytic report writing and other forms of policy communication will also be emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6500",
+      "notes": [],
+      "prereqs": "PAD 6250",
+      "title": "Policy Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132788",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce the basic methods of policy and program evaluation. These evaluation methods are used in needs assessments, monitoring social programs, and assessing the effectiveness and efficiency of their impacts. Quantitative approaches, such as experimental, quasi-experimental, and reflexive designs and the social, political, and ethical context of evaluation studies will be discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6600",
+      "notes": [],
+      "prereqs": "PAD 6250",
+      "title": "Program Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132789",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses theories and principles of managing people in public and nonprofit organizations. Issues that will be addressed are the application of human resources concepts and processes, the legal and political influences impacting human resource management, and the distinctive role of human resource management in public and nonprofit organizations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 6700",
+      "notes": [
+        "Admission to the graduate college"
+      ],
+      "prereqs": null,
+      "title": "Human Resource Management in Public Service"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132790",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Provides students with a comprehensive overview of the historical development of community service and nonprofit organizations. Particular emphasis will be given to distinguishing the nature of nonprofit organizations from business and traditional government organizations. Also, the course will emphasize the unique philosophy of nonprofits, especially the notions of charity, philanthropy, community caring, and volunteerism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7100",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Philanthropy and the Nonprofit Sector"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132791",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Provides an overview of current health policy in the U.S. and government\u2019s role in it and how these have evolved in historical perspective. The organization, financing, and delivery of health care will be examined as well as issues such as access and the roles of various health care providers.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7120",
+      "notes": [],
+      "prereqs": "PAD 6200",
+      "title": "Health Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132792",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce students to the basic concepts in politics of local and regional governance. The history of the city and county administration in the U.S., power relations in urban areas, and the legal/structural bases of urban policymaking will be discussed in the class. The history and structure of American cities will be compared with those of European cities and the global implications of urban problems will be discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7130",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Regional Politics and Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133118",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines and evaluates the core parameters of international environmental policy, the elements of international environmental governance, and the associated institutions and instruments. The course explores global environmental change, examining the causes and impacts of global environmental problems. Current international environmental policies are examined through an examination of (i) the main actors of international environmental policy-making; (ii) the main instruments of international environmental policies; and (iii) the core principles of international environmental policy-making.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7140",
+      "notes": [
+        "Admission to Graduate Public Administration Program"
+      ],
+      "prereqs": null,
+      "title": "International Environmental Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132793",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers a spectrum of issues which may range from local matters such as education, housing, and urban planning to broader concerns such as health care and economic policy as well as environmental conditions. For each issue cross-national comparisons will be explored and alternative policy solutions will be developed and discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7150",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Contemporary Public Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132794",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover how to build successful boards for responsible governance, community impact, and mission advancement; how to recruit, train, and manage staff and volunteers; how to develop resources and raise funds from institutional as well as individual contributors. It will also emphasize special ethical dimensions of nonprofit governance and administration",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7180",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Nonprofit Governance and Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132795",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover the common practices and problems of local government administrators and city managers, with special attention to the complex environment of and interrelations in the metropolitan and regional setting. It will explore the relationship between politics and administration and between city and county managers and their multiple constituencies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7230",
+      "notes": [
+        "Admission to graduate study"
+      ],
+      "prereqs": null,
+      "title": "Local Governance and City Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132796",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "To increase the ability of individuals to deal with public and social problems in all areas of public service, this course concentrates on understanding and developing leadership roles and ethical practices. Emphasis will be on ethical leadership in the context of teamwork, participatory decision making and employee empowerment, and on the development of organizational cultures that promote individual initiative and leadership.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7250",
+      "notes": [],
+      "prereqs": "PAD 6200",
+      "title": "Leadership and Ethics in Public Service"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132797",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Public Financial Management is a sequel to the public budgeting course. Public finance is the study of where and how governments acquire resources. Taxes, fees, charges, debt concepts, and public finance theories are explored with an emphasis on actual government problem solving.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7390",
+      "notes": [],
+      "prereqs": "PAD 6350",
+      "title": "Public Financial Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132798",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the theory, history and the technical and legal bases of regional/metropolitan and local planning. The topics to be discussed are the history of planning in the U.S. and European countries, the legal bases and politics of planning, the tools of land-use planning, community development, transportation planning, economic development and growth management, and environmental and energy planning. Particular emphasis will be on the legal and technical aspects of planning in cities, counties, and metropolitan regions. The implications of citizen participation in planning for democracy and political processes will also be discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7430",
+      "notes": [],
+      "prereqs": "PAD 6200",
+      "title": "Regional and Local Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132799",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Administrative law provides students with a broad ranging analysis of how public administrators must handle constitutional and legal restraints placed on them by legislators, executives and the judiciary. The course provides an overview of those constraints and discusses the United States Supreme Court cases in which the law and constitution are applied to administrative actions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7455",
+      "notes": [],
+      "prereqs": "PAD 6200",
+      "title": "Administrative Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133707",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course deals with the role of law in public service delivery and the legal environment of public organizations with a specific focus on government agencies. Focus is on legal principles that guide, influence, and govern the behaviors of public administrators and public managers in their day-to-day work. Special attention is given to understanding the public law implications and the legal context of public management and skills needed to conduct basic legal research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7461",
+      "notes": [],
+      "prereqs": null,
+      "title": "Law for Public Managers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133708",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course analyzes the role of law and the legal environment of nonprofit organizations. The focus is on the laws and legal principles that guide, influence, and govern the development and management of charitable organizations. Special attention is given to understanding contemporary legal issues faced in the nonprofit context with a specific focus on regulatory and tax provisions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7465",
+      "notes": [],
+      "prereqs": null,
+      "title": "Law for Nonprofit Managers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132800",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores societal issues and trends which influence the administration of justice. These include liability issues; labor law applicability to a 24 hour/7 day a week operation; privatization; and diversity. It will address particular attention to the creation and impact of public policy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7470",
+      "notes": [],
+      "prereqs": "PAD 6200",
+      "title": "Issues in Criminal Justice Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132804",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Culminating exercise required of all in-service practitioners; students must have permission of the program director prior to registering for this course or alternatively for PAD 7985. With the guidance of the program director, the student will select a suitable topic and develop a proposal to guide completion of a fieldwork/research project during the semester. Requires preparation of a written paper that summarizes the results of project and culminates in oral presentations that demonstrate how the candidate\u2019s work as a professional in public service will serve him/her and the community. Note: Emphasis will be on actual issues and problems faced by practicing administrators.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PAD 7995",
+      "notes": [
+        "Completion of 21 credit hours in the MPA program",
+        "approval of program director"
+      ],
+      "prereqs": null,
+      "title": "Public Service Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133706",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This culminating professional exercise addresses important problems facing public and nonprofit organizations using the knowledge and skills gained in prior coursework. Projects vary based on the needs of the organization, but all require implementing a work plan with the client, collecting and analyzing data, developing findings and recommendations, writing a final report, and presenting findings to the client. Requires a minimum of 75 hours of field work. Students prepare a written paper that summarizes the results of the project and make an oral presentation that demonstrates the student\u2019s abilities as a public service professional.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "PAD 7998",
+      "notes": [
+        "Completion of 21 credit hours in the MPA program",
+        "approval of program director during the semester preceding course enrollment"
+      ],
+      "prereqs": null,
+      "title": "MPA Capstone Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132967",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on types of proposals and grant applications written by businesses and nonprofit organizations. Students research, plan, draft, and finalize a business sales proposal, a letter proposal to a foundation, and a grant application to a government agency. These service-learning assignments involve students in working with actual organizations and/or clients and in collaborating with classmates. Students will learn about the careers available to professional writers who specialize in proposal and grant writing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6255",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the MAPW director"
+      ],
+      "prereqs": null,
+      "title": "Grant & Proposal Writing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "mpa-public-administration",
+    "name": "MPA Public Administration"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

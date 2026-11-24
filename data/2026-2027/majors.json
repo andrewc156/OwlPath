@@ -1,6 +1,41 @@
 [
   {
     "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "eds-curriculum-and-instruction",
+    "level": "graduate",
+    "name": "EdS Curriculum and Instruction"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "eds-educational-leadership",
+    "level": "graduate",
+    "name": "EdS Educational Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "eds-instructional-technology",
+    "level": "graduate",
+    "name": "EdS Instructional Technology"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "eds-secondary-and-middle-grades-education",
+    "level": "graduate",
+    "name": "EdS Secondary and Middle Grades Education"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "eds-special-education",
+    "level": "graduate",
+    "name": "EdS Special Education"
+  },
+  {
+    "checked": false,
     "college": "Radow College of Humanities and Social Sciences",
     "id": "ma-american-studies",
     "level": "graduate",
@@ -23,6 +58,13 @@
   {
     "checked": false,
     "college": "Coles College of Business",
+    "id": "mba-evening-business-administration",
+    "level": "graduate",
+    "name": "MBA (Evening) Business Administration"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
     "id": "mba-executive-business-administration",
     "level": "graduate",
     "name": "MBA (Executive) Business Administration"
@@ -33,6 +75,13 @@
     "id": "mba-webmba-business-administration",
     "level": "graduate",
     "name": "MBA (WebMBA) Business Administration"
+  },
+  {
+    "checked": false,
+    "college": "Bagwell College of Education",
+    "id": "med-instructional-technology",
+    "level": "graduate",
+    "name": "MEd Instructional Technology"
   },
   {
     "checked": false,
@@ -57,6 +106,13 @@
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "mpa-public-administration",
+    "level": "graduate",
+    "name": "MPA Public Administration"
+  },
+  {
+    "checked": false,
     "college": "College of Architecture and Construction Management",
     "id": "ms-construction-management",
     "level": "graduate",
@@ -78,6 +134,20 @@
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
+    "id": "ms-digital-financial-technologies",
+    "level": "graduate",
+    "name": "MS Digital Financial Technologies"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "ms-electrical-and-computer-engineering",
+    "level": "graduate",
+    "name": "MS Electrical and Computer Engineering"
+  },
+  {
+    "checked": false,
     "college": "Wellstar College of Health and Human Services",
     "id": "ms-exercise-science",
     "level": "graduate",
@@ -85,10 +155,45 @@
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
+    "id": "ms-healthcare-management-and-informatics",
+    "level": "graduate",
+    "name": "MS Healthcare Management and Informatics"
+  },
+  {
+    "checked": false,
+    "college": "College of Science and Mathematics",
+    "id": "ms-integrative-biology",
+    "level": "graduate",
+    "name": "MS Integrative Biology"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "ms-intelligent-robotic-systems",
+    "level": "graduate",
+    "name": "MS Intelligent Robotic Systems"
+  },
+  {
+    "checked": false,
     "college": "Wellstar College of Health and Human Services",
     "id": "ms-prosthetics-and-orthotics",
     "level": "graduate",
     "name": "MS Prosthetics and Orthotics"
+  },
+  {
+    "checked": false,
+    "college": "Coles College of Business",
+    "id": "ms-technology-management-and-leadership",
+    "level": "graduate",
+    "name": "MS Technology Management and Leadership"
+  },
+  {
+    "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
+    "id": "msem-engineering-management",
+    "level": "graduate",
+    "name": "MSEM Engineering Management"
   },
   {
     "checked": false,
@@ -134,6 +239,27 @@
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "phd-international-conflict-management",
+    "level": "graduate",
+    "name": "PhD International Conflict Management"
+  },
+  {
+    "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
+    "id": "ba-history",
+    "level": "undergraduate",
+    "name": "BA History"
+  },
+  {
+    "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "bas-information-technology",
+    "level": "undergraduate",
+    "name": "BAS Information Technology"
+  },
+  {
+    "checked": false,
     "college": "Southern Polytechnic College of Engineering and Engineering Technology",
     "id": "bs-aerospace-engineering",
     "level": "undergraduate",
@@ -173,6 +299,20 @@
     "id": "bs-political-science",
     "level": "undergraduate",
     "name": "BS Political Science"
+  },
+  {
+    "checked": false,
+    "college": "College of Computing and Software Engineering",
+    "id": "bsit-information-technology",
+    "level": "undergraduate",
+    "name": "BSIT Information Technology"
+  },
+  {
+    "checked": false,
+    "college": "Wellstar College of Health and Human Services",
+    "id": "bsn-nursing",
+    "level": "undergraduate",
+    "name": "BSN Nursing"
   },
   {
     "checked": false,

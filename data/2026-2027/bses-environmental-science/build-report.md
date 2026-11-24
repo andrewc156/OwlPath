@@ -9,11 +9,6 @@
 - **GEOL 1121K**
   - unrecognized: any two 1000-level
   - unrecognized: 2000-level science courses
-- **GIS 4415**
-  - unrecognized: GSS
-  - unrecognized: Internship Coordinator
-  - missing operator before '(', assumed and
-  - missing operator before 'Internship Coordinator', assumed and
 - **SCM 2000**
   - unrecognized: Mathematics
 

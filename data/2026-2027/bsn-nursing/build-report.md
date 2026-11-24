@@ -2,24 +2,7 @@
 
 ## Warnings needing review
 
-- **NURS 3101**
-  - unrecognized: Nursing
-  - missing operator before 'BSN major', assumed and
-- **NURS 3102**
-  - unrecognized: Nursing
-  - missing operator before 'BSN major', assumed and
-- **NURS 3103**
-  - unrecognized: Nursing
-  - missing operator before 'BSN major', assumed and
-- **NURS 3104**
-  - unrecognized: Nursing
-  - missing operator before 'BSN Major', assumed and
-- **NURS 3105**
-  - unrecognized: Nursing
-  - missing operator before 'BSN major', assumed and
-- **NURS 3106**
-  - unrecognized: Nursing
-  - missing operator before 'BSN major', assumed and
+None.
 
 ## Notes
 

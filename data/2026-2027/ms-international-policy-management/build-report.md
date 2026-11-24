@@ -2,8 +2,6 @@
 
 ## Warnings needing review
 
-- **IPM 7756**
-  - missing operator before '(', assumed and
 - **IPM 7760**
   - unrecognized: Completion of first-year fall
   - unrecognized: spring semesters

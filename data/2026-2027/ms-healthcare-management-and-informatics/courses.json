@@ -1,0 +1,371 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133058",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class will provide an overview of the current landscape of healthcare; introduce the role of information systems in healthcare; emphasize the use of clinically motivated use of information technology for quality, efficient, delivery and practice of healthcare; the management challenges in the current healthcare landscape; and the profound role and impact of informatics. An examination of how information is captured, converted, and stored in machine readable form and used in the various facets of the health care system; the impact of Electronic Medical Record (EMR); and personalized medicine will also be examined.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7510",
+      "notes": [
+        "Full admission to the MS-HMI program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Healthcare Management and Informatics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133357",
+      "catalogYear": "2026-2027",
+      "coreqs": "HMI 7510",
+      "credits": "3",
+      "description": "The course is designed to give students core skills and competency in statistics and data analytics via SAS. This is a core degree requirement for the Masters in Healthcare Management and Informatics program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7520",
+      "notes": [],
+      "prereqs": null,
+      "title": "Data Analytics via SAS"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133358",
+      "catalogYear": "2026-2027",
+      "coreqs": "HMI 7510",
+      "credits": "3",
+      "description": "The course in Data Analytics via R aims to provide relevant skills and competency in data analytics and statistics via R to the graduates with the goal to enable them to enhance patient safety and impact the quality, safety, and cost-effectiveness of healthcare delivery and practice.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HMI 7530",
+      "notes": [],
+      "prereqs": null,
+      "title": "Data Analytics via R"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133429",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide students with the knowledge and skills needed to develop applications in a development environment. Students will learn programming logic and practice through developing hands on application development. The course will use Java programing platform.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7540",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Healthcare Information Systems Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133430",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines contemporary strategies for the design and implementation of applications supported by back-end database systems. Topics include data administration, data mining, user-interface design, reporting, data integrity issues, and distributed databases. Multidimensional and Hierarchical databases are also covered. The course will be under the context of Healthcare Information Systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7550",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Database Systems in Healthcare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133585",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended exclusively for students enrolled in the Masters in Healthcare Management and Informatics degree program. This course provides an overview of Electronic Health Records (EHRs) including the management, functional/technical knowledge, and business applicability of EHRs in the contemporary healthcare landscape and meeting the Triple Aim of improving outcomes, reducing cost, and effective healthcare delivery to diverse population groups. VLAB is leveraged in the course to provide students an opportunity to get hands-on-experience with functional EHRs. Additionally, the course leverages cases and real-world scenarios to have an in-depth understanding of the constraints, challenges, and opportunities associated with strategies underlying adoption and management of EHRs at diverse health settings - urban, suburban, rural. This course entails students working in groups and on individual assignments during the semester.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7560",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Management and Application of Electronic Health Records"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133584",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended exclusively for students enrolled in the Masters in Healthcare Management and Informatics degree program. Contemporary healthcare systems have many complex processes and overlapping workflows supporting the day to day functioning. This course provides an understanding of existing healthcare processes and workflows with the objective to re-engineer processes and workflows to impact Triple Aim - improve patient outcomes, reduce cost, and manage population health. The course provides students the tools to identify and analyze business processes, and to model organizational effectiveness through business process innovations enabled by Information Systems. The first part of the course examines business processes and innovations while the second part examines the strategic impact on organizational success from the perspective of processes and workflows. Further, this course explores the impact of organizational models on processes and workflows and the role of systems in transforming healthcare organizations and markets. This course includes cases and real-world scenarios reflecting organizational processes, innovations, process re-engineering and workflows in the contemporary healthcare setting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7570",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Healthcare Processes and Workflows"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133432",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Detailed examinations of a systems-wide perspective of information security, beginning with a strategic planning process for security in the context of healthcare. Includes an examination of the policies, procedures, and staffing functions necessary to organize and administrate ongoing security functions in a healthcare organization. Subjects include security practices, security architecture and models, continuity planning and disaster recovery planning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7580",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Governance, Risk Management and Compliance in Healthcare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133586",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended exclusively for students enrolled in the Masters in Healthcare Management and Informatics degree program. The overall objective of the course is to provide the students of the program with the business acumen, analytical and leadership skills needed for the successful creation, distribution, and management of health care services in the contemporary healthcare industry. The course will emphasize the value based approach to health care industry analysis and its use in strategic planning, competitive analysis, strategic decision making and implementation. The course format will include lectures, real examples and cases and some guest lectures by experienced industry leaders. Topics covered will include Economics of Health care Industry, Strategic Gaming and Competitive Analysis and Value Chain in Health Care and how to use these tools for Strategic leadership in the healthcare industry. Each topic will be introduced through the primary text book, cases and articles on relevant topics and presentations. This course provides the student with foundation of business knowledge, and the analytical and leadership skills needed in the complicated economic environments of health care industry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7590",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Health Care Industry: Economics, Strategy, and Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133589",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended exclusively for students enrolled in the Masters in Healthcare Management and Informatics degree program. This course provides an understanding of leadership principles and strategic knowledge rooted in ethical management and decision-making in health care delivery systems and applications. Students will gain experience through case analysis, assessments, and presentations that will allow them to identify problems and offer collaborative resolution in areas related to management and ethics of leadership that support quality of healthcare delivery and practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7610",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Management & Ethics of Leadership in Healthcare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133588",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended exclusively for students enrolled in the Masters in Healthcare Management and Informatics degree program. The overall objective of this course is to provide the students in the program functional understanding of data mining and visualization in the context of healthcare. Students will gain experience through practical application of data selection, cleaning, coding, using different statistical, pattern recognition and machine learning techniques, and reporting and visualization of the generated structures.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7620",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Data Mining and Visualization in Healthcare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133057",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers students an opportunity to integrate knowledge gained in the classroom with real-world problems. Students work in teams and consult with a working professional to identify a real world problem related to healthcare management and informatics and apply the knowledge learnt in class to design a potential solution. Consists of engagement in practical work and research in a major area of health informatics. Potential areas of work include design or analysis of health informatics systems, programs, or applications; program planning; management; and policy development. Encourages community-based participatory projects. To the extent possible, capstone projects have as a goal a practical contribution to the health informatics field. Students initiate and design capstone projects in consultation with faculty members who provide guidance and mentoring.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HMI 7770",
+      "notes": [],
+      "prereqs": "HMI 7510",
+      "title": "Capstone in Healthcare Management and Informatics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Implementation and reflection of project management principles for Information Systems projects. Students will analyze case studies and readings that address project risk management, project portfolio management, project management for global teams, integrated project teams, and virtual project teams. Project management software will be used to facilitate team projects and project reporting.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7100",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced IT Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132641",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a case based survey of contemporary legal and ethical issues faced by IS professionals. Topics include a review of applicable statutes and regulations that impact the IS organization. Students will conduct on-line research and explore ethical issues at the leading edge of the organization\u2019s technology frontiers.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7200",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Legal and Ethical Issues in Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132640",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Detailed examinations of the application of technical controls to protect the confidentiality, integrity and availability of information and information assets. Includes tools, techniques and technologies in the protection of information from internal and external threats. Topics covered include: firewall configurations, hardening operating systems, intrusion detection systems and virtual private networks.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7320",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Information Security Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132642",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A detailed study of strategic and tactical planning for non-standard operations resulting from events beyond the organization\u2019s control. Disaster Recovery and Business Continuity Planning prepares the student to develop and execute plans to enable the organization to recover operations and continue critical business functions in the event of a disaster. This course includes an overview of incident response planning as a possible precursor to Disaster Recovery and Business Continuity and also examines Crisis Management planning.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7330",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Disaster Recovery/Business Continuity Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133115",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide a practical foundation of database systems with emphasis on relational database design, implementation, and management. Topics include normalization, ERD, logical and physical design, SQL query, database applications, usage of XML in database, and data warehouse.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IT 5433",
+      "notes": [],
+      "prereqs": null,
+      "title": "Databases: Design and Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133387",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces data visualization theories, techniques, and tools particularly for analyzing business data and improving business decision making. Students will design, develop, and evaluate effective visualizations and dashboards at strategic, tactic, and operational levels.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7113",
+      "notes": [],
+      "prereqs": "IT 5433",
+      "title": "Data Visualization"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133145",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the importance of information technology and information systems in the health care industry. It provides an overview of the healthcare IT industry in the U.S. and clinical terminologies, a review of fundamental characteristics of clinical information, health information exchange stands (HL7); healthcare payment and reimbursement systems, the challenges of IT implementation, and a detailed discussion of the primary clinical and managerial applications of information (including electronic health records - EHR). Group and individual research will be required.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 7503",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Health Information Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132704",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The objective of this course is to learn how to maximize the overall value to the customer for the least cost possible. The value is the difference between what the final product (or service) is worth to the customer and the effort the system expends in filling the customer\u2019s request. Successful value chain management requires several decisions relating to the flow of information and products or services. Decisions fall into these three categories: (1) value chain strategy, (2) value chain planning, and (3) value chain operations. The topics include competitive scope and the value chain, the value chain and organizational structure, product/process design, capacity/inventory management, location/distribution management, quality, forecasting, shop control, cost evaluation, and their interrelationships.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MGT 7040",
+      "notes": [
+        "Admission to the Coles MBA or MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Managing the Value Chain"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133473",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to assist the advanced practice nursing student to understand innovative teaching methods and outcome measurement. The focus will be on principles of teaching and learning and culture that can be applied in the development, implementation, and evaluation of educational courses, seminars, workshops, or community programs for nurses, students, patients, or community members.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "NURS 7723",
+      "notes": [
+        "Admission to the MSN program",
+        "permission of program director"
+      ],
+      "prereqs": null,
+      "title": "Instructional Methods and Outcome Measurement in Nursing Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132927",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the first of a two course series designed to assist students in preparing to teach in a technology-rich environment. This course includes the use of emerging technology in education and nursing practice. Content includes the use of technology and information systems (electronic health records, telecommunications, informatics) for decision making in the provision of safe, effective care; use of multiple methods of simulation and virtual reality learning, distance learning. Online course development, tele-health/tele-medicine, and other technology based instructional methods will be included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "NURS 7753",
+      "notes": [],
+      "prereqs": "NURS 7723",
+      "title": "Technology in Nursing Education and Practice I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132753",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops proactive leadership skills in leading and shaping organizations in a multicultural society. The course examines the impact of family and welfare policy on health status, health care access, and health outcomes. Diversity and cultural competence are studied in relation to the changing global populations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "NURS 7794",
+      "notes": [
+        "Admission to MSN program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Leadership and Policy in a Multicultural World"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-healthcare-management-and-informatics",
+    "name": "MS Healthcare Management and Informatics"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

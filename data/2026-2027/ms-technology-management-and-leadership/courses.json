@@ -1,0 +1,273 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133741",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, business have critical infrastructure assets that present conversion challenges or incompatible. In this course students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition. Students will also evaluate the strategic decisions that are undertaken by companies in the FinTech space. Note: This course may be cross-leveled with FTA 3860.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIS 6860",
+      "notes": [],
+      "prereqs": null,
+      "title": "Emerging FinTech Payments Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132635",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide students with a study of the application of computer and statistical techniques to the management of information, and the science and art of turning data into information. This course requires the student to further refine technical research and authoring skills, report writing and presentations, computer-based statistical analyses and information organization and presentation.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7005",
+      "notes": [
+        "Full admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Informatics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132636",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the Systems Development Life Cycle and the technologies used to implement high-quality information systems. A variety of modeling techniques will be used by students to articulate client requirements and convert them into implementable specifications. Prototyping and methodology engineering will be covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7060",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Information Systems Development Methods and Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines contemporary strategies for the design and implementation of applications supported by back-end database systems. Topics include data administration, data mining, user-interface design, reporting, data integrity issues, and distributed databases. Relational and object-oriented technologies are covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7080",
+      "notes": [
+        "Full admission to the MSIS program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Database Application Design and Implementation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Implementation and reflection of project management principles for Information Systems projects. Students will analyze case studies and readings that address project risk management, project portfolio management, project management for global teams, integrated project teams, and virtual project teams. Project management software will be used to facilitate team projects and project reporting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7100",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced IT Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132641",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a case based survey of contemporary legal and ethical issues faced by IS professionals. Topics include a review of applicable statutes and regulations that impact the IS organization. Students will conduct on-line research and explore ethical issues at the leading edge of the organization\u2019s technology frontiers.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7200",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Legal and Ethical Issues in Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132986",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes detailed examinations of critical information security and information systems requirements for governance, risk management, and compliance planning. It includes an examination of policies, procedures, and staffing functions necessary to organize and administrate ongoing security functions in the organization to support secure business and information system operations. Subjects to be covered include IT/InfoSec Governance, security planning and practices, legal and regulatory compliance, continuity planning, and disaster recovery planning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7310",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Governance, Risk Management, and Compliance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132640",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Detailed examinations of the application of technical controls to protect the confidentiality, integrity and availability of information and information assets. Includes tools, techniques and technologies in the protection of information from internal and external threats. Topics covered include: firewall configurations, hardening operating systems, intrusion detection systems and virtual private networks.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7320",
+      "notes": [
+        "Admission to the MSIS/MBA program",
+        "permission of the MSIS program director"
+      ],
+      "prereqs": null,
+      "title": "Information Security Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132642",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A detailed study of strategic and tactical planning for non-standard operations resulting from events beyond the organization\u2019s control. Disaster Recovery and Business Continuity Planning prepares the student to develop and execute plans to enable the organization to recover operations and continue critical business functions in the event of a disaster. This course includes an overview of incident response planning as a possible precursor to Disaster Recovery and Business Continuity and also examines Crisis Management planning.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7330",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Disaster Recovery/Business Continuity Planning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132644",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses emerging technologies, how they evolve, how to identify them, and the effect of international, political, social, economic, and cultural factors on them. This course describes the business impacts of disruptive technologies, international perspectives on emerging technologies, and forecasting methodologies, such as monitoring, expert opinion, trend analysis, and scenario construction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7500",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Emerging Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132646",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A capstone course, which integrates the program\u2019s coursework into comprehensive, IS policies and procedures, which support the organization\u2019s mission. Students will review and evaluate actual corporate IS strategies in a case-study format.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7700",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Information Systems Policy and Strategy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132650",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the IT leadership of an overall organizational system consisting of the enterprise itself, the IS function and its role in using IT and information assets to support the organization, and the information technology architecture. Basic concepts of the leader, follower, and situation that influence IT decision-making are discussed. The role of the CIO within the organization is also discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7800",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "IT Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132651",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "Special projects and/or thesis option for students who wish to pursue advanced work on a particular subject in a specialized area.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7910",
+      "notes": [
+        "Must be approved by graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Special Projects in Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132654",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, applications such as customer relationship management, enterprise resource planning, and supply chain management in the context of e-business are explored. Business cases are an integral part of this coursework, and provide real-world contexts for the exploration and understandings of the strategic objectives, sources of revenue, core competencies, market competitiveness, critical success factors, and IT infrastructures required for successful implementation of e-business initiatives.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7920",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "IT Customer Relationship Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133166",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Business Intelligence centers on collecting, analyzing and understanding attributes and descriptors of events, and actions of stakeholders of an organization and use the insights to strategize actions such as responding to customer complaints etc. Students learn BI analytics including big data analytics in the way they provide value to an organization. Contemporary BI and Big Data technologies are discussed and explained.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7935",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Business Intelligence - Traditional and Big Data Analysis"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-technology-management-and-leadership",
+    "name": "MS Technology Management and Leadership"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

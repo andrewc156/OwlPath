@@ -2,9 +2,7 @@
 
 ## Warnings needing review
 
-- **EDSM 8701**
-  - unrecognized: in education
-  - missing operator before 'in education', assumed and
+None.
 
 ## Left out on purpose
 

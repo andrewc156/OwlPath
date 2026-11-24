@@ -1,0 +1,208 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133739",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the payment process ecosystem and the history of payments as a foundation from which to provide students with the requisite knowledge, and as important background, regarding the evolution of products and services used and recommended by financial technology services. The student will learn the different types of payment products and services used by organizations such as Apple, Amazon, PayPal, and Venmo to gain an understanding that fascinating customer experiences are not covered only in the physical financial technology products created but also in a framework of corresponding exchanges and services. The student will also learn about risk management, customer relationships, regulatory compliance, settlements, strategies, and best practices for acquiring merchants and services. Students are expected to develop a broad background of the latest developments in payments as well as its impact on various portions of the world. Students will also have hands-on problem-solving case studies that can be beneficial in payments applications and innovations. This course will provide a good understanding of the trajectory of the payments industry primarily from a US point of view, however, with some global perspective. Note: This course may be cross-leveled with FTA 3810.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 6810",
+      "notes": [],
+      "prereqs": null,
+      "title": "Payments Processing in FinTech"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133746",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will discover token economics, experiment decentralized trust, modify an application and create tamper-proof transactions without intermediary, use secured and transparent triple entry accounting, and present a point of view to stakeholders. Students conduct and publish research in the emerging technology space of token economics and distributed ledger technologies. Students learn the underlying technology for trustless transaction platform - Blockchain. The course engages the learner in applying triple entry accounting with secured and transparent ledger. Students earn IBM certified Blockchain badge as part of this course and will be mentored on conducting academic research. Students will also engage in hands-on blockchain use-cases including token economics, financial services (FinTech), supply chain, healthcare, education, governance, Internet of Things (IoT), and transportation-airline.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIS 6815",
+      "notes": [
+        "Full admission to the Digital Financial Technologies, M.S"
+      ],
+      "prereqs": null,
+      "title": "Blockchain for Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133742",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines security and assurance issues related to digital payments. Students will learn about framework and standards such as NIST cybersecurity framework, ISO 27001 information security management, and Payment Card Industry Data Security Standards (PCI DSS). Students will also investigate PCI DSS requirements in the context of the larger framework of digital payments security, which can help organizations understand the motivation for each security standard requirement. Strategies for successful implementation of each requirement will also be examined. Note: This course may be cross-leveled with FTA 3850.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 6850",
+      "notes": [],
+      "prereqs": null,
+      "title": "FinTech Payments Security and Assurance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133741",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Emerging technologies promise immediate payment processing, execution, clearing, and settlement. In reality, business have critical infrastructure assets that present conversion challenges or incompatible. In this course students learn the existing critical payments infrastructure assets to understand how the current technologies work. Students will also learn the opportunities presented by emerging payment technologies. This course will challenge students to develop ideas, write business cases, and develop mockup solutions for the transition. Students will also evaluate the strategic decisions that are undertaken by companies in the FinTech space. Note: This course may be cross-leveled with FTA 3860.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 6860",
+      "notes": [],
+      "prereqs": null,
+      "title": "Emerging FinTech Payments Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133747",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the roles and relationships of laws, regulations, and policies of the global payments industry, US Government, and International Governments. Topics include government role in oversight and regulation of payments, industry defined standards and regulation in the international markets.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 6870",
+      "notes": [
+        "Full admission to the Digital Financial Technologies, M.S"
+      ],
+      "prereqs": null,
+      "title": "Compliance and Policies in FinTech Payments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores fundamental challenges associated with diversity, equity and inclusion (DEI) in financial technologies for the underserved, underrepresented, and geographically and economically disadvantaged populations in the U.S. and the world. The underserved populations have less access to digital payments and are unable to fully engage in the digital economy. Current systems exacerbate the problem and often have unintentional bias. Challenges in DEI in FinTech differ in the developing and developed world, particularly in cashless business models. Mobile phone banking offers an opportunity to engage with unbanked and underbanked people in the developing world, where infrastructure is lacking, but where mobile technology and cell phones are plentiful. Emergent models offer promise for the future and may help to overcome challenges of DEI in FinTech.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "FIS 6880",
+      "notes": [
+        "Full admission to the Digital Financial Technologies, M.S"
+      ],
+      "prereqs": null,
+      "title": "FinTech Payments for the Unbanked"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133740",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students engage in research and team-based interactive virtual experiential learning with a collaborating industry partner. The student gains industry insight and hands-on experience that provides the underpinning for the student research. A virtual collaboration platform is used to enroll, onboard, empathize, reboot, experiment, and deliver business solutions for client problems. Students get mentored, trained, and practice on FinTech research, tools and techniques used in industry. Prototyping and experimentation are encouraged to understand \u201creal world\u201d issues. Partner companies share their anonymized dataset, tools and techniques. The student identifies potential research topics to complement the industry partner\u2019s mission. The student will be strongly encouraged to publish her/his research. Coaching activities including design thinking, backlog management, business modeling, and research & publishing guidelines are offered in this course. Note: This course may be cross-leveled with FTA 3890.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIS 6890",
+      "notes": [],
+      "prereqs": null,
+      "title": "Experiential Learning in FinTech Payments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132636",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the Systems Development Life Cycle and the technologies used to implement high-quality information systems. A variety of modeling techniques will be used by students to articulate client requirements and convert them into implementable specifications. Prototyping and methodology engineering will be covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7060",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Information Systems Development Methods and Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Implementation and reflection of project management principles for Information Systems projects. Students will analyze case studies and readings that address project risk management, project portfolio management, project management for global teams, integrated project teams, and virtual project teams. Project management software will be used to facilitate team projects and project reporting.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7100",
+      "notes": [
+        "Admission to the MSIS program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Advanced IT Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133166",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Business Intelligence centers on collecting, analyzing and understanding attributes and descriptors of events, and actions of stakeholders of an organization and use the insights to strategize actions such as responding to customer complaints etc. Students learn BI analytics including big data analytics in the way they provide value to an organization. Contemporary BI and Big Data technologies are discussed and explained.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 7935",
+      "notes": [
+        "Admission to the Business Administration/Information Systems Dual Master's Degree MBA/MSIS , Digital Financial Technologies, MSDFT, Technology Management and Leadership, MSTML, Public Administration, MPA, or Business Administration, MBA, or permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Business Intelligence - Traditional and Big Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers in detail blockchain and distributed ledger technology and how it can be used to solve some major problems of current payment systems. Topics of this course include but are not limited to issues with the current payment systems, cryptocurrency and distributed ledger technology, Bitcoin and Etherreum, central bank digital currencies, and wallets & key management.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 6923",
+      "notes": [],
+      "prereqs": "FIS 6810",
+      "title": "Blockchain Technology in Payments"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133750",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers applications of different machine learning techniques to a variety of Fintech problems. Topics include supervised learning for predictive analysis, unsupervised learning for financial data clustering and visualization, and deep learning/reinforcement learning for financial decision making.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IT 6933",
+      "notes": [],
+      "prereqs": null,
+      "title": "Machine Learning Technology in FinTech"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-digital-financial-technologies",
+    "name": "MS Digital Financial Technologies"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

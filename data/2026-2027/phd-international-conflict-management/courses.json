@@ -1,0 +1,420 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133448",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores a range of historical topics, conceptual frameworks, and terminologies that students need in order to understand and evaluate knowledge and approaches to scholarship produced in the social sciences and the humanities and to engage in interdisciplinary and crossdisciplinary research. The course covers relevant themes in philosophy and history of science and sociology of knowledge as well as associated fields such as epistemology, science and technology studies, and rhetoric of science.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8000",
+      "notes": [
+        "Admission to the International Conflict Management PhD program"
+      ],
+      "prereqs": null,
+      "title": "Comparative Approaches to Knowledge"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132573",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines conflict theory through the lens of international relations. It focuses specifically on the various assumptions and theories of war and peace found in the major IR paradigms including: realism, liberalism, Marxism, feminism, constructivism, and post-structuralism. In addition to covering the major approaches to war and peace in these IR subfields, the course will also cover the role of international and regional organizations like the United Nations, EU, African Union and NATO in addressing civil and international conflicts and working to promote peace.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8001",
+      "notes": [
+        "Admission to the International Conflict Management Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Theories of International Conflict: International Relations Approaches"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132574",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the economic causes and consequences of conflict. The course includes topics such as livelihoods and conflicts, greed and grievance, natural resources and conflict, international political economy, and dependency theory. The course also explores various economic transactions that involve the use or threat of force such as gang related crime, political violence, trade wars, and arms races, as well as the theories and practical applications that examine ways in which economic development and trade promote peace.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8002",
+      "notes": [
+        "Admission to International Conflict Management PhD program"
+      ],
+      "prereqs": null,
+      "title": "Theories of International Conflict: Economic Approaches"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133445",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines conflict theory through the lens of culture. Scholars studying international conflict and peace processes increasingly recognize the importance of examining how people\u2019s contextual value systems influence how they participate in, evaluate and influence the course of local and global conflicts. This course provides an overview of culture\u2019s influence on understanding and addressing international conflict from relevant disciplinary vantage points in the social sciences and humanities. It introduces students to competing epistemologies and ontologies of examining the human side of conflict with an emphasis on cultural awareness, intercultural competence and cultural politics among many others.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8003",
+      "notes": [
+        "Admission to International Conflict Management PhD program"
+      ],
+      "prereqs": null,
+      "title": "Theories of International Conflict: Socio-Cultural Approaches"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132572",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines conflict theory and analysis through the lens of peace and conflict management perspectives. Students examine the emergence and evolution of theories and practice of peace and conflict studies including peace movement approaches, conflict management, conflict resolution, and conflict transformation approaches. Students receive an overview of terminology and foundational theories, including attribution theory, the dual concern model, protracted social conflict theory, approaches to third party intervention, and theories of nonviolence. Students also learn to use and apply a range of conflict analysis tools for understanding and addressing complex global conflicts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8004",
+      "notes": [
+        "Admission to the International Conflict Management Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Theories of International Conflict: Peace and Conflict Studies Approaches"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133446",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This class familiarizes program students with the faculty available to them as major professors and faculty mentors through a series of workshops that are also designed to acculturate students to the PhD process and academia more broadly. Illustrative topics include but are not limited to: how to write an abstract, how to publish in peer reviewed journals, how to put together a dissertation committee, how to give a conference presentation, and how to search and apply for grants.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8005",
+      "notes": [
+        "Admission to the International Conflict Management PhD program"
+      ],
+      "prereqs": null,
+      "title": "Professional Knowledge for the PhD"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132918",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course familiarizes students with the theory and operation of transnational civil society (TCS). It introduces key theories of civil society campaign formation and influence, as well as questions about TCS legitimacy, representativeness, and agency. Students then apply these theories and address these questions by examining the impact of international civil society on national politics in fragile, conflict, and post-conflict states. Note: This course may be cross-leveled with IPM 7757.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8340",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "INCM 8004",
+          "INCM 8001"
+        ]
+      },
+      "title": "Transnational Civil Society and Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133847",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course looks at the theory and practice of transitional justice, a field of study that examines the moral, legal and political dilemmas of societies dealing with legacies of war crimes, crimes against humanity, genocide, and other large-scale human right violations. Better known tools include truth commissions, reparations, and tribunals, but this course explores a range of approaches to transitional justice ranging from local, indigenous techniques to inter-governmental institutions such as the International Criminal Court (ICC). Additionally, the course explores other forms of accountability, including reconciliation-based approaches that may not fall within traditional conceptions of \u201cjustice\u201d and may be rooted in cultural and religious practices more than secular state-based legal norms. The course provides space for both analysis and critique of the norms and assumptions of differing transitional justice mechanisms as well as challenges and opportunities for varying approaches to reconciliation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 8355",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "INCM 8001",
+          "INCM 8004"
+        ]
+      },
+      "title": "Transitional Justice and Reconciliation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132575",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will focus on the fundamentals of scientific inquiry in areas of conflict including ethics of research, integrating cultural sensitivity in all stages of the research process, conceptualization and operationalization of research questions, data collection techniques, an introduction to qualitative and quantitative methods and measurement, a discussion of program evaluation research, and research proposal development.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9101",
+      "notes": [
+        "Admission to the Ph.D. program"
+      ],
+      "prereqs": null,
+      "title": "Fundamentals of Research Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132576",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will focus on quantitative techniques including descriptive and inferential statistical analyses such as regression, correlation, hypothesis testing, analysis of variance, and sampling techniques. Students will apply these techniques using statistical software packages.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9102",
+      "notes": [],
+      "prereqs": "INCM 9101",
+      "title": "Quantitative Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132577",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will focus on qualitative techniques including case study, participant observation, discourse analysis, in-depth interview, and sampling techniques. Students will apply these techniques using statistical software packages.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9103",
+      "notes": [],
+      "prereqs": "INCM 9101",
+      "title": "Qualitative Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132578",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the development of applied quantitative research skills using statistical analysis software packages. Topics covered include: structural equation modeling, path analysis, dummy-dependent variable estimation, non-linear regression, time-series analysis, and panel data.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9210",
+      "notes": [],
+      "prereqs": "INCM 9102",
+      "title": "Advanced Quantitative Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132579",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover advanced topics beyond those covered in INCM 9103, such as phenomenology, grounded theory, and content analysis. The lab component will involve projects interpreting and applying these techniques using software for qualitative analysis (e.g., NVIVO) and/or practical field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9230",
+      "notes": [],
+      "prereqs": "INCM 9103",
+      "title": "Advanced Qualitative Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132580",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an opportunity for the student to obtain the fundamental skills related to international project management and program evaluation. These skills include working in cross-cultural contexts, working with diverse groups, and managing conflicts within and among international stakeholders. A substantial amount of time in this class is spent on developing the skills of grant writing, fundraising, project identification, design, monitoring, implementation techniques and evaluation research. This practicum-like team experience allows the students to envision an international project and write a grant that could support and provide for an evaluation of the project. The course also builds skills in program analysis, including causal effects of interventions and outcomes, instrument evaluation in international conflict management areas, quality control, risk assessment, and impact analysis, all of which are integral components of grant submissions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9250",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "INCM 9102",
+          "INCM 9103"
+        ]
+      },
+      "title": "International Project Management and Program Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132582",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the theory and practice of international negotiation. It examines the practice of negotiation in actual international settings. Students will study historical negotiation processes through the use of archival material. The cross-cultural aspects of negotiation, the differences in worldview, and the ethical dimensions of the work are of particular importance to this body of knowledge. Active simulations where dialogue and deliberation can be practiced will be the hands-on part of the class work. The course contains a practicum in which a student can work on a practical project of her/his own choosing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9320",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "INCM 8004",
+          "INCM 8001"
+        ]
+      },
+      "title": "Essentials of International Negotiation: Theory and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132584",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the policies and logistics related to various models of peacekeeping, and peacebuilding in comparative form. In the first section it explores peacekeeping, both civil and military, through the examination of case studies of conflicts around the globe. The second section explores various approaches to peacebuilding, including the role of internal and external actors (donors, NGOs, aid agencies, etc) and approaches to social, political, and economic rebuilding after armed conflict, including disarmament and reintegration programming. Students will be expected to analyze in comparative fashion the goals, strategies, assumptions, and possible outcomes among the various approaches. Through classroom discussion, exercises and role play, students will also develop policy recommendations and design and plan strategies for conflict prevention and/or intervention at various points along the conflict/peace continuum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9350",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "INCM 8001",
+          "INCM 8004"
+        ]
+      },
+      "title": "Peacebuilding and Peacekeeping"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133071",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers gender relations as an important factor in conflict situations. Gender and conflict both entail power relationships of everyday existence. They influence each other in culturally specific ways in association with race, ethnicity, nationality, citizenship, sexuality, and class. Decoding such intersections of identity and power is crucial for understanding, comprehending and managing conflicts. Gender constructions guide how conflicts unfold and how peace is managed. Conflicts construct, confirm, and change notions of gender.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9360",
+      "notes": [
+        "permission of Instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "INCM 8004",
+          "INCM 8001"
+        ]
+      },
+      "title": "Gender, Conflict, Peace"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132917",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This interdisciplinary course introduces students to major philosophical debates and policy interventions in the field of development and sustainability. It raises the questions about the political and cultural assumptions undergirding conventional ways of thinking about development, production, distribution, consumption and conflict. Through case studies and policy critiques students also learn the pros and cons of particular methodologies of studying and practicing sustainable development in peace time and during conflict.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INCM 9380",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "INCM 8004",
+          "INCM 8001"
+        ]
+      },
+      "title": "Sustainable Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "Through this course, students acquire substantive knowledge and develop practical skills central to the prevention and resolution of conflict stemming from cultural differences including but not limited to differences based on ethic & national culture, linguistic, generational, gender, social class, sexual orientation and other identity-based differences which influence our perceptions, values, and preferred means of communication. Students demonstrate understanding of the ways in which different cultures vary and learn how to successfully interact and collaborate with those from cultures other than their own. This course equips students to work in diverse and intercultural environments both at home and abroad.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7321",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Cultural Aspects of Conflict Resolution"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133069",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This is a two-day training course designed to explore a range of dilemmas and scenarios in humanitarian, peacebuilding, conflict and human rights crises. The course is built around using simulations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7365",
+      "notes": [],
+      "prereqs": null,
+      "title": "Humanitarian Crisis Intervention"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133484",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course introduces students to the theories and practices of restorative justice. Encompassing a broad range of processes including victim-offender dialogue, mediation, peacemaking circles, community conferencing, and more, restorative justice represents an effective response to many types of harm. Students engage with case studies, foundational texts, and role play simulations to understand the practices of restorative justice; through review of published research and evaluations, they assess their effects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7502",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Restorative Justice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Using examples from the field of peacebuilding and post-conflict reconstruction in classroom discussion, exercises and role play, students develop policy recommendations, design, and plan strategies for conflict prevention and/or intervention. Students are introduced to the case study methodology, learn how to develop and use case studies effectively in their professional environments, and develop an outline for a case study with particular relevance to their current or desired field of employment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7707",
+      "notes": [],
+      "prereqs": null,
+      "title": "International Conflict and Peacebuilding Case Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133486",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an opportunity to examine the theory and practice of peacebuilding and state building for communities emerging from violent conflict. Of particular interest is the intersection of different actors-including the military, locals, and donors-and sectors-including political, economic, and legal-involved in the process of sustaining a ceasefire and building peace. The course examines external and internal influences, such as donor fatigue, media attention, and the reintegration of participants of the conflict into civil society. Students also explore the concept of \u201cconflict sensitivity\u201d as it relates to peacebuilding and development planning and evaluation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7708",
+      "notes": [
+        "Admission to the MSCM",
+        "INCM programs",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Peacebuilding and Post-Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132311",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course includes a fieldwork, study, and travel to a specific international conflict environment. The students will research the background and history of the conflict and prepare a written report of this fieldwork upon returning. This course usually involves several students and faculty working and traveling together.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MSCM 7715",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Practice of Conflict Management: Field Experience"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "phd-international-conflict-management",
+    "name": "PhD International Conflict Management"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -1,0 +1,254 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138428",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a broad overview of the field of engineering management, introducing students to the key roles, responsibilities, and skills required of engineering managers. Students will gain a foundational understanding of how engineering managers bridge the gap between technical expertise and business operations, preparing them for more advanced courses and professional development in technical management roles. Topics may include planning and managing resources and teams, aligning technical activities with organizational goals, and applying problem-solving and leadership strategies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EM 6005",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133627",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduces students to probability and statistics emphasizing applications to engineering management decision problems. Topics include descriptive statistics, probability, interval estimation, hypotheses testing and regression.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EM 6510",
+      "notes": [],
+      "prereqs": null,
+      "title": "Data Analysis for Engineering Managers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133244",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the functions and responsibilities of the quality organization. TQM concepts, quality function deployment, and the tools for continuous improvement are analyzed for sequence of use and application. Emphasis is placed on design and performance aspects of a system-wide quality assurance function.",
+      "groups": [
+        "major-elective",
+        "conc-quality-management"
+      ],
+      "id": "EM 6602",
+      "notes": [],
+      "prereqs": null,
+      "title": "Total Quality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133246",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The application of advanced statistical methodologies to the analysis and solution of quality and management problems, including probability theory, control charts, sampling, regression analysis, and design of experiments. The focus is on statistical process control and related quality technologies.",
+      "groups": [
+        "major-elective",
+        "conc-quality-management"
+      ],
+      "id": "EM 6611",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "EM 6510",
+          {
+            "external": "QA 6610"
+          }
+        ]
+      },
+      "title": "Statistical Process Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133248",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will learn linear regression analysis techniques to include first order and polynomial modeling, use of indicator variables, variance stabilizing transformations, multi-collinearity diagnostics and residual analysis. The connections among ANOVA, design of experiments and regression will be emphasized. Statistical software will be used to analyze problems.",
+      "groups": [
+        "major-elective",
+        "conc-quality-management"
+      ],
+      "id": "EM 6613",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "QA 6610"
+          },
+          "EM 6510"
+        ]
+      },
+      "title": "Linear Regression Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133253",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The Quality Systems Management course prepares students for the development and management of the quality organization, systems, and procedures necessary for effective participation in world markets.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EM 6650",
+      "notes": [],
+      "prereqs": null,
+      "title": "Quality Systems Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133256",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Human Factors Engineering is a comprehensive survey of human factors theory, research, and applications which are of particular relevance to Quality and Engineering Management. Emphasis will be placed on operator constraints in the design of work processes, workplaces, and instrumentation.",
+      "groups": [
+        "major-elective",
+        "conc-quality-management"
+      ],
+      "id": "EM 6722",
+      "notes": [],
+      "prereqs": null,
+      "title": "Human Factors Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132515",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of financial management as it affects the value of the firm in a competitive business environment. The course focuses on capital investment strategies, cost of capital, rate of return, capital replacement, valuation, and risk taking. The emphasis is on how finance theory translates into practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "FIN 7020",
+      "notes": [
+        "Admission to the Coles MBA or MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Business Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132991",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this introduction course, students learn the principles, applications and management of computer information systems. Criteria to assess the value, risks, and costs associated with computer information systems and how these technologies bring measurable strategic and tactical advantages are analyzed. Issues relating to successful organizational adoption as well as ethical, moral, social, and legal aspects of computer information systems in business processes are discussed. Business cases bolster the theories from text and provide real-world contexts for exploration, understanding and analysis of strategic objectives including those relating to successful implementation of computer information systems in ERP, Supply Chain, CRM, and E-business.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "IS 7090",
+      "notes": [
+        "Full admission to the MBA program",
+        "permission of the program director"
+      ],
+      "prereqs": null,
+      "title": "Leveraging Information Systems in Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132705",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores some of the many ways in which human behavior affects how one manages and leads and ultimately how it affects individual, group, and organizational performance. The course will examine behavioral issues from both the macro and micro level with three principal areas of focus: Individual and organizational effectiveness. Organizational behavior what people think, feel, and do in organizations. Leading organizational change. A conceptual understanding and knowledge of the applied consequences of these issues are requisite to understanding business matters as diverse as employee discipline policies, career development, marketing and promotion strategies, and the economics of the firm. The principal areas will be examined with a thorough grounding in theory yet with a focus on how the associated knowledge and skills may be applied to develop better managers, leaders, and global citizens.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 7050",
+      "notes": [
+        "Admission to the Coles MBA or MAcc program"
+      ],
+      "prereqs": null,
+      "title": "Managing and Leading Work Behavior"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133269",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible. Note: This course may be cross-leveled with SYE 8005.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6005",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Systems Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133270",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SYE 6010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Project Management Processes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133277",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on decisions vital to success in typical business environments characterized by competition and scarce resources. Students will develop skills in applying a variety of techniques to solve logistics and supply chain management problems. Topics covered will include information sharing and aligning incentives along the supply chain; demand forecasting; inventory decisions; transportation mode and route selection; and pricing and revenue management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6070",
+      "notes": [],
+      "prereqs": null,
+      "title": "Logistics and Supply Chain Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133278",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on decisions important in production and warehousing environments. Production topics include analysis of flows, bottlenecks and queuing, types of manufacturing operations, aggregate production planning, lot sizes and lead times, and pull production systems. Warehouse topics include design and analysis of warehouse layout, order picking strategies, warehousing inventories, and integration of production and distribution systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6075",
+      "notes": [],
+      "prereqs": null,
+      "title": "Manufacturing and Warehousing Systems"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-quality-management"
+        ],
+        "label": "Quality Management"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "msem-engineering-management",
+    "name": "MSEM Engineering Management"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -2,17 +2,8 @@
 
 ## Warnings needing review
 
-- **EDL 9700**
-  - unrecognized: the EdD in Educational Leadership
 - **EDRS 9100**
-  - unrecognized: its equivalent
   - ambiguous and/or precedence: Admission to the Ed.D. Program and EDRS 8100 or its equivalent
-- **TLED 9200**
-  - unrecognized: Advanced Concentration
-  - missing operator before '(', assumed and
-- **TLED 9830**
-  - unrecognized: Advanced Concentration
-  - missing operator before '(', assumed and
 
 ## Notes
 

@@ -1,0 +1,124 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133054",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Sections will cover selected topics of current interest. Each section will be defined by the instructor of record. This course can be taken up to two times for credit towards the MSIB degree. Note: This course may be cross-leveled with BIOL 4399.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 6399",
+      "notes": [
+        "Admission",
+        "enrollment in the Master of Science in Integrative Biology program"
+      ],
+      "prereqs": null,
+      "title": "Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133860",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of data analysis skills and statistical methods essential for careers in biology. This course takes a holistic approach to the data analysis workflow using the open-source software R, including: data management, exploratory analyses, modeling, and reproducible science practices. Statistical topics covered may include generalized linear models, mixed effects models, nonlinear models, and ordination. Students apply techniques learned in class to real biological datasets as a course project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 7410",
+      "notes": [
+        "Admission to Integrative Biology, MS"
+      ],
+      "prereqs": null,
+      "title": "Applied Biological Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138436",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This core graduate course prepares students in the Masters of Integrative Biology program to become effective leaders and professionals in the biological sciences. Through applied learning, students will develop competencies in scientific leadership, project management, research ethics, data stewardship, grant writing, communication, and teaching pedagogy. The course emphasizes real-world applications of professional skills critical for a variety of career pathways in biology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 7420",
+      "notes": [
+        "Enrollment in the M.S. in Integrative Biology Program"
+      ],
+      "prereqs": null,
+      "title": "Scientific Leadership and Professional Practice for the Biological Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132949",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Cellular function and genetic principles from an experimental point of view. Emphasis will be placed on the functional interactions among cellular substructures, regulation of cellular biosynthetic activity, regulation of sub-cellular transport, and evaluation of experimental data. Note: Student should take Genetics and Organic Chemistry I prior to enrolling in this course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 7430",
+      "notes": [
+        "Admission to the Integrative Biology, M.S. program"
+      ],
+      "prereqs": null,
+      "title": "Cell and Molecular Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138437",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the dynamic relationship between evolutionary processes and ecological systems across biological scales. Students will review foundational evolutionary principles before focusing on eco-evolutionary feedbacks. Emphasis is placed on integrating molecular, organismal, and systems-level perspectives, and applying these concepts to contemporary challenges in biodiversity conservation and environmental management.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 7440",
+      "notes": [
+        "Admission to the Integrative Biology, M.S. program"
+      ],
+      "prereqs": null,
+      "title": "Ecological and Evolutionary Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course provides a capstone experience for graduate students in biology, emphasizing the integration of concepts across molecular/cellular, organismal, ecological, and evolutionary biology. It offers an opportunity to conduct an in-depth interdisciplinary project that integrates knowledge and concepts learned throughout the student\u2019s program of study. Students will engage in literature synthesis, collaborative discussions, and interdisciplinary projects to develop a holistic understanding of biological systems and processes.",
+      "groups": [
+        "conc-non-thesis"
+      ],
+      "id": "BIOL 7998",
+      "notes": [
+        "18 credit hours of graduate coursework in the Integrative Biology, M.S. program"
+      ],
+      "prereqs": null,
+      "title": "Integrative Biology Synthesis"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-non-thesis"
+        ],
+        "label": "Non-thesis"
+      }
+    ],
+    "id": "ms-integrative-biology",
+    "name": "MS Integrative Biology"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

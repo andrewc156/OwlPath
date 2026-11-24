@@ -7,23 +7,18 @@
 ## Warnings needing review
 
 - **CYBR 3100**
-  - unrecognized: Cybersecurity Minor
   - ambiguous and/or precedence: (CSE 1321 and CSE 1321L), and admission to the Cybersecurity major, Cybersecurity Minor, or Undergraduate Cybersecurity Certificate
 - **CYBR 3153**
   - ambiguous and/or precedence: (CSE 1322 and CSE 1322L) or IT 1113 or (IT 1114 and IT 1114L) and Cybersecurity major
 - **CYBR 3200**
-  - unrecognized: Cybersecurity Minor
   - ambiguous and/or precedence: CYBR 3100 and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
 - **CYBR 3210**
-  - unrecognized: Cybersecurity Minor
   - ambiguous and/or precedence: (CSE 1321 and CSE 1321L), and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
 - **CYBR 3223**
   - unrecognized: CSE 1321and
-  - unrecognized: Cybersecurity Minor
   - ambiguous and/or precedence: (CSE 1321and CSE 1321L) or IT 1113, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
   - missing operator before 'CSE 1321L', assumed and
 - **CYBR 3300**
-  - unrecognized: Cybersecurity Minor
   - ambiguous and/or precedence: CYBR 3100, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
 - **CYBR 3397**
   - unrecognized line: 3, 6 or 9 Credit Hours
@@ -34,7 +29,6 @@
 - **CYBR 4323**
   - ambiguous and/or precedence: CYBR 3123 or IT 3123, and Cybersecurity Major
 - **CYBR 4330**
-  - unrecognized: Cybersecurity Minor
   - ambiguous and/or precedence: CYBR 3300, and Cybersecurity Major, Cybersecurity Minor, or Cybersecurity Undergraduate Certificate
 - **CYBR 4333**
   - ambiguous and/or precedence: CYBR 4323 or IT 4323 and Cybersecurity Major

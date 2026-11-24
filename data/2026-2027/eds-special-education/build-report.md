@@ -2,18 +2,7 @@
 
 ## Warnings needing review
 
-- **EDL 7101**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7215**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7401**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7615**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
+None.
 
 ## Left out on purpose
 

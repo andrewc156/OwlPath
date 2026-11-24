@@ -3,7 +3,8 @@
 ## Warnings needing review
 
 - **BLAW 3400**
-  - unrecognized: with minimum grade of "C"
+  - unrecognized: with
+  - could not parse (unexpected 'and'): BLAW 2200 with minimum grade of "C" and (Admission to a Coles BBA Program or a Coles Partner Student)
 - **BUSA 3500**
   - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
 - **ECON 2105**
@@ -15,7 +16,6 @@
 - **IS 2200**
   - unrecognized: higher
 - **MGT 4199**
-  - unrecognized: . This course is taken in the last
   - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
 
 ## Left out on purpose

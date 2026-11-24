@@ -8,8 +8,6 @@
   - unrecognized: higher
 - **GEOG 2391**
   - could not parse (unexpected 'or'): GEOG 1101 or or GEOG 1112K or GEOG 1113K or GEOG 1125 or GEOG 1130
-- **GEOG 3000**
-  - unrecognized: Students must be 21 years of age
 - **GIS 4100**
   - unrecognized: Department Chair
 - **IS 2200**

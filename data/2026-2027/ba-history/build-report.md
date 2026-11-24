@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **WLC 1002**
-  - unrecognized: the equivalent
+None.
 
 ## Left out on purpose
 

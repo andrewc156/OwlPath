@@ -9,7 +9,6 @@
   - unrecognized: subject
 - **SPAN 2034**
   - unrecognized: One year of high school Spanish
-  - unrecognized: the equivalent
 
 ## Notes
 

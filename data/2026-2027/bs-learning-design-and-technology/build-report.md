@@ -5,11 +5,7 @@
 - **IS 2200**
   - unrecognized: higher
 - **LDT 4600**
-  - unrecognized: Declared Bachelor of Science in Learning
-  - unrecognized: Design
-  - unrecognized: is required
-  - missing operator before 'Permission of the LDT program coordinator', assumed and
-  - missing operator before 'is required', assumed and
+  - unrecognized: Declared Bachelor of Science in Learning, Design
 
 ## Left out on purpose
 

@@ -24,7 +24,6 @@
 - **IS 4880**
   - ambiguous and/or precedence: IS 3020, IS 3280, and IS 3060, 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program or student in a Coles College Partner Program that includes this course
 - **MGT 4199**
-  - unrecognized: . This course is taken in the last
   - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
 
 ## Left out on purpose

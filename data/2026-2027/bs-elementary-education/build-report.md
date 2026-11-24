@@ -4,12 +4,6 @@
 
 - **ECE 4408**
   - missing operator before 'EDUC 2130', assumed and
-- **ECE 4465**
-  - unrecognized: Elementary Education
-  - missing operator before 'B.S. major', assumed and
-- **ECE 4650**
-  - missing operator before 'Admission to the Yearlong Clinical Experience', assumed and
-  - missing operator before 'Issued Pre-Service Certificate', assumed and
 - **ECE 4660**
   - unrecognized: Eligibility to take GACE
 - **EDUC 4610**
@@ -23,10 +17,5 @@
 - **MATH 2008**
   - unrecognized: The completion of Mathematics
   - unrecognized: Applied Math IMPACT Core courses
-  - unrecognized: Elementary Education
-  - unrecognized: Interest
-  - unrecognized: Early Childhood Birth to Kindergarten Traditional
-  - unrecognized: Early Childhood Birth to Kindergarten Traditional
-  - unrecognized: Interest
-  - ambiguous and/or precedence: The completion of Mathematics and Applied Math IMPACT Core courses with a minimum grade of "C" or higher, and enrolled in one of the following majors: Elementary Education, Elementary Education (Interest), Early Childhood Birth to Kindergarten Traditional, or Early Childhood Birth to Kindergarten Traditional (Interest)
-  - missing operator before '(', assumed and
+  - unrecognized: Early Childhood Birth to Kindergarten Traditional Interest
+  - ambiguous and/or precedence: The completion of Mathematics and Applied Math IMPACT Core courses with a minimum grade of "C" or higher, and enrolled in one of the following majors: Elementary Education, Elementary Education Interest , Early Childhood Birth to Kindergarten Traditional, or Early Childhood Birth to Kindergarten Traditional Interest

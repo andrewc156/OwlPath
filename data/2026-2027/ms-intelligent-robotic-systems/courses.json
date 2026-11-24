@@ -1,0 +1,254 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the-state-of-the-art machine learning techniques. It covers machine learning methods in supervised learning, unsupervised learning, and ensemble. This course includes applications of advanced machine learning techniques to solve challenging problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 7267",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CS 6045"
+          },
+          "MTRE 6100"
+        ]
+      },
+      "title": "Machine Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133120",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces concepts and techniques in machine vision. It covers a variety of image processing techniques for the design and analysis of efficient algorithms for real-world applications, such as optical character recognition, face detection and recognition, motion estimation, human tracking, and gesture recognition. Topics include basic image enhancement, corner and edge detection, image morphology, linear and non-linear filters, image transformations, camera models, two-dimensional and three-dimensional image geometry, clustering and segmentation, classification, object recognition and Bag-of-Words models, image texture, shape analysis, and tracking.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 7367",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "external": "CS 6045"
+          },
+          "MTRE 6100"
+        ]
+      },
+      "title": "Machine Vision"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133787",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers topics of classical control theory and modern control theory. Important concepts and approaches related to control system analysis and design will be introduced and MATLAB/Simulink simulations will be utilized to validate and facilitate control system design. It provides students with a solid foundation to learn more advanced control theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Fundamentals of Control Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133687",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The key aim of the course is to provide students with a multidisciplinary, creative approach to program the control and development of new robotic components and technologies. This covers activities from both the hard (mechanical/ electrical design and fabrication, sensor systems, actuation development, etc.) and soft (control, computer software, human factors, etc.) systems areas of robotics. The explicit emphasis will be the use of sensors, such as touch, ultrasonic, or light sensors that allow a robot to interact with the real world around it and how to design and develop complex software for intelligent robotic systems. The course will further provide a rationale for considering emerging innovative approaches and software development systems (e.g., Robot Operating System (ROS) will be considered). Note: This course may be cross-leveled with MTRE 8100.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6100",
+      "notes": [
+        "Admission to the MS program in Intelligent Robotic Systems"
+      ],
+      "prereqs": null,
+      "title": "Advanced Robot Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133675",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers topics of modeling and control system design of robotic manipulators. The kinematics and dynamics models, independent joint control, and path and trajectory planning of a robotic manipulator will be studied and analyzed. MATLAB/Simulink will be utilized to simulate and validate the design of robotic manipulators.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6200",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MTRE 6000",
+          "MTRE 6100"
+        ]
+      },
+      "title": "Modeling and Control of Robotic Manipulators"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133676",
+      "catalogYear": "2026-2027",
+      "coreqs": "MTRE 6100",
+      "credits": "3",
+      "description": "The objective of this course is to learn and understand the Robot Operating System (ROS) architecture. The course explore its most relevant functionalities by analyzing ROS framework in solving problems, such as model simulation, localization, mapping, and motion planning. In addition, Gazebo and VREP simulators are used with the integrated algorithms for planning and perception within the ROS framework. During this course, students use the navigation stack in ROS to enable autonomous robot navigation and simulate robot models in a real physics environment. The second part focuses on a robot\u2019s (A) explicit communication (models, technologies, and algorithms), and (B) implicit communication (extraction of task-significant information from mutual interaction).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6300",
+      "notes": [],
+      "prereqs": null,
+      "title": "Robot Simulation, Communications, and ROS"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133677",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MTRE 6000",
+          "MTRE 6100"
+        ]
+      },
+      "credits": "3",
+      "description": "Autonomous mobile robot research is one of the most important branches in robotics. In this course, the basic principles and technologies of autonomous mobile robots are covered. The topics include kinematics and dynamics, sensors and actuators, control system design, localization, mapping, and path planning of mobile robots. Experiments and/or simulations are utilized to validate the learned knowledge. Note: This course may be cross-leveled with MTRE 8400.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Perception, Navigation, and Path Planning of Mobile Robots"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133678",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Processing of point cloud data is of increasing importance for perception in autonomous systems. This course examines the primary algorithms for extracting features from raw point cloud data for use with object detection and localization tasks, with data acquired from both LiDAR and stereo imaging. The efficiency of such algorithms is explored by developing them from the ground up, as well as assessing performance using popular point cloud libraries.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MTRE 6710",
+      "notes": [],
+      "prereqs": null,
+      "title": "Manipulation of 3D Point Cloud Data"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133679",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers important Digital Manufacturing Concepts and Tools to support Next Generation Automation Systems (NGAS). The course includes manufacturing integration at the station and cell level. This course considers Product Life-cycle Management (PLM) approaches to enhance current industrial manufacturing processes, as well as to design and develop the NGAS. Particular emphasis is on manufacturing systems using robots at station integration for implementing important industrial applications. Students entering this course are assumed to be familiar with CAD software such as SolidWorks, Solid Edge, NX, CATIA, PRO/Engineering, or Autodesk Inventor.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6720",
+      "notes": [
+        "Admission to the MS program in Intelligent Robotic Systems"
+      ],
+      "prereqs": null,
+      "title": "Digital Manufacturing and Robotic Automation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133786",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced topics of robotic manipulators, such as dynamics modeling, multivariable control, force control, nonlinear control, and visual servoing. Computer vision and machine learning techniques are also introduced to increase autonomy and improve the control performance of robotic manipulators.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MTRE 6730",
+      "notes": [
+        "KSU Mechatronics BS degree"
+      ],
+      "prereqs": {
+        "and": [
+          "MTRE 6200",
+          "MTRE 6000"
+        ]
+      },
+      "title": "Advanced Controls of Robotic Manipulators"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133680",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Soft Robotics is an emerging subfield of robotics with great potential for interfacing with delicate objects and living systems. Soft actuators are made of soft and compliant materials such as polymer/metal composites, elastomers, and hydrogels. These soft machines operate based on pneumatic, electrical, chemical, and optical actuation mechanisms. This course will focus on modeling, control, and manufacturing of electroactive polymer actuators and soft pneumatics actuators and their application in soft robotic systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MTRE 6740",
+      "notes": [
+        "Admission to the MS program in Intelligent Robotic Systems"
+      ],
+      "prereqs": null,
+      "title": "Soft Robotics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133681",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers an overview of the ethical implications of increasing automation and robotics in both everyday life and industry. Ethical theories such as virtue ethics, deontology, and utilitarianism are first studied. These are linked to various algorithmic approaches in artificial agents, e.g. rule-based, behavior-based, etc. This framework for analyzing the social implications of artificial intelligence and robot technology is applied to situations such as autonomous systems causing unintentional harm, injuries caused by autonomous vehicles, and digital surveillance from data mining online interactions. The economics of automation are also studied and linked to ethical considerations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MTRE 6750",
+      "notes": [
+        "Admission to the MS program in Intelligent Robotic Systems"
+      ],
+      "prereqs": null,
+      "title": "Ethics in Robotics: The Ethical and Social Implications of Robotics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133682",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, the student works independently under the supervision of a designated Robotics and Mechatronics Engineering faculty member. The student will generate a formal written report. This course may be repeated, but only three semester hours may be applied toward the degree.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MTRE 6800",
+      "notes": [
+        "Admission to the MS \u200bprogram in Intelligent Robotic Systems"
+      ],
+      "prereqs": null,
+      "title": "Master\u2019s Project"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-intelligent-robotic-systems",
+    "name": "MS Intelligent Robotic Systems"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}
