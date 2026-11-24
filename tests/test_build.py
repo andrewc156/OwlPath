@@ -280,6 +280,80 @@ def test_permission_alternative_is_not_an_option_on_the_map():
     assert course(ds, "AA 1000")["notes"] == ["permission of the instructor"]
 
 
+LABS = "(AA 1000 and AA 1000L) or (BB 1000 and BB 1000L)"
+
+
+def test_auto_pulls_every_course_of_the_first_option():
+    notes = []
+    pages = Pages(raw("XX 3000", prereq=LABS), raw("AA 1000"), raw("AA 1000L"), raw("BB 1000"), raw("BB 1000L"))
+    ds, w = build_dataset({"XX 3000": ["major-required"]}, pages, {}, META, auto=True, notes_out=notes)
+    assert w == [] and ids(ds) == ["AA 1000", "AA 1000L", "XX 3000"]
+    assert course(ds, "AA 1000L")["groups"] == ["prereq-only"]
+    assert course(ds, "XX 3000")["prereqs"] == {"or": [{"and": ["AA 1000", "AA 1000L"]},
+                                                       {"and": [{"external": "BB 1000"}, {"external": "BB 1000L"}]}]}
+    assert notes == ["XX 3000: added AA 1000, AA 1000L so (AA 1000, AA 1000L, BB 1000, BB 1000L) "
+                     "has an option on the map"]
+
+
+def test_auto_skips_an_option_with_a_course_missing_from_the_catalog():
+    pages = Pages(raw("XX 3000", prereq=LABS), raw("AA 1000"), raw("BB 1000"), raw("BB 1000L"))  # no AA 1000L
+    ds, w = build_dataset({"XX 3000": ["major-required"]}, pages, {}, META, auto=True)
+    assert w == [] and ids(ds) == ["BB 1000", "BB 1000L", "XX 3000"]
+
+
+def test_auto_pull_chains_through_the_pulled_course():
+    pages = Pages(raw("XX 3000", prereq="AA 1000 or BB 1000"), raw("AA 1000", prereq="CC 1000 or DD 1000"),
+                  raw("BB 1000"), raw("CC 1000"), raw("DD 1000"))
+    ds, w = build_dataset({"XX 3000": ["major-required"]}, pages, {}, META, auto=True)
+    assert w == [] and ids(ds) == ["AA 1000", "CC 1000", "XX 3000"]
+
+
+def test_auto_pull_resolves_an_or_nested_in_an_and():
+    nested = "AA 1000 and (BB 1000 or (CC 1000 and DD 1000))"
+    every = [raw("XX 3000", prereq=nested), raw("AA 1000"), raw("CC 1000"), raw("DD 1000")]
+    ds, w = build_dataset({"XX 3000": ["major-required"]}, Pages(*every, raw("BB 1000")), {}, META, auto=True)
+    assert w == [] and ids(ds) == ["AA 1000", "BB 1000", "XX 3000"]
+    ds, w = build_dataset({"XX 3000": ["major-required"]}, Pages(*every), {}, META, auto=True)  # no BB 1000
+    assert w == [] and ids(ds) == ["AA 1000", "CC 1000", "DD 1000", "XX 3000"]
+
+
+def test_auto_build_warns_on_a_course_whose_prerequisites_cannot_be_met():
+    # AA 1000 is on the map, but its lab and the other option are not in the catalog: XX 3000 can never unlock.
+    pages = Pages(raw("XX 3000", prereq="(AA 1000 and AA 1000L) or BB 1000"), raw("AA 1000"))
+    program = {"XX 3000": ["major-required"], "AA 1000": ["major-required"]}
+    ds, w = build_dataset(program, pages, {}, META, auto=True)
+    assert ids(ds) == ["AA 1000", "XX 3000"]
+    assert w == ["XX 3000: prerequisites can't be met by courses on the map (text only: AA 1000L, BB 1000)"]
+
+
+def test_unreachable_warning_is_not_hidden_by_an_override():
+    pages = Pages(raw("XX 3000", prereq="AA 1000 or BB 1000"), raw("AA 1000"))
+    ds, w = build_dataset({"XX 3000": ["major-required"], "AA 1000": ["major-required"]}, pages,
+                          {"XX 3000": {"reason": "r", "prereqs": {"and": ["AA 1000", "BB 1000"]}}}, META, auto=True)
+    assert any(x.startswith("XX 3000: prerequisites can't be met") for x in w)
+
+
+def test_checked_build_keeps_todays_or_behavior():
+    pages = Pages(raw("XX 3000", prereq=LABS), raw("AA 1000"), raw("AA 1000L"), raw("BB 1000"), raw("BB 1000L"))
+    ds, w = build_dataset({"XX 3000": ["major-required"]}, pages, {}, META)
+    assert ids(ds) == ["XX 3000"] and w == [
+        "XX 3000: no in-program alternative in (AA 1000, AA 1000L, BB 1000, BB 1000L)"]
+    half = Pages(raw("XX 3000", prereq="(AA 1000 and AA 1000L) or BB 1000"), raw("AA 1000"))
+    _, w = build_dataset({"XX 3000": ["major-required"], "AA 1000": ["major-required"]}, half, {}, META)
+    assert w == []  # no pull and no reachability warning: a person settles checked majors
+
+
+def test_override_with_prereqs_but_no_notes_keeps_the_parsed_notes():
+    pages = Pages(raw("AA 1000", prereq="BB 2000 or permission of the instructor"), raw("BB 2000"), raw("CC 3000"),
+                  raw("DD 4000", prereq="BB 2000 or permission of the instructor"))
+    overrides = {"AA 1000": {"reason": "r", "prereqs": "CC 3000"},
+                 "DD 4000": {"reason": "r", "prereqs": "CC 3000", "notes": ["set by hand"]}}
+    ds, _ = build_dataset({"AA 1000": ["major-required"], "DD 4000": ["major-required"]}, pages, overrides, META)
+    assert course(ds, "AA 1000")["prereqs"] == "CC 3000"
+    assert course(ds, "AA 1000")["notes"] == ["permission of the instructor"]
+    assert course(ds, "DD 4000")["notes"] == ["set by hand"]
+
+
 def test_cli_uses_auto_for_unchecked_and_holds_on_draft_warnings(tmp_path, monkeypatch):
     import json
 

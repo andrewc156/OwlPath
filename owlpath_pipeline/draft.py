@@ -17,8 +17,31 @@ _LEFT_OUT_TITLE = re.compile(
     r"\b(internship|co-?op|cooperative (study|education)|special topics|advanced topics|selected topics"
     r"|(undergraduate|graduate|directed|doctoral|dissertation|thesis) research"
     r"|directed (study|readings)|independent study|thesis|dissertation)\b")
-_PERMISSION = re.compile(r"permission|consent|approval")
 _NAMES_COURSE = re.compile(r"\b[A-Z]{2,5} \d{4}[A-Z]?\b")
+
+# Permission-only prerequisite text (ruling R27): nothing is left once the permission, consent or approval
+# phrases, connective words and punctuation are removed. An approver ends in a head noun ("the American Studies
+# graduate program director"), so "junior standing", "admission to the X program" or "Dance Major" never read as
+# one: they are left over, and the course stays (its non-course phrases become notes in the build).
+_KEY = r"\b(?:permission|consent|approval)\b"
+_HEAD = (r"(?:instructor|professor|faculty|advis[eo]r|chair(?:person)?|head|director|coordinator|dean|lead"
+         r"|department(?:al)?|dept\.?|school|committee|office)s?(?:['’]s)?(?![\w'’])")
+_STOP = (r"(?:and|or|nor|of|for|from|by|with|to|in|on|at|is|are|the|a|an|prior|required|permission|consent"
+         r"|approval|admission|admitted|acceptance|accepted|standing|status|level|majors?|minors?|gpa|hours?"
+         r"|credits?|completion|completed?|audition|enroll\w*|declared|junior|senior|sophomore|freshman|courses?)")
+_QUALIFIER = rf"(?!{_STOP}(?![\w.'’/&-]))[A-Za-z][\w.'’/&-]*"
+_APPROVER = rf"(?:(?:the|a|an)\s+)?(?:{_QUALIFIER}\s+){{0,6}}{_HEAD}"
+_APPROVERS = rf"{_APPROVER}(?:(?:\s*,\s*(?:(?:and|or)\s+)?|\s+(?:and/or|and|or)\s+){_APPROVER})*"
+_PERMISSION_PHRASE = re.compile(
+    rf"(?:\bby\s+)?(?:{_APPROVERS}\s+)?{_KEY}(?:\s+(?:of|from|by)\s+{_APPROVERS})?"
+    r"(?:\s+(?:is\s+)?required)?(?:\s+prior\s+to\s+registration)?", re.IGNORECASE)
+_CONNECTIVES = re.compile(r"(?:[\s,;:.()/&-]+|\b(?:and|or|with|by)\b)*", re.IGNORECASE)
+
+
+def _permission_only(prereq: str) -> bool:
+    if not prereq or _NAMES_COURSE.search(prereq) or not re.search(_KEY, prereq, re.IGNORECASE):
+        return False
+    return _CONNECTIVES.fullmatch(_PERMISSION_PHRASE.sub(" ", prereq)) is not None
 
 
 def _slug(text: str) -> str:
@@ -72,8 +95,7 @@ def _is_left_out(item: dict, catalog: dict[str, RawCourse]) -> bool:
     title = item.get("title") or (raw.title if raw else "")
     if _LEFT_OUT_TITLE.search(title.lower()):
         return True
-    prereq = (raw.prereq_text if raw else None) or ""
-    return bool(prereq) and not _NAMES_COURSE.search(prereq) and bool(_PERMISSION.search(prereq.lower()))
+    return _permission_only((raw.prereq_text if raw else None) or "")
 
 
 def _group_for(heading: str) -> str | None:

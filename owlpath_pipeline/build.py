@@ -49,15 +49,43 @@ def _classify(expr: Expr | None, graph: set[str], owner: str, warnings: list[str
     return out
 
 
-def _optionless_ors(expr: Expr | None, graph: set[str]) -> list[list[str]]:
-    """The leaf ids of every OR (at any depth) with no leaf in the graph."""
-    if expr is None or "course" in expr:
+def _met(expr: Expr | None, graph: set[str]) -> bool:
+    """Whether expr can be met with every course on the map complete; a course shown as text never counts."""
+    if expr is None:
+        return True
+    if "course" in expr:
+        return expr["course"] in graph
+    if "and" in expr:
+        return all(_met(c, graph) for c in expr["and"])
+    return any(_met(c, graph) for c in expr["or"])
+
+
+def _pullable(expr: Expr, exists: Callable[[str], bool]) -> bool:
+    """Whether the catalog has what expr needs: every course of an AND, one option of an OR."""
+    if "course" in expr:
+        return exists(expr["course"])
+    if "and" in expr:
+        return all(_pullable(c, exists) for c in expr["and"])
+    return any(_pullable(c, exists) for c in expr["or"])
+
+
+def _pulls(expr: Expr | None, graph: set[str], exists: Callable[[str], bool],
+           found: list[tuple[list[str], list[str]]]) -> list[str]:
+    """Courses to add so expr can be met (auto-built majors). An OR with no option met on the map takes every
+    course of its first option that the catalog fully has (an option is a leaf or an AND group), and an OR
+    nested in that option is settled the same way. Each OR settled is recorded in found as (its ids, added)."""
+    if expr is None or _met(expr, graph):
         return []
-    op = "and" if "and" in expr else "or"
-    found = [i for c in expr[op] for i in _optionless_ors(c, graph)]
-    if op == "or" and not any(i in graph for i in _leaf_ids(expr)):
-        found.insert(0, _leaf_ids(expr))
-    return found
+    if "course" in expr:
+        return [expr["course"]] if exists(expr["course"]) else []
+    if "and" in expr:
+        return [i for c in expr["and"] for i in _pulls(c, graph, exists, found)]
+    option = next((c for c in expr["or"] if _pullable(c, exists)), None)
+    if option is None:
+        return []
+    added = list(dict.fromkeys(_pulls(option, graph, exists, found)))
+    found.append((_leaf_ids(expr), added))
+    return added
 
 
 def _has_course(expr: Expr) -> bool:
@@ -139,8 +167,10 @@ def _in_catalog(get_raw: Callable[[str], RawCourse], cid: str) -> bool:
 def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCourse],
                   overrides: dict, meta: dict, *, auto: bool = False,
                   notes_out: list[str] | None = None) -> tuple[dict, list[str]]:
-    """auto=True (auto-built majors): an OR with no option on the map pulls its first catalog course in as
-    prereq-only, and each pull is appended to notes_out. Checked majors keep the warning instead.
+    """auto=True (auto-built majors): an OR with no option on the map pulls in every course of its first option
+    the catalog fully has, as prereq-only, and each pull is appended to notes_out. Afterwards every course whose
+    prerequisites can't be met by courses on the map is a warning (it would never unlock). Checked majors keep
+    the no-option warning instead, for a person to settle.
     meta = {"program": {...}, "choices": [[id, ...], ...], "lessCommon": [id, ...]}, copied to the output as-is.
     lessCommon is optional and defaults to []; level (which catalog, for `source`) defaults to undergraduate."""
     for choice in meta["choices"]:
@@ -150,6 +180,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
     warnings: list[str] = []
     raws: dict[str, RawCourse] = {}
     parsed: dict[str, tuple[ParseResult, ParseResult]] = {}
+    notes_of: dict[str, list[str]] = {}
     groups = {cid: list(g) for cid, g in program.items()}
     check_overrides(overrides, {cid for cid in overrides if _in_catalog(get_raw, cid)})
 
@@ -167,11 +198,13 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
                 continue
             r = raws[cid]
             o = overrides.get(cid, {})
-            pre = (ParseResult(_from_override(o["prereqs"])) if "prereqs" in o
-                   else parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None))
-            co = (ParseResult(_from_override(o["coreqs"])) if "coreqs" in o
-                  else parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None))
+            catalog_pre = parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None)
+            catalog_co = parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None)
+            pre = ParseResult(_from_override(o["prereqs"])) if "prereqs" in o else catalog_pre
+            co = ParseResult(_from_override(o["coreqs"])) if "coreqs" in o else catalog_co
             parsed[cid] = (pre, co)
+            # An override that replaces the prerequisites keeps the catalog's notes unless it sets its own.
+            notes_of[cid] = list(o["notes"]) if "notes" in o else list(dict.fromkeys(catalog_pre.notes + catalog_co.notes))
             warnings.extend(f"{cid}: {w}" for w in r.warnings + pre.warnings + co.warnings)
             for req in _required_ids(pre.expr) + _required_ids(co.expr):
                 if req not in groups:
@@ -180,24 +213,30 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
 
     close(sorted(program))
     if auto:
-        while True:
-            pulls = []  # (owner, option ids, id to add)
+        def exists(cid: str) -> bool:
+            return cid in raws or _in_catalog(get_raw, cid)
+
+        pulled = True
+        while pulled:  # a pulled course can bring an OR of its own
+            pulled = False
             for owner in sorted(parsed):
                 for expr in parsed[owner][0].expr, parsed[owner][1].expr:
-                    for ids in _optionless_ors(expr, set(raws)):
-                        pick = next((i for i in ids if i not in raws and i not in groups
-                                     and _in_catalog(get_raw, i)), None)
-                        if pick:
-                            pulls.append((owner, ids, pick))
-            if not pulls:
-                break
-            for owner, ids, pick in pulls:
-                if pick not in groups:
-                    groups[pick] = ["prereq-only"]
-                    close([pick])
+                    found: list[tuple[list[str], list[str]]] = []
+                    adds = [i for i in dict.fromkeys(_pulls(expr, set(raws), exists, found)) if i not in raws]
+                    if not adds:
+                        continue
+                    for i in adds:
+                        groups.setdefault(i, ["prereq-only"])
+                    close(adds)
+                    pulled = True
                     if notes_out is not None:
-                        notes_out.append(f"{owner}: added {pick} so ({', '.join(ids)}) has an option on the map")
+                        notes_out += [f"{owner}: added {', '.join(added)} so ({', '.join(ors)}) has an option on the map"
+                                      for ors, added in found if added]
     graph = set(raws)
+    unreachable = [] if not auto else [
+        f"{cid}: prerequisites can't be met by courses on the map (text only: "
+        f"{', '.join(sorted({i for i in _leaf_ids(parsed[cid][0].expr) if i not in graph}))})"
+        for cid in sorted(graph) if not _met(parsed[cid][0].expr, graph)]
 
     # Pass 2: classify leaves, convert, apply overrides.
     courses = []
@@ -205,7 +244,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         r, (pre, co) = raws[cid], parsed[cid]
         prereqs = _classify(pre.expr, graph, cid, warnings)
         coreqs = _classify(co.expr, graph, cid, warnings)
-        notes = list(overrides.get(cid, {}).get("notes", dict.fromkeys(pre.notes + co.notes)))
+        notes = notes_of[cid]
         c = {
             "id": cid, "title": r.title, "credits": r.credits, "description": r.description,
             "catalogYear": config.CATALOG_YEAR, "catalogUrl": r.url, "groups": groups[cid],
@@ -215,7 +254,8 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         }
         courses.append(c)
 
-    warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides]
+    # An override settles its course's parse warnings, but never hides a course that can't unlock.
+    warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides] + unreachable
     return {"catalogYear": config.CATALOG_YEAR, "source": source(meta.get("level", "undergraduate")),
             "program": meta["program"], "choices": meta["choices"], "lessCommon": meta.get("lessCommon", []), "courses": courses}, warnings
 

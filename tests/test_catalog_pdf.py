@@ -159,6 +159,15 @@ def test_last_course_of_a_listing_page_has_no_footer_text(name):
             assert chrome not in text
 
 
+def test_crawled_stat_listing_gives_the_same_records_as_the_saved_pdf():
+    """Spec testing list: the crawled page text of the undergraduate STAT listing and the PDF saved by hand give
+    the same courses, prerequisites and descriptions. They agree field for field, so the comparison needs no
+    whitespace or hyphen-break normalization."""
+    page = parse_listing((FIXTURES / "ug-courses-stat.txt").read_text(encoding="utf-8"), "")
+    saved = parse_listing(pdf_text(PDFS / "stat.pdf"), "")
+    assert len(page) == 10 and page == saved
+
+
 def test_pagination_and_footer_end_the_listing():
     text = "XX 1000: Thing\n3 Credit Hours\nDescription\nWords here.\n" + CHROME_TEXT
     assert parse_listing(text, "")["XX 1000"].description == "Words here."

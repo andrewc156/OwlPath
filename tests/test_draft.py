@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 from owlpath_pipeline import config
 from owlpath_pipeline.catalog_html import parse_program_page
 from owlpath_pipeline.catalog_pdf import parse_listing
@@ -129,6 +131,35 @@ def test_permission_rule_and_no_prereq_text_kept():
            "AAA 3000": C("AAA 3000", prereq="Consent of instructor and AAA 2000.")}
     d = run(P(("Major Requirements", 2, list(cat))), cat)
     assert d.left_out == ["AAA 1000"] and set(d.program_json["courses"]) == {"AAA 2000", "AAA 3000"}
+
+
+@pytest.mark.parametrize("text,left_out", [
+    # R27: left out only when the text is nothing but permission, consent or approval.
+    ("Admission to the MS in Criminal Justice program or permission of the program director", False),
+    ("Permission of the instructor.", True),
+    ("Permission of instructor and junior standing", False),
+    # Real catalog phrasings (2026-27).
+    ("Approval of the instructor, program director, and department chair", True),
+    ("Permission of the American Studies graduate program director.", True),
+    ("Permission of MEBU Director and class instructor", True),
+    ("Permission of an advisor, and the instructor.", True),
+    ("Department Chair approval", True),
+    ("By Instructor’s or Department’s permission.", True),
+    ("Approval of instructor and department chair prior to registration.", True),
+    ("Permission of department is required.", True),
+    ("Audition and permission of the instructor.", False),
+    ("Dance Major, or Dance Minor, or permission of instructor", False),
+    ("Program Admission or Permission of Director", False),
+    ("Junior level status; consent of the instructor and chair.", False),
+    ("HS majors or Non-majors with permission of the department", False),
+    ("Permission of the professor and admission to the Ed.S. or Ed.D. program.", False),
+    ("60+ credit hours; permission of the instructor.", False),
+])
+def test_permission_only_text_is_left_out_and_any_other_clause_keeps_the_course(text, left_out):
+    cat = {"AAA 1000": C("AAA 1000", prereq=text)}
+    d = run(P(("Major Requirements", 2, ["AAA 1000"])), cat)
+    assert (d.left_out == ["AAA 1000"]) is left_out
+    assert ("AAA 1000" in d.program_json["courses"]) is not left_out
 
 
 def test_left_out_title_rule_uses_word_boundaries_and_page_title():
