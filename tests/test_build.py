@@ -402,3 +402,19 @@ def test_cli_uses_auto_for_unchecked_and_holds_on_draft_warnings(tmp_path, monke
     (d / "program.json").write_text(json.dumps({**spec, "draftWarnings": ["unrecognized section 'X'"]}))
     (d / "courses.json").unlink()
     assert build.main(["bs-cs"]) == 1 and not (d / "courses.json").exists()
+
+
+def test_cli_never_overwrites_a_checked_major_without_accept(tmp_path, monkeypatch):
+    import json
+    from owlpath_pipeline import build
+
+    d = _program_dir(tmp_path, monkeypatch, {"CS 3305": ["major-required"]})
+    spec = json.loads((d / "program.json").read_text())
+    (d / "program.json").write_text(json.dumps({**spec, "checked": True}))
+    monkeypatch.setattr(build, "level_get_raw", lambda level, source="snapshot", data_dir=None: Pages(raw("CS 3305")))
+    (d / "courses.json").write_text('{"reviewed": true}\n')
+    assert build.main(["bs-cs"]) == 1
+    assert (d / "courses.json").read_text() == '{"reviewed": true}\n'
+    assert build.main(["bs-cs", "--accept-checked"]) == 0
+    assert json.loads((d / "courses.json").read_text())["checked"] is True
+    assert build.main(["bs-cs"]) == 0  # unchanged now, so a rebuild is fine
