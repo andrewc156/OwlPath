@@ -16,6 +16,7 @@ _TOKEN = re.compile(
     (?P<GRADE_PREFIX>(?:an?\ )?(?:minimum\ )?(?:earned\ )?grades?\ of\ ["']?(?P<pg>[A-F])["']?\ or\ (?:higher|better)\ in\b)
   | (?P<GRADE_SUFFIX>(?P<each>(?:each|both|all)\ )?with\ (?:an?\ (?:(?:minimum\ )?grade\ of\ )?)?["'](?P<sg>[A-F])["']
       \ or\ (?:higher|better))
+  | (?P<GRADE_MIN>(?:a\ )?minimum\ grade\ of\ ["'](?P<mg>[A-F])["'](?:\ or\ (?:higher|better))?)
   | (?P<NOTE>(?:by\ )?placement(?:\ (?:in)?to\ (?-i:[A-Z]{2,4}\ \d{4}[A-Z]?)(?:\ or\ higher)?)?
       | (?:admission\ to|acceptance\ into)\ .*?\ program\b
       | (?:freshman|sophomore|junior|senior|graduate)\ standing
@@ -38,8 +39,9 @@ _TOKEN = re.compile(
 # (admission, standing, major, hours, GPA, approval, certification): a note, shown and never blocking.
 # Anything else, and any phrase ending in ":" (a per-major or per-program condition), still warns.
 _REQUIREMENT_WORDS = re.compile(
-    r"\b(admission|admitted|acceptance|accepted|standing|majors?|program|student|permission|consent|approval|approved"
-    r"|credit\ hours|gpa|certificate|certification|endorsement|clinical|candidacy|enrolled|enrollment|placement)\b",
+    r"\b(?:admission|admitted|acceptance|accepted|standing|majors?|program|student|permission|consent|approval|approved"
+    r"|credit\ hours|gpa|certificate|certification|endorsement|clinical|candidacy|enrolled|enrollment|placement"
+    r"|equivalent|audition|portfolio|insurance|school\ of|degree|mba|ph\.?d|ed\.?\ ?[ds]|[bm]\.\ ?(?:ed|s|a|f\.?a)\b\.?)",
     re.IGNORECASE | re.VERBOSE)
 
 _OPERAND_END = {"COURSE", "NOTE", "RP", "GRADE_SUFFIX"}
@@ -52,6 +54,7 @@ class _Tok:
     text: str
     grade: str | None = None
     each: bool = False
+    known: bool = False  # a NOTE the parser recognized (placement, admission, standing, permission...)
 
 
 class _ParseError(Exception):
@@ -63,6 +66,11 @@ def _normalize(text: str) -> str:
     text = text.replace(" ", " ")
     text = re.sub(r"(?<=[a-z])(?=[A-Z]{2,4}\s*\d{4})", " ", text)  # "inCSE 1321" -> "in CSE 1321"
     text = re.sub(r"\b([A-Z]{2,4})\s+(\d{4}[A-Z]?)\b", r"\1 \2", text)  # normalize spacing inside ids
+    text = re.sub(r"\(\s*or\s+(?:its\s+|an?\s+)?equivalent\s*\)", " or equivalent", text, flags=re.IGNORECASE)
+    # "(GSS)", "(MBA/MSIS)": brackets around words with no course and no and/or group nothing; drop them.
+    text = re.sub(r"\(([^()\[\]]*)\)",
+                  lambda m: m.group(0) if re.search(r"[A-Z]{2,4} \d{4}|\b(?:and|or)\b", m.group(1), re.IGNORECASE)
+                  else f" {m.group(1)} ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text.rstrip(".").strip()
 
@@ -71,13 +79,20 @@ def _tokenize(text: str, warnings: list[str]) -> list[_Tok]:
     toks: list[_Tok] = []
     buf = ""
 
+    def note(phrase: str, known: bool) -> None:
+        # Words that sit right against another phrase, with no operator between, belong to it:
+        # "Admission to Ed.D. Program" + "in Educational Leadership" is one requirement.
+        if toks and toks[-1].kind == "NOTE":
+            toks[-1].text += f" {phrase}"
+            toks[-1].known = toks[-1].known or known
+        else:
+            toks.append(_Tok("NOTE", phrase, known=known))
+
     def flush() -> None:
         nonlocal buf
         leftover = buf.strip(" ,")
         if leftover:
-            toks.append(_Tok("NOTE", leftover))
-            if leftover.endswith(":") or not _REQUIREMENT_WORDS.search(leftover):
-                warnings.append(f"unrecognized: {leftover}")
+            note(leftover, False)
         buf = ""
 
     pos = 0
@@ -87,20 +102,29 @@ def _tokenize(text: str, warnings: list[str]) -> list[_Tok]:
             buf += text[pos]
             pos += 1
             continue
-        kind = next(k for k in ("GRADE_PREFIX", "GRADE_SUFFIX", "NOTE", "COURSE", "AND", "OR", "LP", "RP", "COMMA", "WS")
-                    if m.group(k) is not None)
-        if kind == "WS" and buf:
-            buf += m.group(0)  # keep unrecognized phrases together
+        kind = next(k for k in ("GRADE_PREFIX", "GRADE_SUFFIX", "GRADE_MIN", "NOTE", "COURSE", "AND", "OR", "LP", "RP",
+                                "COMMA", "WS") if m.group(k) is not None)
+        if kind in ("WS", "COMMA") and buf:
+            buf += m.group(0)  # keep an unrecognized phrase together, commas included
         else:
             flush()
             if kind == "GRADE_PREFIX":
                 toks.append(_Tok(kind, m.group(0), grade=m.group("pg").upper()))
             elif kind == "GRADE_SUFFIX":
                 toks.append(_Tok(kind, m.group(0), grade=m.group("sg").upper(), each=bool(m.group("each"))))
+            elif kind == "GRADE_MIN":  # "A and B, minimum grade of 'C'" covers the whole group
+                toks.append(_Tok("GRADE_SUFFIX", m.group(0), grade=m.group("mg").upper(), each=True))
+            elif kind == "NOTE":
+                note(m.group(0), True)
             elif kind not in ("WS", "COMMA"):
                 toks.append(_Tok(kind, m.group(0)))
         pos = m.end()
     flush()
+    # A phrase is fine as a note when the parser knows its kind, or it names a known requirement kind. Anything
+    # else, and any phrase ending in ":" (a per-major or per-program condition), needs a person.
+    for t in toks:
+        if t.kind == "NOTE" and not t.known and (t.text.endswith(":") or not _REQUIREMENT_WORDS.search(t.text)):
+            warnings.append(f"unrecognized: {t.text}")
     return toks
 
 

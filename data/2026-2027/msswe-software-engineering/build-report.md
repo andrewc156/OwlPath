@@ -2,13 +2,8 @@
 
 ## Warnings needing review
 
-- **CS 7125**
-  - unrecognized: Equivalent
 - **CS 7455**
-  - unrecognized: Coursework in Computer Programming
   - missing operator before 'as determined by program admission', assumed and
-- **CS 7535**
-  - unrecognized: a Bachelor of Science in Computer Science degree
 - **CS 7827**
   - unrecognized: Coursework in Operating Systems
   - missing operator before 'as determined by program admission', assumed and

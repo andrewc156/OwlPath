@@ -24,7 +24,6 @@
   - unrecognized: Analytics
   - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, or Analytics and Data Science Ph.D. Program
 - **CS 8267**
-  - unrecognized: Analytics
   - ambiguous and/or precedence: Admission to Computer Science Ph.D. program, Computer Science MS Program, Analytics and Data Science Ph.D. Program, or Interdisciplinary Engineering Ph.D. program
 - **CS 8998**
   - unrecognized: Varies depending on the topic

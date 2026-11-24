@@ -2,33 +2,12 @@
 
 ## Warnings needing review
 
-- **EDL 7401**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7415**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7601**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7615**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
 - **EDL 7620**
-  - unrecognized: Educational Leadership
-  - unrecognized: MEd
-  - missing operator before 'MEd', assumed and
+  - unrecognized: Educational Leadership, MEd
 - **EDL 7625**
-  - unrecognized: Educational Leadership
-  - unrecognized: MEd
-  - missing operator before 'MEd', assumed and
-- **TLED 7101**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
+  - unrecognized: Educational Leadership, MEd
 - **TLED 7215**
-  - unrecognized: Educational Leadership
-  - unrecognized: MEd
-  - missing operator before 'MEd', assumed and
+  - unrecognized: Educational Leadership, MEd
 
 ## Left out on purpose
 

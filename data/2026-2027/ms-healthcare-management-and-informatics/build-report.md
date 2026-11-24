@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **HMI 7510**
-  - unrecognized: Full
+None.
 
 ## Left out on purpose
 

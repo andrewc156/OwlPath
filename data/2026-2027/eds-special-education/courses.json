@@ -1,0 +1,227 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133389",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a critical analysis of K-12 education policy at the national, state, and local levels. Topics include issues related to historical, political, cultural, and social contexts of American education. Students examine institutions and processes of public policymaking. The goal of the course is to help leaders think critically about education policy, theory, and praxis and its influences on their students as learners.",
+      "groups": [
+        "conc-special-education-leadership"
+      ],
+      "id": "EDL 7101",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Critical Analysis of Policy, Theory and Praxis for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133820",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for emerging school leaders to develop practical skills using research and data analysis for school improvement and curricular leadership. Candidates will develop knowledge, skills, and dispositions for leading the development of instructional and assessment practices by bridging theory and practice. The course also covers technological applications as tools to improve student achievement. Candidates will analyze, plan, develop, monitor, and evaluate instructional programs that align vertically and horizontally with state and district curriculum standards and that meet the needs of all students, particularly students with exceptionalities, and students with cultural and linguistic differences.",
+      "groups": [
+        "conc-special-education-leadership"
+      ],
+      "id": "EDL 7215",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Data-Informed Curriculum and Assessment for Educational Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133394",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, educational leaders will learn to facilitate and evaluate instruction, to support and coach teachers in the implementation of a shared vision of teaching and learning, and to use job-embedded professional learning to implement instruction that is standards-based, focused on student and adult learning, and accessible to and inclusive of all students.",
+      "groups": [
+        "conc-special-education-leadership"
+      ],
+      "id": "EDL 7401",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Instructional Leadership for Learning & Change"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the knowledge, dispositions, and skills needed by school administrators to understand and respond to various community systems and needs, collaborate effectively, mobilize community resources, and interpret the school to the public through a variety of media and modes.",
+      "groups": [
+        "conc-special-education-leadership"
+      ],
+      "id": "EDL 7615",
+      "notes": [
+        "Admission to a graduate program in the Department of Educational Leadership",
+        "the Ed.S. in Special Education"
+      ],
+      "prereqs": null,
+      "title": "Communication and Community Relations, for School Leaders"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132484",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course deepens experienced educators\u2019 knowledge of research-based best practices in diverse classrooms. This is an advanced course with in-depth study of classic and current research on learning theories and related topics in educational psychology as they relate to teaching and learning in schools. Focus is on those theories and research which have transformed and are reforming educational practice. Note: This course may be cross-leveled with EDUC 7100",
+      "groups": [
+        "conc-special-education-advanced"
+      ],
+      "id": "EDUC 8100",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Study of Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates develop a basic understanding of educational research paradigms including qualitative, quantitative and action research designs. Candidates will develop expertise as consumers and producers of research, critically examining the use of data in policy aimed at improving student outcomes. Major topics include use of district-state wide assessment data to inform instruction, the ethical use of data, and teacher evaluation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7742",
+      "notes": [
+        "Admission to KSU graduate degree program"
+      ],
+      "prereqs": null,
+      "title": "Data-based Inquiry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133053",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, candidates will explore curriculum ideologies to help them better understand how curriculum models can be developed and utilized for all learners. The goal is to prepare practitioners to promote access to the general curriculum for all students through participation in standards-based reform (e.g., state performance standards), and Universal Design for Learning. As a result, candidates will demonstrate advanced ability to design, implement, and evaluate curricula for all students.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7800",
+      "notes": [
+        "Admission to a Bagwell College of Education graduate program"
+      ],
+      "prereqs": null,
+      "title": "Curriculum Theory, Development, and Instructional Strategies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132615",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The focus of this course is inquiry of educational policies at the local, state, national and international level from multiple analytic perspectives. Analysis of the process of policy development and implementation will include both the benefits and unintended consequences of these policies. Impact of these policies on the education of students with disabilities will include attention to how educators can serve as advocates to correct and/or support policies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 8310",
+      "notes": [
+        "Admission to a Bagwell College of Education graduate program"
+      ],
+      "prereqs": null,
+      "title": "Education Policies: Impact on Special Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132616",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course candidates will apply a critical lens to collaboration among key stakeholders to promote equitable practices within culturally responsive and sustaining educational contexts, leading to improved outcomes for learners with disabilities. This course extends historical discourse on collaboration by requiring candidates to critically examine the dilemmas, tensions, challenges and questions relative to collaboration within their own work settings and to apply rational and logical thought to actualizing change when critically analyzing their own practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 8315",
+      "notes": [
+        "Admission to a Bagwell College of Education graduate program"
+      ],
+      "prereqs": null,
+      "title": "Critical Analysis of Collaboration in Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133050",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the historical evolution of educational services for individuals with disabilities within an ethic of justice framework. Critical analysis of the impact of events related to human rights and views of education and disability are emphasized. Candidates will examine ethical dilemmas from legal, theoretical, contextual and practical perspectives to expand their view of education as it applies to all students in P-12 classrooms.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 8335",
+      "notes": [
+        "Admission to a Bagwell College of Education graduate program"
+      ],
+      "prereqs": null,
+      "title": "Special Education From A Historical Perspective"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133049",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines effective practices and innovations within today\u2019s education system that contribute to improved outcomes for students with a wide range of learning needs. Through the study of theoretical and practical frameworks, analysis of empirical research, and application of inclusive leadership practices, candidates will develop the knowledge and skills necessary to serve as effective leaders in advancing student learning and success.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 8360",
+      "notes": [],
+      "prereqs": null,
+      "title": "Addressing the Academic Needs of All Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to technologies available in schools and explores technology integration frameworks grounded in research-based pedagogical strategies to maximize student engagement. Candidates will design exemplary technology-supported learning experiences that foster higher-order thinking, collaboration, authentic/meaningful learning tasks, and achievement of student content and technology standards. Candidates will also learn how to coach other educators toward higher levels of technology implementation. Appropriate for classroom teachers and other educational leaders interested in increasing effective technology-supported instructional practices in their schools.",
+      "groups": [
+        "conc-special-education-advanced"
+      ],
+      "id": "ITEC 7400",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Teaching, Technology & Student Engagement"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-special-education-advanced"
+        ],
+        "label": "Special Education Advanced"
+      },
+      {
+        "groups": [
+          "conc-special-education-leadership"
+        ],
+        "label": "Special Education Leadership"
+      }
+    ],
+    "id": "eds-special-education",
+    "name": "EdS Special Education"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

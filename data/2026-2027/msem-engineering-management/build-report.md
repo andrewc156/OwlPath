@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **IS 7090**
-  - unrecognized: Full
+None.
 
 ## Left out on purpose
 

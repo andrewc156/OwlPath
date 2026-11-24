@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **MSCM 7321**
-  - unrecognized: INCM programs
-- **MSCM 7502**
-  - unrecognized: INCM programs
-- **MSCM 7708**
-  - unrecognized: INCM programs
+None.
 
 ## Left out on purpose
 

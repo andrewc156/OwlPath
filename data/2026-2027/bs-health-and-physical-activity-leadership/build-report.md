@@ -10,22 +10,6 @@
   - unrecognized: Any General Education D1 core curriculum course
 - **HPAL 4900**
   - unrecognized: one Advanced Coaching Course
-- **HPE 3350**
-  - unrecognized: proof of liability insurance are required
-- **HPE 3450**
-  - unrecognized: current teacher liability insurance
-- **HPE 3550**
-  - unrecognized: current teacher liability insurance
-- **HPE 3625**
-  - unrecognized: proof of liability insurance are required
-- **HPE 3650**
-  - unrecognized: current teacher liability insurance
-- **HPE 4420**
-  - unrecognized: current teacher liability insurance
-- **HPE 4430**
-  - unrecognized: current teacher liability insurance
-- **HPE 4850**
-  - unrecognized: current teacher liability insurance
 
 ## Notes
 

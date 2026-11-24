@@ -27,8 +27,7 @@
   - missing operator before 'EDMG 4403', assumed and
   - missing operator before 'EDMG 4404', assumed and
 - **EDSM 3000K**
-  - unrecognized: Any science course from Technology
-  - unrecognized: Mathematics
+  - unrecognized: Any science course from Technology, Mathematics
   - unrecognized: Sciences in the General Education Core Curriculum
 - **EDUC 4610**
   - unrecognized: Varies by program:

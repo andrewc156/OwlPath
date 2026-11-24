@@ -2,13 +2,7 @@
 
 ## Warnings needing review
 
-- **IT 3883**
-  - unrecognized: minimum grade of 'C'
-  - unrecognized: minimum grade of 'C'
-  - unrecognized: minimum grade of 'C'
-  - missing operator before 'minimum grade of 'C'', assumed and
-  - missing operator before 'minimum grade of 'C'', assumed and
-  - missing operator before 'minimum grade of 'C'', assumed and
+None.
 
 ## Notes
 

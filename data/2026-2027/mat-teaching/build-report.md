@@ -4,15 +4,6 @@
 
 - **ARED 6660**
   - unrecognized: MAT faculty review
-- **ECE 6620**
-  - unrecognized: MAT
-  - missing operator before 'MAT', assumed and
-- **ECE 6630**
-  - unrecognized: MAT with a concentration in Elementary Education
-  - missing operator before 'MAT with a concentration in Elementary Education', assumed and
-- **ECE 7514**
-  - unrecognized: MAT with a concentration in Elementary Education
-  - missing operator before 'MAT with a concentration in Elementary Education', assumed and
 - **EDRD 6718**
   - unrecognized: have evidence of passing criminal background check
   - ambiguous and/or precedence: Candidates must be admitted to a KSU BCOE program, certificate or endorsement program and have evidence of passing criminal background check
@@ -22,12 +13,7 @@
   - could not parse (unexpected 'and'): EDUC 6240, ENGL 7731, ENGL 7735; pre-service certificate; and admission to Yearlong Clinical Experience
 - **ENED 6660**
   - unrecognized: eligibility to take GACE English tests
-  - unrecognized: Educator Ethics Assessment 370
-  - unrecognized: required by the Georgia Professional Standards Commission
-  - missing operator before '(', assumed and
-- **INED 6400**
-  - unrecognized: M.A.T
-  - missing operator before 'M.A.T', assumed and
+  - unrecognized: Educator Ethics Assessment 370 required by the Georgia Professional Standards Commission
 
 ## Left out on purpose
 

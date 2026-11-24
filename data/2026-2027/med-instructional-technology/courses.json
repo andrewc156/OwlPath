@@ -1,0 +1,198 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132655",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, educators will learn to utilize data to identify school improvement needs and make informed decisions in effectuating change. The ultimate goal of this course is to produce educational leaders who effectively collect, analyze, and use data to improve schools through successfully demonstrated change models. In this course, educators will learn to systemically collect and analyze multiple sources of data to identify improvement needs, determine an effective response, monitor and correct progress, and demonstrate and communicate success to stakeholders. Additionally, students will learn to drive and sustain change in a collegial environment, culminating in student\u2019s understanding of, and ability to use, a wide range of applicable leadership practices. Finally, students will learn a variety of technology tools to use for data analysis. They will also learn a variety of Web 2.0 tools to facilitate school communication.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7305",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Data Analysis & School Improvement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to technologies available in schools and explores technology integration frameworks grounded in research-based pedagogical strategies to maximize student engagement. Candidates will design exemplary technology-supported learning experiences that foster higher-order thinking, collaboration, authentic/meaningful learning tasks, and achievement of student content and technology standards. Candidates will also learn how to coach other educators toward higher levels of technology implementation. Appropriate for classroom teachers and other educational leaders interested in increasing effective technology-supported instructional practices in their schools.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7400",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Teaching, Technology & Student Engagement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132659",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to methods and strategies for using the Internet effectively in the classroom. Students will experience a variety of Internet technologies and develop strategies for classroom implementation. The course includes guided tours of some of the best educational sites on the World Wide Web and explores ways to integrate use of the Internet into an educational setting. This course introduces students to systematic instructional methods and models for using the Internet effectively in the classroom. Candidates will create lessons that are current, highly motivating, and mentally engaging.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7430",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Digital Tools for Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133593",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "To foster digital citizenship in P-12 schools and among their students, this course provides candidates with knowledge of digital citizenship and the skills and procedures to design and implement technology-enhanced learning that inspires students to positively contribute and responsibly participate while online and beyond. Through this course, candidates will explore multiple elements of digital citizenship to design and implement lessons that build relationships in online contexts and foster both digital literacy and media fluency, as well as mentor and model for students to facilitate appropriate online practices and protections.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7455",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Digital Citizenship in Schools"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132663",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares educators to join local and global learning networks for professional learning and serve as instructional technology coaches, providing quality instructional coaching to their peers. Learners are prepared to join local and global learning networks, build partnerships with school leadership, conduct individual need assessments of teacher technology use, establish coaching relationships, and design high-quality professional learning experiences that help other educators apply technology to enhance professional practice. Candidates learn to apply change models and diffusion theory in order to implement technology innovations in classrooms.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7460",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Professional Learning & Instructional Technology Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132664",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to help candidates develop an understanding of qualitative and quantitative research methods and designs, focusing on interpretation and application relating to classroom practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7470",
+      "notes": [
+        "Admission to the M.Ed. program in Instructional Technology"
+      ],
+      "prereqs": null,
+      "title": "Educational Research"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132665",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores principles for effective online and blended learning and introduces key terms, issues, policies, challenges, and emerging trends in the field. Topics include published standards for quality online teaching and course design, addressing student academic needs, accessibility of online learning, online assessment principles, accommodations for students with disabilities, and digital citizenship concepts related to online and blended learning. Candidates learn pedagogical strategies for use in an online learning environment and apply them to their discipline. Course projects include creating an online/blended course syllabus and an online learning module.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7480",
+      "notes": [
+        "Admittance to a graduate program, certificate program",
+        "endorsement program within the Bagwell College of Education"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Online & Blended Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133594",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, we use the design process to create learning experiences that are relevant, engaging, and support learner agency. We will explore how emerging technologies can be used to nurture creative expression. Topics in this course may include the following: active learning spaces, adaptive learning technologies, artificial intelligence (AI), augmented and virtual reality (AR/VR), coding, computational thinking, game-based learning, learning analytics, machine learning, open educational resources (OER), and other emerging trends. In addition, throughout the course, we will engage in digital tinkering in order to develop an innovative digital project with students.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7485",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Creating with Emerging Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132670",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This three-credit hour course represents the culminating experience for the initial-certification programs in Instructional Technology. Through the creation of a portfolio, students document mastery of the Georgia PSC Instructional Technology standards. The portfolio documents the candidate\u2019s ability to provide technology facilitation at the building level as well as their expertise as an Instructional Technology educator. The portfolio serves as a systematic, reflection-in-action approach to problem solving and decision-making, providing a detailed authentic picture of the candidate\u2019s professional practice and reflective analysis of the integration of courses taken supported by theory. Changes in classroom practices and vision will be included.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7500",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Capstone Experience & Portfolio"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133462",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces classroom teachers to personalized learning in technology-rich environments. Candidates will learn various theories and rationale for personalized learning as well as definitions, state standards, and key components of personalized learning. Candidates will devise a plan for implementing personalized learning. The plan will include personalized learning principles and learning standards to address instructional strategies and components of personalized learning and technologies that support personalized learning environments. This course provides the candidate with a broader initial understanding of how personalized learning came about and foundational knowledge of how to create a personalized learning environment enabled by technologies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7600",
+      "notes": [
+        "Candidates must be admitted to a KSU EPP program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Personalized Learning & Technology Rich Environments"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "med-instructional-technology",
+    "name": "MEd Instructional Technology"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

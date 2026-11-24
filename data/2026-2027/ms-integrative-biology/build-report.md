@@ -2,11 +2,7 @@
 
 ## Warnings needing review
 
-- **BIOL 7410**
-  - unrecognized: MS
-  - missing operator before 'MS', assumed and
-- **BIOL 7998**
-  - missing operator before 'M.S. program', assumed and
+None.
 
 ## Left out on purpose
 

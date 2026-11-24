@@ -1,0 +1,183 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133414",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundational course provides theoretical, foundational, and practical emphases for school leadership. The course presents leadership theory and should be taken as one of the first in the Ed.S. program. It seeks to capture the synergy and situations that school leaders encounter as they seek to reform schools. Candidates will apply practical knowledge that helps to build and sustain learning places that are intentionally inclusive and inviting to all educational stakeholders.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8005",
+      "notes": [
+        "Admission to Educational Leadership Tier II Ed.S. program"
+      ],
+      "prereqs": null,
+      "title": "Foundations for Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138508",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The overarching goal of the course is to develop school leaders who understand the variables that affect student achievement and how to use data and the professional literature to support the transformation of schools through thoughtful analysis of the total environment and careful planning for the future. Within the context of school transformation, this doctoral seminar addresses the practical application of all aspects of distributed leadership and requires fieldwork and other forms of practical, problem-based learning. Successful candidates will develop a school change portfolio that minimally includes: (a) Rationale for school transformation based upon the professional literature; (b) Historical analysis and assessment of school performance on critical variables related to student achievement; (c) Benchmarking of local and community resources; (d) Professional development plan; and (e) Evaluation strategy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8100",
+      "notes": [
+        "Admission to the Ed.S. or Ed.D. program",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Critical Issues in School Transformation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133411",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course candidates will be introduced to various forms of leadership evaluation and assessments relative to school leadership and subsequently student, school or institutional improvement. Candidates will be able to analyze data and assessments from a variety of state, local, and national perspectives for increased leader and student outcomes. Candidates will gather artifacts related to standards in educational leadership and evaluate in oral and written form how artifacts demonstrate a mastery of standards.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8200",
+      "notes": [
+        "Admission to Educational Leadership Tier II Ed.S. program"
+      ],
+      "prereqs": null,
+      "title": "Applied Leadership Evaluation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133413",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares educators with knowledge and skills in culturally responsive leadership essential for creating learning environments where all students can achieve high academic standards. This course is aligned to the changes in demographics and technology that have dramatically impacted Georgia schools and is a performance-based residency course. Candidates develop skills to help educators develop appropriate pedagogy that enhances the academic success of all students.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8805",
+      "notes": [
+        "Admission to the Educational Leadership Tier II Ed.S. Program"
+      ],
+      "prereqs": null,
+      "title": "Culturally Responsive Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132427",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class is the first module in the residency sequence. The purpose of the module is to facilitate the acquisition of knowledge, skills, and disposition related to the importance of developing and implementing a vision for school improvement within school and system governance structures.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8810",
+      "notes": [
+        "Admission to program"
+      ],
+      "prereqs": null,
+      "title": "Vision and Governance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132428",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "During this module the candidate will, along with the university faculty supervisor, school/district mentor, and leadership coach, create a program of observation, research, and involvement designed to gain an understanding into the role of managing resources for instructional improvement and a safe school environment for learning.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8820",
+      "notes": [
+        "Admission to program"
+      ],
+      "prereqs": null,
+      "title": "Managing the Physical Environment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133412",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to provide leader candidates with the knowledge, skills, and dispositions necessary to meet the needs of all learners. Candidates analyze P-12 curriculum, identify learning gaps, and formulate action steps for effective teaching and learning. This is a performance-based residency course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8835",
+      "notes": [
+        "Admission to the Educational Specialist Program"
+      ],
+      "prereqs": null,
+      "title": "Curriculum and Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132430",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This module focuses on developing leaders who can develop, implement, and monitor professional learning programs and activities that are meaningful and job-embedded, and that provide follow-up support.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8840",
+      "notes": [
+        "Admission to program"
+      ],
+      "prereqs": null,
+      "title": "Professional Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132431",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This module is designed to develop leaders who understand the significance of sound and efficient decision-making as it impacts the performance of school and system employees, the fiscal resources of the school district, and most importantly, the increased academic achievement of all students within the district.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDL 8850",
+      "notes": [
+        "Admission to program"
+      ],
+      "prereqs": null,
+      "title": "Managing Human Resources"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132454",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will develop a functional understanding of quantitative and qualitative research as applied to educational arena. Emphasis is placed on candidates acquisition of analytical and interpretive skills.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8000",
+      "notes": [
+        "Admission to graduate program M.Ed., Ed.S., Ed.D. in education",
+        "permission of the advisor"
+      ],
+      "prereqs": null,
+      "title": "Applied Quantitative & Qualitative Research"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "eds-educational-leadership",
+    "name": "EdS Educational Leadership"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

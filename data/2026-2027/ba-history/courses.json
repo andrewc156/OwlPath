@@ -1,0 +1,1533 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "HIST 1111",
+      "HIST 1112"
+    ],
+    [
+      "HIST 2111",
+      "HIST 2112"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135951",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to world regions through the context of human geography. The course focuses on basic geographic concepts to analyze social, economic and political issues at local, regional and global scales. Elements of fundamental physical geography will be discussed to illustrate the spatial relationships between the physical environment and human geography.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 1130",
+      "notes": [],
+      "prereqs": null,
+      "title": "World Regional Geography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135856",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of World History to early modern times.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of World History I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135857",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of World History from early modern times to the present.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 1112",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of World History II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134811",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of U.S. History to the post-Civil War period.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 2111",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of U.S. History I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134812",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of U.S. History from the post-Civil War period to the present.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 2112",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of U.S. History II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134813",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a systematic examination of five centers of civilization in Afro-Eurasia during their defining moments. The course focuses on the historical contexts that gave rise to China\u2019s classical philosophies, India\u2019s transcendental world-view, the Judaeo-Christian-Islamic synthesis, African mythoreligious systems of thought, and Latin-European culture in the West. The course\u2019s content emphasizes cross-cultural influences and connections.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 2206",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "HIST 1100"
+          },
+          "HIST 1111",
+          "HIST 1112"
+        ]
+      },
+      "title": "Origins of Great Traditions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135975",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to historical inquiry as a conversation about the past. It surveys methods, concepts, and frameworks relevant to the discipline. Students engage in the close reading of scholarly historical work, learn and practice a variety of research methods, and analyze historical sources. Students cultivate good scholarly practices and habits of mind that will benefit them in future courses. Students should take this course during the second semester of the sophomore year.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3100",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Historical Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134814",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A consideration of Georgia\u2019s political, economic, social, and cultural development from the colonial period to the present. Topics include the cultures of indigenous peoples, the Spanish in Georgia, the founding of a British colony, the Revolution, Indian removal, antebellum society, the Civil War, Reconstruction, the New South era, the rise and decline of the cotton economy, race relations, and post-World War II prosperity and problems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3304",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Georgia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134815",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of major themes in world history since 1945, this course focuses on sociocultural and intellectual developments in addition to the traditional concerns with political and economic relations. Particular emphasis is given to great power relations, the role of the middle powers, and North-South relations as well as the interactions between Western and non-Western cultures in the context of increasing globalization.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3305",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The World Since 1945"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134816",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will be an exploration of the American South from the colonial period to the end of the Civil War. While major political and economic events will be an important part of the course, such events grow out of the ordeals of ordinary people. Therefore, close attention will be paid to the experiences of men and women \u2013 white, black, and Native American \u2013 from all social classes whose lives created a unique society known as the Old South.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3310",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Old South"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134817",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The South\u2019s social, political, and economic development from 1865. Emphasizes Reconstruction, the \u201cNew South Creed,\u201d race relations, industrialization, and the region\u2019s changing role in national affairs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3311",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The New South"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134820",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course exposes students to how Americans think about the past, as well as its commemoration and public presentation. Special focus will be placed on the ways in which historians transfer their writing, research, and analytical skills to professions outside of academia. Major subfields and professions within public history are examined as are the current issues and controversies within the field.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3325",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Public History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134821",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the history, theories, and methods of historic preservation. Students are exposed to such activities as renovation approaches for historic architecture, neighborhood and downtown revitalization, and heritage tourism, as well as the social and ethical issues swirling around preservation. Students are also introduced to the \u201ctools\u201d of preservation, including tax incentives, historic inventories, HABS/HAER, the National Register of Historic Places, and the National Trust\u2019s Teaching with Historic Places.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3326",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Historic Preservation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134822",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces students to vernacular and high-style architecture and its relationship to social, political, and economic forces. The focus will be on the forms, spaces, and stylistic traits of historic architecture, how architecture has evolved through the years, how technological evolutions and innovations have influenced architecture, and what the built environment reveals about public and private life. The geographic focus of the course can change, depending upon the instructor and the needs of the department.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3327",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Architectural History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135662",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to the archival and records management professions, principles, practices, and legal/ethical challenges. In addition, students hands-on experience working with sample collections and original materials.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3328",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Archives and Records Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134823",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of religious history in the United States, with special emphasis on beliefs and institutions and their social and cultural context.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3331",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Religion in the U.S."
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134825",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A history of the people of African descent in the United States, from the African beginnings to 1865. The course will emphasize the forced migration of Africans, their experiences under plantation slavery, their resistance and emancipation, and their contributions to American society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3333",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "African American History to 1865"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134826",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of the activities and experiences of African people who live outside the continent from the earliest times to the present. This course examines the migration of Africans to Eurasia, Oceania, and the Americas, and gives special attention to the slave trade across the Sahara Desert and the Atlantic and Indian Oceans; the comparative experience of Africans in slavery in the Middle East and the Americas; emancipation and the process of racial and national integration; and the economic, political, and cultural contributions of Africans in the Diaspora.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3334",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Africans in the Diaspora"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134827",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A history of African Americans in the United States since emancipation. The course emphasizes the struggles waged by African Americans to achieve racial equality and full citizenship in the United States, and the social, cultural, political, and economic forces that have shaped the African American community. Special attention is given to the men and women who led the struggle, the ideas and ideals which inspired and dominated each phase of the struggle, and the movements and institutions which were created in the process.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3335",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "African American History, 1865 to Present"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134828",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of the development of the American military and its role in U.S. and world history. The course will emphasize the political, economic, and social importance of the military and its role in integrating U.S. society as well as the evolution of strategy, operations and tactics and their use in warfare.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3340",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "U.S. Military Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134829",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focuses on the social, economic, political, cultural, and religious experiences of American women of various racial, ethnic, and religious backgrounds from the Colonial period to the present.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3341",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Women in U.S. History and Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134832",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of English history from the earliest time to 1688. The course emphasizes political, cultural, and social developments between the Norman conquest and the transformation of England into a constitutional monarchy by the Glorious Revolution.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3350",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "England to 1688"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134833",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "English history from 1689. The course emphasizes the rise of parliamentary government, the importance of the British Empire, and the social, cultural, and economic ideas that have made England and much of the English-speaking world what they are today.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3351",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern England"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of the history of people of African descent in Asia from the African beginnings to the present. The course evaluates the historical significance of the African presence in the Middle East, India, Southeast Asia, and China. It emphasizes the historical contacts and connection between Africa and Asia, the forced migration of Africans in the age of Islamic expansion and imperialism, the comparative experiences of Africans in bondage and freedom, and their integration into the host societies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3357",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Africans in Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134836",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A history of the people of African descent in Latin America, the Caribbean, and the United States, from the African beginnings to 1888. The course will examine the forced migration of Africans; their roles in the conquest and settlement of Spanish America, Brazil, and the West Indies; and their comparative experiences under plantation slavery. It will emphasize their resistance and emancipation, and their contributions to the development of the multiracial character of Latin American and Caribbean societies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3358",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Africans in Latin America and the Caribbean"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135556",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the history, politics, arts, and culture of Slavic and Eastern Europe with a concentration on the last two centuries and contemporary events. After a brief historical survey, students examine prominent themes such as nationalism, ethnicity, state-building, and imperialism. Many themes are analyzed using examples from the arts, popular culture, music, and literature.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3361",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Themes in Slavic and Eastern European Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134838",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the Mesoamerican pre-classic civilizations, the Aztec Empire and the Maya kingdoms, the Spanish conquest and establishment of New Spain, and the independent nation-states of Mexico and Central America. Themes include Spanish colonialism, the Indian struggle for justice, modern nation-state building, and relations with the United States.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3366",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Mexico and Central America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134839",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of Brazil, to include the Native American period, Portuguese colonialism, the Empire of Brazil, and Brazil in the 20th century. Major themes are sugar and slavery, boom and bust economic cycles, the formation of the Brazilian social identity, Brazil and the Amazon, and Brazil\u2019s place in the contemporary global world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3367",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Brazil"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134840",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the main themes in Chinese history from the Neolithic to 1600; discusses how traditional cultures and outside influences have interacted to produce traditional China; explores the great diversity and impressive continuities of traditional Chinese civilization; and assesses the significance of the institutions of state, family, and women in Chinese history.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3372",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Ancient to Pre-Modern China"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134841",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes how Hindu, Buddhist, Islamic, and other traditional cultures combined with British colonial rule and other modernizing influences to produce the India of today. Some attention is also given to peripheral areas, particularly Pakistan and Bangladesh.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3373",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern India and South Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134842",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a basic survey of the major political, economic, social, cultural and intellectual developments of China since 1600. The course emphasizes how traditional cultures, outside influences, and modernizing forces have interacted to produce the China of today.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3374",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern China"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135557",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The Silk Road was the world\u2019s first great superhighway, linking China and Japan to the Mediterranean World across Central Asia from ancient times. The peoples along the way traded luxury goods as well as ideas, religions, art, culinary and musical traditions. Through lectures, reading, and films, we explore the cultural interactions between East and West. Primary sources help us understand the great ideas in Buddhism, Islam, the Indian royal epics, Christian crusading and Mongol expansion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3375",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Silk Road"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134843",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Investigates the major limits and problems inherent in historical understanding and introduces the student to philosophies of history that have sought to address those problems. Case studies of major historical controversies help students recognize the important ways those limits and problems influence even the greatest scholar\u2019s efforts at historical analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3376",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Historiographical Debates"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134844",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "History of scientific ideas and methods from ancient times to the present, with special emphasis on intellectual trends that contributed to the modern world\u2019s scientific outlook.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3377",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135737",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines technology as a factor in historical change, emphasizing the role of tools, machines, and systems in revolutions, culture, politics, and economics. Students engage historiographical debates and readings on the role of technology in the recent and distant past. More broadly, students develop a critical understanding of the role of humanistic inquiry in technological knowledge through biographies, case studies, and primary source documents.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 3378",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Technology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135523",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an advanced introduction to the history of Central Asia from a global perspective. It covers a large territory including Kazakhstan, Turkmenistan, Uzbekistan, Kirgizstan, and Tajikistan. This course focuses on the changes and continuities in the cultures and societies that flourished in this region during the times of major transformations with global significance, such as the expansion of the Mongolian Empire, spread of Islam, encounters with modernity, and emergence of the nation states.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3379",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Central Asia in World History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136499",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a basic survey of the major political, economic, social, cultural and intellectual developments of the Japanese archipelago from the earliest times to 1600. The course emphasizes Japan\u2019s interactions with outside world and how the indigenous and foreign elements were combined to create the basis of Japanese society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3380",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Premodern Japan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136500",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a basic survey of the major political, economic, social, cultural and intellectual developments of the Japanese archipelago from 1500 to the present. The course emphasizes Japan\u2019s interactions with the outside world and how indigenous and foreign elements were combined to create the basis of modern Japanese society.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3381",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern Japan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134845",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course analyzes the history of North Africa and the Middle East since the emergence of Islam. Its major themes include the rise of Berber-Arab/Islamic civilization, the historical ties between North Africa and the Middle East, and the impact of Ottoman rule. Consideration of the 20th century includes European imperialism, the advent of military rule, the establishment of Israel, Arab-Israeli wars and the search for peace, pan-Arabism and the independence movement in Maghrib, petroleum and international politics, the rise of Muslim fundamentalism, and the problems of economic development and modernization are all important themes in the course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3382",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "North Africa and Middle East in Modern Times"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134847",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A history of West Africa from the earliest times to the present. The course emphasizes cultural continuities and changes, trade and cultural ties with North Africa, and contemporary challenges of economic development and nation building in the region. It examines important themes like village, urban, and community life; the formation of mini and mega states such as Ghana, Mali, and Songhai empires; the creation of trans-Saharan and trans-Atlantic trade networks; traditional religion, Islam, and Christianity; European colonialism and African resistances; and decolonization.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3391",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of West Africa"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134848",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A history of Southern, Eastern, and Central Africa from the earliest times to the present. The course emphasizes continuities and changes in African culture, African participation in Indian Ocean and Middle Eastern trade networks, and the impact of European colonization. It examines important themes like Bantu migration and state formation in Central Africa; the emergence of the Ethiopian kingdom; the impact of the Zulu Mfecane; Swahili culture and Omani rule in East Africa; Dutch settlement and the development of apartheid; and the achievement of Black majority rule in South Africa.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 3392",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Southern, Eastern and Central Africa"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the economic, political, legal, social, and cultural developments that occurred in the United States during the period between World War I and World War II",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4163",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The United States between the World Wars"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134818",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the history of the American West with special emphasis on the development of the Trans-Mississippi West from the early 19th century to recent years. The crucial influences of the environment, the interaction of Native Americans, Hispanics, Euro-Americans and other cultural groups, and the unique relationship of the region with the Federal government are explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4204",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The History of the American West"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134831",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys American business and economic development from colonial times to the present. Its major themes include the history of small business and family business; the shifting position of the U.S. within the world economy; the regional economy of Georgia and the South; labor-management relations; the labor movement; and the changing social, political, and cultural context within which business and economic institutions have developed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4245",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Business & Economic History of United States"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134824",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the cultural history of the United States since inception. It considers the themes of nationality, immigration, ethnicity (Asian-Americans, Hispanic-Americans, and Middle Eastern-Americans), the elderly, popular culture, and the environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4251",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "U.S. Social and Cultural History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134819",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines major trends in U.S. diplomacy from 1890 to the present, emphasizing U.S. rise to world power, World Wars I and II, the Cold War and its end, and U.S. relations with developing world areas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4255",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Diplomatic History of the United States"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136819",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers major themes and events in the history of the Indian subcontinent from 1526, the beginning of the Mughal era, to 1947, the independence of India and creation of Pakistan. It explores the making of India as the process was continuously enmeshed with colonial modernity and the birth of nationalist movements. The course provides students with a solid introductory understanding of modern South Asian history and the exploration of historical methods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4373",
+      "notes": [
+        "Must have completed 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern India and South Asia"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136818",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the history of India starting with the Indus River civilizations (c. 2500 before common era) to the advent of Islam and the eventual rise of the Mughal Empire. Students explore multiple religious traditions, ethno-linguistic communities, constant migrations of people, and how broader global forces beyond India shaped the subcontinent during this period.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4374",
+      "notes": [
+        "Must have completed 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Ancient and Medieval India"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136786",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines various themes in the social, political, and cultural history of South Asia and the Indian Ocean World. Possible themes might include major historical figures in South Asian history, labor and subaltern studies, or Indian Ocean World.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4375",
+      "notes": [
+        "Must have completed 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Themes in Asian History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134849",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of major themes in African cultural history from the earliest times to the beginning of European colonialism. The course introduces students to the peoples, societies, and cultures of the continent and emphasizes dominant themes such as cultural unity and diversity, empire and civilization, kinship and family, ethnic and nation building, Islam and traditional religions, indigenous institutions, slavery, and sociopolitical transformations before European colonialism.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4391",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Emerging Themes in African History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134853",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Starting in the pre-Columbian period, this course covers the American experience until 1763. It looks at Native American life, colonization and settlement by the Spanish, French and English, interaction with the Atlantic world, and the wars for imperial dominance fought in North America until 1763. Issues explored include class structure and family life, religion, politics, intellectual movements, society and culture, slavery, and treatment of minorities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4410",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Colonial America to 1763"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134854",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the American Revolution from the start of the colonists\u2019 disputes with Britain through the ratification of the Constitution. Issues covered include the development of tensions between Britain and the colonies during the Seven Years\u2019 War and decade-long dispute over taxation, the decision to declare independence and the Revolutionary War, the postwar Confederation government, and the creation of the Constitution. The roles of women, Native Americans, African Americans, and loyalists are also examined.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4411",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The American Revolution"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134855",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore the history of the United States from 1787-1824. Topics and issues covered will include the creation of the Constitution, the formation of the first party system, the growth and development of the federal government, the young republic\u2019s foreign policy, the War of 1812, the Market Revolution, the Era of Good Feelings, and the development of a uniquely American culture. Social, economic, political, and military aspects of the American experience will be addressed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4412",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Early Republic"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134856",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore the history of the United States from 1815-1848. Topics and issues covered will include the War of 1812, the Market Revolution, the Era of Good Feelings, the rise of Andrew Jackson, Indian Removal, the formation of the second party system, the rise of the reformist impulse, sectional disruptions caused by territorial expansion and slavery, the annexation of Texas, the Mexican War, and the continued development of a uniquely American culture. Social, economic, political, and military aspects of the American experience will be studied.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4415",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Jacksonian America"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134857",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focuses on the methods of taking, processing, and utilizing oral histories. Additional emphasis is placed on the study of planning, development, and operation of oral history projects for libraries, museums, corporations, and public history agencies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 4425",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Oral History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134858",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Explores the methods of documenting historic properties, especially as related to the National Register of Historic Places. Special emphasis is placed on completing a nomination for the National Register of Historic Places. Includes interpretation of historic sites for public exhibit.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 4426",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Documentation and Interpretation of Historic Sites"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136749",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the process by which museums create exhibitions, from planning and research through object identification and selection, community involvement, script and text preparation, design, fabrication, installation and maintenance. The course brings students into contact with theory, and provides application of theory through their conceptualization and installation of an interpretive history exhibition. Repeatable once for a total of six credits with approval of instructor.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 4427",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Museum Exhibitions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134859",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course draws a wide range of texts to place the Third Reich (1933-1945) in a broad historical context to understand its rise, causes, consequences, and legacies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4428",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Third Reich"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134860",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Provides a broad introduction to the museum world and the functions of museums in American society. Emphasis will be placed on historical museums. Subjects covered will include museum management, collections management, education, interpretation, exhibit design, ethics, and scholarly criticism of museums.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 4430",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Museum Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134861",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar experience examines the literature of public history and memory. Through readings and discussion the class will examine what we know about the past and how we know it, the changing interpretation of historical events over time, the shape and influence of historical memory, the politics of historical interpretation, and the public presentation of history.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 4435",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History and Memory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134862",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the origins of European culture, this course focuses on the period between the fourth and the fourteenth centuries, during which time Europe achieved its own form of cultural unity distinct from that of its Mediterranean neighbors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4440",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Medieval Europe"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136785",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a survey that examines the social, political and cultural history of the Holy Roman Empire from its medieval origins to its dissolution in 1806. This course emphasizes the impact that the Holy Roman Empire had on the development of European politics, ethnicity, and religion from the medieval era to the early modern period, with a particular emphasis on Central Europe.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4441",
+      "notes": [
+        "Must have earned 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Holy Roman Empire"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134863",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course traces the origins of the concept of tolerance of the religious \u201cother,\u201d with a focus of content on medieval and Early Modern Europe. Besides the historical exploration of the topic and an examination of the emergence and development of the idea of religious toleration against a background of persecution and wars of religion, students also examine and discuss philosophical and practical aspects of religious tolerance today.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4442",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Religious Tolerance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134864",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A contextualized discussion of major developments in European thought during the eighteenth century. Topics include rationalism and the notion of the social applicability of science, the idea of progress, the critique of established religion, economic theories such as those of the Physiocrats, and epistemological interests as expressed in the Encyclopedie of Diderot and d\u2019Alembert, as well as the increased cosmopolitanism and the importance of extra-European models (especially the Chinese Confucian model).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4445",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Age of Enlightenment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134865",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Causes and development of the U.S. Civil War from 1830. Includes an analysis of the political, social, and economic aspects of the Reconstruction Era.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4451",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Civil War and Reconstruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134866",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the major issues and events surrounding the First World War, exposing students to its opposing governments, leaders, military forces, and major battles, aspects that shaped the conduct and outcome of this momentous international confrontation. It affords students an understanding of the political, military, and social histories of the war and the long-range political and social implications and consequences of the treaty that came at its conclusion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4453",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "World War I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134867",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of European history from 1914 to the present. The course focuses on the main forces that have shaped Europe such as the Second Industrial Revolution and the development of mass society. It examines women\u2019s issues; the rise of Fascism; the impact of existentialism on philosophy, literature, and art; the collapse of Euro-communism; and progress toward European Union.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4454",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Twentieth Century Europe"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134869",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of the causes, events, and results of World War II. The course emphasizes military history and the global nature of the conflict but also examines the economic, political, and diplomatic aspects of the war.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4456",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "World War II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134870",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the expansion, industrialization, and urbanization of the United States in the late 19th and early 20th centuries and of the era\u2019s cultural, political, economic, intellectual, and social issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4461",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Gilded Age & Progressive Era"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134871",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Recent United States History, 1939-present. Considers domestic political history, an overview of foreign policy, economic growth and change, and social and cultural reform movements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4471",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Recent United States History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135883",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar introduces students to the historiography of a particular topic or theme in US History. It requires students to develop an original research paper on the topic or theme using primary and secondary sources and reflecting standard practices within the discipline.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4495",
+      "notes": [
+        "Departmental Approval"
+      ],
+      "prereqs": "HIST 3100",
+      "title": "Research Seminar in US History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135804",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar introduces students to the historiography of a particular topic or theme in European History. It requires students to develop an original research paper on the topic or theme using primary and secondary sources and reflecting standard practices within the discipline.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4496",
+      "notes": [
+        "Departmental Approval"
+      ],
+      "prereqs": "HIST 3100",
+      "title": "Research Seminar in European History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135885",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar introduces students to the historiography of a particular topic or theme of a particular region in the non-Western world. It requires students to develop an original research paper on the topic or theme using primary and secondary sources and reflecting standard practices within the discipline.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4497",
+      "notes": [
+        "Departmental Approval"
+      ],
+      "prereqs": "HIST 3100",
+      "title": "Research Seminar in non-Western History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135886",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar introduces students to the historiography of a particular topic or theme in World History, using the approaches of cross-cultural, transnational, or transregional history. It requires students to develop an original research paper on the topic or theme using primary and secondary sources and reflecting standard practices within the discipline.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4498",
+      "notes": [
+        "Departmental Approval"
+      ],
+      "prereqs": "HIST 3100",
+      "title": "Research Seminar in World History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136815",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an upper-level history course on the history of the Greek world in the Bronze, Archaic, Classical, and Hellenistic ages (c. 3000 - 200 BC). In addition to core political and military developments, lectures cover Greek literature and extended forays into a range of important social and cultural topics including art, religion, and the family.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4501",
+      "notes": [
+        "Must have earned 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Ancient Greece"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136784",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an upper-level history of the Roman people and their empire from the foundation of the city of Rome to the end of the so-called Pax Romana (753 BC -180 AD). In addition to core political and military developments, this course covers literature, religion, imperial ideology, Romanization, and Roman daily life.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4502",
+      "notes": [
+        "Must have earned 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Ancient Rome"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136816",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an upper-level history course on the final phase of the ancient Roman empire and the transition from antiquity to the early Middle Ages (c. 200 - 600 AD). Major topics include the fall of the western half of the empire, the survival of the East, the rise of new barbarian kingdoms, and the Christianization of the Roman world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4503",
+      "notes": [
+        "Must have earned 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Twilight of Antiquity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136965",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an overview of European history ca. 1400 to ca. 1530, focusing on the Renaissance, a revival, originating in Italy, of ancient models for education, art, literature and politics. Among the topics the course covers are humanism, the transformation of art and architecture, Renaissance political models, the military and print revolutions, and the European voyages of reconnaissance and conquest. This course emphasizes the close reading of period texts and frequent critical writing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4544",
+      "notes": [
+        "Completion of at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Renaissance Europe"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136966",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of European history in the long sixteenth century, focusing on the religious upheavals known as the Reformations. It traces the emergence of the Protestant confessions, as well as Catholic reform and reaction. Examining both the actions of key figures and the broader social forces, the course assesses the immediate and enduring repercussions of the splintering of western Christendom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4545",
+      "notes": [
+        "Completion of at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Reformation Europe"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136787",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces themes in early modern and modern European cultural history. It explores the premise that literary and artistic developments could drive-not just reflect-political, social, economic, and intellectual changes. Topics may include, but are not limited to, the use of popular song as political propaganda, changing gender norms in eighteenth-century literature, identity formation through music, culture as an industry, film and globalization, and the relationship between visual art and warfare.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4555",
+      "notes": [
+        "Must have completed 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Topics in European Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134830",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course puts the Holocaust into historical perspective and reflects on what it reveals about genocide in the twentieth and twenty-first centuries. The course examines the roots of anti-Semitism, the rise of fascism in Europe as it relates to the ideology of the Nazi Party, and the implementation of the Final Solution. The structure and purpose of the ghettos and death camps is studied, as well as efforts to resist. The course concludes by looking at what contemporary representations of the Holocaust mean for a post-Shoah generation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4558",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Holocaust"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136964",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines German history from Napoleon to Hitler. It explores Germany\u2019s ascent to global power and its dramatic losses in two world wars. Special attention is paid to the collapse of the Weimar Republic and the rise of the Nazi dictatorship. This course situates the Nazis within the larger narrative of Germany history and demonstrates the global influence of Germany in many areas of life from gymnastics and corporate R&D to cinema and gay rights.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4633",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern German History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134834",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys Irish history from 1700 to the present. The primary emphasis is on the political history of Ireland, but the course also seeks to convey an understanding of Irish economic, social and cultural history, as well as of the influence of the Irish in America. Major topics include Irish nationalism, Ulster unionism, the Famine, Irish revolutions, the Irish Civil War, and the Troubles.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4640",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Modern Ireland"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134837",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of Russian history to 1861 that examines the cultural, social and political history from the origins of the Russian State in Kiev to the emancipation of the serfs.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4654",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Russia to 1861"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134868",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of Russia since 1861 that examines the cultural, social and political history of Russia from the emancipation of the serfs to the present.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4655",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Russia Since 1861"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136817",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the Age of Imperialism in its political, social, economic, and cultural dimensions mainly from the 1870s through the 1960s. The course examines imperialism as a global phenomenon and utilizes inter-cultural, transnational, and transregional perspectives.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4760",
+      "notes": [
+        "Must have earned 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "The Age of Imperialism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136963",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the history of terrorism, analyzing how terrorist attacks and definitions of terrorism change over time. Students explore why people use certain types of violence in specific eras to achieve distinct goals. All terrorism is political, and terrorist attacks are deeply embedded in the politics of their day. Thus, students also examine the historical societies affected by terrorism and their reactions to attacks.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4765",
+      "notes": [
+        "Completion of at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of Terrorism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134846",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course exposes students to the momentous socioeconomic transformations that occurred in the Atlantic basin in the wake of Christopher Columbus\u2019s voyage of 1492. The changes were engendered by the convergence of diverse cultural groups and the complex social and economic networks that they established in the Atlantic basin. Students examine the complex interconnections, the consequences, and the resultant new social and economic institutions which significantly informed our contemporary world.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIST 4905",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "History of the Atlantic World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135575",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the interaction of the natural environment and human societies in North America from approximately 1500 to the present. Topics include colonial and imperial expansion, industrialization and the rise of modern technological systems, agricultural intensification, the development of contemporary environmental thinking, and the origins of the modern environmental movement. Selected themes present American environmental history within a global context.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "HIST 4911",
+      "notes": [
+        "Must have earned at least 45 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Themes in American Environmental History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136843",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is part of the General Education Program at Kennesaw State University. Drawing on texts from Western and non-Western philosophy, this course explores enduring questions such as the nature of the self, the existence of God, how we should live our lives, the nature of justice and a good society, the nature of reality, whether we are free or determined, and the meaning of life.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PHIL 2010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Philosophy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134745",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to a foreign language and culture, stressing progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of the culture being studied.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "WLC 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Foreign Language and Culture I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134746",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course stresses continued, progressive acquisition of effective communication skills in both the written and spoken language and an understanding of the practices and products of the culture being studied.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLC 1002",
+      "notes": [
+        "by placement",
+        "the equivalent"
+      ],
+      "prereqs": "WLC 1001",
+      "title": "Elementary World Language and Culture II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134747",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The student will continue to develop proficiency in listening, speaking, reading, and writing, and learn to communicate in culturally appropriate ways.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLC 2001",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "WLC 1002",
+      "title": "Intermediate Foreign Language and Culture I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134748",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to increase linguistic and cultural proficiency through the use of a variety of materials and activities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLC 2002",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "WLC 2001",
+      "title": "Intermediate Foreign Language and Culture II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ba-history",
+    "name": "BA History"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

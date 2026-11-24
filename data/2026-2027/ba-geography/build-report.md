@@ -2,13 +2,9 @@
 
 ## Warnings needing review
 
-- **GEOG 3000**
-  - unrecognized: Students must be 21 years of age
 - **GEOG 4100**
   - unrecognized: Any upper-division geography course
   - unrecognized: chair
-- **GEOG 4499**
-  - unrecognized: Students must be GEOG
 
 ## Left out on purpose
 

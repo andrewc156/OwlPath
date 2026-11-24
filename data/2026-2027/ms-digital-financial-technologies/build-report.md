@@ -2,21 +2,7 @@
 
 ## Warnings needing review
 
-- **FIS 6815**
-  - unrecognized: M.S
-  - missing operator before 'M.S', assumed and
-- **FIS 6870**
-  - unrecognized: M.S
-  - missing operator before 'M.S', assumed and
-- **FIS 6880**
-  - unrecognized: M.S
-  - missing operator before 'M.S', assumed and
-- **IS 7060**
-  - unrecognized: director
-  - missing operator before 'director', assumed and
-- **IS 7935**
-  - unrecognized: director
-  - missing operator before 'director', assumed and
+None.
 
 ## Left out on purpose
 

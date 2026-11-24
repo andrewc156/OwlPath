@@ -1,0 +1,774 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134398",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the first course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, biological chemistry; cellular structure and function; tissues; and the integumentary, skeletal, muscular, and nervous systems. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions. Cannot be used for credit toward a degree in Biology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2251",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CHEM 1151",
+              "CHEM 1151L"
+            ]
+          },
+          {
+            "and": [
+              "CHEM 1211",
+              "CHEM 1211L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 1111"
+              },
+              {
+                "external": "PHYS 1111L"
+              }
+            ]
+          },
+          {
+            "and": [
+              "BIOL 1107",
+              "BIOL 1107L"
+            ]
+          },
+          {
+            "and": [
+              "BIOL 1108",
+              "BIOL 1108L"
+            ]
+          }
+        ]
+      },
+      "title": "Anatomy & Physiology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134399",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 2251",
+      "credits": "1",
+      "description": "This course is the laboratory component of BIOL 2251. It is designed to provide hands-on experiences that will enhance and reinforce the content covered in BIOL 2251 including basic anatomy and physiology of the skeletal, nervous, and muscular systems as well as basic histology. Structural and functional relationships will be emphasized.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2251L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Anatomy & Physiology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134400",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course is the second course in a two-semester sequence designed to explore the biological and chemical processes underlying the structure and function of the human body at the cellular, tissue, organ, and whole-body level. Topics to be covered include, but are not limited to, the cardiovascular, endocrine, lymphatic and immune, respiratory, digestive, urinary, and reproductive systems. Metabolism and fluid, electrolyte, and acid-base balance will also be covered. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2252",
+      "notes": [],
+      "prereqs": "BIOL 2251",
+      "title": "Anatomy & Physiology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134401",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 2252",
+      "credits": "1",
+      "description": "This course is the laboratory component of BIOL 2252. It is designed to provide hands-on experiences that will enhance and reinforce the content covered in BIOL 2252, including basic anatomy and physiology of the cardiovascular, respiratory, digestive, urinary endocrine, and reproductive systems. Structural and functional relationships will be emphasized.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2252L",
+      "notes": [],
+      "prereqs": "BIOL 2251L",
+      "title": "Anatomy & Physiology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134402",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This lecture course provides an introduction to microbiology. This course introduces the student to the diversity and classification of medically significant microorganisms, their modes of pathogenesis and transmission, and the infectious diseases they cause. Topics to be covered include, but are not limited to, microbial cell biology and genetics; major classes of disease-causing microorganisms; host immune response; microbial control; aseptic technique; disinfection; and isolation, culture, staining, and identification of microorganisms. This course is designed primarily for non-biology majors, especially those pursuing majors in nursing and the allied health professions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2260",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 2251",
+          "BIOL 2251L"
+        ]
+      },
+      "title": "Foundations of Microbiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135699",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 2260",
+      "credits": "1",
+      "description": "Select laboratory exercises will provide training in the basic laboratory techniques for culture and identification of microbes.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 2260L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 2251",
+          "BIOL 2251L"
+        ]
+      },
+      "title": "Foundations of Microbiology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134438",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors. Topics to be covered include elements and compounds, chemical equations, nomenclature, and molecular geometry.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134439",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1151",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1151.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1151L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Survey of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering elementary principles of general, organic and biochemistry designed for allied health professions majors.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1152",
+      "notes": [],
+      "prereqs": "CHEM 1151",
+      "title": "Survey of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134441",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1152",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1152.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1152L",
+      "notes": [],
+      "prereqs": "CHEM 1151L",
+      "title": "Survey of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          {
+            "external": "MATH 1113"
+          },
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              {
+                "external": "MATH 1113"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138404",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "In this course, students learn foundational concepts of professional nursing practice, including the nursing process, clinical judgment, and ethical practice. They develop skills in therapeutic and interprofessional communication, culturally responsive care, and health promotion across the lifespan. The course emphasizes safety, evidence-based decision-making, coping and resiliency, and professional accountability. Students explore legal responsibilities, including documentation and advance directives, and examine the impact of social determinants of health. Students build competencies essential for delivering safe, ethical, and patient-centered nursing care.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3101",
+      "notes": [
+        "Nursing, BSN major"
+      ],
+      "prereqs": null,
+      "title": "Nursing Care I: Foundations of Nursing Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138405",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "NURS 3101",
+          "NURS 3103"
+        ]
+      },
+      "credits": "3",
+      "description": "In this course, students apply core nursing concepts, develop essential patient care skills, and cultivate professional and ethical behaviors. Emphasis is placed on clear, therapeutic, and professional communication with patients, families, and interprofessional healthcare teams to ensure safe, person-centered care. Students develop clinical judgment to assess patients, implement evidence-based care, and evaluate outcomes in diverse populations. Experiential learning takes place in the skills lab, simulation lab, and various community settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3102",
+      "notes": [
+        "Nursing, BSN major"
+      ],
+      "prereqs": null,
+      "title": "Experiential Learning I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138406",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "In this course, students learn to perform comprehensive and focused health assessments across the lifespan. They develop skills in collecting health histories, conducting physical exams, identifying priority findings, and selecting assessments based on patient needs. Students apply therapeutic communication with patients and families, use standardized tools to communicate with the healthcare team, and document findings accurately. The course emphasizes clinical reasoning, cultural awareness, patient-centered care, and professionalism in nursing practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3103",
+      "notes": [
+        "Nursing, BSN major"
+      ],
+      "prereqs": null,
+      "title": "Health Assessment Across the Lifespan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137026",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students examine the physiological and pathological mechanisms underlying common and complex health conditions across the lifespan. Students explore alterations in cellular and systemic function to understand the development and progression of disease. Emphasis is placed on connecting clinical signs and symptoms to underlying pathophysiology and understanding the rationale for medical and nursing interventions. The course fosters clinical reasoning by helping students interpret how pathophysiological processes influence patient outcomes and inform evidence-based nursing care.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3104",
+      "notes": [
+        "Nursing, BSN Major"
+      ],
+      "prereqs": null,
+      "title": "Clinical Pathophysiology for Nurses"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138407",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students learn fundamental pharmacologic principles and their application in nursing practice. They develop the knowledge and skills needed for safe medication administration using the nursing process. Students explore evidence-based practices, dosage calculation, medication safety, and lifespan considerations. The course prepares students to manage medications responsibly and professionally across healthcare settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3105",
+      "notes": [
+        "Nursing, BSN major"
+      ],
+      "prereqs": null,
+      "title": "Pharmacology For Nurses I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138408",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students are introduced to the foundational elements of professional identity in nursing. Students explore the values, standards, and responsibilities of the nursing profession, including ethical practice, accountability, and lifelong learning. Students explore and reflect on personal values, emotional intelligence, and self-awareness, while developing strategies to build resilience. Students develop the skills, personal strategies, and professional mindset necessary to support their success throughout the BSN program and into their nursing careers. Emphasis is placed on developing effective communication skills and professional conduct that support both personal and professional growth in nursing practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3106",
+      "notes": [
+        "Nursing, BSN major"
+      ],
+      "prereqs": null,
+      "title": "Leadership Seminar I: Foundations of Professional Identity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138409",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "In this course, students build upon foundational concepts to provide nursing care for individuals with common acute and chronic conditions across the lifespan. Content includes physical and mental health conditions encountered in both community and acute care settings. Students develop age-appropriate, person-centered plans of care based on assessment findings, clinical priorities, and developmental needs. Emphasis is placed on patient safety, therapeutic communication, early recognition of changes in condition, and family-centered care. Students explore strategies for collaborating with families in caring for pediatric, adult, and older adult populations and providing individualized health education.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3201",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3101",
+          "NURS 3102",
+          "NURS 3103",
+          "NURS 3104",
+          "NURS 3105",
+          "NURS 3106"
+        ]
+      },
+      "title": "Nursing Care II: Common Conditions Throughout the Lifespan"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138410",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 3201",
+      "credits": "3",
+      "description": "In this course, students build upon and apply foundational nursing concepts in the care of individuals with common acute and chronic conditions across the lifespan. Experiences in laboratory, simulation, community and acute care settings focus on physical and mental health care for pediatric, adult, and older adult populations. Students practice age-appropriate assessments, implement safety measures, engage in therapeutic communication, and provide person-centered, family-focused care. Emphasis is placed on clinical judgment, health education, and early recognition of changes in patient condition.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3202",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3101",
+          "NURS 3102",
+          "NURS 3103",
+          "NURS 3104",
+          "NURS 3105",
+          "NURS 3106"
+        ]
+      },
+      "title": "Experiential Learning II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138412",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students explore the role of nursing scholarship, which includes research, quality improvement, and evidence-based practice, in advancing nursing care. Students examine ethical and legal considerations in research, including protection of human subjects. They also learn how to locate, critically appraise, and apply evidence from diverse sources. By comparing different approaches to nursing inquiry, students develop skills to collaborate with healthcare teams, inform clinical decisions, and propose evidence-based changes that improve patient outcomes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3203",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3101",
+          "NURS 3102",
+          "NURS 3103",
+          "NURS 3104",
+          "NURS 3105",
+          "NURS 3106"
+        ]
+      },
+      "title": "Nursing Scholarship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138411",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students expand their knowledge of pharmacology by applying core principles to the care of diverse patients across the lifespan. Students learn to evaluate medication effectiveness, recognize adverse effects and interactions, and implement safety strategies with high-alert medications. The course emphasizes advanced dosage calculations, interprofessional communication, patient education, and medication adherence support. Students strengthen clinical judgment and apply pharmacologic knowledge to promote safe, individualized nursing care.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3205",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3101",
+          "NURS 3102",
+          "NURS 3103",
+          "NURS 3104",
+          "NURS 3105",
+          "NURS 3106"
+        ]
+      },
+      "title": "Pharmacology for Nurses II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138413",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this seminar course, students explore the nurse\u2019s role as a leader and advocate in delivering patient-centered care. Students examine and reflect on communication strategies that foster trust, empathy, and respect in diverse healthcare settings. Emphasis is placed on shared decision-making, ethical practice, and the development of patient education approaches that support informed choices and self-management. Students enhance their ability to engage patients, families, and interprofessional teams in collaborative care planning. Cultural awareness, personal values, legal frameworks, and ethical principles will be explored as integral components of effective nurse-patient relationships.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 3206",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3101",
+          "NURS 3102",
+          "NURS 3103",
+          "NURS 3104",
+          "NURS 3105",
+          "NURS 3106"
+        ]
+      },
+      "title": "Leadership Seminar II: Patient-Centered Care"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138414",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "In this course, students learn to provide comprehensive person and family-centered care to obstetric patients and their newborns, individuals with complex physical and mental health needs, and members of special populations across the lifespan. Students expand their clinical reasoning, safety practices, and ethical decision-making. Advanced care strategies are explored, including critical thinking in clinical situations, interdisciplinary collaboration, advocacy and culturally responsive approaches to care.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 4101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3201",
+          "NURS 3202",
+          "NURS 3203",
+          "NURS 3205",
+          "NURS 3206"
+        ]
+      },
+      "title": "Nursing Care III: Obstetrics, Complex Conditions, and Special Populations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138415",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 4101",
+      "credits": "4",
+      "description": "In this course, students apply advanced nursing knowledge and clinical judgment to provide comprehensive person and family care to obstetric patients and their newborns, individuals with complex physical and mental health needs, and members of special populations across the lifespan. Students manage high-acuity situations, respond to complications, and coordinate care with interprofessional teams. Emphasis is placed on safe medication administration, prioritization, escalation of care, and effective communication. Students develop and implement individualized plans of care while addressing transitions, end-of-life care, and population-specific needs in both inpatient and community settings.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 4102",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3201",
+          "NURS 3202",
+          "NURS 3203",
+          "NURS 3205",
+          "NURS 3206"
+        ]
+      },
+      "title": "Experiential Learning III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138419",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "In this seminar course, students explore the nurse\u2019s role within healthcare systems, emphasizing systems thinking, quality improvement, and policy advocacy. Students will analyze how delivery models, regulation, and accreditation influence nursing practice and outcomes. Through interprofessional collaboration and healthcare technology, learners will evaluate and propose evidence-based strategies to improve care quality, safety, and efficiency. The course also examines cost-effectiveness and the impact of leadership in addressing system-level challenges, preparing students to drive change across diverse healthcare environments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 4106",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 3201",
+          "NURS 3202",
+          "NURS 3203",
+          "NURS 3205",
+          "NURS 3206"
+        ]
+      },
+      "title": "Leadership Seminar III: Nursing and Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138416",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "In this course, students develop leadership knowledge and skills for transition to entry-level nursing practice, with an emphasis on the nurse\u2019s role within healthcare and social systems. They synthesize knowledge from all previous nursing and supportive courses to manage evidence-based care and develop leadership skills. Students also examine population health concepts to address health disparities and improve community health. The course explores the nurse\u2019s role as care provider, communicator, teacher, and leader.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 4201",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 4101",
+          "NURS 4102",
+          "NURS 4106"
+        ]
+      },
+      "title": "Nursing Care IV: Population Health and Transition to Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138417",
+      "catalogYear": "2026-2027",
+      "coreqs": "NURS 4201",
+      "credits": "5",
+      "description": "In this course, students apply advanced nursing knowledge and leadership concepts in ambulatory and acute care settings to support the transition to professional nursing practice. Additionally, in simulated and community settings students implement principles of population health and their application in nursing practice to promote health equity and improve outcomes across diverse communities. They refine skills in communication, care coordination, and evidence-based decision-making while working with interprofessional teams. The course emphasizes quality improvement, safety, and systems-based care. These experiential learning opportunities prepare students for safe, effective entry-level nursing practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 4202",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 4101",
+          "NURS 4102",
+          "NURS 4106"
+        ]
+      },
+      "title": "Experiential Learning IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138418",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this seminar course, students examine leadership principles, professional identity, and the role of the nurse within complex healthcare systems. Students learn to apply clinical judgment, manage time and resources, prioritize care, and delegate tasks effectively. They explore strategies for interprofessional collaboration, ethical decision-making, and accountability in nursing practice. The course emphasizes the development of resilience, commitment to lifelong learning, and readiness for entry-level professional roles. Students integrate knowledge, skills, and values to support a successful transition to practice.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "NURS 4206",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "NURS 4101",
+          "NURS 4102",
+          "NURS 4106"
+        ]
+      },
+      "title": "Leadership Seminar IV: Transition to Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135374",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A broad survey of the major topics in psychology including, but not limited to, research methodology, biological and social factors influencing behavior, development, learning, memory, personality, and abnormal.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PSYC 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to General Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135058",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a non-calculus based introduction to statistics. Course content includes descriptive statistics, probability theory, confidence intervals, hypothesis testing, and other selected statistical topics.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "STAT 1401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Statistics"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bsn-nursing",
+    "name": "BSN Nursing"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

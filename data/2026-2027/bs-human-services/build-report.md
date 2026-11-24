@@ -9,25 +9,9 @@
 - **HHS 3500**
   - unrecognized: Human Services
   - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of department
-  - missing operator before 'permission of department', assumed and
 - **HHS 4800**
   - unrecognized: Human Services
   - ambiguous and/or precedence: a major in the Wellstar College of Health and Human Services or Non-majors with permission of the Department
-  - missing operator before 'permission of the Department', assumed and
-- **HS 3100**
-  - missing operator before 'permission of department', assumed and
-- **HS 3200**
-  - missing operator before 'permission of the department', assumed and
-- **HS 3300**
-  - missing operator before 'permission of the department', assumed and
-- **HS 3400**
-  - missing operator before 'permission of the department', assumed and
-- **HS 3700**
-  - missing operator before 'permission of the department', assumed and
-- **HS 3750**
-  - missing operator before 'permission of the department', assumed and
-- **HS 3900**
-  - missing operator before 'permission of the department', assumed and
 
 ## Notes
 

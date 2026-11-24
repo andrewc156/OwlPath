@@ -3,17 +3,7 @@
 ## Warnings needing review
 
 - **COMM 2340**
-  - unrecognized: Communication
-  - unrecognized: B.S.
-  - unrecognized: Journalism
-  - unrecognized: Emerging Media
-  - unrecognized: B.S.
-  - unrecognized: Media
-  - unrecognized: Entertainment
-  - unrecognized: B.S.
-  - unrecognized: Public Relations
   - ambiguous and/or precedence: Communication, B.S., Journalism and Emerging Media, B.S., Media and Entertainment, B.S., or Public Relations, B.S. major
-  - missing operator before 'B.S. major', assumed and
 - **COMM 3320**
   - unrecognized: Media
 - **COMM 3350**
@@ -41,17 +31,7 @@
   - unrecognized: Media
 - **MENT 4425**
   - unrecognized: Journalism
-  - unrecognized: Emerging Media
-  - unrecognized: B.S.
-  - unrecognized: Media
-  - unrecognized: Entertainment
-  - unrecognized: B.S.
-  - unrecognized: Organizational
-  - unrecognized: Professional Communication
-  - unrecognized: B.S.
-  - unrecognized: Public Relations
   - ambiguous and/or precedence: COMM 2240 and (Journalism and Emerging Media, B.S., Media and Entertainment, B.S., Organizational and Professional Communication, B.S., or Public Relations, B.S. major.)
-  - missing operator before 'B.S. major.', assumed and
 - **MENT 4436**
   - unrecognized: Media
 - **MENT 4464**

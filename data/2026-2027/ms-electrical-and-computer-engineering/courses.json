@@ -1,0 +1,65 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133361",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the student to the principles and theories associated with neural networks and Artificial Intelligence (AI). Several neural networking architectures and training techniques associated with real-world applications (e.g. traffic pattern analysis, classification schemes, adaptive engineering systems) are discussed and modeled using Object-Oriented Programming techniques and MATLAB applications. Additionally, several instructor-led examples and software-based exercises are given to provide the student with a practical understanding of the theory covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EE 6770",
+      "notes": [],
+      "prereqs": null,
+      "title": "Applications of Neural Networks"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133281",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the research questions and their relevance to engineering theory and design practices. It is intended to develop the techniques and skills necessary to complete an original academic research thesis or project report. The development of critical thinking skills relevant to research is an essential element of this course. Note: This course may be cross-leveled with ENGR 8002.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 6002",
+      "notes": [
+        "Admission to Graduate program in Engineering"
+      ],
+      "prereqs": null,
+      "title": "Research Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133359",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces graduate engineering students to analytical and numerical analysis methods that can be used to solve engineering problems. Topics include linear algebra, systems of ordinary differential equations, complex analysis, Laplace transforms, numerical methods, partial differential equations, and probability and statistics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 6120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Applied Engineering Mathematics"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "ms-electrical-and-computer-engineering",
+    "name": "MS Electrical and Computer Engineering"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

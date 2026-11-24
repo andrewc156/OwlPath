@@ -11,8 +11,6 @@
 - **ENGL 3310**
   - unrecognized: Secondary
   - ambiguous and/or precedence: ENGL 2271 and admission into the English Education or Secondary and Middle Grades Language Arts program
-- **ENGL 3311**
-  - missing operator before 'B.S. major', assumed and
 
 ## Left out on purpose
 

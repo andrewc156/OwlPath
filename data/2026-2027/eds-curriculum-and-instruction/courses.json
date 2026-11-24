@@ -1,0 +1,164 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133775",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores theoretical frameworks of curriculum development for education as the practice of freedom. Frameworks for the historical, political, social, and pedagogical purposes of curriculum will be explored to help students better understand how curriculum might be developed and utilized in an ever-changing educational environment. As a result of this course, students will demonstrate advanced ability to design, implement, and evaluate curriculum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7800",
+      "notes": [
+        "Admission into the Curriculum",
+        "Instruction Ed.S. program"
+      ],
+      "prereqs": null,
+      "title": "Curriculum Praxis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133780",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to curriculum studies with particular attention to the shifting paradigms in the field beginning with reconceptualization, which took place in the 1970s. The aim of this course is to build a knowledge base in how the curriculum studies field moved from curriculum planning and development to curriculum theorizing and understanding. How this course prepares you for your CIES Capstone Project: One of the (CIES) Capstone Project options is for students to do a currere-style self-study research project. This course introduces students to the currere self-study method and major assignments in this course have students practice this method.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7810",
+      "notes": [
+        "Admission into the Curriculum",
+        "Instruction Ed.S. program"
+      ],
+      "prereqs": null,
+      "title": "Foundations of Curriculum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133781",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines contemporary advancements in the field of curriculum studies. This course explores curriculum and instruction research and scholarship with an emphasis on connections to educational policy and current educational challenges, issues, and topics. Students will become familiar with various contemporary curriculum scholars and their corresponding bodies of work. This course helps to prepare you for the CIES Capstone Project. One of the CIES Capstone Project options is the creation of a response manuscript that will focus on your examination of the research of a particular curriculum scholar and be submitted for review and publication. The major assignment in this course, the Scholars-in-Complicated-Conversation Final Paper, prepares you with the skills necessary for the CIES Response Manuscript capstone project. This course builds upon the work of Foundations of Curriculum, as well as the other courses in the Curriculum and Instruction Educational Specialist program of study. Students enrolled in this course will advance their understanding of the field of curriculum and instruction, with a particular focus on contemporary advancements, recent policy issues, and current educational challenges, issues, and topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7820",
+      "notes": [
+        "Admission into the Curriculum",
+        "Instruction Ed.S. program"
+      ],
+      "prereqs": "EDCI 7810",
+      "title": "Advanced Curriculum Theory and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133779",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines various trends and issues within the field of curriculum and instruction. The course will be topical and relevant to students\u2019 professional contexts, and emphasis will be on analysis and investigation of trends and issues in curriculum and instruction from multiple perspectives. Topics will vary but will fall within one or more of the following general categories: Curriculum & Instruction Innovations (e.g., digital literacies, flipped classrooms), Curriculum & Instruction Communities and Contexts (e.g., family and community engagement in the curriculum, internationalization of curriculum), Curriculum & Instruction Policy & Politics (e.g., high stakes testing and standardization of curriculum), Curriculum and Instruction Praxis (e.g., critical media literacy, trauma-responsive pedagogy), and Curriculum & Instruction Creators (e.g., teacher efficacy). How this course prepares you for your CIES Capstone Project: One of the CIES Capstone Project options is for students to create and facilitate a two-three-hour curriculum workshop in their schools/school districts for other educators. The major assignment in this course, the Online Professional Development Workshop, prepares students with the skills necessary for one option for the CIES Capstone Project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7830",
+      "notes": [
+        "Admission into a Bagwell College of Education graduate program"
+      ],
+      "prereqs": null,
+      "title": "Trends and Issues in Curriculum and Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133776",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores how schools are situated in communities and the ways in which schools and communities can partner for the overall success of the educational program. This course is designed to prepare educators to build on community assets as they develop communication and learning engagement strategies geared specifically for their school communities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7840",
+      "notes": [
+        "Admission to a Bagwell College of Education graduate program"
+      ],
+      "prereqs": null,
+      "title": "Community-Engaged Pedagogies in Curriculum and Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133777",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course initiates the competency exam and prepares students to complete the capstone research project. Students conduct interviews with four different grade band teachers (PK-2, 3-5, 6-8, and 9-12) and analyze those interviews utilizing research and scholarship from their prior courses in the program. Upon successful completion of the competency exam, students select a capstone project option and complete a research proposal that is then carried out in EDCI 7880 Capstone II: Curriculum & Instruction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7870",
+      "notes": [
+        "Admission into the Curriculum",
+        "Instruction Ed.S. graduate program"
+      ],
+      "prereqs": {
+        "and": [
+          "EDCI 7800",
+          "EDCI 7810",
+          "EDRS 8000",
+          "EDCI 7820",
+          "EDCI 7830",
+          "EDCI 7840"
+        ]
+      },
+      "title": "Capstone I in Curriculum and Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133778",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the curriculum and instruction capstone project and the activities outlined in the capstone proposal from the Capstone I in Curriculum and Instruction course. Students will finalize their capstone proposal with the instructor, incorporate feedback from peers and instructor on their research and writing associated with the capstone project, and present their final capstone project to peers and/or educators in community and school contexts. This course builds upon the work of Capstone I in Curriculum and Instruction, as well as the other courses in the CIES program of study. Students enrolled in this course will advance their understanding of the field of Curriculum Studies, with a particular focus on completing the capstone project as detailed in the capstone proposal.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDCI 7880",
+      "notes": [
+        "Admission into the Curriculum",
+        "Instruction Ed.S. program"
+      ],
+      "prereqs": "EDCI 7870",
+      "title": "Capstone II in Curriculum and Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132454",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates will develop a functional understanding of quantitative and qualitative research as applied to educational arena. Emphasis is placed on candidates acquisition of analytical and interpretive skills.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRS 8000",
+      "notes": [
+        "Admission to graduate program M.Ed., Ed.S., Ed.D. in education",
+        "permission of the advisor"
+      ],
+      "prereqs": null,
+      "title": "Applied Quantitative & Qualitative Research"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "eds-curriculum-and-instruction",
+    "name": "EdS Curriculum and Instruction"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

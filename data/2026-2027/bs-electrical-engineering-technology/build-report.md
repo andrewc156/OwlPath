@@ -6,9 +6,7 @@
   - unrecognized: P
   - missing operator before 'PHYS 2212', assumed and
 - **ENGT 4901**
-  - unrecognized: concurrently
-  - missing operator before '(', assumed and
-  - missing operator before 'for EET Majors', assumed and
+  - missing operator before 'concurrently for EET Majors', assumed and
 
 ## Notes
 

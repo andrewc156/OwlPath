@@ -11,9 +11,7 @@
   - missing operator before 'EDG 1212', assumed and
   - could not parse (unexpected 'or'): MET majors and or department approval, EDG 1212
 - **ENGT 4901**
-  - unrecognized: concurrently
-  - missing operator before '(', assumed and
-  - missing operator before 'for EET Majors', assumed and
+  - missing operator before 'concurrently for EET Majors', assumed and
 - **IET 3424**
   - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
 - **IET 4135**

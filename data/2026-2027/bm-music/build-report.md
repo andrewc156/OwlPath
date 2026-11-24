@@ -10,21 +10,6 @@
   - unrecognized: have taken
   - unrecognized: passed four semesters of
   - missing operator before 'MUAP 2101', assumed and
-- **MUEN 3343**
-  - unrecognized: Audition
-- **MUEN 3344**
-  - unrecognized: Membership is open to all students with previous experience playing an instrument
-- **MUEN 3345**
-  - unrecognized: Audition
-- **MUEN 3346**
-  - unrecognized: Audition
-- **MUEN 3347**
-  - unrecognized: Audition
-- **MUEN 3348**
-  - unrecognized: Audition
-- **MUSI 1165**
-  - unrecognized: determined by proficiency test
-  - missing operator before 'determined by proficiency test', assumed and
 - **MUSI 3333**
   - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
 - **MUSI 3390**
@@ -32,12 +17,8 @@
   - missing operator before 'MUTC 3200', assumed and
 - **MUTC 2100**
   - unrecognized: minor
-  - unrecognized: determined by proficiency test
-  - missing operator before 'determined by proficiency test', assumed and
 - **MUTC 2110**
   - unrecognized: minor
-  - unrecognized: determined by proficiency test
-  - missing operator before 'determined by proficiency test', assumed and
 - **MUTC 3326**
   - unrecognized: "
   - missing operator before '"', assumed and
@@ -47,9 +28,6 @@
   - unrecognized: Completion of 90 hours of course work
 - **MUTC 4497**
   - unrecognized: completion of 90 hours of coursework
-- **MUTH 1000**
-  - unrecognized: Music
-  - missing operator before 'B.M. major', assumed and
 
 ## Left out on purpose
 

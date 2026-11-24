@@ -14,48 +14,7 @@
 
 ## Warnings needing review
 
-- **EDL 7101**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7215**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7401**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7415**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7601**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **EDL 7615**
-  - unrecognized: in the Department of Educational Leadership
-  - unrecognized: the Ed.S. in Special Education
-- **HESA 7000**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7100**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7150**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7200**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7250**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7400**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7500**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
-- **HESA 7600**
-  - unrecognized: M.Ed
-  - missing operator before 'M.Ed', assumed and
+None.
 
 ## Left out on purpose
 
