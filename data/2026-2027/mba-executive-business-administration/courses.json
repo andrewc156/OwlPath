@@ -1,0 +1,161 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132543",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3-6",
+      "description": "As the inaugural course for the Executive MBA program, this course covers certain business acumen foundations needed to support learning throughout the program, with a focus on developing basic knowledge and skills associated with identifying and using information that serves as the basis for managerial planning and control. Students are introduced to the fundamentals of economics, finance, accounting, and statistics, as well as selected common techniques for financial analysis, planning, forecasting, and managing. The course is centered on critical skills and knowledge required of managers at all levels to effectively understand and employ basic analytical tools, while also learning how they support business strategy and leadership principles.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7211",
+      "notes": [],
+      "prereqs": null,
+      "title": "Business Acumen Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132544",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2-4",
+      "description": "Today most experts agree that the degree to which organizations effectively compete-and in many cases, succeed or fail-is determined by how effectively they apply both business acumen and teamwork. A manager\u2019s ability to work \u201csmart\u201d and interact effectively within a team setting will significantly determine her personal success in any career. In addition to its focus on leadership principles, it also introduces the student to the foundations of lifelong learning, the role and impact of personality on team dynamics, the principles of coaching, and the basic building blocks of high performance teams.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7212",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132545",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6-9",
+      "description": "The fundamental challenge self-imposed on any business is the development and implementation of a sound business model and strategy. Those that succeed are also characterized by in-depth competencies in financial and operational analysis to support other competencies inherent in their human capital assets. This course provides the foundational techniques and models for sound business strategy development and management, and introduces the student to several of the traditional tools, methodologies, and techniques employed in the areas of accounting, finance, marketing/sales, and operations for decision-making.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7221",
+      "notes": [],
+      "prereqs": null,
+      "title": "Business Strategy & Analysis for Executive Decision Making"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132546",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3-6",
+      "description": "This course sets the stage for understanding the unique dynamics of working collaboratively with people by understanding the differences in how people think, learn, and behave. It also covers teaming in a business environment, the effective use of oral and written communications, and interpersonal transactional analysis. Students are given several opportunities to apply the principles covered in the course in a simulated, interactive teaming environment, equipping them with the critical knowledge and skills required of any successful manager, at any level, to work effectively with others to assure that business results are achieved.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7222",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Business of Teaming and Coaching"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132547",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2-4",
+      "description": "All organizations operate as a complex system of integrated business processes, specific activities dependent on the availability of sufficient financial and human capital. The degree to which an organization\u2019s performance incrementally improves is generally directly related to the degree to which its processes change in response to opportunities for improvement. This course provides an in-depth examination of the business processes commonly associated with an enterprise\u2019s value chain, as well as with general project management, and introduces the student to traditional business process improvement methodologies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7231",
+      "notes": [],
+      "prereqs": null,
+      "title": "The Enterprise Value Chain"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132548",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2-4",
+      "description": "Human capital is the fuel that runs the engine of the business enterprise; without it, a business is nothing more than an idle collection of products and/or services. Attracting and retaining the best employees, and effectively managing employee performance and reward and recognition programs, are crucial to optimizing an enterprise\u2019s human capital business model. This course covers several of the critical skills, knowledge, and abilities required of managers at all levels to be able to effectively manage human capital assets, and explores in depth the strategic partnership role of the Human Resources function in an organization. A special section covers post-merger workforce integration.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7232",
+      "notes": [],
+      "prereqs": null,
+      "title": "Managing Human Capital"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132550",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "5-9",
+      "description": "Globalization, rapid technological advancement, and interconnected markets have created both opportunities and complexities for modern organizations. This course prepares executives to navigate the global business environment by analyzing the economic, cultural, political, and regulatory factors that influence international operations. Students examine global market dynamics, international trade, cross-border finance, and multinational strategic management. Emphasis is placed on developing analytical and adaptive skills needed to operate effectively in diverse cultural and economic contexts. A key component of the course is an international consulting project with a global client organization. Student teams apply strategic and cross-functional knowledge from across the EMBA curriculum to solve real business challenges, integrating principles of finance, marketing, operations, and leadership in a global setting. This hands-on experience enables students to demonstrate global business acumen, strengthen cross-cultural collaboration, and deliver high-impact strategic recommendations to international partners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7241",
+      "notes": [],
+      "prereqs": null,
+      "title": "Experiencing Business in a Global Environment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "5-9",
+      "description": "Leading across borders requires cultural intelligence, emotional awareness, and adaptive leadership skills to unite diverse global teams. This course focuses on developing the leadership and collaboration capabilities necessary to manage, influence, and motivate individuals in multinational and multicultural business environments. Students explore frameworks for cross-cultural leadership, global communication, and organizational behavior, as well as the role of emotional intelligence and ethical decision-making in international contexts. The course is integrated with the international consulting project in GBA 7241, allowing students to apply global leadership and collaboration skills in real-world client engagements. Through leadership assessments, intercultural simulations, and feedback exercises, students learn to navigate complex interpersonal dynamics, foster inclusive team environments, and lead effectively across geographic and cultural boundaries.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7242",
+      "notes": [],
+      "prereqs": null,
+      "title": "International Leadership and Collaboration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132552",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3-9",
+      "description": "This course is the capstone course of the Executive MBA program, integrating the principles, methodologies, techniques, and skills covered in the overall program. As a comprehensive practicum, the course covers application of the business acumen, leadership, teaming, and coaching topics developed extensively in prior program courses. In addition, several closing topics in specialized areas such as executive compensation, business taxation, corporate governance, and other ever-changing contemporary issues facing managers today are included in the course curriculum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7251",
+      "notes": [],
+      "prereqs": null,
+      "title": "Application of Business Acumen and Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132553",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2-4",
+      "description": "Career management involves identifying, pursuing, and maintaining one\u2019s personal ideal work environment - the type of business in which one is engaged, the places where one performs their work, the work colleagues with whom one interacts, and one\u2019s specific work responsibilities and activities. Virtually nothing in the world of work is perfectly stable, so continuous monitoring of these factors is critical to personal career satisfaction. In conjunction with GBA7233, this course enables implementation of a student\u2019s Personal Plan of Action via a combination of a \u201cvirtual classroom\u201d environment (using a technology platform unique to the Executive MBA program) and private in-person meetings with a member of the faculty who specializes in career coaching.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "GBA 7253",
+      "notes": [],
+      "prereqs": null,
+      "title": "Managing Your Career"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "mba-executive-business-administration",
+    "name": "MBA (Executive) Business Administration"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

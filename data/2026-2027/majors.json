@@ -1,15 +1,57 @@
 [
   {
     "checked": false,
+    "id": "mba-executive-business-administration",
+    "level": "graduate",
+    "name": "MBA (Executive) Business Administration"
+  },
+  {
+    "checked": false,
+    "id": "med-teaching-of-english-to-speakers-of-other-languages-tesol",
+    "level": "graduate",
+    "name": "MEd Teaching of English to Speakers of Other Languages (TESOL)"
+  },
+  {
+    "checked": false,
     "id": "ms-construction-management",
     "level": "graduate",
     "name": "MS Construction Management"
+  },
+  {
+    "checked": false,
+    "id": "ms-cybersecurity",
+    "level": "graduate",
+    "name": "MS Cybersecurity"
   },
   {
     "checked": true,
     "id": "ms-dsa",
     "level": "graduate",
     "name": "MS Data Science and Analytics"
+  },
+  {
+    "checked": false,
+    "id": "ms-exercise-science",
+    "level": "graduate",
+    "name": "MS Exercise Science"
+  },
+  {
+    "checked": false,
+    "id": "msit-information-technology",
+    "level": "graduate",
+    "name": "MSIT Information Technology"
+  },
+  {
+    "checked": false,
+    "id": "msme-mechanical-engineering",
+    "level": "graduate",
+    "name": "MSME Mechanical Engineering"
+  },
+  {
+    "checked": false,
+    "id": "msseng-systems-engineering",
+    "level": "graduate",
+    "name": "MSSENG Systems Engineering"
   },
   {
     "checked": true,

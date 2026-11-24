@@ -64,9 +64,6 @@
   - unrecognized: Admission to the Educational Leadership
   - unrecognized: M.Ed
   - missing operator before 'M.Ed', assumed and
-- **TLED 7980**
-  - unrecognized line: Candidates will examine and implement the process of classroom-based action research. Topics covered include an overview of the action research process, planning and developing a research plan, collecting and analyzing data, and developing and sharing action research reports. The curriculum will also focus on how to engage and facilitate colleagues’ use of action research to improve a problem of practice in the teacher leader’s content area.
-  - empty description
 
 ## Left out on purpose
 

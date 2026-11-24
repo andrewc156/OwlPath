@@ -1,0 +1,134 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133244",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the functions and responsibilities of the quality organization. TQM concepts, quality function deployment, and the tools for continuous improvement are analyzed for sequence of use and application. Emphasis is placed on design and performance aspects of a system-wide quality assurance function.",
+      "groups": [
+        "conc-thesis",
+        "conc-non-thesis"
+      ],
+      "id": "EM 6602",
+      "notes": [],
+      "prereqs": null,
+      "title": "Total Quality"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133359",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces graduate engineering students to analytical and numerical analysis methods that can be used to solve engineering problems. Topics include linear algebra, systems of ordinary differential equations, complex analysis, Laplace transforms, numerical methods, partial differential equations, and probability and statistics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 6120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Applied Engineering Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133416",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on Cartesian tensors, state of stress, kinematics of deformation, and the general principles of solid mechanics. Topics include constitutive equations of elasticity, viscoelasticity, and plasticity (continuum mechanics), with an emphasis on the design criteria based on variable and fluctuating loads (fatigue) and the failure of components based on crack propagation (fracture mechanics). Applications of linear elastic fracture, propagation fatigue life prediction, toughness, and strain energy release rate will be studied.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ME 6220",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Solid Mechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133417",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course begins with a review of first law, second law, and equations of state. Analysis of thermodynamic power and refrigeration cycles relevant to the energy and transportation industry are then considered. Fundamental analysis techniques for mixtures/psychometrics, state equations, as well as combustion systems will be also be covered. Applications in thermal systems design are presented.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ME 6230",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Engineering Thermodynamics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133419",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on dynamics of a particle and of rigid bodies, Newtonian equations in moving coordinate systems, Lagrange\u2019s and Hamilton\u2019s equations of motion, and vibration of discrete and continuous systems. Special problems in vibrations and dynamics are presented.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ME 6250",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Dynamics and Vibrations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133269",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible. Note: This course may be cross-leveled with SYE 8005.",
+      "groups": [
+        "conc-thesis",
+        "conc-non-thesis"
+      ],
+      "id": "SYE 6005",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Systems Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133270",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Integrated framework for project organization, planning and control focusing on project management processes for large, complex programs to ensure cost-effective and quality outcomes for investments.",
+      "groups": [
+        "conc-thesis",
+        "conc-non-thesis"
+      ],
+      "id": "SYE 6010",
+      "notes": [],
+      "prereqs": null,
+      "title": "Project Management Processes"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-thesis"
+        ],
+        "label": "Thesis"
+      },
+      {
+        "groups": [
+          "conc-non-thesis"
+        ],
+        "label": "Non-Thesis"
+      }
+    ],
+    "id": "msme-mechanical-engineering",
+    "name": "MSME Mechanical Engineering"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -10,9 +10,6 @@
   - unrecognized: Admission to the MA in Art & Design
 - **ANIM 6115**
   - unrecognized: Admission to the MA in Art & Design
-- **ANIM 6117**
-  - unrecognized line: This is a digital art and experimental media studio and seminar course designed to support innovative research and production at the graduate level. It will focus on investigating new technologies in digital animation, with research into current and latest technological advances and the creative application of those technologies. Students will examine various advancements in emerging animation trends and identify connections within contemporary and historical works.
-  - empty description
 - **ANIM 6120**
   - unrecognized: Admission to the MA in Art & Design
 - **ARED 6100**

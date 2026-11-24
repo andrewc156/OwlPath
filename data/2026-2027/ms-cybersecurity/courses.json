@@ -1,0 +1,292 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "CYBR 7910",
+      "CYBR 7930"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to cybercrime, including its enactment and legal enforcement. The course examines United States and international law and policy regarding cybercrime from both civil and criminal perspectives. The course also examines the extent of and limitations on cybercrime professionals\u2019 abilities and authorities to ensure enforcement operations comply with U.S. and international law, regulations, directives, and policies. Ethical considerations of privacy and surveillance are also discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CYBR 7000",
+      "notes": [
+        "Admission to the Cybersecurity, MS program"
+      ],
+      "prereqs": null,
+      "title": "Cyber Law, Policy, and Enforcement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133499",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the concepts and technologies of digital forensics and analysis for the detection, investigation, and prevention of cybercrime. Techniques and tools for collecting, processing, and preserving digital evidence are presented. Reporting the results of digital forensic findings is also stressed.",
+      "groups": [
+        "conc-cybersecurity-management"
+      ],
+      "id": "CYBR 7050",
+      "notes": [],
+      "prereqs": "CYBR 7000",
+      "title": "Cybercrime Detection, Analysis, and Forensics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133494",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover the basics of software security. Students will develop an understanding of malicious program development, detection of software vulnerabilities and how to patch and avoid such vulnerabilities towards building secure software. The course will provide hands-on assignments and projects for malware analysis.",
+      "groups": [
+        "conc-technical-cybersecurity"
+      ],
+      "id": "CYBR 7100",
+      "notes": [
+        "Admission to the Cybersecurity, MS program"
+      ],
+      "prereqs": null,
+      "title": "Secure Application Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133495",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the major issues surrounding the use of penetration testing to assess and secure network and infrastructure. Topics include ethical hacking, vulnerability discovery and risk analysis, attacks on network and infrastructure, exploitation of vulnerabilities, penetration testing methods and tools to secure systems against cyber-attacks.",
+      "groups": [
+        "conc-technical-cybersecurity"
+      ],
+      "id": "CYBR 7200",
+      "notes": [],
+      "prereqs": "CYBR 7400",
+      "title": "Securing Enterprise Infrastructure"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133496",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers concepts, methodologies and technologies in securing mobile networks and cloud computing environments. Topics may include the mobile network architecture and security protocols, service and deployment models for cloud computing, security issues and solutions from both client and service provider perspectives, and current trends in the field of mobile and cloud computing.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CYBR 7220",
+      "notes": [],
+      "prereqs": "CYBR 7400",
+      "title": "Mobile and Cloud Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133497",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the evaluations and applications of contemporary machine learning techniques in the cybersecurity field. Topics may include overview of popular machine learning algorithms, application areas of machine learning in cybersecurity, vulnerability and risk assessment using machine learning techniques, and development of machine learning based solution to mitigate cyber threats and risks and for informative decision making.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CYBR 7240",
+      "notes": [],
+      "prereqs": "CYBR 7400",
+      "title": "Cyber Analytics and Intelligence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133500",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of the roles and responsibilities associated with administration of a cybersecurity program including the role and composition of cybersecurity planning, development of cybersecurity policy, and the specification and conduct of an effective risk management program. The course also presents techniques, methodologies and best practices associated with developing and operating cybersecurity programs, staffing cybersecurity roles, and integrating cybersecurity efforts into the overall organizational strategy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CYBR 7300",
+      "notes": [
+        "Admission to the Cybersecurity, MS program"
+      ],
+      "prereqs": null,
+      "title": "Management of Cybersecurity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133501",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide a detailed investigation of the specialized planning and functions associated with non-normal business operations. The class examines the roles, responsibilities and plans associated with the organization\u2019s response to incidents, disasters and other challenges to business continuity. The course also provides techniques, methodologies and best practices associated with developing and operating contingency programs and best practices in preparing for, responding to, and recovering from current cybersecurity threats and attacks.",
+      "groups": [
+        "conc-cybersecurity-management"
+      ],
+      "id": "CYBR 7350",
+      "notes": [],
+      "prereqs": "CYBR 7300",
+      "title": "Contingency Planning and Response"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133502",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers essential cryptographic technologies that can be utilized to guarantee the security of familiar applications such as file systems, computer systems, networks, Internet, email systems, as well as World Wide Web. The essential cryptographic technologies include authentication, encryption, private and public key crypto systems, and so forth. In addition, security analysis including assessing and identifying risks, defining security requirements, and ethical issues will be covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CYBR 7400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Cryptography and Its Application"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138439",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the security risks and protections associated with AI systems. Students examine adversarial attacks, data poisoning, model robustness, privacy, and governance across the AI lifecycle. Emphasis is placed on securing machine learning pipelines, ensuring trustworthy and explainable AI, and understanding how AI supports cybersecurity operations. Aligned with NICE AI Security competencies, the course prepares students to design and defend resilient, ethical, and secure AI-driven systems.",
+      "groups": [
+        "conc-technical-cybersecurity",
+        "major-elective"
+      ],
+      "id": "CYBR 7700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cybersecurity for AI"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133503",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for students to work in teams researching and developing cybersecurity solutions to address enterprise needs. A student team will experience a complete project life cycle from planning, analysis, design to implementation under the supervision of an industry sponsor or course instructor. Through the term-long project, students will not only be able to apply and integrate knowledge and techniques learned in prior MS-CYBR courses, but also practice skills such as project management, leadership, teamwork, and oral and written communication. It is recommended that students take this course in their final semester of the MS-CYBR program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CYBR 7910",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CYBR 7400",
+          "IT 6823"
+        ]
+      },
+      "title": "Capstone in Cybersecurity Practicum"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages students in current research trends and emerging challenges in cybersecurity. Students critically review scholarly papers, analyze methodologies, and discuss implications for policy, technology, and practice. Emphasis is placed on research design, ethical considerations, and effective communication of technical results. Students will develop a research proposal or paper that demonstrates their ability to synthesize literature, identify open problems, and propose innovative cybersecurity solutions.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CYBR 7913",
+      "notes": [],
+      "prereqs": null,
+      "title": "Research Seminar in Cybersecurity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133504",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers students an opportunity to integrate the knowledge gained throughout the degree program with specialized content appropriate to the governance and strategic planning of cybersecurity. The course covers the practical aspects of cybersecurity management and administration and the critical skills associated with interacting with the senior-executive and board-level constituencies. The course will also include a focus on the development and implementation of performance measures, corporate and cybersecurity strategy, threat assessment and threat intelligence operations, and support for organizational operations by the cybersecurity function. It is recommended that students take this course in their final semester of the MS-CYBR program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CYBR 7930",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CYBR 7000",
+          "CYBR 7300"
+        ]
+      },
+      "title": "Capstone in Cybersecurity Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133114",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This foundation course will provide an overview of computer networks and system administration. Topics include network protocols, network traffic analysis, operating systems fundamentals and system management.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "IT 5423",
+      "notes": [],
+      "prereqs": null,
+      "title": "Computer Networks and System Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133143",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the principles, methodologies, and best practices in securing an enterprise IT infrastructure. Topics include security frameworks and models, risk assessment and management, access control, cryptography, instruction detection/prevention systems, penetration testing, incident response and recovery, and other existing and emerging security domains.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IT 6823",
+      "notes": [],
+      "prereqs": "IT 5423",
+      "title": "Information Security Concepts and Administration"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133144",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth study and analysis of the concepts, practices and concerns of information security unique to the healthcare settings. The course provides the student with the necessary background to evaluate the HIPAA security and privacy rules and meaningful use security requirements. It covers security risk assessment in the healthcare setting and how to integrate privacy and security into healthcare settings.",
+      "groups": [
+        "conc-cybersecurity-management"
+      ],
+      "id": "IT 7533",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "IT 7503"
+          },
+          "CYBR 7300"
+        ]
+      },
+      "title": "Health Information Security and Privacy"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-cybersecurity-management"
+        ],
+        "label": "Cybersecurity Management"
+      },
+      {
+        "groups": [
+          "conc-technical-cybersecurity"
+        ],
+        "label": "Technical Cybersecurity"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-cybersecurity",
+    "name": "MS Cybersecurity"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}
