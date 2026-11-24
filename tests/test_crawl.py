@@ -168,13 +168,14 @@ def test_loader_exception_becomes_stop_and_still_records_last_request(tmp_path):
     assert not cache_path(tmp_path, f"{HOST}/a").exists()
 
 
-def test_robots_network_failure_is_one_line_stop(monkeypatch, capsys):
+def test_robots_network_failure_is_one_line_stop(tmp_path, monkeypatch, capsys):
     import requests
     from owlpath_pipeline.crawl import main
 
     def boom(*a, **k):
         raise requests.ConnectionError("no route")
 
+    monkeypatch.setattr(config, "CACHE_DIR", tmp_path)  # the run takes the crawl lock there
     monkeypatch.setattr(requests, "get", boom)
     assert main(["undergraduate"], loader_factory=lambda r: None) == 1
     out = capsys.readouterr().out
@@ -234,3 +235,44 @@ def test_from_cache_stops_on_a_page_missing_from_the_cache(tmp_path, monkeypatch
     out = capsys.readouterr().out
     assert out.startswith("STOPPED: ") and out.rstrip().endswith("is not in the cache") and len(out.splitlines()) == 1
     assert not (tmp_path / "data").exists()
+
+
+@pytest.mark.parametrize("argv", [["undergraduate"], ["capture", f"{CAT}/a", "x", "--expect", "Credit Hour"]])
+def test_a_second_crawl_stops_at_once_while_one_holds_the_lock(tmp_path, monkeypatch, capsys, argv):
+    import fcntl
+    from owlpath_pipeline.crawl import main
+
+    monkeypatch.setattr(config, "CACHE_DIR", tmp_path)
+    with open(tmp_path / ".crawl.lock", "a") as held:
+        fcntl.flock(held, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        assert main(argv, http_get=_no_network, loader_factory=_no_network) == 1
+    assert capsys.readouterr().out == f"STOPPED: another crawl is running ({tmp_path / '.crawl.lock'})\n"
+
+
+def test_the_crawl_lock_is_released_when_the_run_ends(tmp_path, monkeypatch, capsys):
+    import fcntl
+    from owlpath_pipeline.crawl import main
+
+    monkeypatch.setattr(config, "CACHE_DIR", tmp_path)
+    assert main(["undergraduate"], http_get=lambda u, h: (503, ""), loader_factory=_no_network) == 1
+    assert capsys.readouterr().out.startswith("STOPPED: ") and (tmp_path / ".crawl.lock").exists()
+    with open(tmp_path / ".crawl.lock", "a") as again:
+        fcntl.flock(again, fcntl.LOCK_EX | fcntl.LOCK_NB)  # would raise BlockingIOError if still held
+
+
+def test_last_request_record_is_replaced_atomically(tmp_path, monkeypatch):
+    from owlpath_pipeline import fetch
+    from owlpath_pipeline.fetch import save_last_request
+
+    save_last_request(tmp_path, "https://a", 1.0)
+    save_last_request(tmp_path, "https://b", 2.0)
+    assert [p.name for p in tmp_path.iterdir()] == [".last-request.json"]
+
+    def disk_full(src, dst):
+        raise OSError("disk full")
+
+    monkeypatch.setattr(fetch.os, "replace", disk_full)
+    with pytest.raises(OSError):
+        save_last_request(tmp_path, "https://c", 3.0)
+    assert [p.name for p in tmp_path.iterdir()] == [".last-request.json"]  # no temp file left behind
+    assert load_last_request(tmp_path) == {"https://a": 1.0, "https://b": 2.0}

@@ -4,7 +4,9 @@ CLI: .venv/bin/python -m owlpath_pipeline.fetch <url>   (prints the cache file p
 """
 import hashlib
 import json
+import os
 import sys
+import tempfile
 import time
 from collections.abc import Callable
 from pathlib import Path
@@ -40,11 +42,19 @@ def load_last_request(cache_dir: Path) -> dict[str, float]:
 
 
 def save_last_request(cache_dir: Path, origin: str, when: float) -> None:
+    """Written atomically (a temp file in the same folder, then os.replace), so a reader never sees half a record."""
     cache_dir = Path(cache_dir)
     last = load_last_request(cache_dir)
     last[origin] = when
     cache_dir.mkdir(parents=True, exist_ok=True)
-    (cache_dir / LAST_REQUEST_FILE).write_text(json.dumps(last))
+    fd, tmp = tempfile.mkstemp(dir=cache_dir, prefix=LAST_REQUEST_FILE + ".", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w") as f:
+            f.write(json.dumps(last))
+        os.replace(tmp, cache_dir / LAST_REQUEST_FILE)
+    except BaseException:
+        Path(tmp).unlink(missing_ok=True)
+        raise
 
 
 def cache_path(cache_dir: Path, url: str, suffix: str = ".html") -> Path:

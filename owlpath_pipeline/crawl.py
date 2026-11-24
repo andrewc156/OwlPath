@@ -2,8 +2,11 @@
 
 The browser itself sits behind the PageLoader protocol, so everything here is testable with fakes.
 It shares .cache/http/.last-request.json with PoliteFetcher, so the two never hit the host back to back.
+One crawl at a time: a run that can make requests holds .cache/http/.crawl.lock, and a second one stops at once.
 """
-from collections.abc import Callable
+import fcntl
+from collections.abc import Callable, Iterator
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol
@@ -119,6 +122,25 @@ class Crawler:
 
 
 FIXTURE_DIR = config.REPO_ROOT / "tests" / "fixtures" / "catalog"
+LOCK_FILE = ".crawl.lock"
+
+
+@contextmanager
+def crawl_lock(cache_dir: Path) -> Iterator[None]:
+    """Hold an exclusive lock on <cache_dir>/.crawl.lock for a whole run that can make requests. Two crawls side by
+    side would each wait out the delay from the same last-request record and hit the host seconds apart."""
+    cache_dir = Path(cache_dir)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    path = cache_dir / LOCK_FILE
+    with open(path, "a") as lock:
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            raise CrawlStopped(f"another crawl is running ({path})") from None
+        try:
+            yield
+        finally:
+            fcntl.flock(lock, fcntl.LOCK_UN)
 
 
 def main(argv: list[str] | None = None, http_get: HttpGet | None = None, loader_factory=None) -> int:
@@ -168,20 +190,21 @@ def main(argv: list[str] | None = None, http_get: HttpGet | None = None, loader_
         return 0
 
     try:
-        robots = read_robots(config.CATALOG_BASE, http_get)
-        with loader_factory(robots) as loader:
-            crawler = Crawler(config.CACHE_DIR, loader, robots, time.sleep, time.time)
-            if args.command in config.CATALOGS:
-                from .snapshot import clear_catalog_cache, crawl_level, write_snapshot
-                if args.refresh:
-                    n = clear_catalog_cache(config.CACHE_DIR, config.catoid(args.command))
-                    print(f"cleared {n} cached pages")
-                snap = crawl_level(args.command, crawler)
-                write_snapshot(snap)
-                print(f"{args.command}: {len(snap.courses)} courses, {len(snap.programs)} programs, "
-                      f"{len(snap.out_of_scope)} out of scope")
-                return 0
-            page = crawler.get(args.url, args.expect)
+        with crawl_lock(config.CACHE_DIR):
+            robots = read_robots(config.CATALOG_BASE, http_get)
+            with loader_factory(robots) as loader:
+                crawler = Crawler(config.CACHE_DIR, loader, robots, time.sleep, time.time)
+                if args.command in config.CATALOGS:
+                    from .snapshot import clear_catalog_cache, crawl_level, write_snapshot
+                    if args.refresh:
+                        n = clear_catalog_cache(config.CACHE_DIR, config.catoid(args.command))
+                        print(f"cleared {n} cached pages")
+                    snap = crawl_level(args.command, crawler)
+                    write_snapshot(snap)
+                    print(f"{args.command}: {len(snap.courses)} courses, {len(snap.programs)} programs, "
+                          f"{len(snap.out_of_scope)} out of scope")
+                    return 0
+                page = crawler.get(args.url, args.expect)
     except (CrawlStopped, FetchError) as e:  # FetchError covers DisallowedError
         print(f"STOPPED: {e}")
         return 1
