@@ -1,0 +1,626 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "PHYS 1111L",
+      "PHYS 2211"
+    ],
+    [
+      "ARCH 2004",
+      "ARCH 1011"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136126",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course will explore theoretical and practical frameworks that inform architecture. Relevant theoretical and practical issues will be presented and discussed, allowing students to understand how fundamental parameters in design, including formal, spatial, and phenomenal factors, influence decision-making and inform critical thinking. Students shall be introduced to social and ethical stewardship that center on sustainability and socially-engaging designs.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ARCH 1000",
+      "notes": [
+        "ARCH Majors",
+        "Minors Only"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136299",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first design studio. Through exercises and projects, it introduces a variety of skills and fundamental principles in design for the beginning student in architecture including but not limited to the following: graphic observations, analysis, and representations, design process, architectural drawing and drafting, model building, and verbal communication.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 1001",
+      "notes": [
+        "ARCH Majors",
+        "Minors Only"
+      ],
+      "prereqs": null,
+      "title": "Architecture Studio I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136127",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course builds and elaborates upon the skills and subjects introduced in Architecture Studio I by engaging design problems at scales larger than in the previous studio and by investigating more complex problems, including building language and elements. It culminates with a capstone design project that summarizes and measures the learning of the first year, and prepares students for the second year.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 1002",
+      "notes": [],
+      "prereqs": "ARCH 1001",
+      "title": "Architecture Studio II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136706",
+      "catalogYear": "2026-2027",
+      "coreqs": "ARCH 1000",
+      "credits": "5",
+      "description": "This course introduces skills and fundamental principles in architectural design, including: graphic observations, analysis, and representations; two-dimensional and three-dimensional designs, including ordering space and forms; design process; precedent analysis; architectural drawing and drafting; model building, and verbal communication. The framework of the studio is observation, documentation, and analyses through specific filters and conventions. The second component is the notion of thinking through making, in which the engagement with tools, media, materials and techniques would inform design intents and design iterations. The studio will build up the scale and complexity of the projects, culminating in a simple, small-scale structure.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 1011",
+      "notes": [
+        "Acceptance into the Accelerated Program"
+      ],
+      "prereqs": null,
+      "title": "Accelerated Studio I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136707",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "5",
+      "description": "This course builds upon the design thinking skills developed during the first studio with a focus on design concept development. Building programming, analysis of site conditions, basic building codes and standards are introduced and emphasis is placed on the introduction of materials systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 1012",
+      "notes": [],
+      "prereqs": "ARCH 1011",
+      "title": "Accelerated Studio II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136300",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers lecture and practicum providing fundamentals of design communication through principles of drawing conventions and related techniques including orthographic projections, paraline drawings, and perspective construction systems to represent design ideas and built forms. This involves use of manual media, 2D image manipulation and 3D modeling using digital media. The intention of the course is to develop visual literacy through visual thinking and to develop skills to represent objects and simple buildings in both two and three-dimensions.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ARCH 1241",
+      "notes": [],
+      "prereqs": null,
+      "title": "Design Communication I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136128",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course builds on the design thinking skills developed during first year studios. This course initiates the application of research from site, context and case studies in the design process and emphasizes design concept development. Projects initiate the design of interior and exterior conditions, site design and the architectural design of structural systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 2003",
+      "notes": [
+        "acceptance into second year upon portfolio review"
+      ],
+      "prereqs": {
+        "and": [
+          "ARCH 1000",
+          "ARCH 1002",
+          "ARCH 1241"
+        ]
+      },
+      "title": "Architecture Studio III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136129",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course continues the development and use of generative design concepts begun in Architecture Studio III with projects of increased size and scope. Building programming and basic building codes are introduced and emphasis is placed on the introductory design of materials and material systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 2004",
+      "notes": [],
+      "prereqs": "ARCH 2003",
+      "title": "Architecture Studio IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136708",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course concentrates on shaping, organizing, and designing architectural spaces using spatial and compositional strategies derived from site, climate, program, precedent, and architectural case studies. The focus is on the identification and manipulation of the elements of design, understanding spatial relationships between the human body and various spatial systems, immediate site and environmental context in design. Projects may vary from exploration of architectural design vocabularies in built forms to single and multi-function spaces with site constraints.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 2013",
+      "notes": [],
+      "prereqs": "ARCH 1012",
+      "title": "Accelerated Studio III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136301",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The Architecture Culture sequence is designed as a historical survey of Architectural history and theory. Its aim is to develop an understanding of how architecture manifests the socio-cultural conditions of an era by examining the relationship between architecture and other cultural discourses such as philosophy, aesthetics, science, religion, politics and technology. It also examines how architecture, as a cultural artifact, transforms through time in response to alterations in its surrounding cultural context. This course introduces early architectural traditions and the formulation of European traditions through the Gothic.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ARCH 2111",
+      "notes": [],
+      "prereqs": null,
+      "title": "Architecture Culture I: Early Civilizations & Medieval"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136131",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to architectural structures with an emphasis on statics and strength of materials concepts. Focus is on force systems, shear and moment diagrams and determination of section properties.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ARCH 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "PHYS 1111",
+              "PHYS 1111L"
+            ]
+          },
+          {
+            "and": [
+              "PHYS 2211",
+              "PHYS 2211L"
+            ]
+          }
+        ]
+      },
+      "title": "Architecture Structures I - Introduction to Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136132",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course offers lecture and practicum and is seen as a continuation of Design Communication I. It introduces techniques and conventions of graphic communication as an aid for architectural design. This course advances levels of visualization and representation of architectural building and related design ideas. Techniques include hand drawings, digital rendering, and 3D computer modeling. The goal is to link traditional techniques and digital modeling to various studio works both at process level and final presentation level. A variety of representation techniques are introduced to highlight design vocabulary through a series of projects ranging from page layout to building. Both small-scale objects and moderate-scale structures/buildings can be used as base information to represent concepts of design and techniques of representation.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ARCH 2242",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "ARCH 1241",
+      "title": "Design Communication II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136133",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers lecture and practicum. It introduces selection criteria of materials and their properties relative to structural and enclosure systems. Emphasis is placed on wood, steel, masonry, and concrete structural systems. Enclosure Systems are explored in relation to various applications of existing and new materials and finishes that building systems entail within the context of sustainability.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ARCH 2311",
+      "notes": [],
+      "prereqs": null,
+      "title": "Environmental Tech I -Systems Selection and Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136044",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This studio emphasizes the importance of conceptual architectural thinking, materiality, and natural daylighting and introduces integration of building technologies within the architectural design process. The majority of the semester focuses on a medium sized, mixed-use project located on a suburban/exurban site.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3011",
+      "notes": [
+        "Traditional Track: ARCH 2004, ARCH 2211, ARCH 2311. Accelerated Track: ARCH 1000, ARCH 2013, ARCH 2211, ARCH 2242, ARCH 2311, and acceptance into third year upon portfolio review"
+      ],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "ARCH 2004",
+              "ARCH 2211",
+              "ARCH 2311"
+            ]
+          },
+          {
+            "and": [
+              "ARCH 1000",
+              "ARCH 2013",
+              "ARCH 2211",
+              "ARCH 2242",
+              "ARCH 2311"
+            ]
+          }
+        ]
+      },
+      "title": "Architecture Studio V"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136045",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is a continuation of ARCH 3011 and the integration of building technologies. Students design a medium to large-scale project within a dense urban setting with a focus on the contemporary workplace. Emphasis is placed on site context and systems and materials research in support of design intent. The first half of the semester is devoted to project design and the latter half is spent examining construction tectonics through large-scale physical models.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3012",
+      "notes": [],
+      "prereqs": "ARCH 3011",
+      "title": "Architecture Studio VI"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136130",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the rise of renaissance architecture and architectural theory and traces the spread of their influence across Europe into the enlightenment. The architectural impact of colonial expansion is studied as European architecture interacts with or displaces the local traditions of colonized areas in Asia, Africa, and the Americas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3112",
+      "notes": [],
+      "prereqs": null,
+      "title": "Architecture Culture II - The Renaissance through 1850"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136046",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the innate relationship between the making of architecture and architectural theory as the events of the nineteenth and twentieth centuries unfold. Nineteenth century historicism in Europe and the United States is introduced and followed by an examination of the changing relationship to history that precedes the turn of the twentieth century. This course then begins an investigation of the diverse regional and conceptual approaches to modernity, covered up to the International Style Exhibition.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3113",
+      "notes": [],
+      "prereqs": null,
+      "title": "Architecture Culture III: Historicism and the Emergence of New Traditions"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136048",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds on ARCH 2211 with a focus on design and analyses of statically determinate wood and steel structure systems, mainly frames. Upon completion students would be able to apply design techniques in defining a frame system and selecting or sizing wood or steel members, particularly beams and columns, trusses, diaphragms, and connections. Knowledge and skills are applied in a final team project that highlights a structural form employing wood and steel.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3211",
+      "notes": [],
+      "prereqs": "ARCH 2211",
+      "title": "Architecture Structures II: Steel and Wood"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136049",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds on ARCH 3211 with a focus on design and analyses of statically determinate and indeterminate concrete structure systems, mainly frames. Upon completion students would be able to apply design techniques in defining a frame system and selecting or sizing concrete members, particularly beams and columns, walls, foundations, and slabs. Knowledge and skills are applied in a final team project that highlights a structural form employing concrete.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3212",
+      "notes": [],
+      "prereqs": "ARCH 3211",
+      "title": "Architecture Structures III: Concrete and Lateral Loads"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136050",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers lecture instruction that is focused on the fundamental connection between human comfort and active / passive design mechanisms. Topics include building context / orientation and form, envelope characteristics and materials, and human comfort within interior environments. Additionally, energy conservation and major mechanical systems are examined in relation to building typology and sustainability.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3313",
+      "notes": [],
+      "prereqs": "ARCH 2311",
+      "title": "Environmental Technology II: Human Comfort and Building Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136051",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the culmination of the environmental technology sequence. Lectures elaborate upon prior coursework and place focus upon natural and artificial lighting, electrical systems, and building acoustical design. Students will continue to explore the connection between building form and environmental design strategies to develop and enhance interior atmospheres.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 3314",
+      "notes": [],
+      "prereqs": "ARCH 3313",
+      "title": "Environmental Technology III: Lighting, Electrical and Acoustics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136052",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course focuses on building structural systems and systems integration in relation to an architectural concept. Students will work on a program allowing them to study the impact of site and programmatic forces in relation to integrative principles as described by NAAB. The course builds upon and emphasizes synthesizing knowledge and skills acquired in concurrent and prior coursework.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4013",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARCH 3012",
+          "ARCH 3314",
+          "ARCH 3212"
+        ]
+      },
+      "title": "Architecture Studio VII: Integrative Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136351",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course focuses on designing urban environments and aims to expand students\u2019 design skills to a larger scale than single buildings or single sites. Integrating experiential data to conventional analysis, the studio aims to teach creating humane, just, aesthetically pleasing and livable urban environments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4014",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ARCH 4013",
+          "ARCH 4116"
+        ]
+      },
+      "title": "Architecture Studio VIII: Urban Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136053",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course continues the investigation of architecture culture by examining the development of the diverse regional and conceptual approaches to modern Architecture from the international style to the present, including the development of contemporary theoretical positions in architecture.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4114",
+      "notes": [],
+      "prereqs": "ARCH 3113",
+      "title": "Architecture Cultures IV: The Development of Architecture into the Twenty-First Century"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136047",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines historic and current trends of urban design, development and growth. Diverse socio-economic-political and spatial issues that shape and continuously transform the physical fabric of cities, metropolitan centers, and regions are the focus of this course. The course requires critical and applied assignments, through which the students explore and understand theoretical and applied underpinnings of wide-ranging and diverse urban forms and practices.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4116",
+      "notes": [],
+      "prereqs": null,
+      "title": "Urban Planning and Design Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136054",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers lecture and practicum. It introduces Standard Building Code, N.F.P.A. 101 and A.D.A and / or International Building Code. Emphasis is placed on theory of building safety, code document organization and the application of codes to actual buildings. The learning of codes is further extended by applying the code knowledge to producing an actual set of technical [contract] documentation of an assigned architectural project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4224",
+      "notes": [],
+      "prereqs": null,
+      "title": "Professional Practice I: Codes and Technical Documents"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136291",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces methods commonly used concepts of building economics to create budgets for the construction cost of commercial building projects from conceptual discussions with the Owner and the early stage of development of the drawings and specifications. These methods are typically used by architects and general contractors for feasibility and value engineering and building economic studies. The focus of this course is to enable architectural students to effectively create realistic estimates of probable economic cost for their clients and thereby work as a team member with the Owner and General Contractor to establish and maintain a project budget throughout the process of project design and construction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4225",
+      "notes": [],
+      "prereqs": null,
+      "title": "Professional Practice II - Cost Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136292",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the study of professional ethics, laws governing the practice of architecture and contractual relationships. It seeks to develop a working knowledge of how the American Institute of Architects (AIA) Document Series influences the method and legality of architectural practice. It emphasizes office management, professional liability and insurance, the owner-architect agreement, the architect- consultant agreement, owner-contractor agreement, bidding procedures and conditions of the contract management.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 4226",
+      "notes": [],
+      "prereqs": null,
+      "title": "Professional Practice III: Practice and Ethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136056",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "The Fifth-Year Focus Studios are intended to introduce the student to design research and its application, while adhering to creativity, critical thinking, processes of making, and constructability. The annual Focus Studio is an intrinsic part of the professional core of the Architecture Program and is designed to foster a strong relationship between the program, our students, and the profession as a whole. All qualified fifth year students have the option to select a studio critic who will broaden their area of interest in a subject-based studio.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARCH 5015",
+      "notes": [],
+      "prereqs": "ARCH 4014",
+      "title": "Focus Studio"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136217",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory algebra and trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to falling objects and orbital motion, describe simple harmonic motion, oscillations, and waves, and explain temperature, heat, and entropy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 1111",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Introductory Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135819",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1111",
+      "credits": "1",
+      "description": "PHYS 1111L is an introductory laboratory for the trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, waves, temperature, and basic fluid dynamics. The analysis of sources of error and formal propagation of uncertainties will also be developed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 1111L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "barch-architecture",
+    "name": "BArch Architecture"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

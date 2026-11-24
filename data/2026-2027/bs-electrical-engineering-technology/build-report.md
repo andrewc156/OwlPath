@@ -2,11 +2,7 @@
 
 ## Warnings needing review
 
-- **ECET 3410**
-  - unrecognized: P
-  - missing operator before 'PHYS 2212', assumed and
-- **ENGT 4901**
-  - missing operator before 'concurrently for EET Majors', assumed and
+None.
 
 ## Notes
 

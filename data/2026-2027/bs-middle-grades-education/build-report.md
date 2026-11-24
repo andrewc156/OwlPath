@@ -2,43 +2,7 @@
 
 ## Warnings needing review
 
-- **EDMG 4401**
-  - unrecognized: successful completion of all teaching field courses
-- **EDMG 4402**
-  - unrecognized: successful completion of all teaching field courses
-- **EDMG 4403**
-  - unrecognized: successful completion of all teaching field courses
-- **EDMG 4404**
-  - unrecognized: successful completion of all teaching field courses
-- **EDMG 4408**
-  - unrecognized: successful completion of all teaching field courses
-- **EDMG 4650**
-  - missing operator before 'INED 4431', assumed and
-  - unrecognized: Two of the following:
-  - missing operator before 'EDMG 4401', assumed and
-  - missing operator before 'EDMG 4402', assumed and
-  - missing operator before 'EDMG 4403', assumed and
-  - missing operator before 'EDMG 4404', assumed and
-  - missing operator before 'EDMG 4408', assumed and
-- **EDMG 4660**
-  - unrecognized: two of the following:
-  - missing operator before 'EDMG 4401', assumed and
-  - missing operator before 'EDMG 4402', assumed and
-  - missing operator before 'EDMG 4403', assumed and
-  - missing operator before 'EDMG 4404', assumed and
-- **EDSM 3000K**
-  - unrecognized: Any science course from Technology, Mathematics
-  - unrecognized: Sciences in the General Education Core Curriculum
-- **ENGL 2390**
-  - unrecognized: Any 1000
-  - unrecognized: 2000 level ENGL course
-- **MAED 1190**
-  - unrecognized: The successful completion of two 1000
-- **MAED 2390**
-  - unrecognized: The successful completion of two 1000
-- **SCI 3360**
-  - unrecognized: any two 1000-level
-  - unrecognized: 2000-level science courses
+None.
 
 ## Notes
 

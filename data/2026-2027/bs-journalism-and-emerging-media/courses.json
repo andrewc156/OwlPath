@@ -1,0 +1,840 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134495",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The organization of materials and the vocal and physical aspects of delivery in various speaking situations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 1110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Public Speaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134494",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "COMM 2033 is an introduction to visual communication using perceptual, physiological, psychological, cultural, and semiotic concepts. The course focuses on visual awareness and processing as key elements in effective communication.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2033",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Visual Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134496",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers application and practice of writing form and style particular to communication industry careers, such as journalism, public relations and human resource areas. Includes weekly writing assignments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2135",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          "ENGL 1102"
+        ]
+      },
+      "title": "Writing for Public Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134498",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of the various genres of mass media such as books, magazines, newspapers, radio, television, film, Internet and others. Examines the development, roles, functions, problems and criticisms of specific media from a global context.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2230",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Mass Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136513",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of law, ethics and diversity in mass media. It examines the basics of freedom of expression and press laws in the United States including freedom of information and access to government records. The course analyzes several approaches to ethics in media, journalism and public relations. It also examines diversity in the mass media, journalism and public relations industries.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Communication Law, Ethics and Diversity"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134506",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the foundational skills, tools, and techniques of modern digital media production across three core disciplines: audio, photography, and video. Students will learn to operate essential hardware, use industry-relevant software, and apply principles of composition, lighting, and editing to create compelling media content through a mix of hands-on projects, peer and self-assessments, and critical analysis.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "COMM 2340",
+      "notes": [
+        "Communication, B.S., Journalism",
+        "Emerging Media, B.S., Media",
+        "Entertainment, B.S.",
+        "Public Relations, B.S. major"
+      ],
+      "prereqs": null,
+      "title": "Digital Media Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134501",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Methods and practice in situational interviewing, including selection, sales, journalistic and media interviews. Examines roles and functions of both interviewee and interviewer.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3315",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Interviewing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134502",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces theoretical and applied aspects of health communication. Current health issues a examined in varied communication contexts, such as interpersonal, group, organizational, and mediated communication. This course analyzes provider-patient communication, intercultural communication and health beliefs, and health messages in the media. A variety of contemporary public health issues are presented. The course also examines the effectiveness of prevention messages using identified communication strategies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3320",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Health Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136342",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the role of the copy editor in print, broadcast, and online media, with a focus on developing the skills required to be an effective editor in the age of convergence. Through lecture, guest speakers, and in-class and out-of-class assignments, students will gain effective experience in copy editing, and the use of graphics, type, headlines, and layout to produce effective news and feature stories, and public relations materials.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "COMM 3350",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Editing for Today\u2019s Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134500",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an analysis of the content, process and distribution of new media, including Web-based, network-based, and CD-ROM based products. Students examine, evaluate and prepare material for informational, educational, and/or entertainment new media as well as explore the process of computer-assisted communication.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 3310",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Concepts in New Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134504",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the ways and means of developing, gathering, writing and editing factual and editorial copy. The course examines news personnel functions, reporting and interviewing techniques, ethical and legal considerations, along with news-writing practice surrounding the above.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 3330",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "COMM 2135",
+          "COMM 2230"
+        ]
+      },
+      "title": "News Reporting and Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134509",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamentals of how still photography is used to document our world in a public sphere. Students will learn the skills, theory, aesthetics and ethics of newspaper, magazine and online photojournalism. Visual storytelling from a single picture to a multi-image photo essay is explored. A digital portfolio is produced and presented at the end of the term.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 3360",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-Majors: Permission of the School required"
+      ],
+      "prereqs": "COMM 2340",
+      "title": "Photojournalism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135691",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers students the opportunity to learn about news gathering, production, and presentation in one of the nation\u2019s largest media markets. Students gain first-hand exposure to news professionals, operations, and offices. Students meet for an intensive one-week preparation class to better understand the structure and function of the professional newsroom. They visit outlets for a hands-on look at the news gathering process. Students incur additional travel expenses including the instructor\u2019s travel expenses.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 3395",
+      "notes": [
+        "30 credit hours",
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "COMM 2230",
+      "title": "Journalism Study Tour"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136954",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students develop awareness and skills in producing digital news stories. This course explores digital media elements, how audiences discover news, and planning and pitching unique to digital reporting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 3700",
+      "notes": [],
+      "prereqs": "JOUR 3330",
+      "title": "Fundamentals of Digital Journalism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136955",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to teach advanced storytelling, shooting, and editing techniques for multimedia journalism in multi-platform environments. The course teaches students to recognize and understand the technical and aesthetic aspects of visual storytelling, and how to build successful visual narratives using a combination of still images, HD video, ambient audio, and natural voices. The course is constructed to prepare students for the journalism industry and apply the journalistic standards of truth, fairness and accuracy with the tools and techniques of multimedia journalism to tell compelling narratives in a professional environment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 3820",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: permission of the School required"
+      ],
+      "prereqs": "COMM 2340",
+      "title": "Video for the Web"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136956",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the development of news media in America, emphasizing the historical relationship of the mass media to American social, economic, and cultural patterns. The course will review the origin, growth, shortcomings, and achievements of media, the impact of society on the media, and vice versa.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 3900",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: permission of the School required"
+      ],
+      "prereqs": null,
+      "title": "Journalism History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136953",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to data journalism, including citizen media strategies and tactics needed for the profession. This course focuses on developing the skills and understanding needed to analyze and understand data and then use that data to tell engaging journalistic stories including data scraping and data visualization. Students develop an understanding of many of the methods used to collect data in journalism such as surveys and content analysis.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 4100",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: permission of the School required"
+      ],
+      "prereqs": "JOUR 3330",
+      "title": "Data Journalism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to journalism and citizen media strategies and tactics needed for the profession. Sample topics may include social media and journalism, sports reporting, international journalism, ethics in journalism, public affairs reporting, and innovation and entrepreneurship in journalism. This course may be taken up to two times for a total of six credit hours as long as the course content differs each semester the course is taken.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4300",
+      "notes": [
+        "permission of instruction",
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "JOUR 3330",
+      "title": "Topics in Journalism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134520",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course teaches students how to move beyond basic news reporting and how to develop strong story ideas, report them thoroughly and write them in compelling and impactful ways. The course examines how to uncover electronic and paper-based documents and use open records laws as part of investigative journalism.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4410",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "JOUR 3330",
+      "title": "Investigative Reporting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136431",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students prepare for and practice writing short and long form stories about sports contests at the high school, college, and professional levels. Students produce stories in multi-platform formats including video, photography and social media use. This is an advanced reporting course aimed at students who are sports enthusiasts with the goal of becoming professional sports reporters.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4412",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-Majors: Permission of the School required"
+      ],
+      "prereqs": {
+        "and": [
+          "JOUR 3330",
+          "COMM 2340"
+        ]
+      },
+      "title": "Sports Reporting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134522",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course includes methods and practices for writing print and Internet style long-form feature stories. The course focuses on in-depth interviewing skills and query letter writing, as well as understanding multimedia storytelling.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4420",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "JOUR 3330",
+      "title": "Advanced Media Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136663",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is for the Georgia News Lab, which is open to KSU students and students in universities in the Atlanta Regional Consortium for Higher Education. It provides students high-level training in the practice and principles of investigative journalism. Students gain experience in advanced reporting and data journalism techniques and use them to develop projects in conjunction with professional reporters from The Atlanta Journal-Constitution and WSB TV. Students must apply to be accepted.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4430",
+      "notes": [
+        "60+ credit hours",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Advanced Investigative Reporting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136664",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is for the Georgia News Lab, which is open to KSU students and students in universities in the Atlanta Regional Consortium for Higher Education. It provides students continued high-level training in the practice and principles of investigative journalism. Students gain additional experience in advanced reporting and data journalism techniques and use them to develop projects in conjunction with professional reporters from The Atlanta Journal-Constitution and WSB TV. Students must apply to be accepted.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4435",
+      "notes": [],
+      "prereqs": "JOUR 4430",
+      "title": "Advanced Investigative Reporting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134528",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on producing, writing and storytelling for audio in a journalistic context. The course is designed to teach students how to write scripts and produce radio promotions, commercials and news stories. The course surveys trends in the radio industry including traditional broadcast, digital, and satellite radio as well as podcasting and audio streaming of content.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4445",
+      "notes": [
+        "90+ credit hours",
+        "must be a declared major in the School of Communication",
+        "Media. Non-Majors: Permission of the School required"
+      ],
+      "prereqs": {
+        "and": [
+          "JOUR 3330",
+          "COMM 2340"
+        ]
+      },
+      "title": "Advanced Digital Audio Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134529",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to teach students electronic field production, including single and multiple camera operations; advanced field camera operations; tape-to-tape editing; editing techniques; single/multiple camera continuity, and scripting in a journalistic context. The students must have a fundamental understanding of production operations before enrollment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "JOUR 4450",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-Majors: Permission of the School required"
+      ],
+      "prereqs": {
+        "and": [
+          "JOUR 3330",
+          "COMM 2340"
+        ]
+      },
+      "title": "Video News Production"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134533",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth examination of the existing legal structure within which the media operates and the antecedent statutory and case law through which this structure has evolved. The course also addresses ethical concepts and considerations surrounding the media.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 4470",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-Majors: Permission of the School required"
+      ],
+      "prereqs": {
+        "and": [
+          "COMM 2230",
+          "POLS 1101"
+        ]
+      },
+      "title": "Media Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134536",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is informed by social networking and civic, citizen and community journalism applications and theories. Student-driven teams produce multi-media journalistic reflections of community life and institutions. The students, ideally working with diverse sets of community members, choose the best methods, tools and platforms for telling their stories and justifying their choices. This is the capstone course showcasing what students have learned as a Journalism and Emerging Media major.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "JOUR 4488",
+      "notes": [
+        "90 or more credit hours required",
+        "Must be a declared major in the School of Communication & Media; non-majors need permission of the School"
+      ],
+      "prereqs": {
+        "and": [
+          "JOUR 3700",
+          "JOUR 4100"
+        ]
+      },
+      "title": "Multi-Media Visions of Community (Capstone)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136531",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to media and entertainment. \u201cMedia\u201d topics include not only media institutions, but also the context, history, and economics of media; meaning and ideology; effects on audience behavior; public life; and globalization. \u201cEntertainment\u201d focuses on any communication function used for entertainment purposes, including television, film, music, video games, sports, travel/tourism, museums, and theme parks. This course addresses the history, challenges, trends, and career options in these areas.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 3100",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Fundamentals of Media & Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136828",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students learn about the recording hardware, software, and production skills needed to produce effective entertainment podcasts. Students are taught to strategically research and prepare captivating and memorable audio segments; develop audio programming strategy skills; hosting, presenting, and interview strategies; and perfect the editing skills needed to produce high-quality and professional-sounding audio.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 3300",
+      "notes": [],
+      "prereqs": "COMM 2340",
+      "title": "Entertainment Podcasting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135690",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores mass media and culture from an international perspective. Students analyze international communication theories, global communication infrastructure, the global media marketplace, and international communication and the internet. Students also examine specific communication systems, both democratic and authoritarian, and how media is disseminated in a global context. International media products such as film, music, radio, and TV programming, online content, and advertisements are also covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 3326",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": "COMM 2230",
+      "title": "International Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134523",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines research findings and commentary about mass media impact and use in the United States. Through the lens of media theory, students explore what mass media \u201cdo\u201d to users and what users \u201cdo\u201d with the mass media, and why these effects and uses are thought to occur. This course is useful for students interested in graduate work in mass media, professional media careers, media literacy, or more conscientious use of mass media and awareness of possible effects on themselves or others.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4424",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": "COMM 2230",
+      "title": "Uses and Effects of Mass Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134524",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination of mass media portrayals of gender and race, from years past to present. Students analyze media artifacts, identify recurring themes, and explore research about the societal effects of stereotypical media portrayals.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4425",
+      "notes": [
+        "Journalism",
+        "Emerging Media, B.S., Media",
+        "Entertainment, B.S., Organizational",
+        "Professional Communication, B.S.",
+        "Public Relations, B.S. major."
+      ],
+      "prereqs": "COMM 2240",
+      "title": "Gender, Race, and Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136534",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to entertainment topics, challenges, and trends. Sample topics may include entertainment industries and properties, fandom and fan studies, sports as entertainment, arts and leisure entertainment, interactive entertainment, travel and tourism as entertainment, global entertainment, and careers in entertainment. This course may be taken up to two times for a total of six credit hours as long as the course content differs each semester the course is taken.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4436",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": "MENT 3100",
+      "title": "Topics in Entertainment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134527",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the television and motion picture industries, covering such factors as development, pre-production, the production process, post-production and distribution. Emphasis will be placed on the managerial aspects of the process and will include the institutional/instructional video market.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4444",
+      "notes": [
+        "60+ credit hours"
+      ],
+      "prereqs": null,
+      "title": "Film and Video Structure and Process"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136533",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to enable students to develop a critical, aesthetic, and ethical approach to visual representation. Through selected documentary viewings, discussions, lectures, and the development and completion of a final project, students learn the necessary processes for producing documentary films. The course culminates with a class production of a short documentary on a topic approved by the instructor. Historical, theoretical, and methodological elements of documentary production are highlighted.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MENT 4464",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": "COMM 2340",
+      "title": "Documentary Filmmaking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134516",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces a model of effective conflict management in organizations and other contexts via appropriate communicative strategies. The model proposes that our perspective of dealing with conflict determines our approach to conflict situations. This course provides students with practical knowledge for understanding the benefits of conflict, recognizing its evolution, and applying various strategies for dealing with different people in a variety of contexts.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ORGC 3459",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media. Non-majors: 30+ credit hours",
+        "permission from the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Communication and Conflict"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers theoretical and applied approaches to the understanding of organizational & professional communication. Sample topics may include global leadership in organizations, nonprofit organizations, professional coaching, and organizational systems. Semester topics will vary. This course may be taken up to two times for a total of six credit hours as long as the course content differs each semester the course is taken.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ORGC 4470",
+      "notes": [
+        "Must be a declared major in the School of Communication",
+        "Media"
+      ],
+      "prereqs": null,
+      "title": "Topics in Organizational & Professional Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135312",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the institutions and processes of American government and Georgia State government. Global comparisons are made between the governments of the U.S. and other modern nation-states.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "POLS 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "American Government"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134505",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the history, role, and functions of public relations, including public relations theory, ethics, and industry and career issues.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3335",
+      "notes": [],
+      "prereqs": "COMM 2230",
+      "title": "Public Relations Principles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134508",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines basic roles and functions of messaging strategy in promoting organizational goals. A case study approach emphasizes theory and methods for effective communication with diverse organizational publics, including the mass media, employees, consumers, financial stakeholders and special interest groups.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3355",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Public Relations Cases"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers practice in writing public relations applications, including news releases, public service announcements, and newsletter articles. Students create a portfolio of writing samples.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3375",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Public Relations Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134514",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides a study of the theories, methods, applications and implications of persuasion from the days of Aristotle to today\u2019s political and commercial arenas. The course explores the practice of changing attitudes and opinions via non-coercive means.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 3429",
+      "notes": [
+        "Must have earned at least 30 credit hours"
+      ],
+      "prereqs": null,
+      "title": "Persuasion Methods and Strategies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136018",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn theory and practice of social media in a professional, strategic communication setting, with an emphasis on the connection between traditional best practices and emerging techniques.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4210",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "PR 3335",
+      "title": "Social Media for Strategic Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136020",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores digital publication design in the practice of public relations and strategic communication. In addition to principles of design, including the use of photography and graphics, students learn to prepare content and communicate strategic messages through coordination of text, images, and strategic design. Graphic design software and other online tools are used to develop an understanding of visual communication strategies and skills to create publications that raise awareness, affect attitudes, and influence behavior.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "PR 4405",
+      "notes": [
+        "must be a declared major in the School of Communication",
+        "Media. Non-majors: Permission of the School required"
+      ],
+      "prereqs": "COMM 2135",
+      "title": "Digital Publication Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136021",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with a working knowledge of the processes involved in the development, preparation and distribution of a major multi-platform publication. Students are involved in all facets of the magazine publication, including research and information gathering, writing, editorial functions, photography, layout and design, and promotion and advertising.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "PR 4605",
+      "notes": [
+        "Approval of application by the instructor",
+        "Must be a declared major in the School of Communication & Media; non-majors need permission of the School"
+      ],
+      "prereqs": {
+        "or": [
+          "PR 3375",
+          "JOUR 3330",
+          "PR 4405"
+        ]
+      },
+      "title": "Magazine Media"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-journalism-and-emerging-media",
+    "name": "BS Journalism and Emerging Media"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

@@ -2,9 +2,7 @@
 
 ## Warnings needing review
 
-- **IPM 7760**
-  - unrecognized: Completion of first-year fall
-  - unrecognized: spring semesters
+None.
 
 ## Left out on purpose
 

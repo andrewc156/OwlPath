@@ -2,9 +2,7 @@
 
 ## Warnings needing review
 
-- **ISD 4497**
-  - empty description
-  - unrecognized: Any B2: Cultural Perspectives course
+None.
 
 ## Left out on purpose
 

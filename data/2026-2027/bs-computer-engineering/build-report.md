@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **CPE 4810**
-  - unrecognized: Senior Status
+None.
 
 ## Left out on purpose
 

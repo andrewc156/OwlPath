@@ -1,0 +1,1498 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134403",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents fundamental principles and applications in genetics. Students learn how traits are inherited and to use this information in predicting and analyzing genetic outcomes. Students study nucleic acid structure, learn how DNA replicates and how genes are expressed. Mutation at the gene and chromosomal levels will be surveyed, and their effect on gene structure and function examined. Finally, students will explore various genetic methods, including pedigrees, mapping, and molecular techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Genetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135946",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3300",
+      "credits": "1",
+      "description": "This course is designed to reinforce principles and applications of transmission genetics, cytogenetics, and molecular genetics. Students will learn to use problem-solving, data analysis and quantitative methods to explore genetics. Exercises in molecular biology will expose students to methods of recombinant DNA technology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3300L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Genetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134406",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of prokaryotes, unicellular eukaryotes and viruses. Students will learn about the nature of microorganisms and the techniques used to study microbes. Students will explore the morphology, metabolism, growth, and genetics of various microbes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3340",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Microbiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136441",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3340",
+      "credits": "1",
+      "description": "This course emphasizes basic microbiology methods. Students will learn to culture, identify and quantify microorganisms. Students will also explore applications of microbiology, including food and environmental microbiology",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3340L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Microbiology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134407",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn about the relationships among living organisms and their environments at the individual, population, community and ecosystem level. Students will learn how and why traits evolve over time and how to evaluate scientific information.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3370",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          {
+            "or": [
+              {
+                "external": "STAT 1401"
+              },
+              "STAT 3125",
+              {
+                "external": "IET 2227"
+              },
+              {
+                "external": "PSYC 3000"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Ecology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135695",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3370",
+      "credits": "1",
+      "description": "In laboratory and field activities students will utilize inquiry-based activities that emphasize environmental sampling procedures and statistical analysis of data to explore the role of variability and uncertainty in scientific decision-making as related to ecological processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3370L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ecology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134447",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to statistics; the use of spreadsheets; principles of gravimetric and volumetric analysis; concepts of chemical equilibria as applied to acid-base, precipitation and complex ion reactions; electrochemistry and potentiometry; ultraviolet-visible spectroscopy; and an introduction to modern chromatographic separations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 2800",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          {
+            "or": [
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Quantitative Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134448",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 2800",
+      "credits": "1",
+      "description": "Laboratory experiments include: gravimetric analysis, precipitation, complexometric, and reduction-oxidation titrations; potentiometric applications; calibration techniques using ultraviolet - visible spectroscopy. Tutorials on the application of spreadsheets.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 2800L",
+      "notes": [],
+      "prereqs": "CHEM 1212L",
+      "title": "Quantitative Analytical Chemistry Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134456",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "3",
+      "description": "This course is the first of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134457",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1212L",
+          "CHEM 3361"
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental method used in organic chemistry for separation of mixture, purification of compounds, and reactions illustrating single functional group transformation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry Lab I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134458",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the second of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3362",
+      "notes": [],
+      "prereqs": "CHEM 3361",
+      "title": "Modern Organic Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134459",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3362",
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental methods used in organic chemistry synthesis, characterization of compounds, and multi-step synthesis of useful target-compounds from readily available starting material.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3362L",
+      "notes": [],
+      "prereqs": "CHEM 3361L",
+      "title": "Modern Organic Chemistry Lab II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134468",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "3",
+      "description": "This course provides an introduction to quantum mechanics and its application to selected chemical systems, atomic structure, chemical bonding, atomic, rotational, vibrational, and electronic spectroscopy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3601",
+      "notes": [],
+      "prereqs": "CHEM 2800",
+      "title": "Quantum Chemistry and Spectroscopy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134472",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3361",
+      "credits": "3",
+      "description": "This course will cover the environmental chemistry involving the transport, distribution, reactions, and speciation of inorganic, organometallic and organic chemicals occurring in the air, soil and water environments at the local, national and global scale. Environmental transformations and degradation processes, toxicology, pollution and hazardous substances will be discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3700",
+      "notes": [],
+      "prereqs": null,
+      "title": "Environmental Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135890",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course prepares prospective middle grades and secondary math or science teacher candidates to create and manage positive, productive classroom environments with learners. Candidates will develop a comprehensive understanding of the learning and behavior principles that underlie effective classroom management and acquire the strategies and skills needed to implement an effective management program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDSM 3360",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "EDMG 3350"
+          },
+          "MAED 4414",
+          "SCED 4414"
+        ]
+      },
+      "title": "Classroom Management in the Middle Grades and Secondary Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136614",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "SCED 4414",
+          "MAED 4414"
+        ]
+      },
+      "credits": "1",
+      "description": "Under the guidance of a collaborating teaching and a university instructor, the teacher candidate will complete a field experience in a designated school. This experience requires working in a co-teaching environment with diverse learners and focuses on understanding and responding to learners\u2019 mathematical or scientific reasoning.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "EDSM 4414",
+      "notes": [
+        "Admission to the Teacher Education Program : Obtain Pre-Service Certificate"
+      ],
+      "prereqs": null,
+      "title": "Teaching Secondary Math and Science- Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134675",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course engages students in observations, interactions, and analyses of critical and contemporary educational issues. Students will investigate issues influencing the social and political contexts of educational setting in Georgia and the United States. Students will actively examine the teaching profession from multiple vantage points both within and outside the school. Against this backdrop, students will reflect on and interpret the meaning of education and schooling in a diverse culture and examine the moral and ethical responsibilities of teaching in a democracy. This includes the use of current technologies which are directly related to effective teaching and 15 hours of observation in appropriate elementary/early childhood, middle grades, secondary, or P-12 environments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 2110",
+      "notes": [],
+      "prereqs": null,
+      "title": "Investigating Critical & Contemporary Issues in Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134676",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Given the rapidly changing demographics in our state and country, this course is designed to equip future teachers with the fundamental knowledge of understanding culture and teaching children from diverse backgrounds. Specifically, this course is designed to examine 1) the nature and function of culture; 2) the development of individual and group cultural identity; 3) definitions and implications of diversity, and 4) the influences of culture on learning, development, and pedagogy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 2120",
+      "notes": [],
+      "prereqs": null,
+      "title": "Exploring Socio-Cultural Perspectives in Educational Contexts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134677",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on an in-depth exploration of research-based best practices concerning the thinking behind making good pedagogical decisions about curriculum and teaching strategies to ensure student success in the classroom. Students engage in field experiences in public schools that highlight theories and practices introduced in class, and reflect on their own learning processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 2130",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "EDUC 2110",
+          {
+            "external": "ECE 2270"
+          },
+          {
+            "external": "ENED 2110"
+          },
+          {
+            "external": "HIED 2110"
+          }
+        ]
+      },
+      "title": "Exploring Teaching & Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136536",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 4650"
+          },
+          {
+            "external": "MUED 4650"
+          },
+          {
+            "external": "WLED 4650"
+          },
+          {
+            "external": "HPE 4430"
+          },
+          {
+            "external": "ENED 4650"
+          },
+          {
+            "external": "HIED 4650"
+          },
+          "SCED 4650",
+          "MAED 4650",
+          {
+            "external": "ECE 4650"
+          },
+          {
+            "external": "ECE 4660"
+          },
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "0",
+      "description": "This course is the beginning to the co-teaching Yearlong Clinical Experience in education. Candidates will attend the entirety of pre-planning at their assigned school before the start of the academic year (the exact timing of which will depend on the placement school\u2019s schedule). Additionally, candidates will also attend the first week of the academic year in order to familiarize themselves with the policies and routines of their placement school and Collaborating Teacher.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 4610",
+      "notes": [
+        "Admission to teacher education",
+        "An issued pre-service certificate",
+        "The corequisite depends on the program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Yearlong Clinical Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136739",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "SCED 4650",
+          {
+            "external": "ENED 4650"
+          },
+          {
+            "external": "WLED 4650"
+          },
+          {
+            "external": "HIED 4650"
+          },
+          "MAED 4424",
+          {
+            "external": "EDMG 4650"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course prepares candidates to work collaboratively with families and school personnel to positively impact the academic, social/emotional, and behavioral development of students with exceptionalities. This course requires a ten-hour observational and instructional experience in assigned school placement(s). Verification of professional liability insurance is required prior to placement in the field experience. Candidates must have an issued preservice certificate for this course. This course fulfills Georgia HB 671 requirement. Beginning July 1, 2019, all candidates must earn a \u201cB\u201d or higher in this course for certification as stated in the Georgia PSC 505-2-.24 Special Georgia Requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 3300",
+      "notes": [
+        "Admission to Teacher Education"
+      ],
+      "prereqs": null,
+      "title": "Educating Students with Exceptionalities in Inclusive Settings"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136738",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "EDUC 4610",
+          {
+            "external": "EDMG 3350"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "This course introduces middle and/or secondary teacher candidates to today\u2019s diverse English learner population, education policies that impact these students and how cultural resources can be leveraged to meet their academic needs. This course focuses on developing effective instruction, assessment, and literacy development for English learners and other linguistically diverse learners in middle grade classrooms. Specifically, candidates will a) examine the academic, linguistic and social needs of linguistically diverse learners, b) explore the differences between teaching reading and writing to English learners and native English speakers; and c) develop skills necessary for the differentiation, scaffolding language and content for English learners at a variety of language proficiency levels.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 4431",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations for Teaching Multilingual English Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135029",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher candidates learn to use technologies to promote student achievement in high school content area and technology literacy standards. Special topics include using technology to improve students\u2019 English language learning, to assess student learning, and to differentiate instruction. Candidates also learn to manage their digital activities in ways appropriate for a professional educator; advocate for students without beyond-school access; and teach K-12 students how to use technology safely, ethically, and legally. This is a three-credit (3) course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 3300",
+      "notes": [
+        "Admission to the Teacher Education program"
+      ],
+      "prereqs": null,
+      "title": "Improving Learning with Technology in High School Classrooms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136016",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for the preservice teacher of mathematics for adolescents. Content strands to be explored include number and operation, algebra, and measurement. The process standards of communication, connections, problem solving, reasoning and proof, and representation will be emphasized. Appropriate use of manipulatives, calculators, and software will be integrated in course materials.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 3295",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "external": "MAED 1190"
+          },
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Mathematics for Middle Grades and Secondary Teachers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135953",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to prepare prospective 5-8 teachers and 6-12 teachers to become effective facilitators in teaching geometry. This course develops geometry as an axiomatic mathematical system and approaches it from synthetic, transformational, and algebraic perspectives (including higher dimensions). Various geometries are studied including finite, infinite, projective, Euclidean and Non-Euclidean.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 3395",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 2390",
+          {
+            "external": "MAED 2390"
+          }
+        ]
+      },
+      "title": "Geometric Proofs and Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135048",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students investigate classical and modern mathematics through problem-solving and mathematics-specific technologies. Students have opportunities to connect course content with the middle and secondary school curriculum.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 3475",
+      "notes": [
+        "Admission to the Teacher Education Admissions, Enrollment",
+        "Graduation Criteria"
+      ],
+      "prereqs": null,
+      "title": "Historical and Modern Approaches to Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135076",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students\u2019 understanding of the mathematics taught in middle school and the first few years of high school will be deepened and broadened through the study of key topics including algebra, linear functions, exponential functions, quadratic functions, number theory, discrete mathematics, and mathematical modeling. This course is designed so that students can revisit key ideas in school mathematics, bringing with them the skills and understandings of college course work in mathematics, deepening and broadening their understanding, and connecting more advanced ideas to the topics they will teach in middle school and high school.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 3495",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MAED 3295",
+          {
+            "or": [
+              "MATH 2390",
+              {
+                "external": "MAED 2390"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Advanced Perspectives on School Mathematics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137222",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course focuses on applying data science and the statistical problem-solving process to real-world modern data investigations (or studies) in various fields such as education, science, business, and the social sciences. Various pedagogical approaches for teaching and technology integration are presented for developing praxis in statistics and data science for secondary grade learners. Students learn and apply the course content during a semester-long, community-based project.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 3713",
+      "notes": [],
+      "prereqs": "STAT 2332",
+      "title": "Data Science for Secondary Mathematics Teachers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136629",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDSM 4414",
+      "credits": "2",
+      "description": "This is the first of three courses in a professional sequence toward becoming a well-prepared beginning secondary mathematics teacher. Topics include introductory ideas about mathematics education, including current mathematics standards and policy documents, cognitive learning theories, and teaching frameworks. Students will explore how secondary students think about and learn mathematics, examine how to select and modify tasks, use appropriate manipulatives and technology, differentiate instruction, and apply their learning in an accompanying field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4414",
+      "notes": [
+        "Admission to Teacher Education required"
+      ],
+      "prereqs": {
+        "and": [
+          "EDUC 2120",
+          "MATH 2203",
+          {
+            "or": [
+              {
+                "and": [
+                  "STAT 2332",
+                  "MATH 2390"
+                ]
+              },
+              {
+                "and": [
+                  "STAT 2332",
+                  "MATH 3260"
+                ]
+              },
+              {
+                "and": [
+                  "MATH 2390",
+                  "MATH 3260"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Pedagogical Content Knowledge for Mathematics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135051",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 4426",
+      "credits": "2",
+      "description": "This is the second of three courses in a professional sequence toward becoming a well-prepared beginning secondary mathematics teacher. Topics include social learning theories, equity issues, and specific teaching strategies. Students will explore how to support discourse in the secondary mathematics classroom, develop questioning techniques, examine how to plan for learning sequences, and apply their learning in an accompanying field experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4416",
+      "notes": [],
+      "prereqs": "MAED 4414",
+      "title": "Pedagogical Content Knowledge for Mathematics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137059",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 4650",
+      "credits": "2",
+      "description": "This is the third of three courses in a professional sequence toward becoming a well-prepared beginning secondary mathematics teacher. Topics include enhanced assessment and feedback strategies, developing classroom culture, and refining notions of learning, teaching, and equity. Students will apply their learning in an accompanying clinical experience.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4418",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MAED 4416",
+          "MAED 3395",
+          "MAED 3495"
+        ]
+      },
+      "title": "Pedagogical Content Knowledge for Mathematics III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137058",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 4414",
+      "credits": "1",
+      "description": "",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4424",
+      "notes": [
+        "Admission to the Teacher Education Program required"
+      ],
+      "prereqs": null,
+      "title": "Teaching Secondary Mathematics- Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135052",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 4416",
+      "credits": "1",
+      "description": "Under the guidance of a collaborating teaching and a university instructor, the teacher candidate will complete a field experience in a designated school. This experience requires working in a co-teaching environment with learners and focuses on supporting learners\u2019 mathematical discourse.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4426",
+      "notes": [],
+      "prereqs": "MAED 4424",
+      "title": "Teaching Secondary Mathematics- Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135085",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students understanding of secondary mathematics will be deepened and broadened through the study of algebraic structures, analytic geometry, and trigonometry, including conic sections, complex numbers, polynomials and functions. This course is designed so that students can revisit key ideas in high school mathematics, bringing with them the skills and understandings of college course work in mathematics, deepening and broadening their understanding, and connecting more advanced ideas to the topics they will teach in high school.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4495",
+      "notes": [],
+      "prereqs": "MAED 3495",
+      "title": "Advanced Perspectives on School Mathematics Part II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135871",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MAED 4418",
+          "EDUC 4610"
+        ]
+      },
+      "credits": "3",
+      "description": "This course is the first semester of an intensive and extensive co-teaching yearlong clinical practice in mathematics education. Under the guidance of a collaborating teacher and university supervisor and working in an environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4650",
+      "notes": [
+        "Admission to Teacher Education Program"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135872",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "7",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in mathematics education. Under the guidance of a collaborating teacher and university supervisor and working in a heterogeneous environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars and the completion of a content pedagogy assessment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4660",
+      "notes": [
+        "eligibility to take GACE"
+      ],
+      "prereqs": "MAED 4650",
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137221",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 4660",
+      "credits": "1",
+      "description": "This seminar supports and assesses candidate development in secondary mathematics education during the clinical experience. Candidate reflect on the development of their competencies, skills, and dispositions, and support for teacher performance assessments is provided. Seminar discussions challenge candidates to examine and integrate current issues, values, and practices in the secondary mathematics (6-12) classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 4661",
+      "notes": [],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience II Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the third in the calculus curriculum and is concerned with functions defined on regions in two or three dimensional space and that have values in one, two, or three dimensional space. Topics include partial derivatives, vector fields, multiple integrals, and applications of these topics.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "MATH 2203",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Calculus III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the theory of ordinary differential equations (ODEs), methods of solving first and higher order linear differential equations and linear systems, some applications in the sciences and engineering, the Laplace transform and its application in solving differential equations and linear systems, and Euler\u2019s numerical algorithm.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2306",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Ordinary Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135630",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces to students the foundations of logic, set theory, and basic proof techniques. The course serves as a bridge from the procedural and computational understanding of mathematics to a broad understanding encompassing logical reasoning, generalization, abstraction, axiomatic approach, and formal proof.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2390",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Introduction to Logic, Set Theory, and Proofs"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to linear algebra and some of its classical and modern applications. Among topics to be included will be systems of linear equations, matrices, determinants of matrices and applications, vector spaces, and inner product spaces. Significant use of technology will be employed in performing matrix computations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 3260",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Linear Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135948",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the fundamental structures of abstract algebra (groups, rings, and fields), the connections of these structures with the algebra studied at the elementary level, and the historical development of modern algebra. The emphasis in this course is on groups.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 4361",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2390",
+          "MATH 3260"
+        ]
+      },
+      "title": "Modern Algebra I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135930",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on electromagnetism, physical optics, and quantum physics. The student will be able to apply the concepts of electric field and electric potential to problems in electrostatics and with electric currents, describe the motion of charged particles in magnetic fields and induction, explain the origin of electromagnetic waves and properties of light, determine the behavior of light waves passing through single or multiple slits, and understand elementary principles of quantum physics.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "PHYS 2212",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135822",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2212",
+      "credits": "1",
+      "description": "This is an introductory laboratory for the calculus-based course on electromagnetism, optics, and modern physics. The student will be able to apply the concepts of electric field and electric currents to problems in the laboratory, and perform measurements on magnetic fields and induction, optics, and elementary quantum physics phenomena. The analysis of sources of error and formal propagation of uncertainties will also be developed, along with graphical techniques and least-squares fits.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "PHYS 2212L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135812",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This is the third course in the 3-semester introductory sequence. Students will learn about pressures produced by fluids and fluid flow. They will also learn the laws of thermodynamics and their applications to physical systems. Students will also examine the behavior of light interacting with lenses and mirrors, and will understand the behavior of sound in air.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 2213",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2211"
+        ]
+      },
+      "title": "Principles of Physics III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135814",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of Newtonian, Lagrangian, and Hamiltonian Mechanics as well as mechanics of central force systems and oscillations. Students will learn how to apply Newtonian mechanics to dynamics of particles and systems of particles, and calculus of variations using Lagrange and Hamilton equations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 3210",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2203",
+          "MATH 2306",
+          "PHYS 3260"
+        ]
+      },
+      "title": "Mechanics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135815",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a survey of fundamental principles of electricity and magnetism. Students will learn and solve problems in electrostatic fields, magnetic fields of steady currents, and time-dependent electromagnetic fields.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 3220",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2203",
+          "MATH 2306",
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Electromagnetism 1"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136359",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course students will review mathematical techniques that are often used in upper-level physics courses. Students will learn to apply linear algebra, differential equations, vector calculus, Fourier series, Fourier transforms, Bessel functions, Legendre polynomials, and complex analysis to solve problems in physics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 3260",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 2202",
+          "PHYS 2212"
+        ]
+      },
+      "title": "Mathematical Physics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135818",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The topics covered in this course constitute the most fundamental background in modern physics. The main objective of this course is to provide the student with a basic understanding of the physical laws and phenomena that constitute the framework leading to quantum mechanics. Students will strengthen their knowledge of special relativity and explore aspects of the quantum theory of wave/particle duality and the probabilistic interpretation. Students will learn the Schr\u00f6dinger\u2019s equation, its solutions for simple potentials, and properties of the one-electron atom. Students will also study applications of quantum principles to atomic, molecular and nuclear structures.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 3710",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2212",
+          "PHYS 2212L"
+        ]
+      },
+      "title": "Modern Physics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135823",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 3710",
+      "credits": "1",
+      "description": "This course, complements the material in Modern Physics. Students will gather data in x-ray diffraction, photoelectric effect and beta decay. They will also estimate the e/m ratio and study the spectra of hydrogen, helium and mercury.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 3720L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Physics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135827",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is a study of the principles of thermal equilibrium, physical statistics, irreversible processes, and the approach to equilibrium. Students will learn how to apply the statistical nature of thermodynamics using Boltzmann, Bose-Einstein, and Fermi-Dirac statistics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PHYS 4230",
+      "notes": [],
+      "prereqs": "PHYS 3710",
+      "title": "Thermal Physics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136616",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 4424",
+      "credits": "2",
+      "description": "This course examines teachers, students, content, and interactions that lead students to develop conceptual understandings of science. Science teacher candidates design and implement instructional activities informed by understanding of science learning, then assess student learning. The co-requisite for this course is a 60 hour field experience as introduction to the adolescent learner, the equity imperative and science education reform.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4414",
+      "notes": [
+        "admission to Teacher Education Program"
+      ],
+      "prereqs": "EDUC 2130",
+      "title": "Methods of Teaching Secondary Science I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136634",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 4426",
+      "credits": "3",
+      "description": "Teacher candidates will develop pedagogical content knowledge through the design and implementation of inquiry and project-based science lessons appropriate to secondary learners. Candidates will use available student data and research-based literature and theory to help guide their lesson planning. Candidates will critically reflect upon their teaching practice using videos, journals, and discussions. This course is restricted to participants in the secondary science education program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4416",
+      "notes": [],
+      "prereqs": "SCED 4414",
+      "title": "Methods of Teaching Secondary Science II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137060",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 4414",
+      "credits": "1",
+      "description": "This course is a one credit-hour, school-based field experience in a secondary science classroom. The specific schedule will be determined collaboratively between the collaborating mentor teacher, the teacher candidate, and the KSU supervisor. Candidates must have a satisfactory field experience to continue on to student teaching. Proof of professional liability insurance and a criminal background check are required prior to receiving a school placement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4424",
+      "notes": [
+        "Admission to the Teacher Preparation program",
+        "obtain pre-service certificate"
+      ],
+      "prereqs": null,
+      "title": "Teaching Secondary Science- Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137061",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 4416",
+      "credits": "1",
+      "description": "This course is a one credit-hour, school-based field experience in a secondary science classroom. The specific schedule will be determined collaboratively between the collaborating mentor teacher, the teacher candidate, and the KSU supervisor. Candidates must have a satisfactory field experience to continue on to student teaching. Proof of professional liability insurance and a criminal background check are required prior to receiving a school placement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4426",
+      "notes": [],
+      "prereqs": "SCED 4424",
+      "title": "Teaching Secondary Science- Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136617",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "EDUC 4610",
+          "INED 3300"
+        ]
+      },
+      "credits": "3",
+      "description": "Teacher candidates develop pedagogical content knowledge through the design and implementation of inquiry and project-based science lessons appropriate to secondary learners. Candidates use available student data and research-based literature and theory to help guide their lesson planning. Candidates critically reflect upon their teaching practice using videos, journals, and discussions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4650",
+      "notes": [
+        "Admission to Yearlong Clinical Experience",
+        "Pre-Service Certificate"
+      ],
+      "prereqs": "SCED 4416",
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137229",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 4650",
+      "credits": "1",
+      "description": "This seminar supports and assesses candidate development in secondary science education during the first semester of the yearlong clinical experience. Candidates reflect on the development of their competencies, skills, and dispositions, and support for teacher performance assessments is provided. Seminar discussions challenge candidates to examine and integrate current issues, values, and practices in the secondary (6-12) science classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4651",
+      "notes": [],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136635",
+      "catalogYear": "2026-2027",
+      "coreqs": "INED 4431",
+      "credits": "8",
+      "description": "Teacher candidates develop pedagogical content knowledge through the design and implementation of inquiry and project-based science lessons appropriate to secondary learners. Candidates use available student data and research-based literature and theory to help guide their lesson planning. Candidates critically reflect upon their teaching practice using videos, journals, and discussions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4660",
+      "notes": [
+        "eligibility to take GACE"
+      ],
+      "prereqs": "SCED 4650",
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137228",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 4660",
+      "credits": "1",
+      "description": "This seminar supports and assesses candidate development in secondary science education during the clinical experience. Candidates reflect on the development of their competencies, skills, and dispositions, and support for teacher performance assessments is provided. The seminar discussions challenge candidates to examine and integrate current issues, values, and practices in the secondary (6-12) science classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 4661",
+      "notes": [],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience II Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135414",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "An introduction to basic earth science concepts and methodology (including geology, meteorology, and oceanography) will be covered. Special emphasis will be placed on dynamic Earth processes (plate tectonics, earthquakes, volcanism, climate, etc.) and their effects on the structure and composition of the landforms, oceans, atmosphere, and organisms. The lab component includes hands-on evaluation of a collection of Igneous, Metamorphic and Sedimentary rocks, topographic map analyses, spectral imaging and remote sensing, and modeling weather related phenomena.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCI 3360",
+      "notes": [
+        "A grade of C or better in any two 1000-level or 2000-level science courses"
+      ],
+      "prereqs": null,
+      "title": "Earth Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135631",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a foundational, calculus-based introduction to statistics and probability. The following conceptual themes will be developed through the process of statistical investigation: exploratory data analysis (univariate and bivariate), fundamentals of experiment design and sampling, planning and conducting a study, exploring random phenomenon using probability and simulation, and the fundamentals of statistical inference. Technology is integrated into each theme, and the statistical software package used will be chosen by the instructor.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 2332",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Probability and Data Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135466",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students use descriptive statistics and visual displays to describe biological and medical data. They perform and analyze results of statistical analyses which may include confidence intervals, correlation, linear regression, odds/risk ratios, and hypothesis testing (Chi-square for independence, 2 group and paired sample t-tests). Analyses are performed using the statistical software R.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 3125",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "BIOL 1107",
+          "BIOL 1108",
+          "CHEM 1212"
+        ]
+      },
+      "title": "Biostatistics"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "bsed-secondary-education",
+    "name": "BSEd Secondary Education"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

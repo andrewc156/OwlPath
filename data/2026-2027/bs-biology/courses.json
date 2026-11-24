@@ -1,0 +1,1102 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134396",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. The course is an introduction to cell and molecular biology as well as molecular and population genetics. Students who successfully complete the class should be able to describe the fundamental biology of the cell, including cellular anatomy and cellular metabolic processes in both plants and animals. Students will also use molecular genetics to describe the basis for heredity and how this is expressed in populations as well as how it informs evolutionary principles.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1107",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135694",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1107",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1107. Students will learn how to use scientific equipment to explore the cell and molecular biology in plant and animals as well as the biochemistry of life. Students will learn about experimental design and how to generate and interpret scientific data.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1107L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134397",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Lecture part of a sequence designed for science majors. Students will explore the evolution and diversity of life in this course. Students will have additional focus on organismal anatomy and physiology as well as learning basic principles of ecology.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135939",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 1108",
+      "credits": "1",
+      "description": "Laboratory exercises supplement the lecture material of BIOL 1108. Students will examine phylogenetics, organismal diversity, ecological principles, and physiology through a combination of lab observations and hypothesis-testing experiments. Students are also expected to perform a fetal pig dissection in order to explore vertebrate anatomy. Application of the methods of experimental design, data analysis, and data presentation will be a major component of this course.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BIOL 1108L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Biology II Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134403",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents fundamental principles and applications in genetics. Students learn how traits are inherited and to use this information in predicting and analyzing genetic outcomes. Students study nucleic acid structure, learn how DNA replicates and how genes are expressed. Mutation at the gene and chromosomal levels will be surveyed, and their effect on gene structure and function examined. Finally, students will explore various genetic methods, including pedigrees, mapping, and molecular techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3300",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Genetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135946",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3300",
+      "credits": "1",
+      "description": "This course is designed to reinforce principles and applications of transmission genetics, cytogenetics, and molecular genetics. Students will learn to use problem-solving, data analysis and quantitative methods to explore genetics. Exercises in molecular biology will expose students to methods of recombinant DNA technology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3300L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Genetics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134404",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines the biological basis of common, clinical disease states. Pathophysiology is treated as a disruption of normal homeostatic mechanisms that progresses beyond the normal compensatory capabilities of the human body.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 3317",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              {
+                "external": "BIOL 2252"
+              },
+              {
+                "external": "BIOL 2252L"
+              }
+            ]
+          },
+          "BIOL 4431"
+        ]
+      },
+      "title": "Pathophysiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134405",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the principles of medical genetics and the application of these principles to human genetic disorders. Topics include inborn errors of metabolism, cytogenetic anomalies, neural tube defects, and application of molecular genetics to the diagnosis of specific disorders. Genetic counseling procedures, prenatal options and the ethical dilemmas generated as a result of these options will also be discussed.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 3327",
+      "notes": [
+        "consent of the instructor"
+      ],
+      "prereqs": "BIOL 3300",
+      "title": "Medical Genetics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135747",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is an investigation of structural and functional relationships in animal tissues. Students will learn to identify functional groups of tissues and relate them to organ functionality. In laboratory studies, students will practice the microscopic analysis of cells, tissues and organs to understand their structural organization from normal animal specimens.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 3338K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Histology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134406",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of prokaryotes, unicellular eukaryotes and viruses. Students will learn about the nature of microorganisms and the techniques used to study microbes. Students will explore the morphology, metabolism, growth, and genetics of various microbes.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 3340",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Microbiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136441",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3340",
+      "credits": "1",
+      "description": "This course emphasizes basic microbiology methods. Students will learn to culture, identify and quantify microorganisms. Students will also explore applications of microbiology, including food and environmental microbiology",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 3340L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Microbiology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134407",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn about the relationships among living organisms and their environments at the individual, population, community and ecosystem level. Students will learn how and why traits evolve over time and how to evaluate scientific information.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3370",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          {
+            "or": [
+              "STAT 1401",
+              "STAT 3125",
+              "IET 2227",
+              "PSYC 3000"
+            ]
+          }
+        ]
+      },
+      "title": "Ecology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135695",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 3370",
+      "credits": "1",
+      "description": "In laboratory and field activities students will utilize inquiry-based activities that emphasize environmental sampling procedures and statistical analysis of data to explore the role of variability and uncertainty in scientific decision-making as related to ecological processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3370L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Ecology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135751",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students will explore the major concepts in behavioral biology. Students will relate neurophysiology to ethology and ecology, and will include a look at the behavior of social organisms. In the laboratory, students will use a quantitative approach to test hypotheses while observing the behavior of animals.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 3375K",
+      "notes": [
+        "A comparable research methods course may substitute for the BIOL 1107/1108 sequence"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 1107",
+          "BIOL 1107L",
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Behavioral Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134414",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Modern cell biology is a unifying subject that describes the structure and function of cells in genetic, biochemical, biophysical, developmental and pathophysiological contexts. Students will learn a contemporary view of cell structure and function, including the relationship between membranes, organelles, transporters, and signaling components during the life of a cell, with an emphasis on eukaryotic systems.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 3410",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 3300",
+          "BIOL 3300L"
+        ]
+      },
+      "title": "Cell Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135791",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the biology of parasites of major medical/veterinary importance. Students will learn how parasites are transmitted to their host(s) and the pathologies that are generated from host-parasite interactions. Students will also examine the epidemiology of parasitic infection, as well as the methods for suppressing parasites in host populations.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4115",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L"
+        ]
+      },
+      "title": "Parasitology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135754",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students will explore a survey of representative vertebrates and related chordates emphasizing phylogeny and anatomical adaptations. Students will investigate evolutionary trends in the context of large-scale environmental changes that have occurred over geologic time. Using a comparative, systems-based approach, students will explore the relationships between structure and function. In the lab, students will learn to dissect selected vertebrate organisms and study anatomical adaptations among these representative models to recognize the relationships between form and function.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4350K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Comparative Vertebrate Anatomy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135942",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Students will explore the fundamental questions of developmental biology, focusing on both classical experiments and modern molecular and genetic techniques. Students will investigate how differential gene expression and cell-cell communication generate new tissue types, specify the body axes, form the nervous system, and determine sex. Students will explore the role of development in human health and disease. In the laboratory, students will conduct experiments to test hypotheses about the mechanisms of cellular differentiation and morphogenesis.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4390K",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 3300",
+          "BIOL 3300L",
+          "BIOL 3410"
+        ]
+      },
+      "title": "Developmental Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134411",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Students will learn selected topics of current interest announced during registration.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "BIOL 4399",
+      "notes": [
+        "90 credit hours",
+        "permission of the instructor"
+      ],
+      "prereqs": "BIOL 3410",
+      "title": "Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135758",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to introduce biology majors to the fundamentals of mammalian physiology, with the human as the model organism. This course emphasizes the normal functioning of the human body, homeostatic mechanisms, and the relationship between form and function; however, disease states will be described at various times to illustrate how normal functions become disrupted.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4431",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 1212",
+          "CHEM 1212L"
+        ]
+      },
+      "title": "Human Physiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136464",
+      "catalogYear": "2026-2027",
+      "coreqs": "BIOL 4431",
+      "credits": "1",
+      "description": "In this laboratory students will learn how to measure physiological variables across systems using human and non-human models. Students will explore the principles of homeostasis across systems complementing the lecture by gathering and communicating the analysis of appropriate data from a number of experimental systems.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4431L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Human Physiology Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135698",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to the principles and mechanisms of toxicology as applied to toxicants encountered in the environment. Students will learn how toxins are absorbed, distributed, stored, and eliminated across a range of organisms. Students will also explore the transport of environmental contaminants and the characteristics of specific classes of toxicants as they relate to testing and regulation.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4440",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "BIOL 1108",
+          "BIOL 1108L",
+          "CHEM 3361"
+        ]
+      },
+      "title": "Toxicology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135945",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course will explore the disease process of, the immune response to, and the prevention and treatment of the medically important Monera, Viruses, Fungi and some microscopic Protista with emphasis on emerging infections, including a laboratory experience that focuses on enhancing laboratory and investigative skills.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4460K",
+      "notes": [],
+      "prereqs": "BIOL 3340",
+      "title": "Medical Microbiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134416",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore current concepts of the immune system. Emphasis will be placed on the induction of the immune response, on the mechanism(s) of those responses, and on the mechanism(s) by which the immune system protects against disease. The development and the role of each of the components involved in the immune response as well as immunological applications will be discussed.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4465",
+      "notes": [
+        "Recommended - BIOL 3340"
+      ],
+      "prereqs": {
+        "and": [
+          "BIOL 3300",
+          "BIOL 3300L"
+        ]
+      },
+      "title": "Immunology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134417",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore current concepts associated with the field of virology. The structure and genetic composition of viruses as well as strategies for replication and expression of viral genetic material will be explored. Mechanisms of viral pathogenesis will be presented. In addition, current methods for viral diagnostics, prevention of viral infection and treatment of infected individuals will be presented within the context of viruses of historical significance as well as newly emergent viruses of current medical concern. Novel infectious agents such as satellites, viroids and prions will also be discussed.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4475",
+      "notes": [
+        "Recommended - BIOL 3340"
+      ],
+      "prereqs": "BIOL 3300",
+      "title": "Virology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134418",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will enable the student to think more critically about some of the difficult moral problems which arise in the practice of science and from our contemporary understanding of living systems and biotechnology. Readings and discussion will focus on issues of personal decision making and public policy regarding both biomedical and environmental issues.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4486",
+      "notes": [
+        "Also requires a minimum of 9 additional hours of 3000-4000 level Biology or Biochemistry, or consent of instructor"
+      ],
+      "prereqs": "BIOL 3300",
+      "title": "Bioethics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135795",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover the underlying biochemical, molecular and cellular events involved in carcinogenesis, tumor growth, and metastasis. This will include signaling pathways, proteins and regulatory networks involved in cell growth, cell death and tissue organization. Students will also be introduced to modern biochemical and molecular techniques used to dissect the molecular mechanisms controlling cancer development as well as a knowledge of the latest breakthroughs in cancer therapeutics.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "BIOL 4550",
+      "notes": [],
+      "prereqs": "BIOL 3410",
+      "title": "Cancer Biology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          },
+          {
+            "external": "MATH 2202"
+          }
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134445",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1212.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          "CHEM 1211L"
+        ]
+      },
+      "title": "Principles of Chemistry Laboratory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134447",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to statistics; the use of spreadsheets; principles of gravimetric and volumetric analysis; concepts of chemical equilibria as applied to acid-base, precipitation and complex ion reactions; electrochemistry and potentiometry; ultraviolet-visible spectroscopy; and an introduction to modern chromatographic separations.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 2800",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          {
+            "or": [
+              "MATH 1113",
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Quantitative Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134449",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An exploration of the process and practice of chemical research that leads to publication. An introduction to resources and methods for searching the chemical literature.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CHEM 3000",
+      "notes": [],
+      "prereqs": "CHEM 3361",
+      "title": "Chemical Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134450",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "CHEM 3501"
+          },
+          "CHEM 3500"
+        ]
+      },
+      "credits": "3",
+      "description": "This course covers fundamentals of pharmacology such as drug discovery/development and pharmacokinetics, with emphasis given to the role of chemistry and biochemistry in these areas. A main focus of the course will be how drugs function at the molecular level. Examples will be chosen from drugs that target enzymes, receptors, and DNA.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "CHEM 3010",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          "CHEM 3362"
+        ]
+      },
+      "title": "Medicinal Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134451",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course describes the major techniques used in the analysis of pharmaceuticals following the United States Pharmacopoeia. The topics include quality control, physical and chemical properties of drug molecules and various chemical analysis including classical methods, spectroscopy, and chromatography.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "CHEM 3030",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 2800",
+          "CHEM 3000"
+        ]
+      },
+      "title": "Pharmaceutical Analytical Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134456",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 1212",
+      "credits": "3",
+      "description": "This course is the first of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134457",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1212L",
+          "CHEM 3361"
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental method used in organic chemistry for separation of mixture, purification of compounds, and reactions illustrating single functional group transformation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CHEM 3361L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Modern Organic Chemistry Lab I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134458",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the second of a two-semester sequence in modern organic chemistry. The course includes a study of structure, properties, synthesis, and reactions of basic organic compounds using modern structural and mechanical theories.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "CHEM 3362",
+      "notes": [],
+      "prereqs": "CHEM 3361",
+      "title": "Modern Organic Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134459",
+      "catalogYear": "2026-2027",
+      "coreqs": "CHEM 3362",
+      "credits": "1",
+      "description": "Laboratory experiments designed to introduce the students to modern experimental methods used in organic chemistry synthesis, characterization of compounds, and multi-step synthesis of useful target-compounds from readily available starting material.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "CHEM 3362L",
+      "notes": [],
+      "prereqs": "CHEM 3361L",
+      "title": "Modern Organic Chemistry Lab II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134463",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a one-semester, lecture-only biochemistry course. Concepts covered include the structure and function of biomolecules, membranes, enzyme kinetics, metabolism and bioenergetics, as well as biological information flow. Intended for chemistry, biology, or biotechnology majors.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "CHEM 3500",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 3361",
+          "CHEM 3361L"
+        ]
+      },
+      "title": "Biochemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134466",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "CHEM 3500",
+          {
+            "external": "CHEM 3501"
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Introduction to biochemistry laboratory techniques including centrifugation, chromatography, electrophoresis, spectroscopy, and exploration of bimolecular structure using computer graphics.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "CHEM 3501L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CHEM 3361",
+          "CHEM 3361L"
+        ]
+      },
+      "title": "Biochemistry I Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135464",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an intermediate survey course of computer-based statistical software applications in the analysis and interpretation of data. Topics include developing a proficiency in coding in multiple languages through quantitative applications. Software packages include the most in-demand statistical languages and packages in the marketplace. (e.g. Python, SAS, R)",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DATA 3010",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 1401",
+          {
+            "external": "ECON 2300"
+          },
+          "STAT 3125",
+          {
+            "external": "STAT 2332"
+          },
+          {
+            "external": "MATH 3332"
+          }
+        ]
+      },
+      "title": "Computer Applications of Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136187",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers descriptive statistics, probability, sampling distributions and the central limit theorem, continuous and discrete distributions used in engineering, and inferences about single samples, including point and interval estimates for means, proportions and variances. Industrial applications rather than theoretical developments are emphasized. Computer based solution techniques are used when appropriate. This is the first of a two-course sequence.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IET 2227",
+      "notes": [],
+      "prereqs": "MATH 1113",
+      "title": "Probability and Statistics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135374",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A broad survey of the major topics in psychology including, but not limited to, research methodology, biological and social factors influencing behavior, development, learning, memory, personality, and abnormal.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PSYC 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to General Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135375",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on career planning and development issues for psychology majors. Using a combination of lecture, readings, and exercises, students will be exposed to information designed to assist in the clarification, selection, and pursuit of a career in psychology or a related field. Topics will include an overview of the undergraduate major in psychology, career options in psychology and related fields, preparation for employment with a bachelor\u2019s degree, preparing for and succeeding in graduate school, and applying for a job or to a graduate school.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PSYC 2210",
+      "notes": [
+        "Declared Psychology major"
+      ],
+      "prereqs": "PSYC 1101",
+      "title": "Careers in Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136715",
+      "catalogYear": "2026-2027",
+      "coreqs": "PSYC 2210",
+      "credits": "3",
+      "description": "In this course, students are introduced to descriptive and inferential statistical techniques for analyzing psychological research. Coverage encompasses selection of appropriate statistics for differing research questions and designs, and the interpretation and reporting of results. Laboratory work is designed to enable students to apply course topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PSYC 3000",
+      "notes": [
+        "Any 1000-level MATH course"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              {
+                "external": "MATH 2202"
+              },
+              "STAT 1401",
+              {
+                "external": "DATA 1501"
+              }
+            ]
+          },
+          "ENGL 1101"
+        ]
+      },
+      "title": "Statistical Applications in Psychological Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136837",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students will develop the skills and mindset of a scientist or mathematician through metacognitive exploration, reflection, and guided inquiry. In addition, students will apply appropriate social methods to build scientific and mathematical collaborations, emulating the modern STEM enterprise. Finally, students will learn to value an inclusive STEM environment and support measures that expand access for all students to STEM.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCM 2000",
+      "notes": [
+        "A declared major within the College of Science",
+        "Mathematics"
+      ],
+      "prereqs": null,
+      "title": "Culture and Success in Science and Mathematics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135058",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a non-calculus based introduction to statistics. Course content includes descriptive statistics, probability theory, confidence intervals, hypothesis testing, and other selected statistical topics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 1401",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Statistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135466",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course students use descriptive statistics and visual displays to describe biological and medical data. They perform and analyze results of statistical analyses which may include confidence intervals, correlation, linear regression, odds/risk ratios, and hypothesis testing (Chi-square for independence, 2 group and paired sample t-tests). Analyses are performed using the statistical software R.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STAT 3125",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "BIOL 1107",
+          "BIOL 1108",
+          "CHEM 1212"
+        ]
+      },
+      "title": "Biostatistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135467",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students continue to build their foundation in statistical methods in this course. They will conduct non-parametric methods (Wilcoxon Signed Rank, Rank Sum, and Kruskal Wallis tests), ANOVA and multiple regression. These concepts are taught with heavy emphasis on statistical coding software and real-world datasets.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "STAT 3130",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DATA 3010",
+          {
+            "or": [
+              {
+                "external": "STAT 3120"
+              },
+              "STAT 3125",
+              {
+                "external": "STAT 2332"
+              },
+              "PSYC 3000"
+            ]
+          }
+        ]
+      },
+      "title": "Statistical Methods II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135549",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces students to statistical concepts used to design clinical trials, or randomized studies of humans. Students will be able to design, conduct, and analyze clinical trials in the format required by the Food and Drug Administration. The topics include endpoint definition, sources of bias, randomization schemes, types of blindness, phases of clinical studies (I-IV), hypothesis formation, sample size determination, patient recruitment, adverse events, and protocol development.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "STAT 4025",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STAT 3125",
+          {
+            "external": "STAT 3120"
+          }
+        ]
+      },
+      "title": "Clinical Trial Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135529",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Real-world human-subject data will be used as students conduct official clinical research in a secure computer lab. Students will complete required institutionally approved training for research on human subjects and information privacy and security. Using statistical software, students will apply statistical analysis and modeling techniques to answer questions posed by clinicians. Students will document research for reproducibility and potential publication, as well as present results in various forms.",
+      "groups": [
+        "conc-human-health"
+      ],
+      "id": "STAT 4125",
+      "notes": [],
+      "prereqs": "STAT 3130",
+      "title": "Analysis of Human Studies"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-human-health"
+        ],
+        "label": "Human Health"
+      }
+    ],
+    "id": "bs-biology",
+    "name": "BS Biology"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

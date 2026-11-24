@@ -1,0 +1,214 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this graduate level course is to explore major trends and issues in literacy education that are relevant in the P-5 setting. Specifically, this course will provide an overview of such trends as they are conceptualized in contemporary literacy education research literature and realized in practice. Hence, current trends are identified in the research base and analyzed in class readings, projects and discussions. Students will engage in interactive discussions, conduct a review of research, and prepare related learning resources to meet the needs of learners and to demonstrate the reciprocal relationships among national, state, and local trends, issues, and reform in elementary literacy education.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 7704",
+      "notes": [
+        "Admission to M.Ed. in Elementary",
+        "Early Childhood Education"
+      ],
+      "prereqs": null,
+      "title": "Trends and Issues in Literacy Education for Elementary & Early Childhood"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133843",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to fulfill partial requirements for the Georgia PSC Reading Endorsement. It applies and uses the principles of research-based reading instructional practices and the integration of the reading components following a systematic problem-solving process to scaffold the reading development of K-2 students. It also addresses having knowledge of effective, research-based instructional methodology to prevent reading difficulties and promote acceleration of reading progress for struggling students.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRD 6714",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Methods & Theories in Early Literacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133796",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares advanced candidates to work under the supervision of faculty to demonstrate their expertise in a focused area of their literacy teaching field through an independent, research-based capstone project. Candidates also provide evidence of their efforts to transform their practice based on the specific strategies and knowledge bases developed and/or deepened in the program. This course includes 20-hour field experience in an approved educational setting in 3rd - 5th grade children. If a candidate is not currently teaching in a 3rd - 5th grade classroom, it is the candidate\u2019s responsibility to find an approved educational setting to complete the field experience in this course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRD 7000",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECE 7704",
+          "EDRD 7720"
+        ]
+      },
+      "title": "Capstone in Language and Literacy Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132449",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced study of a broad array of individually administered diagnostic reading assessments, including informal inventories, standardized norm-referenced and curriculum based tests. Candidates use assessment results to plan a reading intervention that is specifically designed to meet the diverse learning needs of a P-12 student. A 30 (clock) hour supervised clinical experience is required that will be conducted on campus in the Center for Literacy and Learning. This clinical constitutes part of the residency requirement. Note: A field component is required. All candidates must submit evidence of passing a criminal background check.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "EDRD 7717",
+      "notes": [
+        "Evidence of passing a background check required"
+      ],
+      "prereqs": null,
+      "title": "Reading Assessment and Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132448",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced study of reading instruction in content area classrooms that prepares teachers as reading interventionists. This course explores technical reading and writing, reading strategies, use of supplemental texts, and flexible grouping. Candidates create an individualized intervention plan based upon the results of diagnostic testing. A 30 (clock) hour supervised clinical experience is required that will be conducted on campus in the Center for Literacy and Learning. This clinical constitutes part of the residency requirement. Note: A field experience is required; therefore, all candidates must provide documentation of passing a criminal background check.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "EDRD 7718",
+      "notes": [
+        "Evidence of passing a criminal background check required"
+      ],
+      "prereqs": null,
+      "title": "Content Area Reading and Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132450",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides candidates with an introduction to Literacy Coaching in middle and secondary schools. Candidates engage in the study of pedagogy and leadership in the areas of collaboration, job-embedded professional development, program assessment and strategy. Candidates will study a pedagogical content and apply new skills in Georgia schools. Note: A field component is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRD 7720",
+      "notes": [
+        "Evidence of passing a criminal background check required"
+      ],
+      "prereqs": {
+        "and": [
+          "EDRD 7717",
+          "EDRD 7718"
+        ]
+      },
+      "title": "Literacy Coaching and Leadership"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133341",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to empower candidates to develop extensive knowledge of all genres of children\u2019s literature. Candidates explore issues related to selection and evaluation of books, instruction, and interpretation of culturally responsive literature for the classroom. They critically examine and explore literacy strategies for genres of culturally responsive literature and differentiated instruction for ESOL students and students with disabilities. Then they use this knowledge to conduct multisensory reading instruction and design their own e-books.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRD 7730",
+      "notes": [
+        "Admission to the M.Ed. in Reading program"
+      ],
+      "prereqs": null,
+      "title": "Culturally Relevant Literature for Children and Young Adults"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133336",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will examine how literacy leaders can use assessment data from large data sets to improve literacy instruction within elementary, middle, and high schools/districts. The course will focus on analyzing summative and formative assessment data from multiple sources and providing recommendations for differentiated instruction for a variety of student populations using research-based literacy strategies. Students will examine current research methodologies and conduct applied research.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDRD 7735",
+      "notes": [],
+      "prereqs": null,
+      "title": "Using Data to Inform Reading Instruction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133834",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, candidates learn about the characteristics of individuals with dyslexia and other learning disabilities across a learner\u2019s lifespan. Candidates learn theory and current issues related to the definition, assessment, eligibility, service delivery, family impact, and transition planning of learners with dyslexia. Upon completion of the course, students will be able to compare characteristics between individuals with and without dyslexia and other learning disabilities as well as identify scientifically-based interventions that are effective for students with dyslexia and other learning disabilities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7611",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Dyslexia and Other Learning Disabilities in the Context of Literacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133833",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops knowledge of assessment and evaluation for learners with dyslexia with an emphasis on analyzing data for educational decision-making within P-12 schooling contexts. The course aims to prepare special education teachers for the administration procedures and practices used in reading and writing assessments, the interrelation of critical factors that impact an educational assessment, and the communication of assessment findings to parents and other professionals. The competencies in this course are derived from the requirements of relevant state and professional standards.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7621",
+      "notes": [],
+      "prereqs": null,
+      "title": "Assessment of Learners with Dyslexia and Other Learning Disabilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7631",
+      "notes": [],
+      "prereqs": null,
+      "title": "Evidence-Based Instruction/Intervention for Learners with Dyslexia and Other Learning Disabilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to technologies available in schools and explores technology integration frameworks grounded in research-based pedagogical strategies to maximize student engagement. Candidates will design exemplary technology-supported learning experiences that foster higher-order thinking, collaboration, authentic/meaningful learning tasks, and achievement of student content and technology standards. Candidates will also learn how to coach other educators toward higher levels of technology implementation. Appropriate for classroom teachers and other educational leaders interested in increasing effective technology-supported instructional practices in their schools.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ITEC 7400",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Teaching, Technology & Student Engagement"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "med-literacy-education",
+    "name": "MEd Literacy Education"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

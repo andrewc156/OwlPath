@@ -2,16 +2,7 @@
 
 ## Warnings needing review
 
-- **MAED 4414**
-  - unrecognized: two of the following three:
-  - ambiguous and/or precedence: Admission to Teacher Education, EDUC 2120, MATH 2203, and two of the following three: STAT 2332, MATH 2390 or MATH 3260
-- **MAED 4424**
-  - empty description
-- **SCED 4660**
-  - missing operator before 'eligibility to take GACE', assumed and
-- **SCI 3360**
-  - unrecognized: any two 1000-level
-  - unrecognized: 2000-level science courses
+None.
 
 ## Notes
 

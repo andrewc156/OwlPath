@@ -1,0 +1,1199 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "ARED 6660",
+      "ECE 6650"
+    ],
+    [
+      "ECE 6660",
+      "EDUC 6650"
+    ],
+    [
+      "EDUC 6660",
+      "ENED 6650"
+    ],
+    [
+      "ENED 6660",
+      "HIED 6650"
+    ],
+    [
+      "HIED 6660",
+      "INED 6650"
+    ],
+    [
+      "INED 6660",
+      "INED 6651"
+    ],
+    [
+      "INED 6661",
+      "MAED 6650"
+    ],
+    [
+      "MAED 6661",
+      "SCED 6650"
+    ],
+    [
+      "SCED 6661",
+      "WLED 6650"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133342",
+      "catalogYear": "2026-2027",
+      "coreqs": "ARED 7705",
+      "credits": "4",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in art education. Under the guidance of a collaborating teacher and university supervisor and working in a diverse environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars and the completion of content pedagogy assessment. Note: Proof of liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ARED 6660",
+      "notes": [
+        "MAT faculty review"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132269",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Historical and contemporary developments in the field of art education are presented, as a means to compose a teaching philosophy relevant to today\u2019s art classrooms. In-depth exploration results in the integration of concepts and issues to create a comprehensive view of the field. Social, psychological, affective and psychomotor components of learning relevant to art education are a primary focus. Multicultural and inclusive content is included. Technological applications include the use of word processing, electronic portfolio development, presentation applications, and Internet research.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ARED 7705",
+      "notes": [
+        "Admission to the MAT program"
+      ],
+      "prereqs": null,
+      "title": "Contemporary Issues in Visual Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133811",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates demonstrate an understanding of child development utilizing research to support instructional planning and teaching young children aged birth through fifth grade. Topics that will be addressed in this course include child development theories, educational/early care environments, play and family engagement. Candidates will utilize the knowledge gained in this course to create high quality learning environments and effective teaching strategies for all learners.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 6620",
+      "notes": [
+        "Admission to Teaching, MAT"
+      ],
+      "prereqs": null,
+      "title": "Child Development and Foundations of Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133810",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the ways that teachers build awareness of students\u2019 home backgrounds to create supportive learning environments and achieve academic and developmental outcomes. The course activities can include: observations of classrooms, interviews, discussing teachers\u2019 practices, reading research, and designing lessons. Key topics may include: applying principles of the Funds of Knowledge, asset-based pedagogies, and analyzing school-based efforts for collaboration with families and communities.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6630",
+      "notes": [
+        "Admission to the Teaching, MAT with a concentration in Elementary Education"
+      ],
+      "prereqs": null,
+      "title": "Classrooms, Families and Communities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133813",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on research, theory, and pedagogy for the teaching of emergent and early literacy skills. Candidates will analyze current trends and developments in reading and writing education. Candidates will also demonstrate knowledge of research in oral language, phonological awareness, the alphabetic principle, writing development and handwriting, early and advanced phonics, fluency, reading comprehension, and vocabulary development and its application in the PK-2 classroom.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6640",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECE 6620",
+          "ECE 7514"
+        ]
+      },
+      "title": "Teaching Literacy in Early Grades PK-2"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133814",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on research, theory, and pedagogy for the teaching in grades 3-5. The course includes methods, theories, and current research on the best practices to support K-5 learners in culturally responsive ways. Note: This course includes a required field experience component.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6641",
+      "notes": [],
+      "prereqs": "ECE 6640",
+      "title": "Teaching Literacy in Upper Grades 3-5"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133815",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 6610",
+      "credits": "3",
+      "description": "Under the guidance of a collaborating teacher and university supervisor, the intern completes a full-time teaching experience at a designated school. The experience requires working in a co-teaching environment with K-5 learners, including students with exceptionalities and with students who are English learners. It includes regularly scheduled professional seminars. Note: Proof of professional liability insurance is required prior to school placement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 6650",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECE 6620",
+          "ECE 7514",
+          "ECE 6630"
+        ]
+      },
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133816",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in elementary education. Under the guidance of a collaborating teacher and university supervisor and working in a K-5 environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars and the completion of a content pedagogy assessment. Note: Proof of liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECE 6660",
+      "notes": [],
+      "prereqs": "ECE 6650",
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133812",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the integration of mathematics concepts, principles and processes into the teaching of mathematics in preschool through second grade. Emphasis is placed on planning and assessment in the problem-solving based classroom.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6670",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ECE 6620",
+          "ECE 7514"
+        ]
+      },
+      "title": "Teaching Math in Elementary PK-2"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133817",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A continuation of ECE 6670, this course consists of the integration of mathematics concepts, principles, and processes into the teaching of mathematics. Mathematics concepts for grades 3-5 are emphasized. The course explores developmentally appropriate practices and culturally relevant and sustaining pedagogies in planning, implementing, and evaluating instruction in the elementary mathematics curriculum.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6680",
+      "notes": [],
+      "prereqs": "ECE 6670",
+      "title": "Teaching Math in Elementary Grades 3-5"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133818",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course focuses on integrating science concepts, principles and processes into the teaching of science in preschool through fifth grade. Emphasis is placed on developing content and pedagogy designing, implementing, and evaluating learning opportunities in science, health, and physical education content. The teacher candidates explore ways to integrate student needs and characteristics, interdisciplinary learning, and age/grade appropriate assessment into instruction.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6690",
+      "notes": [],
+      "prereqs": "ECE 6670",
+      "title": "Teaching Science and Health in Elementary Classrooms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133819",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides advanced study of teaching social studies in early childhood and elementary education. Components and theoretical foundations of early childhood and elementary social studies curriculum are investigated. Concepts, skills, and attitudes associated with elementary school social studies are discussed in conjunction with various teaching methods, models, and materials considered socially just and developmentally appropriate for children. This course integrates the visual and performing arts and considers ways to integrate social studies with all academic subjects.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 6700",
+      "notes": [],
+      "prereqs": "ECE 6641",
+      "title": "Arts Integrated Social Studies in the Elementary Grades"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132336",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Candidates consider curriculum and assessment possibilities in the elementary classroom utilizing backward design, exploring developmentally appropriate digital tools, and applying constructivist theory and practice to positively impact classroom teaching and student learning.",
+      "groups": [
+        "conc-elementary-education"
+      ],
+      "id": "ECE 7514",
+      "notes": [
+        "Admission to the Teaching, MAT with a concentration in Elementary Education"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Technology, Curriculum Design, and Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133843",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to fulfill partial requirements for the Georgia PSC Reading Endorsement. It applies and uses the principles of research-based reading instructional practices and the integration of the reading components following a systematic problem-solving process to scaffold the reading development of K-2 students. It also addresses having knowledge of effective, research-based instructional methodology to prevent reading difficulties and promote acceleration of reading progress for struggling students.",
+      "groups": [
+        "conc-pedagogy-only"
+      ],
+      "id": "EDRD 6714",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Methods & Theories in Early Literacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133046",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the key considerations and research-supported strategies to facilitate effective learning and reading instruction in content area classrooms. This course explores components of the reading process related to content area reading instruction including methods of collaborative grouping. Candidates will plan instruction that support readers before, during, and after they read. Emphasis is placed on supporting the unique reading needs of P-12 learners.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "EDRD 6718",
+      "notes": [
+        "Must be admitted to a KSU BCOE program, certificate or endorsement program and have evidence of passing a criminal background check"
+      ],
+      "prereqs": null,
+      "title": "An Introduction to Content Area Reading and Literacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133488",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an examination and application of foundational and emerging psychological theories and research, which shape educators\u2019 understanding of their students, as well as their instructional decision making. The course examines topics such as child development, motivation, sociocultural identity, cognition, memory, assessment, and classroom management.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 6240",
+      "notes": [
+        "Admission to MAT"
+      ],
+      "prereqs": null,
+      "title": "Psychological Foundations of Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133431",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 6650"
+          },
+          "ECE 6650",
+          "EDUC 6650",
+          "ENED 6650",
+          "HIED 6650",
+          "INED 6650",
+          "INED 6651",
+          "MAED 6650",
+          "SCED 6650",
+          "WLED 6650"
+        ]
+      },
+      "credits": "0",
+      "description": "This course is the beginning to the co-teaching Yearlong Clinical Experience in education. Candidates will attend the entirety of pre-planning at their assigned school before the start of the academic year (the exact timing of which will depend on the placement school\u2019s schedule). Additionally, candidates will also attend the first week of the academic year in order to familiarize themselves with the policies and routines of their placement school and Collaborating Teacher. Proof of professional liability insurance and a pre-service teaching certificate is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 6610",
+      "notes": [
+        "Admission to teacher education",
+        "admission to Yearlong Clinical Experience"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Yearlong Clinical Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133936",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 6610",
+      "credits": "3",
+      "description": "This course is the first semester of an intensive and extensive yearlong clinical experience in teacher education. This course begins the yearlong clinical experience and is designed to prepare prospective P-12 teachers for planning and development of instructional materials and implementation of effective teaching methods, management techniques, and assessment practices. Under the guidance of a collaborating teacher and university supervisor, candidates practice professional competencies and evidence-based instructional practices that impact student achievement. Note: Verification of Liability Insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 6650",
+      "notes": [
+        "GaPSC Pre-Service Certificate",
+        "Admission to Yearlong Clinical Experience"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133937",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is the second semester of an intensive and extensive yearlong clinical experience in teacher education. This course completes the yearlong clinical experience, and is designed to provide teacher candidates the opportunity to increasingly assume instruction over time and responsibility for all classroom instruction. Under the guidance of a collaborating teacher and university supervisor, candidates practice professional competencies and evidence-based instructional practices that impact student achievement. Note: Verification of Liability Insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDUC 6660",
+      "notes": [
+        "GaPSC Pre-Service Certificate"
+      ],
+      "prereqs": "EDUC 6650",
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132495",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENED 6650",
+      "credits": "3",
+      "description": "This course is an examination and application of curriculum, learning theories, teaching strategies, instructional materials, and assessment procedures for teaching secondary school English/Language Arts in the modern classroom. Special focus includes the implications of literacy practices; the importance of discussion-based classrooms; the constructivist teaching of grammar; and the grounding of course content in candidates\u2019 field experiences. Note: This course may be cross-leveled with ENED 4414.",
+      "groups": [
+        "conc-english"
+      ],
+      "id": "ENED 6414",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDUC 6240",
+          "ENGL 7731",
+          "ENGL 7735"
+        ]
+      },
+      "title": "Teaching Secondary English I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133104",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENED 6660",
+      "credits": "3",
+      "description": "Extending upon knowledge and skills developed in ENED 6414, candidates examine and apply curriculum, learning theories, teaching strategies, instructional materials, and assessment procedures for teaching secondary school English/Language Arts in the modern classroom. Special focus includes the implications of literacy practices, the importance of discussion-based classrooms, the constructivist teaching of grammar, and the grounding of course content in candidates\u2019 field experiences. Note: This course may be cross-leveled with ENED 4416.",
+      "groups": [
+        "conc-english"
+      ],
+      "id": "ENED 6416",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENED 6414",
+          "ENED 6650"
+        ]
+      },
+      "title": "Teaching Secondary English II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133105",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "EDUC 6610",
+          "ENED 6414"
+        ]
+      },
+      "credits": "4",
+      "description": "This course is the first semester of an intensive and extensive co-teaching yearlong clinical experience in English education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars. Note: Proof of liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 6650",
+      "notes": [
+        "Pre-service certificate and admission to Yearlong Clinical Experience required"
+      ],
+      "prereqs": {
+        "and": [
+          "EDUC 6240",
+          "ENGL 7731",
+          "ENGL 7735"
+        ]
+      },
+      "title": "Yearlong Clinical Experience in ELA I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133106",
+      "catalogYear": "2026-2027",
+      "coreqs": "ENED 6416",
+      "credits": "5",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in English education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars. Note: Proof of liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENED 6660",
+      "notes": [
+        "Eligibility to take GACE English tests required",
+        "Educator Ethics Assessment 370 (required by the Georgia Professional Standards Commission)"
+      ],
+      "prereqs": "ENED 6650",
+      "title": "Yearlong Clinical Experience in ELA II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132504",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines issues and themes in the teaching of literature in middle and high schools. Topics examined include how meaning is derived from texts; the role of critical theory; competing philosophies for which texts should be read and why; how and to what purpose we read; how readers are positioned; standards, policies, and censorship; and approaches for teaching texts, literary analysis, and argument anchored in student relevance, democratic culture, and human potential.",
+      "groups": [
+        "conc-english"
+      ],
+      "id": "ENGL 7701",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Pedagogy for Teaching Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132508",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the range of texts (conventional, multimodal, nonfiction, film, etc.) possible in the English Language Arts classroom, with attention to and analysis of genre conventions, embedded literacy practices, and student reception and production.",
+      "groups": [
+        "conc-english"
+      ],
+      "id": "ENGL 7721",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Texts and Contexts in English Language Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132509",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of language as a key component of English/Language Arts. Topics include understanding English\u2019s historical and ongoing development, learning English as a second language, using discourse appropriately in a variety of contexts, dialect variations, relationships between oral and written language use, and issues involved in teaching language (e.g., teaching grammar in context).",
+      "groups": [
+        "conc-english"
+      ],
+      "id": "ENGL 7731",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Language Studies in English"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132510",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines issues and themes in composition studies, particularly those influencing writing instruction in middle and high schools. Students will examine the state of writing instruction in a standards-based and high-stakes school climate; study and practice writing as a process; write for a variety of purposes, audiences, and genres; create constructive approaches for planning, instruction, and assessment; and practice grammar instruction in the context of writing. The course includes a 25-hr practicum experience.",
+      "groups": [
+        "conc-english"
+      ],
+      "id": "ENGL 7735",
+      "notes": [
+        "Admission to graduate study in education"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Composition Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133906",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 6610",
+      "credits": "3",
+      "description": "This course is the first semester of an intensive and extensive co-teaching yearlong clinical experience in history education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIED 6650",
+      "notes": [],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133907",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in history education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars. Note: This course may be cross-leveled with course HIED 4660.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "HIED 6660",
+      "notes": [],
+      "prereqs": "HIED 6650",
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133489",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          {
+            "external": "ARED 6650"
+          },
+          "ECE 6650",
+          "EDUC 6650",
+          "ENED 6650",
+          "HIED 6650",
+          "INED 6650",
+          "MAED 6650",
+          "SCED 6650",
+          "WLED 6650"
+        ]
+      },
+      "credits": "3",
+      "description": "This course prepares candidates to work collaboratively with families and school personnel to have a positive impact on the educational, social and behavioral development of all students, including those with a full range of disabilities, in society. It focuses on knowledge of legislative mandates for serving exceptional students, characteristics of exceptionality, best practices in facilitating teaching and learning, and accountability through assessment of outcomes. Note: This course fulfills Georgia HB 671 requirements and includes a ten-hour field experience in an assigned school. Candidates must hold a preservice certificate and provide verification of professional liability insurance before field experience placement. Beginning July 1, 2019, a grade of \u201cB\u201d or higher is required for graduation and certification per Georgia PSC 505-2-.24 Special Georgia Requirements. This course may be cross-leveled with INED 3300.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 6400",
+      "notes": [
+        "Admission to Teaching, M.A.T"
+      ],
+      "prereqs": null,
+      "title": "Effectively Supporting Students with Exceptionalities in Inclusive Settings"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133490",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces Master of Teaching candidates to today\u2019s multilingual English learner population, education policies that impact these students and how cultural resources can be leveraged to meet their academic needs. This course focuses on developing effective instruction, assessment, and literacy development for English learners and other multilingual learners in middle grade classrooms. Specifically, candidates will a.) examine the academic, linguistic, and social needs of multilingual learners, b.) explore the differences between teaching reading and writing to English learners and native English speakers; and c.) develop skills necessary for differentiation and scaffolding language and content for English learners at a variety of language proficiency levels.",
+      "groups": [
+        "conc-pedagogy-only",
+        "conc-english",
+        "conc-secondary-science-chemistry-or-physics-or-biology"
+      ],
+      "id": "INED 6431",
+      "notes": [
+        "Acceptance into the KSU MAT program"
+      ],
+      "prereqs": null,
+      "title": "Foundations for Teaching Multilingual Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133183",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 6610",
+      "credits": "3",
+      "description": "This first semester of a TESOL yearlong clinical field experience requires 15 hours per week in classrooms with ELs. This course provides the initial field experience which continues into the second semester as a full-time field experience. Candidates will also visit other field settings to meet all four grade level clusters required for P-12 certification.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 6650",
+      "notes": [
+        "Admission to MAT TESOL graduate program"
+      ],
+      "prereqs": null,
+      "title": "TESOL Yearlong Clinical Practice I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132950",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 6610",
+      "credits": "3",
+      "description": "This course begins the yearlong clinical experience and is designed to prepare prospective special education teachers for planning and development of instructional materials and implementation of effective teaching methods, management techniques, and assessment practices. This course requires approximately 225 hours in the field over the course of 15 weeks. Verification of Liability Insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 6651",
+      "notes": [
+        "Admitted into a graduate program"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133184",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is designed to provide prospective TESOL education teachers the opportunity to increasingly assume instruction over time and responsibility for all class or caseload instruction for a minimum period of 10 consecutive school days. In this clinical experience, candidates spend 35-40 hours per week in the classroom across the semester. Employed candidates may conduct the internship in their classrooms if they have English Learners as students. Otherwise, the internship site will be organized through the Center for Education Placements and Partnerships (CEPP). Note: Proof of liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 6660",
+      "notes": [],
+      "prereqs": "INED 6650",
+      "title": "TESOL Yearlong Clinical Practice II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133348",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is designed to provide prospective special education teachers the opportunity to increasingly assume instruction over time and responsibility for all class or caseload instruction for a minimum period of 10 consecutive school days. In this clinical experience, candidates spend 35-40 hours per week in the classroom across the semester. an issued GaPSC Pre-service Certificate or other teacher certification license is required for this course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 6661",
+      "notes": [],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133834",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, candidates learn about the characteristics of individuals with dyslexia and other learning disabilities across a learner\u2019s lifespan. Candidates learn theory and current issues related to the definition, assessment, eligibility, service delivery, family impact, and transition planning of learners with dyslexia. Upon completion of the course, students will be able to compare characteristics between individuals with and without dyslexia and other learning disabilities as well as identify scientifically-based interventions that are effective for students with dyslexia and other learning disabilities.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "INED 7611",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Dyslexia and Other Learning Disabilities in the Context of Literacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132596",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on developing skills in implementing proactive strategies for positive behavior management. Basic application of school-wide positive behavior support strategies (e.g., RtI), functional behavioral assessment, creating a positive classroom environment, using classroom positive behavior support strategies, and cultural influences on student behavior provide the course\u2019s framework. Candidates will apply research-based principles and strategies through an application project while working in the field with a student with challenging behaviors. Field experience required.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "INED 7620",
+      "notes": [
+        "Admission into a KSU graduate program"
+      ],
+      "prereqs": null,
+      "title": "Positive Behavior Intervention Support"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133833",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops knowledge of assessment and evaluation for learners with dyslexia with an emphasis on analyzing data for educational decision-making within P-12 schooling contexts. The course aims to prepare special education teachers for the administration procedures and practices used in reading and writing assessments, the interrelation of critical factors that impact an educational assessment, and the communication of assessment findings to parents and other professionals. The competencies in this course are derived from the requirements of relevant state and professional standards.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "INED 7621",
+      "notes": [],
+      "prereqs": null,
+      "title": "Assessment of Learners with Dyslexia and Other Learning Disabilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to provide knowledge about evidence-based instruction and intervention methods related to literacy instruction for students with reading disabilities (e.g., dyslexia, language-based learning disabilities). Emphasis is on applying an understanding of the English language and reading development to promote positive academic outcomes for students with dyslexia. Candidates use knowledge of relevant reading standards, the learner and learner context, and the reading instructional cycle to prepare for the delivery of evidence-based instructional practices for students with dyslexia and other learning disabilities.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "INED 7631",
+      "notes": [],
+      "prereqs": null,
+      "title": "Evidence-Based Instruction/Intervention for Learners with Dyslexia and Other Learning Disabilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133515",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to current best practices in curriculum and instruction. This course is designed as an introduction to the systematic process of planning for effective classroom instruction and assessment for students with disabilities. Special emphasis is placed on planning for effective design through evidence-based models such as: Understanding by Design (UbD), differentiated instruction, and Universal Design for Learning (UDL). In addition, candidates will learn about standards-based instruction, the instructional cycle, and culturally relevant and sustaining strategies for individualized learning and instruction. Note: All candidates must earn a \u201cB\u201d or higher in this course for certification as stated in the Georgia PSC 505-2-.24 Special Georgia Requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7650",
+      "notes": [
+        "Admission to a KSU Graduate program"
+      ],
+      "prereqs": null,
+      "title": "Curriculum and Instruction for Students with Disabilities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on understanding laws at the national and state levels, policies and procedures, as well as current legal trends and issues that impact students with disabilities. Emphasis is placed on eligibility procedures including providing services and developing and implementing the Individualized Education Program. In addition, information regarding disability categories, characteristics and how they manifest in the classroom, as well as approaching disability from a culturally responsive asset-based perspective will be addressed. Note: All candidates must earn a \u201cB\u201d or higher in this course for certification as stated in the Georgia PSC 505-2-.24 Special Georgia Requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "INED 7710",
+      "notes": [
+        "Admission to KSU graduate program"
+      ],
+      "prereqs": null,
+      "title": "Foundations in Special Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132603",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to engage students in an investigation of critical pedagogy, theory, and philosophy as these concepts relate to their emerging roles as ESOL teachers and teacher leaders. Students will examine historical and current language policy, theoretical concepts related to language and power, the impact of theory on pedagogical decisions of ESOL teachers, develop an educational philosophy for the ESOL classroom, and hone their knowledge concerning advocacy for multilingual students.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7750",
+      "notes": [],
+      "prereqs": null,
+      "title": "Language, Power, and Pedagogy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133181",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course prepares candidates with the historical, theoretical and research-based knowledge to evaluate English language programs, and develop curricula for culturally/linguistically varied P-12 students. Candidates critically examine curricula for promotion of critical thinking, language development, content area learning, and learner engagement. Candidates develop an interdisciplinary, learner-centered, culturally relevant unit that applies Universal Design, Sheltered Instruction, project-based learning/assessment, arts-based learning, and 21st Century technologies to enhance the engagement and academic achievement of English learners.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7763",
+      "notes": [],
+      "prereqs": null,
+      "title": "Curriculum Development for Multicultural and Multilingual Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133182",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the development of the collaborative skills, knowledge and attitudes necessary to be successful with partners in the creation of and advocacy for inclusive classroom communities. Taking an asset-based view of families and communities, this course aims to bridge theory to practice in the development of the pedagogical acumen necessary to support successful, outcomes for all learners in multicultural communities.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7779",
+      "notes": [],
+      "prereqs": null,
+      "title": "Collaborative Practices with Families, Schools, and Communities"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132606",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to assist candidates in developing an understanding of various collaboration models including culturally responsive collaborative, communicative, and consultative skills with key stakeholders. Emphasis is placed on developing effective partnerships with families of students with disabilities as well as support strategies for facilitating effective transitions throughout the P-12 continuum. Field experience required.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "INED 7780",
+      "notes": [
+        "Admission to graduate program"
+      ],
+      "prereqs": null,
+      "title": "Collaborative Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132607",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course develops a knowledge base about culture, its influence on learning and teaching, and its role in intercultural classroom settings. Prospective ESOL teachers examine major theories related to educating immigrant students and a multilingual student body; critically analyze education policy and practice at the institutional level; analyze the sociopolitical context of teaching; and develop new strategies and tools to prepare candidates for advocacy, community engagement, and collaboration within the school context.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7781",
+      "notes": [],
+      "prereqs": null,
+      "title": "Cultural Issues for ESOL Teachers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132608",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the major theories of first and second language acquisition, principles of linguistic systems (e.g. phonology, phonetics, and morphology), and examines these topics drawing on a student-centered approach. Specifically, course content will explore these topics as they relate to classroom-based language learning and implications for schools. In addition, the course material is framed within the current conversations related to literacy, assessment, WIDA English language development standards, and dual-served students.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7782",
+      "notes": [],
+      "prereqs": null,
+      "title": "Applied Linguistics for ESOL Teachers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132609",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The purpose of this course is to acquaint candidates with instructional strategies and materials that will help them be effective ESOL teachers. Candidates will work closely with the instructor to conduct directed activities in their own classrooms. If candidates are not teaching in classrooms that include English language learners, the Bagwell College\u2019s Office of Field Experiences will find suitable placements. Methods of lesson planning and implementation of sheltered instruction using the SIOP Method, in conjunction with the concepts of Understanding by Design, and WIDA language assessment, will be studied and implemented in this course. Candidates will spend approximately 40 hours in the field.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7783",
+      "notes": [],
+      "prereqs": null,
+      "title": "Methods and Materials for Teaching ESOL"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133180",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on research-based instruction and assessment of literacy for English learners in P-12 classrooms. Candidates develop knowledge and skills to effectively organize and implement instruction at all language development levels. Emphasis is on understanding similarities and differences between literacy development of English learners and native English speakers. Candidates are introduced to issues of collaboration with grade-level teachers and literacy personnel and the socio-cultural and socio-political dimensions of teaching academic literacy in urban and rural environments.",
+      "groups": [
+        "conc-teaching-english-to-speakers-of-other-languages-tesol"
+      ],
+      "id": "INED 7787",
+      "notes": [],
+      "prereqs": null,
+      "title": "Content Area Reading and Writing for English Learners"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133094",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Teacher candidates learn to use technologies to promote student achievement of required content and technology standards through higher-level thinking, collaboration, problem-solving, and relevant, meaningful learning in their classrooms. Students will also explore digital equity, acceptable use, Internet safety, online learning, and other issues/trends relevant to technology in schools.",
+      "groups": [
+        "conc-pedagogy-only",
+        "conc-secondary-science-chemistry-or-physics-or-biology"
+      ],
+      "id": "ITEC 6200",
+      "notes": [],
+      "prereqs": null,
+      "title": "Teaching and Learning in the Digital Age"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132656",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces candidates to technologies available in schools and explores technology integration frameworks grounded in research-based pedagogical strategies to maximize student engagement. Candidates will design exemplary technology-supported learning experiences that foster higher-order thinking, collaboration, authentic/meaningful learning tasks, and achievement of student content and technology standards. Candidates will also learn how to coach other educators toward higher levels of technology implementation. Appropriate for classroom teachers and other educational leaders interested in increasing effective technology-supported instructional practices in their schools.",
+      "groups": [
+        "conc-special-education"
+      ],
+      "id": "ITEC 7400",
+      "notes": [
+        "Candidates must be admitted to a KSU BCOE program, certificate",
+        "endorsement program",
+        "approved by the ITEC department to take this course"
+      ],
+      "prereqs": null,
+      "title": "Teaching, Technology & Student Engagement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133567",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 6650",
+      "credits": "3",
+      "description": "This is the first of three courses in a professional sequence toward becoming a well-prepared beginning secondary mathematics teacher. Topics include introductory ideas about mathematics education, including current mathematics standards and policy documents, cognitive learning theories, and teaching frameworks. Students will explore how secondary students think about and learn mathematics, examine how to select and modify tasks, use appropriate manipulatives and technology, differentiate instruction, and apply their learning in an accompanying field experience.",
+      "groups": [
+        "conc-secondary-mathematics"
+      ],
+      "id": "MAED 6414",
+      "notes": [],
+      "prereqs": null,
+      "title": "Pedagogical Content Knowledge for Mathematics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132680",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 6660",
+      "credits": "3",
+      "description": "This is the second of three courses in a professional sequence toward becoming a well-prepared beginning secondary mathematics teacher. Topics include social learning theories, equity issues, and specific teaching strategies. Students will explore how to support discourse in the secondary mathematics classroom, develop questioning techniques, examine how to plan for learning sequences, and apply their learning in an accompanying field experience.",
+      "groups": [
+        "conc-secondary-mathematics"
+      ],
+      "id": "MAED 6416",
+      "notes": [],
+      "prereqs": "MAED 6414",
+      "title": "Pedagogical Content Knowledge for Mathematics II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133568",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An examination of the social, historical, and institutional contexts of mathematics and mathematics education, specifically how these contexts affect mathematics teaching and learning and produce inequitable learning experiences and outcomes for students. Examine strategies to ensure access and advancement; develop positive mathematical identities; draw on students\u2019 mathematical, cultural, and linguistic resources; and advocate for each and every student.",
+      "groups": [
+        "conc-secondary-mathematics"
+      ],
+      "id": "MAED 6418",
+      "notes": [],
+      "prereqs": "MAED 6660",
+      "title": "Social Foundations of Mathematics Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138431",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students\u2019 understanding of secondary mathematics will be deepened and broadened through the study of algebraic structures, analytic geometry, and trigonometry, including conic sections, complex numbers, polynomials and functions. This course is designed so that students can revisit key ideas in high school mathematics, bringing with them the skills and understandings of college course work in mathematics, deepening and broadening their understanding, and connecting more advanced ideas to the topics they will teach in high school.",
+      "groups": [
+        "conc-secondary-mathematics"
+      ],
+      "id": "MAED 6495",
+      "notes": [],
+      "prereqs": null,
+      "title": "Advanced Perspectives on School Mathematics Part II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133091",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "MAED 6414",
+          "EDUC 6610"
+        ]
+      },
+      "credits": "3",
+      "description": "Under the guidance of a collaborating teacher and university supervisor, the intern will complete a teaching experience at a designated school. The experience requires working in a co-teaching environment with learners, including students with special needs and with students who are English learners. This experience includes regularly scheduled professional seminars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 6650",
+      "notes": [
+        "Admission to Yearlong Clinical Experience"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133100",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 6661",
+      "credits": "5",
+      "description": "Under the guidance of a collaborating teacher and university supervisor, the intern completes a full-time teaching experience at a designated school. The experience requires working in a co-teaching environment with variety of learners reflective of the school and community population, including students with special needs and with students who are English learners. This experience includes regularly scheduled professional seminars and the completion of a content pedagogy assessment. Note: Proof of professional liability insurance is required prior to school placement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 6660",
+      "notes": [],
+      "prereqs": "MAED 6650",
+      "title": "Yearlong Clinical Experience II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133848",
+      "catalogYear": "2026-2027",
+      "coreqs": "MAED 6660",
+      "credits": "1",
+      "description": "This seminar supports and assesses candidate development in secondary mathematics education during the clinical experience. Candidate reflect on the development of their competencies, skills, and dispositions, and support for teacher performance assessments is provided. Seminar discussions will challenge candidates to examine and integrate current issues, values, and practices in the secondary mathematics (6-12) classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MAED 6661",
+      "notes": [],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience II Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132695",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is for prospective and in-service 6-12 mathematics teachers with a strong undergraduate training in mathematics. It will connect advanced mathematics to the topics they will teach, while deepening understanding of fundamental ideas involving number theory, algebra, functions, and trigonometry, including historical perspectives on each. Students will engage in mathematical practices such as problem solving to develop conceptual understanding, reasoning abstractly and quantitatively, modeling with mathematics, and demonstrating the interconnectedness of mathematical ideas.",
+      "groups": [
+        "conc-secondary-mathematics"
+      ],
+      "id": "MAED 7495",
+      "notes": [
+        "Admission to the MAT, M.Ed., or Ed.S. program"
+      ],
+      "prereqs": null,
+      "title": "Advanced Perspectives on School Mathematics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133580",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Three-Dimensional Science is the current framework for teaching science in the United States. In this course, students will both learn science topics from a three-dimensional perspective, and the underlying framework that supports this perspective. Students will also demonstrate an understanding of safety procedures in an inquiry laboratory setting.",
+      "groups": [
+        "conc-secondary-science-chemistry-or-physics-or-biology"
+      ],
+      "id": "SCED 6412",
+      "notes": [
+        "Admission to the MAT program"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Teaching Three-Dimensional Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133578",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 6650",
+      "credits": "2",
+      "description": "This is the first of three science methods courses in a professional sequence toward becoming a well-prepared beginning secondary science teacher. Topics include an introduction to the profession, developing classroom culture, and planning and implementing inquiry based lessons.",
+      "groups": [
+        "conc-secondary-science-chemistry-or-physics-or-biology"
+      ],
+      "id": "SCED 6414",
+      "notes": [],
+      "prereqs": "SCED 6412",
+      "title": "Introduction to Teaching for Secondary Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132842",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 6660",
+      "credits": "2",
+      "description": "This is the second of three science methods courses in a professional sequence toward becoming a well-prepared beginning secondary science teacher. Topics include differentiating instruction for all learners, using research and theory to guide instructional decisions, and the implementation and assessment of inquiry based lessons in line with current science education reform standards. Note: Proof of professional liability insurance is required prior to receiving school placements in the co-requisite practicum.",
+      "groups": [
+        "conc-secondary-science-chemistry-or-physics-or-biology"
+      ],
+      "id": "SCED 6416",
+      "notes": [],
+      "prereqs": "SCED 6414",
+      "title": "Methods of Teaching Secondary Science II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133579",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is the third of three science methods courses in a professional sequence toward becoming a well-prepared beginning secondary science teacher. Topics include utilizing more advanced methods of science instruction, engaging students using Three-Dimensional Story Lines, and using the history of science to teach the nature of science. Professional growth as a beginning teacher will also be discussed.",
+      "groups": [
+        "conc-secondary-science-chemistry-or-physics-or-biology"
+      ],
+      "id": "SCED 6418",
+      "notes": [],
+      "prereqs": "SCED 6416",
+      "title": "Advanced Methods of Teaching Secondary Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133576",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "SCED 6414",
+          "EDUC 6610"
+        ]
+      },
+      "credits": "3",
+      "description": "This course is the first semester of a yearlong clinical experience in Science Education. Under the guidance of a collaborating teacher and university supervisor and working in an environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 6650",
+      "notes": [
+        "issued pre-service certificate",
+        "admission to year-long clinical experience"
+      ],
+      "prereqs": "SCED 6412",
+      "title": "Yearlong Clinical Experience I (Science)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133577",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 6414",
+      "credits": "5",
+      "description": "This course is the second semester of a yearlong clinical experience in Science Education. Under the guidance of a collaborating teacher and university supervisor and working in an environment that includes students with exceptionalities and English learners, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 6660",
+      "notes": [],
+      "prereqs": "SCED 6650",
+      "title": "Yearlong Clinical Experience II (Science)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133849",
+      "catalogYear": "2026-2027",
+      "coreqs": "SCED 6660",
+      "credits": "1",
+      "description": "This seminar supports and assesses candidate development in secondary mathematics education during the clinical experience. Candidate reflect on the development of their competencies, skills, and dispositions, and support for teacher performance assessments is provided. Seminar discussions will challenge candidates to examine and integrate current issues, values, and practices in the secondary (6-12) science classroom.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SCED 6661",
+      "notes": [],
+      "prereqs": null,
+      "title": "Clinical Experience Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138360",
+      "catalogYear": "2026-2027",
+      "coreqs": "EDUC 6610",
+      "credits": "3",
+      "description": "This course is the first semester of an intensive and extensive co-teaching yearlong clinical experience in world language education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars. Note: Verification of liability insurance is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 6650",
+      "notes": [
+        "GaPSC Pre-Service Certificate",
+        "Admission to Yearlong Clinical Experience"
+      ],
+      "prereqs": null,
+      "title": "Yearlong Clinical Experience I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=138361",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "6",
+      "description": "This course is the second semester of an intensive and extensive co-teaching yearlong clinical experience in world language education. Under the guidance of a collaborating teacher and university supervisor and working in a classroom environment that includes students with exceptionalities, candidates practice professional competencies that impact student achievement. This experience includes regularly scheduled professional seminars. Note: Verification of liability insurance and a current GaPSC Pre-Service Certificate issued through enrollment in a KSU MAT program.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "WLED 6660",
+      "notes": [],
+      "prereqs": "WLED 6650",
+      "title": "Yearlong Clinical Experience II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-pedagogy-only"
+        ],
+        "label": "Pedagogy-Only"
+      },
+      {
+        "groups": [
+          "conc-elementary-education"
+        ],
+        "label": "Elementary Education"
+      },
+      {
+        "groups": [
+          "conc-english"
+        ],
+        "label": "English"
+      },
+      {
+        "groups": [
+          "conc-secondary-mathematics"
+        ],
+        "label": "Secondary Mathematics"
+      },
+      {
+        "groups": [
+          "conc-secondary-science-chemistry-or-physics-or-biology"
+        ],
+        "label": "Secondary Science- Chemistry or Physics or Biology"
+      },
+      {
+        "groups": [
+          "conc-special-education"
+        ],
+        "label": "Special Education"
+      },
+      {
+        "groups": [
+          "conc-teaching-english-to-speakers-of-other-languages-tesol"
+        ],
+        "label": "Teaching English to Speakers of Other Languages (TESOL)"
+      }
+    ],
+    "id": "mat-teaching",
+    "name": "MAT Teaching"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

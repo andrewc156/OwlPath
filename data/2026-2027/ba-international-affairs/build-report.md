@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **POLS 4100**
-  - unrecognized: department chair
+None.
 
 ## Left out on purpose
 

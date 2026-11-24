@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **ENED 9400**
-  - unrecognized: 6 hours graduate research courses
+None.
 
 ## Left out on purpose
 

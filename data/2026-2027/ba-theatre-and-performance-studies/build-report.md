@@ -2,18 +2,7 @@
 
 ## Warnings needing review
 
-- **TPS 3000**
-  - missing operator before 'TPS 1600', assumed and
-- **TPS 3403**
-  - missing operator before 'TPS 1500', assumed and
-- **TPS 3500**
-  - missing operator before 'TPS 3403', assumed and
-- **TPS 3600**
-  - missing operator before 'TPS 1600', assumed and
-- **TPS 4313**
-  - missing operator before 'TPS 3403', assumed and
-- **TPS 4323**
-  - missing operator before 'TPS 3403', assumed and
+None.
 
 ## Notes
 

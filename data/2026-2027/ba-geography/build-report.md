@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **GEOG 4100**
-  - unrecognized: Any upper-division geography course
+None.
 
 ## Left out on purpose
 

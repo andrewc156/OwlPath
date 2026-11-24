@@ -1,0 +1,230 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133633",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Competence in policy analysis is required of anyone who intends to pursue a career in international policy management. The course addresses itself to two questions - \u201cWhat is policy analysis?\u201d and \u201cHow do professionals do policy analysis?\u201d The first part of the course introduces students to the process of policy analysis. It explores the purpose of policy analysis and the work performed by analysts. The second part of the course addresses the various ways in which policy analytic work is structured and presented. Students examine the various \u201cforms\u201d policy analyses take (e.g., policy history, decision memorandum). Students also explore some best practices for communicating analyses effectively.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7710",
+      "notes": [
+        "Admission to the MSIPM program",
+        "permission of the MSIPM Director"
+      ],
+      "prereqs": null,
+      "title": "Policy Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132625",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an advanced survey of the study of international relations. This course explores the influence that states, international organizations, non-governmental organizations, and other non-state actors have in shaping contemporary international political issues. The topics examined in this course include war and peace, global trade, economic development, international terrorism, human rights, poverty, disease, and the environment. Particular attention will be devoted to the emerging field of governance: the study of government performance in the areas of democracy, integrity, and sound economic policies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7720",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "World Politics and Governance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132626",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the theory and method of comparative politics though the study of Western and non-Western political institutions and societies. The course provides students with an appreciation of the ways comparative political analysis enhances understanding of many contemporary policy-related issues throughout the world. It provides students with a familiarity of the comparative method of inquiry and basic skills in conducting comparative research, analysis.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7725",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "Comparative Policy and Politics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132627",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the theory and practice of international conflict management which form an essential part of the methodology needed for international policy managers. The course will explore the causes of conflict, conflict management, conflict resolutions, and conflict transformation. Students will reflect upon various real-world examples facing policymakers and practitioners, and apply the tools and methods of conflict management to case studies and simulations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7730",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "International Conflict Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132628",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "With its focuses on policy applications related to developing countries, this course examines alternative theories and definitions of development as expressed in the major international institutions (governmental and non-governmental) concerned with the transfer of resources, with emphasis on the interaction of political and economic factors. It examines how institutions, politics and governance promote economic development from a comparative perspective. Students will also explore concepts of gender and their practical application to international development programs and policies; culture\u2019s impact on human interaction; strategies that address basic human needs, promote human rights, and strengthen civil society; and the trade-offs among social, political and environmental aspects of sustainable development.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7735",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "International Development: Policy and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132629",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will encompass both theoretical and practical aspects of negotiations. Students will explore some of the major approaches scholars and practitioners apply to the subject. Central to this will be an exploration of contending frameworks for analyzing bargaining and negotiation. Students will consider the unique aspects of negotiations as found across a variety of environments, both public (e.g., diplomacy) and private (e.g., business negotiation). Particular attention will be placed on cross-cultural communication and the negotiation challenges to which this gives rise. A major objective of this course is to develop the skills necessary to make individuals efficient and effective negotiators.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7740",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "Strategic Negotiation and Decision-Making"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132630",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the political influences which shape the global economic system. Particular attention will be devoted to the international organizations and global trade accords which shape the behavior of states and multinational corporations. In addition to exploring the mechanics and politics of the global economy, this course also examines the social impacts of the global exchange of goods and financial assets. The concept of globalization will represent an organizing theme for this course, and contentious debates surrounding this phenomenon will be explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7745",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "International Political Economy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132631",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the politics of global trade. Students will develop the analytical skills necessary to think broadly and critically about the conduct of cross-border trade. After examining some of the major analytical frameworks that inform our understanding of global trade relations, students will focus on several substantive trade-related topics. Topics to be examined include: the role of the World Trade Organization, the rise of regional trade, and the reciprocal and interactive relationship between international trade, exchange rates and global finance. A major objective of this course is to develop application-oriented policy-relevant skills which students can employ across a range of professional environments.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7750",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "Global Trade: Policy and Practice"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132632",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Political risk analysis has been used to identify key political trends and developments in emerging and transitional economies, and to assess their impacts on flow of trade or capital. This course will investigate sources of political risk to foreign direct and other investments in a world characterized by increasing economic and financial interdependence, consider ways political risk can be analyzed, evaluated, and managed, and provide students hands-on experiences in assessing political stability and managing risk. Students will gain a basic understanding of different concepts associated with political risk analysis and the various approaches used by multi-nationals to the determination of political risk.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7755",
+      "notes": [
+        "Admission to the MSIPM program"
+      ],
+      "prereqs": null,
+      "title": "Political Risk Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132633",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the development of domestic and international regulatory climates and ensuing regulations made by governments and international institutions such as the European Union. Regulation covers a broad range of topics including labor, trade, production, health and safety, and environmental issues and has a significant impact on private sector interface with foreign governments and institutions. This course will also examine the impact of bilateral and multilateral treaties, such as the North American Free Trade Agreement (NAFTA), on the regulatory arena.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7756",
+      "notes": [
+        "Admission to the MSIPM program sequenced course requirement within cohort degree program"
+      ],
+      "prereqs": null,
+      "title": "Global Regulatory Policy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133425",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Transnational civil society describes the arena of non-profit, non-governmental interaction across state boundaries. Transnational civil society organizations (CSOs) provide essential services, such as health care and disaster relief, and facilitate advocacy by lobbying governments and international institutions. This course examines CSOs\u2019 contributions and raises critical questions about their representivity, transparency, accountability, and independence. Note: This course may be cross-leveled with INCM 8340.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7757",
+      "notes": [],
+      "prereqs": "IPM 7720",
+      "title": "Transnational Civil Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133055",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course incorporates material acquired in first-year courses and applies it to a real world context through fieldwork, a study trip, or other equivalent means. Students are expected to link theory with practice through a series of public and private sector site visits. Students will explore how scholars and practitioners address the dilemmas of managing policy within an ever-changing global environment.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7760",
+      "notes": [
+        "Completion of first-year fall",
+        "spring semesters"
+      ],
+      "prereqs": null,
+      "title": "Global Experience"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133634",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the system of law governing relations between nation-states, and the roles and functions of international organizations. It explores conventional international law in the areas of diplomacy, territorial questions, and armed conflicts, and may address developing regimes in trade, terrorism, environmental issues, and human rights. In addition, the course examines the structures and functions of some contemporary international organizations and evaluates their performance and contribution.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IPM 7770",
+      "notes": [
+        "Admission to the MSIPM program",
+        "permission of the MSIPM Director"
+      ],
+      "prereqs": null,
+      "title": "International Law & Organization"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      }
+    ],
+    "id": "ms-international-policy-management",
+    "name": "MS International Policy Management"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

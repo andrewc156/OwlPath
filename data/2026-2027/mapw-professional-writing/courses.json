@@ -1,0 +1,821 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132810",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the three MAPW concentrations, focusing on key issues, theories, stylistic conventions, and research methods specific to each field and those that cut across all three concentrations. Students engage in reading and discussion, practice with rhetorical grammar and style, critique and application of research methodologies, and writing and revision strategies essential to professional writers\u2019 work. Students build foundations for completing program requirements and course work within their concentration and support areas.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6000",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Intro to Professional Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132811",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of writers describing their ways of writing and/or how others\u2019 writing has influenced writers. This course studies the works listed as influential and then examines the application of such influence in later texts. Readings will vary, but will include literature, drama, poetry, essays, journalism and scientific and professional texts Note: This course is repeatable.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6100",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Readings for Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133875",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This graduate-level course explores the theory and practice of authoring game narratives. Through multiple written projects, students acquire a skill set encompassing the creation, edition, and design of interactive narratives across diverse platforms, including video games, board games, and hypertext fiction. Furthermore, students explore the interplay between narrative theory, game studies, and creative authorship through critical readings, research, and discussion. Students emerge with a portfolio that equips them to pursue writing opportunities within the industry.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6125",
+      "notes": [],
+      "prereqs": null,
+      "title": "Game Narrative Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133879",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Focusing on the rhetorical processes involved in engaging with large language models (LLMs), the course offers students advanced instruction writing inputs to elicit useful, relevant, accurate, and ethical outputs from AI. The course will involve substantial AI-infused writing to prepare students for careers as professional writers in corporate, nonprofit, and governmental organizations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6141",
+      "notes": [],
+      "prereqs": null,
+      "title": "Prompt Engineering for Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132812",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines rhetoric\u2019s central concepts and theories through a historical survey of primary texts. Students study such concepts as the rhetorical situation, argumentation, invention, arrangement, style, delivery, and memory as they are presented in works ranging from the ancient writings of the pre-Socratics, Plato, and Aristotle to contemporary and emerging theories.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6150",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Rhetorical Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133874",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the theory and practice of narrative and visual composition in digital environments, including text, image, audio, and video. Students compose rhetorically dynamic and engaging digital stories that explore a variety of types, techniques, audiences, and purposes (for personal and professional contexts). The course explores critical and creative approaches to narrative and visual design. This course serves MAPW students in all three concentrations: Creative, Applied and Rhetoric and Composition. Note: This course may be cross-leveled with WRIT 3151.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6151",
+      "notes": [],
+      "prereqs": null,
+      "title": "Digital Storytelling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133878",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This topics course explores the intersection between writing practice and artificial intelligence. Through a genre-based approach, students develop strategies for deploying AI ethically and professionally for creative, applied, and research writing projects.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6153",
+      "notes": [],
+      "prereqs": null,
+      "title": "Writing with AI"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133854",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines one or more rhetorics relevant to current society and instructs students on how to employ language effectively in specific professional settings. Rhetorics explored may include political, legal, and civic rhetoric; cultural rhetorics; or the rhetoric of science, health, and medicine. Students apply their knowledge of rhetorical concepts to the production of professional writing genres, culminating in a major applied writing project related to their disciplinary contexts and professional goals.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6200",
+      "notes": [
+        "Admission to the MAPW program"
+      ],
+      "prereqs": null,
+      "title": "Contemporary Rhetoric and its Applications"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132813",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An intensive workshop focused on creating technical documents for clients, consumers, and the general public. Topics addressed will include the history, function, theory, and ethical practice of technical writing. Students will become more capable and informed technical writers and potential leaders in their organizations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6240",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the MAPW program director"
+      ],
+      "prereqs": null,
+      "title": "Technical Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132967",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on types of proposals and grant applications written by businesses and nonprofit organizations. Students research, plan, draft, and finalize a business sales proposal, a letter proposal to a foundation, and a grant application to a government agency. These service-learning assignments involve students in working with actual organizations and/or clients and in collaborating with classmates. Students will learn about the careers available to professional writers who specialize in proposal and grant writing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6255",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the MAPW director"
+      ],
+      "prereqs": null,
+      "title": "Grant & Proposal Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132814",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A foundational course introducing students to organizational writing and the planning that informs it. Students will learn to think creatively and systematically about the writing needs of businesses, nonprofit organizations, and government agencies. They will analyze the missions, constituencies, structures, and cultures of existing organizations to identify the most appropriate rhetorical strategies and products for organizations in their real-world contexts. Next, students will draft a plan for an organization, which may include a mission statement, key messages, organizational branding, a list of essential (print, electronic, audio, and video) documents, a yearly calendar of events and document releases, a budget and production plan, and a distribution plan for key documents. In addition, students will study how professional writers face situations that require ethical analysis and action to guard an organization\u2019s mission and reputation. The course will also inform students about careers available to organizational writers and the technologies they use in performing their work.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6260",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Managing Writing in Organizations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132815",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and practice of business and technical editing in texts found in corporate, engineering, government, high-tech, and scientific settings, including reports, proposals, manuals, company newsletters, and Internet web pages. Editorial responsibilities for document development, copy editing, and proofreading will be explored. Note: Practice of electronic editing and hard copy editing will be stressed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6280",
+      "notes": [
+        "Admission to MAPW program",
+        "permission of graduate director"
+      ],
+      "prereqs": null,
+      "title": "Business and Technical Editing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132816",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of the concept of writing as process and its implications for professional writers in various creative, workplace, and instructional situations. This course will focus on such questions as What happens when we write? Can the processes by which individuals shape written texts be observed, documented, and theorized? How does social context affect writing processes? How does understanding writing as process affect the teaching of writing?",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6300",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Understanding Writing as Process"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132817",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the principles and processes of news reporting and feature writing techniques, including editorial writing, promotional communications, and informative newspaper and magazine article writing. Small group critique, one-to-one conferences and peer revision techniques may be used. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6410",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Feature Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132818",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and practice of professional and academic (trade, professional, educational, and scholarly) editing for magazines, journals, books, and textbooks. Editorial divisions of labor and approaches and responsibilities of editors, along with the introduction to text development, acquisition, and line editing. Note: This course may be cross-leveled with WRIT 3111",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6440",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Professional and Academic Editing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133887",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a workshop course focused on writing for the young adult market. This course will examine the present-day young adult arena in the genres of fiction, playwriting, poetry, and screen and television writing. Students will also investigate the history of the young adult market in all these genres, examine the limitations and possibilities each genre has in the present-day YA market, and explore how each genre directly and indirectly influences each other. The skills learned will assist students as they pursue all creative writing genres for any and all audiences.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6451",
+      "notes": [],
+      "prereqs": null,
+      "title": "Writing for Young Adults"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132819",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This introductory course surveys the basic principles and building blocks of creative writing. With an emphasis on workshopping, it addresses both theory and practice as it explores at least three of the five major genres of creative writing: creative nonfiction writing, fiction writing, playwriting, poetry writing and screen & TV writing. As such, it is especially valuable to students whose concentration is not creative writing but who have selected it as their support area or to students who wish to gain experience in a new genre.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6455",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "The Genres of Creative Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132820",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course in the writing of fiction introduces the fundamental theories and techniques. Various fiction genres may be studied. Small group critique, one-to-one conferences and peer revision techniques may be used. Note: This course may be cross-leveled with WRIT 3120.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6460",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Fiction Writing I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132821",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course in the writing of poetry introduces the fundamental theories and techniques. Traditional, free verse, and other forms may be studied. Small group critique, one-to-one conferences and peer revision techniques may be used. Note: This course may be cross-leveled with WRIT 3100.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6470",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Poetry Writing I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132822",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course in the writing of plays introduces fundamental theories and techniques. Students will study and practice writing monologues and dialogues, presenting stage directions and producing one-act and multi-act plays. Small group critique, one-to-one conferences and peer revision techniques may be used. Note: This course may be cross-leveled with WRIT 3110",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6480",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Playwriting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132824",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course investigates issues relevant to writing instruction today and explores how theories of composition inform teaching practices. Students study approaches to teaching and assessing writing as they design curriculum for college writing classes or other professional contexts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6500",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Composition Theory and Pedagogy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132825",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course in the writing of creative or literary nonfiction introduces the fundamental theories and techniques. Memoir, biography, travel writing, lyric essay, nonfictional novel and other genres may be studied. Small group critique, one-to-one conferences and peer revision techniques may be used. Note: This course may be cross-leveled with WRIT 3130.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6520",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Creative Nonfiction Writing I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132826",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Principles and practice in computer-aided publishing. Examine word processing and desktop publishing capabilities, develop graphic and text design experience, explore the skills needed to produce professional quality newsletters, brochures, reports, pamphlets and books.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6550",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Document Design and Desktop Publishing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132972",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course, students explore social media technologies and study their application in professional practice. Through our examination of and engagement with social media, including social media strategy, blogs and microblogs, social networking, media sharing sites, etc., we investigate theories of social and digital media and consider how these technologies disrupt social norms, impact our process of identity construction, reshape communication, and foster cultural change. Students gain experience planning and creating content for social media.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6570",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Writing for Social Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132827",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An overview of approaches for studying and shaping literacy in a range of social contexts, including workplaces, instructional settings, and the literary marketplace. This course will explore competing definitions of literacy and their implications for professional writers with students learning to use research about literacy to enhance their work as professional writers. Note: This course may be cross-leveled with WRIT 3650.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6650",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Introduction to Literacy Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133880",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to corpus-driven (computer-assisted) tools for analyzing and incorporating different registers of language use in professional writing. The course may include such topics as teaching and running workshops for linguistically diverse writers in industry and academia; using different dialects and languages in creative writing genres; and working with multilingual audiences in international workplaces. Note: This course may be cross-leveled with LING 3030.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6730",
+      "notes": [],
+      "prereqs": null,
+      "title": "Digital Tools for Diverse Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132828",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the unprecedented growth of English on a global scale. Course will examine the current state of English in the world and the cultural/social factors that have given rise to a number of different varieties of English in the world. These varieties, attitudes towards them, and implications for various written media of communication will be explored. Note: This course may be cross-leveled with LING 3760",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6760",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "World Englishes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132829",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores career opportunities and considerations facing the complex and varied careers of professional writers. Students in all three concentrations will prepare for their lives as writers through activities focused on topics such as preparing for the job market, overcoming writer\u2019s block, creating a productive writing environment, establishing a productive project portfolio and developing publication/editorial agendas as well as exploring career opportunities and issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6800",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Careers in Professional Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133738",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the 21st-century publishing industry with an aim to serve students interested in careers as writers, editors, or other positions in the industry. Readings and discussion topics focus on the process of manuscript development and publication, including analysis of the marketplace and trends; roles of editors, literary agents, and publishing house staff; book proposals and acquisitions; legal and financial concerns; sales, marketing, and production; ethics and gatekeepers; and networking and career opportunities.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6810",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Publishing in the 21st Century"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132830",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Study and practice in writing and development of Web content for multiple, diverse audiences in commercial areas, such as e-business, public relations, and advertising; in public service organizations, including nonprofit and government organizations; and in the area of personal and career development. Students will create their own professional e-portfolio and develop Web content for a commercial, nonprofit, or public organization. Course topics will include site architecture, visual rhetoric, audience analysis, collaboration with graphic designers to create Web pages, ethics, accessibility for disabled users, corporate intranet design, and international considerations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6850",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Web Content Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132831",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of written communication across cultures. Course will use a case studies format to explore principles for effectively communicating in English across different cultures. Topics will include document design for international audiences, rhetorically sensitive strategies, issues of translation and contrastive rhetoric. Students will be able to study a specific type of written communication in a specific region or regions of the world according to their interests and need.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 6860",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Intercultural Communication in Context"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132832",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course in fiction writing builds on the theories and techniques learned at the introductory level with an emphasis on manuscript production and professionalization. Students may build portfolios, engage in long-term writing projects, prepare cover-letters and/or develop other sustainable projects. Small-group critique, one-on-one conferences and peer revision techniques may be used in addition to workshop. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7460",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": "PRWR 6460",
+      "title": "Fiction Writing II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132833",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course in poetry writing builds on the theories and techniques learned at the introductory level with an emphasis on manuscript production and professionalization. Students may build portfolios, engage in long-term writing projects, prepare cover-letters and/or develop other sustainable projects. Small-group critique, one-on-one conferences and peer revision techniques may be used in addition to workshop. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7470",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": "PRWR 6470",
+      "title": "Poetry Writing II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132834",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course builds on the theories and techniques learned at the introductory level of playwriting with an emphasis on manuscript and performance production. Students may build portfolios, engage in long-term projects, and develop professional connections and sustained projects. Small-group critique, one-on-one conferences and peer revision techniques may be used. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7480",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": "PRWR 6480",
+      "title": "Playwriting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132836",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This seminar and workshop course builds on the theories and techniques learned at the introductory level of creative nonfiction writing with an emphasis on manuscript production and professionalization. Students may build portfolios, engage in long-term writing projects, prepare cover letters and synopses, and develop other sustainable projects. Small-group critique, one-on-one conferences and peer revision techniques may be used. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7520",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": "PRWR 6520",
+      "title": "Creative Nonfiction Writing II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133047",
+      "catalogYear": "2026-2027",
+      "coreqs": "PRWR 6500",
+      "credits": "3",
+      "description": "This course is designed to support and develop the pedagogy of MAPW teaching assistants (TAs). Building upon the theories and concepts introduced in earlier curriculum, this course affords TAs a forum in which to explore the application of a range of methods in the field of rhetoric and composition in preparation for and while shadowing faculty mentors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7800",
+      "notes": [
+        "Admission to the MAPW TA program"
+      ],
+      "prereqs": "PRWR 6150",
+      "title": "Teaching Assistant Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133685",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building upon theories and concepts discussed in earlier curriculum, this course affords teaching assistants an intensive, advanced investigation of selected topics derived from their experience as they serve as Teachers of Record for the first time. The course will address composition pedagogy, course design, professionalism, classroom management, assessment practices, and more. TAs will meet weekly with the Teaching Assistant Coordinator to discuss weekly class sessions, share best practices, ask questions, and participate in discussions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7801",
+      "notes": [],
+      "prereqs": "PRWR 7800",
+      "title": "Teaching Assistant Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133590",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to research methods commonly used by writers and engages students in practices of researched composing for a variety of contexts. Students learn to create and critically consume research reports by getting hands-on exposure to interviewing, survey design, and archival research. The course also teaches how to perform basic qualitative and quantitative analyses and IRB-approved research. Note: This course may be cross-leveled with WRIT 3810",
+      "groups": [
+        "major-required"
+      ],
+      "id": "PRWR 7810",
+      "notes": [
+        "Admission to MAPW Program"
+      ],
+      "prereqs": null,
+      "title": "Research Methods for Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132840",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-6",
+      "description": "A project designated as a thesis, portfolio or practicum and accompanied by a rationale for its purpose and design that involves electronic and/or print media and is relevant to the student\u2019s concentration in professional writing. After submitting an approved capstone proposal, the candidate works under the direction and advice of two faculty members to produce the project. The candidate must submit the capstone project at least two weeks before either 1) a discussion about the project with the faculty committee, or 2) a public presentation about the project or a reading from the project for an audience of faculty and peers. Note: The candidate will consult with the capstone committee chair and committee member about which option to choose.",
+      "groups": [
+        "major-project"
+      ],
+      "id": "PRWR 7960",
+      "notes": [
+        "Completion of 27 credit hours in the MAPW program and at least four courses in the concentration",
+        "Approval of capstone committee required"
+      ],
+      "prereqs": null,
+      "title": "MAPW Capstone Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133877",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course teaches script analysis, where students evaluate feature film, television, and short film scripts based on concept, character, structure, plot, dialogue, and formatting. Students will write \u201ccoverage,\u201d a tool used by production companies to assess screenplays. Expect to read and cover 1-3 scripts weekly. This skill is essential for aspiring freelance script readers, with potential recommendations for roles upon course completion.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 6400",
+      "notes": [],
+      "prereqs": null,
+      "title": "Script Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133873",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the evolution of a feature screenplay or television pilot from script to final produced film or television episode. Students will analyze the written text, comparing various drafts to the produced work and taking into consideration storytelling conventions to ascertain why changes were made and what their potential impact on viewers will be.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 6450",
+      "notes": [],
+      "prereqs": null,
+      "title": "Script to Screen"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132823",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to fundamental and foundational aspects of screenwriting such as traditional three-act structure, character development, plot function, dialogue, and script formatting. Students will study screenwriting theory and learn professional standards as they develop original screenplays and participate in table readings, workshopping, and peer review. Note: This course may be cross-leveled with FILM 3105",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 6490",
+      "notes": [
+        "Admission to the MAPW program",
+        "permission of the graduate program director"
+      ],
+      "prereqs": null,
+      "title": "Screenwriting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133659",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to fundamental and foundational techniques of writing single-cam and multi-cam half-hour television scripts. Topics include character development, five-act episode structure, A/B/C storyline function, dialogue, and formatting for half-hour TV scripts. Students will develop original half-hour pilot scripts and participate in table readings, workshopping, and peer review.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 6495",
+      "notes": [],
+      "prereqs": "STVW 6490",
+      "title": "TV Writing: Half-Hour"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133660",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to fundamental and foundational techniques of writing one-hour television scripts. Topics include character development, six-act episode structure, A/B/C storyline function, dialogue, and formatting for one-hour TV scripts. Students will develop one-hour pilot scripts and participate in table readings, workshopping, and peer review.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 6496",
+      "notes": [],
+      "prereqs": "STVW 6490",
+      "title": "TV Writing: One-Hour"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133876",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines storytelling conventions in film or television and prepares students to develop film or television scripts in a given genre. This course emphasizes genre conventions and how the choice of genre influences story concepts, screenplay structure, writing style, characters, setting, dialogue, integration of theme, and audience expectations. The target genre may vary from semester to semester.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 7400",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "STVW 6490",
+          "STVW 6495",
+          "STVW 6496"
+        ]
+      },
+      "title": "Screenwriting Genres"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132835",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores advanced screenwriting concepts such as genre conventions, scene dynamics, integration of theme, and advanced rewriting practices. Students will develop or revise an original screenplay and will participate in table readings, workshopping, and peer review. Students will also engage in critical story analysis and will study and practice skills such as pitching and marketing finished works. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 7490",
+      "notes": [],
+      "prereqs": "STVW 6490",
+      "title": "Screenwriting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133657",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds on fundamental skills developed in STVW 6495 and/or STVW 6496, exploring advanced TV-writing topics such as genre conventions, scene dynamics, integration of theme, writing TV for streaming platforms, and advanced rewriting practices. Students will put these advanced techniques into practice as they develop or revise an original pilot script and will participate in table readings, workshopping, and peer review. Students will also engage in critical story analysis and will study and practice skills such as pitching and marketing finished works. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 7495",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "STVW 6490",
+          {
+            "or": [
+              "STVW 6495",
+              "STVW 6496"
+            ]
+          }
+        ]
+      },
+      "title": "TV Writing II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133658",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Modeled after professional TV writers rooms, this course asks students to work together as a unit to pitch episode ideas, develop and outline stories, and write episode drafts. Students will learn about roles and hierarchy within the writers room, as well as the role of the writers room in the TV production process. Students will participate in team- and group-writing, table readings, and peer review. Note: May be repeated for up to 6 credits.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "STVW 7496",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "STVW 6490",
+          {
+            "or": [
+              "STVW 6495",
+              "STVW 6496"
+            ]
+          }
+        ]
+      },
+      "title": "TV Writers Room"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "mapw-professional-writing",
+    "name": "MAPW Professional Writing"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

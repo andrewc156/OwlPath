@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **ENGR 1100**
-  - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189
+None.
 
 ## Notes
 

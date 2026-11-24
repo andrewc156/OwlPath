@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **CE 3343**
-  - course page not found ('CE 3343')
-- **CE 6303**
-  - prerequisites can't be met by courses on the map (text only: CE 3343)
+None.
 
 ## Notes
 

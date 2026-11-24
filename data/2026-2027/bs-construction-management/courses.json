@@ -1,0 +1,905 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "ECON 2105",
+      "ECON 2106"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134263",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of financial accounting concepts.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ACCT 2101",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGL 1101",
+          {
+            "or": [
+              {
+                "external": "MATH 1001"
+              },
+              "MATH 1111",
+              "MATH 1113",
+              {
+                "external": "MATH 1160"
+              },
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1190"
+              },
+              {
+                "external": "MATH 2202"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Accounting I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the underlying theory and application of managerial accounting concepts.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ACCT 2102",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Principles of Accounting II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Covers torts, contracts, government regulation of business and the legal system. Also addresses ethical issues arising in business internal and external relationships.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "BLAW 2200",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "Legal and Ethical Environment of Business"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136091",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "An introduction to construction industry careers; an overview of construction industry sectors and the industry\u2019s impact on the economy; and discussion of the basics of the construction process. Also includes a preview of the construction degree curriculum and an overview of Kennesaw State University policies, procedures, and resources.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CM 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Orientation to Construction and Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the fundamentals of graphic language used by construction professionals, with an emphasis on developing skills in expressing concepts in visual form and in reading architectural and engineering construction documents.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 2000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Construction Graphics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136223",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "Study the principles of construction surveying and layouts for site and building, surveying measurements for distance, angles, direction, elevation, and dimensional controls for buildings, and utilize traditional and modern surveying instruments.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CM 2200",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MATH 1113",
+          "CM 3000"
+        ]
+      },
+      "title": "Construction Surveying and Layout"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136364",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study of basic structural design and analysis. Primary aim of this course is to develop and present structural concepts, introduce structural theory, provide a sound understanding of statics and strength of materials to establish a basis for understanding structural principles as it relates to building components.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 2210",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "PHYS 1111",
+              "PHYS 1111L"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "PHYS 2211"
+              },
+              {
+                "external": "PHYS 2211L"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Introduction to Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136093",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to microcomputers and commercial software. Students learn DOS and Windows manipulations, spreadsheets, word processing, visualization, and presentation software by actively using tutorials and help screens in a structured laboratory setting. Scheduling and estimating software are introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 3000",
+      "notes": [],
+      "prereqs": "CM 2000",
+      "title": "Computer Applications in Construction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136281",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A course on study of building information modeling for pre-construction applications. The course will enable the students to develop and modify building information models. It includes integration of estimates and schedules with building information models. It also prepares the students to identify conflicts caused by architectural, structural, mechanical, plumbing, and electrical systems during pre-construction stages.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3040",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "and": [
+              "CM 2000",
+              "CM 3000"
+            ]
+          },
+          {
+            "and": [
+              {
+                "external": "EDG 2160"
+              },
+              {
+                "external": "CE 2003"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Building Information Modeling I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136094",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of materials, techniques, and methods used in residential and light construction. Foundations, wood frame and masonry structural systems, interior and exterior finishes, residential electrical, plumbing, and mechanical systems are included. Also included are residential building code requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 3110",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "CM 2000",
+          {
+            "external": "EDG 2160"
+          },
+          {
+            "external": "EDG 1211"
+          }
+        ]
+      },
+      "title": "Construction Materials and Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136285",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to the various heavy construction systems such as roads, bridges, sewer/water treatment facilities, and other transportation systems. Topics include: contract analysis, work breakdown, equipment selection, site logistics planning, and project scheduling, cost productivity and performance management, quality control, and risk management.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3170",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Heavy Construction Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136096",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of mechanical and electrical system types, how they are built, and how they affect the construction project. Topics will include air conditioning, heating, plumbing, fire protection, electrical power, electrical lighting, and building control materials and systems. The analysis of current construction drawings will be integrated into each topic.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 3180",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Mechanical and Electrical Building Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136099",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of structural design and analysis concepts of temporary structures used in the construction process. Topics include formwork design, scaffolding, and material handling equipment and staging.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3260",
+      "notes": [],
+      "prereqs": "CM 2210",
+      "title": "Temporary Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136288",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students in this course will learn about the history, practice and profession of Facility Management (FM). Core competencies of the FM profession as detailed by key FM organizations such as IFMA, BIFM, and FMAA will be introduced and analyzed for similarities and differences. Students will also learn about the organizational, ethical, and leadership strategies for the delivery of facility management services.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3270",
+      "notes": [],
+      "prereqs": null,
+      "title": "Facility Management Strategies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136100",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Study of building mechanical and electrical system loads and applicable codes. Emphasis on how they affect the construction project. Topics will include air conditioning, heating, plumbing, fire protection, electrical power, electrical lighting and building control systems. The analysis of current construction drawings will be integrated into each topic.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3280",
+      "notes": [],
+      "prereqs": "CM 3180",
+      "title": "Building Mechanical and Electrical Codes and Loads"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136101",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students in this course will study the methods and techniques for managing facilities. The core consists of knowledge on process and techniques for strategic planning, estimating and budgeting, life cycle costing, and integrated decision making. Students also learn about the role and responsibilities of facility manager in different business forms and organization models. FM technology and its future is discussed and explored.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3290",
+      "notes": [],
+      "prereqs": null,
+      "title": "Finance for Facility Managers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136102",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course provides an overview of the land development process and provides a foundation for the advanced land development courses. The course focuses on the steps in planning and carrying out the land development project and on the legal issues encountered in the land development profession. The course includes lectures, readings from the texts and closed library reserves, class discussion, problems, exercises and student presentations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3310",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ACCT 2101",
+          "CM 3110"
+        ]
+      },
+      "title": "Real Estate Development Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136362",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on developing risk management steps before and after signing the construction contract. It includes the development of a risk log, risk assessment, risk response planning, and risk control strategies. The course also briefs on quality assurance, quality control, costs of quality, and quality management tools and methods.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3400",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Risk and Quality Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136103",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of techniques in the process of construction estimating, with an emphasis on development of the quantity survey. The completion of a specification takeoff and a quantity survey of commercial construction are required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 3410",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CM 1000",
+          "CM 3110",
+          {
+            "or": [
+              "CM 3000",
+              {
+                "external": "CE 2003"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Estimating I: Construction Quantity Surveying"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136105",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The continued study of the estimating process emphasizing pricing the general contractor\u2019s work, including estimating procedures, development of direct and indirect unit costs, evaluation of subcontractor bids, bidding strategy and bid opening. The completion of an estimate, bid submission, and development of a schedule of values are required. Also included is an introduction to conceptual estimating.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 3420",
+      "notes": [],
+      "prereqs": "CM 3410",
+      "title": "Estimating II: Cost Estimating and Bid Preparation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136293",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Advanced estimating techniques and bid preparation for heavy construction projects. Study of the principles used in developing cost estimates for heavy construction projects. Includes interpretation of contact documents, quantity take-off, pricing, and preparation of unit-price bid documents. Introduction and practice with takeoff software for bidding earthwork, paving, utilities, roads, and bridges.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3440",
+      "notes": [],
+      "prereqs": "CM 3410",
+      "title": "Heavy Estimating"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136107",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A continuation of the study of the estimating process emphasizing the specialty contractors portion of the construction project. Topics covered will include the estimating procedure, soft costs, using standard industry references and software, and bidding strategy. A current set of mechanical, plumbing and electrical plans will be estimated.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3480",
+      "notes": [],
+      "prereqs": "CM 3280",
+      "title": "Mechanical and Electrical Systems Estimating"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136108",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of building codes from the perspective of construction managers and superintendent. Various issues related to building codes, which must be considered by the PM/CM/superintendent, will be discussed and follow the scheduled reading assignments.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3500",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Building Codes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136110",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An integrated theory and applications course that provides an exposition of theoretical principles associated with the site planning process, and then involves the students in hands-on application. The inter-relationship between site planning decisions and their potential consequences will be demonstrated through practical exercises.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3710",
+      "notes": [],
+      "prereqs": "CM 3310",
+      "title": "Market and Site Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136111",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students in this course study the management of company and project finances. They learn the fundamentals of construction accounting and depreciation, prepare financial statements, analyze company\u2019s financial health, conduct cost and profit center analysis, prepare and forecast cash flows, and use the technique of time value of money for economic decision making.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 3800",
+      "notes": [],
+      "prereqs": "ACCT 2101",
+      "title": "Construction Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136606",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes the techniques and methods of sustainable construction for the residential building industry. Students will explore green building rating systems and emerging trends for homes and neighborhood development. Topics will include performance certification techniques for sustainable sites, location & connectivity, water efficiency, energy & atmosphere, materials & resources, indoor environmental quality, innovation, and design.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 3910",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Sustainable Residential Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136280",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will emphasize the techniques and methods used in sustainable operations and maintenance. Importance of a collaborative team effort from owner, occupant, facility management, and maintenance providers will be integrated into the course. Influences on the Environment, society, maintenance and energy needs will be analyzed. Topics will include LEED green building operations and maintenance (Sustainable Sites, Water Efficiency, Energy & Atmosphere, Materials & Resources, Indoor Environmental Quality, and Innovation In Operations). MEP systems such as ventilation, air conditioning, heating, electrical lighting and building control systems will be discussed from a sustainable operations and maintenance perspective.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 4190",
+      "notes": [],
+      "prereqs": "CM 3180",
+      "title": "Sustainable Operation & Maintenance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136284",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Origin, classification, and physical properties of soil as used in engineering and construction applications, together with loads and stresses of soil on, and the more common types of engineering structures. To include an introduction of field sampling and testing for earthwork construction.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 4230",
+      "notes": [],
+      "prereqs": "CM 3170",
+      "title": "Heavy Materials & Temporary Structures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136114",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the design-build delivery method applied to construction projects. The study starts with details of the process and how it differs from other project delivery methods. Topics will include building MEP systems (air-conditioning, heating, ventilation, plumbing, electrical power, electrical lighting and building control) and how they are planned and delivered in a design-build project. The analysis of current construction drawings will be integrated into the course.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 4480",
+      "notes": [],
+      "prereqs": "CM 3280",
+      "title": "Design/Build MEP Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136115",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the management techniques used in controlling the progress of construction projects, including development of a commercial project schedule, as well as simulation of updating and monitoring progress using critical path methodology. Commonly used commercial software packages are introduced.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 4510",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CM 3110",
+          "CM 3410"
+        ]
+      },
+      "title": "Construction Scheduling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136609",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes emerging trends in the residential building industry. Students will explore labor issues, residential construction concerns, and innovative strategies that are present in today\u2019s residential homebuilding.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 4512",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Emerging Trends in Residential Construction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136117",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of traditional, design-build and construction management delivery methods, the management of field operations and administration of the construction contracts. Contract documents, project organization, supervision, working with owners and design professionals, procurement, management of subcontractors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 4560",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CM 4510",
+          "CM 3410"
+        ]
+      },
+      "title": "Construction Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136120",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students in this course will study financial feasibility and economic desirability of income producing properties. They will learn various financial feasibility analysis techniques and prepare financial pro-forma models for various stages of the development process. The concepts that will be covered are net operating income, time value of money, different forms of financing, and business entities for development process. Acquisition, development, and construction (ADC) loans will be studied and student will prepare their loan amortization schedule.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 4620",
+      "notes": [],
+      "prereqs": "CM 3800",
+      "title": "Development Process and Finance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136363",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on Communication, Industry Software, Target Value Design and other best Practices as they pertain to Project Management. Erosion Control Supervisor and Work Zone Traffic Control Certification requirements are examined. Skills generally required for sound project management in a variety of management settings are studied in addition to specific management issues typically associated with construction companies.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CM 4660",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CM 4510",
+          "CM 3410"
+        ]
+      },
+      "title": "Advanced Scheduling & Project Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136279",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of construction safety and loss control principles and practices. Topics include project security control, construction accident prevention, safety information sources, weather precautions, emergency planning, and OSHA procedures and regulations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 4710",
+      "notes": [],
+      "prereqs": "CM 3110",
+      "title": "Construction Safety"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136118",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of Construction Contract Documents and Claims. Topics include: analyses of AIA B141, A101, A201, and contractual graphic and technical documents. Other supporting construction contract documents such as bid bonds, payment and performance bonds and construction modifications are studied. The traditional tri-union construction contract formation process is examined in relation to the owner, contractor, material men, and subcontractors. Discussions regarding damages for differing and unforeseen conditions, defective workmanship, and construction delay claims are surveyed in conjunction with AAA construction arbitration rules regarding emerging construction manager contracting processes.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 4760",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "BLAW 2200",
+          {
+            "external": "ENGR 3324"
+          }
+        ]
+      },
+      "title": "Construction and Real Estate Property Law"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136122",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the application of course materials covered in the four-year curriculum to an actual construction project. Preparation includes: developing a company organization along with detailed project bid, schedule, construction contracts, cash flow, risk management, and safety plan. Students will present and defend their projects to a panel of industry and faculty members.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 4900",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CM 3420",
+          "CM 3800",
+          "CM 4560"
+        ]
+      },
+      "title": "Capstone Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134638",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze economic aggregates and evaluate economic policies.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 2105",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Macroeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134637",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This principles of economics course is intended to introduce students to concepts that will enable them to understand and analyze structure and performance of the market economy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ECON 2106",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Microeconomics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will provide an overview of fundamentals of information systems technologies and their applicability to real world scenarios. Topics may vary as technology changes but the students will learn the tools of productivity. The course aims to improve communications skills appropriate to the business setting.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "IS 2200",
+      "notes": [
+        "MATH 1001 or higher"
+      ],
+      "prereqs": "ENGL 1101",
+      "title": "Information Systems and Communication"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135092",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the field of management, focusing on basic principles and concepts applicable to all types of organizations. The evolution of functional and behavioral aspects of management and organization theory are presented in the context of political, societal, regulatory, ethical, global, technological and demographic environmental forces.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MGT 3100",
+      "notes": [
+        "Admission to a Coles BBA Program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Management and Behavioral Sciences"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135124",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the term, \u201cmarketing,\u201d in a broad sense to include all the activities of individuals or organizations which encourage and facilitate value exchange. This includes many activities such as research, physical distribution, product planning, pricing, and promotional activities. The concepts are examined as they apply to marketing of goods and services in profit and nonprofit sectors in both domestic and global markets. Potential topics include marketing communications, new product development, brand management, product management, marketing channels, target audience selection, understanding market trends, and digital marketing.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MKTG 3100",
+      "notes": [
+        "Admission to a Coles BBA program",
+        "a Coles Partner Student"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "course": "ACCT 2101",
+            "minGrade": "B"
+          },
+          {
+            "course": "ACCT 2102",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2105",
+            "minGrade": "B"
+          },
+          {
+            "course": "ECON 2106",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Marketing Foundations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136217",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is an introductory algebra and trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to falling objects and orbital motion, describe simple harmonic motion, oscillations, and waves, and explain temperature, heat, and entropy.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 1111",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1113",
+          {
+            "external": "MATH 1190"
+          },
+          {
+            "external": "MATH 1179"
+          }
+        ]
+      },
+      "title": "Introductory Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135819",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 1111",
+      "credits": "1",
+      "description": "PHYS 1111L is an introductory laboratory for the trigonometry-based course on classical mechanics, thermodynamics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, waves, temperature, and basic fluid dynamics. The analysis of sources of error and formal propagation of uncertainties will also be developed.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "PHYS 1111L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introductory Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136333",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course is an introduction to organization, style, and mechanics of technical writing. It includes practice in writing such typical documents as technical descriptions, instructions, proposals, and recommendation reports. Emphasis is placed on incorporating rhetorical theory into planning, organizing, and writing reports; designing visual aids; and editing. Among other assignments, at least one complete technical report is required.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "TCOM 2010",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Technical Writing"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-construction-management",
+    "name": "BS Construction Management"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

@@ -1,18 +1,8 @@
 # Build report — 2026-2027
 
-## Validation errors
-
-- schema: courses/14/credits: '' does not match '^\\d+(-\\d+)?$'
-
 ## Warnings needing review
 
-- **CYBR 3223**
-  - unrecognized: CSE 1321and
-  - missing operator before 'CSE 1321L', assumed and
-- **CYBR 3397**
-  - unrecognized line: 3, 6 or 9 Credit Hours
-  - no credit hours found
-  - unrecognized: Internship Advisor
+None.
 
 ## Notes
 

@@ -2,12 +2,12 @@
 
 ## Warnings needing review
 
-- **PSYC 3000**
-  - could not parse (unexpected 'and'): Any 1000-level MATH course, or MATH 2202, or STAT 1401, or DATA 1501; and ENGL 1101
-- **PSYC 4430**
-  - unrecognized: One 3000-level psychology course
-- **PSYC 4440**
-  - unrecognized: One 3000-level psychology course
+None.
+
+## Notes
+
+- PSYC 3000: added MATH 2202 so (MATH 2202, STAT 1401, DATA 1501) has an option on the map
+- MATH 2202: added MATH 1190 so (MATH 1190, MATH 1179, MATH 1189) has an option on the map
 
 ## Left out on purpose
 

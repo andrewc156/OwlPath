@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **HPAL 3252**
-  - unrecognized: Any General Education D1 core curriculum course
-- **HPAL 4900**
-  - unrecognized: one Advanced Coaching Course
+None.
 
 ## Notes
 

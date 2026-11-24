@@ -2,12 +2,11 @@
 
 ## Warnings needing review
 
-- **ENGR 3324**
-  - ambiguous and/or precedence: MATH 1190 or MATH 1179 AND MATH 1189, EDG 2160, and Engineering Standing
+None.
 
 ## Notes
 
-- ENGR 3324: added MATH 1190 so (MATH 1190, MATH 1179, MATH 1189, EDG 2160) has an option on the map
+- ENGR 3324: added MATH 1190 so (MATH 1190, MATH 1179, MATH 1189) has an option on the map
 
 ## Left out on purpose
 

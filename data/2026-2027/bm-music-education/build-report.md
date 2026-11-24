@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **MUAP 3101**
-  - unrecognized: have taken
-  - unrecognized: passed four semesters of
-  - missing operator before 'MUAP 2101', assumed and
-- **MUSI 3333**
-  - could not parse (unexpected 'and'): Must be a fully admitted music major; and permission of the instructor
+None.
 
 ## Left out on purpose
 

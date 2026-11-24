@@ -1,0 +1,1607 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "MUTC 3200",
+      "MUTC 3313"
+    ],
+    [
+      "MUTC 3320",
+      "MUTC 3325"
+    ],
+    [
+      "MUSI 1165",
+      "MUSI 3333"
+    ],
+    [
+      "MUSI 2165",
+      "MUSI 3360",
+      "MUSI 3333"
+    ],
+    [
+      "MUTC 3326",
+      "MUTC 3371"
+    ],
+    [
+      "MUTC 3327",
+      "MUTC 3372"
+    ],
+    [
+      "MUEN 3343",
+      "MUEN 3344",
+      "MUEN 3345",
+      "MUEN 3346",
+      "MUEN 3347",
+      "MUEN 3348",
+      "MUEN 3349"
+    ],
+    [
+      "MUSI 3331",
+      "MUSI 3332"
+    ],
+    [
+      "MUEN 3224",
+      "MUEN 3225"
+    ],
+    [
+      "GRMN 1001",
+      "FREN 1001"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134755",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading, and writing in French and to the culture of French-speaking regions.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "FREN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary French I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134790",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the German language and the culture of the German-speaking world. Beginning of a survey of basic German grammar and the grammar and the development of the four language skills of listening, speaking, reading, and writing German. Some aspects of everyday life in the German-speaking world will also be introduced.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "GRMN 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary German I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135017",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to listening, speaking, reading and writing in Italian and to the culture of Italian-speaking regions.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "ITAL 1001",
+      "notes": [],
+      "prereqs": null,
+      "title": "Elementary Italian I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135210",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of Western music history and literature from the Ancient Greece to 1800.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MHIS 2311",
+      "notes": [],
+      "prereqs": "MUTC 2200",
+      "title": "History of Music I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135211",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of Western music history and literature from 1800 to the present.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MHIS 2312",
+      "notes": [],
+      "prereqs": "MHIS 2311",
+      "title": "History of Music II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135216",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an in-depth study of jazz styles, historical periods, and innovative artists in the jazz idiom.",
+      "groups": [
+        "conc-jazz-performance"
+      ],
+      "id": "MHIS 3319",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUTC 2200",
+      "title": "History of Jazz"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137358",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Applied music encompasses the areas of instrumental and vocal performance. It is offered in the form of private lessons for music majors and minors.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MUAP 2101",
+      "notes": [
+        "Must be a fully admitted music major",
+        "minor"
+      ],
+      "prereqs": null,
+      "title": "Applied Lessons"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137359",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Applied music encompasses the areas of instrumental and vocal performance. It is offered in the form of private lessons for music majors and minors.",
+      "groups": [
+        "core-field",
+        "major-required"
+      ],
+      "id": "MUAP 2102",
+      "notes": [
+        "Must be a fully admitted music major",
+        "minor"
+      ],
+      "prereqs": null,
+      "title": "Applied Lessons"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137362",
+      "catalogYear": "2026-2027",
+      "coreqs": "MUAP 3102",
+      "credits": "0-1",
+      "description": "Junior Recital is taken concurrently with applied lessons during the third year of applied studies.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-jazz-performance",
+        "conc-piano-performance",
+        "conc-voice-performance"
+      ],
+      "id": "MUAP 3096",
+      "notes": [],
+      "prereqs": null,
+      "title": "Junior Recital (Music Performance)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137360",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Applied music encompasses the areas of instrumental and vocal performance. It is offered in the form of private lessons for music majors and minors.",
+      "groups": [
+        "conc-music-theory"
+      ],
+      "id": "MUAP 3101",
+      "notes": [
+        "Must be a fully admitted music major",
+        "Must have taken and passed four semesters of MUAP 2101"
+      ],
+      "prereqs": "MUAP 2101",
+      "title": "Applied Lessons"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137361",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Applied music encompasses the areas of instrumental and vocal performance. It is offered in the form of private lessons for music majors and minors.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-jazz-performance",
+        "conc-piano-performance",
+        "conc-voice-performance"
+      ],
+      "id": "MUAP 3102",
+      "notes": [
+        "Must be a fully admitted music major"
+      ],
+      "prereqs": null,
+      "title": "Applied Lessons"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137364",
+      "catalogYear": "2026-2027",
+      "coreqs": "MUAP 3102",
+      "credits": "0-1",
+      "description": "Senior Recital is taken concurrently with applied lessons during the final on-campus semester.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-jazz-performance",
+        "conc-piano-performance",
+        "conc-voice-performance"
+      ],
+      "id": "MUAP 4096",
+      "notes": [],
+      "prereqs": "MUAP 3096",
+      "title": "Senior Recital (Music Performance)"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135169",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Guitar Techniques provides for basic teaching and playing competencies on guitar as well as an overview of teaching methodologies for individual and class guitar instruction.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUED 3353",
+      "notes": [
+        "Must be a fully admitted music major"
+      ],
+      "prereqs": null,
+      "title": "Guitar Techniques Class"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135775",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "This course is designed to introduce classical ensemble playing to guitarists. The weekly class sessions and performances will help the student develop skills in sight reading, classical guitar styles, and ensemble playing.",
+      "groups": [
+        "conc-instrumental-performance"
+      ],
+      "id": "MUEN 3210",
+      "notes": [],
+      "prereqs": null,
+      "title": "Classical Guitar Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135977",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "This course is designed to introduce jazz ensemble playing to guitarists. The weekly class sessions and performances will help the student develop skills in the following areas: Sight Reading, jazz styles, chord comping, and ensemble playing.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-jazz-performance"
+      ],
+      "id": "MUEN 3211",
+      "notes": [],
+      "prereqs": null,
+      "title": "Jazz Guitar Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135777",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "This course introduces jazz improvisation to students for instrumental performance. Students will perform jazz standards from the Real Book and other sources while applying concepts and patterns studied in class.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-jazz-performance"
+      ],
+      "id": "MUEN 3212",
+      "notes": [],
+      "prereqs": null,
+      "title": "Jazz Combo"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135776",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "The Percussion Ensemble provides students with the opportunity to study, rehearse, and perform literature for group percussion.",
+      "groups": [
+        "conc-instrumental-performance"
+      ],
+      "id": "MUEN 3220",
+      "notes": [],
+      "prereqs": null,
+      "title": "Percussion Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135780",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "The String Ensemble will allow students to improve ensemble-playing skills in a chamber setting on like stringed instruments. Students will rehearse standard ensemble pieces as well as new compositions and arrangements.",
+      "groups": [
+        "conc-instrumental-performance"
+      ],
+      "id": "MUEN 3221",
+      "notes": [],
+      "prereqs": null,
+      "title": "String Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135778",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "The KSU Woodwind Ensemble provides students rehearsal and performance experience in chamber music settings. Students will experience literature in both classical and jazz idioms.",
+      "groups": [
+        "conc-instrumental-performance"
+      ],
+      "id": "MUEN 3222",
+      "notes": [],
+      "prereqs": null,
+      "title": "Woodwind Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135978",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "The Brass Ensemble is designed to improve ensemble playing in a chamber setting. Brass ensemble members will work on standards ensemble pieces as well as new compositions and arrangements.",
+      "groups": [
+        "conc-instrumental-performance"
+      ],
+      "id": "MUEN 3223",
+      "notes": [],
+      "prereqs": null,
+      "title": "Brass Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135979",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "The Piano Ensemble provides students with the opportunity to perform piano works written for four or more hands in a variety of genres and styles.",
+      "groups": [
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3224",
+      "notes": [],
+      "prereqs": null,
+      "title": "Piano Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135779",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "The Mixed Chamber Ensemble allows students to learn literature in a small group setting with the assistance of faculty coaches. The Mixed Chamber Ensemble focuses on intonation, blend, stylistic awareness, ensemble precision, and knowledge of repertoire.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3225",
+      "notes": [],
+      "prereqs": null,
+      "title": "Mixed Chamber"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135226",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "This course may be repeated for upper-division credit. The School of Music offers two large Jazz Ensembles that perform both on- and off-campus in concert. The ensembles perform a variety of styles within the jazz idiom including traditional swing, bop, Latin, Afro-Cuban, and funk.",
+      "groups": [
+        "conc-composition",
+        "conc-jazz-performance",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3343",
+      "notes": [
+        "Audition",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Jazz Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135227",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "May be repeated for upper-division credit. Study, rehearsal, and concert performance of literature for orchestra. No audition is required and non-music majors with previous orchestral experience are encouraged to play in the group.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3344",
+      "notes": [
+        "Membership is open to all students with previous experience playing an instrument"
+      ],
+      "prereqs": null,
+      "title": "University Philharmonic Orchestra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135228",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "This course offers music majors, minors, and non-music majors the opportunity to study, rehearse, and perform literature for the wind band medium. This course may be repeated for upper-division credit or zero credit. Membership in the Wind Symphony is by audition only.",
+      "groups": [
+        "conc-composition",
+        "conc-instrumental-performance",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3345",
+      "notes": [
+        "Audition"
+      ],
+      "prereqs": null,
+      "title": "Wind Symphony"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135229",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "May be repeated for upper-division credit. Study, rehearsal and performance of choral literature. Membership in Chamber Singers is by audition only.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance",
+        "conc-voice-performance"
+      ],
+      "id": "MUEN 3346",
+      "notes": [
+        "Audition"
+      ],
+      "prereqs": null,
+      "title": "Chamber Singers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135230",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "May be repeated for upper-division credit. Study, rehearsal and concert performance of literature for wind ensemble. Membership in the Wind Ensemble is by audition only.",
+      "groups": [
+        "conc-composition",
+        "conc-instrumental-performance",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3347",
+      "notes": [
+        "Audition"
+      ],
+      "prereqs": null,
+      "title": "Wind Ensemble"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135231",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "May be repeated for upper-division credit. Study, rehearsal and concert performance of literature for orchestra.",
+      "groups": [
+        "conc-composition",
+        "conc-instrumental-performance",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance"
+      ],
+      "id": "MUEN 3348",
+      "notes": [
+        "Audition"
+      ],
+      "prereqs": null,
+      "title": "Symphony Orchestra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135232",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "0-1",
+      "description": "May be repeated for upper-division credit. Study, rehearsal and concert performance of literature for choir.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory",
+        "conc-music-therapy",
+        "conc-piano-performance",
+        "conc-voice-performance"
+      ],
+      "id": "MUEN 3349",
+      "notes": [],
+      "prereqs": null,
+      "title": "Chorale"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135235",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course provides students with comprehensive training in the performance and production of opera. Through rehearsal and staged performance, students develop skills in vocal technique, acting, stage movement, and ensemble collaboration. Emphasis is placed on musical accuracy, dramatic interpretation, and professional performance practices. Repertoire includes selections from standard operatic literature as well as scenes from works spanning diverse styles and periods. Open to qualified singers by audition, Opera Theater culminates in public performances that integrate the elements of music, theater, and stagecraft.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "MUEN 3352",
+      "notes": [
+        "Enrollment by audition only"
+      ],
+      "prereqs": null,
+      "title": "Opera Theater"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135200",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "The purpose of class piano instruction is to equip non-piano majors with the keyboard proficiencies needed to be reasonably fluent in basic technical and reading skills for practical use as a professional musician.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUSI 1165",
+      "notes": [
+        "Must be a fully admitted music major",
+        "placement determined by proficiency test"
+      ],
+      "prereqs": null,
+      "title": "Class Piano I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135201",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Continuation of Class Piano I.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUSI 2165",
+      "notes": [],
+      "prereqs": "MUSI 1165",
+      "title": "Class Piano II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135202",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The development of practical experience with current computer applications and current technology specifically associated with music instruction and music performance. The course exposes students to current capabilities of technology as they relate to composition, instrumentation, performance and teaching.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUSI 3000",
+      "notes": [],
+      "prereqs": "MUTC 2200",
+      "title": "Technology in Music"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135212",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Solo vocal literature from 1600 to the present.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "MUSI 3315",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "Vocal Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135221",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Fundamental elements of conducting including baton technique, score reading, cueing, expression, interpretation and rehearsal skills with an emphasis on applying these techniques in practical conducting experiences involving vocal and instrumental ensembles.",
+      "groups": [
+        "conc-piano-performance",
+        "conc-voice-performance"
+      ],
+      "id": "MUSI 3331",
+      "notes": [],
+      "prereqs": "MUTC 3100",
+      "title": "Choral Conducting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135222",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Fundamental elements of conducting including baton technique, score reading, cueing, expression, interpretation and rehearsal skills with an emphasis on applying these techniques in practical conducting experiences involving vocal and instrumental ensembles.",
+      "groups": [
+        "conc-instrumental-performance",
+        "conc-piano-performance"
+      ],
+      "id": "MUSI 3332",
+      "notes": [],
+      "prereqs": "MUTC 3100",
+      "title": "Instrumental Conducting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135223",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "May be repeated for upper-division credit. For music majors. The practical application of accompaniment techniques.",
+      "groups": [
+        "major-required",
+        "conc-piano-performance"
+      ],
+      "id": "MUSI 3333",
+      "notes": [
+        "Must be a fully admitted music major",
+        "permission of the instructor"
+      ],
+      "prereqs": null,
+      "title": "Accompanying"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135224",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Designed for the vocal music major. The study of the pronunciation, enunciation, and expression of the Italian and English language in singing.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "MUSI 3334",
+      "notes": [
+        "Must be a fully admitted music major"
+      ],
+      "prereqs": null,
+      "title": "Italian and English Diction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135225",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Designed for the vocal music majors. An applied performance laboratory for the study of the pronunciation, enunciation, and expression of the German and French language in singing.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "MUSI 3335",
+      "notes": [],
+      "prereqs": "MUSI 3334",
+      "title": "German and French Diction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135236",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "An introduction to jazz improvisation for any instrument and application of jazz improvisation techniques to jazz repertoire including modal compositions, blues, minor blues, and compositions with major cadences.",
+      "groups": [
+        "conc-jazz-performance"
+      ],
+      "id": "MUSI 3353",
+      "notes": [],
+      "prereqs": "MUTC 2200",
+      "title": "Jazz Improvisation I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135545",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "A continuing methodology designed to improve jazz improvisation, for any instrument and application in jazz, that focuses on rhythm changes form, altered dominants, bebop concepts, and unconventional harmonies.",
+      "groups": [
+        "conc-jazz-performance"
+      ],
+      "id": "MUSI 3354",
+      "notes": [],
+      "prereqs": "MUSI 3353",
+      "title": "Jazz Improvisation II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135546",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "A continuing methodology designed to improve jazz improvisation, for any instrument and application in jazz, that focuses on melodic minor derivations, cycling altered dominants, pentatonic concepts, and non-traditional harmonies.",
+      "groups": [
+        "conc-jazz-performance"
+      ],
+      "id": "MUSI 3355",
+      "notes": [],
+      "prereqs": "MUSI 3354",
+      "title": "Jazz Improvisation III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135547",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "An introduction to jazz piano skills for the non-pianist including interpreting chord symbols and sophisticated harmonies, learning functional voicings, and performance competency.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUSI 3360",
+      "notes": [],
+      "prereqs": "MUSI 1165",
+      "title": "Jazz Piano"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135561",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will work on a series of projects to understand aspects of what is required to have a successful career in the music industry in the 21st century and build the skills beyond musicianship that will aid in attaining musical goals.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUSI 3390",
+      "notes": [
+        "Acceptance into the Music Entertainment and Business program",
+        "completion of"
+      ],
+      "prereqs": "MUTC 3200",
+      "title": "Music Entrepreneurship"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135247",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Keyboard literature from 1600 to the present.",
+      "groups": [
+        "conc-piano-performance"
+      ],
+      "id": "MUSI 4413",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUTC 2200",
+      "title": "Piano Literature I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135248",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Continuation of keyboard literature from 1600 to the present.",
+      "groups": [
+        "conc-piano-performance"
+      ],
+      "id": "MUSI 4414",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUSI 4413",
+      "title": "Piano Literature II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135253",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Beginning-, elementary, and intermediate level teaching materials and methods for piano.",
+      "groups": [
+        "conc-piano-performance"
+      ],
+      "id": "MUSI 4430",
+      "notes": [
+        "Must be a fully admitted music major"
+      ],
+      "prereqs": null,
+      "title": "Piano Pedagogy I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135254",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Continuation of beginning-, elementary-, and intermediate-level teaching materials and methods for piano.",
+      "groups": [
+        "conc-piano-performance"
+      ],
+      "id": "MUSI 4431",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUSI 4430",
+      "title": "Piano Pedagogy II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135255",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Pedagogical methods, vocal physiology and literature for training voices from beginning to advanced levels.",
+      "groups": [
+        "conc-voice-performance"
+      ],
+      "id": "MUSI 4433",
+      "notes": [],
+      "prereqs": null,
+      "title": "Voice Pedagogy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135257",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Pedagogical methods, techniques, physiology and literature in the principal performance concentration area.",
+      "groups": [
+        "conc-instrumental-performance"
+      ],
+      "id": "MUSI 4435",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "(Name of Instrument) Pedagogy and Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135548",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the methodologies and resources of jazz pedagogy. Students will learn appropriate literature for a variety of age levels as well as rehearsal techniques for both the large and small jazz ensemble.",
+      "groups": [
+        "conc-jazz-performance"
+      ],
+      "id": "MUSI 4436",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          {
+            "external": "MUSI 1143"
+          },
+          "MUEN 3343"
+        ]
+      },
+      "title": "Jazz Pedagogy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135192",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A correlated study of rhythmic, melodic and harmonic aspects of music common practice. Development of basic skills in music theory and harmony including practical application through part-writing. Components include composition, improvisation and practical keyboard applications.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MUTC 2100",
+      "notes": [
+        "Must be a fully admitted music major",
+        "minor",
+        "placement determined by proficiency test"
+      ],
+      "prereqs": null,
+      "title": "Music Theory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135190",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Foundation work in sight singing including rhythmic and melodic dictation. Practical application includes some composition and improvisation.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MUTC 2110",
+      "notes": [
+        "Must be a fully admitted music major",
+        "minor",
+        "placement determined by proficiency test"
+      ],
+      "prereqs": null,
+      "title": "Aural Skills I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135193",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A continuation of correlated study of rhythmic, melodic and harmonic aspects of music common practice. Continuation of keyboard harmony is included with application at the keyboard. Components include composition, improvisation and practical keyboard applications.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MUTC 2200",
+      "notes": [],
+      "prereqs": "MUTC 2100",
+      "title": "Music Theory II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135191",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Continuation of skill development in sight singing including rhythmic and melodic dictation. Practical application includes some composition and improvisation.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "MUTC 2210",
+      "notes": [],
+      "prereqs": "MUTC 2110",
+      "title": "Aural Skills II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136610",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides background, training and experience for the student in the area of scoring for media including film, television and gaming.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 3007",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MUTC 2200",
+          "MUSI 3000"
+        ]
+      },
+      "title": "Scoring for Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135205",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Advanced correlated study of music theory and harmony of common practice including chromatic harmony and 20th century harmonic techniques. Components include composition, improvisation, literature analysis and practical keyboard application.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3100",
+      "notes": [],
+      "prereqs": "MUTC 2200",
+      "title": "Music Theory III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135203",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "For music majors. Advanced skill development in ear training and sight singing. Includes rhythmic and melodic dictation. Practical application includes some composition and improvisation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3110",
+      "notes": [],
+      "prereqs": "MUTC 2210",
+      "title": "Aural Skills III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136958",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course trains music majors in advanced keyboard harmony to prepare them for graduate-level music programs. Component skills may include the performance of harmonic progressions in all keys, memorized intermediate-level repertoire, score reading, figured bass realization, and improvisation.",
+      "groups": [
+        "conc-music-theory"
+      ],
+      "id": "MUTC 3168",
+      "notes": [],
+      "prereqs": "MUTC 3100",
+      "title": "Advanced Keyboard Harmony"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135206",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "For music majors. Continuation of advanced correlated study of music theory and harmony in common practice including analytical study of 20th century music. Components include composition, improvisation, literature analysis and practical keyboard application.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3200",
+      "notes": [],
+      "prereqs": "MUTC 3100",
+      "title": "Music Theory IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135204",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Continuation of advanced skill development in ear training and sight singing. Includes rhythmic and melodic dictation. Practical application includes some composition and improvisation.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3210",
+      "notes": [],
+      "prereqs": "MUTC 3110",
+      "title": "Aural Skills IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136960",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces students to the language of jazz, including chord nomenclature and spelling, chord/scale relationships, chord function, and reharmonization techniques.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3313",
+      "notes": [],
+      "prereqs": "MUTC 2200",
+      "title": "Jazz Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135217",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Techniques of structural analysis of musical compositions in a variety of styles and periods with emphasis on harmony and form. The analysis of contrapuntal form is included.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3320",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "Form and Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135218",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Extended training in harmonic dictation, sight singing, aural analysis and rhythm.",
+      "groups": [
+        "conc-music-theory"
+      ],
+      "id": "MUTC 3321",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MUTC 3200",
+          "MUTC 3210"
+        ]
+      },
+      "title": "Advanced Ear Training"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135544",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A study of jazz arranging techniques for jazz ensembles. Students will arrange works for big band and jazz combos.",
+      "groups": [
+        "conc-jazz-performance"
+      ],
+      "id": "MUTC 3323",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUTC 3313",
+      "title": "Jazz Arranging"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135219",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A study of the characteristics of orchestral instruments, including scoring principals and techniques. In addition the course includes the arranging of musical works for a variety of large and small vocal and instrumental ensembles.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 3324",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "Instrumentation/Arranging"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136959",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course will introduce common song forms and compositional techniques in the jazz idiom in addition to analysis of lead sheets and large ensemble scores.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTC 3325",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUTC 3313",
+      "title": "Jazz Forms and Composition"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135220",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students develop music composition skills by exploring basic techniques necessary for coherent creative expression. By writing original compositions for various instrumentations, students gain skills in the artistic use of pitch, rhythm, melody, timbre and harmony. 20th and 21st century styles and techniques are utilized, and students acquire skill in music improvisation. Students gain competency in the basics of music notation utilizing both calligraphy and composition software.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory"
+      ],
+      "id": "MUTC 3326",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MUTC 2200",
+          {
+            "course": "MUTC 2100",
+            "minGrade": "B"
+          },
+          {
+            "external": "MUTC 1120",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Class Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135567",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Students develop further music composition skill by exploring techniques necessary for coherent creative expression. By writing original compositions for various instrumentations, students gain abilities in the artistic use of pitch, rhythm, melody, timbre and harmony. 20th and 21st century styles and techniques are utilized. Students gain technology competency in the use of composition software and by learning the basics of digital audio and video editing of recorded performances.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 3327",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MUTC 3326",
+          "MUTC 3371"
+        ]
+      },
+      "title": "Class Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135239",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Individually tailored instruction is utilized for the development of music composition skills by writing in traditional and contemporary styles in both small and large forms and for a variety of media.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory"
+      ],
+      "id": "MUTC 3371",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MUTC 2200",
+          "MUTC 2100",
+          {
+            "external": "MUTC 1120",
+            "minGrade": "B"
+          }
+        ]
+      },
+      "title": "Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135240",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Individually tailored instruction is utilized for the development of music composition skills by writing in traditional and contemporary styles in both small and large forms and for a variety of media.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 3372",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUTC 3371",
+      "title": "Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136399",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of tonal, common-practice music in the Western art music tradition from the perspective of Schenkerian (reductive) analysis. Activities include investigations of harmony, voice leading, form, and implications for performance. Encourages students to debate the merits of different analyzes of the same work. Culminates in scholarly research by the student that builds upon previous Schenkerian analyzes. A writing-intensive course.",
+      "groups": [
+        "conc-music-theory"
+      ],
+      "id": "MUTC 4419",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "Introduction to Schenker"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135249",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Analysis and principles of writing in the contrapuntal styles of the common practice period to the present.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory"
+      ],
+      "id": "MUTC 4420",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "Counterpoint"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135250",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys 20th- and 21st-century musical styles and theoretical systems, teaching students how to analyze a variety of works in which Common-Practice Period norms of tonality, rhythm, form, timbre, and texture have been superseded by new developments. Corresponding compositional exercises deepen student understanding of these new approaches. Topics include free atonality, serialism, neoclassicism, minimalism, allusions, chance, and electronic composition. The course prepares students to analyze music, write model compositions, and develop analytical papers.",
+      "groups": [
+        "conc-composition",
+        "conc-music-theory"
+      ],
+      "id": "MUTC 4421",
+      "notes": [],
+      "prereqs": "MUTC 3200",
+      "title": "Contemporary Analytical and Compositional Techniques"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135251",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces music majors to the field of music theory pedagogy and enables students to teach written theory and aural skills at the undergraduate level. Students team-teach lessons in undergraduate courses in the School of Music and prepare materials for potential graduate school applications.",
+      "groups": [
+        "conc-music-theory"
+      ],
+      "id": "MUTC 4422",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "MUTC 3200",
+          "MUTC 3210"
+        ]
+      },
+      "title": "Music Theory Pedagogy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135258",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Individually tailored instruction is utilized for the development of music composition skills by writing in traditional and contemporary styles in both small and large forms and for a variety of media.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 4471",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": {
+        "or": [
+          "MUTC 3327",
+          "MUTC 3372"
+        ]
+      },
+      "title": "Composition III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135259",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Individually tailored instruction is utilized for the development of music composition skills by writing in traditional and contemporary styles in both small and large forms and for a variety of media.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 4472",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "MUTC 4471",
+      "title": "Composition IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135260",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "Individually tailored instruction is utilized for the development of music composition skills by writing in traditional and contemporary styles in both small and large forms and for a variety of media.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 4473",
+      "notes": [],
+      "prereqs": "MUTC 4472",
+      "title": "Composition V"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136957",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A senior-level research course designed to provide a learning experience that integrates the student\u2019s prior academic, theoretical, research, and applied experiences in music. Students fulfill projects that synthesize and disseminate their work through a lecture, lecture-performance, or scholarly paper.",
+      "groups": [
+        "conc-music-theory"
+      ],
+      "id": "MUTC 4496",
+      "notes": [
+        "Completion of 90 hours of course work",
+        "admitted music major"
+      ],
+      "prereqs": null,
+      "title": "Senior Capstone Music Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137405",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "A senior-level composition course designed to provide a learning experience that integrates the student\u2019s prior academic, theoretical, research, and applied experiences in music. Students fulfill projects that synthesize and disseminate their work through a culminating lecture-performance.",
+      "groups": [
+        "conc-composition"
+      ],
+      "id": "MUTC 4497",
+      "notes": [
+        "completion of 90 hours of coursework"
+      ],
+      "prereqs": "MUTC 4473",
+      "title": "Senior Composition Capstone Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138480",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an overview of the music therapy field, introducing students to its history, scope of practice, clinical applications, and professional competencies. In this course, students will explore how music therapy integrates musical, psychological, and therapeutic principles to address the physical, cognitive, emotional, and social needs of individuals across diverse populations and settings.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 1000",
+      "notes": [
+        "Music, B.M. major"
+      ],
+      "prereqs": null,
+      "title": "Introduction to the Profession of Music Therapy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138481",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an introduction to foundational principles of music therapy practice. Students examine professional ethics and competencies while developing beginning clinical skills through case studies and guided observation. This course provides the foundation for practicum and advanced clinical training in music therapy.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MUTH 2000",
+      "notes": [],
+      "prereqs": "MUTH 1000",
+      "title": "Clinical Foundations in Music Therapy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138482",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces theories, principles, and methods of music therapy practice. Students explore the therapeutic relationship, clinical applications of music across populations, and the integration of psychological and physiological concepts into treatment planning. Emphasis is placed on historical and contemporary models of music therapy, ethical standards of practice, and developing observation, assessment, and intervention skills.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MUTH 2100",
+      "notes": [],
+      "prereqs": "MUTH 2000",
+      "title": "Music Therapy Theory & Application I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138492",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course develops functional guitar skills essential for the practice of music therapy. Students will learn chord vocabulary, strumming and fingerpicking patterns, transposition, improvisation, and song-leading techniques that support therapeutic goals in clinical settings.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MUTH 2500",
+      "notes": [],
+      "prereqs": "MUED 3353",
+      "title": "Guitar Skills for Music Therapists"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138484",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is a supervised clinical experience introducing students to the application of music therapy in professional settings. Students observe, assist, and begin to facilitate music experiences with diverse populations under the guidance of board-certified music therapists. Emphasis is placed on developing professional skills, including session planning, clinical observation, therapeutic presence, ethical practice, and reflective journaling. Practicum I provides students with a structured opportunity to connect classroom learning with clinical practice, laying the foundation for progressive practicum experiences and professional competency in music therapy.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 3150",
+      "notes": [],
+      "prereqs": null,
+      "title": "Music Therapy Practicum I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138486",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course provides continued supervised clinical training for students in music therapy, building upon skills developed in Practicum I. Students engage in structured field experiences in healthcare, educational, and/or community settings, applying music therapy methods with increasing independence and clinical responsibility. Emphasis is placed on treatment planning, implementation, observation, documentation, and reflection. Students will further develop therapeutic presence, adaptability, and professional communication skills while working with diverse client populations.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "MUTH 3250",
+      "notes": [],
+      "prereqs": "MUTH 3150",
+      "title": "Music Therapy Practicum II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138483",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course introduces students to the principles, methods, and applications of research and assessment in music therapy. Students will explore qualitative and quantitative research designs, evidence-based practices, and ethical considerations in clinical work. Emphasis is placed on analyzing scholarly literature and applying research findings to clinical practice. Students will also gain hands-on experience with assessment tools and techniques used to evaluate client needs, track progress, and measure treatment outcomes.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 3300",
+      "notes": [],
+      "prereqs": "MUTH 2100",
+      "title": "Music Therapy Research & Assessment"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138488",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course provides music therapy students with expanded clinical experience and increasing responsibility in a supervised setting. Students engage in structured music therapy sessions across diverse populations, with emphasis on session planning, treatment documentation, therapeutic communication, and professional ethics. Building on prior practica, students are expected to demonstrate greater independence in leading interventions, integrating music therapy methods with clinical goals, and applying theoretical knowledge to practice. Regular supervision and reflective assignments guide students in refining their clinical musicianship, interpersonal skills, and professional identity as developing music therapists.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 3350",
+      "notes": [],
+      "prereqs": "MUTH 3250",
+      "title": "Music Therapy Practicum III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138485",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course builds upon the foundations established in Music Therapy Theory & Application I, advancing students\u2019 understanding of clinical techniques, treatment planning, and theoretical models in music therapy. Emphasis is placed on the application of music interventions for diverse populations, including individuals across the lifespan with varying developmental, medical, and psychological needs.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 3400",
+      "notes": [],
+      "prereqs": "MUTH 3300",
+      "title": "Music Therapy Theory & Application II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138489",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This advanced practicum provides supervised clinical experience in diverse music therapy settings, emphasizing greater independence, leadership, and professional competence. Students refine their ability to assess client needs, design and implement individualized interventions, and evaluate outcomes using evidence-based practices. The course integrates advanced clinical musicianship with professional documentation, treatment planning, and ethical decision-making. By the fourth practicum, students are expected to demonstrate increased autonomy in leading sessions, collaborate effectively with interdisciplinary teams, and begin developing a personal therapeutic style that reflects best practices in the field. Regular supervision and peer feedback guide the integration of theory, research, and practice, preparing students for the culminating internship and entry into professional music therapy practice.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 3450",
+      "notes": [],
+      "prereqs": "MUTH 3350",
+      "title": "Music Therapy Practicum IV"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138487",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course advances students\u2019 understanding of the theoretical foundations and applied practices of music therapy with a focus on clinical decision-making and treatment planning across diverse populations. Students refine skills in assessment, goal development, intervention design, and documentation while integrating current research and evidence-based practices. Emphasis is placed on the therapeutic relationship, clinical improvisation, and ethical considerations in music therapy practice. Through lecture, discussion, and applied experiences, students deepen their capacity to synthesize theory and application in preparation for advanced practicum and clinical work.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 3500",
+      "notes": [],
+      "prereqs": "MUTH 3400",
+      "title": "Music Therapy Theory & Application III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=138490",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is the culminating practicum providing music therapy majors with advanced, supervised clinical training in preparation for internship. Students refine their clinical musicianship, therapeutic presence, and professional competencies through immersive placements in diverse healthcare and community settings. Emphasis is placed on independent treatment planning, implementation, documentation, and evaluation, as well as integration of theoretical knowledge with clinical decision-making. Students are expected to demonstrate entry-level proficiency in applying music therapy methods across populations, collaborating with interdisciplinary teams, and adhering to professional and ethical standards. Successful completion of this practicum confirms readiness for internship and transition into the professional field of music therapy.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "MUTH 4150",
+      "notes": [],
+      "prereqs": "MUTH 3450",
+      "title": "Music Therapy Practicum V"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135374",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A broad survey of the major topics in psychology including, but not limited to, research methodology, biological and social factors influencing behavior, development, learning, memory, personality, and abnormal.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "PSYC 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to General Psychology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136716",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class introduces students to human development, from conception to death, emphasizing biological, cognitive, emotional, social and personality development. Scientific approaches for studying developmental psychology stress the importance of research methodology and research findings across the life-span. Theories of development and applications to real-world problems provide a context for understanding how humans change during the life-cycle.",
+      "groups": [
+        "conc-music-therapy"
+      ],
+      "id": "PSYC 2103",
+      "notes": [],
+      "prereqs": "PSYC 1101",
+      "title": "Introduction to Human Development"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-composition"
+        ],
+        "label": "Composition"
+      },
+      {
+        "groups": [
+          "conc-instrumental-performance"
+        ],
+        "label": "Instrumental Performance"
+      },
+      {
+        "groups": [
+          "conc-jazz-performance"
+        ],
+        "label": "Jazz Performance"
+      },
+      {
+        "groups": [
+          "conc-music-theory"
+        ],
+        "label": "Music Theory"
+      },
+      {
+        "groups": [
+          "conc-music-therapy"
+        ],
+        "label": "Music Therapy"
+      },
+      {
+        "groups": [
+          "conc-piano-performance"
+        ],
+        "label": "Piano Performance"
+      },
+      {
+        "groups": [
+          "conc-voice-performance"
+        ],
+        "label": "Voice Performance"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bm-music",
+    "name": "BM Music"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

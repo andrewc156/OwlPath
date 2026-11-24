@@ -1,0 +1,766 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137158",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This laboratory is a continuation of ENGR 1000 focused on civil and environmental engineering\u2019s place in society and fundamental engineering skills. The course provides expanded treatment of the practice of civil and environmental engineering through authentic, multidisciplinary projects. Project work reinforces the following topics: economics, computer-based tools, sustainability, entrepreneurial mindset, engineering design, teamwork, diversity, inclusion, and ethics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 1001L",
+      "notes": [],
+      "prereqs": "ENGR 1000",
+      "title": "Introduction to Civil and Environmental Engineering Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136074",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of different materials used for light and heavy construction projects, such as aggregates, woods, metals, concretes, masonry, and bituminous materials. An overview of materials science will be introduced as well.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3501",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3131",
+      "title": "Materials for Civil & Construction Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136358",
+      "catalogYear": "2026-2027",
+      "coreqs": "CE 3501",
+      "credits": "1",
+      "description": "A study of standard laboratory tests (ASTM and/or AASHTO) on the materials commonly used in Civil and Construction engineering field. The lab will reinforce the principles of CE 3501 through laboratory experiments. Developing experimental data into effective laboratory reports will be emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3502",
+      "notes": [],
+      "prereqs": null,
+      "title": "Materials for Civil & Construction Engineering Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136075",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Introduction to fundamental knowledge of soil/foundation engineering for construction projects such as commercial building, highway, bridge, airport, and water/wastewater treatment plant. Course topics will include composition of soils, subsurface investigation, soil classification systems, groundwater flow, permeability, compaction, stress/strain analysis, shear strength, consolidation/settlement, shallow and deep foundations, earth retaining structures, slope stability, and ground modification methods.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3701",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 3131",
+          "ENGR 3343"
+        ]
+      },
+      "title": "Geotechnical Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136076",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course introduces environmental engineering issues such as: legal aspects, engineering solutions, and basic approaches to abatement system design including water supply, water treatment, water quality management, wastewater treatment, air pollution control, solid and hazardous waste management, and environmental impacts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3702",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1212",
+          "ENGR 3343"
+        ]
+      },
+      "title": "Introduction to Environmental Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136077",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to environmental engineering design of unit processes and pollution abatement systems such as: water treatment plant design, wastewater treatment plant design, and sludge management system design.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3703",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": {
+        "and": [
+          "CE 3702",
+          "CE 3704"
+        ]
+      },
+      "title": "Environmental Engineering Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136302",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course applies the basic chemistry and chemical calculations to measure physical, chemical, and bacteriological parameters of water and wastewater. Laboratory methods and interpretation of results with regard to environmental engineering applications such as design and operation of water and wastewater treatment processes, and to the control of the quality of natural waters are also covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3704",
+      "notes": [
+        "concurrent registration"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Introduction to Environmental Engineering Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136078",
+      "catalogYear": "2026-2027",
+      "coreqs": "CE 3701",
+      "credits": "1",
+      "description": "A study of standard laboratory tests (ASTM and/or AASHTO) on soils. The lab will reinforce the principles of Geotechnical Engineering studied in CE 3701, and developing experimental data into effective laboratory reports will be emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 3708",
+      "notes": [],
+      "prereqs": "ENGR 3131",
+      "title": "Geotechnical Engineering Lab"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136298",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the concepts of generation, storage, collection, transfer, treatment, and disposal of solid waste. Students also address related engineering and management issues.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 4343",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Solid Waste Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136440",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on fundamental concepts of air pollution, emission sources, atmospheric dispersion, ambient concentrations, adverse effects, governmental regulations, emission standards, air-quality standards, processes and equipment for controlling emissions, and noise pollution.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 4353",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Air Pollution Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136366",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students learn the chemical principles and applications needed to develop advanced problem-solving techniques involved with many water/wastewater treatment processes, air pollution, ionization, and natural systems.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 4363",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Environmental Engineering Chemistry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136367",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "Students study the application of basic chemistry and chemical calculations to measure chemical and bacteriological parameters of water, wastewater, and soil. Laboratory methods and interpretation of results with regard to environmental engineering applications such as design and operation of wastewater treatment processes, soil and sediment remediation, and environmental health are also explored.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 4371",
+      "notes": [],
+      "prereqs": "CE 3704",
+      "title": "Environmental Engineering Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136368",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended to provide fundamental knowledge about microorganisms in the natural and engineered environment and their role in the cycling of elements, both natural and anthropogenically introduced into the environment. The course focuses on understanding their role in the biodegradation of contaminant chemicals and the application of processes that take advantage of the microbiological biodegradation processes.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 4373",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Environmental Engineering Microbiology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136667",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes the concept of sustainability as an extension of current practices and standards by addressing new concerns and constraints of engineering projects. It also emphasizes the new holistic approach of sustainability that requires some new ways of thinking and frameworks.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 4383",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Sustainability for Engineers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136083",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course presents the hydrological processes and their relationship to the design of structures for control and management of water resources, rainfall-runoff relationships, and probability and frequency analysis as they relate to surface and groundwater hydrology.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 4703",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3343",
+      "title": "Engineering Hydrology"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136084",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course applies principals of fluid mechanics to the design and analysis of hydraulic systems. The course emphasizes open channel flow and addresses topics of interest to the Civil Engineer. Topics include hydraulic grade line calculations, pump design, culvert analysis and design, based flood elevation studies using HEC-RAS, non-uniform flow, gutters and inlets, water distribution, open channel design.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CE 4704",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 3343",
+      "title": "Engineering Hydraulic Analysis and Design"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136278",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students examine the definition, characterization, classification, regulation, treatment, and disposal of hazardous waste. Evaluation of unit operations and processes of importance in the treatment and disposal of common organic and inorganic hazardous wastes are also covered.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 4708",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "CE 3702",
+      "title": "Hazardous Waste Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136089",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is the capstone design experience for graduating students in the Civil and Environmental Engineering department.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CE 4800",
+      "notes": [
+        "Engineering Standing Senior Standing"
+      ],
+      "prereqs": {
+        "or": [
+          "CE 4703",
+          "CE 3703"
+        ]
+      },
+      "title": "Senior Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134442",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "MATH 1111",
+          "MATH 1113",
+          "MATH 1190",
+          {
+            "external": "MATH 1179"
+          },
+          "MATH 2202"
+        ]
+      },
+      "credits": "3",
+      "description": "First course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors. Topics to be covered include composition of matter, stoichiometry, periodic relations, and nomenclature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134443",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "Laboratory exercises designed to supplement the lecture material of CHEM 1211.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1211L",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": null,
+      "title": "Principles of Chemistry Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134444",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Second course in a two-semester sequence covering the fundamental principles and applications of chemistry designed for science majors.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "CHEM 1212",
+      "notes": [
+        "by placement to MATH 1113 or higher"
+      ],
+      "prereqs": {
+        "and": [
+          "CHEM 1211",
+          {
+            "or": [
+              "MATH 1111",
+              "MATH 1113",
+              "MATH 1190",
+              {
+                "external": "MATH 1179"
+              },
+              "MATH 2202"
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Chemistry II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136158",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to graphic principles and practices in civil engineering technology. This course includes the development of the basic drafting skills needed to produce civil engineering plans and graphical presentations. The elements of descriptive geometry are addressed. A major component of the course is an introduction to the fundamentals of computer-aided drafting and design (CADD).",
+      "groups": [
+        "major-required"
+      ],
+      "id": "EDG 2160",
+      "notes": [],
+      "prereqs": null,
+      "title": "Civil Graphics and Computer Aided Drafting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137152",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course explains the engineering education pathways in the Southern Polytechnic College of Engineering and Engineering Technology. The course introduces University and College resources as well as an overview of career opportunities, available campus facilities and student organizations. The course also covers advising and course planning, and some of the skills necessary for various Engineering disciplines. Students will learn basic skills in problem solving, computation, design, and communication that is needed for future engineering courses.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGR 1000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136176",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course studies the force vectors, equilibrium of particles, equilibrium of rigid bodies in two and three dimensions; trusses, friction, centroids and moments of inertia.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGR 2214",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "PHYS 2211",
+          "PHYS 2211L"
+        ]
+      },
+      "title": "Engineering Mechanics - Statics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136180",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The study and mathematical modeling of the mechanical behavior of materials under load. Emphasis will be on the elastic conditions of equilibrium, compatibility and material behavior. Includes study of stress and strain in columns, connectors, beams, eccentrically-loaded members, as well as introduction to statically indeterminate members.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3131",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "ENGR 2214",
+          "MATH 2202"
+        ]
+      },
+      "title": "Strength of Materials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136182",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces probability theory and statistical analysis techniques for engineering applications. Major topics include probability and sampling distributions, conditional probability and Bayes\u2019 theorem, estimation of parameters, hypothesis test and statistical inference, and linear regression techniques. Students will apply basic statistical techniques to analyze various types of real world engineering data. Emphasis will be given to standard engineering practices. Computer software (e.g., spreadsheet programs) will be used.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3305",
+      "notes": [
+        "Engineering Standing Requirements"
+      ],
+      "prereqs": "MATH 2202",
+      "title": "Data Collection and Analysis in Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136183",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A study of the project cost measurement and analysis techniques unique to the engineering profession. Cost analysis procedures and their relationship with cost estimation methodologies are examined. Emphasis is placed on techniques for economy studies of multiple alternatives, uncertainties in forecasts, increment costs, taxes, and retirement and replacement of highways, transportation systems, bridges and publics works facilities. Current economic issues are also discussed.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3324",
+      "notes": [
+        "Engineering Standing required"
+      ],
+      "prereqs": {
+        "and": [
+          {
+            "or": [
+              "MATH 1190",
+              {
+                "and": [
+                  {
+                    "external": "MATH 1179"
+                  },
+                  {
+                    "external": "MATH 1189"
+                  }
+                ]
+              }
+            ]
+          },
+          "EDG 2160"
+        ]
+      },
+      "title": "Project Cost Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136184",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamentals of fluid statics and dynamics including hydrostatic forces on submerged plates, continuity of fluid flow and fluid flow principles. The applications of turbulent and laminar flow in conduits are emphasized. The system approach is practiced in analyzing the applications of flow measuring devices, pipings, pumps and turbines.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3343",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": "ENGR 2214",
+      "title": "Fluid Mechanics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136185",
+      "catalogYear": "2026-2027",
+      "coreqs": {
+        "or": [
+          "ENGR 3343",
+          {
+            "external": "ME 3343"
+          }
+        ]
+      },
+      "credits": "1",
+      "description": "The laboratory reinforces the principles of fluid mechanics, studied in ENGR 3343 or ME 3343, as they apply to hydraulic and pneumatic power, and fluid flow. Developing experimental data into effective laboratory reports is emphasized.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGR 3345",
+      "notes": [
+        "Engineering Standing"
+      ],
+      "prereqs": null,
+      "title": "Fluid Mechanics Laboratory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137067",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Environmental Science, the study of interactions between humans and the environment, is an interdisciplinary science course that integrates principles from biology, chemistry, ecology, geology, and non-science disciplines. Issues of local, regional, and global concern will be used to help students explain scientific concepts and analyze practical solutions to complex environmental problems. Emphasis is placed on the study of ecosystems, human population growth, energy, pollution, and other environmental issues as well as important environmental regulations. Environmental Science 2202 is designed for non-STEM students and is not allowed for STEM majors.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENVS 2202",
+      "notes": [],
+      "prereqs": null,
+      "title": "Environmental Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134771",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students are introduced to the basic design of state-of-the-art GIS and its analytical capabilities. Topics may include: Geodatabases, applications in GIS, map projection information, raster/vector data models, introduction to available data on the internet, and basic GIS analytical functions such as querying and overlaying. The course uses ArcGIS 10 to introduce these concepts in a hands-on environment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "GEOG 3315",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Geographic Information Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an in-depth study of the properties of algebraic, exponential and logarithmic functions as needed for calculus. Emphasis is on using algebraic and graphical techniques for solving problems involving linear, quadratic, piece-wise defined, rational, polynomial, exponential, and logarithmic functions.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1111",
+      "notes": [],
+      "prereqs": null,
+      "title": "College Algebra"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an intensive study of the basic functions needed for the study of calculus. Topics include algebraic, functional, and graphical techniques for solving problems with algebraic, exponential, logarithmic, and trigonometric functions and their inverses.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1113",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1111",
+      "title": "Precalculus"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the first in the calculus curriculum and introduces the central concepts of calculus. Topics include limits, continuity, derivatives of algebraic and transcendental functions of one variable, applications of these concepts and a brief introduction to the integral of a function.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 1190",
+      "notes": [
+        "By Placement"
+      ],
+      "prereqs": "MATH 1113",
+      "title": "Calculus I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is the second in the calculus curriculum and consists of two parts. The first part is concerned with the techniques of integration and applications of the integral. The second part is concerned with infinite sequences and series.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "MATH 2202",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Calculus II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135764",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An introduction to the theory of ordinary differential equations (ODEs), methods of solving first and higher order linear differential equations and linear systems, some applications in the sciences and engineering, the Laplace transform and its application in solving differential equations and linear systems, and Euler\u2019s numerical algorithm.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "MATH 2306",
+      "notes": [],
+      "prereqs": "MATH 2202",
+      "title": "Ordinary Differential Equations"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135310",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introductory calculus-based course on classical mechanics, waves, and special relativity. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in kinematics and dynamics, use the law of universal gravitation to analyze the behavior of falling objects and objects in orbital motion, describe simple harmonic motion, oscillations, and waves, and explain the basic ideas of special relativity.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "MATH 1190",
+          {
+            "and": [
+              {
+                "external": "MATH 1179"
+              },
+              {
+                "external": "MATH 1189"
+              }
+            ]
+          }
+        ]
+      },
+      "title": "Principles of Physics I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135821",
+      "catalogYear": "2026-2027",
+      "coreqs": "PHYS 2211",
+      "credits": "1",
+      "description": "PHYS 2211L is an introductory laboratory for the calculus-based course on classical mechanics, and waves. The student will be able to apply Newton\u2019s laws and conservation of energy and momentum to various problems in the laboratory, and perform measurements of simple harmonic motion, oscillations, and waves. The analysis of sources of error and formal propagation of uncertainties will also be developed, as well as graphical techniques and the method of least-squares fits.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "PHYS 2211L",
+      "notes": [],
+      "prereqs": null,
+      "title": "Principles of Physics Laboratory I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136224",
+      "catalogYear": "2026-2027",
+      "coreqs": "SURV 2221L",
+      "credits": "3",
+      "description": "This course deals with the determination of angles, distances, elevations and horizontal and vertical location using total station and level. Simple horizontal and vertical curves and contouring are covered in this course. This course also introduces the Global Positioning System and coordinate computations.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SURV 2221",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDG 2160",
+          "MATH 1113"
+        ]
+      },
+      "title": "Surveying I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136540",
+      "catalogYear": "2026-2027",
+      "coreqs": "SURV 2221",
+      "credits": "1",
+      "description": "This course deals with the measurement of angles, distances, elevations, horizontal and vertical location using total station and level in the field. This course also covers a topographic survey project.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "SURV 2221L",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "EDG 2160",
+          "MATH 1113"
+        ]
+      },
+      "title": "Surveying I Lab"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "bs-environmental-engineering",
+    "name": "BS Environmental Engineering"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

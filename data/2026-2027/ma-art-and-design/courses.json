@@ -1,0 +1,389 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133549",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Investigation of creative problems in digital animation with exploration leading to professional caliber resolutions. Problems can include multiple issues with storyboarding, character design, environmental design, and animation production.",
+      "groups": [
+        "conc-digital-animation"
+      ],
+      "id": "ANIM 6100",
+      "notes": [
+        "Admission to MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Creative Problems in Digital Animation I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133550",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Advanced investigation of creative problems in digital animation with exploration leading to professional caliber resolutions. This can be a sequential project based on work done in Creative Problems in Digital Animation I or an entirely new creative objective created in collaboration with instructor approval.",
+      "groups": [
+        "conc-digital-animation"
+      ],
+      "id": "ANIM 6105",
+      "notes": [
+        "Admission to the MA in Art & Design required"
+      ],
+      "prereqs": "ANIM 6100",
+      "title": "Creative Problems in Digital Animation II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133551",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course fosters a greater understanding of the history and current trends in digital animation, sequential arts, illustration, acting, voice acting and other commercial art fields. The students\u2019 research work will require them to reach out to professionals in these fields for interviews and developing their networking skills. A focus on presenting material at conferences and/or to undergraduate classes will be emphasized.",
+      "groups": [
+        "conc-digital-animation"
+      ],
+      "id": "ANIM 6110",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Research for Commercial Creatives"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133552",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class offers the study of acting, which furthers skills in emotional character and inanimate object animation. Voice acting will be studied in addition to physical acting, creating strong character acting skills. This will allow students to apply their knowledge to a variety of creative industry work including feature films, television, stop motion films, independent film productions, video game productions and with commercial advertising agencies.",
+      "groups": [
+        "conc-digital-animation"
+      ],
+      "id": "ANIM 6115",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Emoting and Communication for Creatives"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133872",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a digital art and experimental media studio and seminar course designed to support innovative research and production at the graduate level. It will focus on investigating new technologies in digital animation, with research into current and latest technological advances and the creative application of those technologies. Students will examine various advancements in emerging animation trends and identify connections within contemporary and historical works.",
+      "groups": [
+        "conc-digital-animation"
+      ],
+      "id": "ANIM 6117",
+      "notes": [],
+      "prereqs": null,
+      "title": "Experimental Media"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133553",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course addresses the development of visual literacy including concepting, initial approaches of creating an encompassing aesthetic, creating timelines for production, and exploring the refining aspects of creative production. Students will devise an advanced creative problem and provide a documented account of their creative journey to present as a process journal at the end of the course.",
+      "groups": [
+        "conc-digital-animation"
+      ],
+      "id": "ANIM 6120",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Ideation and Iteration for Creatives"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133554",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to give art educators the opportunity to build on past instruction, experience, and practice with various medium/media with the expressed goal of further developing creativity, honing technical skills, diverging into areas of experimentation with studio practice and building pedagogy for classroom practices. Fundamental to this course, and augmenting the instructor\u2019s role, must be a dedicated and consistent conversation between all the participating students. Due to the limitation a web-based format places on a studio art course dedicated to various media, this course must rely as much on written accounts, descriptions, and appraisals as it would have on the viewing of actual artworks. This course should be considered as much seminar about media as a studio class.",
+      "groups": [
+        "conc-art-education"
+      ],
+      "id": "ARED 6100",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Exploration of Visual Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133555",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides an opportunity for art educators to investigate studio-based problems; examine strategies relevant to their classroom teaching; and investigate and explore contemporary theory and practice in the field of art education. Topics include but are not limited to originality, appropriation, deconstruction, identity politics, post-feminism, commodity critique, installation and performance, digital media, activism and globalism, as they relate to the field of art education. The class examines art and critical theory associated with major themes that have emerged in recent art education locally, nationally, and globally.",
+      "groups": [
+        "conc-art-education"
+      ],
+      "id": "ARED 6105",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Contemporary Teaching Strategies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133556",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Drawing on techniques acquired in previous courses students explore the connections between art making, self-reflections, examination of teaching methodology and current issues in the field of art education. Building on this iterative and self-reflective process students will develop a plan to make connections between their studio process and their teaching.",
+      "groups": [
+        "conc-art-education"
+      ],
+      "id": "ARED 6110",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Advanced Studio Practices and Reflective Teaching Course"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133557",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a STEAM-based learning and research course in which students will utilize technology-based approaches to art making. The focus includes the exploration of digital media applications and equipment, online coursework, and digital portfolios. The course integrates computer-aided technology into the learning environment by focusing on the digital output of art objects. Computer-aided design will be taught through a variety of programs. Final projects can be either be production ready, or they can be made tangible by equipment such as laser cutters, 3D printers, CNC routers, water jet machines, vinyl cutters, and CNC plasma cutters available at KSU. There will be a focus on the exploration of digital media programs and equipment.",
+      "groups": [
+        "conc-art-education"
+      ],
+      "id": "ARED 6115",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "STEAM and Maker Space Studio"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133558",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The focus of this course will be on advanced media concepts and applications of multi-arts methods and materials for art classrooms. On-line class work involves the development of media skills (responding to the National Core Arts Standards in Media) for presentational and practical purposes within the contemporary elementary school environment. The multi-arts focus of this course is on theatrical design (responding to the National Core Arts Standards in Theatre). Course standards are organized around the National Association of Schools of Art and Design and the National Art Education Professional Standards for Visual Art Educators.",
+      "groups": [
+        "conc-art-education"
+      ],
+      "id": "ARED 6120",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Media Arts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133559",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides historical and contemporary developments in the field of art and design, as a means to compose a personal philosophy relevant to professional practices. In-depth exploration results in the integration of concepts and issues to create a comprehensive view of the multiple fields. Technological applications integrated with social, psychological, affective, and contextual components of creating relevant to art practices are a primary focus.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 6010",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Context, Culture, and Contemporary Practices"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133560",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores theory and criticism in methods and design thinking by researching, critically reading and interpreting works for professional application. Theories and models of art practice are explored ranging from classic academic approaches to fieldwork to experimental prototyping.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 6020",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Methods, Theory, and Criticism"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133561",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will explore the intersections of art and technology including ideation, experimentation, empathy, and interdisciplinary practices. Through readings, viewings, group discussion, projects, iterations, critiques, and guest presentations, this course will examine a range of technologically mediated art and design practices. This will include emergent new media art and design research topics to address individual needs, the promise of technology, and requirements for creative success.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 6030",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Technologies, Innovation, & Design Thinking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133563",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on a systematic inquiry of an original research question. It requires students to identify an area of study, research its major beliefs, and work toward the development and completion of a studio project in this area of practice in collaboration with disciplinary experts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 7050",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Project: Systematic Inquiry"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133565",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course focuses on the continuation of a systematic inquiry of an original research question, research its major constructs, and completion of a professional project in this area of practice in collaboration with disciplinary experts.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ART 7150",
+      "notes": [],
+      "prereqs": "ART 7050",
+      "title": "Project: Research & Final"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133569",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the different types of museums, their functions in society, and the issues and challenges they face. Visits to local museums and presentations by guest speakers will help to define the roles of curators, registrars, museum educators, and other museum staff, as well as their connections with artists, collectors, and the public. The practices and varieties of museum organizational structures, collection management, and exhibition preparation are introduced through the study of selected examples of museum-based research.",
+      "groups": [
+        "conc-museum-studies"
+      ],
+      "id": "MUSE 6100",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "World of Museums"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133571",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the role of technologies in museums, with emphasis on collection management, and the emerging worlds of online collections and virtual museums. Attention and practical experience are given in the fields of collections management software, database creation and a component of this course will take the form of hands-on collection care to be completed during class time. Other issues to be explored include emerging technologies and their relevance to museums, such as 3D scanning, photogrammetry, 3D printing, and the development of interactive exhibitions that employ virtual reality technologies.",
+      "groups": [
+        "conc-museum-studies"
+      ],
+      "id": "MUSE 6110",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Technologies and Museum Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133572",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course enables students in the MA program to explore in-depth the history of the art, architecture, or archaeology of a period or culture relevant to the career in museum studies or cultural heritage that they wish to pursue. The exact period, culture, and the topic will be determined in consultation with the instructor and where appropriate in consideration of current course offerings. The class will include an in-depth research paper on the art, architecture, and artifacts of the period, culture or theme being studied, which should be connected to research in the fields of museums or cultural heritage.",
+      "groups": [
+        "conc-museum-studies"
+      ],
+      "id": "MUSE 6115",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Topics in Art History"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133573",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a critical examination of the art museum from early collecting practices to the development of the modern museum in the 19th and 20th centuries and its changing roles in the present. How art museums categorize, create, and propagate art histories through the collection, preservation and exhibition of artworks is a central focus. The changing role of curators in art museum contexts is also of concern.",
+      "groups": [
+        "conc-museum-studies"
+      ],
+      "id": "MUSE 6120",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Art Museum and Curation in Contemporary Context"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133574",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys various categories of artifacts and in so doing illustrates the methodology that lies behind working with this kind of material culture. This methodology is applicable to any period or civilization. Categories to be explored in detail may include: ceramic vessels; tools and weapons; bronze and terra cotta statuettes; oil lamps; glass; and coins and medals. This study of material objects will go beyond mere identification and typology to demonstrate how they can be used to understand the past. The course involves hands-on work with artifacts, as well as visits to the store-room of a public collection. Students will develop research projects on an artifact type or designated body of material of their own choice.",
+      "groups": [
+        "conc-museum-studies"
+      ],
+      "id": "MUSE 6125",
+      "notes": [
+        "Admission to the MA in Art",
+        "Design"
+      ],
+      "prereqs": null,
+      "title": "Artifact Studies"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-digital-animation"
+        ],
+        "label": "Digital Animation"
+      },
+      {
+        "groups": [
+          "conc-art-education"
+        ],
+        "label": "Art Education"
+      },
+      {
+        "groups": [
+          "conc-museum-studies"
+        ],
+        "label": "Museum Studies"
+      }
+    ],
+    "id": "ma-art-and-design",
+    "name": "MA Art and Design"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

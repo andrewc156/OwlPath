@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **MTRE 4710**
-  - missing operator before 'MTRE 3110', assumed and
-- **PHYS 3230**
-  - missing operator before 'PHYS 2212L', assumed and
+None.
 
 ## Notes
 

@@ -2,10 +2,7 @@
 
 ## Warnings needing review
 
-- **CRJU 4499**
-  - could not parse (unexpected 'and'): CRJU 1101; CRJU 3301; Criminal Justice Major; and 90 credit hours
-- **SPAN 2034**
-  - unrecognized: One year of high school Spanish
+None.
 
 ## Notes
 

@@ -1,0 +1,674 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133148",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers foundations of programming with emphasis on program design and computer science concepts. A modern, Object-Oriented language is used. Topics include primitive data types, arithmetic and logical operators, selection and repetition structures, methods, arrays, objects and classes, inheritance, polymorphism, exception handling, and file I/O. Programming projects are included.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133149",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the following topics: Number Systems, Two-level combinational logic, Multilevel combinational logic, Sequential logic design, Finite state machine design, Arithmetic circuits, Assembly and machine languages with a focus on concepts, and the principles of computer organization. The objective of this course is to learn the Concepts of Digital Systems, Combinational Circuits, Sequential Circuits, and Computer Architecture.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5020",
+      "notes": [],
+      "prereqs": null,
+      "title": "Computer Organization and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133150",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers data structures and algorithms including runtime analysis and big-oh notation. A modern language will be used. Topics include dynamically allocating memory, pointer declaration and use, and the implementation of data structures such as lists, stacks, queues, binary search trees, and graphs. Analysis techniques are provided, such as the growth of functions, advanced sorting techniques, elementary graph algorithms, and minimum spanning trees. Programming projects are included.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5040",
+      "notes": [],
+      "prereqs": "CS 5000",
+      "title": "Data Structures and Algorithms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133177",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers discrete mathematics topics, including elementary set theory, relations, functions, principles of counting, graphs, formal logic, recursion, and mathematical proof methods. This course includes introduction to formal languages such as regular and context-free languages. Emphasis is given to how mathematics relates to computer science.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5070",
+      "notes": [],
+      "prereqs": null,
+      "title": "Mathematical Structures for Computer Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132958",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Topics include computer performance issues, instruction set architectures, RISC versus CISC, performance enhancing techniques, memory hierarchy (including cache memory), pipelining, multiprocessor architectures, and implications to operating system design.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 6021",
+      "notes": [
+        "Or coursework in computer architecture and operating systems, as determined by admissions analysis"
+      ],
+      "prereqs": "CS 5020",
+      "title": "Advanced Computer Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133176",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 5040",
+      "credits": "3",
+      "description": "This course covers Operating Systems topics including memory and process management for high-performance computing and architectures, advanced threading/concurrency, and distributed architectures and computing. The course provides in-depth study of operating systems with emphasis on performance modeling with simulation and reading research papers on the various advanced topics of operating systems. Discussion of grid computing and cloud computing, virtualization and hypervisors, scheduling for real-time, symmetric multiprocessing and hardware multithreading, effects and control of hardware caches. This course includes a research project.",
+      "groups": [
+        "conc-data-science",
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 6025",
+      "notes": [],
+      "prereqs": "CS 5020",
+      "title": "Operating Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133131",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course aims to provide a foundation in data communications and computer networks. Topics include layered network protocols with emphasis on functionality and analysis such as digital data transmission and encoding, layered protocol models (OSI), Internet protocol (TCP/IP), Internet client-server software, and network design methodology.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 6027",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 5000",
+          "CS 5020"
+        ]
+      },
+      "title": "Computer Networks"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133121",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 5040",
+      "credits": "3",
+      "description": "This course covers theoretical topics of computer science including automata, formal languages (such as regular and context-free languages), grammars, Turing machines, algorithms, nondeterminism, computability, decidability, and complexity. Topics also include intractable and NP-complete problems for graphs (such as TSP, Node Cover, Hamiltonian Circuit, Independent Set) and polynomial reducibility.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 6041",
+      "notes": [],
+      "prereqs": "CS 5070",
+      "title": "Theory of Computation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133132",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers advanced algorithm design strategies and analysis using formal and mathematical techniques. Topics include asymptotic analyses of complexity bounds using big-O, little-o, omega, and theta notations. The algorithmic strategies (brute-force, greedy, divide-and-conquer, recursive backtracking, dynamic programming, branch-and-bound, heuristics, and space-and-time tradeoffs) are covered. Also included are standard graph and tree algorithms. Additional topics may include amortized analysis, NP completeness, basic approximate algorithms, and introduction to polynomial reduction.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 6045",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 5040",
+          "CS 5070"
+        ]
+      },
+      "title": "Advanced Algorithms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133539",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides in-depth coverage of database management systems, database processing, data modeling, database design, development, and implementation. Particular emphasis is placed on the relational approach to database management and processing. This course includes implementation of current DBMS tools and SQL. Ethical and security topics related to databases will be discussed.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "CS 6070",
+      "notes": [],
+      "prereqs": "CS 5000",
+      "title": "Database Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132955",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 6045",
+      "credits": "3",
+      "description": "This course covers prominent algorithms and techniques for developing effective, efficient, and scalable data warehousing and data mining tools. Topics discussed in this course include: data visualization, data integration, data warehousing, online analytical processing, data cube technology, advanced pattern mining, advanced classification analysis, advanced clustering analysis, outlier detection, data mining trends and research frontiers.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "CS 7050",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": "CS 6070",
+      "title": "Data Warehousing and Mining"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133111",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the-state-of-the-art artificial intelligence techniques in Robotics. It covers basic concepts of robots and methods of artificial intelligence in robotics. This course begins by describing what the latest generation of artificial intelligence techniques can do. After an introduction of some basic concepts and techniques, the course illustrates both the potential and current limitations of these techniques with examples from a variety of applications. We spend some time on understanding the strengths and weaknesses of human decision-making and learning, specifically in combination with AI systems. Exercises will include hands-on application of basic AI techniques as well as selection of appropriate technologies for a given problem and anticipation of design implications. In a final project, groups of students will participate in the creation of an AI-based robotic system.",
+      "groups": [
+        "conc-artificial-intelligence"
+      ],
+      "id": "CS 7075",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": "CS 5020",
+      "title": "Artificial Intelligence and Robotics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133142",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course we will discuss concepts including cloud computing, cloud computing architecture, Infrastructure as a Service (IaaS), Platform-as-a-Service (PaaS), Software as a Service (SaaS), etc. We will study commercial products such as Amazon EC2. We will also discuss advanced topics such as Cloud simulation tools and open sourced software for Cloud environment.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "CS 7125",
+      "notes": [
+        "Equivalent"
+      ],
+      "prereqs": "CS 5020",
+      "title": "Cloud Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133538",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers several classical and modern topics in graph algorithms with emphasis on developing problem-solving skills with graph algorithms. Topics include graph embedding, graph clustering, distances in graphs, flows in graphs, graph compression, and algorithmic graph-minor theory.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7253",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 6041",
+          "CS 6045"
+        ]
+      },
+      "title": "Graph Algorithms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133134",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will cover advanced concepts and techniques in database systems. Topics include advanced concepts in relational databases, data warehousing and mining, and NoSQL distributed database technology for big data analytics.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "CS 7260",
+      "notes": [
+        "a Bachelor of Science in Computer Science degree"
+      ],
+      "prereqs": "CS 6070",
+      "title": "Advanced Database Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133112",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to information retrieval for knowledge discovery. It covers algorithms, design, and implementation of modern information retrieval systems. This course introduces a variety of basic principles, techniques and modern advances for searching, managing, and mining information. Topics include Search engine architecture, Retrieval models, Retrieval evaluation, Relevance feedback, Link analysis, and Search applications.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7263",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 6041",
+          "CS 6045"
+        ]
+      },
+      "title": "Information Retrieval"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133135",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers algorithms and tools for building MapReduce Applications with Hadoop or Spark for processing gigabyte, terabyte, or petabyte-sized datasets on clusters of commodity hardware. The course discusses a wide range of data sets and learning algorithms.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "CS 7265",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": "CS 6045",
+      "title": "Big Data Analytics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133423",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the-state-of-the-art machine learning techniques. It covers machine learning methods in supervised learning, unsupervised learning, and ensemble. This course includes applications of advanced machine learning techniques to solve challenging problems.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7267",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": {
+        "or": [
+          "CS 6045",
+          {
+            "external": "MTRE 6100"
+          }
+        ]
+      },
+      "title": "Machine Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133540",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the theory and practice of Natural Language Processing (NLP). It covers modern NLP techniques for computers to understand natural language and to produce services such as language translation, question answering, conversation agent, and performing any language-related tasks. The course covers major problems in NLP such as word similarities, parsing, machine translation, entity recognition, question answering, and sentence comprehension. The course includes the design and development of NLP systems and applications.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7347",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": "CS 6041",
+      "title": "Natural Language Processing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133541",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to deep learning and the methodologies for applying artificial neural networks. It covers the fundamentals of deep learning and the theoretical principles of neural networks, including deep learning models such as convolutional architectures, recurrent architectures, and other types of neural networks.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7357",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": "CS 6045",
+      "title": "Neural Networks and Deep Learning"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133120",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces concepts and techniques in machine vision. It covers a variety of image processing techniques for the design and analysis of efficient algorithms for real-world applications, such as optical character recognition, face detection and recognition, motion estimation, human tracking, and gesture recognition. Topics include basic image enhancement, corner and edge detection, image morphology, linear and non-linear filters, image transformations, camera models, two-dimensional and three-dimensional image geometry, clustering and segmentation, classification, object recognition and Bag-of-Words models, image texture, shape analysis, and tracking.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7367",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": {
+        "or": [
+          "CS 6045",
+          {
+            "external": "MTRE 6100"
+          }
+        ]
+      },
+      "title": "Machine Vision"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133424",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamentals of artificial intelligence (AI). Topics include problem solving, knowledge representation and reasoning, intelligent agents, uncertainty and decision-making, planning, perception and action, learning, and their applications (e.g., data mining, information retrieval). Students will design and implement key components of intelligent agents of moderate complexity using high-level programming languages and evaluate their performance. Students are expected to develop familiarity with current research problems, research methods, and AI literature.",
+      "groups": [
+        "conc-artificial-intelligence",
+        "conc-data-science"
+      ],
+      "id": "CS 7375",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": {
+        "or": [
+          "CS 6045",
+          {
+            "external": "MTRE 6100"
+          }
+        ]
+      },
+      "title": "Artificial Intelligence"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133109",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 6045",
+      "credits": "3",
+      "description": "This course covers mathematical foundations of cryptography. Topics including mathematical modeling, threats, and proofs of required system security properties. This course has topics in three major areas: symmetric encryption, public-key encryption and digital signature, and cryptographic protocols. This course includes programming of simple cryptography.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 7530",
+      "notes": [],
+      "prereqs": "CS 6041",
+      "title": "Advanced Cryptography"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133123",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamental concepts and advanced topics in software and operating system security. Both hardware and software mechanisms designed to protect software, including OS, will be studied. The covered topics include buffer overflows, defense mechanisms, return-oriented programming, reverse engineering, vulnerabilities analysis, mobile security, hardware platform security, and embedded system security.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 7535",
+      "notes": [
+        "a Bachelor of Science in Computer Science degree"
+      ],
+      "prereqs": "CS 6025",
+      "title": "Software and OS Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133136",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers comprehensive study of the technological, systematic inspection and analysis of the computer systems and contents for evidence or supportive evidence of a crime. It focuses on legal systems, digital forensics, search and seizure, digital evidence, and media analysis. Students will be introduced to tools and techniques, and trends in digital forensics field.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 7537",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 6025",
+          "CS 6021"
+        ]
+      },
+      "title": "Digital Forensics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133542",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers principles and practices of computer systems and networks security, various attack techniques and effective ways to defend against them. The topics include network attacks and defenses, web and email security, malware, social engineering attacks, privacy, and digital rights management. The course work includes network programming using various tools in understanding and analyzing packet traces and network traffic.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 7540",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 7530",
+          "CS 6027"
+        ]
+      },
+      "title": "Network Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133543",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the role of data and data analytics in computing security and privacy, as well as the design and implementation of secure computing systems utilizing data-oriented security analysis. This course covers the fundamentals of threat models and attacks, and techniques for achieving security. This course also covers artificial intelligence for security and the use machine learning for making decisions related to security and privacy; misuse detection on social media; tracking technologies; data (de-) anonymization; anomaly detection; privacy-preserving machine learning algorithms; and adversarial machine learning.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 7545",
+      "notes": [
+        "Admission to the Artificial Intelligence MS program"
+      ],
+      "prereqs": "CS 7530",
+      "title": "AI for Security and Privacy"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133613",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 7540",
+      "credits": "3",
+      "description": "This course introduces fundamental concepts, principles, and practices of the Internet of Things (IoT). The topics include, but are not limited to, state-of-the-art technologies in IoT networks, architectures, identifying key security risks including threats and attacks, privacy concerns, and defense mechanisms, in terms of mathematical foundations and algorithms. It also covers Cloud/Edge/Fog computing enabled IoT environments and their security/privacy issues. Students will obtain overall knowledge on IoT architectures and security/privacy technologies.",
+      "groups": [
+        "conc-cyber-and-network-security"
+      ],
+      "id": "CS 7550",
+      "notes": [],
+      "prereqs": "CS 7530",
+      "title": "Internet of Things Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133544",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1-3",
+      "description": "This course is offered to students who wants to conduct research under the advisor\u2019s supervision. Students will develop a research project, check their progress in regular meetings, present the final research result in a final report.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CS 7998",
+      "notes": [
+        "Varies by topic"
+      ],
+      "prereqs": null,
+      "title": "Research in Computer Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133934",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Students will learn how to use SAS programming for data science and analytics tasks such as data importation, manipulation, summarization, and communication through various means at both an introductory and intermediate level.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "DS 7020",
+      "notes": [
+        "Admission to the Data Science and Analytics, MS program"
+      ],
+      "prereqs": null,
+      "title": "Introductory SAS Programming for Data Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133458",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a highly applied project course using real data. Students will be broken into teams for the semester and will work together to design, execute, and present an analysis to address the sponsor\u2019s business problem. There will be regular feedback sessions with the instructors and client as the semester progresses. The class closely mimics what students will experience when they work on projects in a job setting. Typically, the course will have an external project sponsor.",
+      "groups": [
+        "major-elective",
+        "conc-artificial-intelligence",
+        "conc-data-science",
+        "conc-cyber-and-network-security"
+      ],
+      "id": "DS 7900",
+      "notes": [
+        "Or permission of the instructor"
+      ],
+      "prereqs": "STAT 7210",
+      "title": "Applied Analytics Project Course"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133027",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces standard graph theoretic terminology, theorems and algorithms necessary to the study of large data networks. Topics include graphs, trees, paths, cycles, isomorphisms, routing problems, independence, domination, centrality, and coloring problems. Data structures for representing large graphs and corresponding algorithms for searching and optimization purposes accompany these topics.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "MATH 8020",
+      "notes": [
+        "Admission to the Analytics and Data Science, PHD program",
+        "permission by the department"
+      ],
+      "prereqs": null,
+      "title": "Graph Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133028",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers applied discrete mathematics and combinatorial tools for data analyst. Topics covered include principles of counting, set theory, mathematical induction, functions. Examples using applied data analysis and associated computing are used throughout.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "MATH 8030",
+      "notes": [
+        "Admission to the Analytics and Data Science, PhD program",
+        "permission by the department"
+      ],
+      "prereqs": null,
+      "title": "Applied Discrete & Combinatorial Mathematics for Data Analysts"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132861",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed to give students the foundation in statistical methods necessary for further study at the graduate level. The course begins with a study of probability and probability distribution functions (e.g., binomial, Poisson, uniform, exponential, gamma, chi-square and normal). The course then moves into inferential topics on parameter estimation (point and interval) and hypothesis testing, and concludes with study of advanced methods including but not limited to categorical data analysis, simple linear regression analysis and one-way analysis of variance.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "STAT 7100",
+      "notes": [
+        "Admission to the Data Science and Analytics, MS program"
+      ],
+      "prereqs": null,
+      "title": "Statistical Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132868",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Topics include simple linear regression, inferences, diagnostics and remedies, matrix representations, multiple regression models, generalized linear model, multicollinearity, polynomial models, qualitative predictor variables, model selection and validation, identifying outliers and influential observations, diagnostics for multicollinearity, and logistic regression.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "STAT 7210",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "DS 7020",
+          "STAT 7100"
+        ]
+      },
+      "title": "Applied Regression Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=132871",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Data Mining is an information extraction activity whose goal is to discover hidden facts contained in databases and perform prediction and forecasting through interaction with the data. The process includes data selection, cleaning and coding, using statistical pattern recognition and machine learning techniques, and reporting and visualizing the generated structures. The course will cover all these issues and will illustrate the whole process by examples of practical applications. In addition to method applications, this course will also heavily focus on the theoretical understanding of statistical analysis and methods. Students are encouraged to use recent Data Mining software.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "STAT 8240",
+      "notes": [
+        "Admission to the PhD program in Analytics",
+        "Data Science",
+        "Passing the assessment test offered by the Program Director of PhD in Analytics"
+      ],
+      "prereqs": null,
+      "title": "Data Mining I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133030",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a continuation of STAT 8240: Data Mining. Data Mining is an information extraction activity whose goal is to discover hidden facts contained in databases, perform prediction and forecasting, and generally improve their performance through interaction with data. The process includes data selection, cleaning, coding, using different statistical, pattern recognition and machine learning techniques, and reporting and visualization of the generated structures. The course will introduce additional modeling tools for pattern recognition and prediction, including Sequential Pattern Analysis, Neural Networks, Support Vector Machine, Nearest-neighbor classifiers, and many others. These tools will be taught through examples of practical applications. Students will be encouraged to try different Data Mining software.",
+      "groups": [
+        "conc-data-science"
+      ],
+      "id": "STAT 8250",
+      "notes": [],
+      "prereqs": "STAT 8240",
+      "title": "Data Mining II"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-artificial-intelligence"
+        ],
+        "label": "Artificial Intelligence"
+      },
+      {
+        "groups": [
+          "conc-data-science"
+        ],
+        "label": "Data Science"
+      },
+      {
+        "groups": [
+          "conc-cyber-and-network-security"
+        ],
+        "label": "Cyber and Network Security"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ms-computer-science",
+    "name": "MS Computer Science"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

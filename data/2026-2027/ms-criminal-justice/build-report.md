@@ -2,8 +2,7 @@
 
 ## Warnings needing review
 
-- **CRJU 7998**
-  - unrecognized: Completion of six core courses
+None.
 
 ## Left out on purpose
 

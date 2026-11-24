@@ -1,0 +1,1378 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134279",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Examines \u201cAmerica\u201d as a cultural signifier that circulates around the world. These representations not only travel to other countries, but also return to us in cultural products from other countries. In addition to cultural theory, we will look at film, television, literature, and music. A primary concern is to interrogate what ideological assumptions underlie our notion of what \u201cAmerica\u201d means.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "AMST 3710",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "U.S. in the World"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136734",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course serves as a broad overview of Native American cultures, history, and contemporary issues, with an emphasis on multidisciplinary approaches to the field. Students learn about Native America through a variety of perspectives and topics, including the relationship between Native nations and the U.S. government, questions of tribal identity and belonging, and Indigenous cultural productions, ranging from traditional stories to contemporary texts. Given KSU\u2019s location, special attention is paid to southeastern tribes.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "AMST 3730",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to Native American Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134280",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Critical analysis of popular culture in American society. A particular offering of the course could focus on a specific area of popular culture (e.g., books, music, sports, food, mass consumption or advertising) or survey several of those topics. Historical and theoretical readings will support students\u2019 analysis of primary texts, including examples highlighting the globalization of American popular culture, mass markets and niche markets, the social formation of taste, and shifts in society\u2019s preferences for mass consumption in different time periods.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "AMST 3740",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "American Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134688",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course focusing on skills required for effective writing in a variety of contexts, with emphasis on exposition, analysis, and argumentation, and also including introductory use of a variety of research skills.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1101",
+      "notes": [],
+      "prereqs": null,
+      "title": "English Composition I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134689",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A composition course that develops writing skills beyond the levels of proficiency required by ENGL 1101, that emphasizes interpretation, and evaluation, and that incorporates a variety of more advanced research methods.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "ENGL 1102",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "English Composition II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134690",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A survey of important works of world literature.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGL 2110",
+      "notes": [],
+      "prereqs": "ENGL 1101",
+      "title": "World Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134691",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the reading, writing, research, and critical strategies essential to KSU English Studies. The course draws connections among the four content areas in the English Department (Literature, Language, Writing, and Theory) and focuses on their relationship to broader social and personal contexts, enabling students to make informed choices about their program of study and their careers.",
+      "groups": [
+        "core-field"
+      ],
+      "id": "ENGL 2145",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Introduction to English Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135954",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey of American literature from its beginnings to the present introduces English and Secondary English Education majors to the historical periods and major trends and figures of American literature.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGL 2160",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "American Literature Survey"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134692",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey of British literature from its beginnings to 1660 introduces English and Secondary English Education majors to the historical periods and major trends and figures of British literature.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGL 2172",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "British Literature, Beginnings to 1660"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135955",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This survey of British literature from 1660 to the present introduces English and Secondary English Education majors to the historical periods and major trends and figures of British literature.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "ENGL 2174",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "British Literature, 1660 to Present"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135960",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the development and history of a particular literary form, such as narrative, poetry, or drama, through the exploration of representative works. Particular attention is given to the evolution of new strategies for the creation and reception of the genre and to the aesthetic, historical, and cultural conditions that shape those strategies.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3105",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Literary Forms and Genres"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135515",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course exposes students from a variety of backgrounds to various careers in writing. (Students need not be English majors.) Students will analyze and create a wide variety of professional texts ranging from technical, business, and governmental documents to medical, community-based, and web-based documents.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "ENGL 3119",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Careers in Writing and English Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137212",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course interrogates the underlying socio-political assumptions of texts and explores how they reflect and challenge social worlds. It explores representations of gender, sexuality, race/ethnicity, and social class in selected literary works, and looks at the ways in which writers incorporate these identity categories into the fabric of the text\u2019s structural and thematic elements. The course texts cover a wide range of historical periods and genres.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3124",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Literature and Society"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137213",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the generative relationship between literature and science broadly defined. The course will attend not only to the many ways that scientific discovery has shaped literary perspectives, but also to the impact that language, culture, and metaphor exert upon how scientific discoveries are first imagined and then implemented. Course texts span multiple genres and historical eras, including literature, scientific studies, philosophy, and popular culture.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3125",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Literature and Science"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137214",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the fundamentals of literary study by making connections between literary forms and popular culture. These connections foster an understanding of the ways that contemporary cultural forms (television, film, comics, video games) are inspired by and related to more traditional literary texts. Popular culture and literature are always in conversation with each other, and this course may investigate this interchange between the popular and the traditional through specific themes, genres, or adaptations of historical texts.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3126",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Literature and Popular Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137338",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will attend to the many ways disability is represented in literature, language, and culture, and the impacts these ways of thinking have on cultural understanding, attitudes, and public policies. Course texts will span a range of time periods, genres, and forms, and may include scholarly theory, novels, films, documentaries, graphic novels, poetry, medical literature, and scientific works.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3127",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Disability and Representation"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134696",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of selected topics, authors, or periods of dramatic literature. The course also addresses the fundamental literary generic characteristics of dramatic form, including plot, character, action, and setting, as well as the conventions of dramatic genres, such as tragedy, comedy, tragicomedy, closet, and narrative drama.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3232",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in Drama"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134699",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of authors, themes, genres, and composition of scriptural writings.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3320",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Scriptural Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134701",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the New Testament of the Bible as literature, concerning its aesthetic value with respect to authors, themes, genres, and composition within the context of its original Mediterranean audiences. Students improve and refine their abilities to read, think, write, and speak critically and cogently about scriptural literature and have an increased familiarity with much of the New Testament.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3324",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "New Testament as Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135961",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of literature using gender as the primary category of analysis. Viewing gender as a social construction, it explores such issues as gendered roles in society, interactions between private and public life, gender\u2019s relation to canon formation, and individuals\u2019 struggle to define their place in culture in the face of gendered expectations. It may focus on a region or nation, a time period, a theme, a representative individual, or some combination.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3330",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Gender and Culture in Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134702",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of literature using ethnicity as the primary category of analysis. Individual offerings of the course might survey a range of ethnic literatures (e.g., Asian American, Chicano, Native American, Jewish) or explore one such body of texts (e.g., Caribbean literatures).",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3340",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Ethnic Literatures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136767",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic in Native American literature. For example, the course might focus on a single artist (such as Louise Erdrich), a group of artists (such as writers of the Native American Renaissance), a genre (such as Indigenous science fiction), a region (such as writers of the Native South or the Pacific Northwest), or a theme or issue (such as Murdered and Missing Indigenous Women or intergenerational trauma).",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3342",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in Native American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134703",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of literature using region as the primary category of analysis. Texts might include fiction and nonfiction, performance texts (such as drama and folktales from the oral tradition), and examples of material culture. The class might focus on a specific geographic region (e.g., the Caribbean); a comparative study of regional culture (e.g., Faulkner\u2019s Yoknapatawpa vs. Hardy\u2019s Wessex); or authors or themes closely associated with a region (e.g., Cather\u2019s West).",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3350",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Region and Culture in Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134704",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course concerns the development of African American literature with emphasis on major writers defining trends, movements, genres, and themes.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3360",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Major African American Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134708",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic of African-American literature. For example, the course might focus on a single artist (such as Ralph Ellison), a group of artists (such as writers of the Harlem Renaissance), a genre (such as the slave narrative), a source or technique (such as folklore in twentieth century novels), or a theme or issue (such as depictions of women, the oral-musical tradition or humor and signifying).",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3500",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in African American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136939",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a comparative study of literature by Black women writers from the U.S., the Caribbean, Africa, and/or any region in the African diaspora. Readings for the course may include poetry, short fictions, novels, drama, biography, and autobiography. Topics include narrative strategies, modes of representation, and textual depictions of the intersections of race, gender, sexuality, ethnicity, class, nationality, and/or generation.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3510",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Black Women Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135962",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic in the areas of the African Diaspora. For example, the course might focus on a single author or group of authors: \u201cThe Novels of Paule Marshall\u201d; a country or region: \u201cCaribbean Literatures\u201d; a movement or an event: \u201cPost-Colonial Caribbean Literatures\u201d; a theme or issue: \u201cTwentieth-Century Caribbean Women Writers\u201d; a genre: \u201cAfrican, African American and Afro-Caribbean Autobiography\u201d; or a combination of these or other categories.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 3600",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in African Diaspora Literatures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134709",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "An advanced course in interpretive theoretical paradigms as applied to the study of literature and culture, focusing on critical models such as Marxism, Structuralism, Poststructuralism, Deconstruction, Psychoanalytic criticism, and Gender, Ethnic, and Cultural studies.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4220",
+      "notes": [],
+      "prereqs": "ENGL 2145",
+      "title": "Critical Theory"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134710",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Concentration on the interpretive strategies and conceptual framework of one of the major paradigms of contemporary literary theory, with attention to the ways in which those paradigms enable the study of a select group of texts, both literary and nonliterary. Topics may include Feminist theory, Marxism, Post-Colonialism, Psychoanalytic Criticism, Cultural Materialism, Ethnic studies, Gender studies, New-Historicism, and Reader Response theories.",
+      "groups": [
+        "major-required",
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4230",
+      "notes": [],
+      "prereqs": "ENGL 2145",
+      "title": "Theory-Based Studies in Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134711",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of selected comedies, histories, and tragedies, covering the range of Shakespeare\u2019s dramatic art. It may include dramatic form and poetic composition as commentaries on the dramatic genres and an examination of performance theory and practice.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4340",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Shakespeare"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134712",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents literary studies of colonial and early United States literature. Students learn about the wide range of literatures that have emerged from the complex and diverse encounters of Old and New World cultures prior to 1800 in the Americas.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4360",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "American Literature Before 1800"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134713",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents studies in medieval literature. It may include prose, poetry, and drama and investigate aesthetic, intellectual, and social issues.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4370",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Medieval Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134714",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents British literature from the late fifteenth century to 1660, generally exclusive of Shakespeare. It may include poetry, prose, and drama and investigate aesthetic, intellectual, and social issues.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4372",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "British Renaissance Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134715",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents British literature from 1660 to the late eighteenth century. It may include poetry, prose, and drama and investigate aesthetic, intellectual, and social issues.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4374",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Restoration and Eighteenth-Century Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134716",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements from around the world before 1800, emphasizing aesthetic and social understanding. It may examine Western and non-Western cultures.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4380",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "World Literature Before 1800"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134718",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of a selected topic in the areas of orature, literature, performance texts, film and/or other media produced in Africa. The course might focus on an author or group of authors: \u201cThe Plays of Wole Soyinka\u201d; a region or country: \u201cTwentieth Century South African Literature\u201d; a movement or event: \u201cAfrican Writers of the Negritude Movement\u201d; a theme or issue: \u201cWomen\u2019s Rights in African Literature\u201d; or a combination of these categories.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4401",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in African Literatures"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134719",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative writers in American literature in the nineteenth century.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4460",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "19th-Century American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134720",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents studies in Romantic and Victorian literature, from the 1780s to the end of the nineteenth century, examining such aesthetic and social themes as the nature and role of the artist, the impulse toward gothicism, the rise of the autobiography, responses to industrialization, and the conflict between tradition and change.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4470",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "19th-Century British Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134721",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements of the nineteenth century, emphasizing aesthetic and social understanding. It may examine Western and non-Western cultures.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4480",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "19th-Century World Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134722",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements in twentieth-century and twenty-first-century America, emphasizing aesthetic and social understanding.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4560",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "20th-Century and 21st-Century American Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134723",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative twentieth-century and twenty-first-century British literature, with an eye towards important themes, aesthetic movements, and social changes during the period.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4570",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "20th-Century and 21st-Century British Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134724",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course presents a study of representative texts, major themes, or literary movements of twentieth-century and twenty-first-century world literature, emphasizing aesthetic and social understanding.",
+      "groups": [
+        "conc-literature-and-culture"
+      ],
+      "id": "ENGL 4580",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "20th-Century and 21st-Century World Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134725",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The senior seminar is a summative academic experience that builds on previous coursework and gives advanced English majors the opportunity to engage with in-depth research on a topic related to language, literature, or writing. The small class size fosters a community of readers and writers that provides support in the process of writing a substantial seminar essay informed by current scholarship. Students also develop their communication skills through oral presentations.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "ENGL 4620",
+      "notes": [
+        "Completion of 90 hours",
+        "permission of the department"
+      ],
+      "prereqs": null,
+      "title": "Senior Seminar"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134728",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class introduces students to fundamental and foundational techniques of screenwriting such as formatting, three-act structure, character development, plot function, and dialogue. Students will study screenwriting theory and practice techniques as they develop original (short) screenplays. Students will learn about professional standards and best industry practices. Table readings, one-on-one conferences, and peer revision techniques may be used.",
+      "groups": [
+        "conc-film-tv-and-screen-studies",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "FILM 3105",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Screenwriting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136941",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This class introduces students to fundamental and foundational techniques of writing for television such as formatting, television act structure, character development, television plot function, and dialogue. Students will study television writing theory and practice techniques as they develop an original (short) pilot script. Students will learn about professional standards and best industry practices. Table readings, one-on-one conferences, and peer revision techniques may be used.",
+      "groups": [
+        "conc-film-tv-and-screen-studies",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "FILM 3125",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "TV Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135965",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the major artistic movements, technological changes, and critical approaches important to film from 1895 to 1950, covering German Expressionism, Soviet montage, the Hollywood studio system, and the transition from silent to sound cinema.",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3200",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Film History I"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137033",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the formal qualities, technological developments, and critical approaches important to understanding episodic and serial forms of television. Specifically, this course covers sitcoms, teleplays, anthology shows, documentaries, television movies, miniseries, and other TV formats, as well as movie shorts, serials, and film adaptations of famous television series.",
+      "groups": [
+        "major-required",
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3205",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "TV Series and Serials"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135966",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys the major developments, movements, and critical approaches in international cinema from 1950-1980, including considerations of the rise of the auteur, the institutionalization of widescreen, the impact of television on film design and distribution, and the emergence worldwide of several creative \u201cnew waves.\u201d",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3210",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Film History II"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136661",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys major developments in film since 1980, including the rise of the blockbuster, the co-production, and the independent film; the use of digital animation, special effects, and distribution technologies; the impact of VHS, DVD, and streaming services on film exhibition, reception, and design; and the rise of several new international cinematic movements.",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3215",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Film History III"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134729",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the output of a specific studio, the concerns of a filmmaking collective, the aesthetic trends of a historical period, or a theme of special importance to American cinema.",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3220",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in American Cinema"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136649",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the artistic contributions, the representational traditions, and the major works of a specific national cinema, diasporic filmmaker, or worldwide cinematic movement.",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3230",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Topics in World Cinema"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136650",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the major films of a specific genre, such the Western, the comedy, or the horror film, or to the milestones, stylistic features, and cinematic influence of a major film movement.",
+      "groups": [
+        "major-required",
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Film Genres and Movements"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137339",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the conventions, stylistic features, and star talent of a major television genre or format, such as the sitcom, medical drama, police procedural, music video, soap opera, miniseries, science fiction, or Western.",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3245",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "TV Genres and Styles"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136651",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to the major films, the stylistic signatures, the thematic obsessions, and the cinematic influence of a noteworthy filmmaker, whether a director, actor, screenwriter, or other artist.",
+      "groups": [
+        "major-required",
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3250",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Film Authors"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137034",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on critical approaches to women and cinema, films geared toward female audiences, portrayals of women on screen, and the influence of significant works by women filmmakers.",
+      "groups": [
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 3560",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Women in Film"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134730",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this class, students will build on fundamental skills developed in FILM 3105, exploring advanced screenwriting methods such as genre conventions, scene dynamics, integration of theme, and advanced rewriting practices. Students will also study and practice skills such as pitching and marketing finished works. Table readings, one-on-one conferences, and peer revision techniques may be used. This class is writing intensive. This course can be taken up to two times (6 credit hours) for credit towards graduation.",
+      "groups": [
+        "conc-film-tv-and-screen-studies",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "FILM 4105",
+      "notes": [],
+      "prereqs": "FILM 3105",
+      "title": "Advanced Screenwriting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136942",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this class, students build on fundamental skills developed in FILM 3125, exploring advanced television writing topics such as the development process, modes and standards of production, how writers rooms function, and how to build a series bible. Students also study and practice skills such as pitching and marketing finished works. Table readings, one-on-one conferences, and peer revision techniques may be used. This class is writing intensive.",
+      "groups": [
+        "conc-film-tv-and-screen-studies",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "FILM 4125",
+      "notes": [],
+      "prereqs": "FILM 3125",
+      "title": "Advanced TV Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134731",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys major theoretical writings about film, focusing on such discourses as queer theory, feminist film theory, psychoanalytic film theory, and film semiotics.",
+      "groups": [
+        "major-required",
+        "conc-film-tv-and-screen-studies"
+      ],
+      "id": "FILM 4200",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "FILM 3200",
+          "FILM 3210",
+          "FILM 3215",
+          "FILM 3220",
+          "FILM 3230",
+          "FILM 3240",
+          "FILM 3250"
+        ]
+      },
+      "title": "Theory-Based Studies in Film"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136562",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys intersections between linguistics and literary studies. It introduces students to one or more of the major linguistic theories and methodologies that can inform literary analysis, such as semiotics, poetics, pragmatics, narrative theory, structuralism, post-structuralism, (neo-)formalism, discourse analysis, or stylistics.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3020",
+      "notes": [],
+      "prereqs": {
+        "or": [
+          "ENGL 2110",
+          {
+            "external": "ENGL 2111"
+          },
+          {
+            "external": "ENGL 2112"
+          },
+          {
+            "external": "ENGL 2120"
+          },
+          {
+            "external": "ENGL 2121"
+          },
+          {
+            "external": "ENGL 2122"
+          },
+          {
+            "external": "ENGL 2130"
+          },
+          {
+            "external": "ENGL 2131"
+          },
+          {
+            "external": "ENGL 2132"
+          },
+          {
+            "external": "ENGL 2300"
+          }
+        ]
+      },
+      "title": "Linguistics and Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136586",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Because language study is a key component of the English/Language Arts classroom, this course focuses on specific linguistic aspects of the English language (e.g., morphology, stylistics, discourse, etc.), grammar in context, language variation in life and literature, and sociolinguistic implications of teaching English. There is a strong focus on methodology, such as examining pedagogical stances and creating lesson plans.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3025",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Linguistics for Education"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135957",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of theories and methods of linguistics applied to real-world issues. It explores linguistic applications to one or more of the following areas: language learning and teaching; language use in intercultural contexts; corpus and computational approaches; psycholinguistics and cognition; forensic linguistics and language policy; and careers that emphasize language creation and usage.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3030",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Applied Linguistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134694",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course analyzes the nature of human language. It surveys a variety of major subfields in linguistics, which may include phonology, morphology, syntax, discourse, and semantics. A heavy emphasis is placed on the social and pedagogical implications of modern linguistic theory, which includes an examination of issues such as Standard English, language acquisition, and variation in registers and dialects.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3035",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Understanding Language and Linguistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=134695",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of the development of English, with attention to influential historical events and to the evolving structure of the language.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3040",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "History of the English Language"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136561",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys both traditional and contemporary approaches to grammar. It addresses long-established grammatical terms and concepts, inviting students to critically examine the notion of \u201ccorrect\u201d grammar and to discuss the development and maintenance of standard language. It also considers contemporary topics such as rhetorical grammar, functional grammar, and grammar in digital environments. This course is particularly useful for students considering careers in education, editing, or professional writing.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3045",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Grammar of Contemporary American English"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136563",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is an introduction to English sociolinguistics. It surveys how language is impacted by social variables such as ethnicity, gender, age, sexuality, and geography. It also explores topics including slang, jargon, dialect, identity, and power. Students are introduced to the basic subfields of linguistics-phonology, morphology, and syntax-before venturing into deeper sociolinguistic issues. The course should interest students pursuing careers in education, writing, business-and those wanting to expand their knowledge of linguistics.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3050",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Sociolinguistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136564",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course surveys a number of the most important intersections between linguistics and politics in American and global cultures today. Topics may include the \u201cEnglish only\u201d movement; political correctness; the politics of gendered language; framing theory and the language of American political debate; language, ideology, and discourse analysis; and the politics of English as a \u201cglobal\u201d language. This class may be of particular interest to students heading towards careers in journalism, law, politics, or education.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3055",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Politics and Language"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137254",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study of methods for language analysis in legal settings. It explores two main topics: \u201cThe language of the legal process\u201d and \u201cLanguage as evidence.\u201d This class explores key ideas in legal language, emergency service calls, police interviews, and courtroom discourse. It introduces forensic linguistic and phonetic casework, research, and practice. By the end of the class, students will be equipped to conduct research tasks in authorship attribution, speaker identification, and plagiarism.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3065",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Forensic Linguistics"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136768",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This writing-intensive course is a study of the unprecedented growth of English on a global scale. It examines the current state of English in the world and the cultural and social factors that have given rise to a number of different varieties of English. These varieties, attitudes towards them, and implications for various written media are explored.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "LING 3760",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "World Englishes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135735",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a multi-genre creative writing survey incorporating the study of three genres from the following list: short fiction, poetry, creative nonfiction, playwriting, and screenplay writing. Pairing creativity with technique, this content-based course introduces students to concepts, approaches, and methods. As students develop a portfolio of work, they learn to contextualize their own writing with writings from celebrated authors by completing short critical commentaries. This course introduces students to the workshop format.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3000",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Understanding Creative Writing Genres"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135514",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a workshop approach to poetry writing that emphasizes original writing, revision, and analysis and response from classmates. Some attention is given to the work of established writers as models.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3100",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Poetry Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135516",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a workshop approach to playwriting that emphasizes original writing, revision, and analysis and response from classmates. Some attention is given to the work of established writers as models.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3110",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Playwriting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135517",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This is a course in editing as a practice and a profession. It focuses on editorial roles and responsibilities and introduces students to the skills, principles, and methods of editing. Course assignments provide ample practice in applying the techniques of editing, including editing for grammar, punctuation, and style. This course prepares students for careers in publishing and writing.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3111",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Professional Editing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135518",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a workshop approach to fiction writing that emphasizes original writing, revision, and analysis and response from classmates. Some attention is given to the work of established writers as models.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3120",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Fiction Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136776",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores the theory and practice of writing narratives for interactive fiction and video games. Through multiple written projects and workshops, students gain experience developing and creating interactive narratives for diverse platforms and genres. Additionally, students explore the intersection among narrative theory, game studies, and creative authorship through critical readings and discussion.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3125",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Interactive Narrative & Games"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135519",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is a study and practice of selected genres of creative nonfiction. The course features extensive nonfiction writing and revision, workshop discussion, and readings in major authors of creative nonfiction.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3130",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Creative Nonfiction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136338",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course emphasizes strategies for producing effective documents in a variety of professional contexts. Students gain practice with common workplace forms as they master writing clearly and with the needs and expectations of their audiences in mind. This course is particularly valuable to students preparing for careers in business, government, and nonprofit organizations.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3140",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Writing in the Workplace"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135964",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course explores rhetorical practices in electronic environments and provides an examination of major works on digital reading, writing, and culture framed by contemporary rhetorical theories. Students plan, design, and compose a variety of rhetorically effective digital texts. This course can be taken more than once provided the course content differs from the previous offering.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3150",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Writing and Digital Culture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136777",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Stories shape both our personal identities and our culture. Stories move us, entertain us, and affect social change and public awareness. This Digital Storytelling course focuses on the theory and practice of narrative composition in digital environments, including text, image, audio, and video. Students learn to compose rhetorically dynamic and engaging digital stories that explore a variety of types, techniques, audiences, and purposes (for personal, academic, and professional contexts). The course explores critical and creative approaches to narrative and visual design while attending to the interplay of form and content.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3151",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Digital Storytelling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136778",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course includes collaborative digital writing projects that reach beyond the classroom for the purpose of community engagement and/or community service. Students learn to use digital tools that support collaboration and streamlined team organization. The course involves students in writing, research, and analysis to implement projects of value in which they partner with community groups to inform, educate, and advocate for change through the design of digital content and engagement projects.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3152",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Digital Community Engagement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135520",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the study and practice of argumentative writing. It includes the study of current models of effective arguments and the process of forming written arguments. It features extensive writing and revision, workshop discussion, and readings of classical and contemporary arguments. The course can be taken more than once provided the course content differs entirely from the previous offering.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3160",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Argumentative Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135521",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is intended for students interested in major works of environmental literature and for those who wish to think and write about the interconnections between humans and the nonhuman world. The course studies pastoral literature, nature writing, and science writing, and provides instruction in the writing of environmental nonfiction prose for aesthetic, expressive, intellectual, and instrumental purposes.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3170",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Environmental Writing and Literature"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136780",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the theory, practice, and production of comics and graphic narratives across media. Topics may include visual rhetoric, graphic and transmedia storytelling, image and representation, and the use of other sensory-based media in graphic narrative. Projects may include essays, sketchbooks, proposals/scripts, a chapter of a graphic novel, a pilot for a comic book series, and a one-off graphic storytelling project.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3210",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Graphic Storytelling"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136775",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course provides students with an overview of approaches to studying and shaping literacy in a range of social contexts, including workplace, instructional, and community settings. Students explore literacy studies research, literacy practices, and the implications of competing definitions of literacy within the field of rhetoric and professional writing as well as other disciplines.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3650",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Literacy Studies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136779",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces students to quantitative, qualitative, and mixed methods theories in the fields of writing studies and engages students in practices of researched writing for a variety of digital media spaces. Students learn to create and process research reports by getting exposure to mixed methods, including interviewing, survey design, and archival work. The course teaches how to perform basic qualitative and quantitative analyses and IRB-approved research.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 3810",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Research Methods for Writers"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135550",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building on the skills learned in WRIT 3100, this course offers advanced workshop experiences for practiced writers of poetry and includes lecture and discussion of contemporary approaches to poetics and the work of contemporary poets. This workshop approach stresses development and integration of all technical and artistic elements of poetry writing.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 4100",
+      "notes": [],
+      "prereqs": "WRIT 3100",
+      "title": "Advanced Poetry Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135595",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced workshop stresses development and integration of all technical and artistic elements of playwriting. Some readings from the work of established writers are included.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 4110",
+      "notes": [],
+      "prereqs": "WRIT 3110",
+      "title": "Advanced Playwriting"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135522",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Building on the skills learned in WRIT 3120, this course offers advanced workshop experiences for practiced writers of fiction and includes lecture and discussion of contemporary approaches to fiction writing and the work of contemporary fiction writers. This workshop approach stresses development and integration of all technical and artistic elements of fiction writing.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 4120",
+      "notes": [],
+      "prereqs": "WRIT 3120",
+      "title": "Advanced Fiction Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135738",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Advanced Techniques in Fiction Writing is a seminar-workshop that offers in-depth study of a topic in fiction writing. It builds on skills learned in WRIT 4120, but differs from this workshop in that it focuses on a particular topic rather than student-generated manuscripts. For example, students may study a specific author\u2019s use of a technique or the use of a technique in a subgenre as a model for their own writing.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 4125",
+      "notes": [
+        "permission of the instructor"
+      ],
+      "prereqs": "WRIT 4120",
+      "title": "Advanced Techniques in Fiction Writing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135594",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course offers advanced workshop experiences for practiced writers of creative nonfiction and includes lecture and discussion of contemporary approaches to writing creative nonfiction and the work of contemporary creative nonfiction writers. This workshop approach stresses development and integration of all technical and artistic elements of writing creative nonfiction.",
+      "groups": [
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 4130",
+      "notes": [],
+      "prereqs": "WRIT 3130",
+      "title": "Advanced Creative Nonfiction"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135968",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This advanced course is a study of major texts in rhetorical theory from antiquity to the present, focusing on the significant issues in rhetoric, especially the relationship of language to truth and knowledge. Students gain practice in using rhetorical concepts to analyze both literary and non-literary texts and to produce effective written and spoken arguments.",
+      "groups": [
+        "major-required",
+        "conc-writing-and-linguistics"
+      ],
+      "id": "WRIT 4240",
+      "notes": [],
+      "prereqs": "ENGL 1102",
+      "title": "Rhetorical and Writing Theory"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "core-field",
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-literature-and-culture"
+        ],
+        "label": "Literature and Culture"
+      },
+      {
+        "groups": [
+          "conc-film-tv-and-screen-studies"
+        ],
+        "label": "Film, TV, and Screen Studies"
+      },
+      {
+        "groups": [
+          "conc-writing-and-linguistics"
+        ],
+        "label": "Writing and Linguistics"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "ba-english",
+    "name": "BA English"
+  },
+  "source": "KSU Undergraduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=84)"
+}

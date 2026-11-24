@@ -1,0 +1,493 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [
+    [
+      "SWE 6623",
+      "SWE 6733"
+    ]
+  ],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133148",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers foundations of programming with emphasis on program design and computer science concepts. A modern, Object-Oriented language is used. Topics include primitive data types, arithmetic and logical operators, selection and repetition structures, methods, arrays, objects and classes, inheritance, polymorphism, exception handling, and file I/O. Programming projects are included.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5000",
+      "notes": [],
+      "prereqs": null,
+      "title": "Foundations of Programming"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133149",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the following topics: Number Systems, Two-level combinational logic, Multilevel combinational logic, Sequential logic design, Finite state machine design, Arithmetic circuits, Assembly and machine languages with a focus on concepts, and the principles of computer organization. The objective of this course is to learn the Concepts of Digital Systems, Combinational Circuits, Sequential Circuits, and Computer Architecture.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5020",
+      "notes": [],
+      "prereqs": null,
+      "title": "Computer Organization and Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133150",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The course covers data structures and algorithms including runtime analysis and big-oh notation. A modern language will be used. Topics include dynamically allocating memory, pointer declaration and use, and the implementation of data structures such as lists, stacks, queues, binary search trees, and graphs. Analysis techniques are provided, such as the growth of functions, advanced sorting techniques, elementary graph algorithms, and minimum spanning trees. Programming projects are included.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 5040",
+      "notes": [],
+      "prereqs": "CS 5000",
+      "title": "Data Structures and Algorithms"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133176",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 5040",
+      "credits": "3",
+      "description": "This course covers Operating Systems topics including memory and process management for high-performance computing and architectures, advanced threading/concurrency, and distributed architectures and computing. The course provides in-depth study of operating systems with emphasis on performance modeling with simulation and reading research papers on the various advanced topics of operating systems. Discussion of grid computing and cloud computing, virtualization and hypervisors, scheduling for real-time, symmetric multiprocessing and hardware multithreading, effects and control of hardware caches. This course includes a research project.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "CS 6025",
+      "notes": [],
+      "prereqs": "CS 5020",
+      "title": "Operating Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133142",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "In this course we will discuss concepts including cloud computing, cloud computing architecture, Infrastructure as a Service (IaaS), Platform-as-a-Service (PaaS), Software as a Service (SaaS), etc. We will study commercial products such as Amazon EC2. We will also discuss advanced topics such as Cloud simulation tools and open sourced software for Cloud environment.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 7125",
+      "notes": [
+        "Equivalent"
+      ],
+      "prereqs": "CS 5020",
+      "title": "Cloud Computing"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133125",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The psychological, social, and technological aspects of interaction between humans and computers. Includes usability engineering, cognitive and perceptual issues, human information processing, user-centered design approaches, and development techniques for producing appropriate systems. Major project included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 7385",
+      "notes": [
+        "Program Admission",
+        "Permission of Director"
+      ],
+      "prereqs": null,
+      "title": "Human Factors"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133107",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the fundamentals of software development for the Android Mobile Application Platform. Topics include UI Design for Mobile Apps, Resource Management for Mobile Apps, and Deployment of Mobile Apps.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 7455",
+      "notes": [
+        "Coursework in Computer Programming",
+        "as determined by program admission"
+      ],
+      "prereqs": "CS 5000",
+      "title": "Mobile App Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133123",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the fundamental concepts and advanced topics in software and operating system security. Both hardware and software mechanisms designed to protect software, including OS, will be studied. The covered topics include buffer overflows, defense mechanisms, return-oriented programming, reverse engineering, vulnerabilities analysis, mobile security, hardware platform security, and embedded system security.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 7535",
+      "notes": [
+        "a Bachelor of Science in Computer Science degree"
+      ],
+      "prereqs": "CS 6025",
+      "title": "Software and OS Security"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133126",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The software development life cycle as it applies to real-time systems. Labs involve the use of a real-time operating system and an associated development environment. Related topics such as concurrent task synchronization and communication, sharing of resources, scheduling, reliability, fault tolerance, and system performance are discussed. Major project included.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "CS 7827",
+      "notes": [
+        "Or prior coursework in Operating Systems, as determined by program admission"
+      ],
+      "prereqs": "CS 6025",
+      "title": "Real Time Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133245",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Descriptive statistics for discrete and continuous variables, probability distributions, confidence intervals and hypothesis testing, elementary control charts for variables and attributes, the design of acceptance sampling plans, analysis of variance, and regression and correlation analysis.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "QA 6610",
+      "notes": [],
+      "prereqs": null,
+      "title": "Statistics for Quality Assurance"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133547",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "Software engineering allows the application of engineering and computer science concepts for developing and maintaining reliable, usable, and dependable software. The process of developing software comprises of several activities for which both technical and soft skills are required. These skills include the ability of making use of different levels of abstraction, decomposing data, processes, or problems into smaller, manageable parts, understanding and solving problems more effectively, and applying mathematical concepts to develop more efficient, fair, and secure solutions. All these abilities are part of what is called computational thinking, a set of general problem-solving skills useful in several fields. The purpose of this course is to introduce all the relevant software engineering and computational thinking concepts and principles together with the main activities of the software development life cycle.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "SWE 5003",
+      "notes": [],
+      "prereqs": null,
+      "title": "Software Engineering and Computational Thinking"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133548",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course gives an introduction to the essential instruments that students need to know to assemble working web applications. It first introduces the main concepts of databases and related application technologies that have come to be critical in the enablement of web-based applications. This course will also examine how to connect the web to the backend database server using the popular scripting languages such as PHP and Python. In particular, students will learn the structure and concepts of the web-driven development, make dynamic web applications utilizing a blend of HTML, CSS, and JavaScript, through well-known web frameworks (e.g. NodeJS, Django) and database utilities.",
+      "groups": [
+        "prereq-only"
+      ],
+      "id": "SWE 5063",
+      "notes": [],
+      "prereqs": "CS 5000",
+      "title": "Foundations of Database and Web Development Technologies"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133158",
+      "catalogYear": "2026-2027",
+      "coreqs": "SWE 5003",
+      "credits": "3",
+      "description": "Requirements engineering (RE) plays a critical role in the software development process. This course is a thorough treatment of the engineering and definition of software requirements processes. Methods, tools, notations, and techniques for eliciting, analyzing, modeling, negotiating, validating, specifying, testing, and maintaining requirements will be examined with a focus on software-intensive systems. The course will include a major group project on the analysis and specification of software requirements.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 6613",
+      "notes": [],
+      "prereqs": null,
+      "title": "Requirements Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133263",
+      "catalogYear": "2026-2027",
+      "coreqs": "CS 5040",
+      "credits": "3",
+      "description": "This course provides an overview of software engineering and explores both the theoretical principles and their application in the engineering of software-intensive systems. Topics cover the entire software development life-cycle and include software engineering process models, project management and planning, requirements engineering, software architecture and design, prototyping, verification and validation, usability and human factors, quality assurance, and professionalism and ethics. This course includes a real-world team project in which students are given hands-on experience utilizing state-of-the-art tools to analyze and design a software system.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 6623",
+      "notes": [],
+      "prereqs": "SWE 5003",
+      "title": "Software Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133147",
+      "catalogYear": "2026-2027",
+      "coreqs": "SWE 5003",
+      "credits": "3",
+      "description": "The main phases of project management life cycle (initiation, planning, execution, monitoring/control, and closeout) are covered. The emphasis is on project planning phase and on project monitoring/control phase. Various software size, cost/effort, and schedule estimation and planning techniques, including COCOMO, Function Point, and critical path analysis are introduced as part of work breakdown structure. Project risk management is included as an integral part of project planning and project monitoring/control. Project status monitoring/control activities are discussed and practiced with a prototype team project, using the Earned Value metric.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 6633",
+      "notes": [],
+      "prereqs": null,
+      "title": "Software Project Planning & Management"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133159",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course examines the principles and methods of architectural design of complex, large scale software systems. Macro-level system architecture with an emphasis on approaches to interconnection and distribution of both current and emerging architectural systems (e.g. model-view-controller, service oriented, agent-oriented) as well as micro-level architecture including patterns, frameworks, and component-based software engineering are covered in detail.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 6653",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "CS 5040",
+          "SWE 5003",
+          "SWE 5063"
+        ]
+      },
+      "title": "Software Architecture"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133156",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers concepts, principles, and techniques related to software testing and formal program verification. The course defines the concept of quality in software developments and product and explains how to develop a quality/test plan. The notion of validation and verification is explained in the context of different testing techniques, which include black box testing and white box testing, and other techniques such as inspection and formal verification. The emphasis of the course is on testing techniques, ranging from unit testing to regression testing.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "SWE 6673",
+      "notes": [],
+      "prereqs": "SWE 6623",
+      "title": "Software Testing and Verification"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133160",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course introduces the essentials of software engineering processes, methods, and tools for the engineering and evolution of contemporary real-world software. The emphasis is on the applicability of new Agile processes in the software life cycle from requirements engineering through operation and maintenance. Students gain understanding with several commonly used Agile processes such as Extreme Programming (XP), Scrum, Len, and Kanban Models, as well as their working mechanics. They will put into practice their knowledge by conducting an Agile-spirit software team project in the course.",
+      "groups": [
+        "major-required",
+        "major-elective"
+      ],
+      "id": "SWE 6733",
+      "notes": [],
+      "prereqs": "SWE 6623",
+      "title": "Emerging Software Engineering Processes"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133161",
+      "catalogYear": "2026-2027",
+      "coreqs": "SWE 6623",
+      "credits": "3",
+      "description": "An introduction to computer game design, game design engines, 2D and 3D graphics, game-related algorithms, game control structures and games as simulations. Topics include graphics, multimedia, visualization, animation, artificial intelligence, and tools of game design. Developments using the software engineering life cycle are emphasized. The development and presentation of a game prototype is required.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6753",
+      "notes": [
+        "permission by the program coordinator"
+      ],
+      "prereqs": null,
+      "title": "Game Design & Development"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133264",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the principles of software measurement frameworks and methods for assessing process, product, and resource\u2019s attributes in various-scale type of software engineering environments. The software metrics based on different quality factors such effectiveness, efficiency, usability, and testability in both object-oriented and traditional settings are introduced. The theory and mechanics of conducting empirical software investigation (Experimentation in SE) for quantitative evaluation of software artifacts are covered.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6763",
+      "notes": [],
+      "prereqs": "SWE 6623",
+      "title": "Software Evaluation and Measurement"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133162",
+      "catalogYear": "2026-2027",
+      "coreqs": "SWE 6623",
+      "credits": "3",
+      "description": "This course follows a complete software-engineering cycle to produce software objects (classes and/or components) that support users in effective, efficient, and enjoyable interactions with computers. Class exercises and a project incorporate concepts and methods including ethnographic and user analysis; cognitive ergonomics; usability metrics and criteria; software-engineering practices, conventions, standards, and documentation; device-user action mapping; person-system function allocation; quality management systems; conceptual proto-typing; embedded systems in support of ubiquitous computing; and function-behavior analysis.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6783",
+      "notes": [
+        "permission by the program coordinator"
+      ],
+      "prereqs": null,
+      "title": "User Interaction Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133265",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the principles and concepts of Service-Oriented Architecture (SOA) and its related general- and domain-specific technologies. Current tools and languages for implementation of service-engineered software systems, including designing, building, assembling, and deploying using Web services and Microservices are discussed in depth. Students will do projects focused on building reusable software in the modern era of service computing.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6813",
+      "notes": [],
+      "prereqs": "SWE 6623",
+      "title": "Web Service Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133163",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is both project- and research-oriented. Students will be introduced to modern methods, techniques, and tools for specification and design of embedded systems. Current software building technology, testing, reliability analysis, and benchmarking will be used in developing a case-study project. Moreover, challenges and trends in embedded systems techniques, methods, and tools will be presented and analyzed.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6823",
+      "notes": [],
+      "prereqs": "SWE 6623",
+      "title": "Embedded Systems"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133262",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course builds upon basic object-oriented concepts to discover principles of good object-oriented design through the application of design patterns. The focus is on the issues and means of designing software systems for reuse, extension, and maintainability including how to leverage the powers of object-orientation embodied in well-known heuristics, principles and patterns in the design and construction of reusable systems. This course will emphasize that designing reusable systems requires anticipating requirements changes and the application of design patterns will help ensure system mutability. The course includes a major project in which the students will gain hands-on experience with design patterns.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6853",
+      "notes": [],
+      "prereqs": "SWE 6623",
+      "title": "Design Patterns"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133164",
+      "catalogYear": "2026-2027",
+      "coreqs": "SWE 5003",
+      "credits": "3",
+      "description": "This course covers ethical and legal issues related to software development. Professional ethics and responsibilities of software engineers are discussed in detail. Topics include computing and civil liberties, encryption, intellectual property and licensing, software patents and copyrights, professional codes of ethics and professional licensing, software reliability, liabilities, and hacking. Software engineering/computing case studies will be used.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6863",
+      "notes": [],
+      "prereqs": null,
+      "title": "Software Engineering Ethics and Legal Issues"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133153",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course will present best practices for the application of formal methods and will explore their tools, techniques, and applications using real-world case study. It will also help students to understand how formal methods can support the production of high-quality software. Students will learn how to use formal methods techniques to rigorously specify, validate, and verify safety-critical systems, as for example self-driving vehicles and aircrafts. This course will use a hands-on interactive approach.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SWE 6883",
+      "notes": [
+        "Permission by program coordinator may substitute"
+      ],
+      "prereqs": {
+        "and": [
+          "SWE 6623",
+          "SWE 6613"
+        ]
+      },
+      "title": "Formal Methods in Software Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133155",
+      "catalogYear": "2026-2027",
+      "coreqs": "SWE 6673",
+      "credits": "3",
+      "description": "This course is designed for students to give a professional focus to their degree. The students work in designated teams under the supervision of the course instructor (a CSE faculty member), on a project of practical significance in software engineering. Each of the teams will deliver a final working product, generate a substantial final report, and give a final presentation on the project.",
+      "groups": [
+        "conc-a-capstone"
+      ],
+      "id": "SWE 7903",
+      "notes": [],
+      "prereqs": {
+        "and": [
+          "SWE 6613",
+          "SWE 6633"
+        ]
+      },
+      "title": "Software Engineering Capstone"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133269",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The goal is to introduce the student to the essential principles, processes, and practices associated with the application of Systems Engineering. The applicability and use of Process Standards will be examined. Emphasis will focus on defining the problem to be solved, establishing the initial system architecture, understanding the role of system life-cycles, requirements development, and verification and validation of the realized system. Students who do not have a background in Systems or Industrial Engineering should take this course as early as possible. Note: This course may be cross-leveled with SYE 8005.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6005",
+      "notes": [],
+      "prereqs": null,
+      "title": "Introduction to Systems Engineering"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133272",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course covers the basic tools used in engineering economic decision making, including discounted cash flow, replacement and timing decisions, depreciation, risk analysis, and pricing mechanisms. Topics may also include an introduction to preferences and utilities, equilibrium concepts, probabilistic decisions, game theory, and incentive compatibility.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6025",
+      "notes": [],
+      "prereqs": null,
+      "title": "Engineering Economic Analysis"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133273",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "The use of models and simulations to validate or predict expected performance, behavior, and interaction of selected design elements in a controlled environment will be examined. This course will also present guidelines for selecting and using models and simulations on projects. Various modeling and simulation methods and tools will be examined and their value and applications probed for differing engineering development needs.",
+      "groups": [
+        "major-elective"
+      ],
+      "id": "SYE 6035",
+      "notes": [],
+      "prereqs": "QA 6610",
+      "title": "Modeling and Simulation"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-a-capstone"
+        ],
+        "label": "A. Capstone"
+      },
+      {
+        "groups": [
+          "major-elective"
+        ],
+        "label": "Electives"
+      }
+    ],
+    "id": "msswe-software-engineering",
+    "name": "MSSWE Software Engineering"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

@@ -2,12 +2,7 @@
 
 ## Warnings needing review
 
-- **ES 3700**
-  - unrecognized: Strength
-  - unrecognized: Conditioning Laboratory
-- **ES 3750**
-  - missing operator before 'BIOL 2251', assumed and
-  - missing operator before 'ES 2300', assumed and
+None.
 
 ## Notes
 
