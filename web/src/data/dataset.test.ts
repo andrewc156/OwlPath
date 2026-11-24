@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest'
 import { indexOrSample, loadIndex, loadMajor, type MajorEntry } from './dataset'
 
-const entry = (id: string): MajorEntry => ({ id, name: id, level: 'undergraduate', checked: true })
+const entry = (id: string): MajorEntry => ({ id, name: id, level: 'undergraduate', checked: true, college: 'College X' })
 
 test('falls back to the sample when there is no index', () => {
   expect(indexOrSample([]).map((m) => m.id)).toEqual(['bs-cs'])

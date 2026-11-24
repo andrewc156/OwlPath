@@ -4,7 +4,7 @@ import type { Dataset, NDataset } from './types'
 /** `source` value of the hand-written sample; production builds refuse it. */
 export const SAMPLE_SOURCE = 'SAMPLE'
 
-export type MajorEntry = { id: string; name: string; level: 'undergraduate' | 'graduate'; checked: boolean }
+export type MajorEntry = { id: string; name: string; level: 'undergraduate' | 'graduate'; checked: boolean; college: string }
 
 // The first load carries only this list. The build guard (scripts/check-data.mjs) checks it against the
 // shipped courses.json files.
@@ -15,7 +15,7 @@ const majorFiles = import.meta.glob<Dataset>('../../../data/2026-2027/*/courses.
 
 // Local previews only (npm run dev, build:sample). The sample is loaded lazily and the branch folds away in a
 // production build, so it never reaches the shipped bundle.
-const SAMPLE_ENTRY: MajorEntry = { id: 'bs-cs', name: 'BS Computer Science (sample)', level: 'undergraduate', checked: true }
+const SAMPLE_ENTRY: MajorEntry = { id: 'bs-cs', name: 'BS Computer Science (sample)', level: 'undergraduate', checked: true, college: 'College of Computing and Software Engineering' }
 
 /**
  * The sample is only for local previews: a production build with no index throws, so a glob that
