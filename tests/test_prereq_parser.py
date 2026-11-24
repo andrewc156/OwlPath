@@ -80,3 +80,57 @@ def test_standing_and_candidacy_are_notes():
     for t in ("Graduate standing", "Ph.D. candidacy", "Consent of the dean"):
         r = parse_requirement(t)
         assert r.expr is None and r.notes == [t] and r.warnings == []
+
+
+# --- KSU-wide wording (hold-clearing batch 1) ---
+
+def test_grades_of_prefix_variants():
+    for text in ['Grades of "B" or higher in PHYS 2212 and PHYS 2212L', 'Grade of "B" or higher in PHYS 2212 and PHYS 2212L',
+                 "A grade of 'B' or higher in PHYS 2212 and PHYS 2212L", 'Earned grade of "B" or higher in PHYS 2212 and PHYS 2212L',
+                 'Minimum grade of "B" or better in PHYS 2212 and PHYS 2212L']:
+        r = parse_requirement(text)
+        assert r.expr == {"and": [C("PHYS 2212", "B"), C("PHYS 2212L", "B")]} and r.warnings == [], text
+
+
+def test_both_with_a_grade_of_suffix():
+    r = parse_requirement('IT 1114 and CSE 1321, both with a grade of "B" or higher.')
+    assert r.expr == {"and": [C("IT 1114", "B"), C("CSE 1321", "B")]} and r.warnings == []
+
+
+def test_grade_prefix_with_comma_list_is_not_ambiguous():
+    r = parse_requirement('(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or ACCT 3100')
+    assert r.expr == {"or": [{"and": [C("ACCT 2101", "B"), C("ACCT 2102", "B"), C("ECON 2105", "B"), C("ECON 2106", "B")]},
+                             C("ACCT 3100")]}
+    assert r.warnings == []
+
+
+def test_ampersand_is_and():
+    r = parse_requirement("MATH 2202 & ENGR 3801")
+    assert r.expr == {"and": [C("MATH 2202"), C("ENGR 3801")]} and r.warnings == []
+
+
+def test_placement_into_a_course_or_higher_is_one_note():
+    r = parse_requirement("CHEM 1211 and (MATH 1111 or MATH 1113 or by placement to MATH 1113 or higher)")
+    assert r.expr == {"and": [C("CHEM 1211"), {"or": [C("MATH 1111"), C("MATH 1113")]}]}
+    assert r.notes == ["by placement to MATH 1113 or higher"] and r.warnings == []
+
+
+def test_semicolon_separates_clauses_joined_by_and():
+    r = parse_requirement("HIST 1111 or HIST 1112; ENGL 1102")
+    assert r.expr == {"and": [{"or": [C("HIST 1111"), C("HIST 1112")]}, C("ENGL 1102")]} and r.warnings == []
+
+
+def test_requirement_phrases_without_courses_are_notes():
+    for phrase in ["Engineering Standing", "Engineering Standing Requirements", "a Coles Partner Student", "BBA Major",
+                   "B.S. major", "Admission to teacher education", "an issued pre-service certificate",
+                   "Must have earned at least 30 credit hours", "60 credit hours with a minimum GPA of 2.0",
+                   "Departmental Approval", "Candidates must be admitted to a KSU BCOE program",
+                   "Admission to Yearlong Clinical Experience", "endorsement program"]:
+        r = parse_requirement(f"MATH 2202 and {phrase}")
+        assert r.expr == C("MATH 2202") and r.notes == [phrase] and r.warnings == [], phrase
+
+
+def test_unknown_prose_and_labels_still_warn():
+    assert parse_requirement("MATH 2202 and two semesters of chemistry").warnings
+    r = parse_requirement("Business Majors: ECON 2105; Non-business Majors: ECON 2100")
+    assert r.warnings  # a per-major condition must reach a person, never become "both"
