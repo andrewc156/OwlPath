@@ -2,8 +2,10 @@
 // Mirrors the pipeline's validator so hand edits can't ship a silently wrong graph.
 
 const GRADES = new Set(['A', 'B', 'C', 'D'])
-// Same pattern as data/schema/courses.schema.json.
+// Same patterns as data/schema/courses.schema.json.
 const GROUP = /^(core-field|major-required|major-elective|major-project|gen-ed-math|prereq-only|conc-[a-z0-9]+(-[a-z0-9]+)*)$/
+// catalogUrl feeds the "View in catalog" link's href, so only KSU catalog pages may ship.
+const CATALOG_URL = /^https:\/\/catalog\.kennesaw\.edu\//
 
 /** @returns {string[]} error messages; empty means valid. */
 export function validateDataset(data) {
@@ -19,6 +21,9 @@ export function validateDataset(data) {
     }
     if (ids.has(c.id)) errors.push(`duplicate id ${c.id}`)
     ids.add(c.id)
+    if (typeof c.catalogUrl !== 'string' || !CATALOG_URL.test(c.catalogUrl)) {
+      errors.push(`${c.id}: catalogUrl must start with https://catalog.kennesaw.edu/`)
+    }
   }
 
   const check = (owner, logic) => {

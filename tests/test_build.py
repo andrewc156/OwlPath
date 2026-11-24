@@ -14,7 +14,7 @@ META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
 
 def raw(id, prereq=None, coreq=None, title=None, description="desc"):
     return RawCourse(id=id, title=title or f"Title {id}", credits="3", description=description,
-                     prereq_text=prereq, coreq_text=coreq, url=f"https://catalog.example/{id.replace(' ', '')}")
+                     prereq_text=prereq, coreq_text=coreq, url=f"https://catalog.kennesaw.edu/{id.replace(' ', '')}")
 
 
 class Pages:
@@ -157,7 +157,7 @@ def test_notes_description_catalog_year_and_url_carried_through():
     ds, _ = build_dataset({"MATH 1190": ["gen-ed-math"], "MATH 1113": ["gen-ed-math"]}, pages, {}, META)
     c = course(ds, "MATH 1190")
     assert c["notes"] == ["By Placement"] and c["description"] == "Calculus I."
-    assert c["catalogYear"] == "2026-2027" and c["catalogUrl"] == "https://catalog.example/MATH1190"
+    assert c["catalogYear"] == "2026-2027" and c["catalogUrl"] == "https://catalog.kennesaw.edu/MATH1190"
 
 
 def test_output_uses_short_form_leaves():

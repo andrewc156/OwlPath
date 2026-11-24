@@ -16,7 +16,7 @@ import { filterSet, highlightSets } from './logic/highlight'
 import { fetchMajor, type LoadState } from './logic/majorLoad'
 import { programView, switchMajor, type MajorState } from './logic/programView'
 import type { ViewCtx } from './logic/view'
-import { majorUrl, resolveMajor, saveMajor } from './state/major'
+import { majorUrl, reloadToMajor, resolveMajor, saveMajor } from './state/major'
 import { useStatus } from './state/status'
 
 // The first load carries only the list of majors; a major's data loads when it's picked, and each
@@ -38,18 +38,16 @@ export default function App() {
     major: resolveMajor(window.location.search, browserStorage(), majorIds),
     selected: null, filter: null, focus: null,
   }))
-  const [attempt, setAttempt] = useState(0)
   const entry = majors.find((m) => m.id === view.major) ?? majors[0]
-  // The result is tagged with the request it answers, so a stale or pending one reads as loading.
-  const key = `${entry.id}#${attempt}`
+  // The result is tagged with the major it answers, so a stale or pending one reads as loading.
   const [result, setResult] = useState<{ key: string; state: LoadState } | null>(null)
-  const load: LoadState = result?.key === key ? result.state : { status: 'loading' }
+  const load: LoadState = result?.key === entry.id ? result.state : { status: 'loading' }
 
   useEffect(() => {
     let current = true
-    fetchMajor(entry.id).then((state) => { if (current) setResult({ key, state }) })
+    fetchMajor(entry.id).then((state) => { if (current) setResult({ key: entry.id, state }) })
     return () => { current = false }
-  }, [entry.id, key])
+  }, [entry.id])
 
   const changeMajor = (id: string) => {
     saveMajor(browserStorage(), id)
@@ -84,7 +82,8 @@ export default function App() {
       ) : (
         <main className="app-main load-state" role="status">
           {load.status === 'error' ? (
-            <p>Couldn't load this major. <button type="button" onClick={() => setAttempt((n) => n + 1)}>Retry</button></p>
+            <p>Couldn't load this major.{' '}
+              <button type="button" onClick={() => reloadToMajor(entry.id, window, browserStorage())}>Retry</button></p>
           ) : <p>Loading {entry.name}…</p>}
         </main>
       )}

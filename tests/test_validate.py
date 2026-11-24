@@ -108,3 +108,15 @@ def test_concentration_groups_follow_pattern():
     assert validate_dataset(dataset([ok])) == []
     bad = course("CS 3306", groups=("Conc AI",))
     assert validate_dataset(dataset([bad])) != []
+
+
+def test_catalog_url_must_be_a_ksu_catalog_link():
+    # The link feeds an href in the app, so it must point at the KSU catalog.
+    for url in ("javascript:alert(1)", "https://evil.example/", "http://catalog.kennesaw.edu/x",
+                "https://catalog.kennesaw.edu.evil.example/"):
+        bad = course("CS 3305")
+        bad["catalogUrl"] = url
+        assert any("catalogUrl" in e for e in validate_dataset(dataset([bad]))), url
+    ok = course("CS 3305")
+    ok["catalogUrl"] = "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=1"
+    assert validate_dataset(dataset([ok])) == []

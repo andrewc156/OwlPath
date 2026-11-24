@@ -7,7 +7,7 @@ from owlpath_pipeline.model import RawCourse
 
 def raw(id, prereq=None):
     return RawCourse(id=id, title=f"Title {id}", credits="3", description="desc", prereq_text=prereq,
-                     coreq_text=None, url=f"https://catalog.example/{id.replace(' ', '')}")
+                     coreq_text=None, url=f"https://catalog.kennesaw.edu/{id.replace(' ', '')}")
 
 
 CATALOG = {c.id: c for c in [raw("AA 1000"), raw("ZZ 9999", prereq="AA 1000 or BB 2000"), raw("BB 2000"),
@@ -189,7 +189,7 @@ def test_majors_index_lists_only_shipped_majors(tmp_path):
 # ---- snapshot drafting ----
 
 def page(poid, name, sections):
-    return {"name": name, "poid": poid, "url": f"https://catalog.example/p{poid}", "sections": sections}
+    return {"name": name, "poid": poid, "url": f"https://catalog.kennesaw.edu/p{poid}", "sections": sections}
 
 
 def sec(heading, *ids, level=2):

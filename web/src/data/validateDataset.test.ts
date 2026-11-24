@@ -65,3 +65,11 @@ test('a filter group no course uses is rejected', () => {
   const d = clone(); d.program.filters[0].groups = ['conc-nobody-has-this']
   expect(validateDataset(d).join()).toContain('filter group "conc-nobody-has-this" is used by no course')
 })
+
+test('catalogUrl must be a KSU catalog link, since it feeds the "View in catalog" href', () => {
+  for (const url of ['javascript:alert(1)', 'https://evil.example/', 'http://catalog.kennesaw.edu/x',
+    'https://catalog.kennesaw.edu.evil.example/', undefined]) {
+    const d = clone(); d.courses[0].catalogUrl = url
+    expect(validateDataset(d).join('\n'), String(url)).toContain('CSE 1321: catalogUrl must start with https://catalog.kennesaw.edu/')
+  }
+})

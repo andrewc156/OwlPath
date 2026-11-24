@@ -73,7 +73,7 @@
         "credits": { "type": "string", "pattern": "^\\d+(-\\d+)?$" },
         "description": { "type": "string" },
         "catalogYear": { "type": "string" },
-        "catalogUrl": { "type": "string" },
+        "catalogUrl": { "type": "string", "pattern": "^https://catalog\\.kennesaw\\.edu/", "description": "The course's KSU catalog page; it feeds a link href in the app." },
         "groups": {
           "type": "array", "minItems": 1, "uniqueItems": true,
           "items": { "$ref": "#/$defs/group" }
