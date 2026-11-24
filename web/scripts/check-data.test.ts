@@ -36,7 +36,7 @@ function root(programs: Record<string, Data | null>, opts: Opts = {}) {
       const flag = opts.coursesChecked?.[id] ?? checked
       writeFileSync(join(dir, id, 'courses.json'), JSON.stringify({ ...data, checked: flag }))
       writeFileSync(join(dir, id, 'build-report.md'), opts.report?.[id] ?? CLEAN)
-      if (pj) majors.push({ checked, id, level: 'undergraduate', name: (pj as { program: { name: string } }).program.name })
+      if (pj) majors.push({ checked, id, level: 'undergraduate', name: (pj as { program: { name: string } }).program.name, college: 'College of Computing and Software Engineering' })
     }
   }
   if (opts.majors !== null) writeFileSync(join(dir, 'majors.json'), JSON.stringify(opts.majors ?? majors))
@@ -136,6 +136,14 @@ test('majors.json out of date refuses', () => {
   const wrong = [{ checked: true, id: 'bs-cs', level: 'undergraduate', name: sample.program.name }]
   expect(checkPrograms(root({ 'bs-cs': real('bs-cs') }, { majors: wrong })).ok).toBe(false)
   expect(checkPrograms(root({ 'bs-cs': real('bs-cs') }, { majors: null })).ok).toBe(false)
+})
+
+test('a majors.json entry without a college refuses', () => {
+  const ok = checkPrograms(root({ 'bs-cs': real('bs-cs') }, { checked: ['bs-cs'] }))
+  expect(ok.ok).toBe(true)
+  const name = real('bs-cs').program.name
+  const noCollege = [{ checked: true, id: 'bs-cs', level: 'undergraduate', name }]
+  expect(checkPrograms(root({ 'bs-cs': real('bs-cs') }, { checked: ['bs-cs'], majors: noCollege })).ok).toBe(false)
 })
 
 test('a held major without courses.json is skipped and the build passes', () => {

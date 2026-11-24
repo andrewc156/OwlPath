@@ -33,7 +33,7 @@ data/
         programs.json         every in-scope program page, parsed (committed)
         overrides.json        hand fixes shared by every major of the level, each with a reason
     <major>/              per major: program.json, courses.json, build-report.md; checked majors also program-page.pdf, banner-diff.md
-    majors.json           the dropdown list, written by publish (id, name, level, checked)
+    majors.json           the dropdown list, written by publish (id, name, level, checked, college: from the catalog index heading, short names in config.COLLEGES)
     STATUS.md             written by publish: checked / auto-built / held majors, changes to checked majors, retired drafts, shared fixes, programs left out
 web/                      Vite + React + TS app
   src/data/  src/logic/  src/components/  src/state/  scripts/check-data.mjs (the build guard)

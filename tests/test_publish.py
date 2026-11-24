@@ -1,5 +1,8 @@
 import json
 
+import pytest
+
+from owlpath_pipeline import config
 from owlpath_pipeline import publish as pub
 from owlpath_pipeline.draft import draft_hash
 from owlpath_pipeline.model import RawCourse
@@ -181,9 +184,28 @@ def test_majors_index_lists_only_shipped_majors(tmp_path):
     write_major(tmp_path, "bs-held", ["NOPE 1"], name="Held")
     run(tmp_path)
     assert json.loads((tmp_path / "majors.json").read_text()) == [
-        {"id": "ms-zz", "name": "Zeta", "level": "graduate", "checked": True},
-        {"id": "bs-aa", "name": "Alpha", "level": "undergraduate", "checked": False},
-        {"id": "bs-bb", "name": "Beta", "level": "undergraduate", "checked": False}]
+        {"id": "ms-zz", "name": "Zeta", "level": "graduate", "checked": True, "college": "Other programs"},
+        {"id": "bs-aa", "name": "Alpha", "level": "undergraduate", "checked": False, "college": "Other programs"},
+        {"id": "bs-bb", "name": "Beta", "level": "undergraduate", "checked": False, "college": "Other programs"}]
+
+
+def test_majors_index_names_each_drafted_major_by_its_college(tmp_path):
+    p = page(1, "Alpha Studies, B.S.", [sec("Major Requirements", "AA 1000")])
+    write_snapshot(tmp_path, [{**p, "college": "Michael J. Coles College of Business"}])
+    snap_publish(tmp_path)
+    entry = json.loads((tmp_path / "majors.json").read_text())[0]
+    assert entry["id"] == "bs-alpha-studies" and entry["college"] == "Coles College of Business"
+
+
+@pytest.mark.parametrize("heading, short", [
+    ("Clarice C. and Leland H. Bagwell College of Education", "Bagwell College of Education"),
+    ("Clarice C. and Leland Bagwell College of Education", "Bagwell College of Education"),
+    ("Southern Polytechnic College of Engineering & Engineering Technology",
+     "Southern Polytechnic College of Engineering and Engineering Technology"),
+    ("Robert S. Geer Family College of The Arts", "Geer College of the Arts"),
+    ("A New College", "A New College"), ("", "Other programs")])
+def test_college_names(heading, short):
+    assert config.college_name(heading) == short
 
 
 # ---- snapshot drafting ----

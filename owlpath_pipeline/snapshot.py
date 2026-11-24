@@ -60,7 +60,7 @@ def crawl_level(level: str, crawler: Crawler) -> Snapshot:
         html = crawler.get(url, "acalog-core").html
         for cid, found in course_coids(html).items():
             coids.setdefault(cid, found)
-        programs.append({**parse_program_page(html), "poid": ref.poid, "url": url})
+        programs.append({**parse_program_page(html), "poid": ref.poid, "url": url, "college": ref.college})
 
     courses = {}
     for cid, course in listed.items():

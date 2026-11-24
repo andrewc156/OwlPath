@@ -1,156 +1,182 @@
 [
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
     "id": "ma-american-studies",
     "level": "graduate",
     "name": "MA American Studies"
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
     "id": "ma-integrated-global-communication",
     "level": "graduate",
     "name": "MA Integrated Global Communication"
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
     "id": "macc-accounting",
     "level": "graduate",
     "name": "MAcc Accounting"
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
     "id": "mba-executive-business-administration",
     "level": "graduate",
     "name": "MBA (Executive) Business Administration"
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
     "id": "mba-webmba-business-administration",
     "level": "graduate",
     "name": "MBA (WebMBA) Business Administration"
   },
   {
     "checked": false,
+    "college": "Bagwell College of Education",
     "id": "med-secondary-and-middle-grades-education",
     "level": "graduate",
     "name": "MEd Secondary and Middle Grades Education"
   },
   {
     "checked": false,
+    "college": "Bagwell College of Education",
     "id": "med-special-education",
     "level": "graduate",
     "name": "MEd Special Education"
   },
   {
     "checked": false,
+    "college": "Bagwell College of Education",
     "id": "med-teaching-of-english-to-speakers-of-other-languages-tesol",
     "level": "graduate",
     "name": "MEd Teaching of English to Speakers of Other Languages (TESOL)"
   },
   {
     "checked": false,
+    "college": "College of Architecture and Construction Management",
     "id": "ms-construction-management",
     "level": "graduate",
     "name": "MS Construction Management"
   },
   {
     "checked": false,
+    "college": "College of Computing and Software Engineering",
     "id": "ms-cybersecurity",
     "level": "graduate",
     "name": "MS Cybersecurity"
   },
   {
     "checked": true,
+    "college": "College of Computing and Software Engineering",
     "id": "ms-dsa",
     "level": "graduate",
     "name": "MS Data Science and Analytics"
   },
   {
     "checked": false,
+    "college": "Wellstar College of Health and Human Services",
     "id": "ms-exercise-science",
     "level": "graduate",
     "name": "MS Exercise Science"
   },
   {
     "checked": false,
+    "college": "Wellstar College of Health and Human Services",
     "id": "ms-prosthetics-and-orthotics",
     "level": "graduate",
     "name": "MS Prosthetics and Orthotics"
   },
   {
     "checked": false,
+    "college": "College of Computing and Software Engineering",
     "id": "msit-information-technology",
     "level": "graduate",
     "name": "MSIT Information Technology"
   },
   {
     "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
     "id": "msme-mechanical-engineering",
     "level": "graduate",
     "name": "MSME Mechanical Engineering"
   },
   {
     "checked": false,
+    "college": "Wellstar College of Health and Human Services",
     "id": "msn-family-nurse-practitioner",
     "level": "graduate",
     "name": "MSN Family Nurse Practitioner"
   },
   {
     "checked": false,
+    "college": "Wellstar College of Health and Human Services",
     "id": "msn-leadership-in-nursing",
     "level": "graduate",
     "name": "MSN Leadership in Nursing"
   },
   {
     "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
     "id": "msseng-systems-engineering",
     "level": "graduate",
     "name": "MSSENG Systems Engineering"
   },
   {
     "checked": false,
+    "college": "Coles College of Business",
     "id": "phd-business-administration",
     "level": "graduate",
     "name": "PhD Business Administration"
   },
   {
     "checked": false,
+    "college": "Southern Polytechnic College of Engineering and Engineering Technology",
     "id": "bs-aerospace-engineering",
     "level": "undergraduate",
     "name": "BS Aerospace Engineering"
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
     "id": "bs-anthropology",
     "level": "undergraduate",
     "name": "BS Anthropology"
   },
   {
     "checked": false,
+    "college": "College of Computing and Software Engineering",
     "id": "bs-artificial-intelligence",
     "level": "undergraduate",
     "name": "BS Artificial Intelligence"
   },
   {
     "checked": true,
+    "college": "College of Computing and Software Engineering",
     "id": "bs-cs",
     "level": "undergraduate",
     "name": "BS Computer Science"
   },
   {
     "checked": true,
+    "college": "College of Computing and Software Engineering",
     "id": "bs-dsa",
     "level": "undergraduate",
     "name": "BS Data Science and Analytics"
   },
   {
     "checked": false,
+    "college": "Radow College of Humanities and Social Sciences",
     "id": "bs-political-science",
     "level": "undergraduate",
     "name": "BS Political Science"
   },
   {
     "checked": false,
+    "college": "College of Computing and Software Engineering",
     "id": "bsswe-software-engineering",
     "level": "undergraduate",
     "name": "BSSWE Software Engineering"

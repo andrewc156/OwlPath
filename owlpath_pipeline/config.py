@@ -56,6 +56,29 @@ LISTING_PAGE_URL = (CATALOG_BASE + "/content.php?filter%5B27%5D={prefix}&filter%
 PROGRAM_PAGE_URL = CATALOG_BASE + "/preview_program.php?catoid={catoid}&poid={poid}&print"
 COURSE_PAGE_URL = CATALOG_BASE + "/preview_course_nopop.php?catoid={catoid}&coid={coid}"
 
+# The picker groups majors by college. The catalog's index headings spell a college differently per level
+# ("Leland H." / "Leland", "&" / "and"), so each is matched by a word it always contains.
+COLLEGES = [
+    ("bagwell", "Bagwell College of Education"),
+    ("architecture", "College of Architecture and Construction Management"),
+    ("computing", "College of Computing and Software Engineering"),
+    ("science and mathematics", "College of Science and Mathematics"),
+    ("honors", "Journey Honors College"),
+    ("coles", "Coles College of Business"),
+    ("radow", "Radow College of Humanities and Social Sciences"),
+    ("geer", "Geer College of the Arts"),
+    ("southern polytechnic", "Southern Polytechnic College of Engineering and Engineering Technology"),
+    ("wellstar", "Wellstar College of Health and Human Services"),
+]
+OTHER_COLLEGE = "Other programs"
+
+
+def college_name(heading: str) -> str:
+    """The picker's name for the college an index heading names."""
+    key = " ".join(heading.lower().replace("&", "and").split())
+    return next((short for word, short in COLLEGES if word in key), heading.strip() or OTHER_COLLEGE)
+
+
 # (catoid, poid) of the programs already built by hand -> their folder names.
 KNOWN_PROGRAM_IDS = {(84, 11680): "bs-cs", (84, 11867): "bs-dsa", (83, 11541): "ms-dsa"}
 

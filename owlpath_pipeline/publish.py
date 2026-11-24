@@ -42,6 +42,7 @@ class MajorResult:
     accepted: bool = False  # a checked major's change was written because of --accept-checked
     unreadable: bool = False  # program.json couldn't be read: its courses.json is never touched, and it blocks
     checked: bool = False  # reviewed by a person; a checked major can be "held" when its build fails
+    college: str = config.OTHER_COLLEGE  # the picker's college group
     orphaned: str = ""  # an edited draft that no program drafted to this run: why (it is held)
     courses: set[str] = field(default_factory=set)  # course ids of this run's build
 
@@ -61,6 +62,18 @@ class Retirement:
     retired: list[tuple[str, str, str]] = field(default_factory=list)  # (id, level, why): folder deleted
     orphaned: dict[str, tuple[str, str]] = field(default_factory=dict)  # id -> (level, why): edited, held
     missing_checked: list[tuple[str, str, str]] = field(default_factory=list)  # (id, level, why)
+
+
+def _colleges(data_dir: Path) -> dict[tuple[int, int], str]:
+    """(catoid, poid) -> the picker's college name, from each level's snapshot programs.json."""
+    out: dict[tuple[int, int], str] = {}
+    for level in config.CATALOGS:
+        f = data_dir / "catalog" / level / "programs.json"
+        if f.exists():
+            snap = json.loads(f.read_text(encoding="utf-8"))
+            for p in snap.get("programs", []):
+                out[(snap.get("catoid", config.catoid(level)), p["poid"])] = config.college_name(p.get("college", ""))
+    return out
 
 
 def _write_json(path: Path, data) -> None:
@@ -178,6 +191,8 @@ def publish(data_dir: Path = config.DATA_DIR, source: str = "snapshot",
     drafting = _draft_levels(data_dir) if source == "snapshot" else Drafting()
     retirement = _retire_drafts(data_dir, drafting)
 
+    colleges = _colleges(data_dir)
+    known = {mid: key for key, mid in config.KNOWN_PROGRAM_IDS.items()}
     results: list[MajorResult] = []
     details: dict[str, dict] = {}  # changed checked majors: id -> {course id: (before, after)}
     for mid in config.programs(data_dir):
@@ -190,6 +205,8 @@ def publish(data_dir: Path = config.DATA_DIR, source: str = "snapshot",
             spec = json.loads((folder / "program.json").read_text(encoding="utf-8"))
             result.checked = bool(spec.get("checked"))
             result.name, result.level = spec["program"]["name"], spec["level"]
+            key = (spec["catoid"], spec["poid"]) if "poid" in spec and "catoid" in spec else known.get(mid)
+            result.college = colleges.get(key, config.OTHER_COLLEGE)
             result.draft_warnings, left_out = list(spec.get("draftWarnings", [])), spec.get("leftOut", [])
         except Exception as e:  # can't tell whether the major was checked: touch nothing, block the publish
             result.unreadable = True
@@ -223,8 +240,8 @@ def publish(data_dir: Path = config.DATA_DIR, source: str = "snapshot",
 
     shipped = [r for r in results if r.state != "held" or (r.checked and (data_dir / r.id / "courses.json").exists())]
     shipped.sort(key=lambda r: (r.level, r.name))
-    _write_json(data_dir / "majors.json", [{"id": r.id, "name": r.name, "level": r.level, "checked": r.checked}
-                                           for r in shipped])
+    _write_json(data_dir / "majors.json", [{"id": r.id, "name": r.name, "level": r.level, "checked": r.checked,
+                                            "college": r.college} for r in shipped])
     (data_dir / "STATUS.md").write_text(_status(results, details, drafting, retirement, *_read_overrides(data_dir)))
     return results
 

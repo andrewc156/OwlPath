@@ -64,6 +64,7 @@ def course_coids(html: str) -> dict[str, int]:
 class ProgramRef:
     name: str
     poid: int
+    college: str = ""  # the index heading the program is listed under
 
 
 def parse_program_index(html: str) -> list[ProgramRef]:
@@ -75,7 +76,8 @@ def parse_program_index(html: str) -> list[ProgramRef]:
         name = a.get_text(" ", strip=True)
         if poid.isdigit() and name and int(poid) not in seen:
             seen.add(int(poid))
-            refs.append(ProgramRef(name, int(poid)))
+            heading = a.find_previous("h2")
+            refs.append(ProgramRef(name, int(poid), heading.get_text(" ", strip=True) if heading else ""))
     return refs
 
 
