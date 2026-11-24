@@ -1,0 +1,189 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11761,
+  "program": {
+    "id": "bs-electrical-engineering",
+    "name": "BS Electrical Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CPE 2200": [
+      "core-field"
+    ],
+    "CPE 3020": [
+      "major-elective"
+    ],
+    "CPE 3030": [
+      "major-elective"
+    ],
+    "CPE 3500": [
+      "major-elective"
+    ],
+    "CPE 4010": [
+      "major-elective"
+    ],
+    "CPE 4750": [
+      "major-elective"
+    ],
+    "CPE 4903": [
+      "major-elective"
+    ],
+    "CSE 1321": [
+      "major-required"
+    ],
+    "CSE 1321L": [
+      "major-required"
+    ],
+    "EE 1001L": [
+      "major-required"
+    ],
+    "EE 2301": [
+      "core-field"
+    ],
+    "EE 2302": [
+      "major-required"
+    ],
+    "EE 2401": [
+      "major-required"
+    ],
+    "EE 2501": [
+      "major-required"
+    ],
+    "EE 3401": [
+      "major-required"
+    ],
+    "EE 3501": [
+      "major-required"
+    ],
+    "EE 3601": [
+      "major-required"
+    ],
+    "EE 3605": [
+      "major-required"
+    ],
+    "EE 3701": [
+      "major-required"
+    ],
+    "EE 4201": [
+      "major-required"
+    ],
+    "EE 4810": [
+      "major-required"
+    ],
+    "EE 4820": [
+      "major-required"
+    ],
+    "ENGR 1000": [
+      "major-required"
+    ],
+    "ENGR 3131": [
+      "major-elective"
+    ],
+    "ENGR 3250": [
+      "major-elective"
+    ],
+    "ENGR 3325": [
+      "major-elective"
+    ],
+    "ENGR 3410": [
+      "major-elective"
+    ],
+    "ENGR 3411": [
+      "major-elective"
+    ],
+    "ENGR 3412": [
+      "major-elective"
+    ],
+    "ENGR 3501": [
+      "major-elective"
+    ],
+    "ENGR 3601": [
+      "major-elective"
+    ],
+    "ENGR 3602": [
+      "major-elective"
+    ],
+    "ENGR 3603": [
+      "major-elective"
+    ],
+    "ENGR 3801": [
+      "major-elective"
+    ],
+    "ENGR 4402": [
+      "major-required"
+    ],
+    "ENGR 4601": [
+      "major-elective"
+    ],
+    "ENGR 4602": [
+      "major-elective"
+    ],
+    "ENGR 4603": [
+      "major-elective"
+    ],
+    "ENGR 4604": [
+      "major-elective"
+    ],
+    "ISYE 3600": [
+      "major-elective"
+    ],
+    "ISYE 4500": [
+      "major-elective"
+    ],
+    "MATH 2203": [
+      "core-field"
+    ],
+    "MATH 2306": [
+      "major-required"
+    ],
+    "MTRE 4610": [
+      "major-elective"
+    ],
+    "MTRE 4710": [
+      "major-elective"
+    ],
+    "PHYS 3230": [
+      "major-elective"
+    ],
+    "PHYS 3710": [
+      "major-elective"
+    ],
+    "STAT 2332": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
+    "text: Select 6 credit hours of 3000-4000 level EE coursework not already used as a requirement in the major.",
+    "text: Math Elective (3 Credit Hours): Select 3 credit hours of MATH coursework above MATH 2335 not already used as a requirement in the major.",
+    "text: Technical or Engineering Science Electives (6 Credit Hours): Option 1: Select 3 credit hours of 3000-4000 level EE coursework not already used as a requirement in the major and Select 3 credit hours of coursework from the list below not already used as a requirement in the major. Option 2: Select 6 credit hours of coursework from the list below not already used as a requirement in the major.",
+    "text: Option 1: Select 3 credit hours of 3000-4000 level EE coursework not already used as a requirement in the major and Select 3 credit hours of coursework from the list below not already used as a requirement in the major.",
+    "text: Option 2: Select 6 credit hours of coursework from the list below not already used as a requirement in the major."
+  ],
+  "draftHash": "6d40514eb364feae179f0f771f1d958109470e29cecfc6fc6b3353a1de808aa1"
+}

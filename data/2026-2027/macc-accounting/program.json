@@ -1,0 +1,48 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11538,
+  "program": {
+    "id": "macc-accounting",
+    "name": "MAcc Accounting",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 7101": [
+      "major-required"
+    ],
+    "ACCT 7201": [
+      "major-required"
+    ],
+    "ACCT 7401": [
+      "major-required"
+    ],
+    "ACCT 7530": [
+      "major-required"
+    ],
+    "ACCT 7620": [
+      "major-required"
+    ],
+    "ACCT 7701": [
+      "major-required"
+    ],
+    "ACCT 7702": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Option A: Audit/Advisory Specialization'",
+    "unrecognized section 'Option B: Tax Specialization'"
+  ],
+  "leftOut": [],
+  "draftHash": "8763c0fcaac15065a4ee0583c6c5af8bc6702af7110a8a1c5c0090d7359f6ae8"
+}

@@ -1,0 +1,275 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11801,
+  "program": {
+    "id": "bfa-digital-animation",
+    "name": "BFA Digital Animation",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "3D Animation",
+        "groups": [
+          "conc-3d-animation"
+        ]
+      },
+      {
+        "label": "2D Animation",
+        "groups": [
+          "conc-2d-animation"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ANIM 1550": [
+      "core-field"
+    ],
+    "ANIM 2600": [
+      "major-required"
+    ],
+    "ANIM 2700": [
+      "major-required"
+    ],
+    "ANIM 2750": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 2760": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 2770": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 2790": [
+      "core-field"
+    ],
+    "ANIM 3620": [
+      "major-required"
+    ],
+    "ANIM 3630": [
+      "conc-2d-animation"
+    ],
+    "ANIM 3635": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 3640": [
+      "major-required"
+    ],
+    "ANIM 3660": [
+      "conc-2d-animation"
+    ],
+    "ANIM 3710": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 3720": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 3750": [
+      "conc-3d-animation"
+    ],
+    "ANIM 3751": [
+      "conc-3d-animation"
+    ],
+    "ANIM 4651": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 4652": [
+      "conc-2d-animation"
+    ],
+    "ANIM 4653": [
+      "conc-2d-animation"
+    ],
+    "ANIM 4730": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 4740": [
+      "conc-3d-animation",
+      "conc-2d-animation"
+    ],
+    "ANIM 4760": [
+      "conc-3d-animation"
+    ],
+    "ANIM 4761": [
+      "conc-3d-animation"
+    ],
+    "ARH 2750": [
+      "major-required"
+    ],
+    "ARH 2850": [
+      "major-required"
+    ],
+    "ARH 3000": [
+      "major-elective"
+    ],
+    "ARH 3100": [
+      "major-elective"
+    ],
+    "ARH 3150": [
+      "major-elective"
+    ],
+    "ARH 3200": [
+      "major-elective"
+    ],
+    "ARH 3240": [
+      "major-elective"
+    ],
+    "ARH 3250": [
+      "major-elective"
+    ],
+    "ARH 3300": [
+      "major-elective"
+    ],
+    "ARH 3320": [
+      "major-elective"
+    ],
+    "ARH 3350": [
+      "major-elective"
+    ],
+    "ARH 3370": [
+      "major-elective"
+    ],
+    "ARH 3400": [
+      "major-elective"
+    ],
+    "ARH 3500": [
+      "major-elective"
+    ],
+    "ARH 3600": [
+      "major-elective"
+    ],
+    "ARH 3700": [
+      "major-elective"
+    ],
+    "ARH 3750": [
+      "major-elective"
+    ],
+    "ARH 3830": [
+      "major-required"
+    ],
+    "ARH 3850": [
+      "major-elective"
+    ],
+    "ARH 3990": [
+      "major-elective"
+    ],
+    "ARH 4000": [
+      "major-elective"
+    ],
+    "ARH 4150": [
+      "major-elective"
+    ],
+    "ARH 4500": [
+      "major-elective"
+    ],
+    "ARH 4700": [
+      "major-elective"
+    ],
+    "ARH 4820": [
+      "major-elective"
+    ],
+    "ARH 4840": [
+      "major-elective"
+    ],
+    "ARH 4870": [
+      "major-elective"
+    ],
+    "ARH 4880": [
+      "major-elective"
+    ],
+    "ARH 4900": [
+      "major-elective"
+    ],
+    "ART 1100": [
+      "core-field"
+    ],
+    "ART 1150": [
+      "core-field"
+    ],
+    "ART 1200": [
+      "core-field"
+    ],
+    "ART 2150": [
+      "core-field"
+    ],
+    "ART 3015": [
+      "conc-2d-animation"
+    ],
+    "ART 3150": [
+      "major-required"
+    ],
+    "ART 3160": [
+      "conc-2d-animation"
+    ],
+    "ART 3705": [
+      "conc-2d-animation"
+    ],
+    "ART 3715": [
+      "conc-2d-animation"
+    ],
+    "ART 4023": [
+      "conc-2d-animation"
+    ],
+    "ART 4024": [
+      "major-required"
+    ],
+    "ART 4036": [
+      "conc-2d-animation"
+    ],
+    "ART 4037": [
+      "conc-2d-animation"
+    ],
+    "ART 4256": [
+      "conc-2d-animation"
+    ],
+    "ART 4257": [
+      "conc-2d-animation"
+    ],
+    "ART 4258": [
+      "conc-2d-animation"
+    ],
+    "ART 4721": [
+      "conc-2d-animation"
+    ],
+    "ART 4722": [
+      "conc-2d-animation"
+    ],
+    "ART 4723": [
+      "conc-2d-animation"
+    ],
+    "ART 4736": [
+      "conc-2d-animation"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Senior Review Exhibition (3 Credit Hours)'"
+  ],
+  "leftOut": [
+    "ARH 4400",
+    "ARH 4490",
+    "ART 4490",
+    "ART 3398"
+  ],
+  "draftHash": "1970f46081ffac4a45d31d0b9ae6a70a6c96f8fb90c434a290aaa5b0fb60bc29"
+}

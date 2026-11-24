@@ -1,0 +1,135 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11719,
+  "program": {
+    "id": "ba-modern-language-and-culture",
+    "name": "BA Modern Language and Culture",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "WLC 2209",
+      "WLC 2306"
+    ],
+    [
+      "ECON 2105",
+      "ECON 2106"
+    ]
+  ],
+  "courses": {
+    "ACCT 2101": [
+      "major-required"
+    ],
+    "ACCT 2102": [
+      "major-required"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "major-required"
+    ],
+    "ECON 2106": [
+      "major-required"
+    ],
+    "EDUC 2110": [
+      "major-elective"
+    ],
+    "EDUC 2120": [
+      "major-elective"
+    ],
+    "EDUC 2130": [
+      "major-required"
+    ],
+    "EDUC 4610": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "INED 3300": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ],
+    "WLC 2209": [
+      "major-elective"
+    ],
+    "WLC 2306": [
+      "major-elective"
+    ],
+    "WLC 4409": [
+      "major-required"
+    ],
+    "WLED 4408": [
+      "major-required"
+    ],
+    "WLED 4410": [
+      "major-required"
+    ],
+    "WLED 4412": [
+      "major-required"
+    ],
+    "WLED 4414": [
+      "major-required"
+    ],
+    "WLED 4650": [
+      "major-required"
+    ],
+    "WLED 4660": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Chinese'",
+    "unrecognized section 'French'",
+    "unrecognized section 'German'",
+    "unrecognized section 'Italian'",
+    "unrecognized section 'Japanese'",
+    "unrecognized section 'Korean'",
+    "unrecognized section 'Spanish'",
+    "unrecognized section 'Chinese'",
+    "unrecognized section 'French'",
+    "unrecognized section 'German'",
+    "unrecognized section 'Italian'",
+    "unrecognized section 'Japanese'",
+    "unrecognized section 'Korean'",
+    "unrecognized section 'Portuguese'",
+    "unrecognized section 'Spanish'"
+  ],
+  "leftOut": [
+    "text: Select 3 credit hours of 1000-2000 level coursework from the University Catalog",
+    "text: Select 9 credit hours of 3000-4000 level CHIN coursework.",
+    "text: Select 9 credit hours of 3000-4000 level FREN coursework.",
+    "text: Select 9 credit hours of 3000-4000 level GRMN coursework.",
+    "text: Select 9 credit hours of 3000-4000 level ITAL coursework.",
+    "text: Select 9 credit hours of 3000-4000 level JAPN coursework.",
+    "text: Select 9 credit hours of 3000-4000 level KOR coursework.",
+    "text: Select 9 credit hours of 3000-4000 level PORT coursework.",
+    "text: Select 9 credit hours of 3000-4000 level SPAN coursework.",
+    "text: Select 3 credit hours from the following list of courses:"
+  ],
+  "draftHash": "ddd3f3025135b37c600e541075cf4d3b2adaad473446e46d30bed696278cca94"
+}

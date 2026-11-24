@@ -20,6 +20,7 @@ export function normalize(dataset: Dataset): NDataset {
     program: dataset.program,
     choices: dataset.choices,
     lessCommon: new Set(dataset.lessCommon ?? []),
+    checked: dataset.checked ?? false,
     courses,
     byId: new Map(courses.map((c) => [c.id, c])),
   }

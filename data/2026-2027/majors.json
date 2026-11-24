@@ -1,0 +1,26 @@
+[
+  {
+    "checked": false,
+    "id": "ms-construction-management",
+    "level": "graduate",
+    "name": "MS Construction Management"
+  },
+  {
+    "checked": true,
+    "id": "ms-dsa",
+    "level": "graduate",
+    "name": "MS Data Science and Analytics"
+  },
+  {
+    "checked": true,
+    "id": "bs-cs",
+    "level": "undergraduate",
+    "name": "BS Computer Science"
+  },
+  {
+    "checked": true,
+    "id": "bs-dsa",
+    "level": "undergraduate",
+    "name": "BS Data Science and Analytics"
+  }
+]

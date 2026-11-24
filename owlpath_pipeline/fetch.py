@@ -4,7 +4,9 @@ CLI: .venv/bin/python -m owlpath_pipeline.fetch <url>   (prints the cache file p
 """
 import hashlib
 import json
+import os
 import sys
+import tempfile
 import time
 from collections.abc import Callable
 from pathlib import Path
@@ -28,6 +30,37 @@ class EmptyResponseError(FetchError):
     """The server returned an empty body, e.g. bot protection. Never cached."""
 
 
+LAST_REQUEST_FILE = ".last-request.json"
+
+
+def load_last_request(cache_dir: Path) -> dict[str, float]:
+    """Last page request time per origin, kept on disk so separate runs still honour the crawl delay."""
+    try:
+        return json.loads((Path(cache_dir) / LAST_REQUEST_FILE).read_text())
+    except (OSError, ValueError):
+        return {}
+
+
+def save_last_request(cache_dir: Path, origin: str, when: float) -> None:
+    """Written atomically (a temp file in the same folder, then os.replace), so a reader never sees half a record."""
+    cache_dir = Path(cache_dir)
+    last = load_last_request(cache_dir)
+    last[origin] = when
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=cache_dir, prefix=LAST_REQUEST_FILE + ".", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w") as f:
+            f.write(json.dumps(last))
+        os.replace(tmp, cache_dir / LAST_REQUEST_FILE)
+    except BaseException:
+        Path(tmp).unlink(missing_ok=True)
+        raise
+
+
+def cache_path(cache_dir: Path, url: str, suffix: str = ".html") -> Path:
+    return Path(cache_dir) / f"{hashlib.sha256(url.encode()).hexdigest()}{suffix}"
+
+
 class PoliteFetcher:
     def __init__(self, cache_dir: Path, user_agent: str, http_get: HttpGet,
                  sleep: Callable[[float], None], clock: Callable[[], float]):
@@ -37,8 +70,6 @@ class PoliteFetcher:
         self._sleep = sleep
         self._clock = clock
         self._robots: dict[str, RobotFileParser] = {}
-        # Last page request per host, kept on disk so separate runs still honour the crawl delay.
-        self._last_file = self.cache_dir / ".last-request.json"
 
     @classmethod
     def default(cls) -> "PoliteFetcher":
@@ -55,19 +86,7 @@ class PoliteFetcher:
         return cls(config.CACHE_DIR, config.USER_AGENT, http_get, time.sleep, time.time)
 
     def cache_path(self, url: str) -> Path:
-        return self.cache_dir / f"{hashlib.sha256(url.encode()).hexdigest()}.html"
-
-    def _load_last(self) -> dict[str, float]:
-        try:
-            return json.loads(self._last_file.read_text())
-        except (OSError, ValueError):
-            return {}
-
-    def _save_last(self, origin: str, when: float) -> None:
-        last = self._load_last()
-        last[origin] = when
-        self.cache_dir.mkdir(parents=True, exist_ok=True)
-        self._last_file.write_text(json.dumps(last))
+        return cache_path(self.cache_dir, url)
 
     def _headers(self) -> dict[str, str]:
         return {"User-Agent": self.user_agent}
@@ -98,13 +117,13 @@ class PoliteFetcher:
 
         delay = robots.crawl_delay(self.user_agent)
         delay = float(delay) if delay is not None else config.DEFAULT_CRAWL_DELAY
-        last = self._load_last().get(origin)
+        last = load_last_request(self.cache_dir).get(origin)
         if last is not None:
             wait = last + delay - self._clock()
             if wait > 0:
                 self._sleep(wait)
 
-        self._save_last(origin, self._clock())
+        save_last_request(self.cache_dir, origin, self._clock())
         status, body = self._http_get(url, self._headers())
         if status != 200:
             raise FetchError(f"{url} returned {status}")

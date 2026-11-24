@@ -1,0 +1,96 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11558,
+  "program": {
+    "id": "phd-international-conflict-management",
+    "name": "PhD International Conflict Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "INCM 8000": [
+      "major-required"
+    ],
+    "INCM 8001": [
+      "major-required"
+    ],
+    "INCM 8002": [
+      "major-required"
+    ],
+    "INCM 8003": [
+      "major-required"
+    ],
+    "INCM 8004": [
+      "major-required"
+    ],
+    "INCM 8005": [
+      "major-required"
+    ],
+    "INCM 8340": [
+      "major-required"
+    ],
+    "INCM 8355": [
+      "major-required"
+    ],
+    "INCM 9101": [
+      "major-required"
+    ],
+    "INCM 9102": [
+      "major-required"
+    ],
+    "INCM 9103": [
+      "major-required"
+    ],
+    "INCM 9250": [
+      "major-required"
+    ],
+    "INCM 9320": [
+      "major-required"
+    ],
+    "INCM 9350": [
+      "major-required"
+    ],
+    "INCM 9360": [
+      "major-required"
+    ],
+    "INCM 9380": [
+      "major-required"
+    ],
+    "MSCM 7321": [
+      "major-required"
+    ],
+    "MSCM 7365": [
+      "major-required"
+    ],
+    "MSCM 7502": [
+      "major-required"
+    ],
+    "MSCM 7707": [
+      "major-required"
+    ],
+    "MSCM 7708": [
+      "major-required"
+    ],
+    "MSCM 7715": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Advanced Research Methods (3 Credit Hours)'",
+    "unrecognized section 'Dissertation Research (9-15 Credit Hours)'"
+  ],
+  "leftOut": [
+    "INCM 9600",
+    "INCM 9410"
+  ],
+  "draftHash": "95c756795b28ceb601791a0613c053ae9784796bbeed7faf9fc368f5be267f29"
+}

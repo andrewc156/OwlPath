@@ -1,21 +1,24 @@
 import { expect, test } from 'vitest'
-import sampleJson from './sample.json'
-import { pickPrograms } from './dataset'
-import type { Dataset } from './types'
+import { indexOrSample, loadIndex, loadMajor, type MajorEntry } from './dataset'
 
-const sample = sampleJson as Dataset
-const prog = (id: string, name: string): Dataset => ({ ...sample, source: 'catalog', program: { ...sample.program, id, name } })
+const entry = (id: string): MajorEntry => ({ id, name: id, level: 'undergraduate', checked: true })
 
-test('bs-cs comes first, then by name', () => {
-  const out = pickPrograms([prog('zz', 'Zoology'), prog('bs-dsa', 'BS Data Science and Analytics'), prog('bs-cs', 'BS Computer Science')], sample)
-  expect(out.map((d) => d.program.id)).toEqual(['bs-cs', 'bs-dsa', 'zz'])
-})
-
-test('falls back to the sample when there is no real data', () => {
-  expect(pickPrograms([], sample).map((d) => d.source)).toEqual(['SAMPLE'])
+test('falls back to the sample when there is no index', () => {
+  expect(indexOrSample([]).map((m) => m.id)).toEqual(['bs-cs'])
 })
 
 test('a production build never falls back to the sample', () => {
-  expect(() => pickPrograms([], sample, true)).toThrow(/no reviewed dataset/)
-  expect(pickPrograms([prog('bs-cs', 'BS Computer Science')], sample, true)).toHaveLength(1)
+  expect(() => indexOrSample([], true)).toThrow(/no reviewed dataset/)
+  expect(indexOrSample([entry('bs-cs')], true)).toHaveLength(1)
+})
+
+test('loadIndex lists the shipped majors with their flags', () => {
+  const ids = loadIndex().map((m) => m.id)
+  expect(ids).toContain('bs-cs')
+  expect(loadIndex().every((m) => typeof m.checked === 'boolean')).toBe(true)
+})
+
+test('loadMajor loads one major and rejects an unknown id', async () => {
+  expect((await loadMajor('bs-cs')).program.id).toBe('bs-cs')
+  await expect(loadMajor('nope')).rejects.toThrow()
 })

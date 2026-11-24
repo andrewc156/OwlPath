@@ -1,0 +1,158 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11763,
+  "program": {
+    "id": "bs-mechatronics-engineering",
+    "name": "BS Mechatronics Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "AI 3642": [
+      "major-elective"
+    ],
+    "AI 4732": [
+      "major-elective"
+    ],
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CS 3305": [
+      "major-elective"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "EDG 1211": [
+      "core-field"
+    ],
+    "EE 2501": [
+      "major-required"
+    ],
+    "ENGR 1000": [
+      "major-required"
+    ],
+    "ENGR 2214": [
+      "major-required"
+    ],
+    "ENGR 3122": [
+      "major-required"
+    ],
+    "ENGR 3131": [
+      "major-elective"
+    ],
+    "ENGR 3410": [
+      "major-elective"
+    ],
+    "ENGR 3411": [
+      "major-elective"
+    ],
+    "ENGR 3412": [
+      "major-elective"
+    ],
+    "HPAL 2250": [
+      "major-elective"
+    ],
+    "MATH 2203": [
+      "core-field"
+    ],
+    "MATH 2306": [
+      "major-required"
+    ],
+    "MATH 3260": [
+      "major-required"
+    ],
+    "MTRE 1001L": [
+      "major-required"
+    ],
+    "MTRE 2110": [
+      "major-required"
+    ],
+    "MTRE 2110L": [
+      "major-required"
+    ],
+    "MTRE 2710": [
+      "major-required"
+    ],
+    "MTRE 2710L": [
+      "major-required"
+    ],
+    "MTRE 3110": [
+      "major-required"
+    ],
+    "MTRE 3110L": [
+      "major-required"
+    ],
+    "MTRE 3610": [
+      "major-required"
+    ],
+    "MTRE 3610L": [
+      "major-required"
+    ],
+    "MTRE 3720": [
+      "major-required"
+    ],
+    "MTRE 3720L": [
+      "major-required"
+    ],
+    "MTRE 3810": [
+      "major-required"
+    ],
+    "MTRE 3810L": [
+      "major-required"
+    ],
+    "MTRE 4710": [
+      "major-required"
+    ],
+    "MTRE 4710L": [
+      "major-required"
+    ],
+    "MTRE 4810": [
+      "major-required"
+    ],
+    "MTRE 4810L": [
+      "major-required"
+    ],
+    "MTRE 4820": [
+      "major-required"
+    ],
+    "MTRE 4820L": [
+      "major-required"
+    ],
+    "MTRE 4911": [
+      "major-required"
+    ],
+    "MTRE 4912": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantiative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
+    "text: 3000-4000 level MTRE coursework"
+  ],
+  "draftHash": "18654afad61ddf8d638cb6900b7cc6bc7dd3d71ada6ca745e3316e219f1204d2"
+}

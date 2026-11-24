@@ -1,0 +1,71 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11623,
+  "program": {
+    "id": "ms-intelligent-robotic-systems",
+    "name": "MS Intelligent Robotic Systems",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CS 7267": [
+      "major-required"
+    ],
+    "CS 7367": [
+      "major-required"
+    ],
+    "MTRE 6000": [
+      "major-required"
+    ],
+    "MTRE 6100": [
+      "major-required"
+    ],
+    "MTRE 6200": [
+      "major-required"
+    ],
+    "MTRE 6300": [
+      "major-required"
+    ],
+    "MTRE 6400": [
+      "major-required"
+    ],
+    "MTRE 6710": [
+      "major-elective"
+    ],
+    "MTRE 6720": [
+      "major-required"
+    ],
+    "MTRE 6730": [
+      "major-elective"
+    ],
+    "MTRE 6740": [
+      "major-required"
+    ],
+    "MTRE 6750": [
+      "major-elective"
+    ],
+    "MTRE 6800": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "MTRE 6398"
+  ],
+  "draftHash": "6fa2ee1b1962a04ea03b5e6c8d17d10e1387053ab1fe6da5f1aab565b795f341"
+}

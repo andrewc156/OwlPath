@@ -1,0 +1,312 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11686,
+  "program": {
+    "id": "ba-english",
+    "name": "BA English",
+    "filters": [
+      {
+        "label": "Literature and Culture",
+        "groups": [
+          "conc-literature-and-culture"
+        ]
+      },
+      {
+        "label": "Film, TV, and Screen Studies",
+        "groups": [
+          "conc-film-tv-and-screen-studies"
+        ]
+      },
+      {
+        "label": "Writing and Linguistics",
+        "groups": [
+          "conc-writing-and-linguistics"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "AMST 3710": [
+      "conc-literature-and-culture"
+    ],
+    "AMST 3730": [
+      "conc-literature-and-culture"
+    ],
+    "AMST 3740": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 2160": [
+      "major-elective"
+    ],
+    "ENGL 2172": [
+      "major-elective"
+    ],
+    "ENGL 2174": [
+      "major-elective"
+    ],
+    "ENGL 3105": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3119": [
+      "conc-writing-and-linguistics"
+    ],
+    "ENGL 3124": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3125": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3126": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3127": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3232": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3320": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3324": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3330": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3340": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3342": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3350": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3360": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3500": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3510": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 3600": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4220": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4230": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4340": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4360": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4370": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4372": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4374": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4380": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4401": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4460": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4470": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4480": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4560": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4570": [
+      "conc-literature-and-culture"
+    ],
+    "ENGL 4580": [
+      "conc-literature-and-culture"
+    ],
+    "FILM 3105": [
+      "conc-film-tv-and-screen-studies",
+      "conc-writing-and-linguistics"
+    ],
+    "FILM 3125": [
+      "conc-film-tv-and-screen-studies",
+      "conc-writing-and-linguistics"
+    ],
+    "FILM 3200": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3205": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3210": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3215": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3220": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3230": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3240": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3245": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3250": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 3560": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "FILM 4105": [
+      "conc-film-tv-and-screen-studies",
+      "conc-writing-and-linguistics"
+    ],
+    "FILM 4125": [
+      "conc-film-tv-and-screen-studies",
+      "conc-writing-and-linguistics"
+    ],
+    "FILM 4200": [
+      "conc-film-tv-and-screen-studies"
+    ],
+    "LING 3020": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3025": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3030": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3035": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3040": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3045": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3050": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3055": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3065": [
+      "conc-writing-and-linguistics"
+    ],
+    "LING 3760": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3000": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3100": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3110": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3111": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3120": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3125": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3130": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3140": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3150": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3151": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3152": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3160": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3170": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3210": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3650": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 3810": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 4100": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 4110": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 4120": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 4125": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 4130": [
+      "conc-writing-and-linguistics"
+    ],
+    "WRIT 4240": [
+      "conc-writing-and-linguistics"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Introduction to English Studies (3 Credit Hours)'",
+    "unrecognized section 'World Literature (3 Credit Hours)'",
+    "unrecognized section 'Linguistics (3 Credit Hours)'",
+    "unrecognized section 'Writing (3 Credit Hours)'",
+    "unrecognized section 'Film, TV, and Screen (3 Credit Hours)'",
+    "unrecognized section 'Cultural Studies (3 Credit Hours)'",
+    "unrecognized section 'Literature (3 Credit Hours)'",
+    "unrecognized section 'Theory (3 Credit Hours)'",
+    "unrecognized section 'Professionalization and Career Preparation (3 Credit Hours)'",
+    "unrecognized section 'Senior Seminar (3 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "a0f8bab1898da1016eded5d98f62f12e64d5f3fa0fab62b855fd8c7341a8cd02"
+}

@@ -1,0 +1,54 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11593,
+  "program": {
+    "id": "med-teaching-of-english-to-speakers-of-other-languages-tesol",
+    "name": "MEd Teaching of English to Speakers of Other Languages (TESOL)",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "INED 7750": [
+      "major-required"
+    ],
+    "INED 7763": [
+      "major-required"
+    ],
+    "INED 7764": [
+      "major-required"
+    ],
+    "INED 7769": [
+      "major-required"
+    ],
+    "INED 7778": [
+      "major-required"
+    ],
+    "INED 7779": [
+      "major-required"
+    ],
+    "INED 7781": [
+      "major-required"
+    ],
+    "INED 7782": [
+      "major-required"
+    ],
+    "INED 7783": [
+      "major-required"
+    ],
+    "INED 7787": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "8b4198c75e4ec02106eacad35da4befdaabc58284f0f6a0aef04189c548aa258"
+}

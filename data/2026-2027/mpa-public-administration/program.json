@@ -1,0 +1,75 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11602,
+  "program": {
+    "id": "mpa-public-administration",
+    "name": "MPA Public Administration",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "PAD 6500",
+      "PAD 6600"
+    ]
+  ],
+  "courses": {
+    "PAD 6200": [
+      "major-required"
+    ],
+    "PAD 6250": [
+      "major-required"
+    ],
+    "PAD 6300": [
+      "major-required"
+    ],
+    "PAD 6350": [
+      "major-required"
+    ],
+    "PAD 6450": [
+      "major-required"
+    ],
+    "PAD 6500": [
+      "major-required"
+    ],
+    "PAD 6600": [
+      "major-required"
+    ],
+    "PAD 6700": [
+      "major-required"
+    ],
+    "PAD 7100": [
+      "major-required"
+    ],
+    "PAD 7180": [
+      "major-required"
+    ],
+    "PAD 7998": [
+      "major-project"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'State, Local, and Regional Administration'",
+    "unrecognized section 'Information Systems Administration'",
+    "unrecognized section 'Select two of the following:'",
+    "unrecognized section 'Additional Course Options'"
+  ],
+  "leftOut": [
+    "text: Students will select two other graduate IS or MPA courses, or other graduate course approved by the program director."
+  ],
+  "draftHash": "1b4ef19b4af2f9b5f109c9b67341e218c12bd51f2a4ade51797c002f3a4c7154"
+}

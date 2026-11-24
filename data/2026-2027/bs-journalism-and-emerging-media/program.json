@@ -1,0 +1,97 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11783,
+  "program": {
+    "id": "bs-journalism-and-emerging-media",
+    "name": "BS Journalism and Emerging Media",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "COMM 1110": [
+      "core-field"
+    ],
+    "COMM 2033": [
+      "core-field"
+    ],
+    "COMM 2135": [
+      "core-field"
+    ],
+    "COMM 2230": [
+      "core-field"
+    ],
+    "COMM 2240": [
+      "core-field"
+    ],
+    "COMM 2340": [
+      "core-field"
+    ],
+    "JOUR 3330": [
+      "major-required"
+    ],
+    "JOUR 3360": [
+      "major-elective"
+    ],
+    "JOUR 3700": [
+      "major-required"
+    ],
+    "JOUR 3820": [
+      "major-elective"
+    ],
+    "JOUR 3900": [
+      "major-required"
+    ],
+    "JOUR 4100": [
+      "major-required"
+    ],
+    "JOUR 4300": [
+      "major-elective"
+    ],
+    "JOUR 4410": [
+      "major-elective"
+    ],
+    "JOUR 4412": [
+      "major-elective"
+    ],
+    "JOUR 4420": [
+      "major-elective"
+    ],
+    "JOUR 4445": [
+      "major-elective"
+    ],
+    "JOUR 4450": [
+      "major-elective"
+    ],
+    "JOUR 4470": [
+      "major-required"
+    ],
+    "JOUR 4488": [
+      "major-required"
+    ],
+    "MENT 3300": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Advanced Journalism Professional Practice (3 Credit Hours)'",
+    "unrecognized section 'Related Studies (3 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "779a886a793ba355473f276f19ee9fa3c157044eb1008a364120bfa649ad1269"
+}

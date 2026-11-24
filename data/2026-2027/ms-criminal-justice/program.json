@@ -1,0 +1,100 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11549,
+  "program": {
+    "id": "ms-criminal-justice",
+    "name": "MS Criminal Justice",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Non-Thesis",
+        "groups": [
+          "conc-non-thesis"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 7000": [
+      "major-elective"
+    ],
+    "CRJU 7702": [
+      "major-required"
+    ],
+    "CRJU 7703": [
+      "major-required"
+    ],
+    "CRJU 7704": [
+      "major-required"
+    ],
+    "CRJU 7705": [
+      "major-required"
+    ],
+    "CRJU 7706": [
+      "major-required"
+    ],
+    "CRJU 7707": [
+      "major-elective"
+    ],
+    "CRJU 7708": [
+      "major-elective"
+    ],
+    "CRJU 7709": [
+      "major-elective"
+    ],
+    "CRJU 7710": [
+      "major-elective"
+    ],
+    "CRJU 7712": [
+      "major-required"
+    ],
+    "CRJU 7713": [
+      "major-elective"
+    ],
+    "CRJU 7714": [
+      "major-elective"
+    ],
+    "CRJU 7715": [
+      "major-elective"
+    ],
+    "CRJU 7722": [
+      "major-elective"
+    ],
+    "CRJU 7998": [
+      "conc-non-thesis"
+    ],
+    "IS 7310": [
+      "major-elective"
+    ],
+    "PAD 6200": [
+      "major-elective"
+    ],
+    "PAD 6600": [
+      "major-elective"
+    ],
+    "PAD 7455": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "CRJU 7900",
+    "CRJU 7950",
+    "CRJU 7990"
+  ],
+  "draftHash": "140ad19d05b5aad7c0a956e8017ce0b1ef07632ab59669b8ac969a9cc0151d6a"
+}

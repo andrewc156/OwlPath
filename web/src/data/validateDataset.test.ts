@@ -53,3 +53,23 @@ test('lessCommon must name a course with a shown either/or partner', () => {
   d.lessCommon = ['ZZZ 9999']
   expect(validateDataset(d)).toContain('lessCommon: unknown course ZZZ 9999')
 })
+
+test('every course group must match the group pattern', () => {
+  const d = clone(); d.courses[0].groups = ['Conc AI']
+  expect(validateDataset(d).join()).toContain('invalid group "Conc AI"')
+  const ok = clone(); ok.courses[0].groups = ['conc-cyber-and-network-security']
+  expect(validateDataset(ok).join()).not.toContain('invalid group')
+})
+
+test('a filter group no course uses is rejected', () => {
+  const d = clone(); d.program.filters[0].groups = ['conc-nobody-has-this']
+  expect(validateDataset(d).join()).toContain('filter group "conc-nobody-has-this" is used by no course')
+})
+
+test('catalogUrl must be a KSU catalog link, since it feeds the "View in catalog" href', () => {
+  for (const url of ['javascript:alert(1)', 'https://evil.example/', 'http://catalog.kennesaw.edu/x',
+    'https://catalog.kennesaw.edu.evil.example/', undefined]) {
+    const d = clone(); d.courses[0].catalogUrl = url
+    expect(validateDataset(d).join('\n'), String(url)).toContain('CSE 1321: catalogUrl must start with https://catalog.kennesaw.edu/')
+  }
+})

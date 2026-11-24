@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { MAJOR_KEY, majorUrl, resolveMajor, saveMajor } from './major'
+import { MAJOR_KEY, majorUrl, reloadToMajor, resolveMajor, saveMajor } from './major'
 
 const IDS = ['bs-cs', 'bs-dsa']
 
@@ -32,3 +32,41 @@ test('saveMajor persists and never throws', () => {
 })
 test('majorUrl keeps other params', () =>
   expect(majorUrl('https://x/OwlPath/?a=1', 'bs-dsa')).toBe('https://x/OwlPath/?a=1&major=bs-dsa'))
+test('an unknown or held major falls back to bs-cs, wherever it is in the list', () => {
+  expect(resolveMajor('?major=held-x', null, ['ms-dsa', 'bs-cs'])).toBe('bs-cs')
+  expect(resolveMajor('', store({ [MAJOR_KEY]: 'gone' }), ['ms-dsa', 'bs-cs'])).toBe('bs-cs')
+  expect(resolveMajor('', null, ['ms-dsa', 'bs-dsa'])).toBe('ms-dsa')
+})
+
+// Retry after a failed load reloads the page (a deploy may have replaced the major's chunk), so the major must be
+// in the URL and the saved choice first: the reload then reopens it.
+function fakePage(start: string, onReload: (href: string) => void) {
+  let href = start
+  const calls: string[] = []
+  return {
+    calls,
+    page: {
+      location: { get href() { return href }, reload: () => { calls.push('reload'); onReload(href) } },
+      history: { replaceState: (_d: unknown, _u: string, url?: string | URL | null) => { calls.push('replaceState'); href = String(url) } },
+    },
+  }
+}
+
+test('reloadToMajor saves the major in the URL and storage, then reloads into it', () => {
+  const s = store({ [MAJOR_KEY]: 'bs-cs' })
+  let reopened = ''
+  const { page, calls } = fakePage('https://x/OwlPath/?a=1', (href) => {
+    reopened = resolveMajor(new URL(href).search, s, ['bs-cs', 'ms-dsa'])
+  })
+  reloadToMajor('ms-dsa', page, s)
+  expect(calls).toEqual(['replaceState', 'reload'])
+  expect(page.location.href).toBe('https://x/OwlPath/?a=1&major=ms-dsa')
+  expect(s.getItem(MAJOR_KEY)).toBe('ms-dsa')
+  expect(reopened).toBe('ms-dsa')
+})
+
+test('reloadToMajor still reloads when storage is blocked', () => {
+  const { page, calls } = fakePage('https://x/OwlPath/', () => {})
+  expect(() => reloadToMajor('bs-dsa', page, throwing)).not.toThrow()
+  expect(calls).toEqual(['replaceState', 'reload'])
+})

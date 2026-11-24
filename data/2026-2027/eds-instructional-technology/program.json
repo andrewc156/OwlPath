@@ -1,0 +1,93 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11576,
+  "program": {
+    "id": "eds-instructional-technology",
+    "name": "EdS Instructional Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Track 1: Certification",
+        "groups": [
+          "conc-track-1-certification"
+        ]
+      },
+      {
+        "label": "Track 2: Advanced",
+        "groups": [
+          "conc-track-2-advanced"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDRS 8000": [
+      "conc-track-2-advanced"
+    ],
+    "EDUC 8100": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 7305": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7400": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7430": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7455": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7460": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7480": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7485": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7500": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 7600": [
+      "conc-track-1-certification"
+    ],
+    "ITEC 8500": [
+      "major-required"
+    ],
+    "ITEC 8510": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8520": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8530": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8540": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8550": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8560": [
+      "conc-track-2-advanced"
+    ],
+    "ITEC 8570": [
+      "conc-track-2-advanced"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "6a65ec6431e61409290d5786c345027c6e290fc9545b1e3907ee213c462ca699"
+}

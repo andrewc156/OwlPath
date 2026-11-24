@@ -1,0 +1,136 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11701,
+  "program": {
+    "id": "ba-history",
+    "name": "BA History",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "HIST 1111",
+      "HIST 1112"
+    ],
+    [
+      "HIST 2111",
+      "HIST 2112"
+    ]
+  ],
+  "courses": {
+    "GEOG 1130": [
+      "major-elective"
+    ],
+    "HIST 1111": [
+      "major-required"
+    ],
+    "HIST 1112": [
+      "major-required"
+    ],
+    "HIST 2111": [
+      "major-required"
+    ],
+    "HIST 2112": [
+      "major-required"
+    ],
+    "HIST 2206": [
+      "major-elective"
+    ],
+    "HIST 3100": [
+      "major-required"
+    ],
+    "HIST 3325": [
+      "major-elective"
+    ],
+    "HIST 3326": [
+      "major-elective"
+    ],
+    "HIST 3327": [
+      "major-elective"
+    ],
+    "HIST 3328": [
+      "major-elective"
+    ],
+    "HIST 3376": [
+      "major-elective"
+    ],
+    "HIST 3377": [
+      "major-elective"
+    ],
+    "HIST 3378": [
+      "major-elective"
+    ],
+    "HIST 4425": [
+      "major-elective"
+    ],
+    "HIST 4426": [
+      "major-elective"
+    ],
+    "HIST 4427": [
+      "major-elective"
+    ],
+    "HIST 4430": [
+      "major-elective"
+    ],
+    "HIST 4435": [
+      "major-elective"
+    ],
+    "HIST 4495": [
+      "major-required"
+    ],
+    "HIST 4496": [
+      "major-required"
+    ],
+    "HIST 4497": [
+      "major-required"
+    ],
+    "HIST 4498": [
+      "major-required"
+    ],
+    "HIST 4911": [
+      "major-elective"
+    ],
+    "PHIL 2010": [
+      "major-elective"
+    ],
+    "WLC 1002": [
+      "major-required"
+    ],
+    "WLC 2001": [
+      "major-required"
+    ],
+    "WLC 2002": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Non-Western History Courses (6 Credit Hours)'",
+    "unrecognized section 'U.S. History Courses (6 Credit Hours)'",
+    "unrecognized section 'European History Courses (6 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Any two Research Seminars:",
+    "text: One Research Seminar from List Above",
+    "text: AND",
+    "HIST 4499",
+    "HIST 3396",
+    "HIST 3398",
+    "HIST 4400",
+    "HIST 4490"
+  ],
+  "draftHash": "d35e6c1b4c7e5c61204b7bfd613b3c97c7c27879f49b062f635cb720f2d4c6b9"
+}

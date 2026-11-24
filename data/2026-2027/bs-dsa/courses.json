@@ -1,5 +1,6 @@
 {
   "catalogYear": "2026-2027",
+  "checked": true,
   "choices": [
     [
       "CSE 2300",
@@ -24,7 +25,7 @@
   ],
   "courses": [
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135783",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -43,7 +44,7 @@
       "title": "Introduction to Database Systems"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136675",
       "catalogYear": "2026-2027",
       "coreqs": "CSE 1321L",
       "credits": "3",
@@ -57,7 +58,7 @@
       "title": "Programming and Problem Solving I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136668",
       "catalogYear": "2026-2027",
       "coreqs": "CSE 1321",
       "credits": "1",
@@ -71,7 +72,7 @@
       "title": "Programming and Problem Solving I Laboratory"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136676",
       "catalogYear": "2026-2027",
       "coreqs": {
         "and": [
@@ -89,7 +90,7 @@
         ]
       },
       "credits": "3",
-      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event- driven programming are also introduced. Students will use good programming style including proper documentation.",
+      "description": "The second course in computing provides coverage of more advanced topics of object-oriented programming. This includes the use of static variables and classes, non-linear data structures, inheritance and polymorphism, file input/output, exception handling, recursion, and parameterized types. Elementary data structures (linked lists, stacks, and queues) are introduced to solve application problems. Graphical user interfaces, parallel programming, database programming, and event-driven programming are also introduced. Students will use good programming style including proper documentation.",
       "groups": [
         "core-field"
       ],
@@ -104,7 +105,7 @@
       "title": "Programming and Problem Solving II"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136669",
       "catalogYear": "2026-2027",
       "coreqs": "CSE 1322",
       "credits": "1",
@@ -123,7 +124,7 @@
       "title": "Programming and Problem Solving II Laboratory"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136287",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -157,7 +158,7 @@
       "title": "Discrete Structures for Computing"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=136123",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -193,7 +194,7 @@
       "title": "Database Systems"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135464",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -219,7 +220,7 @@
       "title": "Computer Applications of Statistics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137198",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -242,7 +243,7 @@
       "title": "Data Visualization"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137199",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -256,7 +257,7 @@
       "title": "Data Science Ethics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137200",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -285,7 +286,7 @@
       "title": "Data Science Communication"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135736",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -304,7 +305,7 @@
       "title": "Programming in R"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137030",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -333,7 +334,7 @@
       "title": "Python for Data Science"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135470",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -349,11 +350,11 @@
       "title": "Statistical Data Mining"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=DATA&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=137201",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
-      "description": "Capstone projects challenge students to acquire and analyze data to solve real-world problems. Students will have to synthesize and strengthen the knowledge and skills learned through the program such as data visualization, inference and modeling, data wrangling, data organization, data mining and machine learning, as well as storytelling with the data. Print this Page",
+      "description": "Capstone projects challenge students to acquire and analyze data to solve real-world problems. Students will have to synthesize and strengthen the knowledge and skills learned through the program such as data visualization, inference and modeling, data wrangling, data organization, data mining and machine learning, as well as storytelling with the data.",
       "groups": [
         "major-required"
       ],
@@ -363,7 +364,7 @@
       "title": "Data Science Capstone"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135059",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -377,7 +378,7 @@
       "title": "College Algebra"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135060",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -393,7 +394,7 @@
       "title": "Precalculus"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135061",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "4",
@@ -409,7 +410,7 @@
       "title": "Calculus I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135063",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "4",
@@ -437,7 +438,7 @@
       "title": "Calculus II"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135840",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -459,7 +460,7 @@
       "title": "Discrete Mathematics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135065",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -487,7 +488,7 @@
       "title": "Linear Algebra I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135058",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -501,7 +502,7 @@
       "title": "Elementary Statistics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135631",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -522,7 +523,7 @@
       "title": "Probability and Data Analysis"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135465",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -547,7 +548,7 @@
       "title": "Statistical Methods I"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135466",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -575,7 +576,7 @@
       "title": "Biostatistics"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135467",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",
@@ -603,7 +604,7 @@
       "title": "Statistical Methods II"
     },
     {
-      "catalogUrl": "https://catalog.kennesaw.edu/content.php?filter%5B27%5D=STAT&filter%5B32%5D=1&cur_cat_oid=84&expand=1",
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=135469",
       "catalogYear": "2026-2027",
       "coreqs": null,
       "credits": "3",

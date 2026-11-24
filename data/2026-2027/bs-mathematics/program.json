@@ -1,0 +1,260 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11716,
+  "program": {
+    "id": "bs-mathematics",
+    "name": "BS Mathematics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Discrete Mathematics and Operations Research",
+        "groups": [
+          "conc-discrete-mathematics-and-operations-research"
+        ]
+      },
+      {
+        "label": "Pure Mathematics",
+        "groups": [
+          "conc-pure-mathematics"
+        ]
+      },
+      {
+        "label": "Computational and Applied Mathematics",
+        "groups": [
+          "conc-computational-and-applied-mathematics"
+        ]
+      },
+      {
+        "label": "Statistics",
+        "groups": [
+          "conc-statistics"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "MATH 3261",
+      "MATH 3262"
+    ],
+    [
+      "MATH 3322",
+      "MATH 3324"
+    ],
+    [
+      "MATH 3272",
+      "ISYE 3400"
+    ],
+    [
+      "ISYE 3600",
+      "MATH 4260"
+    ],
+    [
+      "MATH 4362",
+      "MATH 4382"
+    ],
+    [
+      "MATH 4596",
+      "MATH 3496"
+    ],
+    [
+      "STAT 3120",
+      "STAT 3125"
+    ]
+  ],
+  "courses": {
+    "CRJU 3301": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "CS 4306": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "DATA 3010": [
+      "conc-statistics"
+    ],
+    "DATA 4030": [
+      "conc-statistics"
+    ],
+    "DATA 4310": [
+      "conc-statistics"
+    ],
+    "DATA 4330": [
+      "conc-statistics"
+    ],
+    "FIN 3100": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "IS 3100": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "IS 4540": [
+      "conc-statistics"
+    ],
+    "ISYE 3400": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "ISYE 3600": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "ISYE 4200": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "ISYE 4500": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ],
+    "MATH 2203": [
+      "core-field"
+    ],
+    "MATH 2306": [
+      "core-field"
+    ],
+    "MATH 2390": [
+      "core-field"
+    ],
+    "MATH 3204": [
+      "major-required"
+    ],
+    "MATH 3260": [
+      "major-required"
+    ],
+    "MATH 3261": [
+      "major-required",
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 3262": [
+      "major-required",
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 3272": [
+      "conc-discrete-mathematics-and-operations-research"
+    ],
+    "MATH 3322": [
+      "major-required",
+      "conc-discrete-mathematics-and-operations-research"
+    ],
+    "MATH 3324": [
+      "major-required",
+      "conc-discrete-mathematics-and-operations-research"
+    ],
+    "MATH 3332": [
+      "major-required"
+    ],
+    "MATH 3496": [
+      "conc-pure-mathematics"
+    ],
+    "MATH 4260": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 4310": [
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 4361": [
+      "major-required"
+    ],
+    "MATH 4362": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 4381": [
+      "major-required"
+    ],
+    "MATH 4382": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 4391": [
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics"
+    ],
+    "MATH 4596": [
+      "conc-pure-mathematics"
+    ],
+    "SCM 2000": [
+      "major-required"
+    ],
+    "SOCI 4432": [
+      "conc-discrete-mathematics-and-operations-research",
+      "conc-pure-mathematics",
+      "conc-computational-and-applied-mathematics",
+      "conc-statistics"
+    ],
+    "STAT 3120": [
+      "conc-statistics"
+    ],
+    "STAT 3125": [
+      "conc-statistics"
+    ],
+    "STAT 3130": [
+      "conc-statistics"
+    ],
+    "STAT 4025": [
+      "conc-statistics"
+    ],
+    "STAT 4120": [
+      "conc-statistics"
+    ],
+    "STAT 4125": [
+      "conc-statistics"
+    ],
+    "STAT 4210": [
+      "conc-statistics"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics and Sciences.",
+    "text: Any 3000-4000 level MATH or STAT course",
+    "text: 3 credit hours from the following list of courses:",
+    "DATA 4400",
+    "DATA 4490",
+    "DATA 3396",
+    "DATA 3398",
+    "text: Any 3000 or 4000 level MATH or STAT course"
+  ],
+  "draftHash": "d46c06f241cc9214812071d038b157111ca41b6017c11bebbfbe53c3cc0e6961"
+}

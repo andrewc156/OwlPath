@@ -1,0 +1,75 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11859,
+  "program": {
+    "id": "bs-learning-design-and-technology",
+    "name": "BS Learning, Design, and Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "COMM 2033": [
+      "major-required"
+    ],
+    "CSE 1300": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "major-required"
+    ],
+    "LDT 1100": [
+      "major-required"
+    ],
+    "LDT 2100": [
+      "major-required"
+    ],
+    "LDT 3100": [
+      "major-required"
+    ],
+    "LDT 3200": [
+      "major-required"
+    ],
+    "LDT 3300": [
+      "major-required"
+    ],
+    "LDT 3400": [
+      "major-required"
+    ],
+    "LDT 3500": [
+      "major-required"
+    ],
+    "LDT 4100": [
+      "major-required"
+    ],
+    "LDT 4200": [
+      "major-required"
+    ],
+    "LDT 4300": [
+      "major-required"
+    ],
+    "LDT 4500": [
+      "major-required"
+    ],
+    "LDT 4600": [
+      "major-required"
+    ],
+    "TCOM 2050": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select 3 credit hours from the following list of courses::",
+    "LDT 3398"
+  ],
+  "draftHash": "b8c5ba065ea8c140f7258a707bf98c30c19f2383397848d9c7c5038f3ebbf1e4"
+}

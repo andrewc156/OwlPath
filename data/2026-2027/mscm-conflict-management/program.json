@@ -1,0 +1,129 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11547,
+  "program": {
+    "id": "mscm-conflict-management",
+    "name": "MSCM Conflict Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "MSCM 7325",
+      "MSCM 7355"
+    ],
+    [
+      "MSCM 7335",
+      "MSCM 7365"
+    ],
+    [
+      "MSCM 7705",
+      "MSCM 7706",
+      "MSCM 7707",
+      "MSCM 7708"
+    ],
+    [
+      "MSCM 7710",
+      "MSCM 7715"
+    ]
+  ],
+  "courses": {
+    "MSCM 7205": [
+      "major-required"
+    ],
+    "MSCM 7210": [
+      "major-required"
+    ],
+    "MSCM 7220": [
+      "major-required"
+    ],
+    "MSCM 7230": [
+      "major-required"
+    ],
+    "MSCM 7311": [
+      "major-required"
+    ],
+    "MSCM 7315": [
+      "major-required"
+    ],
+    "MSCM 7320": [
+      "major-elective"
+    ],
+    "MSCM 7321": [
+      "major-required",
+      "major-elective"
+    ],
+    "MSCM 7325": [
+      "major-elective"
+    ],
+    "MSCM 7335": [
+      "major-elective"
+    ],
+    "MSCM 7355": [
+      "major-elective"
+    ],
+    "MSCM 7365": [
+      "major-elective"
+    ],
+    "MSCM 7400": [
+      "major-required"
+    ],
+    "MSCM 7500": [
+      "major-required"
+    ],
+    "MSCM 7501": [
+      "major-elective"
+    ],
+    "MSCM 7502": [
+      "major-elective"
+    ],
+    "MSCM 7511": [
+      "major-elective"
+    ],
+    "MSCM 7512": [
+      "major-elective"
+    ],
+    "MSCM 7600": [
+      "major-required"
+    ],
+    "MSCM 7705": [
+      "major-elective"
+    ],
+    "MSCM 7706": [
+      "major-elective"
+    ],
+    "MSCM 7707": [
+      "major-elective"
+    ],
+    "MSCM 7708": [
+      "major-elective"
+    ],
+    "MSCM 7710": [
+      "major-elective"
+    ],
+    "MSCM 7715": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "MSCM 7720",
+    "text: or 3 of the following 1-credit courses:",
+    "MSCM 7900"
+  ],
+  "draftHash": "4143bf36adeb8af452d35a83024025ef6ab29985ba00e7f80a81eefbc3ccb080"
+}

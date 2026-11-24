@@ -1,0 +1,236 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11762,
+  "program": {
+    "id": "bses-environmental-science",
+    "name": "BSES Environmental Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "STAT 3125",
+      "IET 2227",
+      "STAT 1401"
+    ],
+    [
+      "POLS 3356",
+      "POLS 4456"
+    ]
+  ],
+  "courses": {
+    "BIOL 1108": [
+      "core-field"
+    ],
+    "BIOL 1108L": [
+      "core-field"
+    ],
+    "BIOL 3110L": [
+      "major-elective"
+    ],
+    "BIOL 3250K": [
+      "major-elective"
+    ],
+    "BIOL 3310K": [
+      "major-elective"
+    ],
+    "BIOL 3315K": [
+      "major-elective"
+    ],
+    "BIOL 3320K": [
+      "major-elective"
+    ],
+    "BIOL 3335": [
+      "major-elective"
+    ],
+    "BIOL 3340": [
+      "major-elective"
+    ],
+    "BIOL 3370": [
+      "major-required"
+    ],
+    "BIOL 3370L": [
+      "major-required"
+    ],
+    "BIOL 3371K": [
+      "major-elective"
+    ],
+    "BIOL 3372K": [
+      "major-elective"
+    ],
+    "BIOL 3380": [
+      "major-elective"
+    ],
+    "BIOL 3650": [
+      "major-elective"
+    ],
+    "BIOL 3700K": [
+      "major-elective"
+    ],
+    "BIOL 4115": [
+      "major-elective"
+    ],
+    "BIOL 4115L": [
+      "major-elective"
+    ],
+    "BIOL 4242K": [
+      "major-elective"
+    ],
+    "BIOL 4322": [
+      "major-elective"
+    ],
+    "BIOL 4422K": [
+      "major-elective"
+    ],
+    "BIOL 4440": [
+      "major-elective"
+    ],
+    "CHEM 1211": [
+      "major-required"
+    ],
+    "CHEM 1211L": [
+      "major-required"
+    ],
+    "CHEM 1212": [
+      "major-required"
+    ],
+    "CHEM 1212L": [
+      "major-required"
+    ],
+    "CHEM 3361": [
+      "major-required"
+    ],
+    "CHEM 3361L": [
+      "major-required"
+    ],
+    "CHEM 3700": [
+      "major-elective"
+    ],
+    "DATA 3010": [
+      "major-elective"
+    ],
+    "ENVS 2202K": [
+      "core-field"
+    ],
+    "ENVS 3100K": [
+      "major-required"
+    ],
+    "ENVS 3110L": [
+      "major-elective"
+    ],
+    "ENVS 3150K": [
+      "major-elective"
+    ],
+    "ENVS 3251": [
+      "major-elective"
+    ],
+    "ENVS 3350": [
+      "major-elective"
+    ],
+    "ENVS 3450": [
+      "major-elective"
+    ],
+    "ENVS 3720": [
+      "major-elective"
+    ],
+    "ENVS 3730": [
+      "major-elective"
+    ],
+    "ENVS 4000K": [
+      "major-elective"
+    ],
+    "ENVS 4300": [
+      "major-required"
+    ],
+    "ENVS 4399": [
+      "major-required"
+    ],
+    "GEOG 3305": [
+      "major-elective"
+    ],
+    "GEOG 3315": [
+      "major-required"
+    ],
+    "GEOG 3710": [
+      "major-elective"
+    ],
+    "GEOG 3800": [
+      "major-elective"
+    ],
+    "GEOG 3850": [
+      "major-elective"
+    ],
+    "GEOG 4405": [
+      "major-elective"
+    ],
+    "GEOG 4410": [
+      "major-elective"
+    ],
+    "GEOG 4700": [
+      "major-elective"
+    ],
+    "GEOL 1121K": [
+      "core-field"
+    ],
+    "GIS 4415": [
+      "major-elective"
+    ],
+    "IET 2227": [
+      "core-field"
+    ],
+    "POLS 3356": [
+      "major-required"
+    ],
+    "POLS 4456": [
+      "major-required"
+    ],
+    "SCM 2000": [
+      "core-field"
+    ],
+    "STAT 1401": [
+      "core-field"
+    ],
+    "STAT 3120": [
+      "major-elective"
+    ],
+    "STAT 3125": [
+      "core-field"
+    ],
+    "STAT 3130": [
+      "major-elective"
+    ],
+    "SURV 3320": [
+      "major-elective"
+    ],
+    "SURV 3451": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If STAT 1401 is taken in Mathematics & Quantitative Skills or as the Applied Math credit in Technology, Mathematics, and Sciences then students may select 3 credit hours of additional Environmental Sciences Electives which may include BIOL 1107 , BIOL 1107L , CHEM 2800 , CHEM 2800L . Students should consult with an advisor to discuss elective options.",
+    "text: If CHEM 1211, CHEM 1211L and/or CHEM 1212 are used to fulfill General Education Core IMPACTS students can take up to 7 credit hours of additional Environmental Science Electives which may include BIOL 1107 , BIOL 1107L , CHEM 2800 , CHEM 2800L . Students should consult with an advisor to discuss elective options.",
+    "BIOL 4400",
+    "BIOL 4490",
+    "ENVS 3398",
+    "ENVS 4400",
+    "ENVS 4490",
+    "GEOG 4500"
+  ],
+  "draftHash": "aab0c7e4e6e161fa8a95d30e6735b64ca770b150da0dae7a11524a425c67435a"
+}

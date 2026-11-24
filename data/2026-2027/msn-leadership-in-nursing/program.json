@@ -1,0 +1,114 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11539,
+  "program": {
+    "id": "msn-leadership-in-nursing",
+    "name": "MSN Leadership in Nursing",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Nursing Education Leadership in a Digital World",
+        "groups": [
+          "conc-nursing-education-leadership-in-a-digital-world"
+        ]
+      },
+      {
+        "label": "Nursing Administration and Transformational Leadership",
+        "groups": [
+          "conc-nursing-administration-and-transformational-leadership"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "NURS 6151": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7711": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7712": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7723": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7724": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7736": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7753": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7754": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7755": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7765": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7776": [
+      "major-required"
+    ],
+    "NURS 7777": [
+      "major-required"
+    ],
+    "NURS 7778": [
+      "major-required"
+    ],
+    "NURS 7779": [
+      "major-required"
+    ],
+    "NURS 7780": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7793": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7794": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7795": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7796": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7797": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7873": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7874": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7875": [
+      "conc-nursing-education-leadership-in-a-digital-world"
+    ],
+    "NURS 7880": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7881": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ],
+    "NURS 7882": [
+      "conc-nursing-administration-and-transformational-leadership"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [],
+  "draftHash": "997371aeb11606b478aa7fe40a9f19173edfb9d36fc77f8290050038b4bfc90e"
+}

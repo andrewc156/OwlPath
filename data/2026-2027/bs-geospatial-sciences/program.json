@@ -1,0 +1,246 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11695,
+  "program": {
+    "id": "bs-geospatial-sciences",
+    "name": "BS Geospatial Sciences",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Human-Environmental",
+        "groups": [
+          "conc-human-environmental"
+        ]
+      },
+      {
+        "label": "Information Systems",
+        "groups": [
+          "conc-information-systems"
+        ]
+      },
+      {
+        "label": "Land Surveying",
+        "groups": [
+          "conc-land-surveying"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "GEOG 2200",
+      "TCOM 2010"
+    ]
+  ],
+  "courses": {
+    "ANTH 3307": [
+      "conc-human-environmental"
+    ],
+    "ANTH 4430": [
+      "conc-human-environmental"
+    ],
+    "EDG 2160": [
+      "conc-land-surveying"
+    ],
+    "ENVS 3720": [
+      "conc-human-environmental"
+    ],
+    "ENVS 3730": [
+      "conc-human-environmental"
+    ],
+    "ENVS 4300": [
+      "conc-land-surveying"
+    ],
+    "GEOG 1101": [
+      "major-elective"
+    ],
+    "GEOG 1110": [
+      "major-required"
+    ],
+    "GEOG 1112K": [
+      "major-elective"
+    ],
+    "GEOG 1113K": [
+      "major-elective"
+    ],
+    "GEOG 1125": [
+      "major-elective"
+    ],
+    "GEOG 1130": [
+      "major-elective"
+    ],
+    "GEOG 2200": [
+      "conc-human-environmental"
+    ],
+    "GEOG 2391": [
+      "major-required"
+    ],
+    "GEOG 3000": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3305": [
+      "major-required"
+    ],
+    "GEOG 3310": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3315": [
+      "major-required"
+    ],
+    "GEOG 3320": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3330": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3340": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3395": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3700": [
+      "conc-human-environmental",
+      "conc-land-surveying"
+    ],
+    "GEOG 3710": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3800": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3850": [
+      "conc-human-environmental"
+    ],
+    "GEOG 3900": [
+      "conc-human-environmental",
+      "conc-land-surveying"
+    ],
+    "GEOG 4300": [
+      "conc-human-environmental"
+    ],
+    "GEOG 4345": [
+      "conc-human-environmental"
+    ],
+    "GEOG 4349": [
+      "conc-human-environmental"
+    ],
+    "GEOG 4405": [
+      "major-required"
+    ],
+    "GEOG 4410": [
+      "major-required"
+    ],
+    "GEOG 4700": [
+      "conc-human-environmental"
+    ],
+    "GIS 4100": [
+      "major-elective"
+    ],
+    "IS 2200": [
+      "conc-information-systems"
+    ],
+    "IS 3020": [
+      "conc-information-systems"
+    ],
+    "IS 3040": [
+      "conc-information-systems"
+    ],
+    "IS 3100": [
+      "conc-information-systems"
+    ],
+    "IS 3220": [
+      "conc-information-systems"
+    ],
+    "IS 3260": [
+      "conc-information-systems"
+    ],
+    "IS 3280": [
+      "conc-information-systems"
+    ],
+    "IS 3740": [
+      "conc-information-systems"
+    ],
+    "IS 3760": [
+      "conc-information-systems"
+    ],
+    "IS 4545": [
+      "conc-information-systems"
+    ],
+    "IS 4555": [
+      "conc-information-systems"
+    ],
+    "ISA 3100": [
+      "conc-information-systems"
+    ],
+    "POLS 3356": [
+      "conc-human-environmental"
+    ],
+    "POLS 4412": [
+      "conc-human-environmental"
+    ],
+    "POLS 4456": [
+      "conc-human-environmental"
+    ],
+    "SOCI 4464": [
+      "conc-human-environmental"
+    ],
+    "SURV 2221": [
+      "conc-land-surveying"
+    ],
+    "SURV 2221L": [
+      "conc-land-surveying"
+    ],
+    "SURV 3222": [
+      "conc-land-surveying"
+    ],
+    "SURV 3222L": [
+      "conc-land-surveying"
+    ],
+    "SURV 3319": [
+      "major-elective"
+    ],
+    "SURV 3320": [
+      "major-required"
+    ],
+    "SURV 3451": [
+      "major-elective",
+      "conc-land-surveying"
+    ],
+    "SURV 4465": [
+      "conc-land-surveying"
+    ],
+    "SURV 4470": [
+      "conc-land-surveying"
+    ],
+    "SURV 4475": [
+      "conc-land-surveying"
+    ],
+    "TCOM 2010": [
+      "conc-human-environmental"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select 3 credit hours from the following list of courses:",
+    "text: Select 4 credit hours from the following list of courses:",
+    "text: Any 3000/4000 level Study Abroad course",
+    "GEOG 4500",
+    "GIS 3398",
+    "SURV 4490"
+  ],
+  "draftHash": "a88ab5849f7f0fd7535e6d86b32155af8518c38e6a836b533e967fbed36f70cf"
+}

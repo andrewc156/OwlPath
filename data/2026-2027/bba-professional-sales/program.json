@@ -1,0 +1,105 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11729,
+  "program": {
+    "id": "bba-professional-sales",
+    "name": "BBA Professional Sales",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ],
+    "MKTG 3410": [
+      "major-required"
+    ],
+    "MKTG 4220": [
+      "major-elective"
+    ],
+    "MKTG 4430": [
+      "major-elective"
+    ],
+    "MKTG 4450": [
+      "major-required"
+    ],
+    "MKTG 4460": [
+      "major-required"
+    ],
+    "MKTG 4470": [
+      "major-elective"
+    ],
+    "MKTG 4480": [
+      "major-elective"
+    ],
+    "MKTG 4980": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives."
+  ],
+  "draftHash": "f4baf7d1b2d250acfb7cd754c1cc5c159e4586fc0ad25d36cd7a16bf037c1459"
+}

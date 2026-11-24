@@ -79,7 +79,7 @@ def main(argv: list[str]) -> int:
     from .fetch import FetchError, PoliteFetcher
 
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.banner")
-    ap.add_argument("program", choices=config.PROGRAMS, help="which major to check, e.g. bs-dsa")
+    ap.add_argument("program", choices=config.programs(), help="which major to check, e.g. bs-dsa")
     out = config.program_dir(ap.parse_args(argv).program)
     dataset = json.loads((out / "courses.json").read_text())
     fetcher = PoliteFetcher.default()

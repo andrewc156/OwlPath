@@ -1,0 +1,41 @@
+{
+  "CS 3622": {
+    "reason": "Parsed tree is right; the catalog's word 'both' was left over as a note.",
+    "notes": []
+  },
+  "CSE 3801": {
+    "reason": "Parsed tree is right; '(may take concurrently)' applies to IT 3123 and is a note.",
+    "notes": [
+      "IT 3123 may be taken concurrently"
+    ]
+  },
+  "CSE 2300": {
+    "reason": "Catalog text has an unbalanced bracket. Read as: (CSE 1321 and CSE 1321L, both B or higher, since the grade sits inside their bracket) and (MATH 1113 or MATH 1190 or MATH 1179). Cross-checked against Banner.",
+    "prereqs": {
+      "and": [
+        {
+          "course": "CSE 1321",
+          "minGrade": "B"
+        },
+        {
+          "course": "CSE 1321L",
+          "minGrade": "B"
+        },
+        {
+          "or": [
+            "MATH 1113",
+            "MATH 1190",
+            "MATH 1179"
+          ]
+        }
+      ]
+    },
+    "notes": []
+  },
+  "STAT 3125": {
+    "reason": "Parsed correctly: needs BIOL 1107, BIOL 1108 or CHEM 1212 (all outside this program) or instructor permission. It is an alternative to STAT 3120, so students are not blocked.",
+    "notes": [
+      "Or permission of the instructor"
+    ]
+  }
+}

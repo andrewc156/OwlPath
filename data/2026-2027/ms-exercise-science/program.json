@@ -1,0 +1,49 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11627,
+  "program": {
+    "id": "ms-exercise-science",
+    "name": "MS Exercise Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ES 6100": [
+      "major-required"
+    ],
+    "ES 6200": [
+      "major-required"
+    ],
+    "ES 6510": [
+      "major-required"
+    ],
+    "ES 6520": [
+      "major-required"
+    ],
+    "ES 6530": [
+      "major-required"
+    ],
+    "ES 6540": [
+      "major-required"
+    ],
+    "ES 6550": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "ES 7800",
+    "ES 7850",
+    "ES 7900"
+  ],
+  "draftHash": "2773bab63deba16c3aea99a2f0465662b5a3498762dc3fb4765b13c1051ec4f8"
+}

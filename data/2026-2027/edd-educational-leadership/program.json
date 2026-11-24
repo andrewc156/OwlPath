@@ -1,0 +1,103 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11551,
+  "program": {
+    "id": "edd-educational-leadership",
+    "name": "EdD Educational Leadership",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "EDRS 9100",
+      "EDRS 9200"
+    ]
+  ],
+  "courses": {
+    "EDL 9000": [
+      "major-required"
+    ],
+    "EDL 9300": [
+      "major-elective"
+    ],
+    "EDL 9310": [
+      "major-elective"
+    ],
+    "EDL 9330": [
+      "major-elective"
+    ],
+    "EDL 9340": [
+      "major-elective"
+    ],
+    "EDL 9345": [
+      "major-required"
+    ],
+    "EDL 9360": [
+      "major-elective"
+    ],
+    "EDL 9370": [
+      "major-elective"
+    ],
+    "EDL 9380": [
+      "major-elective"
+    ],
+    "EDL 9390": [
+      "major-elective"
+    ],
+    "EDL 9520": [
+      "major-elective"
+    ],
+    "EDL 9820": [
+      "major-elective"
+    ],
+    "EDL 9850": [
+      "major-elective"
+    ],
+    "EDL 9860": [
+      "major-required"
+    ],
+    "EDL 9890": [
+      "major-required"
+    ],
+    "EDRS 8100": [
+      "major-required"
+    ],
+    "EDRS 8200": [
+      "major-required"
+    ],
+    "EDRS 9100": [
+      "major-required"
+    ],
+    "EDRS 9200": [
+      "major-required"
+    ],
+    "EDRS 9300": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Leadership in Urban Schools'",
+    "unrecognized section 'Leading Independent and Charter Schools'",
+    "unrecognized section 'Coaching for Performance'",
+    "unrecognized section 'Dissertation (Minimum 9 Credit Hours)'"
+  ],
+  "leftOut": [
+    "EDL 9600",
+    "EDL 9350"
+  ],
+  "draftHash": "8cfd277da0c8108193ae368469e6c64049dc6f5d5808b3080fa4827535a4e9c8"
+}

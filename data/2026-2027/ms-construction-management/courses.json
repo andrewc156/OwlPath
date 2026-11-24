@@ -1,0 +1,147 @@
+{
+  "catalogYear": "2026-2027",
+  "checked": false,
+  "choices": [],
+  "courses": [
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133186",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A course in communications technique improvement and preparation for functioning in an information based society. Conceptual and methodological issues in construction research will be explored with emphasis on construction specific resources. Data development and analysis will be studied to include the concepts of validity, reliability, and applications of statistics.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 6000",
+      "notes": [
+        "Admission to the MSCM program"
+      ],
+      "prereqs": null,
+      "title": "Information Methods"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133188",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the legal problems and concerns frequently encountered by constructors and others who participate in the construction process. Topics include the formation of contracts and the various contractual relationships; methods of modification and termination of the contracts; exploration of licensure and professional liability of the construction practitioner.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 6100",
+      "notes": [
+        "Admission to the MSCM program"
+      ],
+      "prereqs": null,
+      "title": "Construction Law: Contracts and Claims"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133191",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "A review of all normal bid-preparation activities that should take place in a prime contractor\u2019s organization from the initial decisions on project selection and receipt of drawings and specifications, through the estimating process and sub-bid research, final bid assembly, markup and submission, to postmortems and necessary follow-up actions. Significant attention will be devoted to bidding techniques, strategies, practices, and methods recommended to handle these functions.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 6200",
+      "notes": [
+        "Admission to the MSCM program"
+      ],
+      "prereqs": null,
+      "title": "Strategic Bidding and Estimating"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133203",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course focuses on the safety practices mandated by government regulation and required by good business practice. The costs of safety and the lack of it is examined. Workers\u2019 compensation insurance cost is integrated into the issues of safety. Exposure analysis, risk management, risk transfer and the costs associated with each are examined in this course.",
+      "groups": [
+        "major-required"
+      ],
+      "id": "CM 6600",
+      "notes": [
+        "Admission to the MSCM program"
+      ],
+      "prereqs": null,
+      "title": "Construction Risk Analysis and Control"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133206",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "1",
+      "description": "This course is designed for the students who want to focus their course of study on a particular aspect of construction. The student works independently under the supervision of the course professor on a project or an inquiry that is significant in the construction industry. The topic of the project or inquiry must be approved prior to registration and the student must continue the work in a manner that is satisfactory to the course professor. The student is expected to submit a substantial report and to defend this submittal and the course work taken in the degree program.",
+      "groups": [
+        "conc-project"
+      ],
+      "id": "CM 7701",
+      "notes": [],
+      "prereqs": "CM 6000",
+      "title": "Master\u2019s Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133207",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "2",
+      "description": "This course is designed for the students who want to focus their course of study on a particular aspect of construction. The student works independently under the supervision of the course professor on a project or an inquiry that is significant in the construction industry. The topic of the project or inquiry must be approved prior to registration and the student must continue the work in a manner that is satisfactory to the course professor. The student is expected to submit a substantial report and to defend this submittal and the course work taken in the degree program.",
+      "groups": [
+        "conc-project"
+      ],
+      "id": "CM 7702",
+      "notes": [],
+      "prereqs": "CM 6000",
+      "title": "Master\u2019s Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133208",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "3",
+      "description": "This course is designed for the students who want to focus their course of study on a particular aspect of construction. The student works independently under the supervision of the course professor on a project or an inquiry that is significant in the construction industry. The topic of the project or inquiry must be approved prior to registration and the student must continue the work in a manner that is satisfactory to the course professor. The student is expected to submit a substantial report and to defend this submittal and the course work taken in the degree program.",
+      "groups": [
+        "conc-project"
+      ],
+      "id": "CM 7703",
+      "notes": [],
+      "prereqs": "CM 6000",
+      "title": "Master\u2019s Project"
+    },
+    {
+      "catalogUrl": "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=83&coid=133209",
+      "catalogYear": "2026-2027",
+      "coreqs": null,
+      "credits": "4",
+      "description": "This course is designed for the students who want to focus their course of study on a particular aspect of construction. The student works independently under the supervision of the course professor on a project or an inquiry that is significant in the construction industry. The topic of the project or inquiry must be approved prior to registration and the student must continue the work in a manner that is satisfactory to the course professor. The student is expected to submit a substantial report and to defend this submittal and the course work taken in the degree program.",
+      "groups": [
+        "conc-project"
+      ],
+      "id": "CM 7704",
+      "notes": [],
+      "prereqs": "CM 6000",
+      "title": "Master\u2019s Project"
+    }
+  ],
+  "lessCommon": [],
+  "program": {
+    "filters": [
+      {
+        "groups": [
+          "major-required"
+        ],
+        "label": "Required courses"
+      },
+      {
+        "groups": [
+          "conc-project"
+        ],
+        "label": "Project"
+      }
+    ],
+    "id": "ms-construction-management",
+    "name": "MS Construction Management"
+  },
+  "source": "KSU Graduate Catalog 2026-2027 (https://catalog.kennesaw.edu, catoid=83)"
+}

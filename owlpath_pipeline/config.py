@@ -15,8 +15,11 @@ CACHE_DIR = Path(".cache/http")
 DATA_DIR = REPO_ROOT / "data" / CATALOG_YEAR
 SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "courses.schema.json"
 
-# One folder per major under DATA_DIR: program.json, overrides.json, courses.json, reports.
-PROGRAMS = ("bs-cs", "bs-dsa", "ms-dsa")
+# One folder per major under DATA_DIR: program.json, courses.json, reports. Overrides are shared per level,
+# in catalog/<level>/overrides.json.
+def programs(data_dir: Path = DATA_DIR) -> list[str]:
+    """The sorted major folders under data_dir (the ones that hold a program.json)."""
+    return sorted(p.parent.name for p in Path(data_dir).glob("*/program.json"))
 
 
 def program_dir(program: str) -> Path:
@@ -30,15 +33,31 @@ BANNER_URL = ("https://owlexpress.kennesaw.edu/prodban/bwckctlg.p_disp_course_de
 # KSU publishes separate undergraduate and graduate catalogs, each with its own catoid. Every major names
 # its catalog with "level" in program.json. catoid None means not set up yet: building refuses.
 CATALOGS = {
-    "undergraduate": {"name": "Undergraduate", "catoid": 84},
-    "graduate": {"name": "Graduate", "catoid": 83},  # from the MS DSA program page URL
+    "undergraduate": {"name": "Undergraduate", "catoid": 84, "programs_navoid": 9371},
+    "graduate": {"name": "Graduate", "catoid": 83, "programs_navoid": 9027},  # from the MS DSA program page URL
 }
 
-# The catalog site blocks automated clients (HTTP 202), so its expanded "Courses"
-# listing is saved by hand as one PDF per prefix, in catalog/<level>/. Each course links to its listing.
+# The crawler (crawl.py) saves the whole catalog as a snapshot in catalog/<level>/ (catalog-courses.json,
+# programs.json); builds read it. COURSE_LISTING_URL is the fallback link for a course with no page of its own,
+# and the address of the hand-saved listing PDFs the --from-pdfs path still reads.
 CATALOG_DIR = DATA_DIR / "catalog"
 COURSE_LISTING_URL = (CATALOG_BASE + "/content.php?filter%5B27%5D={prefix}&filter%5B32%5D=1"
                       "&cur_cat_oid={catoid}&expand=1")
+
+# Crawler (owlpath_pipeline/crawl.py): the browser may also reach the site's bot-check host.
+BOT_CHECK_HOST_SUFFIX = ".token.awswaf.com"
+CRAWL_CHALLENGE_TIMEOUT = 60.0  # seconds a page may take to get past the bot check
+
+PROGRAMS_INDEX_URL = CATALOG_BASE + "/content.php?catoid={catoid}&navoid={navoid}"
+COURSES_PAGE_URL = CATALOG_BASE + "/content.php?catoid={catoid}&navoid={navoid}"
+LISTING_PAGE_URL = (CATALOG_BASE + "/content.php?filter%5B27%5D={prefix}&filter%5B29%5D=&filter%5Bcourse_type%5D=-1"
+                    "&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D={page}&cur_cat_oid={catoid}"
+                    "&expand=1&navoid={navoid}&print=1")
+PROGRAM_PAGE_URL = CATALOG_BASE + "/preview_program.php?catoid={catoid}&poid={poid}&print"
+COURSE_PAGE_URL = CATALOG_BASE + "/preview_course_nopop.php?catoid={catoid}&coid={coid}"
+
+# (catoid, poid) of the programs already built by hand -> their folder names.
+KNOWN_PROGRAM_IDS = {(84, 11680): "bs-cs", (84, 11867): "bs-dsa", (83, 11541): "ms-dsa"}
 
 
 def catoid(level: str) -> int:

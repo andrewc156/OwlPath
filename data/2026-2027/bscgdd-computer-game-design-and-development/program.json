@@ -1,0 +1,162 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11750,
+  "program": {
+    "id": "bscgdd-computer-game-design-and-development",
+    "name": "BSCGDD Computer Game Design and Development",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Computing",
+        "groups": [
+          "conc-computing"
+        ]
+      },
+      {
+        "label": "Creative Content",
+        "groups": [
+          "conc-creative-content"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ]
+  ],
+  "courses": {
+    "AI 4267": [
+      "conc-computing"
+    ],
+    "AI 4732": [
+      "conc-computing"
+    ],
+    "CGDD 2012": [
+      "core-field"
+    ],
+    "CGDD 2026": [
+      "major-required"
+    ],
+    "CGDD 3103": [
+      "major-required"
+    ],
+    "CGDD 4003": [
+      "major-required"
+    ],
+    "CGDD 4113": [
+      "conc-computing"
+    ],
+    "CGDD 4203": [
+      "major-required"
+    ],
+    "CGDD 4242": [
+      "major-required"
+    ],
+    "CGDD 4303": [
+      "major-required"
+    ],
+    "CGDD 4703": [
+      "conc-computing"
+    ],
+    "CGDD 4803": [
+      "major-required"
+    ],
+    "CGDD 4814": [
+      "major-required"
+    ],
+    "CS 3305": [
+      "major-required"
+    ],
+    "CS 4306": [
+      "major-required"
+    ],
+    "CS 4722": [
+      "major-required"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 1322": [
+      "core-field"
+    ],
+    "CSE 1322L": [
+      "core-field"
+    ],
+    "CSE 2300": [
+      "core-field"
+    ],
+    "CSE 3153": [
+      "major-required"
+    ],
+    "CSE 3801": [
+      "major-required"
+    ],
+    "ENTR 4122": [
+      "conc-creative-content"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ],
+    "MEBU 3280": [
+      "conc-creative-content"
+    ],
+    "MEBU 3380": [
+      "conc-creative-content"
+    ],
+    "MGT 3100": [
+      "conc-creative-content"
+    ],
+    "MGT 4185": [
+      "conc-creative-content"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ],
+    "SWE 3313": [
+      "major-required"
+    ],
+    "SWE 3623": [
+      "conc-computing"
+    ],
+    "SWE 3643": [
+      "major-required"
+    ],
+    "SWE 4324": [
+      "major-required"
+    ],
+    "SWE 4663": [
+      "conc-computing"
+    ],
+    "TCID 2170": [
+      "conc-creative-content"
+    ],
+    "WRIT 3125": [
+      "conc-creative-content"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Applied Math.",
+    "text: One (1) credit hour carried over from Technology & Science or one (1) credit hour of university electives (1000-4000 level coursework from the University Catalog)",
+    "CGDD 2290",
+    "CGDD 4400",
+    "CGDD 4490",
+    "SWE 4490",
+    "MEBU 2270",
+    "ENTR 4490"
+  ],
+  "draftHash": "24e83b247d2f9a9b7a5a55e328a33a0e2065ed0239e57bf1c478492690260845"
+}

@@ -1,0 +1,60 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11594,
+  "program": {
+    "id": "ms-construction-management",
+    "name": "MS Construction Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "conc-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CM 6000": [
+      "major-required"
+    ],
+    "CM 6100": [
+      "major-required"
+    ],
+    "CM 6200": [
+      "major-required"
+    ],
+    "CM 6600": [
+      "major-required"
+    ],
+    "CM 7701": [
+      "conc-project"
+    ],
+    "CM 7702": [
+      "conc-project"
+    ],
+    "CM 7703": [
+      "conc-project"
+    ],
+    "CM 7704": [
+      "conc-project"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select the 12 to 15 credit hours from 6000-level CM coursework.",
+    "CM 7801",
+    "CM 7802",
+    "CM 7803",
+    "CM 7804"
+  ],
+  "draftHash": "61df1a48c2fdcc54082e0ae5968a035d44592103453b003b5c2a5a4185bd4f8b"
+}

@@ -1,0 +1,81 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11649,
+  "program": {
+    "id": "ms-artificial-intelligence",
+    "name": "MS Artificial Intelligence",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Thesis",
+        "groups": [
+          "conc-thesis"
+        ]
+      },
+      {
+        "label": "Capstone",
+        "groups": [
+          "conc-capstone"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "AI 7000": [
+      "major-required"
+    ],
+    "AI 7993": [
+      "conc-capstone"
+    ],
+    "CS 7050": [
+      "major-elective"
+    ],
+    "CS 7075": [
+      "major-elective"
+    ],
+    "CS 7265": [
+      "major-elective"
+    ],
+    "CS 7267": [
+      "major-required"
+    ],
+    "CS 7347": [
+      "major-elective"
+    ],
+    "CS 7357": [
+      "major-required"
+    ],
+    "CS 7367": [
+      "major-elective"
+    ],
+    "CS 7375": [
+      "major-required"
+    ],
+    "CS 7545": [
+      "major-elective"
+    ],
+    "CS 7998": [
+      "conc-thesis"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "CS 7999",
+    "text: 6000 or 7000 level courses with any prefix approved by the program coordinator, up to a total of 6 credit hours. The course must align with program outcomes by either advancing the student’s expertise in artificial intelligence or by deepening their domain-specific knowledge in a way that facilitates the application of AI to that field."
+  ],
+  "draftHash": "a01103d391ba16434ad049d2a554f3c43fd898e6edaa1c3ed30a9e8d2c184e34"
+}

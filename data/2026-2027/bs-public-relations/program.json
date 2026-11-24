@@ -1,0 +1,65 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11746,
+  "program": {
+    "id": "bs-public-relations",
+    "name": "BS Public Relations",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "COMM 1110": [
+      "core-field"
+    ],
+    "COMM 2020": [
+      "core-field"
+    ],
+    "COMM 2033": [
+      "core-field"
+    ],
+    "COMM 2135": [
+      "core-field"
+    ],
+    "COMM 2230": [
+      "core-field"
+    ],
+    "COMM 2240": [
+      "core-field"
+    ],
+    "PR 3335": [
+      "major-required"
+    ],
+    "PR 3355": [
+      "major-required"
+    ],
+    "PR 3365": [
+      "major-required"
+    ],
+    "PR 3375": [
+      "major-required"
+    ],
+    "PR 3380": [
+      "major-required"
+    ],
+    "PR 4465": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Context'",
+    "unrecognized section 'Skills'",
+    "unrecognized section 'Related Studies (3 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "afb1c0c15197e79ca260777ccf33778ed7c2a308ac43fa9e0c9f4a68bb679274"
+}

@@ -1,11 +1,11 @@
-"""Catalog course listings saved from a browser as PDFs (the website blocks automated clients)."""
+"""The PDF listing reader, run on a few saved listings kept as fixtures (the snapshot reads the same text)."""
 from pathlib import Path
 
 import pytest
 
 from owlpath_pipeline.catalog_pdf import load_catalog, parse_listing, pdf_text
 
-CATALOG = Path(__file__).resolve().parent.parent / "data" / "2026-2027" / "catalog" / "undergraduate"
+PDFS = Path(__file__).resolve().parent / "fixtures" / "pdf"
 URL = "https://catalog.kennesaw.edu/listing?prefix=CS"
 META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
                     "filters": [{"label": "AI", "groups": ["conc-ai"]}]}, "choices": []}
@@ -13,12 +13,23 @@ META = {"program": {"id": "bs-cs", "name": "BS Computer Science",
 
 @pytest.fixture(scope="module")
 def cs():
-    return parse_listing(pdf_text(CATALOG / "cs.pdf"), URL)
+    return parse_listing(pdf_text(PDFS / "cs.pdf"), URL)
 
 
 @pytest.fixture(scope="module")
-def catalog():
-    return load_catalog(CATALOG, 84)
+def ug_dir(tmp_path_factory):
+    """The undergraduate listings (cs, cse, math, stat) in a folder of their own, as load_catalog reads one level."""
+    import shutil
+
+    d = tmp_path_factory.mktemp("undergraduate")
+    for name in ("cs", "cse", "math", "stat"):
+        shutil.copy(PDFS / f"{name}.pdf", d)
+    return d
+
+
+@pytest.fixture(scope="module")
+def catalog(ug_dir):
+    return load_catalog(ug_dir, 84)
 
 
 def test_course_fields_cs3305(cs):
@@ -67,20 +78,20 @@ def test_field_split_by_page_footer_is_rejoined():
 
 
 def test_load_catalog_reads_every_pdf_with_prefix_urls(catalog):
-    assert {"DATA 3010", "AI 4267", "ENGL 1102", "CS 3305", "CSE 1322", "MATH 1190", "STAT 2332", "SWE 3313", "IT 1114", "TCOM 2010"} <= catalog.keys()
+    assert {"CS 3305", "CSE 1322", "MATH 1190", "STAT 2332"} <= catalog.keys()
     assert "filter%5B27%5D=MATH" in catalog["MATH 1190"].url
 
 
-def test_build_runs_on_saved_catalog():
+def test_build_runs_on_saved_catalog(ug_dir):
     from owlpath_pipeline.build import catalog_get_raw, build_dataset
     from owlpath_pipeline.validate import validate_dataset
 
     dataset, _ = build_dataset({"CS 3305": ["major-required"], "CSE 1322": ["core-field"]},
-                               catalog_get_raw(directory=CATALOG), {}, META)
+                               catalog_get_raw(directory=ug_dir), {}, META)
     assert validate_dataset(dataset) == []
     assert {"CS 3305", "CSE 1322", "CSE 1321"} <= {c["id"] for c in dataset["courses"]}
     with pytest.raises(KeyError):
-        catalog_get_raw(directory=CATALOG)("ZZZ 9999")
+        catalog_get_raw(directory=ug_dir)("ZZZ 9999")
 
 
 def test_page_chrome_is_not_in_any_field(catalog):
@@ -128,11 +139,48 @@ def test_graduate_listing_without_description_label():
     assert c.warnings == []
 
 
-GRAD = CATALOG.parent / "graduate"
-
-
-@pytest.mark.skipif(not (GRAD / "stat.pdf").exists(), reason="graduate listings not saved")
 def test_saved_graduate_listing_splits_prereq_from_description():
-    c = load_catalog(GRAD, 83)["STAT 7010"]
+    c = parse_listing(pdf_text(PDFS / "stat-graduate.pdf"), "")["STAT 7010"]
     assert c.prereq_text == "STAT 7220 and STAT 7210"
     assert c.description.startswith("Fundamental concepts of probability")
+
+
+FIXTURES = Path(__file__).resolve().parent / "fixtures" / "catalog"
+CHROME_TEXT = ("Page: 1 | 2\nContract All Courses | Print this Page\nAdd to Portfolio (opens a new window)\n"
+               "All publications © 2026 Kennesaw State University.\nPowered by Modern Campus Catalog™.")
+
+
+@pytest.mark.parametrize("name", ["ug-courses-stat", "grad-courses-ds"])
+def test_last_course_of_a_listing_page_has_no_footer_text(name):
+    courses = parse_listing((FIXTURES / f"{name}.txt").read_text(encoding="utf-8"), "")
+    last = list(courses.values())[-1]
+    for text in (last.title, last.description, last.prereq_text or "", last.coreq_text or ""):
+        for chrome in ("Contract All Courses", "Print this Page", "Add to Portfolio", "Modern Campus", "Page:"):
+            assert chrome not in text
+
+
+def test_crawled_stat_listing_gives_the_same_records_as_the_saved_pdf():
+    """Spec testing list: the crawled page text of the undergraduate STAT listing and the PDF saved by hand give
+    the same courses, prerequisites and descriptions. They agree field for field, so the comparison needs no
+    whitespace or hyphen-break normalization."""
+    page = parse_listing((FIXTURES / "ug-courses-stat.txt").read_text(encoding="utf-8"), "")
+    saved = parse_listing(pdf_text(PDFS / "stat.pdf"), "")
+    assert len(page) == 10 and page == saved
+
+
+def test_pagination_and_footer_end_the_listing():
+    text = "XX 1000: Thing\n3 Credit Hours\nDescription\nWords here.\n" + CHROME_TEXT
+    assert parse_listing(text, "")["XX 1000"].description == "Words here."
+
+
+def test_bare_print_this_page_ends_the_listing():
+    text = "XX 1000: Thing\n3 Credit Hours\nDescription\nWords here.\nPrint this Page\n"
+    assert parse_listing(text, "")["XX 1000"].description == "Words here."
+
+
+def test_footer_above_the_first_course_still_parses_every_course():
+    text = ("Contract All Courses | Print this Page\nAdd to Portfolio (opens a new window)\n"
+            "XX 1000: One\n3 Credit Hours\nDescription\nFirst.\nXX 1001: Two\n3 Credit Hours\nDescription\nSecond.\n"
+            + CHROME_TEXT)
+    courses = parse_listing(text, "")
+    assert list(courses) == ["XX 1000", "XX 1001"] and courses["XX 1001"].description == "Second."

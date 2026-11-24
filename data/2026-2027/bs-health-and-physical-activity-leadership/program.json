@@ -1,0 +1,174 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11747,
+  "program": {
+    "id": "bs-health-and-physical-activity-leadership",
+    "name": "BS Health and Physical Activity Leadership",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Health and Physical Education Teacher Preparation",
+        "groups": [
+          "conc-health-and-physical-education-teacher-preparation"
+        ]
+      },
+      {
+        "label": "Coaching",
+        "groups": [
+          "conc-coaching"
+        ]
+      },
+      {
+        "label": "Interdisciplinary Health and Physical Activity Leadership",
+        "groups": [
+          "conc-interdisciplinary-health-and-physical-activity-leadership"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "HPAL 2250",
+      "BIOL 2251"
+    ],
+    [
+      "HPAL 3340",
+      "BIOL 2252"
+    ]
+  ],
+  "courses": {
+    "BIOL 2251": [
+      "major-required"
+    ],
+    "BIOL 2252": [
+      "major-required"
+    ],
+    "EDUC 2120": [
+      "major-required"
+    ],
+    "EDUC 4610": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPAL 2100": [
+      "major-required"
+    ],
+    "HPAL 2250": [
+      "major-required"
+    ],
+    "HPAL 3010": [
+      "major-required"
+    ],
+    "HPAL 3020": [
+      "major-required"
+    ],
+    "HPAL 3050": [
+      "conc-coaching"
+    ],
+    "HPAL 3055": [
+      "conc-coaching"
+    ],
+    "HPAL 3061": [
+      "conc-coaching"
+    ],
+    "HPAL 3065": [
+      "conc-coaching"
+    ],
+    "HPAL 3071": [
+      "conc-coaching"
+    ],
+    "HPAL 3075": [
+      "conc-coaching"
+    ],
+    "HPAL 3085": [
+      "conc-coaching"
+    ],
+    "HPAL 3090": [
+      "conc-coaching"
+    ],
+    "HPAL 3095": [
+      "conc-coaching"
+    ],
+    "HPAL 3100": [
+      "major-required"
+    ],
+    "HPAL 3140": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPAL 3200": [
+      "major-required"
+    ],
+    "HPAL 3250": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPAL 3252": [
+      "major-required"
+    ],
+    "HPAL 3330": [
+      "conc-coaching"
+    ],
+    "HPAL 3340": [
+      "major-required"
+    ],
+    "HPAL 3393": [
+      "conc-interdisciplinary-health-and-physical-activity-leadership"
+    ],
+    "HPAL 3395": [
+      "conc-coaching"
+    ],
+    "HPAL 3600": [
+      "major-required"
+    ],
+    "HPAL 4900": [
+      "conc-coaching"
+    ],
+    "HPAL 4950": [
+      "conc-interdisciplinary-health-and-physical-activity-leadership"
+    ],
+    "HPE 3350": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 3450": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 3550": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 3625": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 3650": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 4420": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 4430": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 4850": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "HPE 4851": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "INED 4437": [
+      "conc-health-and-physical-education-teacher-preparation"
+    ],
+    "WELL 2000": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select 2 credit hours of HPAL 1xxx Activity coursework.",
+    "text: Select 3 credit hours of HPAL 1xxx Activity coursework."
+  ],
+  "draftHash": "8743499c9e992d64f358bd5058a03cc3e3a772b873cf12a3b5d6bf6d5c5fbdfc"
+}

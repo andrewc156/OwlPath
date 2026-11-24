@@ -1,0 +1,127 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11590,
+  "program": {
+    "id": "msit-information-technology",
+    "name": "MSIT Information Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Capstone",
+        "groups": [
+          "conc-capstone"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "IT 6203": [
+      "major-required"
+    ],
+    "IT 6433": [
+      "major-required"
+    ],
+    "IT 6443": [
+      "major-required"
+    ],
+    "IT 6823": [
+      "major-required"
+    ],
+    "IT 6923": [
+      "major-elective"
+    ],
+    "IT 6933": [
+      "major-elective"
+    ],
+    "IT 7103": [
+      "major-elective"
+    ],
+    "IT 7113": [
+      "major-elective"
+    ],
+    "IT 7123": [
+      "major-elective"
+    ],
+    "IT 7133": [
+      "major-elective"
+    ],
+    "IT 7143": [
+      "major-elective"
+    ],
+    "IT 7303": [
+      "major-elective"
+    ],
+    "IT 7313": [
+      "major-elective"
+    ],
+    "IT 7323": [
+      "major-elective"
+    ],
+    "IT 7333": [
+      "major-elective"
+    ],
+    "IT 7343": [
+      "major-elective"
+    ],
+    "IT 7503": [
+      "major-elective"
+    ],
+    "IT 7533": [
+      "major-elective"
+    ],
+    "IT 7703": [
+      "major-elective"
+    ],
+    "IT 7733": [
+      "major-elective"
+    ],
+    "IT 7743": [
+      "major-elective"
+    ],
+    "IT 7753": [
+      "major-elective"
+    ],
+    "IT 7763": [
+      "major-elective"
+    ],
+    "IT 7913": [
+      "major-elective"
+    ],
+    "IT 7923": [
+      "major-elective"
+    ],
+    "IT 7993": [
+      "conc-capstone",
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: 15 Credit Hours from Elective Course List",
+    "text: 12 Credit Hours from Elective Course List",
+    "IT 7999",
+    "text: 3 credit hours of 6000-level or higher coursework from the following prefixes: FIS, CS, SWE, IS, DS, STAT, MGT.",
+    "IT 7900",
+    "IT 7998",
+    "CSE 7983",
+    "text: AI and Cloud Technology Graduate Certificate",
+    "text: Data Analytics and Intelligent Technology Certificate",
+    "text: Enterprise IT Management Certificate",
+    "text: Information Technology Security Certificate"
+  ],
+  "draftHash": "63a48dc9be5c66c5e1dc4b4a90b3abcb72ae068989a4e8621d67ccd32f07bc02"
+}

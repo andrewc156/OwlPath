@@ -17,6 +17,7 @@ function flow(opts: { selected?: string; filter?: Group; choices?: string[][]; h
     filter: opts.filter ? filterSet(g, sample.courses, [opts.filter]) : null,
     states,
     choices: opts.choices ?? [],
+    titles: {},
     hidden: new Set(opts.hidden ?? []),
   })
 }

@@ -1,0 +1,100 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11754,
+  "program": {
+    "id": "bsswe-software-engineering",
+    "name": "BSSWE Software Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ]
+  ],
+  "courses": {
+    "CS 3305": [
+      "major-required"
+    ],
+    "CS 3502": [
+      "major-required"
+    ],
+    "CS 3503": [
+      "major-required"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 1322": [
+      "core-field"
+    ],
+    "CSE 1322L": [
+      "core-field"
+    ],
+    "CSE 2300": [
+      "core-field"
+    ],
+    "CSE 3153": [
+      "major-required"
+    ],
+    "CSE 3801": [
+      "major-required"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ],
+    "SWE 3313": [
+      "major-required"
+    ],
+    "SWE 3623": [
+      "major-required"
+    ],
+    "SWE 3633": [
+      "major-required"
+    ],
+    "SWE 3643": [
+      "major-required"
+    ],
+    "SWE 4324": [
+      "major-required"
+    ],
+    "SWE 4663": [
+      "major-required"
+    ],
+    "SWE 4713": [
+      "major-required"
+    ],
+    "SWE 4724": [
+      "major-required"
+    ],
+    "TCOM 2010": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'List 1'",
+    "unrecognized section 'List 2'"
+  ],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Mathematics & Quantitative Skills.",
+    "text: Two (2) credit hours carried over from Technology, Mathematics, & Sciences.",
+    "text: IT, CS, CGDD 4000-level courses- coordinator approval"
+  ],
+  "draftHash": "c6c1f80877ef5cab09c23a60e2440897a6e71c33294b7972dafb525c5ee8cb69"
+}

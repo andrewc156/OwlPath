@@ -1,0 +1,117 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11749,
+  "program": {
+    "id": "bs-early-childhood-education-birth-through-kindergarten",
+    "name": "BS Early Childhood Education Birth through Kindergarten",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "ISCI 2001",
+      "ISCI 2002"
+    ]
+  ],
+  "courses": {
+    "ECE 2205": [
+      "major-required"
+    ],
+    "ECE 2250": [
+      "core-field"
+    ],
+    "ECE 2540": [
+      "core-field"
+    ],
+    "ECE 2590": [
+      "core-field"
+    ],
+    "ECE 3313": [
+      "major-required"
+    ],
+    "ECE 3364": [
+      "major-required"
+    ],
+    "ECE 3510": [
+      "major-required"
+    ],
+    "ECE 3520": [
+      "major-required"
+    ],
+    "ECE 3530": [
+      "major-required"
+    ],
+    "ECE 3565": [
+      "major-required"
+    ],
+    "ECE 3570": [
+      "major-required"
+    ],
+    "ECE 3575": [
+      "major-required"
+    ],
+    "ECE 4515": [
+      "major-required"
+    ],
+    "ECE 4525": [
+      "major-required"
+    ],
+    "ECE 4535": [
+      "major-required"
+    ],
+    "ECE 4545": [
+      "major-required"
+    ],
+    "ECE 4555": [
+      "major-required"
+    ],
+    "ECE 4650": [
+      "major-required"
+    ],
+    "ECE 4660": [
+      "major-required"
+    ],
+    "EDUC 2110": [
+      "core-field"
+    ],
+    "EDUC 2120": [
+      "core-field"
+    ],
+    "EDUC 2130": [
+      "core-field"
+    ],
+    "EDUC 4610": [
+      "major-required"
+    ],
+    "INED 3304": [
+      "major-required"
+    ],
+    "ISCI 2001": [
+      "major-required"
+    ],
+    "ISCI 2002": [
+      "major-required"
+    ],
+    "ITEC 3100": [
+      "major-required"
+    ],
+    "MATH 2008": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "ECE 4598",
+    "ECE 4599"
+  ],
+  "draftHash": "b5989c2ad42d615d2be5cccc100cc96de9d59b55fe1c377e18f8395f6a8422e6"
+}

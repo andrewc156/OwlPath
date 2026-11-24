@@ -1,0 +1,51 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11565,
+  "program": {
+    "id": "msn-family-nurse-practitioner",
+    "name": "MSN Family Nurse Practitioner",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "NURS 7715": [
+      "major-required"
+    ],
+    "NURS 7735": [
+      "major-required"
+    ],
+    "NURS 7755": [
+      "major-required"
+    ],
+    "NURS 7765": [
+      "major-required"
+    ],
+    "NURS 7776": [
+      "major-required"
+    ],
+    "NURS 7777": [
+      "major-required"
+    ],
+    "NURS 7778": [
+      "major-required"
+    ],
+    "NURS 7779": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Family Curriculum (10 Credit Hours)'",
+    "unrecognized section 'Residency (17 Credit Hours)'"
+  ],
+  "leftOut": [],
+  "draftHash": "33a62e5bd97d53d8c99ff1ef5ad70933510c2162878f174b7fc0813cc65d477e"
+}

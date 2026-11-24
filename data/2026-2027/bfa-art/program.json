@@ -1,0 +1,560 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11843,
+  "program": {
+    "id": "bfa-art",
+    "name": "BFA Art",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Art Education",
+        "groups": [
+          "conc-art-education"
+        ]
+      },
+      {
+        "label": "Art History",
+        "groups": [
+          "conc-art-history"
+        ]
+      },
+      {
+        "label": "Ceramics",
+        "groups": [
+          "conc-ceramics"
+        ]
+      },
+      {
+        "label": "Graphic Communications",
+        "groups": [
+          "conc-graphic-communications"
+        ]
+      },
+      {
+        "label": "Illustration",
+        "groups": [
+          "conc-illustration"
+        ]
+      },
+      {
+        "label": "Painting and Drawing",
+        "groups": [
+          "conc-painting-and-drawing"
+        ]
+      },
+      {
+        "label": "Photography and Video",
+        "groups": [
+          "conc-photography-and-video"
+        ]
+      },
+      {
+        "label": "Printmaking",
+        "groups": [
+          "conc-printmaking"
+        ]
+      },
+      {
+        "label": "Comics & Sequential Art",
+        "groups": [
+          "conc-comics-and-sequential-art"
+        ]
+      },
+      {
+        "label": "Sculpture",
+        "groups": [
+          "conc-sculpture"
+        ]
+      },
+      {
+        "label": "Textiles and Surface Design",
+        "groups": [
+          "conc-textiles-and-surface-design"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ANIM 3620": [
+      "conc-illustration",
+      "conc-comics-and-sequential-art"
+    ],
+    "ANIM 3630": [
+      "conc-illustration"
+    ],
+    "ANIM 3640": [
+      "conc-illustration"
+    ],
+    "ARED 3302": [
+      "conc-art-education"
+    ],
+    "ARED 3304": [
+      "major-elective"
+    ],
+    "ARED 3306": [
+      "conc-art-education"
+    ],
+    "ARED 3308": [
+      "conc-art-education"
+    ],
+    "ARED 4410": [
+      "conc-art-education"
+    ],
+    "ARED 4650": [
+      "conc-art-education"
+    ],
+    "ARED 4660": [
+      "conc-art-education"
+    ],
+    "ARH 2750": [
+      "major-required"
+    ],
+    "ARH 2850": [
+      "major-required"
+    ],
+    "ARH 3000": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3100": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3150": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3200": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3240": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3250": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3300": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3320": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3350": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3370": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3400": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3500": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3600": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3700": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3750": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3840": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3850": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 3990": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4000": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4150": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4500": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4700": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4750": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4820": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4840": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4870": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4880": [
+      "major-elective"
+    ],
+    "ARH 4900": [
+      "major-elective",
+      "conc-art-history"
+    ],
+    "ARH 4990": [
+      "conc-art-history"
+    ],
+    "ART 1100": [
+      "core-field"
+    ],
+    "ART 1150": [
+      "core-field"
+    ],
+    "ART 1200": [
+      "core-field"
+    ],
+    "ART 2150": [
+      "core-field"
+    ],
+    "ART 2550": [
+      "core-field"
+    ],
+    "ART 2990": [
+      "core-field"
+    ],
+    "ART 3011": [
+      "conc-graphic-communications"
+    ],
+    "ART 3015": [
+      "conc-illustration",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3020": [
+      "conc-graphic-communications"
+    ],
+    "ART 3021": [
+      "conc-graphic-communications"
+    ],
+    "ART 3120": [
+      "conc-ceramics",
+      "conc-sculpture"
+    ],
+    "ART 3150": [
+      "conc-illustration",
+      "conc-painting-and-drawing",
+      "conc-printmaking",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3160": [
+      "conc-illustration",
+      "conc-painting-and-drawing",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3260": [
+      "conc-illustration",
+      "conc-painting-and-drawing"
+    ],
+    "ART 3265": [
+      "conc-illustration",
+      "conc-painting-and-drawing"
+    ],
+    "ART 3300": [
+      "conc-art-education",
+      "conc-sculpture"
+    ],
+    "ART 3310": [
+      "conc-sculpture"
+    ],
+    "ART 3320": [
+      "conc-sculpture"
+    ],
+    "ART 3330": [
+      "conc-sculpture"
+    ],
+    "ART 3341": [
+      "conc-sculpture"
+    ],
+    "ART 3360": [
+      "conc-ceramics",
+      "conc-sculpture"
+    ],
+    "ART 3380": [
+      "conc-ceramics",
+      "conc-sculpture"
+    ],
+    "ART 3400": [
+      "conc-photography-and-video"
+    ],
+    "ART 3410": [
+      "conc-photography-and-video"
+    ],
+    "ART 3430": [
+      "conc-photography-and-video"
+    ],
+    "ART 3441": [
+      "conc-photography-and-video"
+    ],
+    "ART 3442": [
+      "conc-photography-and-video"
+    ],
+    "ART 3443": [
+      "conc-photography-and-video"
+    ],
+    "ART 3500": [
+      "conc-illustration",
+      "conc-printmaking",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3510": [
+      "conc-illustration",
+      "conc-printmaking"
+    ],
+    "ART 3520": [
+      "conc-printmaking"
+    ],
+    "ART 3550": [
+      "conc-illustration",
+      "conc-printmaking"
+    ],
+    "ART 3600": [
+      "conc-illustration",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3610": [
+      "conc-illustration"
+    ],
+    "ART 3705": [
+      "conc-illustration",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3715": [
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 3800": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 3810": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 3820": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 3840": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 3860": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 3870": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 3880": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 4021": [
+      "conc-graphic-communications"
+    ],
+    "ART 4022": [
+      "conc-graphic-communications"
+    ],
+    "ART 4023": [
+      "conc-graphic-communications"
+    ],
+    "ART 4024": [
+      "conc-graphic-communications",
+      "conc-illustration"
+    ],
+    "ART 4030": [
+      "conc-graphic-communications"
+    ],
+    "ART 4036": [
+      "conc-illustration"
+    ],
+    "ART 4037": [
+      "conc-illustration"
+    ],
+    "ART 4151": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4152": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4153": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4154": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4256": [
+      "conc-illustration",
+      "conc-painting-and-drawing",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 4257": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4258": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4259": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4266": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4267": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4268": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4269": [
+      "conc-painting-and-drawing"
+    ],
+    "ART 4311": [
+      "conc-sculpture"
+    ],
+    "ART 4312": [
+      "conc-sculpture"
+    ],
+    "ART 4313": [
+      "conc-sculpture"
+    ],
+    "ART 4361": [
+      "conc-ceramics"
+    ],
+    "ART 4362": [
+      "conc-ceramics"
+    ],
+    "ART 4363": [
+      "conc-ceramics"
+    ],
+    "ART 4364": [
+      "conc-ceramics"
+    ],
+    "ART 4365": [
+      "conc-ceramics",
+      "conc-sculpture"
+    ],
+    "ART 4411": [
+      "conc-photography-and-video"
+    ],
+    "ART 4412": [
+      "conc-photography-and-video"
+    ],
+    "ART 4511": [
+      "conc-printmaking"
+    ],
+    "ART 4512": [
+      "conc-printmaking"
+    ],
+    "ART 4513": [
+      "conc-printmaking"
+    ],
+    "ART 4514": [
+      "conc-printmaking"
+    ],
+    "ART 4520": [
+      "conc-printmaking"
+    ],
+    "ART 4551": [
+      "conc-printmaking"
+    ],
+    "ART 4552": [
+      "conc-printmaking"
+    ],
+    "ART 4600": [
+      "conc-illustration"
+    ],
+    "ART 4700": [
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 4800": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 4810": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 4820": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 4850": [
+      "conc-textiles-and-surface-design"
+    ],
+    "ART 4970": [
+      "conc-illustration",
+      "conc-comics-and-sequential-art"
+    ],
+    "ART 4980": [
+      "conc-graphic-communications"
+    ],
+    "ART 4990": [
+      "conc-ceramics",
+      "conc-painting-and-drawing",
+      "conc-photography-and-video",
+      "conc-printmaking",
+      "conc-sculpture"
+    ],
+    "EDUC 2110": [
+      "conc-art-education"
+    ],
+    "EDUC 2120": [
+      "conc-art-education"
+    ],
+    "EDUC 2130": [
+      "conc-art-education"
+    ],
+    "EDUC 4610": [
+      "conc-art-education"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section '2-D Courses'",
+    "unrecognized section '3-D Courses'"
+  ],
+  "leftOut": [
+    "ARH 4400",
+    "ARH 4490",
+    "ARED 4990",
+    "ARH 3398",
+    "ART 3398"
+  ],
+  "draftHash": "6fc884ebadd2fc34041244c2cb526decb02ad4ae585f6c3e3c3aa350eca99be1"
+}

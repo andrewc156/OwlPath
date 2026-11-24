@@ -1,0 +1,52 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11573,
+  "program": {
+    "id": "ms-chemical-sciences",
+    "name": "MS Chemical Sciences",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CHEM 7000": [
+      "major-required"
+    ],
+    "CHEM 7100": [
+      "major-required"
+    ],
+    "CHEM 7300": [
+      "major-elective"
+    ],
+    "CHEM 7500": [
+      "major-elective"
+    ],
+    "CHEM 7600": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "CHEM 7990",
+    "CHEM 7999",
+    "text: CHEM 5000 or higher, or other graduate level course with permission from the program director and department chair.",
+    "CHEM 6430",
+    "CHEM 6510",
+    "CHEM 6620"
+  ],
+  "draftHash": "c534eea4d39a22b91ef02185cad17beec523f8b51341562ff098728189f92421"
+}

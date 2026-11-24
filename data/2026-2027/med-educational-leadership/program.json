@@ -1,0 +1,95 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11604,
+  "program": {
+    "id": "med-educational-leadership",
+    "name": "MEd Educational Leadership",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "K-12",
+        "groups": [
+          "conc-k-12"
+        ]
+      },
+      {
+        "label": "Higher Education Student Affairs (HESA)",
+        "groups": [
+          "conc-higher-education-student-affairs-hesa"
+        ]
+      },
+      {
+        "label": "",
+        "groups": [
+          "conc-"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDL 7101": [
+      "major-required"
+    ],
+    "EDL 7215": [
+      "major-required"
+    ],
+    "EDL 7401": [
+      "conc-k-12"
+    ],
+    "EDL 7415": [
+      "conc-k-12"
+    ],
+    "EDL 7601": [
+      "conc-k-12"
+    ],
+    "EDL 7615": [
+      "conc-k-12"
+    ],
+    "EDL 7800": [
+      "conc-"
+    ],
+    "EDL 7801": [
+      "conc-"
+    ],
+    "HESA 7000": [
+      "conc-higher-education-student-affairs-hesa"
+    ],
+    "HESA 7100": [
+      "conc-higher-education-student-affairs-hesa"
+    ],
+    "HESA 7150": [
+      "conc-"
+    ],
+    "HESA 7200": [
+      "conc-higher-education-student-affairs-hesa"
+    ],
+    "HESA 7250": [
+      "conc-higher-education-student-affairs-hesa"
+    ],
+    "HESA 7400": [
+      "conc-"
+    ],
+    "HESA 7500": [
+      "conc-"
+    ],
+    "HESA 7600": [
+      "conc-"
+    ],
+    "TLED 7980": [
+      "conc-"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "TLED 7990"
+  ],
+  "draftHash": "d681590292931164eb1795a418a2c5609ab15540221a0c1aeb845bc81c26dea3"
+}

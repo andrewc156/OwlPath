@@ -1,0 +1,38 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11857,
+  "program": {
+    "id": "bs-interdisciplinary-studies",
+    "name": "BS Interdisciplinary Studies",
+    "filters": [
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ISD 4498": [
+      "major-project"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Introduction to Interdisciplinary Studies (3 Credit Hours)'",
+    "unrecognized section 'Introduction to Interdisciplinary Thinking (3 Credit Hours)'",
+    "unrecognized section 'Interdisciplinarity in the Workplace and Society (3 Credit Hours)'",
+    "unrecognized section 'Foundations (3 Credit Hours)'",
+    "unrecognized section 'Literacy (3 Credit Hours)'",
+    "unrecognized section 'Critical Inquiry (3 Credit Hours)'",
+    "unrecognized section 'Engaged Learning (3 Credit Hours)'",
+    "unrecognized section 'Gender, Race, and Culture'",
+    "unrecognized section 'Leadership, Community, and Justice'",
+    "unrecognized section 'Science, Technology, and Society'"
+  ],
+  "leftOut": [],
+  "draftHash": "8fd6e231ad5be859b8552552cb96f377131aa6fad29c8270c6ac8aeb98eef4ce"
+}

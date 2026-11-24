@@ -1,0 +1,122 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11799,
+  "program": {
+    "id": "bba-entrepreneurship",
+    "name": "BBA Entrepreneurship",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "ACCT 4700": [
+      "major-elective"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 3500": [
+      "major-elective"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "ENTR 3001": [
+      "major-required"
+    ],
+    "ENTR 4002": [
+      "major-required"
+    ],
+    "ENTR 4003": [
+      "major-required"
+    ],
+    "ENTR 4004": [
+      "major-required"
+    ],
+    "ENTR 4005": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "FIN 4260": [
+      "major-elective"
+    ],
+    "HMGT 3300": [
+      "major-elective"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ],
+    "MKTG 3410": [
+      "major-elective"
+    ],
+    "MKTG 4260": [
+      "major-elective"
+    ],
+    "MKTG 4470": [
+      "major-elective"
+    ],
+    "MKTG 4520": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "text: Any MGT 3000 or 4000 level course (except MGT 3397)",
+    "text: Any ENTR 3000 or 4000 level course"
+  ],
+  "draftHash": "0c41d3ec5b1d1da40d3b117a737713783f33eb626b8c40f3b2710609b7b9c6ac"
+}

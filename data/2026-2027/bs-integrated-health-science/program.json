@@ -1,0 +1,119 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11833,
+  "program": {
+    "id": "bs-integrated-health-science",
+    "name": "BS Integrated Health Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "IHS 2100",
+      "HHS 2100"
+    ],
+    [
+      "BIOL 2251",
+      "HPAL 2250"
+    ],
+    [
+      "IHS 3010",
+      "SOCI 3380"
+    ],
+    [
+      "IHS 3230",
+      "ECON 3478"
+    ],
+    [
+      "IHS 3260",
+      "COMM 3320"
+    ],
+    [
+      "HHS 3200",
+      "IT 3503"
+    ],
+    [
+      "IHS 4445",
+      "HS 4900"
+    ]
+  ],
+  "courses": {
+    "BIOL 2251": [
+      "major-required"
+    ],
+    "COMM 3320": [
+      "major-required"
+    ],
+    "ECON 3478": [
+      "major-required"
+    ],
+    "HHS 2100": [
+      "major-required"
+    ],
+    "HHS 3200": [
+      "major-required"
+    ],
+    "HHS 3500": [
+      "major-required"
+    ],
+    "HHS 4800": [
+      "major-required"
+    ],
+    "HPAL 2250": [
+      "major-required"
+    ],
+    "HS 2300": [
+      "major-required"
+    ],
+    "HS 4900": [
+      "major-required"
+    ],
+    "IHS 2100": [
+      "major-required"
+    ],
+    "IHS 3010": [
+      "major-required"
+    ],
+    "IHS 3230": [
+      "major-required"
+    ],
+    "IHS 3260": [
+      "major-required"
+    ],
+    "IHS 4445": [
+      "major-required"
+    ],
+    "IHS 4760": [
+      "major-required"
+    ],
+    "IT 3503": [
+      "major-required"
+    ],
+    "PH 3330": [
+      "major-required"
+    ],
+    "PH 3400": [
+      "major-required"
+    ],
+    "SOCI 3380": [
+      "major-required"
+    ],
+    "WELL 2000": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Choose one of the following courses:",
+    "IHS 3398"
+  ],
+  "draftHash": "312428cb7c1556fc102e52d64ffedd2691a376f5d13849b96e76527bd98bbead"
+}

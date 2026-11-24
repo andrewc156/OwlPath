@@ -1,0 +1,92 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11883,
+  "program": {
+    "id": "bs-artificial-intelligence",
+    "name": "BS Artificial Intelligence",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "MATH 2345",
+      "CSE 2300"
+    ]
+  ],
+  "courses": {
+    "AI 2000": [
+      "core-field"
+    ],
+    "AI 3642": [
+      "major-required"
+    ],
+    "AI 4267": [
+      "major-required"
+    ],
+    "AI 4277": [
+      "major-required"
+    ],
+    "AI 4732": [
+      "major-required"
+    ],
+    "AI 4742": [
+      "major-required"
+    ],
+    "AI 4850": [
+      "major-required"
+    ],
+    "CS 3305": [
+      "major-required"
+    ],
+    "CS 3410": [
+      "major-required"
+    ],
+    "CS 3503": [
+      "major-required"
+    ],
+    "CS 4306": [
+      "major-required"
+    ],
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 1322": [
+      "core-field"
+    ],
+    "CSE 1322L": [
+      "core-field"
+    ],
+    "CSE 2300": [
+      "core-field"
+    ],
+    "CSE 3801": [
+      "major-required"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ],
+    "MATH 3260": [
+      "major-required"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from IMPACTS General Education (MATH 1179 or higher)"
+  ],
+  "draftHash": "17dacf8ce1f081758df2642e0c2c7f1cddd3fb1e455c2e51a62133d090960ef5"
+}

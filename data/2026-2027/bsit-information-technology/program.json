@@ -1,0 +1,194 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11748,
+  "program": {
+    "id": "bsit-information-technology",
+    "name": "BSIT Information Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Data Analytics and Technology",
+        "groups": [
+          "conc-data-analytics-and-technology"
+        ]
+      },
+      {
+        "label": "Enterprise Systems",
+        "groups": [
+          "conc-enterprise-systems"
+        ]
+      },
+      {
+        "label": "Cyber Operations Security",
+        "groups": [
+          "conc-cyber-operations-security"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "CSE 2300",
+      "MATH 2345"
+    ],
+    [
+      "STAT 1401",
+      "STAT 2332"
+    ]
+  ],
+  "courses": {
+    "CSE 1321": [
+      "core-field"
+    ],
+    "CSE 1321L": [
+      "core-field"
+    ],
+    "CSE 2300": [
+      "core-field"
+    ],
+    "CSE 3153": [
+      "major-required"
+    ],
+    "CSE 3801": [
+      "major-required"
+    ],
+    "IT 1103": [
+      "core-field"
+    ],
+    "IT 1114": [
+      "core-field"
+    ],
+    "IT 1114L": [
+      "core-field"
+    ],
+    "IT 3123": [
+      "major-required"
+    ],
+    "IT 3203": [
+      "major-required"
+    ],
+    "IT 3223": [
+      "major-required"
+    ],
+    "IT 3423": [
+      "major-required"
+    ],
+    "IT 3503": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 3703": [
+      "major-required"
+    ],
+    "IT 3883": [
+      "major-required"
+    ],
+    "IT 4153": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4323": [
+      "major-required"
+    ],
+    "IT 4333": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4403": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4423": [
+      "major-required"
+    ],
+    "IT 4673": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4713": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4723": [
+      "major-required"
+    ],
+    "IT 4733": [
+      "conc-data-analytics-and-technology",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4773": [
+      "conc-data-analytics-and-technology"
+    ],
+    "IT 4793": [
+      "conc-data-analytics-and-technology",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4823": [
+      "major-required"
+    ],
+    "IT 4833": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4843": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4853": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4863": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4883": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4893": [
+      "conc-data-analytics-and-technology",
+      "conc-enterprise-systems",
+      "conc-cyber-operations-security"
+    ],
+    "IT 4983": [
+      "major-required"
+    ],
+    "MATH 2345": [
+      "core-field"
+    ],
+    "STAT 1401": [
+      "core-field"
+    ],
+    "STAT 2332": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences or one (1) credit hour of university electives (1000-4000 level coursework from the University Catalog).",
+    "CSE 4983",
+    "IT 4490",
+    "IT 4493"
+  ],
+  "draftHash": "42ab387d616e0764e478b4d697146a39f7ddb4710bebf45492e9b37e20822869"
+}

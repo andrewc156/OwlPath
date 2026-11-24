@@ -1,0 +1,110 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11756,
+  "program": {
+    "id": "bs-construction-management",
+    "name": "BS Construction Management",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "ECON 2105",
+      "ECON 2106"
+    ]
+  ],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "core-field"
+    ],
+    "CM 1000": [
+      "core-field"
+    ],
+    "CM 2000": [
+      "major-required"
+    ],
+    "CM 2200": [
+      "core-field"
+    ],
+    "CM 2210": [
+      "major-required"
+    ],
+    "CM 3000": [
+      "major-required"
+    ],
+    "CM 3110": [
+      "major-required"
+    ],
+    "CM 3180": [
+      "major-required"
+    ],
+    "CM 3410": [
+      "major-required"
+    ],
+    "CM 3420": [
+      "major-required"
+    ],
+    "CM 3800": [
+      "major-required"
+    ],
+    "CM 4510": [
+      "major-required"
+    ],
+    "CM 4560": [
+      "major-required"
+    ],
+    "CM 4710": [
+      "major-required"
+    ],
+    "CM 4760": [
+      "major-required"
+    ],
+    "CM 4900": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "major-required"
+    ],
+    "ECON 2106": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "PHYS 1111": [
+      "core-field"
+    ],
+    "PHYS 1111L": [
+      "core-field"
+    ],
+    "TCOM 2010": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'General Construction - Commercial (GC/CM)'",
+    "unrecognized section 'Heavy Civil Construction and Land Development'",
+    "unrecognized section 'Specialty Trade Construction/Facilities Management'",
+    "unrecognized section 'Residential Construction'"
+  ],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Applied Mathematics.",
+    "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences."
+  ],
+  "draftHash": "c3762f48961b89926937261f51042c8058bc6b945f00f848b0bf001365563e8a"
+}

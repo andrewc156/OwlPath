@@ -1,0 +1,159 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11766,
+  "program": {
+    "id": "bs-electrical-engineering-technology",
+    "name": "BS Electrical Engineering Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "ECET 1001L": [
+      "major-required"
+    ],
+    "ECET 1101": [
+      "core-field"
+    ],
+    "ECET 1101L": [
+      "major-required"
+    ],
+    "ECET 1200": [
+      "major-required"
+    ],
+    "ECET 1200L": [
+      "major-required"
+    ],
+    "ECET 2111": [
+      "major-required"
+    ],
+    "ECET 2111L": [
+      "major-required"
+    ],
+    "ECET 2210": [
+      "major-required"
+    ],
+    "ECET 2210L": [
+      "major-required"
+    ],
+    "ECET 2300": [
+      "major-required"
+    ],
+    "ECET 2300L": [
+      "major-required"
+    ],
+    "ECET 2310": [
+      "major-required"
+    ],
+    "ECET 2310L": [
+      "major-required"
+    ],
+    "ECET 3400": [
+      "major-required"
+    ],
+    "ECET 3410": [
+      "major-required"
+    ],
+    "ECET 3500": [
+      "major-required"
+    ],
+    "ECET 3500L": [
+      "major-required"
+    ],
+    "ECET 3600": [
+      "major-required"
+    ],
+    "ECET 3600L": [
+      "major-required"
+    ],
+    "ECET 3620": [
+      "major-required"
+    ],
+    "ECET 3701": [
+      "major-elective"
+    ],
+    "ECET 3701L": [
+      "major-elective"
+    ],
+    "ECET 3710": [
+      "major-required"
+    ],
+    "ECET 3710L": [
+      "major-required"
+    ],
+    "ECET 4420": [
+      "major-elective"
+    ],
+    "ECET 4420L": [
+      "major-elective"
+    ],
+    "ECET 4510": [
+      "major-elective"
+    ],
+    "ECET 4520": [
+      "major-elective"
+    ],
+    "ECET 4530": [
+      "major-elective"
+    ],
+    "ECET 4610": [
+      "major-required"
+    ],
+    "ECET 4610L": [
+      "major-required"
+    ],
+    "ECET 4630": [
+      "major-elective"
+    ],
+    "ECET 4730": [
+      "major-elective"
+    ],
+    "ECET 4820": [
+      "major-elective"
+    ],
+    "EDG 1210": [
+      "core-field"
+    ],
+    "ENGR 1000": [
+      "major-required"
+    ],
+    "ENGT 2000": [
+      "core-field"
+    ],
+    "ENGT 4901": [
+      "major-required"
+    ],
+    "ENGT 4902": [
+      "major-required"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences."
+  ],
+  "draftHash": "06eaef8e8a497e1c1c16adfaa82cac108dd9ae8301c5eb1689897736910a2ed5"
+}

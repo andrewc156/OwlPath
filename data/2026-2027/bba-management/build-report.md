@@ -1,0 +1,96 @@
+# Build report — 2026-2027
+
+## Warnings needing review
+
+- **BLAW 3400**
+  - unrecognized: with minimum grade of "C"
+  - unrecognized: a Coles Partner Student
+- **BLAW 4960**
+  - unrecognized: a Coles Partner Student
+- **BUSA 3150**
+  - unrecognized: Grades of "B"
+  - unrecognized: higher in
+  - ambiguous and/or precedence: BUSA 2150 and [(Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or Admission to Coles College Undergraduate Professional Program]
+- **BUSA 3500**
+  - unrecognized: 60 credit hours with a minimum GPA of 2.0
+  - unrecognized: student in a Coles College Partner Program that includes this course
+  - ambiguous and/or precedence: 60 credit hours with a minimum GPA of 2.0, and Admission to the Coles College Undergraduate Professional Program OR student in a Coles College Partner Program that includes this course
+- **BUSA 4000**
+  - unrecognized: BBA Major
+  - unrecognized: Coles Partner Student
+- **ECON 2105**
+  - unrecognized: higher
+- **ECON 2106**
+  - unrecognized: higher
+- **ECON 2300**
+  - unrecognized: Business Majors:
+  - unrecognized: ; Non-business Majors:
+  - missing operator before 'MATH 1111', assumed and
+  - missing operator before '; Non-business Majors:', assumed and
+  - missing operator before 'MATH 1101', assumed and
+- **ECON 3200**
+  - unrecognized: Grades of "B"
+  - unrecognized: higher in
+  - unrecognized: BBA Major
+  - unrecognized: Coles Partner Student
+  - ambiguous and/or precedence: (Grades of "B" or higher in BUSA 1000, ACCT 2101, ACCT 2102, ECON 2105, ECON 2106, and ECON 2400), or BBA Major, or Coles Partner Student
+- **ECON 3300**
+  - unrecognized: a Coles Partner Student
+- **FIN 3100**
+  - unrecognized: Grades of "B"
+  - unrecognized: higher in
+  - unrecognized: Admission as a Coles Partner Student
+  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101 and (ECON 2300 or ECON 2400)), or Admission to Coles College Professional Program, or Admission as a Coles Partner Student
+- **HMGT 3300**
+  - unrecognized: a Coles Partner Student
+- **IS 2200**
+  - unrecognized: higher
+- **IS 3100**
+  - unrecognized: Earned grade of "B"
+  - unrecognized: higher in
+  - unrecognized: a Coles Partner Student
+  - ambiguous and/or precedence: (Earned grade of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, ECON 2106 and IS 2200) or (Admission to a Coles BBA program or a Coles Partner Student)
+- **MGT 3100**
+  - unrecognized: Grades of "B"
+  - unrecognized: higher in
+  - unrecognized: a Coles Partner Student
+  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA Program or a Coles Partner Student)
+- **MGT 3200**
+  - unrecognized: a Coles Partner Student
+- **MGT 3600**
+  - unrecognized: a Coles Partner Student
+- **MGT 4001**
+  - unrecognized: a Coles Partner Student
+- **MGT 4002**
+  - unrecognized: a Coles Partner Student
+- **MGT 4003**
+  - unrecognized: a Coles Partner Student
+- **MGT 4004**
+  - unrecognized: a Coles Partner Student
+- **MGT 4174**
+  - unrecognized: a Coles Partner Student
+- **MGT 4190**
+  - unrecognized: a Coles Partner Student
+- **MGT 4199**
+  - unrecognized: . This course is taken in the last
+  - unrecognized: next-to-last semester in the B.B.A. program
+  - ambiguous and/or precedence: BUSA 4150, ECON 3300, FIN 3100, MGT 3100, MGT 3200 and MKTG 3100 and Admission to the Coles College Undergraduate Professional Program. This course is taken in the last or next-to-last semester in the B.B.A. program
+- **MGT 4476**
+  - unrecognized: a Coles Partner Student
+- **MGT 4800**
+  - unrecognized: a Coles Partner Student
+- **MKTG 3100**
+  - unrecognized: Grades of "B"
+  - unrecognized: higher in
+  - unrecognized: a Coles Partner Student
+  - ambiguous and/or precedence: (Grades of "B" or higher in ACCT 2101, ACCT 2102, ECON 2105, and ECON 2106) or (Admission to a Coles BBA program or a Coles Partner Student)
+- **MKTG 4260**
+  - unrecognized: a Coles Partner Student
+- **MKTG 4470**
+  - unrecognized: a Coles Partner Student
+
+## Left out on purpose
+
+- text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.
+- text: Any 3000 or 4000 level ENTR course
+- text: Any 3000 or 4000 level MGT course

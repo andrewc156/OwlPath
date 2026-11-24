@@ -1,0 +1,60 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11812,
+  "program": {
+    "id": "bsed-secondary-education",
+    "name": "BSEd Secondary Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDUC 2110": [
+      "major-required"
+    ],
+    "EDUC 2120": [
+      "major-required"
+    ],
+    "EDUC 2130": [
+      "major-required"
+    ],
+    "EDUC 4610": [
+      "major-required"
+    ],
+    "INED 3300": [
+      "major-required"
+    ],
+    "INED 4431": [
+      "major-required"
+    ],
+    "ITEC 3300": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Teaching Field Courses (9 Credit Hours)'",
+    "unrecognized section 'Teaching Field Professional Education (19-20 Credit Hours)'",
+    "unrecognized section 'Teaching Field Courses (31 Credit Hours)'",
+    "unrecognized section 'Teaching Field Courses (31 Credit Hours)'",
+    "unrecognized section 'Teaching Field Courses (32 Credit Hours)'",
+    "unrecognized section 'Teaching Field Courses (31 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: One (1) credit hour carried over from Technology, Mathematics, and Sciences.",
+    "text: Biology Teaching Field:",
+    "text: Chemistry Teaching Field:",
+    "text: Mathematics Teaching Field:",
+    "text: Physics Teaching Field:",
+    "text: Biology, Chemistry, and Physics Teaching Fields:",
+    "text: Select 3 credit hours of 3000-4000 level BIOL coursework"
+  ],
+  "draftHash": "0dae24db6d0d03e750a7ac22da479e51ac5f5e2966d36603f3530aae0f31e7af"
+}

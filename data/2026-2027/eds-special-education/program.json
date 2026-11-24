@@ -1,0 +1,74 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11574,
+  "program": {
+    "id": "eds-special-education",
+    "name": "EdS Special Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Special Education Advanced",
+        "groups": [
+          "conc-special-education-advanced"
+        ]
+      },
+      {
+        "label": "Special Education Leadership",
+        "groups": [
+          "conc-special-education-leadership"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDL 7101": [
+      "conc-special-education-leadership"
+    ],
+    "EDL 7215": [
+      "conc-special-education-leadership"
+    ],
+    "EDL 7401": [
+      "conc-special-education-leadership"
+    ],
+    "EDL 7615": [
+      "conc-special-education-leadership"
+    ],
+    "EDUC 8100": [
+      "conc-special-education-advanced"
+    ],
+    "INED 7742": [
+      "major-required"
+    ],
+    "INED 7800": [
+      "major-required"
+    ],
+    "INED 8310": [
+      "major-required"
+    ],
+    "INED 8315": [
+      "major-required"
+    ],
+    "INED 8335": [
+      "major-required"
+    ],
+    "INED 8360": [
+      "major-required"
+    ],
+    "ITEC 7400": [
+      "conc-special-education-advanced"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Select 6 credit hours of 7000 level or higher INED coursework."
+  ],
+  "draftHash": "5fd22fdd6ee1961dae6e1f7d2c4731142a3fdf975b8bb075dda79d80a9303ae3"
+}

@@ -1,0 +1,173 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11794,
+  "program": {
+    "id": "ba-asian-studies",
+    "name": "BA Asian Studies",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ASIA 1102": [
+      "major-required"
+    ],
+    "ASIA 2209": [
+      "major-elective"
+    ],
+    "ASIA 3001": [
+      "major-required"
+    ],
+    "ASIA 3030": [
+      "major-elective"
+    ],
+    "ASIA 3306": [
+      "major-elective"
+    ],
+    "ASIA 3308": [
+      "major-elective"
+    ],
+    "ASIA 3333": [
+      "major-elective"
+    ],
+    "ASIA 3340": [
+      "major-elective"
+    ],
+    "ASIA 3355": [
+      "major-elective"
+    ],
+    "ASIA 3500": [
+      "major-elective"
+    ],
+    "ASIA 3535": [
+      "major-elective"
+    ],
+    "ASIA 3670": [
+      "major-elective"
+    ],
+    "ASIA 3760": [
+      "major-elective"
+    ],
+    "ASIA 3780": [
+      "major-elective"
+    ],
+    "ASIA 4001": [
+      "major-elective"
+    ],
+    "ASIA 4409": [
+      "major-required"
+    ],
+    "ASIA 4422": [
+      "major-elective"
+    ],
+    "ASIA 4425": [
+      "major-elective"
+    ],
+    "ASIA 4517": [
+      "major-elective"
+    ],
+    "CHIN 3200": [
+      "major-elective"
+    ],
+    "CHIN 3302": [
+      "major-elective"
+    ],
+    "CHIN 3303": [
+      "major-elective"
+    ],
+    "CHIN 3304": [
+      "major-elective"
+    ],
+    "HIST 3372": [
+      "major-elective"
+    ],
+    "HIST 3373": [
+      "major-elective"
+    ],
+    "HIST 3374": [
+      "major-elective"
+    ],
+    "HIST 3375": [
+      "major-elective"
+    ],
+    "HIST 3380": [
+      "major-elective"
+    ],
+    "HIST 3381": [
+      "major-elective"
+    ],
+    "JAPN 3200": [
+      "major-elective"
+    ],
+    "JAPN 3302": [
+      "major-elective"
+    ],
+    "JAPN 3303": [
+      "major-elective"
+    ],
+    "JAPN 3304": [
+      "major-elective"
+    ],
+    "KOR 3200": [
+      "major-elective"
+    ],
+    "KOR 3302": [
+      "major-elective"
+    ],
+    "KOR 3303": [
+      "major-elective"
+    ],
+    "KOR 3304": [
+      "major-elective"
+    ],
+    "MGT 3100": [
+      "major-elective"
+    ],
+    "MKTG 3100": [
+      "major-elective"
+    ],
+    "ORGC 3325": [
+      "major-elective"
+    ],
+    "PHIL 2110": [
+      "major-elective"
+    ],
+    "POLS 2250": [
+      "major-elective"
+    ],
+    "SA 4490": [
+      "major-elective"
+    ],
+    "WLC 2209": [
+      "major-elective"
+    ],
+    "WLC 3309": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Lower-Division Asian Language Courses (9 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Or \nChoose any 1000-2000 level coursework with the following prefixes: BLCK, HIST, PHIL, POLS. Other coursework can be used in this area with approval by an advisor.",
+    "text: Additional Asian-focused coursework can be used in this area with approval by an advisor.",
+    "ASIA 3398",
+    "ASIA 4400",
+    "ASIA 4490"
+  ],
+  "draftHash": "80fc4533b1a5d113a535156efee53e298865b5cbce255c35d24eb40ac98784b1"
+}

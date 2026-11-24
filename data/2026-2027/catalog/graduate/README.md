@@ -1,7 +1,7 @@
-# Graduate catalog listings
+# Graduate catalog snapshot
 
-Save graduate course listings here, one PDF per prefix (e.g. `cs.pdf`), the same way as `../undergraduate/`:
-open the KSU **Graduate** Catalog's Courses listing, filter to one prefix, expand all courses and print to PDF.
+`catalog-courses.json` and `programs.json` hold the 2026-27 **Graduate** Catalog (catoid 83), written by
+`.venv/bin/python -m owlpath_pipeline.crawl graduate`. `overrides.json` holds the hand fixes shared by every
+graduate major, each with a reason. Majors with `"level": "graduate"` in their `program.json` read this folder.
 
-Only majors with `"level": "graduate"` in their `program.json` read this folder (catoid 83). Keep program pages
-out of here: every PDF in this folder is read as a course listing.
+Graduate listings have no "Description" label, so the reader takes each field as one line and the text after it as the description.

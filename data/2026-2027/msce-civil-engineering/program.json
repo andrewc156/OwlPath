@@ -1,0 +1,94 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11595,
+  "program": {
+    "id": "msce-civil-engineering",
+    "name": "MSCE Civil Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CE 6101": [
+      "major-elective"
+    ],
+    "CE 6102": [
+      "major-elective"
+    ],
+    "CE 6103": [
+      "major-elective"
+    ],
+    "CE 6104": [
+      "major-elective"
+    ],
+    "CE 6105": [
+      "major-elective"
+    ],
+    "CE 6133": [
+      "major-elective"
+    ],
+    "CE 6201": [
+      "major-elective"
+    ],
+    "CE 6202": [
+      "major-elective"
+    ],
+    "CE 6203": [
+      "major-elective"
+    ],
+    "CE 6204": [
+      "major-elective"
+    ],
+    "CE 6302": [
+      "major-elective"
+    ],
+    "CE 6303": [
+      "major-elective"
+    ],
+    "CE 6304": [
+      "major-elective"
+    ],
+    "CE 6333": [
+      "major-elective"
+    ],
+    "CE 6343": [
+      "major-elective"
+    ],
+    "CE 6433": [
+      "major-elective"
+    ],
+    "CE 6533": [
+      "major-elective"
+    ],
+    "CE 6633": [
+      "major-elective"
+    ],
+    "CE 6683": [
+      "major-elective"
+    ],
+    "ENGR 6002": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "CE 6003",
+    "CE 6401",
+    "CE 6900"
+  ],
+  "draftHash": "cc5fa8ddab06908339b289a0955420ebc786375652a886adafadcd912d92598b"
+}

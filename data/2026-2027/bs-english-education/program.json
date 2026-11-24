@@ -1,0 +1,89 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11687,
+  "program": {
+    "id": "bs-english-education",
+    "name": "BS English Education",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "ENED 2110",
+      "HUED 2110"
+    ],
+    [
+      "LING 3025",
+      "LING 3035"
+    ]
+  ],
+  "courses": {
+    "EDUC 2120": [
+      "core-field"
+    ],
+    "EDUC 2130": [
+      "major-required"
+    ],
+    "ENED 2110": [
+      "core-field"
+    ],
+    "ENGL 2145": [
+      "core-field"
+    ],
+    "ENGL 2160": [
+      "core-field"
+    ],
+    "ENGL 2172": [
+      "core-field"
+    ],
+    "ENGL 2174": [
+      "core-field"
+    ],
+    "ENGL 2271": [
+      "major-required"
+    ],
+    "ENGL 3241": [
+      "major-required"
+    ],
+    "ENGL 3310": [
+      "major-required"
+    ],
+    "ENGL 3311": [
+      "major-required"
+    ],
+    "ENGL 3391": [
+      "major-required"
+    ],
+    "ENGL 4340": [
+      "major-required"
+    ],
+    "HUED 2110": [
+      "core-field"
+    ],
+    "LING 3025": [
+      "major-required"
+    ],
+    "LING 3035": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Cultural Studies of Literature (3 Credit Hours)'",
+    "unrecognized section 'Studies in Pre-20th-Century Literature (3 Credit Hours)'",
+    "unrecognized section 'Studies in 20th- and 21st-Century Literature (3 Credit Hours)'",
+    "unrecognized section 'Yearlong Clinical Experience (24 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Note: Take GACE English test 713 (https://www.gace.es.pearson.com/test/713) during YCE. Attempting the GACE is required for certification."
+  ],
+  "draftHash": "7dd28b4ece833b55cb87b26f811b7093e6be8f76f13bd175b8b06de316043ccb"
+}

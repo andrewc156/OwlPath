@@ -1,0 +1,175 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11674,
+  "program": {
+    "id": "bs-biology",
+    "name": "BS Biology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Human Health",
+        "groups": [
+          "conc-human-health"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "BIOL 1107": [
+      "core-field"
+    ],
+    "BIOL 1107L": [
+      "core-field"
+    ],
+    "BIOL 1108": [
+      "core-field"
+    ],
+    "BIOL 1108L": [
+      "core-field"
+    ],
+    "BIOL 3300": [
+      "major-required"
+    ],
+    "BIOL 3300L": [
+      "major-required"
+    ],
+    "BIOL 3317": [
+      "conc-human-health"
+    ],
+    "BIOL 3327": [
+      "conc-human-health"
+    ],
+    "BIOL 3338K": [
+      "conc-human-health"
+    ],
+    "BIOL 3340": [
+      "conc-human-health"
+    ],
+    "BIOL 3340L": [
+      "conc-human-health"
+    ],
+    "BIOL 3370": [
+      "major-required"
+    ],
+    "BIOL 3370L": [
+      "major-required"
+    ],
+    "BIOL 3375K": [
+      "conc-human-health"
+    ],
+    "BIOL 3410": [
+      "major-required"
+    ],
+    "BIOL 4115": [
+      "conc-human-health"
+    ],
+    "BIOL 4350K": [
+      "conc-human-health"
+    ],
+    "BIOL 4390K": [
+      "conc-human-health"
+    ],
+    "BIOL 4399": [
+      "major-required"
+    ],
+    "BIOL 4431": [
+      "conc-human-health"
+    ],
+    "BIOL 4431L": [
+      "conc-human-health"
+    ],
+    "BIOL 4440": [
+      "conc-human-health"
+    ],
+    "BIOL 4460K": [
+      "conc-human-health"
+    ],
+    "BIOL 4465": [
+      "conc-human-health"
+    ],
+    "BIOL 4475": [
+      "conc-human-health"
+    ],
+    "BIOL 4486": [
+      "conc-human-health"
+    ],
+    "BIOL 4550": [
+      "conc-human-health"
+    ],
+    "CHEM 1211": [
+      "core-field"
+    ],
+    "CHEM 1211L": [
+      "core-field"
+    ],
+    "CHEM 1212": [
+      "core-field"
+    ],
+    "CHEM 1212L": [
+      "core-field"
+    ],
+    "CHEM 3010": [
+      "conc-human-health"
+    ],
+    "CHEM 3030": [
+      "conc-human-health"
+    ],
+    "CHEM 3361": [
+      "major-required"
+    ],
+    "CHEM 3361L": [
+      "major-required"
+    ],
+    "CHEM 3362": [
+      "conc-human-health"
+    ],
+    "CHEM 3362L": [
+      "conc-human-health"
+    ],
+    "CHEM 3500": [
+      "conc-human-health"
+    ],
+    "CHEM 3501L": [
+      "conc-human-health"
+    ],
+    "IET 2227": [
+      "major-required"
+    ],
+    "PSYC 3000": [
+      "major-required"
+    ],
+    "SCM 2000": [
+      "major-required"
+    ],
+    "STAT 1401": [
+      "major-required"
+    ],
+    "STAT 3125": [
+      "major-required"
+    ],
+    "STAT 4025": [
+      "conc-human-health"
+    ],
+    "STAT 4125": [
+      "conc-human-health"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics and Sciences.",
+    "text: Electives must take one additional laboratory course (K or L classes).",
+    "text: Elective choices may include a maximum of 8 research credit hours ( BIOL 3110L , BIOL 4400 , BIOL 4402 , BIOL 4450 , CHEM 4100 , CHEM 4120L , CHEM 4400 , RES 4000 , RES 4100 ).",
+    "text: Elective choices may include a maximum of 4 internship credit hours ( BIOL 3398 ).",
+    "BIOL 4610"
+  ],
+  "draftHash": "eb3c67c114ce375883883ea3ee8cb4b3c5c1433cceed4f5755e350f5142019fe"
+}

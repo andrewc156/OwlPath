@@ -1,0 +1,92 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11786,
+  "program": {
+    "id": "bs-interactive-design",
+    "name": "BS Interactive Design",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ART 1100": [
+      "core-field"
+    ],
+    "ART 1150": [
+      "core-field"
+    ],
+    "IAD 2100": [
+      "core-field"
+    ],
+    "IAD 3000": [
+      "major-required"
+    ],
+    "IAD 3150": [
+      "major-required"
+    ],
+    "IAD 3230": [
+      "major-required"
+    ],
+    "IAD 3300": [
+      "major-elective"
+    ],
+    "IAD 4000": [
+      "major-elective"
+    ],
+    "IAD 4150": [
+      "major-elective"
+    ],
+    "IAD 4200": [
+      "major-elective"
+    ],
+    "IAD 4230": [
+      "major-elective"
+    ],
+    "IT 1113": [
+      "core-field"
+    ],
+    "TCID 2002": [
+      "core-field"
+    ],
+    "TCID 2170": [
+      "core-field"
+    ],
+    "TCID 3100": [
+      "major-required"
+    ],
+    "TCID 3400": [
+      "major-required"
+    ],
+    "TCID 3800": [
+      "major-elective"
+    ],
+    "TCID 4500": [
+      "major-elective"
+    ],
+    "TCID 4700": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "IAD 3398",
+    "IAD 4400",
+    "IAD 4490"
+  ],
+  "draftHash": "73a17a61a22560f370613c83d5b7275bd45bb93e0fe99e5679fe5a0da1e912be"
+}

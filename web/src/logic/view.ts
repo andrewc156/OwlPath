@@ -13,9 +13,11 @@ export type ViewCtx = {
   choices: string[][]
   /** Courses left off the map (less common either/or options); their edges go too. */
   hidden: Set<string>
+  /** Course titles by id, for the node text. */
+  titles: Record<string, string>
 }
 
-export type CourseNodeData = { courseId: string; state: NodeState; externalOnlyGroups: number; choiceWith: string[] }
+export type CourseNodeData = { courseId: string; title: string; state: NodeState; externalOnlyGroups: number; choiceWith: string[] }
 export type JunctionNodeData = { op: 'and' | 'or'; externalCount: number }
 
 /** Selection wins over the Show filter. */
@@ -44,6 +46,7 @@ export function toFlow(graph: Graph, { positions, routes }: Layout, ctx: ViewCtx
     if (n.kind === 'course') {
       const data: CourseNodeData = {
         courseId: n.courseId,
+        title: ctx.titles[n.courseId] ?? '',
         state: ctx.states[n.courseId] ?? 'locked',
         externalOnlyGroups: n.externalOnlyGroups,
         choiceWith: choicePartners(ctx.choices, n.courseId),

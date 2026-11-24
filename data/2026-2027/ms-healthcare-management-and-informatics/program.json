@@ -1,0 +1,96 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11600,
+  "program": {
+    "id": "ms-healthcare-management-and-informatics",
+    "name": "MS Healthcare Management and Informatics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "HMI 7510": [
+      "major-required"
+    ],
+    "HMI 7520": [
+      "major-required"
+    ],
+    "HMI 7530": [
+      "major-elective"
+    ],
+    "HMI 7540": [
+      "major-required"
+    ],
+    "HMI 7550": [
+      "major-required"
+    ],
+    "HMI 7560": [
+      "major-required"
+    ],
+    "HMI 7570": [
+      "major-required"
+    ],
+    "HMI 7580": [
+      "major-required"
+    ],
+    "HMI 7590": [
+      "major-required"
+    ],
+    "HMI 7610": [
+      "major-required"
+    ],
+    "HMI 7620": [
+      "major-required"
+    ],
+    "HMI 7770": [
+      "major-required"
+    ],
+    "IS 7100": [
+      "major-elective"
+    ],
+    "IS 7200": [
+      "major-elective"
+    ],
+    "IS 7320": [
+      "major-elective"
+    ],
+    "IS 7330": [
+      "major-elective"
+    ],
+    "IT 7113": [
+      "major-elective"
+    ],
+    "IT 7503": [
+      "major-elective"
+    ],
+    "MGT 7040": [
+      "major-elective"
+    ],
+    "NURS 7753": [
+      "major-elective"
+    ],
+    "NURS 7794": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "HMI 7910",
+    "HMI 7900"
+  ],
+  "draftHash": "1246fc28491bb5f1cdd6208dd8aa152ceff0f425f043ca6bd252cc8c8956d016"
+}

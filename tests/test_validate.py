@@ -101,3 +101,22 @@ def test_less_common_cannot_be_a_required_prereq():
 def test_less_common_unknown_course_is_error():
     d = less_common(["ZZZ 9999"], [], [course("AA 1000")])
     assert "lessCommon: unknown course ZZZ 9999" in validate_dataset(d)
+
+
+def test_concentration_groups_follow_pattern():
+    ok = course("CS 3305", groups=("conc-cyber-and-network-security",))
+    assert validate_dataset(dataset([ok])) == []
+    bad = course("CS 3306", groups=("Conc AI",))
+    assert validate_dataset(dataset([bad])) != []
+
+
+def test_catalog_url_must_be_a_ksu_catalog_link():
+    # The link feeds an href in the app, so it must point at the KSU catalog.
+    for url in ("javascript:alert(1)", "https://evil.example/", "http://catalog.kennesaw.edu/x",
+                "https://catalog.kennesaw.edu.evil.example/"):
+        bad = course("CS 3305")
+        bad["catalogUrl"] = url
+        assert any("catalogUrl" in e for e in validate_dataset(dataset([bad]))), url
+    ok = course("CS 3305")
+    ok["catalogUrl"] = "https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=84&coid=1"
+    assert validate_dataset(dataset([ok])) == []

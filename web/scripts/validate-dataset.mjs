@@ -2,6 +2,10 @@
 // Mirrors the pipeline's validator so hand edits can't ship a silently wrong graph.
 
 const GRADES = new Set(['A', 'B', 'C', 'D'])
+// Same patterns as data/schema/courses.schema.json.
+const GROUP = /^(core-field|major-required|major-elective|major-project|gen-ed-math|prereq-only|conc-[a-z0-9]+(-[a-z0-9]+)*)$/
+// catalogUrl feeds the "View in catalog" link's href, so only KSU catalog pages may ship.
+const CATALOG_URL = /^https:\/\/catalog\.kennesaw\.edu\//
 
 /** @returns {string[]} error messages; empty means valid. */
 export function validateDataset(data) {
@@ -17,6 +21,9 @@ export function validateDataset(data) {
     }
     if (ids.has(c.id)) errors.push(`duplicate id ${c.id}`)
     ids.add(c.id)
+    if (typeof c.catalogUrl !== 'string' || !CATALOG_URL.test(c.catalogUrl)) {
+      errors.push(`${c.id}: catalogUrl must start with https://catalog.kennesaw.edu/`)
+    }
   }
 
   const check = (owner, logic) => {
@@ -54,6 +61,19 @@ export function validateDataset(data) {
   const p = data.program
   if (!p || typeof p.id !== 'string' || typeof p.name !== 'string' || !Array.isArray(p.filters)) {
     errors.push('program: missing id/name/filters')
+  }
+  const used = new Set()
+  for (const c of data.courses) {
+    if (!c || !Array.isArray(c.groups)) continue
+    for (const g of c.groups) {
+      if (typeof g === 'string' && GROUP.test(g)) used.add(g)
+      else errors.push(`${c.id}: invalid group ${JSON.stringify(g)}`)
+    }
+  }
+  if (p && Array.isArray(p.filters)) {
+    for (const f of p.filters) {
+      for (const g of f?.groups ?? []) if (!used.has(g)) errors.push(`program: filter group "${g}" is used by no course`)
+    }
   }
   if (!Array.isArray(data.choices)) {
     errors.push('choices must be an array')

@@ -1,0 +1,128 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11863,
+  "program": {
+    "id": "bba-accounting",
+    "name": "BBA Accounting",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "ACCT 3100": [
+      "major-required"
+    ],
+    "ACCT 3200": [
+      "major-required"
+    ],
+    "ACCT 3300": [
+      "major-required"
+    ],
+    "ACCT 4050": [
+      "major-required"
+    ],
+    "ACCT 4100": [
+      "major-elective"
+    ],
+    "ACCT 4150": [
+      "major-required"
+    ],
+    "ACCT 4152": [
+      "major-elective"
+    ],
+    "ACCT 4200": [
+      "major-elective"
+    ],
+    "ACCT 4250": [
+      "major-elective"
+    ],
+    "ACCT 4300": [
+      "major-elective"
+    ],
+    "ACCT 4350": [
+      "major-elective"
+    ],
+    "ACCT 4550": [
+      "major-required"
+    ],
+    "ACCT 4600": [
+      "major-elective"
+    ],
+    "ACCT 4700": [
+      "major-elective"
+    ],
+    "ACCT 4800": [
+      "major-elective"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "ACCT 4400",
+    "ACCT 4490"
+  ],
+  "draftHash": "ea13730864aa328f4e67053fef14496de4f23dad0e5ba739079bf2cf8de0cc66"
+}

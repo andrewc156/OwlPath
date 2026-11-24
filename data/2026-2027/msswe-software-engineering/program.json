@@ -1,0 +1,104 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11591,
+  "program": {
+    "id": "msswe-software-engineering",
+    "name": "MSSWE Software Engineering",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "A. Capstone",
+        "groups": [
+          "conc-a-capstone"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CS 7125": [
+      "major-elective"
+    ],
+    "CS 7385": [
+      "major-elective"
+    ],
+    "CS 7455": [
+      "major-elective"
+    ],
+    "CS 7535": [
+      "major-elective"
+    ],
+    "CS 7827": [
+      "major-elective"
+    ],
+    "SWE 6613": [
+      "major-required"
+    ],
+    "SWE 6633": [
+      "major-required"
+    ],
+    "SWE 6653": [
+      "major-required"
+    ],
+    "SWE 6673": [
+      "major-required"
+    ],
+    "SWE 6733": [
+      "major-elective"
+    ],
+    "SWE 6753": [
+      "major-elective"
+    ],
+    "SWE 6763": [
+      "major-elective"
+    ],
+    "SWE 6783": [
+      "major-elective"
+    ],
+    "SWE 6813": [
+      "major-elective"
+    ],
+    "SWE 6823": [
+      "major-elective"
+    ],
+    "SWE 6853": [
+      "major-elective"
+    ],
+    "SWE 6863": [
+      "major-elective"
+    ],
+    "SWE 6883": [
+      "major-elective"
+    ],
+    "SWE 7903": [
+      "conc-a-capstone"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'plus a course covering the entire software development lifecycle'",
+    "unrecognized section 'Approved SYE Courses:'"
+  ],
+  "leftOut": [
+    "text: 12 Credit Hours of 6000 or 7000-level SWE, CS, IT or SYE courses (at least 2 courses must be from SWE or the approved list of CS/CSE courses and at most 2 from either CS, IT, or SYE)",
+    "text: Choose 9 Credit Hours of 6000 or 7000-Level SWE, CS, IT, or SYE courses (at least 2 courses must be from SWE or from the approved list of CS/CSE courses)",
+    "SWE 7803",
+    "text: At least two electives must be in Software Engineering or the following list of CS/CSE courses:",
+    "SWE 6903",
+    "SWE 6803",
+    "CSE 7983"
+  ],
+  "draftHash": "735791f343d68a3c651f4c05d558bc599ce02928e51a5d51b2bfb73f107e1113"
+}

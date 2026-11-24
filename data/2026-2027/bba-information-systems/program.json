@@ -1,0 +1,141 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11706,
+  "program": {
+    "id": "bba-information-systems",
+    "name": "BBA Information Systems",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Financial Technology “FinTech”",
+        "groups": [
+          "conc-financial-technology-fintech"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      },
+      {
+        "label": "Project",
+        "groups": [
+          "major-project"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "ACCT 2102": [
+      "core-field"
+    ],
+    "BLAW 2200": [
+      "major-required"
+    ],
+    "BUSA 1000": [
+      "major-required"
+    ],
+    "BUSA 4000": [
+      "major-required"
+    ],
+    "ECON 2105": [
+      "core-field"
+    ],
+    "ECON 2106": [
+      "core-field"
+    ],
+    "ECON 2400": [
+      "core-field"
+    ],
+    "ECON 3200": [
+      "major-required"
+    ],
+    "FIN 3100": [
+      "major-required"
+    ],
+    "FTA 3810": [
+      "conc-financial-technology-fintech"
+    ],
+    "FTA 3860": [
+      "conc-financial-technology-fintech"
+    ],
+    "FTA 3890": [
+      "major-project"
+    ],
+    "IS 2200": [
+      "core-field"
+    ],
+    "IS 3020": [
+      "major-required"
+    ],
+    "IS 3040": [
+      "major-required"
+    ],
+    "IS 3060": [
+      "major-required"
+    ],
+    "IS 3100": [
+      "major-required"
+    ],
+    "IS 3220": [
+      "major-required"
+    ],
+    "IS 3260": [
+      "major-elective"
+    ],
+    "IS 3280": [
+      "major-required"
+    ],
+    "IS 3397": [
+      "major-required"
+    ],
+    "IS 3815": [
+      "major-elective",
+      "conc-financial-technology-fintech"
+    ],
+    "IS 3920": [
+      "major-elective"
+    ],
+    "IS 4540": [
+      "major-elective"
+    ],
+    "IS 4880": [
+      "major-project"
+    ],
+    "MGT 3100": [
+      "major-required"
+    ],
+    "MGT 3200": [
+      "major-required"
+    ],
+    "MGT 4199": [
+      "major-required"
+    ],
+    "MKTG 3100": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: *If ECON 2105 is taken in General Education Core IMPACTS: Social Sciences students may select 3 credit hours of free electives.",
+    "IS 4000",
+    "IS 4490",
+    "text: FTA 3890 : Experiential Learning",
+    "text: any KSU-approved study abroad program",
+    "text: IS research or honors project in a IS 4000 : IS Project Lab  or IS 4400 : Directed Study"
+  ],
+  "draftHash": "5a8b51955afb0c3576bd009dd017a0ea84031f244fa18b7ffb93d2891b5bf705"
+}

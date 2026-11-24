@@ -1,0 +1,112 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11575,
+  "program": {
+    "id": "edd-instructional-technology",
+    "name": "EdD Instructional Technology",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Initial Certification",
+        "groups": [
+          "conc-initial-certification"
+        ]
+      },
+      {
+        "label": "Advanced",
+        "groups": [
+          "conc-advanced"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "EDRS 9100",
+      "EDRS 9200"
+    ]
+  ],
+  "courses": {
+    "EDRS 8100": [
+      "major-required"
+    ],
+    "EDRS 8200": [
+      "major-required"
+    ],
+    "EDRS 9100": [
+      "major-required"
+    ],
+    "EDRS 9200": [
+      "major-required"
+    ],
+    "EDRS 9300": [
+      "major-required"
+    ],
+    "EDUC 8100": [
+      "major-required"
+    ],
+    "ITEC 7305": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7400": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7430": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7455": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7460": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7480": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7485": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7500": [
+      "conc-initial-certification"
+    ],
+    "ITEC 7600": [
+      "conc-initial-certification"
+    ],
+    "ITEC 8510": [
+      "conc-advanced"
+    ],
+    "ITEC 8520": [
+      "conc-advanced"
+    ],
+    "ITEC 8530": [
+      "conc-advanced"
+    ],
+    "ITEC 8540": [
+      "conc-advanced"
+    ],
+    "ITEC 8550": [
+      "conc-advanced"
+    ],
+    "ITEC 8560": [
+      "conc-advanced"
+    ],
+    "ITEC 8570": [
+      "conc-advanced"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Advanced ITEC Courses (6 Credit Hours)'",
+    "unrecognized section 'Dissertation (9 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Candidates may select six credit hours from any 7000, 8000, or 9000 level courses approved by advisor."
+  ],
+  "draftHash": "fe47924f57c6721e1729371785fbe67c9ed458e47991df42abbbb2239d0ea616"
+}

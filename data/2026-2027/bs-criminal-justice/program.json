@@ -1,0 +1,165 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11836,
+  "program": {
+    "id": "bs-criminal-justice",
+    "name": "BS Criminal Justice",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [
+    [
+      "WLC 1001",
+      "SPAN 1001"
+    ],
+    [
+      "CRJU 3310",
+      "CRJU 3311"
+    ]
+  ],
+  "courses": {
+    "ACCT 2101": [
+      "core-field"
+    ],
+    "COMM 2240": [
+      "core-field"
+    ],
+    "CRJU 1101": [
+      "core-field"
+    ],
+    "CRJU 2201": [
+      "core-field"
+    ],
+    "CRJU 3300": [
+      "major-required"
+    ],
+    "CRJU 3301": [
+      "major-required"
+    ],
+    "CRJU 3305": [
+      "major-elective"
+    ],
+    "CRJU 3310": [
+      "major-required",
+      "major-elective"
+    ],
+    "CRJU 3311": [
+      "major-required",
+      "major-elective"
+    ],
+    "CRJU 3312": [
+      "major-elective"
+    ],
+    "CRJU 3315": [
+      "major-required"
+    ],
+    "CRJU 3320": [
+      "major-elective"
+    ],
+    "CRJU 3332": [
+      "major-required"
+    ],
+    "CRJU 3340": [
+      "major-elective"
+    ],
+    "CRJU 3352": [
+      "major-elective"
+    ],
+    "CRJU 3355": [
+      "major-elective"
+    ],
+    "CRJU 3365": [
+      "major-elective"
+    ],
+    "CRJU 3400": [
+      "major-elective"
+    ],
+    "CRJU 4100": [
+      "major-required"
+    ],
+    "CRJU 4300": [
+      "major-elective"
+    ],
+    "CRJU 4305": [
+      "major-elective"
+    ],
+    "CRJU 4410": [
+      "major-elective"
+    ],
+    "CRJU 4430": [
+      "major-elective"
+    ],
+    "CRJU 4499": [
+      "major-required"
+    ],
+    "GEOG 1130": [
+      "core-field"
+    ],
+    "HS 2100": [
+      "core-field"
+    ],
+    "ICT 2101": [
+      "core-field"
+    ],
+    "POLS 2212": [
+      "core-field"
+    ],
+    "SA 4490": [
+      "major-required"
+    ],
+    "SOCI 1101": [
+      "core-field"
+    ],
+    "SOCI 2251": [
+      "core-field"
+    ],
+    "SOCI 3360": [
+      "major-elective"
+    ],
+    "SOCI 4200": [
+      "major-elective"
+    ],
+    "SOCI 4432": [
+      "major-required"
+    ],
+    "SOCI 4442": [
+      "major-elective"
+    ],
+    "SPAN 1001": [
+      "core-field"
+    ],
+    "SPAN 2034": [
+      "core-field"
+    ],
+    "WLC 1001": [
+      "core-field"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Cultural Diversity (3 Credit Hours)'"
+  ],
+  "leftOut": [
+    "text: Select three of the following:",
+    "text: Complete three credit hours from one of the following:",
+    "CRJU 3396",
+    "CRJU 3398",
+    "CRJU 4400",
+    "CRJU 4490"
+  ],
+  "draftHash": "e5b31c19e7441aa15eb764142323a1d4d4ae16e76eda8dc3c5531cdd6b04d1a6"
+}

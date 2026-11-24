@@ -21,6 +21,9 @@ FOOTER = re.compile(r"^(\d{1,2}/\d{1,2}/\d{2}, \d{1,2}:\d{2} [AP]M\b|https?://)"
 SECTION_END = re.compile(r"^(Course Learning Outcomes|Notes:)")
 # Page chrome the browser prints; it can land anywhere in the text stream.
 CHROME = re.compile(r"^(Contract All Courses \|?|\d{4}-\d{4} (?:Undergraduate|Graduate) Catalog|Kennesaw State University|Courses)$")
+# The line that opens the page's closing chrome (pagination, then the footer). Once a course has
+# started, nothing from such a line on belongs to the listing; above the first course it is just skipped.
+LISTING_END = re.compile(r"^(Page: \d+ \||(?:Contract|Expand) All Courses \|? ?Print this Page|Print this Page)")
 
 
 def pdf_text(path: Path) -> str:
@@ -82,13 +85,17 @@ def parse_listing(text: str, url: str) -> dict[str, RawCourse]:
     courses: dict[str, RawCourse] = {}
     head: tuple[str, str] | None = None
     body: list[str] = []
-    for line in _lines(text) + ["ZZZZ 0000: end"]:
+    for line in _lines(text):
+        if head and LISTING_END.match(line):
+            break
         if m := HEADER.match(line):
             if head:
                 courses[head[0]] = _course(*head, body, url)
             head, body = (m.group(1), m.group(2)), []
         elif head:
             body.append(line)
+    if head:
+        courses[head[0]] = _course(*head, body, url)
     return courses
 
 

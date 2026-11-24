@@ -1,0 +1,147 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "undergraduate",
+  "catoid": 84,
+  "poid": 11745,
+  "program": {
+    "id": "bs-physics",
+    "name": "BS Physics",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "core-field",
+          "major-required"
+        ]
+      },
+      {
+        "label": "General Physics",
+        "groups": [
+          "conc-general-physics"
+        ]
+      },
+      {
+        "label": "Electrical Engineering",
+        "groups": [
+          "conc-electrical-engineering"
+        ]
+      },
+      {
+        "label": "Mechanical Engineering",
+        "groups": [
+          "conc-mechanical-engineering"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "EDG 1211": [
+      "conc-mechanical-engineering"
+    ],
+    "EE 2301": [
+      "conc-electrical-engineering"
+    ],
+    "EE 2302": [
+      "conc-electrical-engineering"
+    ],
+    "EE 2501": [
+      "conc-electrical-engineering"
+    ],
+    "EE 3401": [
+      "conc-electrical-engineering"
+    ],
+    "EE 3701": [
+      "conc-electrical-engineering"
+    ],
+    "EE 4201": [
+      "conc-electrical-engineering"
+    ],
+    "ENGR 2214": [
+      "conc-electrical-engineering",
+      "conc-mechanical-engineering"
+    ],
+    "ENGR 3122": [
+      "conc-mechanical-engineering"
+    ],
+    "ENGR 3131": [
+      "conc-mechanical-engineering"
+    ],
+    "ENGR 3132": [
+      "conc-mechanical-engineering"
+    ],
+    "ENGR 3343": [
+      "conc-mechanical-engineering"
+    ],
+    "ENGR 3345": [
+      "conc-mechanical-engineering"
+    ],
+    "MATH 2202": [
+      "core-field"
+    ],
+    "MATH 2203": [
+      "core-field"
+    ],
+    "MATH 2306": [
+      "major-required"
+    ],
+    "ME 3101": [
+      "conc-mechanical-engineering"
+    ],
+    "ME 4141": [
+      "conc-mechanical-engineering"
+    ],
+    "PHYS 2211": [
+      "core-field"
+    ],
+    "PHYS 2211L": [
+      "core-field"
+    ],
+    "PHYS 2212": [
+      "core-field"
+    ],
+    "PHYS 2212L": [
+      "core-field"
+    ],
+    "PHYS 3210": [
+      "major-required"
+    ],
+    "PHYS 3220": [
+      "major-required"
+    ],
+    "PHYS 3260": [
+      "major-required"
+    ],
+    "PHYS 3410K": [
+      "conc-mechanical-engineering"
+    ],
+    "PHYS 3500K": [
+      "conc-electrical-engineering",
+      "conc-mechanical-engineering"
+    ],
+    "PHYS 3710": [
+      "major-required"
+    ],
+    "PHYS 4210": [
+      "conc-general-physics"
+    ],
+    "PHYS 4230": [
+      "conc-mechanical-engineering"
+    ],
+    "PHYS 4240": [
+      "conc-electrical-engineering"
+    ],
+    "SCM 2000": [
+      "major-required"
+    ]
+  },
+  "draftWarnings": [],
+  "leftOut": [
+    "text: Two (2) credit hours carried over from Technology, Mathematics, and Sciences.",
+    "text: *If MATH 2202 , PHYS 2211 , PHYS 2211L , PHYS 2212 , or PHYS 2212L are taken to satisfy Core IMPACTS Technology, Mathematics, and Sciences students may take up to 12 credit hours of courses in PHYS, CS, ENGR, STAT, DATA, MATH, and CSE.",
+    "PHYS 2900",
+    "text: Any 3000 or 4000-level of PHYS courses for 15 credit hours*",
+    "text: Any 3000 or 4000 PHYS “K” or PHYS “L” laboratory courses for 3 Credit Hours of laboratory courses *"
+  ],
+  "draftHash": "1b64d3eb9900a56cd0488d6ed97d8edd97eb2d56aa06fd2d66159b9ea850c0a8"
+}

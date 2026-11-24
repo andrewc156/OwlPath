@@ -1,0 +1,93 @@
+{
+  "catalogYear": "2026-2027",
+  "level": "graduate",
+  "catoid": 83,
+  "poid": 11628,
+  "program": {
+    "id": "phd-computer-science",
+    "name": "PhD Computer Science",
+    "filters": [
+      {
+        "label": "Required courses",
+        "groups": [
+          "major-required"
+        ]
+      },
+      {
+        "label": "Electives",
+        "groups": [
+          "major-elective"
+        ]
+      }
+    ]
+  },
+  "choices": [],
+  "courses": {
+    "CS 8025": [
+      "major-required"
+    ],
+    "CS 8027": [
+      "major-required"
+    ],
+    "CS 8041": [
+      "major-required"
+    ],
+    "CS 8045": [
+      "major-required"
+    ],
+    "CS 8050": [
+      "major-required"
+    ],
+    "CS 8125": [
+      "major-elective"
+    ],
+    "CS 8172": [
+      "major-elective"
+    ],
+    "CS 8253": [
+      "major-elective"
+    ],
+    "CS 8260": [
+      "major-required"
+    ],
+    "CS 8263": [
+      "major-elective"
+    ],
+    "CS 8265": [
+      "major-elective"
+    ],
+    "CS 8267": [
+      "major-elective"
+    ],
+    "CS 8347": [
+      "major-elective"
+    ],
+    "CS 8357": [
+      "major-elective"
+    ],
+    "CS 8367": [
+      "major-elective"
+    ],
+    "CS 8375": [
+      "major-elective"
+    ],
+    "CS 8540": [
+      "major-elective"
+    ],
+    "CS 8545": [
+      "major-elective"
+    ],
+    "CS 8998": [
+      "major-elective"
+    ]
+  },
+  "draftWarnings": [
+    "unrecognized section 'Dissertation (24-30 Credit Hours)'"
+  ],
+  "leftOut": [
+    "CS 8990",
+    "CSE 7983",
+    "DS 9700"
+  ],
+  "draftHash": "9d16095bb04466ba28c5cb8194b80c95288783a505f2311c31e60f42751fcc44"
+}

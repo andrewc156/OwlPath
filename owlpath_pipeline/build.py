@@ -1,10 +1,14 @@
-"""Build data/<year>/<major>/courses.json from the saved catalog listing PDFs in catalog/<level>/.
+"""Build data/<year>/<major>/courses.json from the committed catalog snapshot (catalog/<level>/catalog-courses.json),
+or with --from-pdfs from listing PDFs saved by hand in catalog/<level>/.
 
-Pass 1 collects every course the program needs (required leaves pull new courses in).
+Pass 1 collects every course the program needs (required leaves pull new courses in). Shared per-level
+overrides (catalog/<level>/overrides.json) replace a course's parsed prerequisites there, so they steer the closure.
+Auto-built (unchecked) majors also pull in the first option the catalog fully has of an OR with no option on the
+map, then warn on any course whose prerequisites can't be met by courses on the map.
 Pass 2 marks each leaf as an in-graph course or an external alternative, then the
-trees are converted to the short output form and hand-written overrides are applied.
+trees are converted to the short output form.
 
-CLI: .venv/bin/python -m owlpath_pipeline.build <program> [--draft]   (reads/writes data/<year>/<program>/)
+CLI: .venv/bin/python -m owlpath_pipeline.build <program> [--draft] [--from-pdfs]   (reads/writes data/<year>/<program>/)
 """
 import argparse
 import json
@@ -48,6 +52,45 @@ def _classify(expr: Expr | None, graph: set[str], owner: str, warnings: list[str
     return out
 
 
+def _met(expr: Expr | None, graph: set[str]) -> bool:
+    """Whether expr can be met with every course on the map complete; a course shown as text never counts."""
+    if expr is None:
+        return True
+    if "course" in expr:
+        return expr["course"] in graph
+    if "and" in expr:
+        return all(_met(c, graph) for c in expr["and"])
+    return any(_met(c, graph) for c in expr["or"])
+
+
+def _pullable(expr: Expr, exists: Callable[[str], bool]) -> bool:
+    """Whether the catalog has what expr needs: every course of an AND, one option of an OR."""
+    if "course" in expr:
+        return exists(expr["course"])
+    if "and" in expr:
+        return all(_pullable(c, exists) for c in expr["and"])
+    return any(_pullable(c, exists) for c in expr["or"])
+
+
+def _pulls(expr: Expr | None, graph: set[str], exists: Callable[[str], bool],
+           found: list[tuple[list[str], list[str]]]) -> list[str]:
+    """Courses to add so expr can be met (auto-built majors). An OR with no option met on the map takes every
+    course of its first option that the catalog fully has (an option is a leaf or an AND group), and an OR
+    nested in that option is settled the same way. Each OR settled is recorded in found as (its ids, added)."""
+    if expr is None or _met(expr, graph):
+        return []
+    if "course" in expr:
+        return [expr["course"]] if exists(expr["course"]) else []
+    if "and" in expr:
+        return [i for c in expr["and"] for i in _pulls(c, graph, exists, found)]
+    option = next((c for c in expr["or"] if _pullable(c, exists)), None)
+    if option is None:
+        return []
+    added = list(dict.fromkeys(_pulls(option, graph, exists, found)))
+    found.append((_leaf_ids(expr), added))
+    return added
+
+
 def _has_course(expr: Expr) -> bool:
     if "course" in expr:
         return True
@@ -72,20 +115,66 @@ def to_output(expr: Expr) -> Logic:
     return {op: [to_output(c) for c in expr[op]]}
 
 
-def _check_overrides(overrides: dict, graph: set[str]) -> None:
+def _has_external(logic) -> bool:
+    if isinstance(logic, dict):
+        return "external" in logic or any(_has_external(c) for k in ("and", "or") for c in logic.get(k, []))
+    return False
+
+
+def check_overrides(overrides: dict, known: set[str]) -> None:
+    """Overrides are written in catalog terms: course leaves only (each major's build decides node or text)."""
     for cid, o in overrides.items():
-        if cid not in graph:
-            raise ValueError(f"override for {cid}: course is not in the graph (stale override?)")
+        if cid not in known:
+            raise ValueError(f"override for {cid}: stale override, the course is not in the catalog")
         if not isinstance(o, dict) or not str(o.get("reason", "")).strip():
             raise ValueError(f"override for {cid}: a non-empty reason is required")
         unknown = set(o) - {"reason", "prereqs", "coreqs", "notes"}
         if unknown:
             raise ValueError(f"override for {cid}: unknown fields {sorted(unknown)}")
+        if _has_external(o.get("prereqs")) or _has_external(o.get("coreqs")):
+            raise ValueError(f"override for {cid}: external leaf; overrides use course leaves, "
+                             "each major's build decides node or text")
+
+
+def _from_override(logic) -> Expr | None:
+    """Override logic (output short form, course leaves) -> internal Expr."""
+    if logic is None:
+        return None
+    if isinstance(logic, str):
+        return {"course": logic}
+    if "course" in logic:
+        return dict(logic)
+    op = "and" if "and" in logic else "or"
+    return {op: [_from_override(c) for c in logic[op]]}
+
+
+def load_overrides(level: str, data_dir: Path | None = None) -> dict:
+    """The level's shared overrides (catalog/<level>/overrides.json) merged over the other level's."""
+    data_dir = data_dir or config.DATA_DIR
+    merged: dict = {}
+    for lv in [l for l in config.CATALOGS if l != level] + [level]:
+        path = data_dir / "catalog" / lv / "overrides.json"
+        if path.exists():
+            merged.update(json.loads(path.read_text()))
+    return merged
+
+
+def _in_catalog(get_raw: Callable[[str], RawCourse], cid: str) -> bool:
+    try:
+        get_raw(cid)
+    except KeyError:
+        return False
+    return True
 
 
 def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCourse],
-                  overrides: dict, meta: dict) -> tuple[dict, list[str]]:
-    """meta = {"program": {...}, "choices": [[id, ...], ...], "lessCommon": [id, ...]}, copied to the output as-is.
+                  overrides: dict, meta: dict, *, auto: bool = False,
+                  notes_out: list[str] | None = None) -> tuple[dict, list[str]]:
+    """auto=True (auto-built majors): an OR with no option on the map pulls in every course of its first option
+    the catalog fully has, as prereq-only, and each pull is appended to notes_out. Afterwards every course whose
+    prerequisites can't be met by courses on the map is a warning (it would never unlock). Checked majors keep
+    the no-option warning instead, for a person to settle.
+    meta = {"program": {...}, "choices": [[id, ...], ...], "lessCommon": [id, ...]}, copied to the output as-is.
     lessCommon is optional and defaults to []; level (which catalog, for `source`) defaults to undergraduate."""
     for choice in meta["choices"]:
         for cid in choice:
@@ -94,31 +183,63 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
     warnings: list[str] = []
     raws: dict[str, RawCourse] = {}
     parsed: dict[str, tuple[ParseResult, ParseResult]] = {}
+    notes_of: dict[str, list[str]] = {}
     groups = {cid: list(g) for cid, g in program.items()}
+    check_overrides(overrides, {cid for cid in overrides if _in_catalog(get_raw, cid)})
 
     # Pass 1: closure over required leaves.
-    worklist = sorted(program)
-    while worklist:
-        cid = worklist.pop(0)
-        if cid in raws:
-            continue
-        try:
-            raws[cid] = get_raw(cid)
-        except KeyError as e:
-            warnings.append(f"{cid}: course page not found ({e})")
-            groups.pop(cid, None)
-            continue
-        r = raws[cid]
-        pre = parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None)
-        co = parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None)
-        parsed[cid] = (pre, co)
-        warnings.extend(f"{cid}: {w}" for w in r.warnings + pre.warnings + co.warnings)
-        for req in _required_ids(pre.expr) + _required_ids(co.expr):
-            if req not in groups:
-                groups[req] = ["prereq-only"]
-                worklist.append(req)
+    def close(worklist: list[str]) -> None:
+        while worklist:
+            cid = worklist.pop(0)
+            if cid in raws:
+                continue
+            try:
+                raws[cid] = get_raw(cid)
+            except KeyError as e:
+                warnings.append(f"{cid}: course page not found ({e})")
+                groups.pop(cid, None)
+                continue
+            r = raws[cid]
+            o = overrides.get(cid, {})
+            catalog_pre = parse_requirement(r.prereq_text) if r.prereq_text else ParseResult(None)
+            catalog_co = parse_requirement(r.coreq_text) if r.coreq_text else ParseResult(None)
+            pre = ParseResult(_from_override(o["prereqs"])) if "prereqs" in o else catalog_pre
+            co = ParseResult(_from_override(o["coreqs"])) if "coreqs" in o else catalog_co
+            parsed[cid] = (pre, co)
+            # An override that replaces the prerequisites keeps the catalog's notes unless it sets its own.
+            notes_of[cid] = list(o["notes"]) if "notes" in o else list(dict.fromkeys(catalog_pre.notes + catalog_co.notes))
+            warnings.extend(f"{cid}: {w}" for w in r.warnings + pre.warnings + co.warnings)
+            for req in _required_ids(pre.expr) + _required_ids(co.expr):
+                if req not in groups:
+                    groups[req] = ["prereq-only"]
+                    worklist.append(req)
+
+    close(sorted(program))
+    if auto:
+        def exists(cid: str) -> bool:
+            return cid in raws or _in_catalog(get_raw, cid)
+
+        pulled = True
+        while pulled:  # a pulled course can bring an OR of its own
+            pulled = False
+            for owner in sorted(parsed):
+                for expr in parsed[owner][0].expr, parsed[owner][1].expr:
+                    found: list[tuple[list[str], list[str]]] = []
+                    adds = [i for i in dict.fromkeys(_pulls(expr, set(raws), exists, found)) if i not in raws]
+                    if not adds:
+                        continue
+                    for i in adds:
+                        groups.setdefault(i, ["prereq-only"])
+                    close(adds)
+                    pulled = True
+                    if notes_out is not None:
+                        notes_out += [f"{owner}: added {', '.join(added)} so ({', '.join(ors)}) has an option on the map"
+                                      for ors, added in found if added]
     graph = set(raws)
-    _check_overrides(overrides, graph)
+    unreachable = [] if not auto else [
+        f"{cid}: prerequisites can't be met by courses on the map (text only: "
+        f"{', '.join(sorted({i for i in _leaf_ids(parsed[cid][0].expr) if i not in graph}))})"
+        for cid in sorted(graph) if not _met(parsed[cid][0].expr, graph)]
 
     # Pass 2: classify leaves, convert, apply overrides.
     courses = []
@@ -126,7 +247,7 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
         r, (pre, co) = raws[cid], parsed[cid]
         prereqs = _classify(pre.expr, graph, cid, warnings)
         coreqs = _classify(co.expr, graph, cid, warnings)
-        notes = list(dict.fromkeys(pre.notes + co.notes))
+        notes = notes_of[cid]
         c = {
             "id": cid, "title": r.title, "credits": r.credits, "description": r.description,
             "catalogYear": config.CATALOG_YEAR, "catalogUrl": r.url, "groups": groups[cid],
@@ -134,11 +255,10 @@ def build_dataset(program: dict[str, list[str]], get_raw: Callable[[str], RawCou
             "coreqs": to_output(coreqs) if coreqs else None,
             "notes": notes,
         }
-        if cid in overrides:
-            c.update({k: v for k, v in overrides[cid].items() if k != "reason"})
         courses.append(c)
 
-    warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides]
+    # An override settles its course's parse warnings, but never hides a course that can't unlock.
+    warnings = [w for w in warnings if w.split(":", 1)[0] not in overrides] + unreachable
     return {"catalogYear": config.CATALOG_YEAR, "source": source(meta.get("level", "undergraduate")),
             "program": meta["program"], "choices": meta["choices"], "lessCommon": meta.get("lessCommon", []), "courses": courses}, warnings
 
@@ -150,7 +270,39 @@ def catalog_get_raw(level: str = "undergraduate", directory: Path | None = None)
     return load_catalog(directory or config.catalog_pdf_dir(level), config.catoid(level)).__getitem__
 
 
-def _report(warnings: list[str], errors: list[str]) -> str:
+def level_get_raw(level: str, source: str = "snapshot", data_dir: Path | None = None) -> Callable[[str], RawCourse]:
+    """Look a course up in `level` first, then in the other level; KeyError if neither has it.
+    source is "snapshot" (catalog-courses.json under data_dir, a level without one is skipped) or "pdf" (listing
+    PDFs saved by hand in data_dir's catalog/<level>/)."""
+    if source not in ("pdf", "snapshot"):
+        raise ValueError(f"unknown catalog source {source!r}; expected 'pdf' or 'snapshot'")
+    levels = [level] + [l for l in config.CATALOGS if l != level]
+    tables: list = []
+    for lv in levels:
+        if source == "snapshot":
+            from .snapshot import load_courses
+            try:
+                tables.append(load_courses(lv, data_dir or config.DATA_DIR).__getitem__)
+            except FileNotFoundError:
+                continue
+        else:
+            try:
+                tables.append(catalog_get_raw(lv, Path(data_dir) / "catalog" / lv if data_dir else None))
+            except ValueError:  # level not set up (no catoid)
+                continue
+
+    def get_raw(cid: str) -> RawCourse:
+        for table in tables:
+            try:
+                return table(cid)
+            except KeyError:
+                continue
+        raise KeyError(cid)
+
+    return get_raw
+
+
+def _report(warnings: list[str], errors: list[str], notes: list[str] | None = None) -> str:
     lines = [f"# Build report — {config.CATALOG_YEAR}", ""]
     if errors:
         lines += ["## Validation errors", "", *[f"- {e}" for e in errors], ""]
@@ -164,32 +316,65 @@ def _report(warnings: list[str], errors: list[str]) -> str:
     for cid in sorted(by_course):
         lines.append(f"- **{cid}**")
         lines += [f"  - {m}" for m in by_course[cid]]
+    if notes:
+        lines += ["", "## Notes", "", *[f"- {n}" for n in notes]]
     return "\n".join(lines) + "\n"
+
+
+def major_report(warnings: list[str], errors: list[str], notes: list[str],
+                 draft_warnings: list[str], left_out: list[str]) -> str:
+    text = _report(warnings, errors, notes)
+    if draft_warnings:
+        text += "\n## Drafting warnings\n\n" + "".join(f"- {w}\n" for w in draft_warnings)
+    if left_out:
+        text += "\n## Left out on purpose\n\n" + "".join(f"- {x}\n" for x in left_out)
+    return text
+
+
+def build_major(folder: Path, source: str = "snapshot", data_dir: Path | None = None,
+                get_raw_for: Callable[[str], Callable[[str], RawCourse]] | None = None):
+    """Build one major from its program.json: the one path shared by the build CLI and publish.
+    Unchecked majors build with auto=True. Returns (spec, dataset, warnings, errors, notes); the spec's
+    draftWarnings count as unresolved warnings for the caller (they hold a major) but stay in spec."""
+    spec = json.loads((folder / "program.json").read_text(encoding="utf-8"))
+    if "level" not in spec:
+        raise ValueError(f"{folder.name}/program.json needs \"level\": one of {sorted(config.CATALOGS)}")
+    level, checked = spec["level"], bool(spec.get("checked"))
+    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", []),
+            "level": level}
+    get_raw = get_raw_for(level) if get_raw_for else level_get_raw(level, source, data_dir)
+    notes: list[str] = []
+    dataset, warnings = build_dataset(spec["courses"], get_raw, load_overrides(level, data_dir), meta,
+                                      auto=not checked, notes_out=notes)
+    dataset["checked"] = checked
+    return spec, dataset, warnings, validate_dataset(dataset), notes
 
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="python -m owlpath_pipeline.build")
-    ap.add_argument("program", choices=config.PROGRAMS, help="which major to build, e.g. bs-cs")
+    ap.add_argument("program", choices=config.programs(), help="which major to build, e.g. bs-cs")
     ap.add_argument("--draft", action="store_true", help="write output even with unresolved warnings")
+    ap.add_argument("--from-pdfs", action="store_true", help="read courses from listing PDFs saved by hand instead of the catalog snapshot")
     args = ap.parse_args(argv)
 
     out = config.program_dir(args.program)
-    spec = json.loads((out / "program.json").read_text())
-    overrides = json.loads((out / "overrides.json").read_text())
-    if "level" not in spec:
-        raise SystemExit(f"{args.program}/program.json needs \"level\": one of {sorted(config.CATALOGS)}")
-    meta = {"program": spec["program"], "choices": spec["choices"], "lessCommon": spec.get("lessCommon", []),
-            "level": spec["level"]}
-    dataset, warnings = build_dataset(spec["courses"], catalog_get_raw(spec["level"]), overrides, meta)
-    errors = validate_dataset(dataset)
+    try:
+        spec, dataset, warnings, errors, notes = build_major(out, "pdf" if args.from_pdfs else "snapshot")
+    except ValueError as e:
+        if "needs \"level\"" in str(e):
+            raise SystemExit(str(e))
+        raise
+    draft_warnings = spec.get("draftWarnings", [])
+    unresolved = len(warnings) + len(draft_warnings)
 
     # Never write a dataset that fails validation, and never replace the reviewed
     # one with output that still has unresolved warnings unless --draft is given.
-    if not errors and (args.draft or not warnings):
+    if not errors and (args.draft or not unresolved):
         (out / "courses.json").write_text(json.dumps(dataset, sort_keys=True, indent=2) + "\n")
-    (out / "build-report.md").write_text(_report(warnings, errors))
-    print(f"{len(dataset['courses'])} courses, {len(warnings)} unresolved warnings, {len(errors)} validation errors")
-    if errors or (warnings and not args.draft):
+    (out / "build-report.md").write_text(major_report(warnings, errors, notes, draft_warnings,
+                                                       spec.get("leftOut", [])))
+    print(f"{len(dataset['courses'])} courses, {unresolved} unresolved warnings, {len(errors)} validation errors")
+    if errors or (unresolved and not args.draft):
         return 1
     return 0
 
